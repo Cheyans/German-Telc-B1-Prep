@@ -293,10 +293,11 @@ for u in uplan:
 HORDER = ["U1", "H01", "U2", "H02a", "U3", "H02b", "U4", "H03", "U5", "H07", "U6", "H08a", "U7", "H08b", "H09", "H13", "H14a", "H14b", "H15", "H16", "H17a", "H17b", "H18"]
 hoeren = [htasks[t] for t in HORDER if t in htasks] + [htasks[t] for t in sorted(htasks) if t not in HORDER]
 hlinked = json.load(open(f"{HDIR}/linked.json", encoding="utf-8")) if os.path.exists(f"{HDIR}/linked.json") else []
+SITE_URL = os.environ.get("B1_SITE_URL", "https://cheyans.github.io/German-Telc-B1-Prep/")
 MDIR = f"{BASE}/mail"
 mail = json.load(open(f"{MDIR}/prompts.json", encoding="utf-8")) if os.path.exists(f"{MDIR}/prompts.json") else []
 grader = {k: open(f"{MDIR}/{f}", encoding="utf-8").read().strip() for k, f in (("full", "grader_full.txt"), ("mini", "grader_mini.txt"), ("flag", "flag_first.txt"))}
-data = {"stories": stories, "words": words, "quiz": quiz, "syn": syn, "pr": pr, "pq": pq, "off": off, "hoeren": hoeren, "hlinked": hlinked, "mail": mail, "grader": grader, "built": datetime.date.today().isoformat()}
+data = {"stories": stories, "words": words, "quiz": quiz, "syn": syn, "pr": pr, "pq": pq, "off": off, "hoeren": hoeren, "hlinked": hlinked, "site": SITE_URL, "mail": mail, "grader": grader, "built": datetime.date.today().isoformat()}
 payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 page = r"""<!DOCTYPE html>
@@ -568,14 +569,93 @@ article .flash { background:var(--flash); }
     r.readAsText(file);
   }
 
+  var SITE = DATA.site || "", lastAt = "#/heute", AT_RE = /^#\/(heute|story|lesen|hoeren|schreiben|woerter|satzbau)(\/|$)/, LINK_MAX = 60000;
+  function b64u(bytes) {
+    var s = "";
+    for (var i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    return btoa(s).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }
+  function unb64u(s) {
+    s = s.replace(/-/g, "+").replace(/_/g, "/");
+    while (s.length % 4) s += "=";
+    var b = atob(s), u = new Uint8Array(b.length);
+    for (var i = 0; i < b.length; i++) u[i] = b.charCodeAt(i);
+    return u;
+  }
+  function packText(text) {
+    var data = new TextEncoder().encode(text);
+    if (!window.CompressionStream) return Promise.resolve("j." + b64u(data));
+    return new Response(new Blob([data]).stream().pipeThrough(new CompressionStream("deflate-raw"))).arrayBuffer()
+      .then(function (buf) { return "z." + b64u(new Uint8Array(buf)); }, function () { return "j." + b64u(data); });
+  }
+  function unpackText(code) {
+    var kind = code.slice(0, 2), bytes = unb64u(code.slice(2));
+    if (kind === "j.") return Promise.resolve(new TextDecoder().decode(bytes));
+    if (kind !== "z." || !window.DecompressionStream) return Promise.reject(new Error("unsupported link"));
+    return new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).text();
+  }
+  function shareBase() { return /^https?:$/.test(location.protocol) ? location.origin + location.pathname : SITE; }
+  function makeShareLink(go) {
+    var full = { app: "b1VocabStories", v: 2, saved: new Date().toISOString(), built: DATA.built, go: go, state: state };
+    return packText(JSON.stringify(full)).then(function (code) {
+      if (code.length <= LINK_MAX) return code;
+      var slim = JSON.parse(JSON.stringify(full));
+      Object.keys(slim.state.mails || {}).forEach(function (k) { if (slim.state.mails[k].done) delete slim.state.mails[k].t; });
+      return packText(JSON.stringify(slim));
+    }).then(function (code) { return code.length > LINK_MAX ? null : shareBase() + "#/sync/" + code; });
+  }
+  function shareHtml() { return '<div class="sharerow"><button class="share">Share to your other device</button> <span class="hint shmsg" role="status"></span><input class="shlink" readonly hidden aria-label="Link zu deinem Fortschritt"></div>'; }
+  function wireShare() {
+    each(main.querySelectorAll(".sharerow"), function (row) {
+      var btn = row.querySelector("button.share"), msg = row.querySelector(".shmsg"), box = row.querySelector(".shlink"), url;
+      var ready = makeShareLink(AT_RE.test(location.hash) ? location.hash : lastAt).then(function (u) { url = u; return u; }, function () { url = null; return null; });
+      function copyLink() { copyText(url, function (ok) { msg.textContent = ok ? "Link kopiert. Schick ihn an dein anderes Gerät und öffne ihn dort." : "Kopiere den Link unten und öffne ihn auf deinem anderen Gerät."; if (!ok) box.select(); }); }
+      function go() {
+        if (!url) { msg.textContent = "Dein Fortschritt ist zu groß für einen Link. Nutze „Fortschritt sichern“."; return; }
+        box.value = url; box.hidden = false;
+        if (navigator.share) navigator.share({ title: "B1-Wortschatz in Geschichten", text: "Mein Fortschritt", url: url }).then(function () { msg.textContent = "Geteilt. Öffne den Link auf deinem anderen Gerät."; }, function (e) { if (!e || e.name !== "AbortError") copyLink(); });
+        else copyLink();
+      }
+      btn.addEventListener("click", function (ev) { ev.stopPropagation(); if (url === undefined) { msg.textContent = "Einen Moment …"; ready.then(go); } else go(); });
+    });
+  }
+  function whenText(iso) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return "";
+    return ("0" + d.getDate()).slice(-2) + "." + ("0" + (d.getMonth() + 1)).slice(-2) + ". um " + ("0" + d.getHours()).slice(-2) + ":" + ("0" + d.getMinutes()).slice(-2) + " Uhr";
+  }
+  function syncNote(text, bad) {
+    var old = document.getElementById("syncNote"), m = document.getElementById("main"), d = document.createElement("div");
+    if (old) old.remove();
+    d.id = "syncNote"; d.className = "syncnote" + (bad ? " bad" : ""); d.setAttribute("role", "status"); d.textContent = text;
+    m.parentNode.insertBefore(d, m);
+  }
+  function importLink(code) {
+    current = null; hideCard(); setNav("");
+    main.innerHTML = '<article><h2>Fortschritt übernehmen</h2><p class="hint">Einen Moment …</p></article>';
+    Promise.resolve().then(function () { return unpackText(code); }).then(function (text) {
+      var d = JSON.parse(text);
+      if (!d || d.app !== "b1VocabStories" || typeof d.state !== "object") throw new Error("not a progress link");
+      mergeState(d.state); save();
+      try { history.replaceState({ y: 0 }, "", AT_RE.test(d.go || "") ? d.go : "#/heute"); } catch (e) {}
+      renderRoute();
+      syncNote("Fortschritt vom anderen Gerät übernommen" + (whenText(d.saved) ? " (Stand " + whenText(d.saved) + ")" : "") + ".", false);
+    }).catch(function () {
+      try { history.replaceState({ y: 0 }, "", "#/heute"); } catch (e) {}
+      renderRoute();
+      syncNote("Dieser Link ließ sich nicht lesen. Nutze auf dem anderen Gerät „Fortschritt sichern“ und hier „Fortschritt laden“.", true);
+    });
+  }
+
   function progressTools(noReset) {
-    return '<div class="saverow"><button id="saveProg" title="Lädt eine kleine Sicherungsdatei herunter">Fortschritt sichern</button><label class="btn" title="Eine Sicherungsdatei auswählen">Fortschritt laden<input type="file" id="loadProg" accept=".json,application/json" style="display:none"></label><span class="hint" id="progMsg"></span></div>'
+    return '<div class="saverow"><button id="saveProg" title="Lädt eine kleine Sicherungsdatei herunter">Fortschritt sichern</button><label class="btn" title="Eine Sicherungsdatei auswählen">Fortschritt laden<input type="file" id="loadProg" accept=".json,application/json" style="display:none"></label><span class="hint" id="progMsg"></span></div>' + shareHtml()
       + '<p class="hint">' + (state.lastSave ? "Zuletzt gesichert: " + state.lastSave.split("-").reverse().join(".") + ". " : "Noch nie gesichert. ") + "Version vom " + DATA.built.split("-").reverse().join(".") + ". " + (/^https?:$/.test(location.protocol) ? "Auf der Website kommt jede neue Version von selbst." : "Neue Version bekommen? Vorher „Fortschritt sichern“, dann in der neuen Datei „Fortschritt laden“.") + ' Details unter „Hilfe“.</p>' + (noReset ? "" : '<p class="hint"><a href="#" class="toReset">Fortschritt zurücksetzen …</a></p>');
   }
 
   function wireProgressTools(after) {
     var sp = document.getElementById("saveProg"), lp = document.getElementById("loadProg"), msg = document.getElementById("progMsg");
     each(main.querySelectorAll(".toReset"), function (a) { a.addEventListener("click", function (ev) { ev.preventDefault(); ev.stopPropagation(); showReset(); }); });
+    wireShare();
     if (sp) sp.addEventListener("click", function (ev) { ev.stopPropagation(); exportProgress(); msg.textContent = "Gesichert: Die Datei ist in deinem Download-Ordner."; });
     if (lp) lp.addEventListener("change", function () {
       if (!lp.files || !lp.files[0]) return;
@@ -609,10 +689,13 @@ article .flash { background:var(--flash); }
   function setEn(on) { setMark(on ? "en" : state.syn ? "syn" : "b1"); }
   var booted = false, popping = false, lastQuery = "";
   function setRoute(h, replace) {
+    if (AT_RE.test(h)) lastAt = h;
     if (popping) return;
     try {
       if (!booted) { history.replaceState({ y: 0 }, "", h); return; }
       if (location.hash === h) return;
+      var note = document.getElementById("syncNote");
+      if (note) note.remove();
       history.replaceState({ y: window.scrollY }, "", location.href);
       if (replace) history.replaceState({ y: 0 }, "", h); else history.pushState({ y: 0 }, "", h);
     } catch (e) { if (location.hash !== h) location.hash = h; }
@@ -629,6 +712,7 @@ article .flash { background:var(--flash); }
     else if (v === "satzbau") { if (m[1] === "uebung") showSynDrill(); else showSyntax(); }
     else if (v === "hilfe") showHelp();
     else if (v === "zuruecksetzen") showReset();
+    else if (v === "sync" && m[1]) importLink(m.slice(1).join("/"));
     else if (v === "woerter") { if (sess) showWords(); else startWords(); }
     else if (v === "hoeren") showHoeren(m[1]);
     else if (v === "schreiben") showMail(m[1]);
@@ -801,6 +885,7 @@ article .flash { background:var(--flash); }
       + "<li>A different browser or device starts fresh. Clearing your browser data deletes the progress.</li>"
       + "<li><b>Fortschritt sichern</b> downloads a small backup file of your progress. <b>Fortschritt laden</b> reads it back in, and it only adds: nothing you already have is lost.</li>"
       + "<li><b>Fortschritt zurücksetzen</b> (the link below, and at the bottom of Themen) starts over: only the daily plan, or everything. Save a backup first if you might want it back.</li>"
+      + "<li><b>Share to your other device</b> makes a link with your progress and the screen you were on. Open it on your other phone or computer: the page opens there at the same place, with your progress added. Nothing on that device is lost. The link holds your progress, so send it only to yourself.</li>"
       + "<li><b>File or website:</b> the page works as a downloaded file and as a website. Each one keeps its own progress in the browser. To move your progress, click <b>Fortschritt sichern</b> in the one and <b>Fortschritt laden</b> in the other.</li>"
       + "<li><b>iPhone and iPad:</b> Safari can delete the data of a website you haven't opened for 7 days. Add the page to your Home Screen, or save a backup now and then. The date of your last backup is next to the buttons.</li></ul>"
       + "<h3>Getting a newer version</h3><p>On the website you always get the newest version, and your progress stays. For the downloaded file:</p><ol>"

@@ -1,0 +1,90 @@
+async page => {
+  const FILE = globalThis.B1_FILE;
+  const K = "b1VocabStories_v1";
+  const out = [];
+  const ok = (name, cond, extra) => out.push((cond ? "PASS " : "FAIL ") + name + (extra ? " | " + extra : ""));
+  const errors = [];
+  page.on("pageerror", e => errors.push(String(e)));
+  const web = /^https?:/.test(FILE);
+  const st = () => page.evaluate(k => JSON.parse(localStorage.getItem(k) || "{}"), K);
+  const set = s => page.evaluate(([k, s]) => localStorage.setItem(k, JSON.stringify(s)), [K, s]);
+  const stubShare = () => page.evaluate(() => { window.__shared = null; navigator.share = d => { window.__shared = d; return Promise.resolve(); }; });
+  await page.setViewportSize({ width: 1280, height: 900 });
+  const openFresh = async (link, keep) => { if (!keep) await page.evaluate(() => localStorage.clear()); await page.goto("about:blank"); await page.goto(link); await page.waitForFunction(() => !location.hash.startsWith("#/sync/") || !!document.getElementById("syncNote"), null, { timeout: 8000 }).catch(() => {}); };
+  await page.goto(FILE);
+  await page.evaluate(() => localStorage.clear());
+  await page.reload();
+  const SITE = await page.evaluate(() => JSON.parse(document.getElementById("data").textContent).site);
+  const today = await page.evaluate(() => { const d = new Date(); return d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2); });
+  const sender = { v: 2, welcomed: true, read: { "05": true }, quiz: { "05": { r: [1, 1, 0, 1, 1] } }, srs: { W0102: [3, 20000, 19000], W0104: [2, 20001, 19000] }, look: {}, plan: { size: 1, log: { [today]: { wd: 1 } } }, hres: {}, mails: { M01: { t: "Liebe Lena, das ist mein Entwurf.", d: today } } };
+  await set(sender);
+  await page.reload();
+  await page.click("#bToc");
+  await page.click('.toc li[data-n="05"]');
+  await page.click('.vsw [data-ver="l"]');
+  await page.click("#bToc");
+  const label = await page.$eval(".sharerow button.share", b => b.textContent).catch(() => "");
+  ok("Themen has the button „Share to your other device“", label === "Share to your other device", label);
+  await stubShare();
+  await page.click(".sharerow button.share");
+  await page.waitForFunction(() => window.__shared, null, { timeout: 5000 }).catch(() => {});
+  const shared = await page.evaluate(() => window.__shared);
+  const url = shared && shared.url || "";
+  const base = web ? FILE : SITE;
+  ok(web ? "on the website the link points to this website" : "from the file the link points to the website, not the file", url.startsWith(base + "#/sync/"), url.slice(0, 80));
+  ok("the phone share sheet gets a title and the link", !!shared && !!shared.title && !!url);
+  ok("the link is short enough for chats and AirDrop", url.length > 0 && url.length < 60000, url.length + " characters");
+
+  await openFresh(url.replace(base, FILE));
+  let S = await st();
+  const hash = await page.evaluate(() => location.hash);
+  ok("on a new device, the link opens at the same place (the story that was open)", hash === "#/story/05/l" && !!(await page.$("article h2")), hash);
+  ok("… with all the progress: read texts, quiz, words, the day, the email draft", S.read["05"] === true && !!S.quiz["05"] && !!S.srs.W0102 && !!S.plan.log[today] && /mein Entwurf/.test((S.mails.M01 || {}).t || ""), JSON.stringify(Object.keys(S)));
+  ok("… and a note says it worked", /Fortschritt vom anderen Gerät übernommen/.test(await page.$eval("#syncNote", d => d.textContent).catch(() => "")));
+  await page.click("#bDay");
+  ok("the note goes away once you move on", !(await page.$("#syncNote")));
+
+  await set({ v: 2, welcomed: true, read: { "07": true }, srs: { W9999: [1, 20000, 19000] } });
+  await openFresh(url.replace(base, FILE), true);
+  S = await st();
+  ok("on a device with its own progress, nothing is lost: both are kept", S.read["05"] === true && S.read["07"] === true && !!S.srs.W9999 && !!S.srs.W0102, JSON.stringify(S.read));
+
+  await page.goto(FILE + "#/heute");
+  await page.reload();
+  ok("Heute has the button too", !!(await page.$(".sharerow button.share")));
+  await stubShare();
+  await page.click(".sharerow button.share");
+  await page.waitForFunction(() => window.__shared, null, { timeout: 5000 }).catch(() => {});
+  const fromDay = (await page.evaluate(() => window.__shared && window.__shared.url)) || "";
+  await openFresh(fromDay.replace(base, FILE));
+  ok("shared from Heute, the link opens Heute", (await page.evaluate(() => location.hash)) === "#/heute" && !!(await page.$(".day .tasks")));
+
+  await page.goto(FILE + "#/themen");
+  await page.reload();
+  await page.evaluate(() => { try { delete Navigator.prototype.share; } catch (e) {} navigator.share = undefined; });
+  await page.click(".sharerow button.share");
+  await page.waitForFunction(() => { const b = document.querySelector(".sharerow .shlink"); return b && !b.hidden && b.value; }, null, { timeout: 5000 }).catch(() => {});
+  const box = await page.$eval(".sharerow .shlink", b => ({ hidden: b.hidden, value: b.value }));
+  const m = await page.$eval(".sharerow .shmsg", s => s.textContent);
+  ok("without a share sheet, the link is copied and shown to copy by hand", !box.hidden && box.value.startsWith(base + "#/sync/") && /Link kopiert|Kopiere den Link/.test(m), m);
+
+  const big = { v: 2, welcomed: true, read: {}, srs: {}, look: {}, plan: { size: 0, log: {} }, hres: {}, mails: {} };
+  const ids = await page.evaluate(() => Object.keys(JSON.parse(document.getElementById("data").textContent).words).slice(0, 900));
+  ids.forEach((id, i) => { big.srs[id] = [1 + (i % 6), 20000 + i, 19000 + i]; });
+  for (let d = 0; d < 120; d++) big.plan.log["2026-" + String(1 + Math.floor(d / 28)).padStart(2, "0") + "-" + String(1 + (d % 28)).padStart(2, "0")] = { wd: { r: 20, n: 5 }, h: "U1", l: "05A", s: "M01", size: 0 };
+  for (let i = 1; i <= 40; i++) big.mails["M" + String(i).padStart(2, "0")] = { t: "Liebe Lena, vielen Dank für deine Einladung. ".repeat(14), done: true, d: today };
+  await set(big);
+  await page.reload();
+  await stubShare();
+  await page.click(".sharerow button.share");
+  await page.waitForFunction(() => window.__shared, null, { timeout: 8000 }).catch(() => {});
+  const bigUrl = (await page.evaluate(() => window.__shared && window.__shared.url)) || "";
+  await openFresh(bigUrl.replace(base, FILE));
+  S = await st();
+  ok("a lot of progress (900 words, 120 days, 40 emails) still fits in one link and arrives", bigUrl.length > 0 && bigUrl.length < 60000 && Object.keys(S.srs || {}).length === 900, bigUrl.length + " characters");
+
+  await openFresh(FILE + "#/sync/z.not-a-real-link");
+  ok("a broken link says so and opens Heute", /ließ sich nicht lesen/.test(await page.$eval("#syncNote", d => d.textContent).catch(() => "")) && (await page.evaluate(() => location.hash)) === "#/heute");
+  ok("no page errors", errors.length === 0, errors.join(" | "));
+  return out.join("\n");
+}

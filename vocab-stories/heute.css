@@ -127,3 +127,7 @@ button.danger { border-color:var(--bad); color:var(--bad); }
 .hgroup { margin:6px 0 6px 12px; }
 .hgroup ul { margin-top:4px; }
 .storewarn { max-width:760px; margin:12px auto 0; padding:10px 14px; border:2px solid var(--bad); border-radius:10px; background:var(--badbg); color:var(--fg); font-weight:600; }
+.sharerow { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:12px 0; }
+.shlink { flex-basis:100%; font:inherit; font-size:14px; padding:8px; border:1px solid var(--line); border-radius:8px; background:var(--card); color:var(--fg); }
+.syncnote { max-width:760px; margin:12px auto 0; padding:10px 14px; border:2px solid var(--accent); border-radius:10px; background:var(--card); color:var(--fg); font-weight:600; }
+.syncnote.bad { border-color:var(--bad); background:var(--badbg); }

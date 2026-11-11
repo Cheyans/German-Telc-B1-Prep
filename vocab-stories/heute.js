@@ -589,9 +589,10 @@
       var inPlan = size.t.indexOf(t) >= 0, info = taskInfo(t, L);
       h += '<li class="task' + (info.done ? " done" : "") + (inPlan ? "" : " off") + '" data-t="' + t + '" role="button" tabindex="0"><span class="tick">' + (info.done ? "✓" : i + 1) + '</span><span class="tt"><b>' + TASK_NAMES[t] + (inPlan ? "" : ' <span class="opt-l">(heute frei)</span>') + '</b><span class="meta">' + esc(info.meta) + (info.done ? "" : " · " + taskMin(t)) + '</span></span><span class="chev" aria-hidden="true">›</span></li>';
     });
-    h += "</ul>" + weekStrip();
+    h += "</ul>" + weekStrip() + shareHtml();
     h += '<p class="hint">An einem müden Tag reichen 5 Minuten. Verpasste Tage sind kein Problem: Der Plan macht dort weiter, wo du aufgehört hast. Sprechen übst du am besten mit einer Partnerin oder einem Partner.</p></article>';
     main.innerHTML = h;
+    wireShare();
     each(main.querySelectorAll(".sizes button"), function (b) { b.addEventListener("click", function (ev) { ev.stopPropagation(); plan().size = +b.getAttribute("data-size"); save(); showDay(); }); });
     each(main.querySelectorAll(".task"), function (li) {
       function go(ev) { ev.stopPropagation(); openTask(li.getAttribute("data-t")); }
