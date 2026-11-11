@@ -1,0 +1,211 @@
+{
+ "audio": "16",
+ "mt": 4,
+ "teil": 1,
+ "page": 102,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Wie reisen Sie gern?",
+   "from": "01:33",
+   "to": "06:20",
+   "intro": "Sie hören eine Radiosendung. Fünf Personen erzählen, wie sie gern reisen und wie sie dieses Jahr Urlaub machen.",
+   "items": [
+    {
+     "t": 1,
+     "s": "Die Person reist trotz der Umweltprobleme weiter gern in ferne Länder.",
+     "a": true,
+     "at": "02:15",
+     "ev": "Aber ich kann das Reisen nicht lassen.",
+     "why": "The speaker knows flying hurts the environment but can't give up traveling, and this year the trip is to Sri Lanka. If you decide before the „aber“, you pick falsch.",
+     "trap": "flip",
+     "w": [
+      [
+       "etwas nicht lassen können",
+       "to be unable to give something up"
+      ],
+      [
+       "die Umwelt",
+       "the environment"
+      ]
+     ]
+    },
+    {
+     "t": 1,
+     "s": "Die Person fliegt meistens im Sommer in den Urlaub.",
+     "a": false,
+     "at": "02:22",
+     "ev": "Meist flieg ich im Winter weg",
+     "why": "The speaker mostly flies away in winter, when it is cold and wet at home, and prefers to spend the summer at home.",
+     "trap": "when",
+     "w": [
+      [
+       "wegfliegen",
+       "to fly away on a trip"
+      ],
+      [
+       "nass",
+       "wet"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Früher sind der Mann und seine Frau lieber im eigenen Land geblieben.",
+     "a": false,
+     "at": "03:10",
+     "ev": "Früher, zu zweit, sind wir sehr gern weit gereist.",
+     "why": "Before the children, the couple loved to travel far. Staying in their own country is what they do now, so the statement mixes up then and now.",
+     "trap": "when",
+     "w": [
+      [
+       "zu zweit",
+       "as a couple, just the two of us"
+      ],
+      [
+       "weit reisen",
+       "to travel far"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Wegen der kleinen Töchter macht die Familie dieses Jahr Urlaub in Deutschland.",
+     "a": true,
+     "at": "03:15",
+     "ev": "aber jetzt bleiben wir lieber hier im eigenen Land",
+     "why": "Long trips are too stressful with two small girls, so they stay in their own country and go to northern Germany. „im eigenen Land“ and „Norddeutschland“ mean „in Deutschland“ here.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "stressig",
+       "stressful"
+      ],
+      [
+       "das eigene Land",
+       "your own country"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Das Paar hat den Camper gekauft, als beide in Rente gegangen sind.",
+     "a": true,
+     "at": "03:55",
+     "ev": "als mein Mann und ich in Pension gegangen sind",
+     "why": "„in Pension gehen“ means to retire, the same as „in Rente gehen“. They bought the camper when they both stopped working.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "in Pension gehen",
+       "to retire"
+      ],
+      [
+       "der Camper",
+       "the camper van, RV"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Das Paar fährt einmal im Jahr mit dem Camper in den Urlaub.",
+     "a": false,
+     "at": "04:09",
+     "ev": "Damit fahren wir mehrmals im Jahr in den Urlaub.",
+     "why": "They go several times a year („mehrmals“), not once. The traveler in text 1 is the one who makes one trip a year.",
+     "trap": "number",
+     "w": [
+      [
+       "mehrmals",
+       "several times"
+      ],
+      [
+       "unabhängig",
+       "independent"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Seit die Hunde da sind, vermisst die Person das Reisen.",
+     "a": false,
+     "at": "05:08",
+     "ev": "Aber ganz ehrlich, wir vermissen das auch gar nicht.",
+     "why": "They don't travel anymore, but they don't miss it at all. The „gar nicht“ comes at the very end, after „vermissen“.",
+     "trap": "negation",
+     "w": [
+      [
+       "vermissen",
+       "to miss"
+      ],
+      [
+       "ganz ehrlich",
+       "to be honest"
+      ],
+      [
+       "die Unterkunft",
+       "a place to stay"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Im Sommer wandert die Person gern mit ihren Hunden.",
+     "a": true,
+     "at": "05:13",
+     "ev": "mit den Hunden gern Ausflüge in die Natur und wandern",
+     "why": "In summer they like to take the dogs on trips into nature and go hiking. „wandern“ is the key word.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "der Ausflug",
+       "the day trip, outing"
+      ],
+      [
+       "wandern",
+       "to hike"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Die Familie übernachtet in Ligurien auf einem Campingplatz am Meer.",
+     "a": false,
+     "at": "05:58",
+     "ev": "Ich habe aber ein schönes, kleines Hotel für uns gebucht",
+     "why": "The speaker says you can camp by the sea there but booked a small hotel. Camping is out of the question.",
+     "trap": "flip",
+     "w": [
+      [
+       "übernachten",
+       "to stay the night"
+      ],
+      [
+       "buchen",
+       "to book"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Die Unterkunft der Familie liegt in einem kleinen Ort nahe der Küste.",
+     "a": true,
+     "at": "06:02",
+     "ev": "in einem kleinen Dorf nicht weit weg von der Küste",
+     "why": "„in einem kleinen Dorf nicht weit weg von der Küste“: a small village not far from the coast. Ort means Dorf here, and nahe means nicht weit weg.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Unterkunft",
+       "accommodation, place to stay"
+      ],
+      [
+       "die Küste",
+       "coast"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

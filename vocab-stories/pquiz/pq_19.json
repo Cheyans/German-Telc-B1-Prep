@@ -1,0 +1,162 @@
+{
+ "set": "19",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was berichtet das Statistische Landesamt?",
+     "right": "Im September wurde an der Küste öfter übernachtet als im Jahr davor.",
+     "wrong": [
+      "Die Zahl der Ferienwohnungen ist um acht Prozent gestiegen.",
+      "Im September gab es acht Prozent weniger Übernachtungen als im Vorjahr."
+     ],
+     "evidence": "Die Sommerferien sind längst vorbei, doch an der Ostsee ist es nicht leer geworden. Wie das Statistische Landesamt berichtet, verzeichneten Hotels, Pensionen, Ferienwohnungen und Jugendherbergen in Mecklenburg-Vorpommern im September rund acht Prozent mehr Übernachtungen als im Vorjahr.",
+     "why": "„Verzeichneten … acht Prozent mehr Übernachtungen“ means 8 percent more overnight stays than the year before, not fewer. The 8 percent is about stays, not about the number of vacation rentals.",
+     "trap": "same-word",
+     "words": [
+      "X015",
+      "W2437",
+      "W0797"
+     ]
+    },
+    {
+     "q": "Was erfährt man über die Buchung von Lena und Aylin?",
+     "right": "Frühstück und Abendessen waren im Preis schon dabei.",
+     "wrong": [
+      "Sie haben das Zimmer mit Meerblick für 20 Euro mehr genommen.",
+      "Sie haben pro Person 189 Euro für jede Nacht bezahlt."
+     ],
+     "evidence": "Zwei Nächte im Doppelzimmer kosteten pauschal 189 Euro pro Person. Dafür wurden die Gäste morgens und abends verpflegt. Für ein Zimmer mit Meerblick hätte die Pension allerdings einen Zuschlag von 20 Euro pro Nacht verlangt.",
+     "why": "„Pauschal“ means one fixed price, and „morgens und abends verpflegt“ means breakfast and dinner were included. The 189 euros were for two nights, and „hätte … verlangt“ (would have charged) shows they did not book the sea view.",
+     "trap": "paraphrase",
+     "words": [
+      "W1771",
+      "W2592",
+      "W2878"
+     ]
+    },
+    {
+     "q": "Was passierte auf der Fahrt an die Ostsee?",
+     "right": "Ein Reifen ging kaputt, und eine Werkstatt aus der Nähe half.",
+     "wrong": [
+      "Sie haben das kaputte Rad selbst mit dem Ersatzrad gewechselt.",
+      "Aylin musste allein fahren, weil Lena keinen Führerschein hat."
+     ],
+     "evidence": "Sie wollten das Rad wechseln, doch auch das Ersatzrad hatte kaum noch Luft. Nach zwanzig Minuten kam ein Mechaniker von einer Kfz-Werkstatt aus dem nächsten Dorf.",
+     "why": "„Doch“ shows their plan failed: the spare wheel had almost no air, so a mechanic from a garage in the next village came. Lena has had a driver's license for ten years, she only had to get used to shifting gears again.",
+     "trap": "flip",
+     "words": [
+      "W1755",
+      "W1868",
+      "W1536"
+     ]
+    },
+    {
+     "q": "Was passierte an der Rezeption der Pension?",
+     "right": "Die Gäste bekamen ein besseres Zimmer, ohne mehr zu bezahlen.",
+     "wrong": [
+      "Frau Petersen konnte die Reservierung nicht finden.",
+      "Die beiden bekamen ihr gebuchtes Zimmer zu einem günstigeren Preis."
+     ],
+     "evidence": "An der Rezeption fand ein junger Mitarbeiter keine Reservierung, obwohl Lena eine Bestätigung per E-Mail erhalten hatte. Die Chefin, Frau Petersen, kam persönlich und entschuldigte sich. Weil das gebuchte Zimmer schon vergeben war, bekamen die Freundinnen eins mit Meerblick ohne Aufpreis.",
+     "why": "They got a sea-view room „ohne Aufpreis“ (at no extra cost), because the booked room was already taken. A young employee, not Frau Petersen, could not find the booking.",
+     "trap": "who",
+     "words": [
+      "W1946",
+      "W1940",
+      "W1784"
+     ]
+    },
+    {
+     "q": "Was meint Henning Albrecht vom Tourismusverband?",
+     "right": "Man sollte schauen, was andere Länder anbieten, und davon lernen.",
+     "wrong": [
+      "Die Region sollte sich stärker auf Gäste aus Österreich konzentrieren.",
+      "Die Region braucht im Winter mehr Angebote für Senioren."
+     ],
+     "evidence": "Der Tourismusverband arbeitet an einer Verlängerung der Saison. „Wir sollten öfter über den Tellerrand schauen“, sagt Sprecher Henning Albrecht. „In Dänemark gibt es auch im Winter Angebote für Familien. So etwas kann ich mir bei uns gut vorstellen.“",
+     "why": "„Über den Tellerrand schauen“ means looking beyond your own little world: he names Denmark's winter offers for families as an idea to copy. He says nothing about seniors, and the Austrian guests are only mentioned before his quote.",
+     "trap": "paraphrase",
+     "words": [
+      "X008",
+      "W1981",
+      "W2670"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Fast drei Wochen ohne Autofähre in Warnemünde"
+    },
+    {
+     "id": "b",
+     "text": "Warnowtunnel ab November kostenlos"
+    },
+    {
+     "id": "c",
+     "text": "ADAC: Benzin in den Orten billiger als an der Autobahn"
+    },
+    {
+     "id": "d",
+     "text": "Zwei Studenten paddeln über die Ostsee"
+    },
+    {
+     "id": "e",
+     "text": "Fußgängerzone in Warnemünde wird größer"
+    },
+    {
+     "id": "f",
+     "text": "Bauarbeiten auf der A19: Langsam Richtung Berlin"
+    },
+    {
+     "id": "g",
+     "text": "Neue Fährverbindung zwischen Rostock und Dänemark"
+    },
+    {
+     "id": "h",
+     "text": "Rekord in Warnemünde: Tausende Urlauber parken falsch"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "f",
+     "evidence": "Auf der A19 südlich von Rostock wird bis Mitte Dezember die Fahrbahn erneuert. In der Baustelle ist pro Seite nur eine Spur frei, und es gilt eine Geschwindigkeitsbeschränkung auf Tempo 60.",
+     "why": "Roadwork south of Rostock leaves one lane with a 60 km/h limit, so drivers heading to Berlin need more time."
+    },
+    {
+     "id": "2",
+     "answer": "a",
+     "evidence": "Die Fähre über die Warnow fährt vom 2. bis zum 20. November nicht, weil sie in der Werft repariert wird.",
+     "why": "The ferry that also carries cars is out of service from 2 to 20 November, about three weeks. The tunnel still costs a fee, so (b) is wrong."
+    },
+    {
+     "id": "3",
+     "answer": "h",
+     "evidence": "Das Ordnungsamt hat in Warnemünde in diesem Sommer mehr als 9.000 Strafzettel verteilt, so viele wie noch nie.",
+     "why": "More than 9,000 parking tickets is a record („so viele wie noch nie“). The pedestrian zone is only a place where people parked, it is not getting bigger (e)."
+    },
+    {
+     "id": "4",
+     "answer": "d",
+     "evidence": "Zwei Studenten aus Rostock sind am Samstag mit Kajaks, also kleinen Booten für eine Person, von Warnemünde nach Dänemark gepaddelt.",
+     "why": "Two students paddled kayaks across the Baltic Sea to Denmark. They only took the normal ferry back, there is no new ferry route (g)."
+    },
+    {
+     "id": "5",
+     "answer": "c",
+     "evidence": "An Tankstellen an der Autobahn kostete ein Liter Benzin im Oktober bis zu 40 Cent mehr als in den Orten in der Nähe.",
+     "why": "The ADAC found that gas at highway stations cost up to 40 cents more per liter than in nearby towns, so it is cheaper in the towns."
+    }
+   ]
+  }
+ ]
+}

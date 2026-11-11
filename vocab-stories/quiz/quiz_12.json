@@ -1,0 +1,77 @@
+{
+ "story": "12",
+ "questions": [
+  {
+   "q": "Was erfahren wir am Anfang über Lena und ihre Oma?",
+   "right": "Die beiden haben ein sehr gutes Verhältnis.",
+   "wrong": [
+    "Sie telefonieren nur ein paarmal im Jahr miteinander.",
+    "Oma fragt nur selten, ob Lena genug isst."
+   ],
+   "evidence": "Lena hat eine enge Beziehung zu ihrer Oma. Die beiden telefonieren jeden Sonntag, und jedes Mal fragt Oma, ob Lena genug isst.",
+   "why": "Eine enge Beziehung means a close relationship. They talk on the phone every Sunday, and every time (jedes Mal) Oma asks if Lena eats enough.",
+   "words": [
+    "W0382",
+    "W1229"
+   ]
+  },
+  {
+   "q": "Was erfahren wir über Onkel Bernd und Tante Monika?",
+   "right": "Früher gab es auf Familienfesten oft Streit zwischen ihnen.",
+   "wrong": [
+    "Seit der Scheidung verstehen sie sich wieder gut.",
+    "Sie leben seit zwölf Jahren getrennt, sind aber nicht geschieden."
+   ],
+   "evidence": "Das Verhältnis zwischen Bernd und Monika ist wirklich schlecht. Bei Familienfesten haben sie sich früher häufig gestritten. Deshalb kommt Monika seit Jahren nicht mehr.",
+   "why": "Häufig means often: they often argued at family parties, and their relationship (Verhältnis) is still bad. They first lived apart for a year and then got divorced.",
+   "words": [
+    "W1091",
+    "W2562",
+    "W2012"
+   ]
+  },
+  {
+   "q": "Warum sucht Lena Ida auf dem Dachboden?",
+   "right": "Als Kinder hatten sie und Sarah dort ihr Versteck.",
+   "wrong": [
+    "Onkel Bernd hat ihr gesagt, dass Ida oben ist.",
+    "Dort hat man sie als Kind immer schnell gefunden."
+   ],
+   "evidence": "Da hat Lena eine Idee. Als Kinder haben Sarah und sie sich immer auf dem Dachboden versteckt, denn dort hat sie nie jemand gefunden.",
+   "why": "Sich verstecken means to hide: as children, Lena and Sarah always hid in the attic because nobody ever found them there. Bernd did not tell her. All three just had the same idea.",
+   "words": [
+    "W2610"
+   ]
+  },
+  {
+   "q": "Welches Geheimnis verrät Oma in ihrer Rede?",
+   "right": "Die Ehe mit Heinrich war manchmal schwierig.",
+   "wrong": [
+    "Heinrich hatte eine Zeit lang eine andere Frau.",
+    "Omas Kinder kennen dieses Geheimnis schon lange."
+   ],
+   "evidence": "Wir waren 55 Jahre ein Ehepaar, und er war mir immer treu. Eine andere Frau gab es für ihn nie. Aber heute verrate ich euch ein Geheimnis, das nicht einmal meine Kinder kennen: Unsere Ehe war nicht immer leicht.",
+   "why": "Oma says their marriage (Ehe) was not always easy. Heinrich was always faithful (treu), and not even her children knew this secret (Geheimnis).",
+   "words": [
+    "W0954",
+    "W0577",
+    "W2410"
+   ]
+  },
+  {
+   "q": "Was sagt Oma zum Schluss ihrer Rede?",
+   "right": "Das Fest ist ein guter Moment für einen neuen Anfang.",
+   "wrong": [
+    "Aus einer Freundschaft wird oft eine neue Liebe.",
+    "Eine Liebe kann ihrer Meinung nach nie zu Ende gehen."
+   ],
+   "evidence": "Liebe kann zu Ende gehen, aber aus Liebe kann auch Freundschaft werden. Meiner Meinung nach ist mein Geburtstag eine gute Gelegenheit, neu anzufangen.",
+   "why": "Gelegenheit means opportunity: she sees her birthday as a chance for a new start. She says love can end and turn into friendship, not the other way around.",
+   "words": [
+    "W0962",
+    "W0881",
+    "W1476"
+   ]
+  }
+ ]
+}

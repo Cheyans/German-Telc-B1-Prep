@@ -1,0 +1,506 @@
+{
+ "set": "20",
+ "title": "Kochen für Freunde",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "G082",
+   "entry": "der Snack, -s",
+   "level": "B1",
+   "gloss": "snack"
+  },
+  {
+   "id": "G243",
+   "entry": "das Gramm",
+   "level": "B1",
+   "gloss": "gram"
+  },
+  {
+   "id": "G244",
+   "entry": "das Pfund",
+   "level": "B1",
+   "gloss": "pound (500 grams)"
+  },
+  {
+   "id": "G371",
+   "entry": "das Jahrtausend, -e",
+   "level": "B1",
+   "gloss": "millennium (1,000 years)"
+  },
+  {
+   "id": "W0132",
+   "entry": "die Aprikose, -n (D, CH) → A: Marille",
+   "level": "B1",
+   "gloss": "apricot"
+  },
+  {
+   "id": "W0167",
+   "entry": "auflösen, löst auf, löste auf, hat aufgelöst",
+   "level": "B1",
+   "gloss": "to dissolve"
+  },
+  {
+   "id": "W0206",
+   "entry": "ausreichen, reicht aus, reichte aus, hat ausgereicht",
+   "level": "B1",
+   "gloss": "to be enough"
+  },
+  {
+   "id": "W0324",
+   "entry": "bereit",
+   "level": "B1",
+   "gloss": "ready"
+  },
+  {
+   "id": "W0391",
+   "entry": "Bio-",
+   "level": "B1",
+   "gloss": "organic (Bioladen = organic store)"
+  },
+  {
+   "id": "W0392",
+   "entry": "bio(logisch)",
+   "level": "B1",
+   "gloss": "organic"
+  },
+  {
+   "id": "W0449",
+   "entry": "die Büchse, -n (D, CH) → A: Dose",
+   "level": "B1",
+   "gloss": "can (older, regional word)"
+  },
+  {
+   "id": "W0450",
+   "entry": "das Buffet, -s",
+   "level": "B1",
+   "gloss": "buffet"
+  },
+  {
+   "id": "W0539",
+   "entry": "die Dose, -n D, CH:→ Büchse",
+   "level": "B1",
+   "gloss": "can"
+  },
+  {
+   "id": "W0662",
+   "entry": "enthalten, enthält, enthielt, hat enthalten",
+   "level": "B1",
+   "gloss": "to contain"
+  },
+  {
+   "id": "W0684",
+   "entry": "das Ereignis, -se",
+   "level": "B1",
+   "gloss": "event, occasion"
+  },
+  {
+   "id": "W0826",
+   "entry": "flach",
+   "level": "B1",
+   "gloss": "flat"
+  },
+  {
+   "id": "W0890",
+   "entry": "die Frucht, ¨-e",
+   "level": "B1",
+   "gloss": "fruit"
+  },
+  {
+   "id": "W0926",
+   "entry": "das Gebäck",
+   "level": "B1",
+   "gloss": "pastries, baked goods"
+  },
+  {
+   "id": "W1014",
+   "entry": "gewohnt",
+   "level": "B1",
+   "gloss": "used to (something)"
+  },
+  {
+   "id": "W1016",
+   "entry": "das Gewürz, -e",
+   "level": "B1",
+   "gloss": "spice"
+  },
+  {
+   "id": "W1064",
+   "entry": "das Hackfleisch (D, CH) → A: Faschierte",
+   "level": "B1",
+   "gloss": "ground meat"
+  },
+  {
+   "id": "W1066",
+   "entry": "das Hähnchen/Hühnchen, - (D) A: Hend(e)l; → Poulet, -s (CH)",
+   "level": "A1",
+   "gloss": "chicken"
+  },
+  {
+   "id": "W1076",
+   "entry": "haltbar",
+   "level": "B1",
+   "gloss": "long-lasting, keeps well"
+  },
+  {
+   "id": "W1163",
+   "entry": "der Honig",
+   "level": "B1",
+   "gloss": "honey"
+  },
+  {
+   "id": "W1182",
+   "entry": "der Imbiss, -e (D) A:→ Jause, CH: Znüni/Zvieri",
+   "level": "B1",
+   "gloss": "snack bar, food stand"
+  },
+  {
+   "id": "W1255",
+   "entry": "die Kanne, -n",
+   "level": "B1",
+   "gloss": "pot, teapot"
+  },
+  {
+   "id": "W1262",
+   "entry": "die Karotte, -n D:→ Möhre; CH: Rüebli",
+   "level": "B1",
+   "gloss": "carrot"
+  },
+  {
+   "id": "W1268",
+   "entry": "der Käse",
+   "level": "A2",
+   "gloss": "cheese"
+  },
+  {
+   "id": "W1322",
+   "entry": "der Koch, ¨-e",
+   "level": "B1",
+   "gloss": "cook, chef"
+  },
+  {
+   "id": "W1330",
+   "entry": "kompliziert",
+   "level": "B1",
+   "gloss": "complicated"
+  },
+  {
+   "id": "W1378",
+   "entry": "der Kreis, -e",
+   "level": "B1",
+   "gloss": "circle"
+  },
+  {
+   "id": "W1402",
+   "entry": "künstlich",
+   "level": "B1",
+   "gloss": "artificial"
+  },
+  {
+   "id": "W1426",
+   "entry": "die Länge",
+   "level": "B1",
+   "gloss": "length"
+  },
+  {
+   "id": "W1445",
+   "entry": "die Lebensmittel (Pl.)",
+   "level": "B1",
+   "gloss": "groceries, food"
+  },
+  {
+   "id": "W1483",
+   "entry": "die Limonade, -n",
+   "level": "B1",
+   "gloss": "lemonade"
+  },
+  {
+   "id": "W1510",
+   "entry": "die Mahlzeit, -en",
+   "level": "B1",
+   "gloss": "meal"
+  },
+  {
+   "id": "W1530",
+   "entry": "die Marmelade, -n (D, A)",
+   "level": "B1",
+   "gloss": "jam"
+  },
+  {
+   "id": "W1541",
+   "entry": "das Mehl",
+   "level": "B1",
+   "gloss": "flour"
+  },
+  {
+   "id": "W1543",
+   "entry": "mehrere",
+   "level": "B1",
+   "gloss": "several"
+  },
+  {
+   "id": "W1579",
+   "entry": "mischen, mischt, mischte, hat gemischt",
+   "level": "B1",
+   "gloss": "to mix"
+  },
+  {
+   "id": "W1605",
+   "entry": "die Möhre, -n (D) → Karotte; CH: Rüebli",
+   "level": "B1",
+   "gloss": "carrot"
+  },
+  {
+   "id": "W1648",
+   "entry": "das Nahrungsmittel, -",
+   "level": "B1",
+   "gloss": "food, foodstuff"
+  },
+  {
+   "id": "W1712",
+   "entry": "das Obst (D, A) CH:→ Früchte",
+   "level": "B1",
+   "gloss": "fruit"
+  },
+  {
+   "id": "W1789",
+   "entry": "der Pfeffer",
+   "level": "B1",
+   "gloss": "pepper"
+  },
+  {
+   "id": "W1793",
+   "entry": "die Pflaume, -n",
+   "level": "B1",
+   "gloss": "plum"
+  },
+  {
+   "id": "W1849",
+   "entry": "Prost",
+   "level": "B1",
+   "gloss": "cheers!"
+  },
+  {
+   "id": "W1916",
+   "entry": "reif",
+   "level": "B1",
+   "gloss": "ripe"
+  },
+  {
+   "id": "W1957",
+   "entry": "roh",
+   "level": "B1",
+   "gloss": "raw"
+  },
+  {
+   "id": "W2009",
+   "entry": "die Scheibe, -n",
+   "level": "B1",
+   "gloss": "slice"
+  },
+  {
+   "id": "W2074",
+   "entry": "die Schüssel, -n",
+   "level": "B1",
+   "gloss": "bowl"
+  },
+  {
+   "id": "W2137",
+   "entry": "sinnlos",
+   "level": "B1",
+   "gloss": "pointless"
+  },
+  {
+   "id": "W2138",
+   "entry": "sinnvoll",
+   "level": "B1",
+   "gloss": "sensible, useful"
+  },
+  {
+   "id": "W2163",
+   "entry": "die Soße/Sauce, -n",
+   "level": "B1",
+   "gloss": "sauce, gravy"
+  },
+  {
+   "id": "W2167",
+   "entry": "sowieso",
+   "level": "B1",
+   "gloss": "anyway"
+  },
+  {
+   "id": "W2192",
+   "entry": "spitz",
+   "level": "B1",
+   "gloss": "pointed, sharp"
+  },
+  {
+   "id": "W2335",
+   "entry": "Tee ziehen lassen",
+   "level": "B1",
+   "gloss": "to let tea steep"
+  },
+  {
+   "id": "W2462",
+   "entry": "(sich) umdrehen, dreht um, drehte um, hat umgedreht",
+   "level": "B1",
+   "gloss": "to turn around, to turn over"
+  },
+  {
+   "id": "W2564",
+   "entry": "verhindern, verhindert, verhinderte, hat verhindert",
+   "level": "B1",
+   "gloss": "to prevent"
+  },
+  {
+   "id": "W2686",
+   "entry": "die Wahrheit, -en",
+   "level": "B1",
+   "gloss": "truth"
+  },
+  {
+   "id": "W2845",
+   "entry": "zubereiten, bereitet zu, bereitete zu, hat zubereitet",
+   "level": "B1",
+   "gloss": "to prepare (food)"
+  },
+  {
+   "id": "W2846",
+   "entry": "der Zucker",
+   "level": "A2",
+   "gloss": "sugar"
+  },
+  {
+   "id": "W2885",
+   "entry": "die Zutaten (Pl.)",
+   "level": "B1",
+   "gloss": "ingredients"
+  },
+  {
+   "id": "W2892",
+   "entry": "die Zwiebel, -n",
+   "level": "B1",
+   "gloss": "onion"
+  },
+  {
+   "id": "W2904",
+   "entry": "der Essig",
+   "level": "B1",
+   "gloss": "vinegar"
+  },
+  {
+   "id": "W2911",
+   "entry": "die Margarine",
+   "level": "B1",
+   "gloss": "margarine"
+  },
+  {
+   "id": "W2922",
+   "entry": "mager",
+   "level": "B1",
+   "gloss": "lean (with little fat)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W1864",
+   "entry": "quer",
+   "level": "B1",
+   "gloss": "across, diagonally"
+  },
+  {
+   "id": "W2526",
+   "entry": "(sich) verabreden, verabredet, verabredete, hat verabredet",
+   "level": "B1",
+   "gloss": "to arrange to meet"
+  },
+  {
+   "id": "W1091",
+   "entry": "häufig",
+   "level": "B1",
+   "gloss": "often, frequently"
+  },
+  {
+   "id": "W0306",
+   "entry": "der Bekannte, -n",
+   "level": "A1",
+   "gloss": "acquaintance, friend (male)"
+  },
+  {
+   "id": "W2672",
+   "entry": "das Vorstellungsgespräch, -e",
+   "level": "B1",
+   "gloss": "job interview"
+  },
+  {
+   "id": "W0964",
+   "entry": "gelten, gilt, galt, hat gegolten",
+   "level": "B1",
+   "gloss": "to be valid"
+  },
+  {
+   "id": "W2535",
+   "entry": "(sich) verbessern, verbessert, verbesserte, hat verbessert",
+   "level": "B1",
+   "gloss": "to correct, to improve"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X003",
+   "word": "übergewichtig",
+   "gloss": "overweight",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R006",
+   "word": "der Erdapfel, Erdäpfel",
+   "gloss": "potato",
+   "kind": "austrian",
+   "de": "die Kartoffel"
+  },
+  {
+   "id": "R007",
+   "word": "das Faschierte",
+   "gloss": "minced meat",
+   "kind": "austrian",
+   "de": "das Hackfleisch"
+  },
+  {
+   "id": "R009",
+   "word": "der Fleischhauer, - / die Fleischhauerin, -nen",
+   "gloss": "butcher",
+   "kind": "austrian",
+   "de": "der Metzger"
+  },
+  {
+   "id": "R015",
+   "word": "kosten, kostet, kostete, hat gekostet",
+   "gloss": "to taste (food)",
+   "kind": "austrian",
+   "de": "probieren"
+  },
+  {
+   "id": "R019",
+   "word": "das (Schlag-)Obers",
+   "gloss": "(whipped) cream",
+   "kind": "austrian",
+   "de": "die (Schlag-)Sahne"
+  },
+  {
+   "id": "R021",
+   "word": "der Paradeiser, -",
+   "gloss": "tomato",
+   "kind": "austrian",
+   "de": "die Tomate"
+  },
+  {
+   "id": "R024",
+   "word": "das (Back-)Rohr, -e",
+   "gloss": "oven",
+   "kind": "austrian",
+   "de": "der (Back-)Ofen"
+  }
+ ],
+ "story_opening": "Vor genau drei Jahren ist Mateo García aus Spanien nach Leipzig gekommen. Das war ein wichtiges Ereignis in seinem Leben, und heute möchte er es mit einem spanischen Abend feiern. Er hat zehn Leute zu sich nach Hause eingeladen: Kollegen, Nachbarn und Freunde aus seinem Deutschkurs. Eigentlich sind zehn Gäste für Mateo kein Problem. Er arbeitet als Koch in einer Kantine und ist es gewohnt, für viele Menschen zu kochen. Aber dort hat er eine große Küche und mehrere Kollegen. Zu Hause hat er nur einen kleinen Herd und einen alten Backofen.\n\nDie Wahrheit ist: Zu Hause kocht Mateo fast nie. Nach der Arbeit ist er müde, und meistens isst er nur ein Brot mit Käse. Das wissen seine Freunde aber nic"
+}

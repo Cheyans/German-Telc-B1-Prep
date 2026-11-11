@@ -1,0 +1,159 @@
+{
+ "set": "22",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was passierte beim Frühstück nach den zwei Absagen?",
+     "right": "Lena war mit den Gedanken woanders, und Aylin merkte das.",
+     "wrong": [
+      "Lena erzählte von ihrer Arbeit, und Aylin hörte nur halb zu.",
+      "Aylin las heimlich Nachrichten unter dem Tisch, und Lena merkte das."
+     ],
+     "evidence": "Beim nächsten Treffen erzählte Aylin Demir gerade von ihrer Arbeit im Krankenhaus, als sie bemerkte, dass Lena nur halb zuhörte und heimlich Nachrichten unter dem Tisch las.",
+     "why": "Aylin was talking about her work when she noticed (bemerkte) that Lena only half listened and secretly (heimlich) read messages. The other two options swap the two women.",
+     "trap": "who",
+     "words": [
+      "W0313",
+      "W1105"
+     ]
+    },
+    {
+     "q": "Was zeigt die Umfrage, über die der Artikel berichtet?",
+     "right": "Über Absagen wird häufiger gestritten als über Geld.",
+     "wrong": [
+      "Geld ist der häufigste Grund für Streit unter Freunden.",
+      "Mehr als die Hälfte der Befragten hatte im letzten Jahr Streit."
+     ],
+     "evidence": "Laut einer Umfrage unter 2.000 Erwachsenen, die im Herbst veröffentlicht wurde, hat sich fast die Hälfte der Befragten im letzten Jahr mit Freunden oder Nachbarn gestritten. Ganz vorn liegen abgesagte Treffen und Unpünktlichkeit mit 31 bzw. 24 Prozent, Geld und Lärm folgen erst danach.",
+     "why": "Canceled meetings lead the list, and money and noise only follow after them. Fast die Hälfte means almost half, so less than half, not more.",
+     "trap": "overstate",
+     "words": [
+      "W1070",
+      "G004",
+      "W0023"
+     ]
+    },
+    {
+     "q": "Was rät Dorothea Vetter, wenn man sich über jemanden ärgert?",
+     "right": "Man sollte sagen, wie es einem selbst mit dem Problem geht.",
+     "wrong": [
+      "Man sollte erst Abstand nehmen und später in Ruhe darüber reden.",
+      "Man sollte dem anderen ruhig erklären, was er falsch gemacht hat."
+     ],
+     "evidence": "Ihr Rat: Wer sich ärgert, sollte das Problem früh und ruhig klären. Dabei hilft es, über die eigenen Gefühle zu sprechen, statt über die Fehler des anderen zu reden.",
+     "why": "Her advice (Rat) is to talk about your own feelings instead of the other person's mistakes. She wants it cleared up (klären) early, not later, and calls silence the worst reaction.",
+     "trap": "same-word",
+     "words": [
+      "W1877",
+      "W1295",
+      "W2082"
+     ]
+    },
+    {
+     "q": "Was empfiehlt Dorothea Vetter als ersten Schritt nach einem Streit?",
+     "right": "Mit kleinen, freundlichen Gesten wieder Kontakt suchen.",
+     "wrong": [
+      "Als Erstes ein ehrliches Gespräch über den Streit suchen.",
+      "Über eine gemeinsame Freundin eine Entschuldigung ausrichten lassen."
+     ],
+     "evidence": "Vetter schlägt deshalb vor, mit kleinen Zeichen anzufangen, bevor man das große Gespräch sucht. Wer im Treppenhaus auf ein „Schönes Wochenende!“ wieder mit „Danke, gleichfalls!“ antwortet, zeigt, dass er zum Gespräch bereit ist.",
+     "why": "She suggests (vorschlagen) small signs first, like answering a greeting with gleichfalls, and the big talk only after that. You should also apologize yourself, not let others pass it on (ausrichten).",
+     "trap": "when",
+     "words": [
+      "W2665",
+      "W1026",
+      "W0208"
+     ]
+    },
+    {
+     "q": "Worauf haben sich Aylin Demir und Lena am Ende geeinigt?",
+     "right": "Lena meldet sich spätestens einen Tag vorher, wenn sie nicht kommt.",
+     "wrong": [
+      "Die beiden frühstücken jetzt wieder jeden Sonnabend zusammen.",
+      "Lena kauft Aylin eine neue Kanne als Ersatz."
+     ],
+     "evidence": "Die beiden Freundinnen hatten abgemacht, sonnabends zusammen zu frühstücken. Die beiden frühstücken nun alle zwei Wochen, aber dann ganz sicher. Wenn Lena einmal nicht kann, gibt sie spätestens am Freitag Bescheid.",
+     "why": "Bescheid geben means letting someone know. Breakfast is on Saturday, so Friday is one day before, they now meet only every two weeks, and the old lid was glued, not replaced.",
+     "trap": "paraphrase",
+     "words": [
+      "W0339"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Nach Panne: Fahrer beschimpft Fahrgäste"
+    },
+    {
+     "id": "b",
+     "text": "Kastanie bleibt stehen: Nachbarn finden eine Lösung"
+    },
+    {
+     "id": "c",
+     "text": "Neuer Kochkurs: Gerichte aus aller Welt"
+    },
+    {
+     "id": "d",
+     "text": "Volkshochschule: Richtig streiten kann man lernen"
+    },
+    {
+     "id": "e",
+     "text": "Gemeinsames Essen für alle Nachbarn im Viertel"
+    },
+    {
+     "id": "f",
+     "text": "Gericht entscheidet: Der alte Baum muss weg"
+    },
+    {
+     "id": "g",
+     "text": "Nach Ärger in der Straßenbahn: Fahrgast entschuldigt sich"
+    },
+    {
+     "id": "h",
+     "text": "Nach Streit beim Jugendspiel: Turnier für mehr Respekt"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "b",
+     "evidence": "Der Baum bleibt stehen, nur die Äste über dem Zaun werden im Winter geschnitten. Ein Prozess vor Gericht ist damit nicht mehr nötig.",
+     "why": "The neighbors agreed on a compromise (Kompromiss), and the tree stays. Headline f is the trap: no court decided anything, and the tree is not cut down."
+    },
+    {
+     "id": "2",
+     "answer": "h",
+     "evidence": "Diesmal blieb alles friedlich: Rund 300 Menschen schauten zu, alle Kinder trugen T-Shirts mit dem Wort „Respekt“, und die Trainer begrüßten sich mit Handschlag.",
+     "why": "After parents fought at a youth game in September, the two clubs held a peaceful tournament about respect."
+    },
+    {
+     "id": "3",
+     "answer": "g",
+     "evidence": "Wie die Leipziger Verkehrsbetriebe mitteilten, kam der Mann zwei Tage später mit Blumen ins Kundenbüro und bat den Fahrer um Verzeihung.",
+     "why": "The passenger who shouted asked the driver for forgiveness (Verzeihung) two days later. Headline a gets the roles backwards: the passenger made the accusations, not the driver."
+    },
+    {
+     "id": "4",
+     "answer": "d",
+     "evidence": "Wie spreche ich einen Konflikt an, ohne den anderen zu verletzen? Darum geht es in einem neuen Workshop der Volkshochschule Leipzig.",
+     "why": "The adult education center offers a workshop on bringing up a conflict (ansprechen) and giving criticism in a fair way."
+    },
+    {
+     "id": "5",
+     "answer": "e",
+     "evidence": "Damit sich die Menschen im Viertel besser kennenlernen, lädt das Stadtteilbüro Reudnitz am 14. November ab 17 Uhr zu einem großen Nachbarschaftsessen ein.",
+     "why": "It is a big meal for the whole neighborhood. Headline c is the trap: everyone brings a dish (Gericht), but it is not a cooking class."
+    }
+   ]
+  }
+ ]
+}

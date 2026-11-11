@@ -1,0 +1,78 @@
+{
+ "story": "10",
+ "questions": [
+  {
+   "q": "Was passiert direkt nach dem Neustart des Routers?",
+   "right": "Es ändert sich nichts, eine Lampe ist immer noch rot.",
+   "wrong": [
+    "Alle vier Lampen am Router leuchten wieder grün.",
+    "Sie merkt, dass ein Kabel nicht richtig angeschlossen ist."
+   ],
+   "evidence": "Dann prüft sie alle Kabel. Sind sie richtig angeschlossen? Ja, alles sitzt fest. Trotzdem bleibt die Lampe rot.",
+   "why": "Even after the restart and the cable check, the lamp stays red. The cables are properly connected (angeschlossen), and the lamps only turn green again on Saturday.",
+   "words": [
+    "W2217",
+    "W0105",
+    "W1242"
+   ]
+  },
+  {
+   "q": "Warum gibt es laut Herrn Kaiser kein Internet?",
+   "right": "Wegen der Bauarbeiten ist eine Leitung kaputt.",
+   "wrong": [
+    "Die Software vom Router hat einen Fehler.",
+    "Lenas Router ist kaputt, sie braucht einen neuen."
+   ],
+   "evidence": "In Ihrer Straße gibt es seit 19 Uhr eine Störung. Bei Bauarbeiten ist ein Kabel kaputtgegangen.",
+   "why": "Herr Kaiser says there is a fault (Störung) in her street because a cable broke during construction work. The software idea was only a guess in the forum, and her router works again later.",
+   "words": [
+    "W2261",
+    "W1242"
+   ]
+  },
+  {
+   "q": "Warum kann Lena die Datei nicht mit dem Handy schicken?",
+   "right": "Sie hat diesen Monat nicht mehr genug Daten übrig.",
+   "wrong": [
+    "Lenas billiger Vertrag hat gar keine mobilen Daten.",
+    "Wegen der Störung hat auch ihr Handy kein Netz."
+   ],
+   "evidence": "Und ihr Handyvertrag ist billig: Die mobilen Daten sind auf fünf Gigabyte im Monat beschränkt. Davon hat sie schon über vier verbraucht. Zum Surfen und für E-Mails reicht der Rest, aber nicht für so eine große Datei.",
+   "why": "Beschränkt means limited: she has 5 GB a month and has already used over 4, so less than 1 GB is left for an almost 2 GB file. Her phone itself works, since she used it to search online.",
+   "words": [
+    "W0341",
+    "W1594",
+    "W0494"
+   ]
+  },
+  {
+   "q": "Warum schlägt Herr Braun vor, Frau Demir zu fragen?",
+   "right": "Frau Demir hat einen Anbieter mit einer anderen Technik.",
+   "wrong": [
+    "Sie hat denselben Anbieter, aber einen neueren Router.",
+    "Bei ihr kommt das Internet über die Telefonleitung."
+   ],
+   "evidence": "Sie hat einen anderen Anbieter, und der verwendet eine andere Technologie. Bei ihr kommt das Internet über das Fernsehkabel und nicht über die Telefonleitung.",
+   "why": "Verwendet means uses: her provider uses a different technology, with internet over the TV cable, not the phone line. She also has a different provider, not the same one.",
+   "words": [
+    "W2627",
+    "W2333"
+   ]
+  },
+  {
+   "q": "Wie bekommt der Kunde die Datei am Ende?",
+   "right": "In Lenas E-Mail steht ein Link zu der Datei.",
+   "wrong": [
+    "Die Datei hängt direkt als Anhang an der E-Mail.",
+    "Jonas bringt ihm die Datei am Freitagmorgen vorbei."
+   ],
+   "evidence": "Danach bekommt sie einen Link zu der Datei. Sie kopiert ihn und fügt ihn in die E-Mail an den Kunden ein.",
+   "why": "She uploads (hochladen) the file and pastes (einfügen) the link into the email, so the file is not attached. She sends it herself at ten to midnight, not Jonas.",
+   "words": [
+    "W1152",
+    "W0603",
+    "G066"
+   ]
+  }
+ ]
+}

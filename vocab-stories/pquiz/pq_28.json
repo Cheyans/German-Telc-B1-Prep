@@ -1,0 +1,161 @@
+{
+ "set": "28",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Wann ist der Mann in die Wohnung eingebrochen?",
+     "right": "Als die Frau ein Wochenende verreist war.",
+     "wrong": [
+      "Am Dienstag, als auch das Urteil gesprochen wurde.",
+      "Während die Rentnerin in ihrer Wohnung schlief."
+     ],
+     "evidence": "Für die Richterin stand fest, dass er im letzten Herbst in die Wohnung einer 78-jährigen Frau eingebrochen war. Während die Rentnerin ein Wochenende bei ihrer Schwester in Dresden verbrachte, wurden ein alter Goldring und 300 Euro gestohlen.",
+     "why": "The break-in was last fall, while the woman spent a weekend with her sister in Dresden. Tuesday is the day of the verdict (Urteil), not of the crime.",
+     "trap": "when",
+     "words": [
+      "W0591",
+      "W2233",
+      "W2521"
+     ]
+    },
+    {
+     "q": "Was meint der Hausmeister zu dem Fall?",
+     "right": "Vorher kann man so etwas nicht wissen.",
+     "wrong": [
+      "Die Rentnerin ist selbst schuld, weil sie ihn hereingelassen hat.",
+      "Die Polizei hätte den Täter schneller finden müssen."
+     ],
+     "evidence": "Nach dem Einbruch hatte die Frau schnell einen Verdacht, gab sich aber zuerst selbst die Schuld. Die Richterin machte jedoch klar, dass die Schuld allein beim Täter liegt. „Hinterher ist man immer klüger“, sagt der Hausmeister.",
+     "why": "Hinterher ist man immer klüger means it is easy to know better afterwards (hinterher), so nobody could have known before. Blaming herself is what the woman did at first, and the judge says the guilt (Schuld) lies only with the offender.",
+     "trap": "who",
+     "words": [
+      "W1144",
+      "W2066"
+     ]
+    },
+    {
+     "q": "Was erzählte die Nachbarin als Zeugin vor Gericht?",
+     "right": "Zuerst glaubte sie, dass sie nur geträumt hatte.",
+     "wrong": [
+      "Sie war vom Lärm an der Wohnungstür aufgewacht.",
+      "Sie hatte den Mann am Morgen im Hof gesehen."
+     ],
+     "evidence": "Eine 29-jährige Nachbarin aus dem obersten Stock wachte mitten in der Nacht vom Lärm im Hof auf. Vom Küchenfenster aus sah sie, wie ein Mann mit einer großen Tasche eine Mülltonne an die Mauer schob und darüber kletterte. Vor Gericht erzählte sie als Zeugin, dass sie das zuerst für einen Traum gehalten hatte.",
+     "why": "As a witness (Zeugin) she said she first took it all for a dream. The noise that woke her (aufwachen) came from the courtyard, not the door, and she saw the man in the middle of the night (mitten in der Nacht), not in the morning.",
+     "trap": "same-word",
+     "words": [
+      "W2830",
+      "W0178",
+      "W1588"
+     ]
+    },
+    {
+     "q": "Was fand die Polizei bei dem Mann?",
+     "right": "Den Ring, aber kein Geld mehr.",
+     "wrong": [
+      "Den Ring und alle 300 Euro.",
+      "Nur das Geld, der Ring war schon verkauft."
+     ],
+     "evidence": "Der Ring, den die Rentnerin nirgendwo finden konnte, wurde in seiner inneren Jackentasche entdeckt. Von den 300 Euro war dagegen nichts mehr übrig.",
+     "why": "The ring was in his inside jacket pocket (innere Jackentasche). Nothing was left (übrig) of the 300 euros, so the police found no money.",
+     "trap": "same-word",
+     "words": [
+      "W2455",
+      "W1196",
+      "W1685"
+     ]
+    },
+    {
+     "q": "Warum bekommt der Mann mehr als ein Jahr Gefängnis?",
+     "right": "Er saß früher schon zweimal im Gefängnis.",
+     "wrong": [
+      "Er hat die Rentnerin bei der Tat verletzt.",
+      "Er hatte den Ring schon im Internet verkauft."
+     ],
+     "evidence": "Die Strafe fiel aber höher aus, weil es kein gewöhnlicher Fall war. Der Verbrecher hat in seiner Vergangenheit schon zweimal hinter Gittern gesessen.",
+     "why": "The sentence (Strafe) is higher because he has been in prison twice before (in seiner Vergangenheit, hinter Gittern). The woman was away in Dresden, and the ring was still in his jacket pocket, not sold online.",
+     "trap": "paraphrase",
+     "words": [
+      "W2263",
+      "W2550",
+      "W1015"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Tote im Hinterhof: Polizei sucht den Täter"
+    },
+    {
+     "id": "b",
+     "text": "Falsche Polizisten müssen ins Gefängnis"
+    },
+    {
+     "id": "c",
+     "text": "Schüler stoppt Dieb in der U-Bahn"
+    },
+    {
+     "id": "d",
+     "text": "Polizei: Einbrecher kommen meistens nachts"
+    },
+    {
+     "id": "e",
+     "text": "Polizei gibt kostenlose Tipps gegen Einbrecher"
+    },
+    {
+     "id": "f",
+     "text": "Dreharbeiten: Straße in Plagwitz gesperrt"
+    },
+    {
+     "id": "g",
+     "text": "Dieb flieht mit Geldbörse eines Touristen"
+    },
+    {
+     "id": "h",
+     "text": "Brand im Treppenhaus: Polizei sucht Zeugen"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "c",
+     "evidence": "Wien. Ein 17-jähriger Schüler hat am Montagabend in der U-Bahn-Station Stephansplatz einen Dieb gestoppt.",
+     "why": "A student stopped a thief (Dieb) in a subway station, and the police arrested him. Option g is wrong because the thief did not get away and the wallet (Geldbörse) came back."
+    },
+    {
+     "id": "2",
+     "answer": "h",
+     "evidence": "Graz. In einem Wohnhaus im Bezirk Lend hat in der Nacht auf Sonntag ein Kinderwagen im Stiegenhaus gebrannt. Zeugen, die in der Nacht etwas Verdächtiges bemerkt haben, sollen sich bei der nächsten Polizeiinspektion melden.",
+     "why": "Stiegenhaus is the Austrian word for Treppenhaus (stairwell), and the police ask witnesses (Zeugen) to come forward."
+    },
+    {
+     "id": "3",
+     "answer": "f",
+     "evidence": "Leipzig. Achtung, Autofahrer: Wegen Dreharbeiten für eine neue Krimiserie ist die Karl-Heine-Straße in Plagwitz vom 9. bis 11. März tagsüber gesperrt.",
+     "why": "The street is closed during the day (tagsüber) for filming a TV crime series. The dead woman (Tote) is only part of the series, so option a is wrong."
+    },
+    {
+     "id": "4",
+     "answer": "b",
+     "evidence": "Dresden. Das Landgericht Dresden hat zwei Männer zu vier und fünf Jahren Gefängnis verurteilt, weil sie mehr als 30 ältere Menschen betrogen haben. Am Telefon hatten sie behauptet, dass sie Polizisten sind und dass Einbrecher in der Gegend unterwegs sind.",
+     "why": "Two men only pretended on the phone to be police officers, so they are falsche Polizisten. The court sent them to prison (Gefängnis)."
+    },
+    {
+     "id": "5",
+     "answer": "e",
+     "evidence": "Die Polizei bietet deshalb ab März jeden Donnerstag von 15 bis 18 Uhr eine kostenlose Sprechstunde in der Dimitroffstraße an.",
+     "why": "The police offer free office hours (Sprechstunde) with tips against burglars. Option d is wrong because most burglars come during the day (tagsüber), not at night."
+    }
+   ]
+  }
+ ]
+}

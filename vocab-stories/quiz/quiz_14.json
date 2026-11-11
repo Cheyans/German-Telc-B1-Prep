@@ -1,0 +1,77 @@
+{
+ "story": "14",
+ "questions": [
+  {
+   "q": "Warum fährt Lena am Dienstag mit dem Fahrrad ins Büro?",
+   "right": "Die Straßenbahnfahrer arbeiten nicht, weil sie mehr Lohn wollen.",
+   "wrong": [
+    "Sie möchte nach dem Umzug die Stadt mit dem Rad kennenlernen.",
+    "Die Straßenbahnen fahren nur langsam, weil überall Stau ist."
+   ],
+   "evidence": "Am Fahrplan hängt ein Zettel: „Heute fahren keine Straßenbahnen.“ Die Fahrer streiken. Ihre Gewerkschaft kämpft für mehr Geld, denn alles wird teurer, und die Mieten steigen jedes Jahr.",
+   "why": "Streiken means to go on strike: no trams run because the union wants more money. Lena has no choice, and the jams at the lights come from all the bikes.",
+   "words": [
+    "W2271",
+    "W1006"
+   ]
+  },
+  {
+   "q": "Warum leitet Jonas heute die Besprechung?",
+   "right": "Die Chefin ist wegen ihrer Arbeit in Berlin.",
+   "wrong": [
+    "Frau Lorenz macht diese Woche Urlaub in Berlin.",
+    "Jonas hat die Agentur vor zwölf Jahren gegründet."
+   ],
+   "evidence": "Aber diese Woche ist sie beruflich in Berlin, auf einer Konferenz über Werbung im Internet. Weil sie nicht da ist, vertritt Jonas sie heute.",
+   "why": "Beruflich means for work: the boss is at a conference in Berlin, so Jonas stands in for her. Frau Lorenz founded the agency, not Jonas.",
+   "words": [
+    "W0330",
+    "W2618",
+    "W1050"
+   ]
+  },
+  {
+   "q": "Was ändert sich durch den Anruf von Herrn Ott?",
+   "right": "Die Präsentation findet früher statt als zuerst geplant.",
+   "wrong": [
+    "Die Präsentation findet erst nach seiner Reise statt.",
+    "Herr Ott hat schon eine andere Agentur gewählt."
+   ],
+   "evidence": "Die Präsentation war ursprünglich für Freitag geplant. Aber um elf Uhr klingelt das Handy von Jonas. Es ist Herr Ott. Nach dem Gespräch ist Jonas ganz blass. „Herr Ott fliegt morgen für drei Wochen nach Kanada“, sagt er. „Er möchte unsere Ideen schon heute sehen, um vier Uhr, hier bei uns.“",
+   "why": "Ursprünglich means originally: the presentation was planned for Friday, but now it is today at four. Herr Ott still wants to see their ideas, so he has not chosen anyone yet.",
+   "words": [
+    "W2520",
+    "W1828"
+   ]
+  },
+  {
+   "q": "Was findet Jonas in den Zahlen von Grünfeld heraus?",
+   "right": "Fröhliche Gesichter in der Werbung bringen mehr Kunden.",
+   "wrong": [
+    "Fotos mit nur einer Flasche bringen die meisten Kunden.",
+    "Die Art der Fotos spielt für den Verkauf keine Rolle."
+   ],
+   "evidence": "Nach einer Stunde erkennt er einen Zusammenhang: Wenn auf einem Werbefoto Menschen lachen, kaufen mehr Kunden die Limonade. Fotos mit nur einer Flasche funktionieren viel schlechter.",
+   "why": "Einen Zusammenhang erkennen means to see a connection: ads with laughing people sell more lemonade. Photos with only a bottle work much worse, so the kind of photo matters.",
+   "words": [
+    "W0707",
+    "W2874"
+   ]
+  },
+  {
+   "q": "Was schreibt Frau Lorenz am Abend an das Team?",
+   "right": "Grünfeld hat sich für ihre Agentur entschieden.",
+   "wrong": [
+    "Herr Ott möchte noch mit den anderen Agenturen sprechen.",
+    "Sie findet die Leistung des Teams nicht gut genug."
+   ],
+   "evidence": "Er hat heute mit allen drei Agenturen gesprochen, und wir bekommen den Auftrag! Er freut sich sehr auf die Zusammenarbeit mit uns. Das war eine tolle Leistung, Team!",
+   "why": "Den Auftrag bekommen means they win the job, and Herr Ott looks forward to working with them. He has already talked to all three agencies, and the boss praises the team.",
+   "words": [
+    "W0175",
+    "W2872",
+    "W1461"
+   ]
+  }
+ ]
+}

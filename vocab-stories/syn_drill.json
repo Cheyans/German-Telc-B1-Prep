@@ -1,0 +1,256 @@
+{
+ "texts": [
+  {
+   "title": "E-Mail an Javier (informell)",
+   "text": "Lieber Javier,\n\nentschuldige, dass ich dir so lange nicht geschrieben habe. Ich hatte keine Zeit, {1} ich gerade sehr viel arbeite. Am Samstag kann ich leider nicht mit dir telefonieren, {2} ich muss einem Freund beim Umzug helfen. Mein Deutschkurs endet montags erst um 20 Uhr. {3} komme ich danach immer sehr müde nach Hause.\n\n{4} des Streiks fahren diese Woche keine Busse, also fahre ich mit dem Fahrrad. {5} ich gestern sehr müde war, bin ich noch ins Kino gegangen. Der Film war über drei Stunden lang. {6} hat er mir sehr gut gefallen. {7} des schlechten Wetters sind wir danach noch ein bisschen spazieren gegangen.\n\nIch spare jetzt jeden Monat etwas Geld, {8} ich im Sommer zu dir nach Sevilla fliegen kann. Heute gehe ich früh ins Bett, {9} morgen fit zu sein. Lass uns nicht am Freitag telefonieren, {10} am Sonntag.\n\nViele Grüße\nMateo",
+   "gaps": [
+    {
+     "n": 1,
+     "o": [
+      "weil",
+      "denn",
+      "deshalb"
+     ],
+     "a": 0,
+     "t": "A",
+     "why": "The verb arbeite is at the end, so the gap needs a type-A word: weil. denn would need normal order (denn ich arbeite), and deshalb would flip the verb (deshalb arbeite ich).",
+     "s": "Ich hatte keine Zeit, ___ ich gerade sehr viel arbeite."
+    },
+    {
+     "n": 2,
+     "o": [
+      "deshalb",
+      "weil",
+      "denn"
+     ],
+     "a": 2,
+     "t": "B",
+     "why": "After the gap comes ich muss: subject, then verb, normal order. That is type B: denn. weil would put muss at the end, and deshalb would flip it (deshalb muss ich).",
+     "s": "Am Samstag kann ich leider nicht mit dir telefonieren, ___ ich muss einem Freund beim Umzug helfen."
+    },
+    {
+     "n": 3,
+     "o": [
+      "Weil",
+      "Deshalb",
+      "Denn"
+     ],
+     "a": 1,
+     "t": "C",
+     "why": "The verb komme comes right after the gap, then the subject ich: inversion, type C. Weil would put komme at the end, and Denn would need ich komme.",
+     "s": "___ komme ich danach immer sehr müde nach Hause."
+    },
+    {
+     "n": 4,
+     "o": [
+      "Weil",
+      "Deshalb",
+      "Wegen"
+     ],
+     "a": 2,
+     "t": "E",
+     "why": "Only a noun phrase follows (des Streiks, genitive) and no verb of its own, so you need a preposition: wegen + genitive.",
+     "s": "___ des Streiks fahren diese Woche keine Busse, also fahre ich mit dem Fahrrad."
+    },
+    {
+     "n": 5,
+     "o": [
+      "Obwohl",
+      "Trotzdem",
+      "Trotz"
+     ],
+     "a": 0,
+     "t": "A",
+     "why": "war is at the end of its clause, and the main clause starts with its verb (bin ich): type A, obwohl. Trotzdem would need the verb right after it, and trotz needs a noun.",
+     "s": "___ ich gestern sehr müde war, bin ich noch ins Kino gegangen."
+    },
+    {
+     "n": 6,
+     "o": [
+      "Obwohl",
+      "Trotz",
+      "Trotzdem"
+     ],
+     "a": 2,
+     "t": "C",
+     "why": "The verb hat comes right after the gap: type C, trotzdem. The film was long, but Mateo still liked it.",
+     "s": "___ hat er mir sehr gut gefallen."
+    },
+    {
+     "n": 7,
+     "o": [
+      "Trotzdem",
+      "Trotz",
+      "Obwohl"
+     ],
+     "a": 1,
+     "t": "E",
+     "why": "A noun phrase in the genitive follows (des schlechten Wetters), so it is the preposition trotz.",
+     "s": "___ des schlechten Wetters sind wir danach noch ein bisschen spazieren gegangen."
+    },
+    {
+     "n": 8,
+     "o": [
+      "um",
+      "deshalb",
+      "damit"
+     ],
+     "a": 2,
+     "t": "A",
+     "why": "There is a subject (ich) and the conjugated verb kann is at the end: type A, damit. um would need zu + infinitive (um … zu fliegen), and deshalb would flip the verb.",
+     "s": "Ich spare jetzt jeden Monat etwas Geld, ___ ich im Sommer zu dir nach Sevilla fliegen kann."
+    },
+    {
+     "n": 9,
+     "o": [
+      "um",
+      "damit",
+      "weil"
+     ],
+     "a": 0,
+     "t": "Z",
+     "why": "No subject, and zu sein is at the end: um … zu. damit and weil would need a subject and a conjugated verb.",
+     "s": "Heute gehe ich früh ins Bett, ___ morgen fit zu sein."
+    },
+    {
+     "n": 10,
+     "o": [
+      "aber",
+      "sondern",
+      "oder"
+     ],
+     "a": 1,
+     "t": "B",
+     "why": "After a negative (nicht am Freitag) the correction comes with sondern: not X, but Y.",
+     "s": "Lass uns nicht am Freitag telefonieren, ___ am Sonntag."
+    }
+   ]
+  },
+  {
+   "title": "E-Mail an die Hausverwaltung (formell)",
+   "text": "Sehr geehrter Herr Wagner,\n\nich möchte Ihnen mitteilen, {11} die Heizung in meiner Wohnung seit Montag nicht funktioniert. Könnten Sie mir bitte sagen, {12} Sie diese Woche einen Handwerker schicken können oder nicht? Leider weiß ich noch nicht, {13} ich nächste Woche frei habe.\n\n{14} ich am Dienstag in Ihrem Büro war, war leider niemand da. {15} ich die Heizung selbst kontrolliert hatte, habe ich die Fenster geschlossen. {16} habe ich den Hausmeister angerufen, aber er war im Urlaub.\n\n{17} der Woche bin ich leider erst ab 17 Uhr zu Hause. Ich melde mich bei Ihnen, {18} ich nach Hause komme. Sie erreichen mich am besten, {19} Sie mir eine SMS schreiben. Bitte antworten Sie mir bis Freitag, {20} muss ich selbst einen Handwerker suchen.\n\nMit freundlichen Grüßen\nLena Hoffmann",
+   "gaps": [
+    {
+     "n": 11,
+     "o": [
+      "ob",
+      "dass",
+      "wenn"
+     ],
+     "a": 1,
+     "t": "A",
+     "why": "A statement follows, with funktioniert at the end: dass. ob would turn it into a yes/no question, and wenn means if or when.",
+     "s": "ich möchte Ihnen mitteilen, ___ die Heizung in meiner Wohnung seit Montag nicht funktioniert."
+    },
+    {
+     "n": 12,
+     "o": [
+      "ob",
+      "dass",
+      "wenn"
+     ],
+     "a": 0,
+     "t": "A",
+     "why": "It is a yes/no question (can you send someone?), asked indirectly: ob. wenn is a common mistake here, but in German whether is always ob.",
+     "s": "Könnten Sie mir bitte sagen, ___ Sie diese Woche einen Handwerker schicken können oder nicht?"
+    },
+    {
+     "n": 13,
+     "o": [
+      "wenn",
+      "als",
+      "wann"
+     ],
+     "a": 2,
+     "t": "Wi",
+     "why": "An indirect question about time (when?): wann. wenn and als don't ask questions.",
+     "s": "Leider weiß ich noch nicht, ___ ich nächste Woche frei habe."
+    },
+    {
+     "n": 14,
+     "o": [
+      "Wenn",
+      "Wann",
+      "Als"
+     ],
+     "a": 2,
+     "t": "A",
+     "why": "One single event in the past (on Tuesday): als. wenn is for repeated events, the present or the future, and wann is a question word.",
+     "s": "___ ich am Dienstag in Ihrem Büro war, war leider niemand da."
+    },
+    {
+     "n": 15,
+     "o": [
+      "Nachdem",
+      "Danach",
+      "Nach"
+     ],
+     "a": 0,
+     "t": "A",
+     "why": "hatte is at the end, and the main clause starts with its verb (habe ich): type A, nachdem. Danach would need the verb right after it, and nach needs a noun.",
+     "s": "___ ich die Heizung selbst kontrolliert hatte, habe ich die Fenster geschlossen."
+    },
+    {
+     "n": 16,
+     "o": [
+      "Nachdem",
+      "Danach",
+      "Nach"
+     ],
+     "a": 1,
+     "t": "C",
+     "why": "habe comes right after the gap: type C, danach (afterwards).",
+     "s": "___ habe ich den Hausmeister angerufen, aber er war im Urlaub."
+    },
+    {
+     "n": 17,
+     "o": [
+      "Während",
+      "Wenn",
+      "Bevor"
+     ],
+     "a": 0,
+     "t": "E",
+     "why": "A noun in the genitive follows (der Woche), not a clause: the preposition während (during). Wenn and Bevor would need a subject and a verb at the end.",
+     "s": "___ der Woche bin ich leider erst ab 17 Uhr zu Hause."
+    },
+    {
+     "n": 18,
+     "o": [
+      "sofort",
+      "danach",
+      "sobald"
+     ],
+     "a": 2,
+     "t": "A",
+     "why": "A side clause with komme at the end: sobald (as soon as). sofort and danach are adverbs and can't start a side clause.",
+     "s": "Ich melde mich bei Ihnen, ___ ich nach Hause komme."
+    },
+    {
+     "n": 19,
+     "o": [
+      "durch",
+      "indem",
+      "dadurch"
+     ],
+     "a": 1,
+     "t": "A",
+     "why": "A side clause with schreiben at the end that says how: indem (by doing). dadurch is an adverb, and durch needs a noun.",
+     "s": "Sie erreichen mich am besten, ___ Sie mir eine SMS schreiben."
+    },
+    {
+     "n": 20,
+     "o": [
+      "sonst",
+      "falls",
+      "wenn"
+     ],
+     "a": 0,
+     "t": "C",
+     "why": "muss comes right after the gap, then the subject ich: inversion, type C, sonst (otherwise). falls and wenn would put muss at the end.",
+     "s": "Bitte antworten Sie mir bis Freitag, ___ muss ich selbst einen Handwerker suchen."
+    }
+   ]
+  }
+ ]
+}

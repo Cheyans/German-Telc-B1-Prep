@@ -1,0 +1,165 @@
+{
+ "book": "U",
+ "task": 4,
+ "tracks": [
+  "12",
+  "13",
+  "14"
+ ],
+ "title": "Radio: Programm, Verkehr und Sport",
+ "intro": "Sie hören drei Texte aus dem Radio: eine Programmvorschau, Verkehrsmeldungen und Sportnachrichten. Spielen Sie jeden Track einmal ab.",
+ "items": [
+  {
+   "tr": "12",
+   "s": "Gerald Riva spricht um 10.20 Uhr am Telefon über das Mietrecht.",
+   "a": true,
+   "at": "00:19",
+   "ev": "Mietrecht … Gerald Riva vom Mieterschutzbund um 10:20 am Telefon",
+   "why": "The interview block starts kurz nach 10, but Gerald Riva, the expert on renting law, is on the phone at 10:20. Two times close together is the trap.",
+   "trap": "number",
+   "w": [
+    [
+     "das Mietrecht",
+     "tenancy law"
+    ],
+    [
+     "der Mieterschutzbund",
+     "tenants' association"
+    ]
+   ]
+  },
+  {
+   "tr": "12",
+   "s": "Die Nachmittagsshow mit Dennis Schmidt beginnt um 14.30 Uhr.",
+   "a": false,
+   "at": "00:40",
+   "ev": "fragt Dennis Schmidt in der Nachmittagsshow ab 15 Uhr",
+   "why": "14:30 is the time for part 5 of the report on Lesbos. Dennis Schmidt's afternoon show starts at 15:00.",
+   "trap": "number",
+   "w": [
+    [
+     "die Reportage",
+     "feature report"
+    ],
+    [
+     "einschalten",
+     "to tune in, to switch on"
+    ]
+   ]
+  },
+  {
+   "tr": "12",
+   "s": "Das Hörspiel läuft heute früher als sonst.",
+   "a": true,
+   "at": "01:07",
+   "ev": "unser Hörspiel in der Nacht, heute schon um 21 Uhr",
+   "why": "The radio play normally runs at night, and heute schon um 21 Uhr means as early as 9 p.m. today. Schon before a time means earlier than expected.",
+   "trap": "when",
+   "w": [
+    [
+     "das Hörspiel",
+     "radio play"
+    ],
+    [
+     "die Entspannung",
+     "relaxation"
+    ]
+   ]
+  },
+  {
+   "tr": "13",
+   "s": "Auf der A3 Richtung Köln gibt es wegen eines Unfalls Stau.",
+   "a": false,
+   "at": "00:06",
+   "ev": "A3 Frankfurt Richtung Köln, stockender Verkehr … wegen einer Baustelle",
+   "why": "On the A3 toward Cologne, traffic is slow because of construction (Baustelle). The accident (Unfall) is on the A5, in the next report.",
+   "trap": "same-word",
+   "w": [
+    [
+     "stockender Verkehr",
+     "slow, stop-and-go traffic"
+    ],
+    [
+     "die Baustelle",
+     "construction site, road work"
+    ]
+   ]
+  },
+  {
+   "tr": "13",
+   "s": "Auf der A5 ist nach einem Unfall eine Fahrbahn gesperrt.",
+   "a": true,
+   "at": "00:14",
+   "ev": "4 Kilometer Stau nach einem Unfall. Die rechte Fahrbahn ist gesperrt.",
+   "why": "After an accident on the A5 there is a 4 km jam and the right lane is closed. Eine Fahrbahn is a paraphrase of die rechte Fahrbahn.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "die Fahrbahn",
+     "lane"
+    ],
+    [
+     "gesperrt",
+     "closed"
+    ]
+   ]
+  },
+  {
+   "tr": "13",
+   "s": "Die Warnung vor dem Falschfahrer gilt für die A3 Richtung Köln.",
+   "a": false,
+   "at": "00:22",
+   "ev": "Und nochmal A3, eine Eilmeldung: Frankfurt Richtung Würzburg",
+   "why": "There are two reports about the A3. The construction is on the A3 toward Köln, but the warning about the wrong-way driver („Falschfahrer“) is for the A3 from Frankfurt toward Würzburg.",
+   "trap": "same-word",
+   "w": [
+    [
+     "der Falschfahrer",
+     "wrong-way driver"
+    ],
+    [
+     "die Eilmeldung",
+     "breaking news"
+    ]
+   ]
+  },
+  {
+   "tr": "14",
+   "s": "Im Endspiel trifft Nadja Malik auf eine Spanierin.",
+   "a": false,
+   "at": "00:19",
+   "ev": "Erfolg über die Spanierin … am kommenden Samstag auf die Rumänin",
+   "why": "She beat the Spanish player Selina Navarro to reach the final. On Saturday she meets the Romanian Martina Florin.",
+   "trap": "who",
+   "w": [
+    [
+     "das Endspiel",
+     "final (match)"
+    ],
+    [
+     "treffen auf",
+     "to face (an opponent)"
+    ]
+   ]
+  },
+  {
+   "tr": "14",
+   "s": "Dyachuk hat sein Halbfinale gegen Mangani gewonnen.",
+   "a": true,
+   "at": "00:29",
+   "ev": "setzte sich im Halbfinale der Ukrainer Dyachuk gegen den Australier Mangani … durch",
+   "why": "Sich durchsetzen gegen means to win against, and the durch comes only at the end of the sentence. In the final he plays the American Peter Ferell.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "sich durchsetzen gegen",
+     "to beat, to win against"
+    ],
+    [
+     "der Satz",
+     "set (in tennis)"
+    ]
+   ]
+  }
+ ]
+}

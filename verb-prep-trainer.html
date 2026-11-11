@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verben mit Präpositionen &amp; Kasus: B1 Trainer</title>
+<style>
+  :root{
+    --bg:#0f1220; --card:#1b2036; --ink:#eef1f7; --mut:#9aa3b2; --line:#2b3350;
+    --ok:#2ecc71; --no:#ff6b6b; --hl:#ffd86b; --blue:#2b5cff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;padding:16px;}
+  .wrap{max-width:860px;margin:0 auto;}
+  h1{font-size:20px;margin:4px 0 2px;}
+  h2{font-size:16px;margin:18px 0 6px;color:var(--hl);}
+  .sub{color:var(--mut);font-size:13px;margin-bottom:12px;}
+  .tabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap;}
+  .tabs button{background:var(--card);color:var(--mut);border:1px solid var(--line);border-radius:8px;
+    padding:8px 14px;font-size:14px;cursor:pointer;}
+  .tabs button.active{color:var(--ink);border-color:var(--blue);background:#1e2650;}
+  .help{background:#141a30;border:1px solid var(--line);border-radius:10px;padding:8px 12px;
+    font-size:12.5px;color:var(--mut);margin-bottom:12px;}
+  .help b{color:var(--ink);}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px;}
+  select,button{background:var(--card);color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:14px;cursor:pointer;}
+  button:hover{border-color:#3d4877;}
+  label.tog{font-size:13.5px;color:var(--mut);display:flex;align-items:center;gap:6px;cursor:pointer;}
+  .stats{font-size:13px;color:var(--mut);margin-bottom:10px;}
+  .stats b{color:var(--ink);}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:12px;}
+  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    padding:2px 8px;border-radius:999px;color:#0f1220;margin-right:6px;}
+  .caps{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;
+    border:1px solid var(--hl);color:var(--hl);}
+  .task{font-size:13px;color:var(--mut);margin-top:8px;}
+  .q{font-size:20px;margin:10px 0 8px;line-height:2.1;}
+  .q input.blank{width:9.5em;background:#0d1122;color:var(--ink);border:1px solid var(--line);border-radius:8px;
+    padding:4px 8px;font-size:18px;outline:none;margin:0 2px;}
+  .q input.blank:focus{border-color:#5b6cff;}
+  .q input.blank.ok{border-color:var(--ok);}
+  .q input.blank.no{border-color:var(--no);}
+  .q input.blank[readonly]{opacity:.8;}
+  .hintline{font-size:13.5px;color:#8fb3ff;margin-bottom:8px;}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  .go{background:var(--blue);border-color:var(--blue);font-weight:700;padding:10px 18px;}
+  .flash{color:var(--hl);font-size:13px;min-height:18px;margin-top:6px;}
+  .fb{margin-top:10px;font-size:15px;}
+  .fb .head{font-weight:700;}
+  .fb.okk .head{color:var(--ok);}
+  .fb.noo .head{color:var(--no);}
+  .fb s{color:var(--no);}
+  .fb .ans{color:var(--ink);}
+  .fb .en{color:var(--mut);font-size:13.5px;margin-top:4px;font-style:italic;}
+  .fb .note{color:var(--mut);font-size:13.5px;margin-top:4px;}
+  .fb .rule{color:var(--hl);font-size:13.5px;margin-top:4px;}
+  .fb .ptr{color:#8fb3ff;font-size:13.5px;margin-top:6px;}
+  .fb .good{color:var(--ok);font-size:13.5px;margin-top:6px;font-weight:700;}
+  .prog{height:6px;background:#0d1122;border-radius:999px;overflow:hidden;margin-top:14px;}
+  .prog>i{display:block;height:100%;background:var(--blue);width:0;}
+  .hint{font-size:12.5px;color:var(--mut);}
+  kbd{background:#0d1122;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:12px;}
+  .tblwrap{overflow-x:auto;}
+  table{border-collapse:collapse;font-size:13.5px;margin-top:6px;}
+  th,td{border:1px solid var(--line);padding:5px 8px;text-align:left;vertical-align:top;}
+  th{color:var(--mut);font-weight:600;background:#151a2e;}
+  td b{color:var(--hl);font-weight:700;}
+  .end ul{margin:8px 0;padding-left:20px;font-size:14px;}
+  .end li{margin:3px 0;}
+  .kpis{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px;}
+  .kpis div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:130px;}
+  .kpis b{font-size:22px;display:block;}
+  .kpis span{font-size:12px;color:var(--mut);}
+  textarea{width:100%;min-height:320px;background:#0d1122;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:10px;font-family:ui-monospace,Menlo,monospace;font-size:12.5px;}
+  .shake{animation:sh .3s;}
+  @keyframes sh{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+  .fc{min-height:220px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;}
+  .fc .cverb{font-size:28px;font-weight:700;}
+  .fc .cen{font-size:17px;color:var(--mut);margin-top:6px;}
+  .fc .cq{font-size:13px;color:var(--hl);margin-top:14px;}
+  .fc .cans{font-size:24px;font-weight:700;margin-top:14px;}
+  .fc .cans b{color:var(--hl);}
+  .fc .cex{font-size:16px;margin-top:10px;}
+  .fc .cex i{color:var(--mut);font-size:14px;display:block;}
+  .fc .cmeta{font-size:13.5px;color:#8fb3ff;margin-top:10px;}
+  .fc .cnote{font-size:13.5px;color:var(--mut);margin-top:8px;max-width:640px;}
+  #fcard:focus{outline:none;}
+  .fcbtn{display:flex;gap:10px;justify-content:center;margin-top:12px;flex-wrap:wrap;}
+  .bad{background:#3a1d28;border-color:var(--no);}
+  .good2{background:#163327;border-color:var(--ok);}
+  .learn p,.learn li{font-size:14.5px;}
+  .learn ul{padding-left:20px;margin:6px 0;}
+  .learn .box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:12px;}
+  .learn .mn{color:var(--hl);font-weight:700;}
+  @media print{ body{background:#fff;color:#000;} .tabs,.help,.noprint{display:none !important;}
+    .learn .box,table,th,td{background:#fff !important;color:#000 !important;border-color:#999 !important;} td b,.learn .mn,h2{color:#000 !important;} }
+  [hidden]{display:none !important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Verben mit Präpositionen &amp; Kasus: B1 Trainer</h1>
+  <div class="sub">Kapitel 8, Seite 26–27 · <span id="cardCount"></span> Verben · <span id="itemCount"></span> Sätze · Fehler werden gespeichert</div>
+
+  <nav class="tabs">
+    <button data-tab="lernen">📘 Lernen</button>
+    <button data-tab="karten">🃏 Karteikarten</button>
+    <button data-tab="saetze">✍️ Sätze ergänzen</button>
+    <button data-tab="bericht">📊 Fortschritt &amp; Bericht</button>
+  </nav>
+
+  <!-- ================= LERNEN ================= -->
+  <section id="tab-lernen" class="learn">
+    <div class="help"><b>So übst du:</b> 1. Diese Seite lesen. 2. <b>Karteikarten</b>: eine Runde „Präposition + Kasus?“, dann eine Runde „Bedeutung?“. 3. <b>Sätze ergänzen</b> im Modus Smart (20 Sätze). 4. <b>Bericht kopieren</b> und an Claude schicken. Danach im Heft: Lücken füllen, Wörter ordnen, eigene Sätze.</div>
+
+    <div class="box">
+      <h2>1. Was ein Verb braucht (Ergänzungen)</h2>
+      <p>Jedes Verb sagt dir, welche Form danach kommt. Lerne das Verb immer <b>zusammen</b> mit seiner Ergänzung.</p>
+      <div class="tblwrap"><table>
+        <tr><th>Das Verb braucht …</th><th>Beispiel</th><th>Verben (S. 26–27)</th></tr>
+        <tr><td><b>Akkusativ</b> (wen? was?)</td><td>Ich kaufe <b>einen</b> Laptop.</td><td>kaufen, beschäftigen (employ), bereitstellen, zerstören, verschmutzen, gefährden, töten</td></tr>
+        <tr><td><b>Dativ</b> (wem?)</td><td>Das Rad gehört <b>meinem</b> Bruder.</td><td>gehören, helfen, nützen, schaden, gefallen, gelingen</td></tr>
+        <tr><td><b>Dativ + Akkusativ</b> (wem? + was?)</td><td>Ich schenke <b>meiner</b> Mutter <b>eine</b> Kette.</td><td>schenken, geben, sich (Dat) etwas vorstellen</td></tr>
+        <tr><td><b>Nominativ</b> (wie sein)</td><td>Das wird <b>ein</b> Erfolg.</td><td>werden</td></tr>
+        <tr><td><b>Präposition + Kasus</b></td><td>Ich freue mich <b>auf den</b> Urlaub.</td><td>siehe Teil 2</td></tr>
+      </table></div>
+      <p><span class="mn">Merksatz für die 6 Dativ-Verben:</span> Frag immer „<b>Wem?</b>“: Wem <b>hilft</b> das? Wem <b>nützt</b> das? Wem <b>schadet</b> das? Wem <b>gefällt</b> das? Wem <b>gelingt</b> das? Wem <b>gehört</b> das?</p>
+    </div>
+
+    <div class="box">
+      <h2>2. Verb + Präposition: Präposition und Kasus sind fest</h2>
+      <p>Die Präposition verliert ihre normale Bedeutung (<i>warten auf</i> = to wait for, nicht „on top of“). Darum musst du sie auswendig lernen. Der Kasus ist auch fest: die <b>wo?/wohin?-Regel gilt hier nicht</b>.</p>
+      <ul>
+        <li><b>über, auf, für, um</b> → in diesen Verben immer <b>Akkusativ</b> (für + um sind aus FUDGO).</li>
+        <li><b>mit, von, bei, vor</b> → immer <b>Dativ</b> (mit, von, bei aus der Dativ-Eidechse; vor ist in diesen Verben immer Dativ).</li>
+        <li><b>an</b> → <b>lernen!</b> denken an, sich erinnern an, sich gewöhnen an = <b>Akk</b>. zweifeln an = <b>Dat</b>.</li>
+      </ul>
+      <div class="tblwrap" id="learnTable"></div>
+    </div>
+
+    <div class="box">
+      <h2>3. Sache oder Person? (Übung 4)</h2>
+      <div class="tblwrap"><table>
+        <tr><th></th><th>Sache (Ding, Idee)</th><th>Person</th></tr>
+        <tr><td>Frage</td><td><b>Worauf</b> wartest du?</td><td><b>Auf wen</b> wartest du?</td></tr>
+        <tr><td>Antwort</td><td>Ich warte <b>darauf</b>.</td><td>Ich warte <b>auf ihn</b>.</td></tr>
+        <tr><td>mit + Dativ</td><td><b>Womit</b>? → <b>damit</b></td><td><b>Mit wem</b>? → <b>mit ihm / mit ihr / mit ihnen</b></td></tr>
+      </table></div>
+      <ul>
+        <li><b>r-Regel:</b> Fängt die Präposition mit einem Vokal an (a, u, ü), kommt ein <b>r</b> dazwischen: da<b>r</b>auf, da<b>r</b>an, da<b>r</b>über, da<b>r</b>um, wo<b>r</b>auf. Sonst nicht: damit, dafür, davon, davor, wobei.</li>
+        <li><b>Pronomen nach der Präposition:</b> Akk-Präposition → ihn, sie, es, sie, Sie. Dat-Präposition → ihm, ihr, ihm, ihnen, Ihnen (Tabelle 3).</li>
+        <li><b>da-Wort + dass / zu:</b> Ich freue mich <b>darauf</b>, Sie kennenzulernen. Ich bedanke mich <b>dafür</b>, dass Sie geholfen haben.</li>
+        <li>„Auf was?“ hört man oft, aber in der Prüfung schreibst du <b>Worauf?</b></li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>4. Gleiches Verb, andere Bedeutung</h2>
+      <div class="tblwrap"><table>
+        <tr><th>Verb</th><th>Bedeutung</th></tr>
+        <tr><td>sich freuen <b>auf</b> + Akk · sich freuen <b>über</b> + Akk</td><td>look forward to (Zukunft) · be happy about (schon passiert)</td></tr>
+        <tr><td>sprechen <b>mit</b> + Dat · sprechen <b>über</b> + Akk</td><td>talk to (Person) · talk about (Thema)</td></tr>
+        <tr><td>denken <b>an</b> + Akk · nachdenken <b>über</b> + Akk</td><td>have in mind, remember · think something over</td></tr>
+        <tr><td>sich bedanken <b>bei</b> + Dat <b>für</b> + Akk</td><td>bei = Person, für = Sache</td></tr>
+        <tr><td><b>sich</b> beschäftigen mit + Dat · beschäftigen + Akk</td><td>deal with, spend time on · employ</td></tr>
+        <tr><td><b>sich</b> treffen mit + Dat · jdn. treffen + Akk</td><td>meet up with (geplant) · meet, run into</td></tr>
+        <tr><td>sich (<b>Dat</b>) etwas vorstellen · sich (<b>Akk</b>) vorstellen</td><td>imagine (ich stelle <b>mir</b> vor) · introduce yourself (ich stelle <b>mich</b> vor)</td></tr>
+      </table></div>
+    </div>
+
+    <div class="box">
+      <h2>5. Prüfungstipp (Sprachbausteine)</h2>
+      <ul>
+        <li>Lies bis zum Ende des Satzes. Das Verb steht oft am Ende: „Ich habe mich sehr ___ Ihren Brief <b>gefreut</b>.“</li>
+        <li>Finde das Verb (mit sich und Vorsilbe), dann die Präposition, dann die Endung: <i>Ihren</i> = Akkusativ, passt zu über/auf.</li>
+        <li>freuen: Zeitwörter helfen. <i>nächste Woche, bald</i> → auf. <i>gestern, schon bekommen</i> → über.</li>
+      </ul>
+    </div>
+    <div class="row noprint"><button id="printLearn">🖨 Diese Seite drucken</button></div>
+  </section>
+
+  <!-- ================= KARTEIKARTEN ================= -->
+  <section id="tab-karten" hidden>
+    <div class="help"><b>Karteikarten:</b> Sag die Antwort laut oder schreib sie auf, <b>dann</b> umdrehen. Sei ehrlich: „Nochmal“ bringt die Karte in dieser Runde zurück. Eine Karte ist <b>sicher</b>, wenn du sie 3× in Folge gewusst hast.</div>
+    <div class="bar">
+      <select id="deck"></select>
+      <select id="dir">
+        <option value="prep">Präposition + Kasus?</option>
+        <option value="mean">Bedeutung?</option>
+      </select>
+      <select id="cmode">
+        <option value="smart">Smart (Nochmal-Karten zuerst)</option>
+        <option value="fehler">Nur „Nochmal“-Karten</option>
+        <option value="alle">Alle gemischt</option>
+      </select>
+      <select id="csize">
+        <option value="20">20 Karten</option>
+        <option value="alle">Alle</option>
+      </select>
+      <button id="cstart">▶ Neue Runde</button>
+    </div>
+    <div class="stats">Sicher: <b id="cMastered">0</b>/<b id="cTotal">0</b> (diese Richtung) · Karte <b id="cIdx">0</b>/<b id="cLen">0</b> · gewusst: <b id="cOk">0</b></div>
+    <div class="card fc" id="fcard" tabindex="-1">
+      <div id="fcFront"></div>
+      <div id="fcBack" hidden></div>
+      <div class="flash" id="cflash"></div>
+      <div class="fcbtn" id="fcFlipRow"><button class="go" id="flipBtn">Umdrehen</button></div>
+      <div class="fcbtn" id="fcGradeRow" hidden><button class="bad" id="againCard">✗ Nochmal</button><button class="good2" id="knewCard">✓ Gewusst</button></div>
+      <div id="cEnd" class="end" hidden></div>
+    </div>
+    <div class="hint"><kbd>Leertaste</kbd> oder <kbd>Enter</kbd> = umdrehen · danach <kbd>←</kbd> = Nochmal, <kbd>→</kbd> = Gewusst. Ohne Umdrehen geht es nicht weiter.</div>
+  </section>
+
+  <!-- ================= SÄTZE ================= -->
+  <section id="tab-saetze" hidden>
+    <div class="help"><b>Sätze ergänzen:</b> Typ 1 Präposition · Typ 2 Präposition + Artikel · Typ 3 da-/wo-Wörter und Pronomen (wie Übung 4) · Typ 4 Dativ oder Akkusativ (wie Übung 5). <b>Smart</b> bringt deine Fehler zurück, bis sie sitzen.</div>
+    <div class="bar">
+      <select id="area"></select>
+      <select id="mode">
+        <option value="smart">Smart (Fehler zuerst)</option>
+        <option value="fehler">Nur meine Fehler</option>
+        <option value="reihe">Der Reihe nach (Typ 1 → 4)</option>
+        <option value="alle">Alle gemischt</option>
+      </select>
+      <select id="size">
+        <option value="20">20 Sätze</option>
+        <option value="40">40 Sätze</option>
+        <option value="alle">Alle</option>
+      </select>
+      <label class="tog"><input type="checkbox" id="retype"> Korrektur abtippen</label>
+      <button id="start">▶ Neue Runde</button>
+    </div>
+    <div class="stats">Sicher (3× richtig in Folge): <b id="mastered">0</b>/<b id="total">0</b> · Satz <b id="rIdx">0</b>/<b id="rLen">0</b> · richtig in dieser Runde: <b id="rOk">0</b></div>
+    <div class="card" id="scard">
+      <div id="qa">
+        <span class="tag" id="tag">–</span><span class="caps" id="capsBadge" hidden>Aa: Groß/klein zählt</span>
+        <div class="task" id="task"></div>
+        <div class="q" id="q">…</div>
+        <div class="hintline" id="hintline"></div>
+        <div class="row"><button class="go" id="go">Prüfen</button></div>
+        <div class="flash" id="flash"></div>
+        <div class="fb" id="fb"></div>
+      </div>
+      <div id="endBox" class="end" hidden></div>
+      <div class="prog"><i id="pbar"></i></div>
+    </div>
+    <div class="hint"><kbd>Enter</kbd> = nächste Lücke / prüfen · nach dem Prüfen: <kbd>Enter</kbd> oder <kbd>→</kbd> = weiter. Ohne Antwort geht es nicht weiter. Ohne deutsche Tastatur geht auch ue für ü.</div>
+  </section>
+
+  <!-- ================= BERICHT ================= -->
+  <section id="tab-bericht" hidden>
+    <div class="help"><b>Für Claude:</b> „Bericht kopieren“ und im Chat einfügen, oder „Bericht speichern“ (landet in Downloads). Der Bericht zeigt deine Fehler nach Art, deine Verwechslungen (z. B. an statt auf) und deine Problem-Verben.</div>
+    <div id="summary"></div>
+    <div class="row" style="margin-bottom:10px">
+      <button class="go" id="copyRep">📋 Bericht kopieren</button>
+      <button id="saveRep">💾 Bericht speichern (.md)</button>
+      <button id="expProg">💾 Fortschritt sichern</button>
+      <button id="impProg">📂 Fortschritt laden</button>
+      <input type="file" id="impFile" accept=".json,application/json" hidden>
+      <button id="resetProg">🗑 Alles zurücksetzen</button>
+    </div>
+    <div class="hint" id="copyMsg" style="margin-bottom:8px"></div>
+    <textarea id="repText" readonly></textarea>
+    <div class="hint" style="margin-top:8px">Der Fortschritt bleibt nur in diesem Browser auf diesem Computer. Neuer Computer: hier „Fortschritt sichern“, die Datei mitnehmen, dort „Fortschritt laden“.</div>
+  </section>
+</div>
+<script>
+/*DATA-START*/
+// ---------- CARDS: C(id, group P=Verb+Präposition / K=Verb+Kasus, verb, preps-or-cases, meaning, forms, examples, note) ----------
+const CARDS = [];
+function C(id, grp, verb, gov, en, forms, ex, note){
+  const c = {id, grp, verb, en, forms, ex, note};
+  if (grp === "P") c.preps = gov.split(" ").map(x => { const [p, k] = x.split("+"); return {p, k}; });
+  else c.obj = gov;
+  CARDS.push(c);
+}
+// Verb + Präposition (Seite 26–27)
+C("achten_auf","P","achten","auf+A","to pay attention to","achtet, achtete, hat geachtet",[["Achten Sie bitte auf die Rechtschreibung.","Please pay attention to spelling."]],"Often with darauf, dass …: Achten Sie darauf, dass die Tür zu ist.");
+C("denken_an","P","denken","an+A","to think of, to think about; to remember (not forget)","denkt, dachte, hat gedacht",[["Ich denke oft an meine Familie in den USA.","I often think about my family in the US."],["Denk an deinen Schlüssel!","Don't forget your key!"]],"denken an = someone or something is in your mind. nachdenken über = you think something through.");
+C("beschaeftigen_mit","P","sich beschäftigen","mit+D","to deal with, to spend time on","beschäftigt sich, beschäftigte sich, hat sich beschäftigt",[["In meiner Freizeit beschäftige ich mich mit Fotografie.","In my free time I'm into photography."]],"Without sich and mit, beschäftigen + Akk means to employ (Die Firma beschäftigt 200 Menschen) or to be on someone's mind (Die Frage beschäftigt mich).");
+C("wichtig_fuer","P","wichtig sein","für+A","to be important to, to be important for","",[["Gesundheit ist für mich sehr wichtig.","Health is very important to me."]],"English says important to me, German says wichtig für mich. Also possible: Das ist mir wichtig (+ Dat).");
+C("kuemmern_um","P","sich kümmern","um+A","to take care of, to look after","kümmert sich, kümmerte sich, hat sich gekümmert",[["Wer kümmert sich um die Katze, wenn du weg bist?","Who will take care of the cat when you are away?"]],"");
+C("interessieren_fuer","P","sich interessieren","für+A","to be interested in","interessiert sich, interessierte sich, hat sich interessiert",[["Ich interessiere mich für Geschichte.","I am interested in history."]],"Also: an etwas interessiert sein (+ Dat), mostly for something you want to get or join: Ich bin an der Stelle interessiert.");
+C("sprechen_mit","P","sprechen","mit+D","to speak with, to talk to","spricht, sprach, hat gesprochen",[["Ich muss mit meiner Chefin sprechen.","I have to talk to my boss."]],"mit = the person (Dativ). über = the topic (Akkusativ): Ich spreche mit ihr über das Projekt.");
+C("sprechen_ueber","P","sprechen","über+A","to talk about","spricht, sprach, hat gesprochen",[["Wir müssen über das Problem sprechen.","We need to talk about the problem."]],"mit = the person (Dativ). über = the topic (Akkusativ).");
+C("freuen_ueber","P","sich freuen","über+A","to be happy about, to be glad about","freut sich, freute sich, hat sich gefreut",[["Ich habe mich sehr über dein Geschenk gefreut.","I was very happy about your present."]],"über = something you already have, or that already happened. auf = something in the future.");
+C("freuen_auf","P","sich freuen","auf+A","to look forward to","freut sich, freute sich, hat sich gefreut",[["Ich freue mich auf das Wochenende.","I am looking forward to the weekend."]],"auf = something in the future. über = something you already have, or that already happened.");
+C("bedanken","P","sich bedanken","bei+D für+A","to thank (someone for something)","bedankt sich, bedankte sich, hat sich bedankt",[["Ich bedanke mich bei Ihnen für die schnelle Antwort.","Thank you for the quick reply."]],"bei = the person (Dativ). für = the thing (Akkusativ). Without sich: jdm. danken für (Ich danke dir für die Hilfe).");
+C("warten_auf","P","warten","auf+A","to wait for","wartet, wartete, hat gewartet",[["Wir warten auf den Bus.","We are waiting for the bus."]],"");
+C("aergern_ueber","P","sich ärgern","über+A","to be annoyed about, to be angry about","ärgert sich, ärgerte sich, hat sich geärgert",[["Ich ärgere mich über den Lärm.","I am annoyed about the noise."]],"Without sich: jdn. ärgern = to annoy someone (Mein Bruder ärgert mich).");
+C("lachen_ueber","P","lachen","über+A","to laugh at, to laugh about","lacht, lachte, hat gelacht",[["Wir haben lange über den Witz gelacht.","We laughed at the joke for a long time."]],"");
+C("treffen_mit","P","sich treffen","mit+D","to meet up with","trifft sich, traf sich, hat sich getroffen",[["Ich treffe mich heute Abend mit Freunden.","I am meeting up with friends tonight."]],"Without sich: jdn. treffen (+ Akk) = to meet, to run into (Ich habe gestern deinen Bruder getroffen).");
+C("nachdenken_ueber","P","nach|denken","über+A","to think about, to think over","denkt nach, dachte nach, hat nachgedacht",[["Ich muss noch über dein Angebot nachdenken.","I still have to think over your offer."]],"Separable: nach goes to the end. denken an = someone or something is in your mind.");
+C("bitten_um","P","jdn. bitten","um+A","to ask (someone) for","bittet, bat, hat gebeten",[["Darf ich Sie um einen Gefallen bitten?","May I ask you for a favor?"]],"The person is Akkusativ: Ich bitte dich. bitten um = ask for something you want. fragen nach = ask for information.");
+C("erinnern_an","P","sich erinnern","an+A","to remember","erinnert sich, erinnerte sich, hat sich erinnert",[["Erinnerst du dich an unseren ersten Urlaub?","Do you remember our first vacation?"]],"Without sich: jdn. an etwas erinnern = to remind someone of something (Erinnerst du mich an den Termin?).");
+C("gewoehnen_an","P","sich gewöhnen","an+A","to get used to","gewöhnt sich, gewöhnte sich, hat sich gewöhnt",[["Ich habe mich an das Wetter in Berlin gewöhnt.","I have gotten used to the weather in Berlin."]],"");
+C("hoeren_von","P","hören","von+D","to hear about, to hear from","hört, hörte, hat gehört",[["Ich habe lange nichts von ihm gehört.","I haven't heard from him for a long time."]],"");
+C("fuerchten_vor","P","sich fürchten","vor+D","to be afraid of","fürchtet sich, fürchtete sich, hat sich gefürchtet",[["Viele Kinder fürchten sich vor der Dunkelheit.","Many children are afraid of the dark."]],"Same meaning: Angst haben vor + Dat. vor is always Dativ in these pairs.");
+C("zweifeln_an","P","zweifeln","an+D","to doubt, to have doubts about","zweifelt, zweifelte, hat gezweifelt",[["Ich zweifle manchmal an meinem Deutsch.","Sometimes I doubt my German."]],"Careful: an + Dativ here, but denken an, sich erinnern an and sich gewöhnen an take Akkusativ.");
+C("verabreden_mit","P","sich verabreden","mit+D","to arrange to meet","verabredet sich, verabredete sich, hat sich verabredet",[["Ich habe mich mit Lisa zum Kaffee verabredet.","I have arranged to meet Lisa for coffee."]],"The state: mit jdm. verabredet sein = to have plans with someone.");
+C("ausgeben_fuer","P","aus|geben","für+A","to spend (money) on","gibt aus, gab aus, hat ausgegeben",[["Wie viel gibst du im Monat für Lebensmittel aus?","How much do you spend on groceries a month?"]],"Separable: aus goes to the end.");
+C("bezahlen_fuer","P","(be)zahlen","für+A","to pay for","bezahlt, bezahlte, hat bezahlt (zahlen: zahlt, zahlte, hat gezahlt)",[["Ich habe 30 Euro für das Ticket bezahlt.","I paid 30 euros for the ticket."]],"Without für, the thing you pay is Akkusativ: Ich bezahle die Rechnung.");
+// Verb + Kasus (Seite 26 Kasten, Übung 4 und 5): obj = N (Nominativ), A (Akkusativ), D (Dativ), "D A" (Person Dativ + Sache Akkusativ), "rD A" (sich im Dativ + Akkusativ)
+C("kaufen","K","kaufen","A","to buy","kauft, kaufte, hat gekauft",[["Ich kaufe einen neuen Laptop.","I am buying a new laptop."]],"For someone, add a Dativ: Ich kaufe dir ein Eis.");
+C("gehoeren","K","gehören","D","to belong to (to be owned by)","gehört, gehörte, hat gehört",[["Das Fahrrad gehört meinem Bruder.","The bike belongs to my brother."]],"The owner is Dativ: Das gehört mir. To be part of a group: gehören zu + Dat (Das gehört zu meinen Aufgaben).");
+C("werden","K","werden","N","to become","wird, wurde, ist geworden",[["Sie ist letztes Jahr Mutter geworden.","She became a mother last year."],["Das wird ein schöner Abend.","That will be a nice evening."]],"werden takes Nominativ, like sein: Das wird ein Problem (not einen). Jobs have no article (Sie wird Lehrerin), but a possessive is fine (Er wird unser Teamleiter).");
+C("schenken","K","schenken","D A","to give (as a present)","schenkt, schenkte, hat geschenkt",[["Ich schenke meiner Mutter eine Kette.","I am giving my mother a necklace."]],"The person is Dativ, the present is Akkusativ.");
+C("nuetzen","K","nützen","D","to be useful to, to benefit","nützt, nützte, hat genützt",[["Gute Deutschkenntnisse nützen dir im Beruf.","Good German is useful to you at work."]],"nutzen can mean the same, but nutzen + Akk usually means to use: Ich nutze die Chance. Question: Wem nützt das?");
+C("helfen","K","helfen","D","to help","hilft, half, hat geholfen",[["Kannst du mir helfen?","Can you help me?"]],"The person is always Dativ: Ich helfe dir, ich helfe Ihnen. The task takes bei + Dat: Hilfst du mir bei den Hausaufgaben?");
+C("beschaeftigen","K","beschäftigen","A","to employ; to be on someone's mind","beschäftigt, beschäftigte, hat beschäftigt",[["Die Firma beschäftigt 200 Menschen.","The company employs 200 people."],["Die Frage beschäftigt mich schon lange.","That question has been on my mind for a long time."]],"With sich and mit it means to deal with (see sich beschäftigen mit).");
+C("bereitstellen","K","bereit|stellen","A","to provide, to make available","stellt bereit, stellte bereit, hat bereitgestellt",[["Die Stadt stellt neue Kita-Plätze bereit.","The city is providing new daycare places."]],"Separable: bereit goes to the end. Formal, common in news and official texts.");
+C("geben","K","geben","D A","to give","gibt, gab, hat gegeben",[["Kannst du mir bitte das Salz geben?","Can you give me the salt, please?"]],"The person is Dativ, the thing is Akkusativ.");
+C("gefallen","K","gefallen","D","to be liked by (es gefällt mir = I like it)","gefällt, gefiel, hat gefallen",[["Die Wohnung gefällt mir sehr.","I like the apartment a lot."]],"The thing you like is the subject. The person who likes it is Dativ: Berlin gefällt mir.");
+C("schaden","K","schaden","D","to harm, to be bad for","schadet, schadete, hat geschadet",[["Rauchen schadet der Gesundheit.","Smoking harms your health."]],"Question: Wem schadet das?");
+C("zerstoeren","K","zerstören","A","to destroy","zerstört, zerstörte, hat zerstört",[["Der Sturm hat das Dach zerstört.","The storm destroyed the roof."]],"");
+C("verschmutzen","K","verschmutzen","A","to pollute, to make dirty","verschmutzt, verschmutzte, hat verschmutzt",[["Die Fabrik verschmutzt den Fluss.","The factory is polluting the river."]],"");
+C("gefaehrden","K","gefährden","A","to put at risk, to endanger","gefährdet, gefährdete, hat gefährdet",[["Zu schnelles Fahren gefährdet andere Menschen.","Driving too fast puts other people at risk."]],"");
+C("toeten","K","töten","A","to kill","tötet, tötete, hat getötet",[["Das Gift tötet die Insekten.","The poison kills the insects."]],"");
+C("gelingen","K","gelingen","D","to succeed, to turn out well (es gelingt mir = I manage)","gelingt, gelang, ist gelungen",[["Der Kuchen ist mir gut gelungen.","My cake turned out well."],["Es ist mir gelungen, eine Wohnung zu finden.","I managed to find an apartment."]],"The person is Dativ, the thing is the subject. Perfekt with sein.");
+C("vorstellen","K","sich vor|stellen","rD A","to imagine","stellt sich vor, stellte sich vor, hat sich vorgestellt",[["Ich kann mir ein Leben ohne Musik nicht vorstellen.","I can't imagine a life without music."]],"Here sich is Dativ: ich stelle mir vor, du stellst dir vor. With an Akkusativ sich it means to introduce yourself: Ich stelle mich vor.");
+// ---------- ITEMS ----------
+// S(id, card, typ, sentence with ___, answers ("/" between blanks, "|" between accepted forms, first = best), English, hint)
+// typ: P = Präposition · PA = Präposition + Artikel · DA = Pronomen, da-/wo-Wörter · KA = Dativ oder Akkusativ (K(), with cases per blank)
+const ITEMS = [];
+function S(id, card, typ, q, a, en, hint, note){ ITEMS.push({id, card, typ, q, a: a.split("/").map(x => x.split("|")), en, hint: hint || "", cases: null, note: note || ""}); }
+function K(id, card, cases, q, a, en, hint, note){ ITEMS.push({id, card, typ: "KA", q, a: a.split("/").map(x => x.split("|")), en, hint, cases: cases.split(" "), note: note || ""}); }
+
+// Typ 1: Präposition (70)
+S("a01","achten_auf","P","Beim Schreiben achte ich besonders ___ die Endungen.","auf","When I write, I pay special attention to the endings.");
+S("a02","achten_auf","P","Bitte achten Sie im Zug ___ Ihre Wertsachen.","auf","Please keep an eye on your valuables on the train.");
+S("a03","achten_auf","P","Der Lehrer sagt, dass wir mehr ___ die Wortstellung achten sollen.","auf","The teacher says that we should pay more attention to word order.");
+S("a04","denken_an","P","Denk bitte ___ den Termin morgen um neun!","an","Please remember the appointment tomorrow at nine!");
+S("a05","denken_an","P","Ich habe den ganzen Tag ___ dich gedacht.","an","I thought about you all day.");
+S("a06","denken_an","P","Wenn ich ___ meine Kindheit denke, bin ich glücklich.","an","When I think of my childhood, I feel happy.");
+S("a07","beschaeftigen_mit","P","Im Kurs beschäftigen wir uns gerade ___ dem Perfekt.","mit","In class we are working on the Perfekt right now.");
+S("a08","beschaeftigen_mit","P","Mein Bruder beschäftigt sich seit Jahren ___ alten Autos.","mit","My brother has been into old cars for years.");
+S("a09","beschaeftigen_mit","P","Ich habe keine Zeit, mich ___ diesem Problem zu beschäftigen.","mit","I have no time to deal with this problem.");
+S("a10","wichtig_fuer","P","Eine gute Ausbildung ist ___ die Zukunft sehr wichtig.","für","A good education is very important for the future.");
+S("a11","wichtig_fuer","P","Was ist ___ dich bei einer Wohnung am wichtigsten?","für","What matters most to you in an apartment?");
+S("a12","kuemmern_um","P","Wer kümmert sich am Wochenende ___ den Hund?","um","Who takes care of the dog on the weekend?");
+S("a13","kuemmern_um","P","Keine Sorge, ich kümmere mich ___ alles.","um","Don't worry, I'll take care of everything.");
+S("a14","kuemmern_um","P","Nach der Operation hat sich meine Schwester ___ unsere Mutter gekümmert.","um","After the operation my sister looked after our mother.");
+S("a15","interessieren_fuer","P","Ich interessiere mich sehr ___ Politik.","für","I am very interested in politics.");
+S("a16","interessieren_fuer","P","Mein Neffe hat sich noch nie ___ Sport interessiert.","für","My nephew has never been interested in sports.");
+S("a17","interessieren_fuer","P","Interessieren Sie sich ___ unsere neuen Kurse?","für","Are you interested in our new courses?");
+S("a18","sprechen_mit","P","Hast du schon ___ deinem Vermieter gesprochen?","mit","Have you talked to your landlord yet?");
+S("a19","sprechen_mit","P","Ich möchte bitte ___ Herrn Schulz sprechen. Ist er im Büro?","mit","I would like to speak with Mr Schulz, please. Is he in the office?");
+S("a20","sprechen_mit","P","Sprich doch einfach ___ ihr, dann geht es dir besser.","mit","Just talk to her, then you will feel better.");
+S("a21","sprechen_ueber","P","Im Unterricht haben wir ___ das Thema Umwelt gesprochen.","über","In class we talked about the topic of the environment.");
+S("a22","sprechen_ueber","P","Paare sollten offen ___ ihre Probleme sprechen.","über","Couples should talk openly about their problems.");
+S("a23","sprechen_ueber","P","Wir müssen dringend ___ den Urlaub sprechen.","über","We urgently need to talk about the vacation.");
+S("a24","freuen_ueber","P","Ich habe mich sehr ___ deinen Anruf gestern gefreut.","über","I was very happy about your call yesterday.");
+S("a25","freuen_ueber","P","Die Kinder freuen sich ___ den Schnee, der heute Nacht gefallen ist.","über","The children are happy about the snow that fell last night.");
+S("a26","freuen_ueber","P","Meine Eltern haben sich sehr ___ mein Geschenk gefreut, als sie es ausgepackt haben.","über","My parents were very happy about my present when they unwrapped it.");
+S("a27","freuen_auf","P","Ich freue mich schon ___ die Ferien im Sommer.","auf","I'm already looking forward to summer vacation.");
+S("a28","freuen_auf","P","Wir freuen uns ___ Ihren Besuch nächste Woche.","auf","We are looking forward to your visit next week.");
+S("a29","freuen_auf","P","Freust du dich schon ___ deinen ersten Arbeitstag am Montag?","auf","Are you looking forward to your first day at work on Monday?");
+S("a30","bedanken","P","Ich möchte mich ___ Ihnen ___ die freundliche Hilfe bedanken.","bei/für","I would like to thank you for your kind help.");
+S("a31","bedanken","P","Hast du dich schon ___ Oma ___ das Geschenk bedankt?","bei/für","Have you thanked Grandma for the present yet?");
+S("a32","bedanken","P","Wir bedanken uns herzlich ___ Ihr Verständnis.","für","Thank you very much for your understanding.");
+S("a33","warten_auf","P","Ich warte schon seit einer Stunde ___ dich!","auf","I've been waiting for you for an hour!");
+S("a34","warten_auf","P","Wir warten noch ___ eine Antwort von der Firma.","auf","We are still waiting for an answer from the company.");
+S("a35","warten_auf","P","Die Leute an der Haltestelle warten ___ die nächste Tram.","auf","The people at the stop are waiting for the next tram.");
+S("a36","aergern_ueber","P","Ärgere dich nicht ___ deine Note, nächstes Mal wird es besser!","über","Don't be upset about your grade, next time it will be better!");
+S("a37","aergern_ueber","P","Mein Vater ärgert sich jeden Tag ___ den Verkehr.","über","My father gets annoyed about the traffic every day.");
+S("a38","aergern_ueber","P","Ich habe mich sehr ___ die hohe Rechnung geärgert.","über","I was very annoyed about the high bill.");
+S("a39","lachen_ueber","P","Alle haben ___ seine Witze gelacht.","über","Everyone laughed at his jokes.");
+S("a40","lachen_ueber","P","Bitte lach nicht ___ mich, ich lerne noch!","über","Please don't laugh at me, I'm still learning!");
+S("a41","lachen_ueber","P","Wir haben noch lange ___ den lustigen Film gelacht.","über","We laughed about the funny movie for a long time.");
+S("a42","treffen_mit","P","Am Samstag treffe ich mich ___ meinen Kollegen.","mit","On Saturday I'm meeting up with my colleagues.");
+S("a43","treffen_mit","P","Triffst du dich heute noch ___ Anna?","mit","Are you meeting up with Anna later today?");
+S("a44","treffen_mit","P","Sie trifft sich jeden Freitag ___ ihrer besten Freundin.","mit","She meets up with her best friend every Friday.");
+S("a45","nachdenken_ueber","P","Ich habe lange ___ deine Frage nachgedacht.","über","I thought about your question for a long time.");
+S("a46","nachdenken_ueber","P","Denk mal ___ meinen Vorschlag nach!","über","Think about my suggestion!");
+S("a47","nachdenken_ueber","P","Er denkt oft ___ sein Leben in Amerika nach.","über","He often thinks about his life in America.");
+S("a48","bitten_um","P","Darf ich Sie ___ Ihre Unterschrift bitten?","um","May I ask you for your signature?");
+S("a49","bitten_um","P","Bei Problemen kannst du mich jederzeit ___ Hilfe bitten.","um","If you have problems, you can ask me for help anytime.");
+S("a50","bitten_um","P","Der Kunde hat ___ eine schnelle Antwort gebeten.","um","The customer asked for a quick reply.");
+S("a51","erinnern_an","P","Ich erinnere mich gut ___ meinen ersten Tag in Berlin.","an","I remember my first day in Berlin well.");
+S("a52","erinnern_an","P","Erinnern Sie sich noch ___ mich? Wir waren zusammen im Kurs.","an","Do you still remember me? We were in the course together.");
+S("a53","erinnern_an","P","Leider kann ich mich nicht ___ seinen Namen erinnern.","an","Unfortunately I can't remember his name.");
+S("a54","gewoehnen_an","P","Hast du dich schon ___ die neue Arbeit gewöhnt?","an","Have you gotten used to the new job yet?");
+S("a55","gewoehnen_an","P","Ich kann mich einfach nicht ___ das frühe Aufstehen gewöhnen.","an","I just can't get used to getting up early.");
+S("a56","gewoehnen_an","P","Man gewöhnt sich schnell ___ ein Leben ohne Auto.","an","You quickly get used to a life without a car.");
+S("a57","hoeren_von","P","Hast du schon ___ dem neuen Café am Kanal gehört?","von","Have you heard about the new café by the canal?");
+S("a58","hoeren_von","P","Seit Wochen habe ich nichts ___ meiner Schwester gehört.","von","I haven't heard from my sister in weeks.");
+S("a59","hoeren_von","P","Ich habe ___ einer Freundin gehört, dass der Kurs gut ist.","von","I heard from a friend that the course is good.");
+S("a60","fuerchten_vor","P","Mein Hund fürchtet sich ___ Gewittern.","vor","My dog is afraid of thunderstorms.");
+S("a61","fuerchten_vor","P","Fürchtest du dich ___ der Prüfung?","vor","Are you afraid of the exam?");
+S("a62","fuerchten_vor","P","Als Kind habe ich mich ___ großen Hunden gefürchtet.","vor","As a child I was afraid of big dogs.");
+S("a63","zweifeln_an","P","Ich zweifle nicht ___ deinem Erfolg.","an","I don't doubt your success.");
+S("a64","zweifeln_an","P","Viele Experten zweifeln ___ diesem Plan.","an","Many experts have doubts about this plan.");
+S("a65","verabreden_mit","P","Ich habe mich ___ Tom fürs Kino verabredet.","mit","I've arranged to go to the movies with Tom.");
+S("a66","verabreden_mit","P","Heute Abend bin ich ___ meinen Eltern verabredet.","mit","Tonight I have plans with my parents.");
+S("a67","ausgeben_fuer","P","Wie viel Geld gibst du ___ Kleidung aus?","für","How much money do you spend on clothes?");
+S("a68","ausgeben_fuer","P","Letzten Monat habe ich zu viel Geld ___ Restaurantbesuche ausgegeben.","für","Last month I spent too much money on eating out.");
+S("a69","bezahlen_fuer","P","Wie viel hast du ___ die Konzertkarten bezahlt?","für","How much did you pay for the concert tickets?");
+S("a70","bezahlen_fuer","P","Wir zahlen 900 Euro Miete ___ unsere Wohnung.","für","We pay 900 euros rent for our apartment.");
+// Typ 2: Präposition + Artikel (40). Hint = the noun with its Nominativ article (or the stem to use).
+S("b01","achten_auf","PA","Achten Sie bitte ___ Verkehr!","auf den","Please watch the traffic!","der Verkehr");
+S("b02","achten_auf","PA","Ich achte jetzt mehr ___ Gesundheit.","auf meine","I'm paying more attention to my health now.","mein… + die Gesundheit");
+S("b03","denken_an","PA","Hast du ___ Geburtstag von Oma gedacht?","an den","Did you remember Grandma's birthday?","der Geburtstag");
+S("b04","denken_an","PA","Ich denke oft ___ Freunde in New York.","an meine","I often think of my friends in New York.","mein… + die Freunde (Pl.)");
+S("b05","beschaeftigen_mit","PA","Wir beschäftigen uns gerade ___ Thema Wohnen.","mit dem","We are working on the topic of housing right now.","das Thema");
+S("b06","beschaeftigen_mit","PA","Sie beschäftigt sich viel ___ Kindern.","mit ihren","She spends a lot of time with her children.","ihr… + die Kinder (Pl.)");
+S("b07","kuemmern_um","PA","Kannst du dich ___ Blumen kümmern, wenn ich im Urlaub bin?","um meine","Can you take care of my flowers when I'm on vacation?","mein… + die Blumen (Pl.)");
+S("b08","kuemmern_um","PA","Der Hausmeister kümmert sich ___ Garten.","um den","The caretaker takes care of the garden.","der Garten");
+S("b09","interessieren_fuer","PA","Ich interessiere mich sehr ___ ausgeschriebene Stelle als Entwickler.","für Ihre","I am very interested in the developer position you advertised.","Ihr… + die Stelle");
+S("b10","interessieren_fuer","PA","Interessierst du dich ___ Geschichte dieser Stadt?","für die","Are you interested in the history of this city?","die Geschichte");
+S("b11","sprechen_mit","PA","Ich muss dringend ___ Chefin sprechen. Ich brauche nächste Woche frei.","mit meiner","I urgently need to talk to my boss. I need next week off.","mein… + die Chefin");
+S("b12","sprechen_mit","PA","Hast du schon ___ Arzt über die Ergebnisse gesprochen?","mit dem","Have you talked to the doctor about the results yet?","der Arzt");
+S("b13","sprechen_ueber","PA","Lass uns morgen ___ Plan sprechen.","über den","Let's talk about the plan tomorrow.","der Plan");
+S("b14","sprechen_ueber","PA","Wir haben lange ___ Buch gesprochen.","über das|übers","We talked about the book for a long time.","das Buch");
+S("b15","freuen_ueber","PA","Danke! Ich habe mich sehr ___ Nachricht gefreut.","über deine","Thanks! I was very happy about your message.","dein… + die Nachricht");
+S("b16","freuen_ueber","PA","Die Kinder freuen sich ___ Geschenke, die sie gestern bekommen haben.","über die","The children are happy about the presents they got yesterday.","die Geschenke (Pl.)");
+S("b17","freuen_auf","PA","Ich freue mich schon ___ Wochenende.","auf das|aufs","I'm already looking forward to the weekend.","das Wochenende");
+S("b18","freuen_auf","PA","Wir freuen uns ___ baldige Antwort.","auf Ihre","We look forward to your prompt reply.","Ihr… + die Antwort","With würde, über also works: Über eine baldige Antwort würde ich mich freuen. Without würde, use auf: Wir freuen uns auf Ihre Antwort.");
+S("b19","bedanken","PA","Ich bedanke mich ___ Einladung.","für Ihre","Thank you for your invitation.","Ihr… + die Einladung");
+S("b20","bedanken","PA","Ich möchte mich ___ Kollegen für die tolle Zusammenarbeit bedanken.","bei meinen","I would like to thank my colleagues for the great teamwork.","mein… + die Kollegen (Pl.)");
+S("b21","warten_auf","PA","Ich warte ___ Paket aus Amerika.","auf ein","I'm waiting for a package from America.","ein… + das Paket");
+S("b22","warten_auf","PA","Wir warten schon lange ___ Termin beim Bürgeramt.","auf einen","We've been waiting a long time for an appointment at the Bürgeramt.","ein… + der Termin");
+S("b23","aergern_ueber","PA","Ich ärgere mich ___ Nachbarn, weil sie so laut sind.","über die","I'm annoyed with the neighbors because they are so loud.","die Nachbarn (Pl.)");
+S("b24","aergern_ueber","PA","Ärgerst du dich immer noch ___ Fehler?","über deinen","Are you still annoyed about your mistake?","dein… + der Fehler");
+S("b25","bitten_um","PA","Ich bitte Sie ___ Verständnis.","um Ihr","I ask for your understanding.","Ihr… + das Verständnis");
+S("b26","bitten_um","PA","Er hat mich ___ Gefallen gebeten.","um einen","He asked me for a favor.","ein… + der Gefallen");
+S("b27","erinnern_an","PA","Ich erinnere mich noch genau ___ Tag unserer Hochzeit.","an den","I still remember our wedding day exactly.","der Tag");
+S("b28","erinnern_an","PA","Erinnerst du dich ___ Urlaub in Italien?","an unseren","Do you remember our vacation in Italy?","unser… + der Urlaub");
+S("b29","gewoehnen_an","PA","Ich habe mich ___ Kälte gewöhnt.","an die","I have gotten used to the cold.","die Kälte");
+S("b30","gewoehnen_an","PA","Hast du dich schon ___ Leben in Berlin gewöhnt?","an das|ans","Have you gotten used to life in Berlin yet?","das Leben");
+S("b31","wichtig_fuer","PA","Diese Entscheidung ist sehr wichtig ___ Zukunft.","für unsere","This decision is very important for our future.","unser… + die Zukunft");
+S("b32","lachen_ueber","PA","Die ganze Klasse hat ___ Fehler gelacht, sogar er selbst.","über seinen","The whole class laughed about his mistake, even he did.","sein… + der Fehler");
+S("b33","treffen_mit","PA","Ich treffe mich heute ___ Team.","mit dem","I'm meeting up with the team today.","das Team");
+S("b34","nachdenken_ueber","PA","Ich muss noch ___ Angebot nachdenken.","über das|übers","I still need to think about the offer.","das Angebot");
+S("b35","hoeren_von","PA","Hast du schon ___ Unfall auf der Autobahn gehört?","vom|von dem","Have you heard about the accident on the Autobahn?","der Unfall");
+S("b36","fuerchten_vor","PA","Viele Menschen fürchten sich ___ Zukunft.","vor der","Many people are afraid of the future.","die Zukunft");
+S("b37","zweifeln_an","PA","Niemand zweifelt ___ Erfolg des Projekts.","am|an dem","Nobody doubts the success of the project.","der Erfolg");
+S("b38","verabreden_mit","PA","Morgen bin ich ___ Freundin verabredet.","mit einer","Tomorrow I have plans with a friend.","ein… + die Freundin");
+S("b39","ausgeben_fuer","PA","Wir haben viel Geld ___ neuen Kühlschrank ausgegeben.","für den","We spent a lot of money on the new fridge.","der Kühlschrank");
+S("b40","bezahlen_fuer","PA","Ich habe zu viel ___ Ticket bezahlt.","für das|fürs","I paid too much for the ticket.","das Ticket");
+
+// Typ 3: Pronomen, da-/wo-Wörter (50). Thing → da(r)- / wo(r)-. Person → Präposition + Pronomen / Präposition + wen/wem.
+S("c01","achten_auf","DA","Achten Sie bitte ___, dass alle Fenster zu sind.","darauf","Please make sure that all windows are closed.");
+S("c02","achten_auf","DA","___ muss ich beim Schreiben achten? – Auf die Wortstellung.","Worauf","What do I need to pay attention to when I write? – Word order.");
+S("c03","denken_an","DA","Denkst du noch an deine Ex-Freundin? – Nein, ich denke nicht mehr ___.","an sie","Do you still think about your ex-girlfriend? – No, I don't think about her anymore.");
+S("c04","denken_an","DA","Hast du an die Milch gedacht? – Oh nein, ___ habe ich nicht gedacht!","daran","Did you remember the milk? – Oh no, I didn't think of it!");
+S("c05","beschaeftigen_mit","DA","___ beschäftigst du dich in deiner Freizeit? – Mit Musik.","Womit","What do you do in your free time? – Music.");
+S("c06","beschaeftigen_mit","DA","Das Thema ist schwierig. Wir müssen uns noch länger ___ beschäftigen.","damit","The topic is difficult. We need to spend more time on it.");
+S("c07","kuemmern_um","DA","Wer kümmert sich um die Getränke? – Ich kümmere mich ___.","darum","Who's taking care of the drinks? – I'll take care of it.");
+S("c08","kuemmern_um","DA","___ kümmert sich deine Schwester? – Um ihre Kinder und um unseren Vater.","Um wen","Who does your sister look after? – Her children and our father.");
+S("c09","interessieren_fuer","DA","Ich spiele gern Fußball, aber meine Freundin interessiert sich gar nicht ___.","dafür","I like playing soccer, but my girlfriend isn't interested in it at all.");
+S("c10","interessieren_fuer","DA","___ interessieren Sie sich besonders? – Für Kunst und Geschichte.","Wofür","What are you especially interested in? – Art and history.");
+S("c11","interessieren_fuer","DA","Der neue Kollege ist sehr nett. Ich glaube, meine Kollegin interessiert sich ___.","für ihn","The new colleague is very nice. I think my colleague is interested in him.");
+S("c12","sprechen_mit","DA","___ hast du gerade gesprochen? – Mit meiner Mutter.","Mit wem","Who were you just talking to? – My mother.");
+S("c13","sprechen_mit","DA","Frau Weber, kann ich morgen kurz ___ sprechen?","mit Ihnen","Ms Weber, can I talk to you briefly tomorrow?");
+S("c14","sprechen_ueber","DA","Das ist ein schwieriges Thema. Ich möchte nicht ___ sprechen.","darüber","That's a difficult topic. I don't want to talk about it.");
+S("c15","sprechen_ueber","DA","___ habt ihr in der Pause gesprochen? – Über den Film von gestern.","Worüber","What did you talk about during the break? – Yesterday's movie.");
+S("c16","freuen_ueber","DA","Tim hat die Prüfung bestanden. Er freut sich sehr ___.","darüber","Tim passed the exam. He's very happy about it.");
+S("c17","freuen_ueber","DA","Ich freue mich ___, dass du gekommen bist.","darüber","I'm happy that you came.");
+S("c18","freuen_auf","DA","Nächste Woche fahren wir ans Meer. Ich freue mich schon sehr ___.","darauf","Next week we're going to the sea. I'm really looking forward to it.");
+S("c19","freuen_auf","DA","Ich freue mich ___, Sie bald kennenzulernen.","darauf","I'm looking forward to meeting you soon.");
+S("c20","freuen_auf","DA","___ freust du dich am meisten? – Auf das Essen bei meiner Oma.","Worauf","What are you looking forward to most? – The food at my grandma's.");
+S("c21","bedanken","DA","Ich möchte mich bei Ihnen ___ bedanken, dass Sie mir so schnell geholfen haben.","dafür","I would like to thank you for helping me so quickly.");
+S("c22","bedanken","DA","Frau Müller hat uns sehr geholfen. Wir sollten uns ___ für die Hilfe bedanken.","bei ihr","Ms Müller helped us a lot. We should thank her for the help.");
+S("c23","warten_auf","DA","Wartest du auf Max? – Ja, ich warte schon seit zehn Minuten ___.","auf ihn","Are you waiting for Max? – Yes, I've been waiting for him for ten minutes.");
+S("c24","warten_auf","DA","___ wartet ihr? – Auf unsere Freunde aus Hamburg.","Auf wen","Who are you waiting for? – Our friends from Hamburg.");
+S("c25","warten_auf","DA","Die Antwort von der Ausländerbehörde kommt sicher bald. Ich warte schon lange ___.","darauf","The answer from the immigration office will surely come soon. I've been waiting for it for a long time.");
+S("c26","aergern_ueber","DA","Kennst du meinen neuen Kollegen? Ich ärgere mich jeden Tag ___.","über ihn","Do you know my new colleague? I get annoyed with him every day.");
+S("c27","aergern_ueber","DA","___ ärgerst du dich so? – Über die Deutsche Bahn.","Worüber","What are you so annoyed about? – Deutsche Bahn.");
+S("c28","lachen_ueber","DA","Die Clowns waren so lustig. Die Kinder haben viel ___ gelacht.","über sie","The clowns were so funny. The children laughed at them a lot.");
+S("c29","lachen_ueber","DA","Der Witz war gut. Wir haben lange ___ gelacht.","darüber","The joke was good. We laughed about it for a long time.");
+S("c30","treffen_mit","DA","Kennst du Sara? Ich treffe mich morgen ___.","mit ihr","Do you know Sara? I'm meeting up with her tomorrow.");
+S("c31","treffen_mit","DA","___ triffst du dich heute Abend? – Mit Leuten aus meinem Kurs.","Mit wem","Who are you meeting tonight? – People from my course.");
+S("c32","nachdenken_ueber","DA","Das ist eine gute Idee. Ich muss ___ nachdenken.","darüber","That's a good idea. I need to think about it.");
+S("c33","nachdenken_ueber","DA","___ denkst du nach? Du siehst so ernst aus.","Worüber","What are you thinking about? You look so serious.");
+S("c34","bitten_um","DA","Der Lehrer hat uns ___ gebeten, leise zu sein.","darum","The teacher asked us to be quiet.");
+S("c35","bitten_um","DA","___ hat dich dein Chef gebeten? – Um einen Bericht bis Freitag.","Worum","What did your boss ask you for? – A report by Friday.");
+S("c36","erinnern_an","DA","Kennst du noch unseren alten Lehrer, Herrn Koch? – Ja, ich erinnere mich gut ___.","an ihn","Remember our old teacher, Mr Koch? – Yes, I remember him well.");
+S("c37","erinnern_an","DA","Wir waren als Kinder oft am See. Erinnerst du dich ___?","daran","We often went to the lake as children. Do you remember that?");
+S("c38","erinnern_an","DA","___ erinnerst du dich aus deiner Kindheit am liebsten? – An die Sommer bei meinen Großeltern.","Woran","What do you like remembering most from your childhood? – The summers at my grandparents'.");
+S("c39","gewoehnen_an","DA","Ich habe mich langsam ___ gewöhnt, auf Deutsch zu telefonieren.","daran","I've slowly gotten used to making phone calls in German.");
+S("c40","gewoehnen_an","DA","Das Wetter in Berlin ist oft grau, aber man gewöhnt sich ___.","daran","The weather in Berlin is often gray, but you get used to it.");
+S("c41","hoeren_von","DA","Am Freitag streikt die BVG. – Wirklich? ___ habe ich noch nichts gehört.","Davon","BVG is on strike on Friday. – Really? I haven't heard anything about it.");
+S("c42","hoeren_von","DA","Was macht eigentlich Jonas? – Keine Ahnung, ich habe lange nichts ___ gehört.","von ihm","What is Jonas up to these days? – No idea, I haven't heard from him in a long time.");
+S("c43","fuerchten_vor","DA","Der Hund vom Nachbarn ist riesig. Meine Nichte fürchtet sich ___.","vor ihm","The neighbor's dog is huge. My niece is afraid of it.","","Animals are treated like people here: vor ihm (der Hund), not davor.");
+S("c44","fuerchten_vor","DA","___ fürchtest du dich? – Vor Spinnen.","Wovor","What are you afraid of? – Spiders.");
+S("c45","verabreden_mit","DA","Lisa hat heute Geburtstag. Ich habe mich ___ zum Essen verabredet.","mit ihr","It's Lisa's birthday today. I've arranged to go out to eat with her.");
+S("c46","verabreden_mit","DA","Meine Eltern kommen am Wochenende. Ich habe mich ___ zum Frühstück verabredet.","mit ihnen","My parents are coming this weekend. I've arranged to have breakfast with them.");
+S("c47","wichtig_fuer","DA","Meine Familie ist ___ das Wichtigste im Leben.","für mich|mir","My family is the most important thing in life to me.");
+S("c48","zweifeln_an","DA","Ist das wirklich richtig? Ich zweifle ___.","daran","Is that really right? I doubt it.");
+S("c49","ausgeben_fuer","DA","Das neue Handy war sehr teuer. Ich habe 800 Euro ___ ausgegeben.","dafür","The new phone was very expensive. I spent 800 euros on it.");
+S("c50","bezahlen_fuer","DA","___ hast du so viel bezahlt? – Für die neue Jacke.","Wofür","What did you pay so much for? – The new jacket.");
+// Typ 4: Dativ oder Akkusativ (40). K(id, card, case per blank, …). The hint never shows the case.
+K("d01","kaufen","A","Morgen kaufe ich ___ Fahrrad.","ein","Tomorrow I'm buying a bike.","ein… + das Fahrrad");
+K("d02","kaufen","A","Hast du ___ Kuchen für die Party gekauft?","den","Did you buy the cake for the party?","der Kuchen");
+K("d03","gehoeren","D","Gehört das Handy ___ Kollegin?","deiner","Does the phone belong to your colleague?","dein… + die Kollegin");
+K("d04","gehoeren","D","Der Hund gehört ___ Nachbarn.","unseren","The dog belongs to our neighbors.","unser… + die Nachbarn (Pl.)");
+K("d05","gehoeren","D","Die Wohnung gehört ___ Onkel.","meinem","The apartment belongs to my uncle.","mein… + der Onkel");
+K("d06","werden","N","Der Film wird bestimmt ___ Erfolg.","ein","The movie will surely be a success.","ein… + der Erfolg");
+K("d07","werden","N","Im Januar wird mein Kollege ___ Teamleiter.","unser","In January my colleague will become our team lead.","unser… + der Teamleiter");
+K("d08","schenken","D A","Ich schenke ___ Bruder ___ Buch.","meinem/ein","I'm giving my brother a book.","mein… + der Bruder / ein… + das Buch");
+K("d09","schenken","D","Was schenkst du ___ Eltern zu Weihnachten?","deinen","What are you giving your parents for Christmas?","dein… + die Eltern (Pl.)");
+K("d10","schenken","D","Wir haben ___ Lehrerin Blumen geschenkt.","der","We gave the teacher flowers.","die Lehrerin");
+K("d11","nuetzen","D","Ein Wörterbuch nützt ___ Schülern sehr.","den","A dictionary is very useful to the students.","die Schüler (Pl.)");
+K("d12","nuetzen","D D","Der neue Radweg nützt ___ Stadt und ___ Umwelt.","der/der","The new bike path benefits the city and the environment.","die Stadt / die Umwelt");
+K("d13","helfen","D","Kannst du ___ Freundin beim Umzug helfen?","meiner","Can you help my friend with her move?","mein… + die Freundin");
+K("d14","helfen","D","Der Arzt hat ___ Kind schnell geholfen.","dem","The doctor helped the child quickly.","das Kind");
+K("d15","helfen","D","Ich helfe ___ Kindern bei den Hausaufgaben.","den","I help the children with their homework.","die Kinder (Pl.)");
+K("d16","beschaeftigen","A","Unsere Firma beschäftigt ___ Menschen aus 30 Ländern.","viele","Our company employs many people from 30 countries.","viel… + die Menschen (Pl.)");
+K("d17","beschaeftigen","A","Das kleine Restaurant beschäftigt nur ___ Koch.","einen","The small restaurant employs only one cook.","ein… + der Koch");
+K("d18","bereitstellen","A","Die Stadt stellt ___ Wohnungen für Familien bereit.","viele","The city provides many apartments for families.","viel… + die Wohnungen (Pl.)");
+K("d19","bereitstellen","A","Die Schule stellt jedem Kind ___ Laptop bereit.","einen","The school provides every child with a laptop.","ein… + der Laptop");
+K("d20","geben","D A","Kannst du ___ Kind ___ Apfel geben?","dem/einen","Can you give the child an apple?","das Kind / ein… + der Apfel");
+K("d21","geben","D","Ich gebe ___ Nachbarin den Schlüssel.","meiner","I'm giving my neighbor the key.","mein… + die Nachbarin");
+K("d22","geben","D A","Der Lehrer gibt ___ Schülern ___ Hausaufgabe.","den/eine","The teacher gives the students a homework assignment.","die Schüler (Pl.) / ein… + die Hausaufgabe");
+K("d23","gefallen","D","Die neue Wohnung gefällt ___ Freund sehr.","meinem","My friend likes the new apartment a lot.","mein… + der Freund");
+K("d24","gefallen","D","Das Konzert hat ___ Leuten gut gefallen.","vielen","Many people liked the concert.","viel… + die Leute (Pl.)");
+K("d25","gefallen","D","Gefällt ___ Kindern die neue Schule?","euren","Do your kids like the new school?","euer… + die Kinder (Pl.)");
+K("d26","schaden","D","Zu viel Zucker schadet ___ Zähnen.","den","Too much sugar is bad for your teeth.","die Zähne (Pl.)");
+K("d27","schaden","D","Der Streit hat ___ Firma sehr geschadet.","der","The argument hurt the company a lot.","die Firma");
+K("d28","schaden","D","Ein bisschen Sport schadet ___ nicht.","dir","A bit of exercise won't hurt you.","Pronomen: du");
+K("d29","zerstoeren","A","Das Feuer hat ___ Wald zerstört.","den","The fire destroyed the forest.","der Wald");
+K("d30","zerstoeren","A","Der Sturm hat ___ Haus am Strand zerstört.","ein","The storm destroyed a house on the beach.","ein… + das Haus");
+K("d31","verschmutzen","A","Plastik verschmutzt ___ Meere.","die","Plastic pollutes the oceans.","die Meere (Pl.)");
+K("d32","verschmutzen","A","Der Hund hat ___ Teppich verschmutzt.","unseren","The dog got our carpet dirty.","unser… + der Teppich");
+K("d33","gefaehrden","A","Rauchen gefährdet ___ Gesundheit.","deine","Smoking puts your health at risk.","dein… + die Gesundheit");
+K("d34","gefaehrden","A","Der Fahrer hat ___ Kinder auf der Straße gefährdet.","die","The driver put the children on the street at risk.","die Kinder (Pl.)");
+K("d35","toeten","A","Das Gift tötet ___ Pflanzen im Garten.","die","The poison kills the plants in the garden.","die Pflanzen (Pl.)");
+K("d36","gelingen","D","Der Kuchen ist ___ Mutter gut gelungen.","meiner","My mother's cake turned out well.","mein… + die Mutter");
+K("d37","gelingen","D","Es ist ___ endlich gelungen, eine Wohnung zu finden.","uns","We finally managed to find an apartment.","Pronomen: wir");
+K("d38","gelingen","D","Ist es ___ Studenten gelungen, die Aufgabe zu lösen?","den","Did the students manage to solve the task?","die Studenten (Pl.)");
+K("d39","vorstellen","rD","Ich kann ___ nicht vorstellen, in einem Dorf zu wohnen.","mir","I can't imagine living in a village.","Pronomen: ich");
+K("d40","vorstellen","rD","Stell ___ vor, wir haben im Lotto gewonnen!","dir","Imagine, we won the lottery!","Pronomen: du");
+// ---------- shared helpers (the validator runs these too) ----------
+const CARD_BY_ID = Object.fromEntries(CARDS.map(c => [c.id, c]));
+const VOWEL = /^[aeiouäöü]/i;
+const K_SHORT = {A: "Akk", D: "Dat", N: "Nom"};
+const OBJ_SHORT = {N: "+ Nom", A: "+ Akk", D: "+ Dat", "D A": "+ Dat + Akk", "rD A": "sich (Dat) + Akk"};
+const OBJ_LONG = {N: "+ Nominativ (wie sein)", A: "+ Akkusativ (wen? was?)", D: "+ Dativ (wem?)", "D A": "+ Dativ (wem?) + Akkusativ (was?)", "rD A": "sich im Dativ (mir, dir) + Akkusativ (was?)"};
+const FIXED_CASE = {für: "A", um: "A", gegen: "A", durch: "A", ohne: "A", über: "A", auf: "A",
+  mit: "D", nach: "D", von: "D", zu: "D", bei: "D", aus: "D", seit: "D", vor: "D"};
+const daForm = p => (VOWEL.test(p) ? "dar" : "da") + p;
+const woForm = p => (VOWEL.test(p) ? "Wor" : "Wo") + p;
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+function govLabel(c){ return c.grp === "P" ? c.preps.map(x => `${x.p} + ${K_SHORT[x.k]}`).join(", ") : OBJ_SHORT[c.obj]; }
+function cardLabel(c){ return `${c.verb} ${govLabel(c)}`; }
+function questionLine(c){
+  if (c.grp === "K") return {N: "Frage: Wer? Was?", A: "Frage: Wen? Was?", D: "Frage: Wem?", "D A": "Frage: Wem? + Was?", "rD A": "ich stelle mir vor, du stellst dir vor"}[c.obj];
+  return c.preps.map(x => `Sache: ${woForm(x.p)}? → ${daForm(x.p)} · Person: ${cap(x.p)} ${x.k === "A" ? "wen" : "wem"}? → ${x.p} ${x.k === "A" ? "ihn / sie" : "ihm / ihr"}`).join("<br>");
+}
+
+const norm = s => String(s == null ? "" : s).replace(/[‘’´`]/g, "'").replace(/\s+/g, " ").trim().replace(/[.!?,;]+$/, "");
+const fold = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ß/g, "ss");
+const CAPS_WORDS = new Set(["sie", "ihr", "ihre", "ihren", "ihrem", "ihrer", "ihres", "ihnen"]);
+function blankStarts(q){
+  const parts = q.split("___");
+  return parts.slice(0, -1).map((pre, i) => (i === 0 && /^\s*$/.test(pre)) || /[.?!–]\s*$/.test(pre));
+}
+function strictCaps(it, b){ return !blankStarts(it.q)[b] && it.a[b].some(x => x.split(" ").some(w => CAPS_WORDS.has(w.toLowerCase()))); }
+const capsShape = s => s.split(" ").map(w => w.charAt(0) === w.charAt(0).toUpperCase() ? "A" : "a").join("");
+function checkBlank(it, b, val){
+  const g = norm(val);
+  if (!g) return {ok: false};
+  const strict = strictCaps(it, b);
+  for (const alt of it.a[b]) if (strict ? g === alt : g.toLowerCase() === alt.toLowerCase()) return {ok: true, alt};
+  for (const alt of it.a[b]) if (/[äöüß]/.test(alt) && fold(g) === fold(alt) && (!strict || capsShape(g) === capsShape(alt))) return {ok: true, alt, umlaut: true};
+  return {ok: false};
+}
+
+const DEF = {N: {m: "der", f: "die", n: "das", p: "die"}, A: {m: "den", f: "die", n: "das", p: "die"}, D: {m: "dem", f: "der", n: "dem", p: "den"}};
+const END = {N: {m: "", f: "e", n: "", p: "e"}, A: {m: "en", f: "e", n: "", p: "e"}, D: {m: "em", f: "er", n: "em", p: "en"}};
+function artForm(k, g, stem){
+  if (!stem) return DEF[k][g];
+  if (stem === "viel") return g === "p" ? (k === "D" ? "vielen" : "viele") : null;
+  if (stem === "ein" && g === "p") return null;
+  return (stem === "euer" && END[k][g] ? "eur" : stem) + END[k][g];
+}
+const CONTR = {"an dem": "am", "an das": "ans", "in dem": "im", "in das": "ins", "zu dem": "zum", "zu der": "zur", "bei dem": "beim",
+  "von dem": "vom", "auf das": "aufs", "für das": "fürs", "um das": "ums", "über das": "übers"};
+const PRON = {
+  A: {ich: "mich", du: "dich", er: "ihn", sie: "sie", es: "es", wir: "uns", ihr: "euch", "sie (Pl.)": "sie", Sie: "Sie"},
+  D: {ich: "mir", du: "dir", er: "ihm", sie: "ihr", es: "ihm", wir: "uns", ihr: "euch", "sie (Pl.)": "ihnen", Sie: "Ihnen"},
+  rD: {ich: "mir", du: "dir", er: "sich", sie: "sich", es: "sich", wir: "uns", ihr: "euch", "sie (Pl.)": "sich", Sie: "sich"}};
+function parseHint(h){
+  let m = h.match(/^Pronomen: (.+)$/);
+  if (m) return {pron: m[1]};
+  m = h.match(/^(?:(\S+)… \+ )?(der|die|das) (.+?)( \(Pl\.\))?$/);
+  if (!m) return null;
+  return {stem: m[1] || null, g: m[4] ? "p" : {der: "m", die: "f", das: "n"}[m[2]], noun: m[3]};
+}
+const hintParts = it => it.hint ? it.hint.split(" / ") : [];
+function itemPrep(it, b){
+  const c = CARD_BY_ID[it.card];
+  if (!c || c.grp !== "P") return null;
+  const w = it.a[b][0].split(" ")[0].toLowerCase();
+  const m = w.match(/^(?:da|wo)r?(.+)$/);
+  const p = c.preps.find(x => x.p === w || (m && x.p === m[1]) || CONTR_PREP[w] === x.p);
+  return p || c.preps[0];
+}
+const CONTR_PREP = Object.fromEntries(Object.entries(CONTR).map(([k, v]) => [v, k.split(" ")[0]]));
+function blankCase(it, b){
+  if (it.typ === "KA") return it.cases[b];
+  const p = itemPrep(it, b);
+  return p ? p.k : null;
+}
+
+const ERR_LABELS = {
+  prep: "Falsche Präposition",
+  kasus: "Richtige Präposition, aber falscher Kasus (Akk/Dat)",
+  stamm: "Falscher Stamm (ihr-/Ihr-, unser-, eur-)",
+  endung: "Falsche Endung oder falsches Genus",
+  sache: "Sache: da(r) + Präposition (darauf, damit), nicht „auf es“",
+  person: "Person: Präposition + Pronomen (auf ihn, mit ihr), nicht da-",
+  r: "da-/wo-Wort: das r fehlt oder ist zu viel (darauf, aber damit)",
+  dawo: "Frage = wo(r)-, Antwort = da(r)-",
+  wfrage: "Fragewort: Sache wo(r)- + Präp. (Worauf?), Person Präp. + wen/wem (Auf wen?)",
+  pron: "Falsches Pronomen (Kasus oder Person)",
+  caps: "Groß/klein (Sie/Ihnen/Ihr = formell, sie/ihnen/ihr = sie)",
+  kasusD: "Dativ-Verb: braucht Dativ (wem?)",
+  kasusA: "Akkusativ-Verb: braucht Akkusativ (wen? was?)",
+  kasusN: "werden + Nominativ (wie sein)",
+  other: "Anderer Fehler"
+};
+const ACC_P = new Set(["mich", "dich", "ihn", "sie", "es", "uns", "euch"]);
+const DAT_P = new Set(["mir", "dir", "ihm", "ihr", "uns", "euch", "ihnen"]);
+function classify(it, b, given){
+  const g = norm(given), exp = it.a[b][0];
+  if (!g) return "other";
+  if (it.a[b].some(x => x.toLowerCase() === g.toLowerCase())) return "caps";
+  const gl = g.toLowerCase(), el = exp.toLowerCase();
+  const gw = gl.split(" "), ew = el.split(" ");
+  const comp = s => s.match(/^(da|wo)(r?)([a-zäöüß]+)$/i);
+  if (it.typ === "P") return "prep";
+  if (it.typ === "PA"){
+    const [gp, ga] = splitPA(g), [ep] = splitPA(exp);
+    if (gp !== ep) return "prep";
+    return artErr(it, b, ga, blankCase(it, b));
+  }
+  if (it.typ === "KA"){
+    const k = it.cases[b];
+    const h = parseHint(hintParts(it)[b] || "");
+    if (h && h.pron){
+      const other = Object.keys(PRON).filter(x => x !== k).some(x => PRON[x][h.pron] === gl);
+      return other ? (k === "rD" ? "kasusD" : "kasus" + k) : "pron";
+    }
+    const e = artErr(it, b, gl, k);
+    return e === "kasus" ? "kasus" + k : e;
+  }
+  const ec = comp(el), gc = comp(gl);
+  if (ec){
+    if (gc){
+      if (gc[3] !== ec[3]) return "prep";
+      if (gc[2] !== ec[2]) return "r";
+      return "dawo";
+    }
+    if (/^(was|wo|wie)$/.test(gl) || gw[1] === "was") return "wfrage";
+    if (gw.length === 2) return gw[0] === ec[3] ? "sache" : "prep";
+    return "other";
+  }
+  if (gc) return "person";
+  if (gw.length === 1) return /^(wen|wem|wer|was)$/.test(gl) ? "wfrage" : "other";
+  if (gw[0] !== ew[0]) return "prep";
+  return "pron";
+}
+function splitPA(s){
+  const w = s.toLowerCase().split(" ");
+  if (w.length === 1){ const full = Object.keys(CONTR).find(k => CONTR[k] === w[0]); if (full) return full.split(" "); }
+  return [w[0], w.slice(1).join(" ")];
+}
+function artErr(it, b, gArt, k){
+  const h = parseHint(hintParts(it)[b] || "");
+  if (!h || h.pron) return "endung";
+  const gl = gArt.toLowerCase();
+  const stemOk = !h.stem || gl.startsWith(h.stem === "euer" ? "eu" : h.stem.toLowerCase());
+  if (!stemOk && h.stem && gl.length > 2) return "stamm";
+  if (["N", "A", "D"].filter(x => x !== k).some(x => (artForm(x, h.g, h.stem) || "").toLowerCase() === gl)) return "kasus";
+  return "endung";
+}
+function caseHint(it, b, given){
+  if (it.typ !== "P" && it.typ !== "PA") return "";
+  const k = blankCase(it, b), gp = splitPA(norm(given))[0];
+  const gk = FIXED_CASE[gp];
+  if (!k || !gk || gk === k) return "";
+  return `Tipp: Hier steht ${k === "A" ? "Akkusativ" : "Dativ"}, aber „${gp}“ braucht in diesen Verben immer ${gk === "A" ? "Akkusativ" : "Dativ"}. Lies die Endung im Satz.`;
+}
+/*DATA-END*/
+// ================= APP =================
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const pad = n => String(n).padStart(2, "0");
+const fmt = ts => { const d = new Date(ts); return `${pad(d.getDate())}.${pad(d.getMonth() + 1)}. ${pad(d.getHours())}:${pad(d.getMinutes())}`; };
+const shuffle = a => { for (let j = a.length - 1; j > 0; j--){ const k = Math.floor(Math.random() * (j + 1)); [a[j], a[k]] = [a[k], a[j]]; } return a; };
+const ITEM_BY_ID = Object.fromEntries(ITEMS.map(it => [it.id, it]));
+const TYPS = ["P", "PA", "DA", "KA"];
+const TYP_NAME = {P: "Typ 1 · Präposition", PA: "Typ 2 · Präposition + Artikel", DA: "Typ 3 · da-/wo-Wörter & Pronomen", KA: "Typ 4 · Dativ oder Akkusativ"};
+const TYP_TAG = {P: "Typ 1 · Präposition", PA: "Typ 2 · Präp. + Artikel", DA: "Typ 3 · da-/wo- & Pronomen", KA: "Typ 4 · Dativ / Akkusativ"};
+const TYP_COLOR = {P: "#4f9cff", PA: "#b98bff", DA: "#2ecc71", KA: "#ff9f43"};
+const TYP_TASK = {
+  P: "Setze die Präposition ein.",
+  PA: "Präposition + Artikel mit der richtigen Endung. Kurzformen wie „am“ oder „vom“ gehen auch.",
+  DA: "Sache → da(r)- oder wo(r)- + Präposition. Person → Präposition + Pronomen oder Präposition + wen/wem.",
+  KA: "Artikel oder Pronomen in der richtigen Form. Frag dich: Was braucht das Verb?"};
+const PREP_ORDER = ["auf", "an", "über", "für", "um", "mit", "von", "vor", "bei"];
+const DIR_NAME = {prep: "Präposition + Kasus?", mean: "Bedeutung?"};
+
+// ---------- storage ----------
+const KEY = "verbPrepTrainer_v1";
+function fresh(){ return {v: 1, app: "verbPrep", items: {}, cards: {}, log: [], settings: {tab: "lernen", area: "all", mode: "smart", size: "20", retype: true, deck: "all", dir: "prep", cmode: "smart", csize: "20"}}; }
+function loadStore(){ try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && s.v === 1 && s.app === "verbPrep") return s; } catch(e){} return fresh(); }
+let store = loadStore();
+function saveStore(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch(e){} }
+function st(id){ return store.items[id] || (store.items[id] = {box: 0, seen: 0, ok: 0, bad: 0, last: 0, wrong: []}); }
+function cst(k){ return store.cards[k] || (store.cards[k] = {box: 0, seen: 0, ok: 0, bad: 0, last: 0}); }
+function pushLog(e){ store.log.push(e); if (store.log.length > 2000) store.log.splice(0, store.log.length - 2000); }
+
+// ---------- tabs ----------
+let activeTab = "lernen";
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
+function showTab(name){
+  activeTab = name; store.settings.tab = name; saveStore();
+  document.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("active", b.dataset.tab === name));
+  ["lernen", "karten", "saetze", "bericht"].forEach(t => $("tab-" + t).hidden = t !== name);
+  if (name === "bericht") renderReport();
+  if (name === "saetze" && state !== "idle") focusBlank();
+  if (name === "karten") (cState === "idle" && !$("cEnd").hidden ? $("cAgain") : $("fcard")).focus();
+}
+
+// ---------- Lernen ----------
+function renderLearn(){
+  let h = `<table><tr><th>Präposition</th><th>Kasus</th><th>Verb</th><th>Bedeutung</th><th>Beispiel</th></tr>`;
+  const rows = [];
+  CARDS.filter(c => c.grp === "P").forEach(c => c.preps.forEach(x => rows.push({c, x})));
+  rows.sort((a, b) => PREP_ORDER.indexOf(a.x.p) - PREP_ORDER.indexOf(b.x.p) || (a.x.k > b.x.k ? 1 : -1));
+  rows.forEach(({c, x}) => {
+    h += `<tr><td><b>${esc(x.p)}</b></td><td>${x.k === "A" ? "Akk" : "Dat"}</td><td>${esc(c.verb)} <b>${esc(x.p)}</b></td><td>${esc(c.en)}</td><td>${esc(c.ex[0][0])}</td></tr>`;
+  });
+  $("learnTable").innerHTML = h + `</table>`;
+}
+$("printLearn").onclick = () => window.print();
+
+// ---------- Karteikarten ----------
+const deckSel = $("deck"), dirSel = $("dir"), cmodeSel = $("cmode"), csizeSel = $("csize");
+let cSession = [], cIdx = 0, cState = "idle", cRoundOk = 0, cBad = [];
+const cardKey = (c, dir) => c.id + ":" + dir;
+function cPrio(c, dir){ const s = store.cards[cardKey(c, dir)]; if (!s || !s.seen) return 1; if (s.box === 0) return 0; return 1 + s.box; }
+function deckCards(deck){
+  if (deck === "all") return CARDS;
+  if (deck === "P" || deck === "K") return CARDS.filter(c => c.grp === deck);
+  return CARDS.filter(c => c.grp === "P" && c.preps.some(x => x.p === deck));
+}
+function updateCardStats(){
+  const dir = dirSel.value, list = deckCards(deckSel.value);
+  $("cMastered").textContent = list.filter(c => (store.cards[cardKey(c, dir)] || {}).box >= 3).length;
+  $("cTotal").textContent = list.length;
+}
+function fillDeckSel(){
+  const cur = deckSel.value || store.settings.deck;
+  const opt = (v, label) => `<option value="${v}">${esc(label)} (${deckCards(v).length})</option>`;
+  deckSel.innerHTML = opt("all", "Alle Verben") + opt("P", "Verb + Präposition") + opt("K", "Verb + Dativ/Akkusativ")
+    + `<optgroup label="Nur eine Präposition">` + PREP_ORDER.map(p => opt(p, "nur " + p)).join("") + `</optgroup>`;
+  deckSel.value = cur;
+}
+function buildCards(){
+  store.settings.deck = deckSel.value; store.settings.dir = dirSel.value; store.settings.cmode = cmodeSel.value; store.settings.csize = csizeSel.value; saveStore();
+  const dir = dirSel.value, mode = cmodeSel.value;
+  let pool = deckCards(deckSel.value).slice();
+  if (mode === "fehler") pool = pool.filter(c => { const s = store.cards[cardKey(c, dir)]; return s && s.bad > 0 && s.box < 3; });
+  $("cEnd").hidden = true;
+  if (!pool.length){
+    cSession = []; cState = "idle";
+    $("fcFront").innerHTML = `<div class="cq">Keine „Nochmal“-Karten in diesem Stapel. 🎉 Wähle „Smart“.</div>`;
+    $("fcBack").hidden = true; $("fcFlipRow").hidden = true; $("fcGradeRow").hidden = true;
+    return;
+  }
+  const n = csizeSel.value === "alle" ? pool.length : Math.min(+csizeSel.value, pool.length);
+  let pick;
+  if (mode === "smart"){
+    const errs = shuffle(pool.filter(c => cPrio(c, dir) === 0));
+    const rest = shuffle(pool.filter(c => cPrio(c, dir) !== 0)).sort((a, b) => cPrio(a, dir) - cPrio(b, dir));
+    const nErr = Math.min(errs.length, Math.ceil(n * 0.6));
+    pick = errs.slice(0, nErr).concat(rest.slice(0, n - nErr));
+    if (pick.length < n) pick = pick.concat(errs.slice(nErr, nErr + (n - pick.length)));
+    pick = shuffle(pick);
+  } else pick = shuffle(pool).slice(0, n);
+  cSession = pick.map(c => ({c, retry: 0}));
+  cIdx = 0; cRoundOk = 0; cBad = [];
+  $("cOk").textContent = 0;
+  renderCard();
+}
+function exHTML(c){ return c.ex.map(([de, en]) => `<div class="cex">${esc(de)}<i>${esc(en)}</i></div>`).join(""); }
+function renderCard(){
+  const {c} = cSession[cIdx], dir = dirSel.value;
+  cState = "front";
+  let f;
+  if (dir === "prep") f = `<div class="cverb">${esc(c.verb)}</div><div class="cen">${esc(c.en)}</div>`
+    + `<div class="cq">${c.grp === "P" ? (c.preps.length > 1 ? "Welche zwei Präpositionen? Welcher Kasus?" : "Welche Präposition? Welcher Kasus?") : "Was braucht das Verb: Nominativ, Akkusativ oder Dativ?"}</div>`;
+  else f = `<div class="cverb">${esc(cardLabel(c))}</div><div class="cq">Was bedeutet das? Sag einen Beispielsatz.</div>`;
+  $("fcFront").innerHTML = f;
+  $("fcBack").hidden = true; $("fcBack").innerHTML = "";
+  $("fcFlipRow").hidden = false; $("fcGradeRow").hidden = true; $("cflash").textContent = "";
+  $("cIdx").textContent = cIdx + 1; $("cLen").textContent = cSession.length;
+  updateCardStats();
+  $("fcard").focus();
+}
+function flipCard(){
+  if (cState !== "front") return;
+  const {c} = cSession[cIdx], dir = dirSel.value;
+  cState = "back";
+  let b = dir === "prep"
+    ? `<div class="cans">${esc(c.verb)} <b>${esc(c.grp === "P" ? govLabel(c) : OBJ_LONG[c.obj])}</b></div>`
+    : `<div class="cans"><b>${esc(c.en)}</b></div>`;
+  b += exHTML(c) + `<div class="cmeta">${c.grp === "P" ? questionLine(c) : esc(questionLine(c))}</div>`;
+  if (c.forms) b += `<div class="cmeta">Formen: ${esc(c.forms)}</div>`;
+  if (c.note) b += `<div class="cnote">💡 ${esc(c.note)}</div>`;
+  $("fcBack").innerHTML = b; $("fcBack").hidden = false;
+  $("fcFlipRow").hidden = true; $("fcGradeRow").hidden = false; $("cflash").textContent = "";
+  $("fcard").focus();
+}
+function gradeCard(ok){
+  if (cState !== "back") return;
+  const cur = cSession[cIdx], dir = dirSel.value, s = cst(cardKey(cur.c, dir));
+  s.seen++; s.last = Date.now();
+  if (ok){ s.ok++; s.box = Math.min(s.box + 1, 4); cRoundOk++; $("cOk").textContent = cRoundOk; }
+  else {
+    s.bad++; s.box = 0; cBad.push(cur.c);
+    pushLog({ts: Date.now(), src: "karte", id: cur.c.id, dir});
+    if (cur.retry < 2){ cSession.splice(Math.min(cIdx + 4, cSession.length), 0, {c: cur.c, retry: cur.retry + 1}); }
+  }
+  saveStore();
+  cIdx++;
+  if (cIdx >= cSession.length) endCards(); else renderCard();
+}
+function endCards(){
+  cState = "idle";
+  $("fcFront").innerHTML = ""; $("fcBack").hidden = true; $("fcFlipRow").hidden = true; $("fcGradeRow").hidden = true;
+  let h = `<div class="cverb" style="font-size:20px">Runde fertig: ${cRoundOk} / ${cSession.length} gewusst</div>`;
+  const uniq = [...new Map(cBad.map(c => [c.id, c])).values()];
+  if (uniq.length) h += `<div class="hint">Diese Karten kommen in „Smart“ wieder:</div><ul>` + uniq.map(c => `<li>${esc(cardLabel(c))} · ${esc(c.en)}</li>`).join("") + `</ul>`;
+  h += `<div class="fcbtn"><button class="go" id="cAgain">▶ Neue Runde</button><button id="cToSaetze">✍️ Jetzt Sätze üben</button></div>`;
+  $("cEnd").innerHTML = h; $("cEnd").hidden = false;
+  $("cAgain").onclick = buildCards;
+  $("cToSaetze").onclick = () => showTab("saetze");
+  updateCardStats();
+  $("cAgain").focus();
+}
+$("flipBtn").onclick = flipCard;
+$("againCard").onclick = () => gradeCard(false);
+$("knewCard").onclick = () => gradeCard(true);
+$("cstart").onclick = buildCards;
+[deckSel, dirSel, cmodeSel, csizeSel].forEach(el => el.onchange = buildCards);
+document.addEventListener("keydown", e => {
+  if (activeTab !== "karten" || ["SELECT", "TEXTAREA", "INPUT"].includes(e.target.tagName) || e.metaKey || e.ctrlKey || e.altKey) return;
+  if ((e.key === " " || e.key === "Enter") && e.target.tagName === "BUTTON") return;
+  if (cState === "front"){
+    if (e.key === " " || e.key === "Enter"){ e.preventDefault(); flipCard(); }
+    else if (e.key === "ArrowRight" || e.key === "ArrowLeft"){ e.preventDefault(); $("cflash").textContent = "Erst umdrehen (Leertaste), dann bewerten."; }
+  } else if (cState === "back"){
+    if (e.key === "ArrowLeft" || e.key === "1"){ e.preventDefault(); gradeCard(false); }
+    else if (e.key === "ArrowRight" || e.key === "2"){ e.preventDefault(); gradeCard(true); }
+    else if (e.key === " " || e.key === "Enter"){ e.preventDefault(); $("cflash").textContent = "← Nochmal oder → Gewusst?"; }
+  }
+});
+
+// ---------- Sätze ergänzen ----------
+const areaSel = $("area"), modeSel = $("mode"), sizeSel = $("size"), retypeCb = $("retype");
+const qEl = $("q"), tagEl = $("tag"), capsBadge = $("capsBadge"), fbEl = $("fb"), flashEl = $("flash"), goBtn = $("go"), sCard = $("scard");
+const qaEl = $("qa"), endBox = $("endBox"), pbar = $("pbar");
+const NUM = ["①", "②", "③"];
+let session = [], idx = 0, state = "idle", roundOk = 0, roundBad = [], cur = null, wrongBlanks = [];
+
+function areaItems(area){
+  if (area === "all") return ITEMS;
+  if (TYPS.includes(area)) return ITEMS.filter(it => it.typ === area);
+  if (area.startsWith("p:")){ const p = area.slice(2); return ITEMS.filter(it => { const c = CARD_BY_ID[it.card]; return c.grp === "P" && c.preps.some(x => x.p === p); }); }
+  if (area.startsWith("c:")) return ITEMS.filter(it => it.card === area.slice(2));
+  return ITEMS;
+}
+function prio(it){ const s = store.items[it.id]; if (!s || !s.seen) return 1; if (s.box === 0) return 0; return 1 + s.box; }
+function fillAreaSel(){
+  const curv = areaSel.value || store.settings.area || "all";
+  const sicher = list => list.filter(it => (store.items[it.id] || {}).box >= 3).length;
+  const opt = (v, label) => { const l = areaItems(v); return `<option value="${v}">${esc(label)} (${sicher(l)}/${l.length} sicher)</option>`; };
+  areaSel.innerHTML = opt("all", "Alle Sätze")
+    + `<optgroup label="Typ">` + TYPS.map(t => opt(t, TYP_NAME[t])).join("") + `</optgroup>`
+    + `<optgroup label="Präposition">` + PREP_ORDER.map(p => opt("p:" + p, "nur " + p)).join("") + `</optgroup>`
+    + `<optgroup label="Ein Verb">` + CARDS.map(c => opt("c:" + c.id, cardLabel(c))).join("") + `</optgroup>`;
+  areaSel.value = curv;
+  if (!areaSel.value) areaSel.value = "all";
+}
+function updateMastery(){
+  $("mastered").textContent = ITEMS.filter(it => (store.items[it.id] || {}).box >= 3).length;
+  $("total").textContent = ITEMS.length;
+  fillAreaSel();
+}
+function buildSession(){
+  store.settings.area = areaSel.value; store.settings.mode = modeSel.value; store.settings.size = sizeSel.value; store.settings.retype = retypeCb.checked;
+  saveStore();
+  const mode = modeSel.value;
+  let pool = areaItems(areaSel.value).slice();
+  if (mode === "fehler") pool = pool.filter(it => { const s = store.items[it.id]; return s && s.bad > 0 && s.box < 3; });
+  if (!pool.length){
+    session = []; state = "idle"; qaEl.hidden = true; endBox.hidden = false;
+    endBox.innerHTML = `<div class="q">Keine offenen Fehler in diesem Bereich. 🎉</div><div class="hint">Wähle „Smart“ oder einen anderen Bereich.</div>`;
+    return;
+  }
+  const n = sizeSel.value === "alle" ? pool.length : Math.min(+sizeSel.value, pool.length);
+  let pick;
+  if (mode === "smart"){
+    const errs = shuffle(pool.filter(it => prio(it) === 0));
+    const rest = shuffle(pool.filter(it => prio(it) !== 0)).sort((a, b) => prio(a) - prio(b));
+    const nErr = Math.min(errs.length, Math.ceil(n * 0.6));
+    pick = errs.slice(0, nErr).concat(rest.slice(0, n - nErr));
+    if (pick.length < n) pick = pick.concat(errs.slice(nErr, nErr + (n - pick.length)));
+    pick = shuffle(pick);
+  } else if (mode === "reihe"){
+    const open = pool.filter(it => (store.items[it.id] || {}).box < 3 || !store.items[it.id]);
+    pick = (open.length ? open : pool).slice(0, n);
+  } else pick = shuffle(pool).slice(0, n);
+  session = pick.map(it => ({it, retry: 0}));
+  idx = 0; roundOk = 0; roundBad = [];
+  $("rOk").textContent = 0;
+  qaEl.hidden = false; endBox.hidden = true;
+  render();
+}
+const blanks = () => [...qEl.querySelectorAll("input.blank")];
+function focusBlank(){
+  const b = blanks();
+  const t = b.find(x => !x.readOnly && !norm(x.value)) || b.find(x => !x.readOnly) || b[b.length - 1];
+  if (t) t.focus();
+}
+function render(){
+  cur = session[idx];
+  const it = cur.it;
+  fbEl.className = "fb"; fbEl.innerHTML = ""; flashEl.textContent = "";
+  goBtn.textContent = "Prüfen"; state = "answer"; wrongBlanks = [];
+  tagEl.textContent = TYP_TAG[it.typ]; tagEl.style.background = TYP_COLOR[it.typ];
+  capsBadge.hidden = !it.a.some((_, b) => strictCaps(it, b));
+  $("task").textContent = TYP_TASK[it.typ];
+  const parts = it.q.split("___");
+  qEl.innerHTML = parts.map((t, i) => esc(t) + (i < parts.length - 1
+    ? `<input class="blank" data-b="${i}" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Lücke ${i + 1}">` : "")).join("");
+  const hp = hintParts(it).map(h => h.replace(/^Pronomen: (.+)$/, "$1 (Pronomen)"));
+  $("hintline").textContent = hp.length ? "Hinweis: " + hp.map((h, i) => (hp.length > 1 ? NUM[i] + " " : "") + h).join(" · ") : "";
+  $("rIdx").textContent = idx + 1; $("rLen").textContent = session.length;
+  pbar.style.width = Math.round(idx / session.length * 100) + "%";
+  focusBlank();
+}
+function flash(msg){
+  flashEl.textContent = msg;
+  sCard.classList.remove("shake"); void sCard.offsetWidth; sCard.classList.add("shake");
+}
+function grade(it, vals, res, ok){
+  const s = st(it.id);
+  s.seen++; s.last = Date.now();
+  if (ok){ s.ok++; s.box = Math.min(s.box + 1, 4); }
+  else {
+    s.bad++; s.box = 0;
+    s.wrong.push(vals.map(norm).join(" / ")); if (s.wrong.length > 6) s.wrong.shift();
+    res.forEach((r, b) => { if (!r.ok) pushLog({ts: Date.now(), src: "satz", id: it.id, b, given: norm(vals[b]), exp: it.a[b][0], err: classify(it, b, vals[b])}); });
+  }
+  saveStore();
+}
+function setDone(){
+  state = "done"; goBtn.textContent = "Weiter →";
+  const b = blanks(); if (b.length) b[b.length - 1].focus();
+}
+function submit(){
+  if (state === "done"){ next(); return; }
+  const ins = blanks(), it = cur && cur.it;
+  if (!it) return;
+  if (state === "retype"){
+    const bad = wrongBlanks.filter(b => !checkBlank(it, b, ins[b].value).ok);
+    if (bad.length){ flash("Noch nicht ganz. Tippe genau: " + bad.map(b => it.a[b][0]).join(" … ")); ins[bad[0]].focus(); return; }
+    wrongBlanks.forEach(b => { ins[b].classList.add("ok"); ins[b].readOnly = true; });
+    flashEl.textContent = "";
+    fbEl.insertAdjacentHTML("beforeend", `<div class="good">✓ Gut abgetippt. Jetzt sitzt es besser.</div>`);
+    setDone(); return;
+  }
+  if (state !== "answer") return;
+  const empty = ins.find(x => !norm(x.value));
+  if (empty){ flash(ins.length > 1 ? "Bitte alle Lücken ausfüllen." : "Bitte zuerst eine Antwort eintippen."); empty.focus(); return; }
+  const res = ins.map((x, b) => checkBlank(it, b, x.value));
+  const ok = res.every(r => r.ok);
+  grade(it, ins.map(x => x.value), res, ok);
+  ins.forEach((x, b) => { x.classList.add(res[b].ok ? "ok" : "no"); x.readOnly = true; });
+  const c = CARD_BY_ID[it.card], num = b => ins.length > 1 ? NUM[b] + " " : "";
+  let h;
+  if (ok){
+    roundOk++; $("rOk").textContent = roundOk;
+    fbEl.className = "fb okk";
+    h = `<span class="head">✓ Richtig</span>` + (ins.length > 1 ? ` <span class="ans">${it.a.map(x => esc(x[0])).join(" … ")}</span>` : "");
+    res.forEach((r, b) => {
+      if (r.umlaut) h += `<div class="note">${num(b)}In der Prüfung mit Umlaut: <b>${esc(r.alt)}</b>.</div>`;
+      else if (it.a[b].length > 1) h += `<div class="note">${num(b)}Beide Formen sind richtig: ${it.a[b].map(esc).join(" / ")}.</div>`;
+    });
+  } else {
+    fbEl.className = "fb noo";
+    h = `<span class="head">✗ Falsch</span>`;
+    res.forEach((r, b) => {
+      if (r.ok) return;
+      const e = classify(it, b, ins[b].value), ch = caseHint(it, b, ins[b].value);
+      h += `<div>${num(b)}du: <s>${esc(norm(ins[b].value))}</s> · richtig: <b class="ans">${esc(it.a[b][0])}</b>`
+        + (it.a[b].length > 1 ? ` <span class="hint">(auch richtig: ${it.a[b].slice(1).map(esc).join(", ")})</span>` : "") + `</div>`
+        + `<div class="rule">${esc(ERR_LABELS[e] || e)}</div>` + (ch ? `<div class="rule">${esc(ch)}</div>` : "");
+    });
+    if (c.note) h += `<div class="note">💡 ${esc(c.note)}</div>`;
+  }
+  if (it.note) h += `<div class="note">💡 ${esc(it.note)}</div>`;
+  h += `<div class="ptr">📌 ${esc(cardLabel(c))}: ${esc(c.en)}</div><div class="en">${esc(it.en)}</div>`;
+  fbEl.innerHTML = h;
+  if (!ok){
+    roundBad.push({it, given: ins.map(x => norm(x.value)).join(" … ")});
+    if (cur.retry < 2){ session.splice(Math.min(idx + 4, session.length), 0, {it, retry: cur.retry + 1}); $("rLen").textContent = session.length; }
+    if (retypeCb.checked){
+      state = "retype";
+      wrongBlanks = res.map((r, b) => r.ok ? -1 : b).filter(b => b >= 0);
+      wrongBlanks.forEach(b => { ins[b].readOnly = false; ins[b].value = ""; ins[b].classList.remove("no"); ins[b].placeholder = "abtippen …"; });
+      goBtn.textContent = "Prüfen";
+      flashEl.textContent = "Tippe die richtige Antwort einmal ab, dann geht es weiter.";
+      ins[wrongBlanks[0]].focus();
+      updateMastery();
+      return;
+    }
+  }
+  setDone();
+  updateMastery();
+}
+function next(){
+  idx++;
+  if (idx >= session.length){ endRound(); return; }
+  render();
+}
+function endRound(){
+  state = "idle";
+  pbar.style.width = "100%";
+  qaEl.hidden = true; endBox.hidden = false;
+  let h = `<div class="q">Runde fertig: ${roundOk} / ${session.length} richtig</div>`;
+  if (roundBad.length){
+    h += `<div class="hint">Diese Sätze kommen in „Smart“ und „Nur meine Fehler“ wieder:</div><ul>`;
+    const seen = new Set();
+    roundBad.forEach(x => { if (seen.has(x.it.id)) return; seen.add(x.it.id);
+      h += `<li>${esc(x.it.q)} → <b>${x.it.a.map(a => esc(a[0])).join(" … ")}</b> <span class="hint">(du: ${esc(x.given)})</span></li>`; });
+    h += `</ul>`;
+  } else h += `<div class="hint">Keine Fehler. Stark! 💪</div>`;
+  h += `<div class="row" style="margin-top:10px"><button class="go" id="againBtn">▶ Neue Runde</button><button id="errBtn">↺ Nur meine Fehler</button><button id="repBtn">📋 Zum Bericht</button></div>`;
+  endBox.innerHTML = h;
+  $("againBtn").onclick = buildSession;
+  $("errBtn").onclick = () => { modeSel.value = "fehler"; buildSession(); };
+  $("repBtn").onclick = () => showTab("bericht");
+  $("againBtn").focus();
+}
+qEl.addEventListener("keydown", e => {
+  if (e.target.tagName !== "INPUT") return;
+  if (e.key === "Enter"){
+    e.preventDefault();
+    if (state === "done"){ next(); return; }
+    const ins = blanks(), i = ins.indexOf(e.target);
+    const nextEmpty = ins.slice(i + 1).find(x => !x.readOnly && !norm(x.value));
+    if (nextEmpty){ nextEmpty.focus(); return; }
+    submit();
+  } else if (e.key === "ArrowRight" && state === "done"){ e.preventDefault(); next(); }
+});
+document.addEventListener("keydown", e => {
+  if (activeTab !== "saetze") return;
+  if (["INPUT", "BUTTON", "SELECT", "TEXTAREA"].includes(e.target.tagName)) return;
+  if (state === "done" && (e.key === "Enter" || e.key === "ArrowRight")){ e.preventDefault(); next(); }
+});
+goBtn.onclick = submit;
+$("start").onclick = buildSession;
+areaSel.onchange = buildSession;
+modeSel.onchange = buildSession;
+sizeSel.onchange = buildSession;
+retypeCb.onchange = () => { store.settings.retype = retypeCb.checked; saveStore(); };
+
+// ---------- Bericht ----------
+function errOf(e){ const it = ITEM_BY_ID[e.id]; return it ? classify(it, e.b, e.given) : e.err; }
+function prepOf(ans){
+  const w = norm(ans).toLowerCase().split(" ")[0], m = w.match(/^(?:da|wo)r?(.+)$/);
+  if (m && !["dar", "da", "wo", "wor"].includes(w)) return m[1];
+  return CONTR_PREP[w] || w;
+}
+const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
+function cardStats(dir){
+  const o = {sicher: 0, gelernt: 0, neu: 0};
+  CARDS.forEach(c => { const s = store.cards[cardKey(c, dir)]; if (!s || !s.seen) o.neu++; else if (s.box >= 3) o.sicher++; else o.gelernt++; });
+  return o;
+}
+function buildReport(){
+  let answered = 0, right = 0;
+  const byTyp = {};
+  ITEMS.forEach(it => {
+    const s = store.items[it.id], t = byTyp[it.typ] || (byTyp[it.typ] = {n: 0, seen: 0, ok: 0, sicher: 0});
+    t.n++;
+    if (s){ t.seen += s.seen; t.ok += s.ok; if (s.box >= 3) t.sicher++; answered += s.seen; right += s.ok; }
+  });
+  const sicher = ITEMS.filter(it => (store.items[it.id] || {}).box >= 3).length;
+  const kp = cardStats("prep"), km = cardStats("mean");
+  const sLog = store.log.filter(e => e.src === "satz"), kLog = store.log.filter(e => e.src === "karte");
+  let r = `# Verben mit Präpositionen & Kasus: Bericht\n\n`;
+  r += `Stand: ${fmt(Date.now())} · Sätze: ${answered} Antworten, ${pct(right, answered)}% richtig, sicher ${sicher}/${ITEMS.length}`
+    + ` · Karten sicher: Präposition + Kasus ${kp.sicher}/${CARDS.length}, Bedeutung ${km.sicher}/${CARDS.length}\n\n`;
+  r += `## Sätze nach Typ\n| Typ | Antworten | richtig | sicher |\n|---|---|---|---|\n`;
+  TYPS.forEach(t => { const c = byTyp[t]; r += `| ${TYP_NAME[t]} | ${c.seen} | ${pct(c.ok, c.seen)}% | ${c.sicher}/${c.n} |\n`; });
+  const week = Date.now() - 7 * 864e5, byErr = {};
+  sLog.forEach(e => { const k = errOf(e), b = byErr[k] || (byErr[k] = {all: 0, week: 0}); b.all++; if (e.ts >= week) b.week++; });
+  r += `\n## Fehler nach Art\n`;
+  const errs = Object.entries(byErr).sort((a, b) => b[1].all - a[1].all);
+  if (!errs.length) r += `(noch keine Fehler)\n`;
+  else { r += `| Art | gesamt | letzte 7 Tage |\n|---|---|---|\n`; errs.forEach(([k, v]) => { r += `| ${ERR_LABELS[k] || k} | ${v.all} | ${v.week} |\n`; }); }
+  const conf = {};
+  sLog.filter(e => errOf(e) === "prep").forEach(e => {
+    const it = ITEM_BY_ID[e.id]; if (!it) return;
+    const key = `${prepOf(e.given)} statt ${prepOf(e.exp)}`, o = conf[key] || (conf[key] = {n: 0, verbs: new Set()});
+    o.n++; o.verbs.add(cardLabel(CARD_BY_ID[it.card]));
+  });
+  r += `\n## Verwechslungen (du → richtig)\n`;
+  const cl = Object.entries(conf).sort((a, b) => b[1].n - a[1].n);
+  if (!cl.length) r += `(keine)\n`;
+  cl.slice(0, 15).forEach(([k, v]) => { r += `- ${k}: ${v.n}× (${[...v.verbs].join("; ")})\n`; });
+  const pv = {};
+  store.log.forEach(e => {
+    const id = e.src === "satz" ? (ITEM_BY_ID[e.id] || {}).card : e.id; if (!id || !CARD_BY_ID[id]) return;
+    const o = pv[id] || (pv[id] = {s: 0, k: 0}); if (e.src === "satz") o.s++; else o.k++;
+  });
+  r += `\n## Problem-Verben (Fehler in Sätzen + „Nochmal“ bei Karten)\n`;
+  const pvl = Object.entries(pv).sort((a, b) => (b[1].s + b[1].k) - (a[1].s + a[1].k));
+  if (!pvl.length) r += `(keine)\n`;
+  pvl.slice(0, 15).forEach(([id, v]) => { const c = CARD_BY_ID[id]; r += `- ${cardLabel(c)} (${c.en}): ${v.s} Satz-Fehler, ${v.k}× Nochmal\n`; });
+  const probs = ITEMS.filter(it => (store.items[it.id] || {}).bad >= 2).sort((a, b) => store.items[b.id].bad - store.items[a.id].bad);
+  r += `\n## Problem-Sätze (mind. 2× falsch)\n`;
+  if (!probs.length) r += `(keine)\n`;
+  probs.slice(0, 20).forEach(it => { const s = store.items[it.id];
+    r += `- [${TYP_TAG[it.typ]}] ${it.q} · richtig: ${it.a.map(x => x[0]).join(" … ")} · deine falschen: ${[...new Set(s.wrong)].join(", ")} · ${s.ok}/${s.seen} richtig\n`; });
+  r += `\n## Karteikarten\n`;
+  r += `- Präposition + Kasus?: sicher ${kp.sicher}, in Arbeit ${kp.gelernt}, neu ${kp.neu}\n- Bedeutung?: sicher ${km.sicher}, in Arbeit ${km.gelernt}, neu ${km.neu}\n`;
+  const kc = {};
+  kLog.forEach(e => { const k = e.id + "|" + e.dir; kc[k] = (kc[k] || 0) + 1; });
+  const kcl = Object.entries(kc).sort((a, b) => b[1] - a[1]);
+  if (kcl.length) r += `- Oft „Nochmal“: ` + kcl.slice(0, 12).map(([k, n]) => { const [id, dir] = k.split("|"); return `${cardLabel(CARD_BY_ID[id])} [${DIR_NAME[dir]}] ${n}×`; }).join("; ") + `\n`;
+  r += `\n## Letzte 30 Satz-Fehler\n`;
+  const last = sLog.slice(-30).reverse();
+  if (!last.length) r += `(keine)\n`;
+  last.forEach(e => { const it = ITEM_BY_ID[e.id];
+    r += `- ${fmt(e.ts)} · [${it ? TYP_TAG[it.typ] : "?"}] ${it ? it.q : e.id} · du: ${e.given} · richtig: ${e.exp} · ${ERR_LABELS[errOf(e)] || errOf(e)}\n`; });
+  return r;
+}
+function renderReport(){
+  $("repText").value = buildReport();
+  let answered = 0, right = 0;
+  Object.values(store.items).forEach(s => { answered += s.seen; right += s.ok; });
+  const sicher = ITEMS.filter(it => (store.items[it.id] || {}).box >= 3).length, kp = cardStats("prep");
+  const byErr = {};
+  store.log.filter(e => e.src === "satz").forEach(e => { const k = errOf(e); byErr[k] = (byErr[k] || 0) + 1; });
+  const top = Object.entries(byErr).sort((a, b) => b[1] - a[1]).slice(0, 3);
+  $("summary").innerHTML = `<div class="kpis"><div><b>${sicher}/${ITEMS.length}</b><span>Sätze sicher</span></div>`
+    + `<div><b>${pct(right, answered)}%</b><span>richtig (${answered} Antworten)</span></div>`
+    + `<div><b>${kp.sicher}/${CARDS.length}</b><span>Karten sicher (Präposition)</span></div>`
+    + `<div><b>${store.log.filter(e => e.src === "satz").length}</b><span>Fehler gespeichert</span></div></div>`
+    + (top.length ? `<div class="hint" style="margin-bottom:10px">Häufigste Fehler: ${top.map(([k, v]) => `<b>${esc(ERR_LABELS[k] || k)}</b> (${v})`).join(" · ")}</div>` : "");
+}
+function download(name, text, type){
+  const blob = new Blob([text], {type});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+}
+async function copyReport(){
+  const txt = buildReport(); $("repText").value = txt;
+  try { await navigator.clipboard.writeText(txt); $("copyMsg").textContent = "Kopiert! Jetzt im Chat bei Claude einfügen."; }
+  catch(e){
+    $("repText").select();
+    try { document.execCommand("copy"); $("copyMsg").textContent = "Kopiert! Jetzt im Chat bei Claude einfügen."; }
+    catch(e2){ $("copyMsg").textContent = "Bitte den Text unten markieren (Cmd+A) und kopieren (Cmd+C)."; }
+  }
+}
+function today(){ const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`; }
+$("copyRep").onclick = copyReport;
+$("saveRep").onclick = () => { download("verben-praep-bericht.md", buildReport(), "text/markdown;charset=utf-8"); $("copyMsg").textContent = "Gespeichert (Downloads). Schreib Claude: „Verben-Bericht ist in Downloads“."; };
+$("expProg").onclick = () => { download(`verben-praep-fortschritt-${today()}.json`, JSON.stringify(store), "application/json"); $("copyMsg").textContent = "Fortschritt gesichert (Downloads). Auf dem neuen Computer: „Fortschritt laden“."; };
+$("impProg").onclick = () => $("impFile").click();
+$("impFile").onchange = e => { const f = e.target.files[0]; if (f) importProgress(f); e.target.value = ""; };
+function importProgress(file){
+  const rd = new FileReader();
+  rd.onload = () => {
+    let s;
+    try { s = JSON.parse(rd.result); } catch(e){ s = null; }
+    if (!s || s.v !== 1 || s.app !== "verbPrep" || typeof s.items !== "object" || typeof s.cards !== "object" || !Array.isArray(s.log)){
+      $("copyMsg").textContent = "Diese Datei ist kein gültiger Fortschritt für diesen Trainer."; return;
+    }
+    if (!confirm("Fortschritt aus der Datei laden? Der jetzige Stand in diesem Browser wird ersetzt.")) return;
+    s.settings = Object.assign(fresh().settings, s.settings || {});
+    store = s; saveStore();
+    applySettings();
+    $("copyMsg").textContent = "Fortschritt geladen.";
+    renderReport();
+  };
+  rd.readAsText(file);
+}
+$("resetProg").onclick = () => {
+  if (!confirm("Wirklich alles löschen? Tipp: vorher „Fortschritt sichern“.")) return;
+  store = fresh(); saveStore(); applySettings(); renderReport();
+  $("copyMsg").textContent = "Alles zurückgesetzt.";
+};
+
+// ---------- start ----------
+function applySettings(){
+  const s = store.settings;
+  fillDeckSel(); deckSel.value = s.deck; if (!deckSel.value) deckSel.value = "all";
+  dirSel.value = s.dir; cmodeSel.value = s.cmode; csizeSel.value = s.csize;
+  fillAreaSel(); areaSel.value = s.area; if (!areaSel.value) areaSel.value = "all";
+  modeSel.value = s.mode; sizeSel.value = s.size; retypeCb.checked = s.retype !== false;
+  updateMastery(); buildCards(); buildSession();
+}
+$("cardCount").textContent = CARDS.length;
+$("itemCount").textContent = ITEMS.length;
+renderLearn();
+applySettings();
+showTab(store.settings.tab || "lernen");
+</script>
+</body>
+</html>

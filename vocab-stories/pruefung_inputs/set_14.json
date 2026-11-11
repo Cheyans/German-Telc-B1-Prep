@@ -1,0 +1,496 @@
+{
+ "set": "14",
+ "title": "Ein Tag im Büro",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "G071",
+   "entry": "der Manager, -",
+   "level": "B1",
+   "gloss": "manager"
+  },
+  {
+   "id": "G364",
+   "entry": "wöchentlich",
+   "level": "B1",
+   "gloss": "weekly"
+  },
+  {
+   "id": "G370",
+   "entry": "das Jahrhundert, -e",
+   "level": "B1",
+   "gloss": "century"
+  },
+  {
+   "id": "W0030",
+   "entry": "die Abteilung, -en",
+   "level": "B1",
+   "gloss": "department"
+  },
+  {
+   "id": "W0034",
+   "entry": "abwesend",
+   "level": "B1",
+   "gloss": "absent"
+  },
+  {
+   "id": "W0068",
+   "entry": "analysieren, analysiert, analysierte, hat analysiert",
+   "level": "B1",
+   "gloss": "to analyze"
+  },
+  {
+   "id": "W0115",
+   "entry": "anstrengend",
+   "level": "B1",
+   "gloss": "exhausting, tiring"
+  },
+  {
+   "id": "W0118",
+   "entry": "anwesend",
+   "level": "B1",
+   "gloss": "present (at a meeting)"
+  },
+  {
+   "id": "W0141",
+   "entry": "der Architekt, -en die Architektin, -nen",
+   "level": "B1",
+   "gloss": "architect"
+  },
+  {
+   "id": "W0175",
+   "entry": "der Auftrag, ¨-e",
+   "level": "B1",
+   "gloss": "job, contract (from a client)"
+  },
+  {
+   "id": "W0323",
+   "entry": "der Bereich, -e",
+   "level": "B1",
+   "gloss": "area, field"
+  },
+  {
+   "id": "W0330",
+   "entry": "beruflich",
+   "level": "B1",
+   "gloss": "on business, for work"
+  },
+  {
+   "id": "W0331",
+   "entry": "berufstätig",
+   "level": "B1",
+   "gloss": "employed, working"
+  },
+  {
+   "id": "W0351",
+   "entry": "besprechen, bespricht, besprach, hat besprochen",
+   "level": "B1",
+   "gloss": "to discuss"
+  },
+  {
+   "id": "W0352",
+   "entry": "die Besprechung, -en",
+   "level": "B1",
+   "gloss": "meeting"
+  },
+  {
+   "id": "W0497",
+   "entry": "dauernd",
+   "level": "B1",
+   "gloss": "constantly, all the time"
+  },
+  {
+   "id": "W0534",
+   "entry": "doppelt",
+   "level": "B1",
+   "gloss": "double, twice (as)"
+  },
+  {
+   "id": "W0551",
+   "entry": "der Druck",
+   "level": "B1",
+   "gloss": "pressure"
+  },
+  {
+   "id": "W0568",
+   "entry": "ebenfalls",
+   "level": "B1",
+   "gloss": "likewise, you too"
+  },
+  {
+   "id": "W0594",
+   "entry": "eindeutig",
+   "level": "B1",
+   "gloss": "clearly, definitely"
+  },
+  {
+   "id": "W0633",
+   "entry": "einzeln",
+   "level": "B1",
+   "gloss": "individually, one by one"
+  },
+  {
+   "id": "W0691",
+   "entry": "erfolgreich",
+   "level": "B1",
+   "gloss": "successful"
+  },
+  {
+   "id": "W0707",
+   "entry": "erkennen, erkennt, erkannte, hat erkannt",
+   "level": "B1",
+   "gloss": "to recognize, to notice"
+  },
+  {
+   "id": "W0728",
+   "entry": "ersetzen, ersetzt, ersetzte, hat ersetzt",
+   "level": "B1",
+   "gloss": "to replace"
+  },
+  {
+   "id": "W0748",
+   "entry": "der Experte, -n",
+   "level": "B1",
+   "gloss": "expert"
+  },
+  {
+   "id": "W0752",
+   "entry": "die Fabrik, -en",
+   "level": "B1",
+   "gloss": "factory"
+  },
+  {
+   "id": "W0755",
+   "entry": "die Fachfrau, -en",
+   "level": "B1",
+   "gloss": "expert, specialist (woman)"
+  },
+  {
+   "id": "W0792",
+   "entry": "der Feierabend",
+   "level": "B1",
+   "gloss": "end of the workday"
+  },
+  {
+   "id": "W1006",
+   "entry": "die Gewerkschaft, -en",
+   "level": "B1",
+   "gloss": "labor union"
+  },
+  {
+   "id": "W1050",
+   "entry": "gründen, gründet, gründete, hat gegründet",
+   "level": "B1",
+   "gloss": "to found, to start (a company)"
+  },
+  {
+   "id": "W1069",
+   "entry": "halbtags",
+   "level": "B1",
+   "gloss": "half-day, part-time"
+  },
+  {
+   "id": "W1132",
+   "entry": "herunter, fuhr herunter, hat heruntergefahren",
+   "level": "B1",
+   "gloss": "to shut down (a computer)"
+  },
+  {
+   "id": "W1263",
+   "entry": "die Karriere, -n",
+   "level": "B1",
+   "gloss": "career"
+  },
+  {
+   "id": "W1300",
+   "entry": "kleben, klebt, klebte, hat geklebt",
+   "level": "B1",
+   "gloss": "to stick, to glue"
+  },
+  {
+   "id": "W1332",
+   "entry": "die Konferenz, -en",
+   "level": "B1",
+   "gloss": "conference"
+  },
+  {
+   "id": "W1336",
+   "entry": "die Konkurrenz",
+   "level": "B1",
+   "gloss": "competition, competitors"
+  },
+  {
+   "id": "W1350",
+   "entry": "kopieren",
+   "level": "B1",
+   "gloss": "to copy"
+  },
+  {
+   "id": "W1351",
+   "entry": "die Kopie, -n",
+   "level": "B1",
+   "gloss": "copy"
+  },
+  {
+   "id": "W1352",
+   "entry": "der Kopierer, -",
+   "level": "B1",
+   "gloss": "copier, photocopier"
+  },
+  {
+   "id": "W1461",
+   "entry": "die Leistung, -en",
+   "level": "B1",
+   "gloss": "achievement, performance"
+  },
+  {
+   "id": "W1462",
+   "entry": "leiten, leitet, leitete, hat geleitet",
+   "level": "B1",
+   "gloss": "to run, to lead"
+  },
+  {
+   "id": "W1741",
+   "entry": "der Ordner, -",
+   "level": "B1",
+   "gloss": "folder"
+  },
+  {
+   "id": "W1825",
+   "entry": "der Praktikant, -en die Praktikantin, -nen",
+   "level": "B1",
+   "gloss": "intern"
+  },
+  {
+   "id": "W1827",
+   "entry": "präsentieren",
+   "level": "B1",
+   "gloss": "to present"
+  },
+  {
+   "id": "W1828",
+   "entry": "die Präsentation, -en",
+   "level": "B1",
+   "gloss": "presentation"
+  },
+  {
+   "id": "W1884",
+   "entry": "rauf/rauf-",
+   "level": "B1",
+   "gloss": "up (colloquial)"
+  },
+  {
+   "id": "W2102",
+   "entry": "der Sekretär, -e die Sekretärin, -nen",
+   "level": "B1",
+   "gloss": "secretary"
+  },
+  {
+   "id": "W2234",
+   "entry": "steigen, steigt, stieg, ist gestiegen",
+   "level": "B1",
+   "gloss": "to rise, to go up"
+  },
+  {
+   "id": "W2271",
+   "entry": "streiken, streikt, streikte, hat gestreikt",
+   "level": "B1",
+   "gloss": "to strike, to be on strike"
+  },
+  {
+   "id": "W2272",
+   "entry": "der Streik, -s",
+   "level": "B1",
+   "gloss": "strike"
+  },
+  {
+   "id": "W2276",
+   "entry": "der Stress",
+   "level": "A2",
+   "gloss": "stress"
+  },
+  {
+   "id": "W2302",
+   "entry": "das Symbol, -e",
+   "level": "B1",
+   "gloss": "symbol"
+  },
+  {
+   "id": "W2339",
+   "entry": "die Teilzeit",
+   "level": "B1",
+   "gloss": "part-time"
+  },
+  {
+   "id": "W2351",
+   "entry": "der Terminkalender, -",
+   "level": "B1",
+   "gloss": "appointment calendar"
+  },
+  {
+   "id": "W2438",
+   "entry": "übernehmen, übernimmt, übernahm, hat übernommen.",
+   "level": "B1",
+   "gloss": "to take over, to take on"
+  },
+  {
+   "id": "W2448",
+   "entry": "die Überstunde, -n",
+   "level": "B1",
+   "gloss": "hour of overtime"
+  },
+  {
+   "id": "W2501",
+   "entry": "der Unternehmer, - die Unternehmerin, -nen",
+   "level": "B1",
+   "gloss": "entrepreneur, business owner"
+  },
+  {
+   "id": "W2520",
+   "entry": "ursprünglich",
+   "level": "B1",
+   "gloss": "originally"
+  },
+  {
+   "id": "W2533",
+   "entry": "verantwortlich",
+   "level": "B1",
+   "gloss": "responsible (for)"
+  },
+  {
+   "id": "W2618",
+   "entry": "vertreten, vertritt, vertrat, hat vertreten",
+   "level": "B1",
+   "gloss": "to stand in for (someone)"
+  },
+  {
+   "id": "W2619",
+   "entry": "der Vertreter, - die Vertreterin, -nen",
+   "level": "B1",
+   "gloss": "sales representative"
+  },
+  {
+   "id": "W2620",
+   "entry": "die Vertretung, -en",
+   "level": "B1",
+   "gloss": "stand-in, substitute"
+  },
+  {
+   "id": "W2637",
+   "entry": "die Visitenkarte, -n",
+   "level": "B1",
+   "gloss": "business card"
+  },
+  {
+   "id": "W2684",
+   "entry": "wahnsinnig",
+   "level": "B1",
+   "gloss": "incredibly, extremely"
+  },
+  {
+   "id": "W2723",
+   "entry": "die Weiterbildung, -en",
+   "level": "B1",
+   "gloss": "further education, training"
+  },
+  {
+   "id": "W2766",
+   "entry": "die Wirklichkeit",
+   "level": "B1",
+   "gloss": "reality"
+  },
+  {
+   "id": "W2832",
+   "entry": "ziehen, zieht, zog, hat/ist gezogen",
+   "level": "A2",
+   "gloss": "to move (to a new place)"
+  },
+  {
+   "id": "W2852",
+   "entry": "zugänglich",
+   "level": "B1",
+   "gloss": "accessible"
+  },
+  {
+   "id": "W2872",
+   "entry": "die Zusammenarbeit",
+   "level": "B1",
+   "gloss": "cooperation, working together"
+  },
+  {
+   "id": "W2874",
+   "entry": "der Zusammenhang, ¨-e",
+   "level": "B1",
+   "gloss": "connection, link"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2876",
+   "entry": "zuschauen, schaut zu, schaute zu, hat zugeschaut",
+   "level": "B1",
+   "gloss": "to watch"
+  },
+  {
+   "id": "W1755",
+   "entry": "die Panne, -n",
+   "level": "B1",
+   "gloss": "breakdown (of a car)"
+  },
+  {
+   "id": "W0981",
+   "entry": "das Gericht, -e",
+   "level": "A2",
+   "gloss": "dish (food); court (of law)"
+  },
+  {
+   "id": "W2389",
+   "entry": "tragen, trägt, trug, hat getragen",
+   "level": "A2",
+   "gloss": "to carry; to wear"
+  },
+  {
+   "id": "W1041",
+   "entry": "greifen, greift, griff, hat gegriffen",
+   "level": "B1",
+   "gloss": "to reach (for), to grab"
+  },
+  {
+   "id": "W2724",
+   "entry": "welcher, welche, welches",
+   "level": "A2",
+   "gloss": "which; which one"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X019",
+   "word": "der Hort, -e",
+   "gloss": "after-school care (for primary-school children)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X022",
+   "word": "die Anerkennung",
+   "gloss": "recognition, appreciation",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R013",
+   "word": "die Jause, -n",
+   "gloss": "snack",
+   "kind": "austrian",
+   "de": "der Imbiss, die Zwischenmahlzeit"
+  },
+  {
+   "id": "R028",
+   "word": "der Sessel, -",
+   "gloss": "chair (in Germany: armchair)",
+   "kind": "austrian",
+   "de": "der Stuhl"
+  }
+ ],
+ "story_opening": "Als Lena am Dienstagmorgen zur Haltestelle kommt, wartet dort niemand. Am Fahrplan hängt ein Zettel: „Heute fahren keine Straßenbahnen.“ Die Fahrer streiken. Ihre Gewerkschaft kämpft für mehr Geld, denn alles wird teurer, und die Mieten steigen jedes Jahr.\n\nLena seufzt. Sie ist erst vor Kurzem aus Hamburg nach Leipzig gezogen. Den Weg ins Büro kennt sie bis jetzt nur mit der Straßenbahn. Aber sie hat keine Wahl. Also geht sie zurück nach Hause, holt ihr Fahrrad aus dem Keller und fährt los. Wegen des Streiks sind heute sehr viele Leute mit dem Rad unterwegs, und an jeder Ampel gibt es einen kleinen Stau.\n\nDie Werbeagentur, in der Lena arbeitet, liegt in einer alten Fabrik aus dem 19. Jahrhun"
+}

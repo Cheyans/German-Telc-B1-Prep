@@ -1,0 +1,38 @@
+async page => {
+  const FILE = globalThis.B1_FILE;
+  const out = [];
+  const ok = (name, cond, extra) => out.push((cond ? "PASS " : "FAIL ") + name + (extra ? " | " + extra : ""));
+  const errors = [];
+  page.on("pageerror", e => errors.push(String(e)));
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto(FILE);
+  await page.evaluate(() => localStorage.clear());
+  await page.reload();
+  ok("first visit: Heute shows a welcome line with a link to the guide", await page.evaluate(() => !!document.querySelector(".day .welcome #openHelp")));
+  await page.click("#bToc");
+  ok("Themen still list 28 topics", (await page.$$eval(".toc li", e => e.length)) === 28);
+  const intro = await page.evaluate(() => document.querySelector("main").innerText);
+  await page.click("#bDay");
+  ok("the intro has no personal practice-test wording", !/Übungstests nicht kanntest/.test(intro) && /zweimal/.test(intro), intro.slice(0, 120));
+  await page.click("#openHelp");
+  const help = await page.evaluate(() => ({ h2: (document.querySelector(".help h2") || {}).textContent, h3: [...document.querySelectorAll(".help h3")].map(x => x.textContent) }));
+  const want = ["What this is", "Getting started", "Reading and looking up words", "The quizzes work like the exam", "Satzbau and Wortliste", "Your progress", "Getting a newer version", "A good routine", "Opening the file"];
+  ok("the guide opens with all its sections", help.h2 === "How to use this page" && want.every(w => help.h3.includes(w)), JSON.stringify(help.h3));
+  ok("the guide has the backup buttons and the version date", await page.evaluate(() => !!document.querySelector(".help #saveProg") && !!document.querySelector(".help #loadProg") && /Version vom/.test(document.querySelector(".help").innerText)));
+  await page.click("#bDay");
+  ok("after reading the guide, the welcome box is gone", await page.evaluate(() => !document.querySelector(".welcome")));
+  await page.reload();
+  ok("the welcome box stays gone after a reload", await page.evaluate(() => !document.querySelector(".welcome")));
+  await page.click("#bHelp");
+  ok("the Hilfe button in the header opens the guide", await page.evaluate(() => !!document.querySelector(".help")));
+  await page.evaluate(() => localStorage.clear());
+  await page.goto(FILE);
+  await page.click("#hideWelcome");
+  ok("Ausblenden hides the welcome box", await page.evaluate(() => !document.querySelector(".welcome") && document.querySelectorAll(".tasks .task").length === 4));
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.click("#bHelp");
+  const fits = await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1);
+  ok("phone: the guide fits the screen width", fits);
+  ok("no page errors", errors.length === 0, errors.join(" | "));
+  return out.join("\n");
+}

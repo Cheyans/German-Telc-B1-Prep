@@ -1,0 +1,130 @@
+{
+ "set": "20",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was zeigt die Umfrage unter 2.000 Erwachsenen?",
+     "right": "Etwa ein Drittel lädt regelmäßig Gäste zum Essen ein.",
+     "wrong": [
+      "Fast jeder Dritte trifft Freunde einmal im Monat im Restaurant.",
+      "Vor allem Menschen über 40 kochen häufig für Bekannte."
+     ],
+     "evidence": "Laut einer Umfrage unter 2.000 Erwachsenen lädt heute fast jeder Dritte mindestens einmal im Monat Freunde oder Bekannte zum Essen nach Hause ein. Besonders häufig tun das Menschen zwischen 25 und 40 Jahren.",
+     "why": "Almost one in three adults invites friends or acquaintances home for a meal at least once a month. They eat at home, not in a restaurant, and people aged 25 to 40, not over 40, do it most often.",
+     "trap": "same-word",
+     "words": [
+      "W0306",
+      "W1091"
+     ]
+    },
+    {
+     "q": "Was erfährt man über Mateo Garcías Feier?",
+     "right": "Es kamen mehr Leute, als er eingeladen hatte.",
+     "wrong": [
+      "Er hat für seine Gäste noch ein viertes Gericht gekocht.",
+      "Für fünf Gäste hat das Essen leider nicht ausgereicht."
+     ],
+     "evidence": "Zum dritten Jahrestag seiner Ankunft in Leipzig, für ihn ein wichtiges Ereignis, lud er zehn Gäste ein, doch am Ende kamen fünfzehn.",
+     "why": "He invited ten guests, but fifteen came. A friend advised him not to cook a fourth dish, and the food was enough for everyone.",
+     "trap": "flip",
+     "words": [
+      "W0684",
+      "W0450",
+      "W0206"
+     ]
+    },
+    {
+     "q": "Welches Problem gibt es laut Artikel oft mit der Einkaufsliste?",
+     "right": "Man schreibt sie, bevor man die genaue Zahl der Gäste kennt.",
+     "wrong": [
+      "Man schaut vorher nicht nach, was im Vorrat schon da ist.",
+      "Man denkt dabei nicht an Gäste, die kein Fleisch essen."
+     ],
+     "evidence": "Um das zu verhindern, hilft schon eine genaue Einkaufsliste. Diese wird jedoch häufig zu früh geschrieben, nämlich bevor feststeht, wie viele Gäste kommen.",
+     "why": "The article says the list is often (häufig) written too early, before it is clear how many guests will come. It recommends a supply of long-lasting food, but it never says people forget to check it or forget guests who eat no meat.",
+     "trap": "paraphrase",
+     "words": [
+      "W1091",
+      "W2564"
+     ]
+    },
+    {
+     "q": "Warum passen rohe Möhren laut Artikel gut als Vorspeise?",
+     "right": "Weil mehr als jeder zweite Erwachsene zu viel wiegt.",
+     "wrong": [
+      "Weil rohes Gemüse mehr Vitamine enthält als gekochtes.",
+      "Weil Gemüse vom Markt frisch und günstig ist."
+     ],
+     "evidence": "Als Vorspeise empfiehlt Matthes rohe Möhren, die man in anderen Regionen auch Karotten nennt, mit einem Dip aus Joghurt. Das passt gut, denn laut Statistischem Bundesamt ist mehr als die Hälfte der Erwachsenen in Deutschland übergewichtig.",
+     "why": "The article says the raw-carrot starter fits because more than half of adults in Germany are overweight (übergewichtig). Market vegetables come up earlier only as a shopping tip, and vitamins are never mentioned.",
+     "trap": "same-word",
+     "words": [
+      "X003",
+      "W1957",
+      "W1605"
+     ]
+    },
+    {
+     "q": "Wobei dürfen Gäste laut Ralf Brenner gern helfen?",
+     "right": "Beim Kleinschneiden von allem, was ins Essen kommt.",
+     "wrong": [
+      "Beim Mischen der Getränke, zum Beispiel einer Limonade.",
+      "Beim Abwaschen, während der Gastgeber am Herd steht."
+     ],
+     "evidence": "Brenner sieht das anders: Wer Gäste beim Schneiden der Zutaten helfen lässt, hat weniger Arbeit, und die Stimmung ist sowieso besser.",
+     "why": "Brenner says guests can help cut the ingredients (Zutaten), so the host has less work. The lemonade is only a cheap drink idea, and he never mentions washing up.",
+     "trap": "paraphrase",
+     "words": [
+      "W2885",
+      "W1483"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "ads",
+   "prompts": [
+    {
+     "id": "1",
+     "text": "Sie feiern in Leipzig mit 40 Gästen und möchten sich das Essen bringen lassen.",
+     "answer": "a",
+     "evidence": "Wir liefern Ihr Buffet für 15 bis 80 Personen an jede Adresse in Leipzig, auf Wunsch auch vegetarisch.",
+     "why": "Gute Gabel delivers buffets for 15 to 80 people anywhere in Leipzig. The snack bar's party platters must be picked up (keine Lieferung), so b does not fit."
+    },
+    {
+     "id": "2",
+     "text": "Ein Bekannter ist Koch und sucht eine Stelle mit freien Wochenenden.",
+     "answer": "f",
+     "evidence": "Arbeitszeit: Montag bis Freitag, 7 bis 15 Uhr, am Wochenende haben Sie immer frei.",
+     "why": "The daycare kitchen needs a cook from Monday to Friday, and weekends are always free. The snack bar wants a cook from Friday to Sunday, so b does not fit."
+    },
+    {
+     "id": "3",
+     "text": "Sie machen Urlaub in Wien und möchten dort typische Gerichte kochen lernen.",
+     "answer": "d",
+     "evidence": "In unserer Kochschule im 6. Bezirk lernen Sie jeden Samstag, wie man typische Wiener Gerichte für Gäste kocht",
+     "why": "The Vienna cooking school teaches typical Viennese dishes every Saturday, and tourists are welcome. The butcher's sausage course is in Graz, not in Vienna."
+    },
+    {
+     "id": "4",
+     "text": "Ihre Freundin möchte an einem Samstag in Leipzig lernen, wie man ohne Fleisch kocht.",
+     "answer": "x",
+     "evidence": "Termine: dienstags von 18 bis 21 Uhr, ab 3. November.",
+     "why": "The vegetarian course in Leipzig is on Tuesday evenings, not on a Saturday. The Saturday course is in Vienna and includes goulash, so no ad fits."
+    },
+    {
+     "id": "5",
+     "text": "Sie suchen in der Nähe von Leipzig einen Bauernhof, der Bio-Obst und Honig selbst verkauft.",
+     "answer": "g",
+     "evidence": "Bei uns kaufen Sie direkt beim Bauern, nur 15 Minuten von Leipzig. Alles stammt aus biologischem Anbau, ohne Chemie auf dem Feld.",
+     "why": "The farm shop near Leipzig sells organic fruit and honey from its own bees. The party service uses organic local ingredients, but it does not sell honey or fruit."
+    }
+   ]
+  }
+ ]
+}

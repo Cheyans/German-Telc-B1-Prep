@@ -1,0 +1,132 @@
+{
+ "set": "14",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was erfährt man im Artikel über den Streik?",
+     "right": "Die Busfahrer wollen sich bald dem Streik anschließen.",
+     "wrong": [
+      "Die Gewerkschaft fordert für die Fahrer zehn Prozent mehr Lohn.",
+      "Am Dienstag haben die Busfahrer ebenfalls gestreikt."
+     ],
+     "evidence": "Ihre Gewerkschaft fordert sieben Prozent mehr Lohn, weil das Leben in der Stadt immer teurer wird. Nach Angaben des Unternehmens waren rund 150.000 Fahrgäste betroffen, und nächste Woche wollen die Busfahrer ebenfalls streiken.",
+     "why": "Ebenfalls means also: the bus drivers plan to strike next week, so they did not strike on Tuesday. The union asks for seven percent more pay, not ten.",
+     "trap": "when",
+     "words": [
+      "W0568",
+      "W2271",
+      "W1006"
+     ]
+    },
+    {
+     "q": "Was steht im Artikel über das Gebäude der Agentur?",
+     "right": "Dort hat man früher Musikinstrumente hergestellt.",
+     "wrong": [
+      "Früher wurden in dem alten Gebäude Fahrräder gebaut.",
+      "Das Gebäude ist schon seit 1990 ein Bürohaus."
+     ],
+     "evidence": "Die Agentur, in der Lena arbeitet, liegt in einer alten Fabrik aus dem 19. Jahrhundert, in der früher Klaviere gebaut wurden. Vor einigen Jahren wurde das Gebäude von einer Architektin zu einem modernen Bürohaus mit großen Fenstern umgebaut.",
+     "why": "Pianos were built in the old factory, and a piano is a musical instrument. It became an office building only a few years ago, and 1990 is just the start of the city's count.",
+     "trap": "same-word",
+     "words": [
+      "W0752",
+      "G370"
+     ]
+    },
+    {
+     "q": "Warum leitete Jonas Weber an diesem Dienstag die Besprechung?",
+     "right": "Seine Chefin war geschäftlich in einer anderen Stadt.",
+     "wrong": [
+      "Seine Chefin kam wegen des Streiks erst später ins Büro.",
+      "Seine Chefin war in dieser Woche im Urlaub."
+     ],
+     "evidence": "Jeden Dienstag besprechen Lena und ihre Kollegen die Aufgaben der Woche, doch an diesem Tag war die Chefin beruflich auf einer Konferenz in Berlin. Deshalb leitete Jonas Weber die Besprechung: Er arbeitet seit sechs Jahren in der Agentur und vertritt Frau Lorenz immer, wenn sie fehlt.",
+     "why": "Beruflich means for work: Frau Lorenz was at a conference in Berlin, not on vacation. Lena was the one who came late, and Jonas stands in for the boss whenever she is away.",
+     "trap": "paraphrase",
+     "words": [
+      "W0330",
+      "W1332",
+      "W2618"
+     ]
+    },
+    {
+     "q": "Was passierte mit der Präsentation für die Firma Grünfeld?",
+     "right": "Sie fand schon am Dienstag statt, nicht erst am Freitag.",
+     "wrong": [
+      "Sie wurde vom Dienstag auf den nächsten Freitag verschoben.",
+      "Herr Ott hat sie kurz vorher am Telefon abgesagt."
+     ],
+     "evidence": "Die Präsentation war ursprünglich für Freitag geplant, wurde dann aber auf 16 Uhr an diesem Dienstag vorgezogen. Am Abend kam die Zusage: Grünfeld freut sich auf die Zusammenarbeit.",
+     "why": "Ursprünglich means originally: it was planned for Friday but moved up to 4 p.m. on Tuesday. It was not called off, because the agency got the job that evening.",
+     "trap": "when",
+     "words": [
+      "W1828",
+      "W2520",
+      "W2872"
+     ]
+    },
+    {
+     "q": "Was empfiehlt Anja Wolff?",
+     "right": "Man sollte nicht auf jede Nachricht sofort reagieren.",
+     "wrong": [
+      "Man sollte E-Mails am besten abends in Ruhe lesen.",
+      "Nach Feierabend sollte man nur dringende E-Mails beantworten."
+     ],
+     "evidence": "Sie rät, nicht bei jeder Nachricht sofort zum Handy zu greifen und nach Feierabend den Laptop herunterzufahren. „Ideal wäre es, wenn niemand nach 18 Uhr noch E-Mails lesen müsste“, sagt sie.",
+     "why": "She advises not grabbing the phone (zum Handy greifen) for every message right away. After work (Feierabend) she wants the laptop shut down and, ideally, no e-mails read after 6 p.m.",
+     "trap": "paraphrase",
+     "words": [
+      "W1041",
+      "W0792",
+      "W1132"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "ads",
+   "prompts": [
+    {
+     "id": "1",
+     "text": "Ihre Nachbarin sucht eine Stelle im Büro, kann aber nur vormittags arbeiten.",
+     "answer": "e",
+     "evidence": "Sie arbeiten halbtags von 8 bis 12 Uhr, führen unseren Terminkalender und beantworten Anrufe und E-Mails.",
+     "why": "Ad e is a part-time office job from 8 a.m. to noon (halbtags). Ad g is also a job, but it is full-time and you visit customers."
+    },
+    {
+     "id": "2",
+     "text": "Sie brauchen am Samstag schnell 200 Visitenkarten für ein Treffen mit Kunden.",
+     "answer": "a",
+     "evidence": "Visitenkarten sind schon nach zwei Stunden fertig. Schicken Sie uns Ihre Datei einfach per E-Mail. Mo–Fr 8–20 Uhr, Sa 9–16 Uhr",
+     "why": "The copy shop makes business cards in two hours and is open on Saturday from 9 a.m. to 4 p.m."
+    },
+    {
+     "id": "3",
+     "text": "Sie suchen für Ihr Büro in Leipzig günstige gebrauchte Stühle mit Lieferung.",
+     "answer": "x",
+     "evidence": "Sie müssen die Möbel selbst in Wien-Favoriten abholen, wir liefern nicht.",
+     "why": "Only ad b sells used chairs (in Austria a Sessel is a normal chair), but it is in Vienna and does not deliver. No other ad sells furniture."
+    },
+    {
+     "id": "4",
+     "text": "Eine Kollegin möchte vor Kunden sicherer sprechen, hat aber nur am Wochenende Zeit.",
+     "answer": "c",
+     "evidence": "In unserem Wochenendkurs lernen Sie, ruhig und erfolgreich zu präsentieren. Die Teilnehmer üben einzeln vor der Gruppe, die anderen schauen zu und geben Tipps.",
+     "why": "Ad c is a weekend course on presenting to customers or colleagues. Ad d also practices calm speaking, but it runs Tuesday to Thursday in Graz."
+    },
+    {
+     "id": "5",
+     "text": "Ihr Sohn ist acht und braucht nach der Schule bis 17 Uhr eine Betreuung.",
+     "answer": "f",
+     "evidence": "Der Hort der Grundschule am Rosental hat ab November Plätze für Kinder der Klassen 1 bis 4. Geöffnet Mo–Fr bis 17.30 Uhr.",
+     "why": "A Hort is after-school care for children in grades 1 to 4, and it is open until 5:30 p.m. The Kita in ad h is only for children aged one to six."
+    }
+   ]
+  }
+ ]
+}

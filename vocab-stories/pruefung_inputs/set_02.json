@@ -1,0 +1,551 @@
+{
+ "set": "02",
+ "title": "Die neue Wohnung",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "G008",
+   "entry": "das EG (Erdgeschoss)",
+   "level": "B1",
+   "gloss": "ground floor (abbreviation)"
+  },
+  {
+   "id": "G009",
+   "entry": "das OG (Obergeschoss)",
+   "level": "B1",
+   "gloss": "upper floor (abbreviation)"
+  },
+  {
+   "id": "G010",
+   "entry": "das UG (Untergeschoss)",
+   "level": "B1",
+   "gloss": "basement level (abbreviation)"
+  },
+  {
+   "id": "G022",
+   "entry": "die WG, -s (Wohngemeinschaft)",
+   "level": "B1",
+   "gloss": "shared apartment (with roommates)"
+  },
+  {
+   "id": "G237",
+   "entry": "der Quadratmeter, -",
+   "level": "B1",
+   "gloss": "square meter"
+  },
+  {
+   "id": "G341",
+   "entry": "werktags",
+   "level": "B1",
+   "gloss": "on workdays (Mon to Sat)"
+  },
+  {
+   "id": "G366",
+   "entry": "monatlich",
+   "level": "B1",
+   "gloss": "monthly"
+  },
+  {
+   "id": "W0009",
+   "entry": "der Abfalleimer, -",
+   "level": "B1",
+   "gloss": "trash can"
+  },
+  {
+   "id": "W0062",
+   "entry": "alternativ",
+   "level": "B1",
+   "gloss": "alternatively"
+  },
+  {
+   "id": "W0292",
+   "entry": "behalten, behält, behielt, hat behalten",
+   "level": "B1",
+   "gloss": "to keep"
+  },
+  {
+   "id": "W0373",
+   "entry": "bevor",
+   "level": "B1",
+   "gloss": "before (conjunction)"
+  },
+  {
+   "id": "W0396",
+   "entry": "ein bisschen",
+   "level": "B1",
+   "gloss": "a little, a bit"
+  },
+  {
+   "id": "W0430",
+   "entry": "der Briefkasten, ¨-",
+   "level": "B1",
+   "gloss": "mailbox"
+  },
+  {
+   "id": "W0467",
+   "entry": "die Couch, -s",
+   "level": "B1",
+   "gloss": "couch"
+  },
+  {
+   "id": "W0474",
+   "entry": "das Dach, ¨-er",
+   "level": "B1",
+   "gloss": "roof"
+  },
+  {
+   "id": "W0475",
+   "entry": "dafür",
+   "level": "A2",
+   "gloss": "in return, on the other hand"
+  },
+  {
+   "id": "W0477",
+   "entry": "daher",
+   "level": "B1",
+   "gloss": "therefore, that's why"
+  },
+  {
+   "id": "W0558",
+   "entry": "der Durchschnitt, -e",
+   "level": "B1",
+   "gloss": "average (im Durchschnitt: on average)"
+  },
+  {
+   "id": "W0618",
+   "entry": "einrichten, richtet ein, richtete ein, hat eingerichtet",
+   "level": "B1",
+   "gloss": "to furnish (an apartment)"
+  },
+  {
+   "id": "W0619",
+   "entry": "die Einrichtung, -en",
+   "level": "B1",
+   "gloss": "furnishings, furniture"
+  },
+  {
+   "id": "W0683",
+   "entry": "das Erdgeschoss/ Ergeschoß, -e",
+   "level": "A2",
+   "gloss": "ground floor (US: first floor)"
+  },
+  {
+   "id": "W0731",
+   "entry": "erst-",
+   "level": "A2",
+   "gloss": "first (ordinal)"
+  },
+  {
+   "id": "W0743",
+   "entry": "die Etage, -n (D, CH) → Stock",
+   "level": "B1",
+   "gloss": "floor, story"
+  },
+  {
+   "id": "W0751",
+   "entry": "extrem",
+   "level": "B1",
+   "gloss": "extremely"
+  },
+  {
+   "id": "W0827",
+   "entry": "die Fläche, -n",
+   "level": "B1",
+   "gloss": "area (floor space)"
+  },
+  {
+   "id": "W0843",
+   "entry": "der Flur, -e Gang; D, CH:→ Korridor",
+   "level": "B1",
+   "gloss": "hallway"
+  },
+  {
+   "id": "W0924",
+   "entry": "das Gebäude, -",
+   "level": "B1",
+   "gloss": "building"
+  },
+  {
+   "id": "W0939",
+   "entry": "die Gefahr, -en",
+   "level": "B1",
+   "gloss": "danger, hazard"
+  },
+  {
+   "id": "W0955",
+   "entry": "geheim",
+   "level": "B1",
+   "gloss": "secret"
+  },
+  {
+   "id": "W0968",
+   "entry": "gemütlich",
+   "level": "B1",
+   "gloss": "cozy"
+  },
+  {
+   "id": "W0984",
+   "entry": "gesamt-/Gesamt-",
+   "level": "B1",
+   "gloss": "total (Gesamtmiete: total rent)"
+  },
+  {
+   "id": "W1080",
+   "entry": "der Hammer, ¨-",
+   "level": "B1",
+   "gloss": "hammer"
+  },
+  {
+   "id": "W1082",
+   "entry": "der Handwerker, - die Handwerkerin, -nen",
+   "level": "B1",
+   "gloss": "repairman, tradesperson"
+  },
+  {
+   "id": "W1098",
+   "entry": "der Hausmeister, - die Hausmeisterin, -nen (D, A) CH: Abwart→",
+   "level": "B1",
+   "gloss": "building superintendent, janitor"
+  },
+  {
+   "id": "W1110",
+   "entry": "heizen, heizt, heizte, hat geheizt",
+   "level": "B1",
+   "gloss": "to heat"
+  },
+  {
+   "id": "W1155",
+   "entry": "der Hof, ¨-e",
+   "level": "B1",
+   "gloss": "courtyard"
+  },
+  {
+   "id": "W1260",
+   "entry": "kaputtmachen",
+   "level": "B1",
+   "gloss": "to break (something)"
+  },
+  {
+   "id": "W1291",
+   "entry": "die Kiste, -n (A, D) D:→ Kasten",
+   "level": "B1",
+   "gloss": "box, moving box"
+  },
+  {
+   "id": "W1292",
+   "entry": "das Kissen, -",
+   "level": "B1",
+   "gloss": "cushion, pillow"
+  },
+  {
+   "id": "W1308",
+   "entry": "die Klimaanlage, -n",
+   "level": "B1",
+   "gloss": "air conditioning"
+  },
+  {
+   "id": "W1309",
+   "entry": "klingeln, klingelt, klingelte, hat geklingelt",
+   "level": "B1",
+   "gloss": "to ring (the doorbell)"
+  },
+  {
+   "id": "W1310",
+   "entry": "die Klingel, -n",
+   "level": "B1",
+   "gloss": "doorbell"
+  },
+  {
+   "id": "W1399",
+   "entry": "die Kündigung, -en",
+   "level": "B1",
+   "gloss": "notice (to end a lease)"
+  },
+  {
+   "id": "W1417",
+   "entry": "die Lage",
+   "level": "B1",
+   "gloss": "location"
+  },
+  {
+   "id": "W1482",
+   "entry": "der Lift, -e D, A: Aufzug→",
+   "level": "B1",
+   "gloss": "elevator"
+  },
+  {
+   "id": "W1491",
+   "entry": "das Loch, ¨-er",
+   "level": "B1",
+   "gloss": "hole"
+  },
+  {
+   "id": "W1497",
+   "entry": "los/los-",
+   "level": "B1",
+   "gloss": "off, started (es geht los: it starts)"
+  },
+  {
+   "id": "W1519",
+   "entry": "der Mangel, ¨-",
+   "level": "B1",
+   "gloss": "defect (in a rental)"
+  },
+  {
+   "id": "W1570",
+   "entry": "der Mieter, - die Mieterin, -nen",
+   "level": "B1",
+   "gloss": "tenant"
+  },
+  {
+   "id": "W1592",
+   "entry": "möbliert",
+   "level": "B1",
+   "gloss": "furnished"
+  },
+  {
+   "id": "W1613",
+   "entry": "der Müll",
+   "level": "A2",
+   "gloss": "trash, garbage"
+  },
+  {
+   "id": "W1614",
+   "entry": "die Müllabfuhr",
+   "level": "B1",
+   "gloss": "garbage collection"
+  },
+  {
+   "id": "W1615",
+   "entry": "die Mülltonne, -n",
+   "level": "B1",
+   "gloss": "garbage can (outdoor bin)"
+  },
+  {
+   "id": "W1643",
+   "entry": "der Nagel, ¨-",
+   "level": "B1",
+   "gloss": "nail"
+  },
+  {
+   "id": "W1746",
+   "entry": "original",
+   "level": "B1",
+   "gloss": "original"
+  },
+  {
+   "id": "W1748",
+   "entry": "der Vorort, -e",
+   "level": "B1",
+   "gloss": "suburb"
+  },
+  {
+   "id": "W1751",
+   "entry": "(ein) paar",
+   "level": "A2",
+   "gloss": "a few"
+  },
+  {
+   "id": "W1890",
+   "entry": "realistisch",
+   "level": "B1",
+   "gloss": "realistic"
+  },
+  {
+   "id": "W1906",
+   "entry": "das Regal, -e",
+   "level": "B1",
+   "gloss": "shelf, bookcase"
+  },
+  {
+   "id": "W1998",
+   "entry": "der Schaden, ¨-",
+   "level": "B1",
+   "gloss": "damage"
+  },
+  {
+   "id": "W2105",
+   "entry": "selber",
+   "level": "B1",
+   "gloss": "oneself (myself, herself)"
+  },
+  {
+   "id": "W2123",
+   "entry": "der Sessel, - (D, CH) A,→ CH: Fauteuil",
+   "level": "B1",
+   "gloss": "armchair"
+  },
+  {
+   "id": "W2165",
+   "entry": "soviel",
+   "level": "B1",
+   "gloss": "as far as (soviel ich weiß)"
+  },
+  {
+   "id": "W2229",
+   "entry": "die Steckdose, -n",
+   "level": "B1",
+   "gloss": "(electrical) outlet"
+  },
+  {
+   "id": "W2255",
+   "entry": "der Stock D, CH: Etage→",
+   "level": "B1",
+   "gloss": "floor, story"
+  },
+  {
+   "id": "W2277",
+   "entry": "der Strom",
+   "level": "B1",
+   "gloss": "electricity, power"
+  },
+  {
+   "id": "W2349",
+   "entry": "der Teppich, -e",
+   "level": "B1",
+   "gloss": "rug, carpet"
+  },
+  {
+   "id": "W2408",
+   "entry": "das Treppenhaus, ¨-er (D, CH) A: Stiegenhaus →",
+   "level": "B1",
+   "gloss": "stairwell"
+  },
+  {
+   "id": "W2634",
+   "entry": "das Viertel, - (D, A) CH:→ Quartier",
+   "level": "B1",
+   "gloss": "neighborhood, district"
+  },
+  {
+   "id": "W2648",
+   "entry": "voraus",
+   "level": "B1",
+   "gloss": "ahead (im Voraus: in advance)"
+  },
+  {
+   "id": "W2690",
+   "entry": "die Wand, ¨-e",
+   "level": "B1",
+   "gloss": "wall"
+  },
+  {
+   "id": "W2728",
+   "entry": "wenig/wenige",
+   "level": "A1",
+   "gloss": "little, few"
+  },
+  {
+   "id": "W2737",
+   "entry": "das Werkzeug, -e",
+   "level": "B1",
+   "gloss": "tools"
+  },
+  {
+   "id": "W2810",
+   "entry": "die Zange, -n",
+   "level": "B1",
+   "gloss": "pliers"
+  },
+  {
+   "id": "W2824",
+   "entry": "zentral",
+   "level": "B1",
+   "gloss": "central"
+  },
+  {
+   "id": "W2834",
+   "entry": "ziemlich",
+   "level": "B1",
+   "gloss": "quite, rather"
+  },
+  {
+   "id": "W2855",
+   "entry": "das Zuhause",
+   "level": "B1",
+   "gloss": "home"
+  },
+  {
+   "id": "W2921",
+   "entry": "die Kindheit",
+   "level": "B1",
+   "gloss": "childhood"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2168",
+   "entry": "sowohl … als auch",
+   "level": "B1",
+   "gloss": "both … and"
+  },
+  {
+   "id": "W0679",
+   "entry": "entwickeln, entwickelt, entwickelte, hat entwickelt",
+   "level": "B1",
+   "gloss": "to develop"
+  },
+  {
+   "id": "W2495",
+   "entry": "(sich) unterhalten, unterhält, unterhielt, hat unterhalten",
+   "level": "A2",
+   "gloss": "(sich) to talk, chat; to entertain"
+  },
+  {
+   "id": "W1293",
+   "entry": "klappen, klappt, klappte, hat geklappt",
+   "level": "A2",
+   "gloss": "to work out, to go well (Das hat geklappt!)"
+  },
+  {
+   "id": "W1041",
+   "entry": "greifen, greift, griff, hat gegriffen",
+   "level": "B1",
+   "gloss": "to reach (for), to grab"
+  },
+  {
+   "id": "W1460",
+   "entry": "leisten, leistet, leistete, hat geleistet",
+   "level": "B1",
+   "gloss": "to afford (sich etwas leisten)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X017",
+   "word": "errichten, errichtet, errichtete, hat errichtet",
+   "gloss": "to build, set up",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R005",
+   "word": "das Eck, -en",
+   "gloss": "corner",
+   "kind": "austrian",
+   "de": "die Ecke"
+  },
+  {
+   "id": "R008",
+   "word": "der Fauteuil, -s",
+   "gloss": "armchair",
+   "kind": "austrian",
+   "de": "der Sessel"
+  },
+  {
+   "id": "R024",
+   "word": "das (Back-)Rohr, -e",
+   "gloss": "oven",
+   "kind": "austrian",
+   "de": "der (Back-)Ofen"
+  },
+  {
+   "id": "R028",
+   "word": "der Sessel, -",
+   "gloss": "chair (in Germany: armchair)",
+   "kind": "austrian",
+   "de": "der Stuhl"
+  }
+ ],
+ "story_opening": "Lena Hoffmann ist 29 Jahre alt und Grafikdesignerin. Sie hat eine neue Stelle in einer Werbeagentur in Leipzig bekommen, deshalb verlässt sie Hamburg. Wochenlang hat sie in Leipzig eine Wohnung gesucht. Jetzt hat sie endlich eine gefunden. Die Lage ist perfekt: sehr zentral, nur fünf Minuten zu Fuß vom Hauptbahnhof.\n\nIn Hamburg hat Lena in einer WG gewohnt, zusammen mit zwei Studentinnen. Jede hatte ein eigenes Zimmer, aber Küche und Bad haben sie geteilt. Die WG lag in einem Vorort, weit weg vom Zentrum, und jeden Morgen saß Lena vierzig Minuten in der S-Bahn. In Leipzig möchte sie endlich allein wohnen, und zwar mitten in der Stadt. Die Kündigung für ihr WG-Zimmer hat sie schon vor drei Mo"
+}

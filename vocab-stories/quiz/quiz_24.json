@@ -1,0 +1,76 @@
+{
+ "story": "24",
+ "questions": [
+  {
+   "q": "Warum ist Frau Brückner mit Lenas erstem Poster nicht zufrieden?",
+   "right": "Die Bilder zeigen nur Gebäude, und die Menschen fehlen ganz.",
+   "wrong": [
+    "Die Fotos des bekannten Fotografen sind leider nicht schön genug.",
+    "Auf den Fotos sind zu viele Menschen und kaum Gebäude."
+   ],
+   "evidence": "„Die Fotos sind schön, aber ein bisschen langweilig“, sagt sie. „Ich sehe nur Gebäude und keine Menschen. Kultur ist doch lebendig!",
+   "why": "She says the photos are nice but boring, because she sees only buildings and no people. So the photos are not ugly, and there are no people at all.",
+   "words": [
+    "W0865",
+    "W0864",
+    "W1278"
+   ]
+  },
+  {
+   "q": "Was macht ein kleiner Junge hinter Lena bei der dunklen Szene?",
+   "right": "Er hält sich die Hände vor die Augen.",
+   "wrong": [
+    "Er klatscht laut und ruft: „Bravo!“",
+    "Er steht auf und will nach Hause gehen."
+   ],
+   "evidence": "Diese Szene ist dunkel und ein bisschen unheimlich. Ein kleiner Junge hinter Lena hält sich die Augen zu.",
+   "why": "The scene is dark and a bit unheimlich (creepy), and the boy covers his eyes (hält sich die Augen zu). He does not clap or leave.",
+   "words": [
+    "W2488",
+    "W2305"
+   ]
+  },
+  {
+   "q": "Welche Idee hat Lena nach dem Abend bei Frau Krüger?",
+   "right": "Sie will statt Fotos eigene Zeichnungen mit Menschen machen.",
+   "wrong": [
+    "Sie will Frau Krügers alte Theaterfotos für das Poster nehmen.",
+    "Sie will die Malerin aus der Spinnerei um Bilder bitten."
+   ],
+   "evidence": "Noch in der Nacht entwickelt sie eine neue Idee. Sie will keine Fotos mehr benutzen, sondern die Stadt selbst zeichnen, mit den Menschen in der Mitte.",
+   "why": "Lena decides to stop using photos and to draw the city herself, with people in the center. Frau Krüger's old photos give her the idea, but she does not use them.",
+   "words": [
+    "W0679",
+    "W2917"
+   ]
+  },
+  {
+   "q": "Was erklärt Lena Jonas über Pfingsten?",
+   "right": "Für viele Menschen ist es heute kaum noch ein religiöses Fest.",
+   "wrong": [
+    "An diesem Tag feiert man in ganz Deutschland die Einheit.",
+    "Dann kommen Tausende Gäste in bunten Kostümen nach Leipzig."
+   ],
+   "evidence": "Pfingsten ist ein christlicher Feiertag, aber für viele Menschen hat er heute wenig mit Religion zu tun. In Leipzig gibt es dann ein großes Festival, und Tausende Gäste kommen in schwarzer Kleidung.",
+   "why": "Pfingsten is a Christian holiday, but for many people today it has little to do with religion. German Unity Day is on October 3, and the festival guests wear black.",
+   "words": [
+    "W0793",
+    "W1930"
+   ]
+  },
+  {
+   "q": "Wie reagiert Frau Brückner auf das neue Poster?",
+   "right": "Sie findet es genau richtig und gratuliert Lena.",
+   "wrong": [
+    "Sie lächelt, möchte aber doch lieber wieder Fotos haben.",
+    "Sie ist so nervös, dass ihr Herz laut klopft."
+   ],
+   "evidence": "Dann lächelt Frau Brückner. „Genau so habe ich mir das vorgestellt. Meine Gratulation, Frau Hoffmann!“",
+   "why": "Frau Brückner smiles, says it is exactly what she imagined, and congratulates Lena. It is Lena whose heart is pounding, not Frau Brückner.",
+   "words": [
+    "W1039",
+    "W1414"
+   ]
+  }
+ ]
+}

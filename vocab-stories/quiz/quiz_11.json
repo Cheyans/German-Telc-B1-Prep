@@ -1,0 +1,78 @@
+{
+ "story": "11",
+ "questions": [
+  {
+   "q": "Wie korrigiert Frau Neumann die E-Mails der Teilnehmer?",
+   "right": "Sie markiert die Fehler, und jeder korrigiert sie selbst.",
+   "wrong": [
+    "Sie schreibt die richtige Form direkt über jeden Fehler.",
+    "Sie gibt die Texte ohne einen Kommentar an alle zurück."
+   ],
+   "evidence": "Die richtige Form schreibt sie aber nicht hin. Sie unterstreicht nur die Fehler, und die Teilnehmer verbessern sie selbst.",
+   "why": "Unterstreichen means to underline: she only marks the mistakes, and the students fix (verbessern) them themselves. She does not write the right form, but she adds a short comment.",
+   "words": [
+    "W2510",
+    "W2535",
+    "W1357"
+   ]
+  },
+  {
+   "q": "Auf welche Schule gehen Kinder in Sachsen, wenn sie nicht aufs Gymnasium gehen?",
+   "right": "Sie besuchen eine Oberschule.",
+   "wrong": [
+    "Sie besuchen eine Mittelschule.",
+    "Sie besuchen eine Realschule."
+   ],
+   "evidence": "Die gehen in Sachsen auf die Oberschule. Früher hieß diese Schule hier Mittelschule.",
+   "why": "In Saxony these children go to the Oberschule. Mittelschule was its old name, and the Realschule exists in other federal states.",
+   "words": [
+    "G120",
+    "G121"
+   ]
+  },
+  {
+   "q": "Was erzählt Karim in seinem Referat über seine Arbeit?",
+   "right": "Am Wochenende hilft er Schulkindern vor einem Test.",
+   "wrong": [
+    "In Deutschland arbeitet er wieder als Lehrer an einer Schule.",
+    "In Syrien hat er zehn Jahre in einem Supermarkt gearbeitet."
+   ],
+   "evidence": "Sein Abschluss ist in Deutschland aber noch nicht anerkannt, deshalb arbeitet er im Moment in einem Supermarkt. Am Wochenende gibt er Nachhilfe in Mathe. Kinder aus seinem Haus kommen zu ihm, wenn sie bald eine Klassenarbeit schreiben.",
+   "why": "Nachhilfe means tutoring: children come to him before a class test (Klassenarbeit). His degree (Abschluss) is not recognized yet, so he works in a supermarket, and in Syria he was a teacher.",
+   "words": [
+    "W1636",
+    "W1298",
+    "W0024"
+   ]
+  },
+  {
+   "q": "Welche Rückmeldung gibt Frau Neumann Mateo nach dem Referat?",
+   "right": "Der Inhalt war sehr gut, aber er soll frei sprechen.",
+   "wrong": [
+    "Die Folien waren schön, aber der Inhalt war schwach.",
+    "Er soll seinen Text das nächste Mal langsam vorlesen."
+   ],
+   "evidence": "Der Inhalt war prima, und Ihre Folien sind sehr schön. Aber bitte lesen Sie nicht vor. Schauen Sie die anderen an und sprechen Sie frei.",
+   "why": "Prima means great: she likes both the content and the slides. Her only criticism is that he reads aloud (vorlesen), so he should look at the others and speak freely.",
+   "words": [
+    "W1834",
+    "W2662",
+    "G112"
+   ]
+  },
+  {
+   "q": "Was zeigt Frau Neumann mit Mateos E-Mail vom März?",
+   "right": "Seit März macht er viel weniger Fehler.",
+   "wrong": [
+    "Er macht immer noch genauso viele Fehler wie früher.",
+    "In der E-Mail vom März waren nur drei Fehler."
+   ],
+   "evidence": "Damals hatte er in fast jeder Zeile einen Fehler. In der E-Mail von heute sind es nur noch drei. „Sehen Sie Ihren Fortschritt?“, fragt sie.",
+   "why": "Fortschritt means progress: in March he had a mistake in almost every line (Zeile), and today only three. The three mistakes are in today's email, not in the old one.",
+   "words": [
+    "W0857",
+    "W2815"
+   ]
+  }
+ ]
+}

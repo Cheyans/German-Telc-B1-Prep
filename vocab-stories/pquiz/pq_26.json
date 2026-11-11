@@ -1,0 +1,131 @@
+{
+ "set": "26",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was steht laut Artikel im Jahresbericht des Tierparks?",
+     "right": "Fast 40 Prozent der Energie gehen in die warmen Tierhäuser.",
+     "wrong": [
+      "Im Winter braucht der Tierpark 40 Prozent mehr Energie.",
+      "Das Krokodilhaus allein verbraucht fast 40 Prozent der Energie."
+     ],
+     "evidence": "Besonders im Winter ist der Bedarf an Energie groß, weil dann alle Tierhäuser geheizt werden müssen. Laut dem aktuellen Jahresbericht verbrauchen die warmen Häuser fast 40 Prozent der gesamten Energie des Tierparks.",
+     "why": "The annual report says the warm houses together use almost 40 percent of all the zoo's energy. It is not the crocodile house alone, and the article gives no figure for extra energy in winter.",
+     "trap": "same-word",
+     "words": [
+      "W2541",
+      "W0655",
+      "W0272"
+     ]
+    },
+    {
+     "q": "Was passiert mit dem Futter, das die Tiere nicht fressen?",
+     "right": "Aus den Resten wird in einer Anlage Strom gemacht.",
+     "wrong": [
+      "Es geht zurück an die Bauernhöfe in der Region.",
+      "Daraus wird Kompost für die neue Blumenwiese."
+     ],
+     "evidence": "Was die Tiere übrig lassen, wird zu einer Biogasanlage gebracht, die daraus Strom erzeugt.",
+     "why": "Übrig lassen means to leave over, and erzeugen means to produce: the leftovers go to a biogas plant that makes electricity. They do not go back to the farms or become compost.",
+     "trap": "paraphrase",
+     "words": [
+      "W2455",
+      "X016"
+     ]
+    },
+    {
+     "q": "Was lernen die Kinder über die Pinguine?",
+     "right": "In der Natur finden sie wegen des wärmeren Meeres weniger Fische.",
+     "wrong": [
+      "Im Winter müssen sie in einem warmen Haus bleiben.",
+      "Viele fressen im Meer Plastik, weil es wie Futter aussieht."
+     ],
+     "evidence": "Im Ozean fressen viele Schildkröten Plastiktüten, weil die Tüten im Wasser wie Futter aussehen. Die Pinguine frieren zwar im Winter nicht, doch in der Natur finden sie immer weniger Fische, weil das Meer wärmer wird.",
+     "why": "Zwar ... nicht ... doch: the penguins do not get cold in winter, but in the wild they find fewer fish because the sea is getting warmer. It is the turtles, not the penguins, that eat plastic bags.",
+     "trap": "flip",
+     "words": [
+      "G226",
+      "W0883",
+      "W1656"
+     ]
+    },
+    {
+     "q": "Wer gibt den Blumen auf der Wiese seit April regelmäßig Wasser?",
+     "right": "Die Leute, die sich im Tierpark um die Tiere kümmern.",
+     "wrong": [
+      "Die Kinder der vierten Klasse, die sie gepflanzt haben.",
+      "Ehrenamtliche Helfer einer Bürgerinitiative aus dem Viertel."
+     ],
+     "evidence": "Sie wurden im April von einer vierten Klasse gepflanzt, und seitdem gießen die Tierpfleger sie regelmäßig.",
+     "why": "Seitdem gießen die Tierpfleger sie: since April the zookeepers have watered the flowers. The fourth graders only planted them, and the article mentions no volunteers here.",
+     "trap": "who",
+     "words": [
+      "W1017",
+      "W1790"
+     ]
+    },
+    {
+     "q": "Was meint der Sprecher der Bürgerinitiative?",
+     "right": "Solange mit Gas geheizt wird, bringen ein paar Solaranlagen wenig.",
+     "wrong": [
+      "Der Tierpark tut schon sehr viel für das Klima.",
+      "Die Maßnahmen des Tierparks kosten zu viel Geld."
+     ],
+     "evidence": "„Angeblich tut der Tierpark schon sehr viel für das Klima. Solange die Heizung mit Gas läuft, sind ein paar Solaranlagen aber nur ein Tropfen auf den heißen Stein“, sagt ihr Sprecher Holger Wendland. Direktorin Haberland hält dagegen: „Jede Maßnahme kostet Geld.",
+     "why": "Ein Tropfen auf den heißen Stein means a drop in the bucket: with gas heating, a few solar panels change little. Angeblich shows doubt about the zoo's climate work, and it is the director, not the group, who talks about money.",
+     "trap": "flip",
+     "words": [
+      "X001",
+      "W2905",
+      "X024"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "ads",
+   "prompts": [
+    {
+     "id": "1",
+     "text": "Sie fahren drei Wochen weg. Ihre Schildkröte soll zu Hause versorgt werden.",
+     "answer": "f",
+     "evidence": "Sie verreisen, und Ihr Haustier bleibt zu Hause? Ich komme ein- oder zweimal am Tag zu Ihnen und füttere Katzen, Kaninchen, Vögel und Schildkröten, gern auch über mehrere Wochen.",
+     "why": "The pet sitter comes to your home, feeds turtles and also works for several weeks. Ad g also takes turtles, but there you have to bring the animal to their house."
+    },
+    {
+     "id": "2",
+     "text": "Ihr Wasserkocher ist kaputt. Sie möchten ihn am Wochenende gratis reparieren lassen.",
+     "answer": "a",
+     "evidence": "Im Repair-Café Connewitz reparieren ehrenamtliche Helfer zusammen mit Ihnen Elektrogeräte wie Toaster und Lampen, Fahrräder und sogar alte Radios. Jeden zweiten Samstag im Monat von 10 bis 14 Uhr im Stadtteilzentrum, Bornaische Straße 18. Die Reparatur ist kostenlos, über eine Spende freuen wir uns.",
+     "why": "A kettle is an electrical appliance, and the Repair Café fixes these on a Saturday for free. The recycling center in ad b is also open and free on Saturdays, but there you can only get rid of things."
+    },
+    {
+     "id": "3",
+     "text": "Sie möchten mit Ihrem zehnjährigen Sohn Müll an einem Strand sammeln.",
+     "answer": "x",
+     "evidence": "Mitmachen können sowohl Einzelpersonen als auch Schulklassen, das Mindestalter ist 14 Jahre.",
+     "why": "Only ad e is about collecting trash on a beach, but the minimum age is 14, so a ten-year-old cannot join. No other ad is about a beach."
+    },
+    {
+     "id": "4",
+     "text": "Sie merken, dass Heizen immer teurer wird. Ein Experte soll zu Ihnen kommen.",
+     "answer": "h",
+     "evidence": "Ist Ihnen aufgefallen, dass Ihre Heizkosten jedes Jahr steigen? Bei der Energieberatung der Verbraucherzentrale kommt ein Fachmann zu Ihnen nach Hause.",
+     "why": "Auffallen means to notice: the ad is for people who see their heating costs going up, and an expert visits you at home. The talk in ad d is also about heating, but it takes place at the adult education center."
+    },
+    {
+     "id": "5",
+     "text": "Sie wollen im Sommer ohne Bezahlung jungen Bäumen in der Stadt Wasser geben.",
+     "answer": "c",
+     "evidence": "Die Bürgerinitiative „Grüner Osten“ sucht Menschen, die sich ehrenamtlich um junge Straßenbäume in Reudnitz kümmern. Wer mitmacht, gießt von Juni bis September einmal pro Woche „seinen“ Baum.",
+     "why": "Ehrenamtlich means unpaid, and the volunteers water young street trees from June to September. The beach cleanup in ad e is also volunteer work, but it is not about trees."
+    }
+   ]
+  }
+ ]
+}

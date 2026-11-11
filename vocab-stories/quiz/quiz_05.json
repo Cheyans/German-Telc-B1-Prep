@@ -1,0 +1,76 @@
+{
+ "story": "05",
+ "questions": [
+  {
+   "q": "Wie geht es Lena am Montagmorgen?",
+   "right": "Sie ist sehr müde, obwohl sie lange geschlafen hat.",
+   "wrong": [
+    "Sie hat kaum geschlafen, weil sie so stark geschwitzt hat.",
+    "Sie hustet nur selten, aber ihr Hals tut weh."
+   ],
+   "evidence": "Sie hat zehn Stunden geschlafen und ist trotzdem total erschöpft.",
+   "why": "She slept ten hours and is still exhausted (erschöpft). She did not sleep badly, and she coughs all the time (ständig), not rarely.",
+   "words": [
+    "W0726",
+    "W2213"
+   ]
+  },
+  {
+   "q": "Was sagt die Frau aus der Praxis am Telefon?",
+   "right": "Lena soll mindestens 15 Minuten vor dem Termin da sein.",
+   "wrong": [
+    "Lena soll das Formular schon zu Hause ausfüllen.",
+    "Als neue Patientin braucht Lena noch keine Versichertenkarte."
+   ],
+   "evidence": "„Können Sie um elf Uhr kommen? Als neue Patientin müssen Sie vorher noch ein Formular ausfüllen. Bitte seien Sie spätestens um Viertel vor elf da. Und bringen Sie Ihre Versichertenkarte mit.“",
+   "why": "Her appointment is at 11, and she must be there by 10:45 at the latest (spätestens). She gets the form at the front desk, and she must bring her insurance card.",
+   "words": [
+    "W2176",
+    "W1770",
+    "W2604"
+   ]
+  },
+  {
+   "q": "Was sagt die Ärztin über Lenas Krankheit?",
+   "right": "Sie denkt, es ist keine Grippe, aber sicher ist sie nicht.",
+   "wrong": [
+    "Sie ist ganz sicher, dass Lena eine echte Grippe hat.",
+    "Sie glaubt, dass Lena schon eine Infektion in den Ohren hat."
+   ],
+   "evidence": "Ganz sicher bin ich aber nicht, deshalb schließe ich eine Grippe noch nicht ganz aus. Ich denke, Sie haben eine normale Erkältung.",
+   "why": "She thinks it is a normal cold, but she does not fully rule out (ausschließen) the flu. An ear infection is only a possibility if the fever is higher in three days.",
+   "words": [
+    "W0210",
+    "W0706"
+   ]
+  },
+  {
+   "q": "Was sagt die Apothekerin über das Schmerzmittel?",
+   "right": "Sie darf es auch zusammen mit dem Hustensaft nehmen.",
+   "wrong": [
+    "Sie soll es nur auf leeren Magen nehmen.",
+    "Sie soll es eine Woche lang jeden Abend nehmen."
+   ],
+   "evidence": "Ja, ein leichtes Schmerzmittel. Das können Sie auch zusammen mit dem Hustensaft nehmen. Aber nehmen Sie die Tabletten bitte nicht länger als drei Tage und nicht auf leeren Magen.",
+   "why": "The pharmacist says she can take the painkiller (Schmerzmittel) together with the cough syrup, but not longer than three days and not on an empty stomach (auf leeren Magen).",
+   "words": [
+    "W2040"
+   ]
+  },
+  {
+   "q": "Was passiert, als Lena sich abends die Zähne putzen will?",
+   "right": "Sie nimmt aus Versehen die Salbe, merkt es aber rechtzeitig.",
+   "wrong": [
+    "Sie merkt zu spät, dass sie die Salbe im Mund hat.",
+    "Sie verbrennt sich den Finger an der heißen Lampe."
+   ],
+   "evidence": "Die Salbe liegt direkt neben der Zahncreme und sieht fast genauso aus. Lena verwechselt die beiden. Zum Glück merkt sie es, bevor sie die Zahnbürste in den Mund steckt.",
+   "why": "She mixes up (verwechselt) the ointment and the toothpaste, but she notices before the brush goes into her mouth. She burned her finger earlier, on the hot kettle.",
+   "words": [
+    "W2626",
+    "W1983",
+    "W2809"
+   ]
+  }
+ ]
+}

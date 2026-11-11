@@ -1,0 +1,165 @@
+{
+ "book": "U",
+ "task": 1,
+ "tracks": [
+  "01",
+  "02",
+  "03"
+ ],
+ "title": "Schule, Café und eine Einladung",
+ "intro": "Sie hören drei kurze Szenen: in der Schule, in einem Café und bei einem Ehepaar, das Gäste erwartet. Spielen Sie jeden Track einmal ab.",
+ "items": [
+  {
+   "tr": "01",
+   "s": "Der Lehrer will als Erstes die Hausaufgaben kontrollieren.",
+   "a": true,
+   "at": "00:05",
+   "ev": "Ich möchte zuerst die Hausaufgaben sehen.",
+   "why": "He says he wants to see the homework first (zuerst = als Erstes). Kontrollieren says sehen in other words.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "zuerst",
+     "first, before anything else"
+    ],
+    [
+     "Ruhe bitte!",
+     "quiet, please!"
+    ]
+   ]
+  },
+  {
+   "tr": "01",
+   "s": "Der Lehrer bittet Peter, das Fenster aufzumachen.",
+   "a": false,
+   "at": "00:08",
+   "ev": "Peter, kannst du mal da hinten das Fenster zumachen? Es zieht.",
+   "why": "Peter should close the window (zumachen) because there is a draft. The statement keeps Peter and das Fenster but swaps the verb at the end of his question.",
+   "trap": "same-word",
+   "w": [
+    [
+     "zumachen",
+     "to close"
+    ],
+    [
+     "es zieht",
+     "there is a draft"
+    ]
+   ]
+  },
+  {
+   "tr": "02",
+   "s": "Draußen schneit es nur ein bisschen.",
+   "a": false,
+   "at": "00:06",
+   "ev": "Ein Sauwetter ist das heute. Es schneit wohl draußen. Und wie!",
+   "why": "He calls it a Sauwetter, and when she says it is snowing he answers Und wie! (and how!). So it is snowing hard, not just a little.",
+   "trap": "overstate",
+   "w": [
+    [
+     "das Sauwetter",
+     "awful weather (colloquial)"
+    ],
+    [
+     "Und wie!",
+     "and how! (yes, a lot)"
+    ]
+   ]
+  },
+  {
+   "tr": "02",
+   "s": "Der Mann kommt oft in dieses Café.",
+   "a": true,
+   "at": "00:35",
+   "ev": "Ich heiße Gerd Güttler, bin hier Stammgast.",
+   "why": "A Stammgast is a regular, and at the end he says he is usually here at this time. Oft is the paraphrase.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "der Stammgast",
+     "regular customer"
+    ],
+    [
+     "um die Zeit",
+     "at this time of day"
+    ]
+   ]
+  },
+  {
+   "tr": "02",
+   "s": "Monika arbeitet schon bei der Dresdner Bank.",
+   "a": false,
+   "at": "00:47",
+   "ev": "Ich fange nächste Woche bei der Dresdner Bank an.",
+   "why": "She only starts next week: nächste Woche and the an at the end (anfangen) make it a plan. The statement repeats Dresdner Bank but says it has already happened.",
+   "trap": "when",
+   "w": [
+    [
+     "anfangen bei",
+     "to start (a job) at"
+    ],
+    [
+     "Mach's gut!",
+     "take care!"
+    ]
+   ]
+  },
+  {
+   "tr": "03",
+   "s": "Die Müllers sollen um 19.30 Uhr kommen.",
+   "a": true,
+   "at": "00:24",
+   "ev": "Um halb acht kommen die Müllers.",
+   "why": "Halb acht is 7:30, half an hour before eight, and it is the evening, so 19.30 Uhr is right. Reading halb acht as 8:30 is the trap.",
+   "trap": "number",
+   "w": [
+    [
+     "halb acht",
+     "7:30"
+    ],
+    [
+     "Mich regt das auf.",
+     "That annoys me."
+    ]
+   ]
+  },
+  {
+   "tr": "03",
+   "s": "Herr Kugler hat noch kein Bier für die Gäste gekauft.",
+   "a": false,
+   "at": "00:32",
+   "ev": "Aber ja! Ein ganzer Kasten steht unten im Keller.",
+   "why": "She asks „hast du eigentlich Bier geholt?“ and he answers „Aber ja! Ein ganzer Kasten steht unten im Keller“: a whole crate is already in the cellar.",
+   "trap": "negation",
+   "w": [
+    [
+     "der Kasten",
+     "crate (of bottles)"
+    ],
+    [
+     "holen",
+     "to get, to fetch"
+    ]
+   ]
+  },
+  {
+   "tr": "03",
+   "s": "Herr Kugler soll die Tür öffnen, damit das Gulasch nicht anbrennt.",
+   "a": true,
+   "at": "01:13",
+   "ev": "Mach du auf, sonst brennt mein Gulasch an.",
+   "why": "She tells Franz (Herr Kugler) to open the door, otherwise (sonst) her goulash will burn. Damit ... nicht says the same thing the other way round.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "anbrennen",
+     "to burn (food in the pot)"
+    ],
+    [
+     "sonst",
+     "otherwise"
+    ]
+   ]
+  }
+ ]
+}

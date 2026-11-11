@@ -1,0 +1,524 @@
+{
+ "set": "03",
+ "title": "Die Bewerbung",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "G003",
+   "entry": "der Azubi, -s (Auszubildende)",
+   "level": "B1",
+   "gloss": "apprentice, trainee (short form)"
+  },
+  {
+   "id": "G061",
+   "entry": "jobben",
+   "level": "B1",
+   "gloss": "to work a casual job"
+  },
+  {
+   "id": "W0035",
+   "entry": "achten, achtet, achtete, hat geachtet (auf)",
+   "level": "B1",
+   "gloss": "to pay attention (to)"
+  },
+  {
+   "id": "W0111",
+   "entry": "anstellen, stellt an, stellte an, hat angestellt",
+   "level": "B1",
+   "gloss": "to employ (fest angestellt: permanent)"
+  },
+  {
+   "id": "W0112",
+   "entry": "der Angestellte, -n",
+   "level": "B1",
+   "gloss": "salaried employee (man)"
+  },
+  {
+   "id": "W0113",
+   "entry": "die Angestellte, -n",
+   "level": "B1",
+   "gloss": "employee (woman)"
+  },
+  {
+   "id": "W0115",
+   "entry": "anstrengend",
+   "level": "B1",
+   "gloss": "exhausting, tiring"
+  },
+  {
+   "id": "W0135",
+   "entry": "der Arbeiter, - die Arbeiterin, -nen",
+   "level": "B1",
+   "gloss": "worker (in a factory)"
+  },
+  {
+   "id": "W0140",
+   "entry": "die Arbeitsstelle, -n",
+   "level": "B1",
+   "gloss": "job, position"
+  },
+  {
+   "id": "W0185",
+   "entry": "ausgebildet",
+   "level": "B1",
+   "gloss": "trained, qualified"
+  },
+  {
+   "id": "W0199",
+   "entry": "die Aushilfe, -n",
+   "level": "B1",
+   "gloss": "temporary helper"
+  },
+  {
+   "id": "W0314",
+   "entry": "sich bemühen, bemüht, bemühte, hat bemüht",
+   "level": "B1",
+   "gloss": "to make an effort, to try hard"
+  },
+  {
+   "id": "W0335",
+   "entry": "beschäftigen, beschäftigt, beschäftigte, hat beschäftigt",
+   "level": "B1",
+   "gloss": "to employ"
+  },
+  {
+   "id": "W0336",
+   "entry": "die Beschäftigung",
+   "level": "B1",
+   "gloss": "employment"
+  },
+  {
+   "id": "W0367",
+   "entry": "der Betrieb, -e",
+   "level": "B1",
+   "gloss": "company, business"
+  },
+  {
+   "id": "W0368",
+   "entry": "der Betriebsrat, ¨-e die Betriebsrätin, -nen",
+   "level": "B1",
+   "gloss": "works council (elected staff group)"
+  },
+  {
+   "id": "W0476",
+   "entry": "dagegen",
+   "level": "A2",
+   "gloss": "against it (etwas dagegen haben: to mind)"
+  },
+  {
+   "id": "W0517",
+   "entry": "der Dienst",
+   "level": "B1",
+   "gloss": "duty, shift (at work)"
+  },
+  {
+   "id": "W0524",
+   "entry": "der Direktor, -en die Direktorin, -nen",
+   "level": "B1",
+   "gloss": "director, company head"
+  },
+  {
+   "id": "W0612",
+   "entry": "das Einkommen, -",
+   "level": "B1",
+   "gloss": "income"
+  },
+  {
+   "id": "W0625",
+   "entry": "einstellen, stellt ein, stellte ein, hat eingestellt",
+   "level": "B1",
+   "gloss": "to hire"
+  },
+  {
+   "id": "W0664",
+   "entry": "entlassen, entlässt, entließ, hat entlassen",
+   "level": "B1",
+   "gloss": "to dismiss, to lay off"
+  },
+  {
+   "id": "W0665",
+   "entry": "die Entlassung, -en",
+   "level": "B1",
+   "gloss": "dismissal, layoff"
+  },
+  {
+   "id": "W0690",
+   "entry": "der Erfolg, -e",
+   "level": "B1",
+   "gloss": "success"
+  },
+  {
+   "id": "W0732",
+   "entry": "erstellen, erstellt, erstellte, hat erstellt",
+   "level": "B1",
+   "gloss": "to create, to put together"
+  },
+  {
+   "id": "W0752",
+   "entry": "die Fabrik, -en",
+   "level": "B1",
+   "gloss": "factory"
+  },
+  {
+   "id": "W0754",
+   "entry": "der Fachmann",
+   "level": "B1",
+   "gloss": "expert, specialist (man)"
+  },
+  {
+   "id": "W0756",
+   "entry": "die Fachleute (Pl.)",
+   "level": "B1",
+   "gloss": "experts, skilled professionals"
+  },
+  {
+   "id": "W0757",
+   "entry": "die Fähigkeit, -en",
+   "level": "B1",
+   "gloss": "ability, skill"
+  },
+  {
+   "id": "W0833",
+   "entry": "flexibel",
+   "level": "B1",
+   "gloss": "flexible"
+  },
+  {
+   "id": "W0856",
+   "entry": "die Fortbildung, -en",
+   "level": "B1",
+   "gloss": "further training (course)"
+  },
+  {
+   "id": "W0897",
+   "entry": "führen, führt, führte, hat geführt",
+   "level": "B1",
+   "gloss": "to lead, to show around"
+  },
+  {
+   "id": "W1052",
+   "entry": "gründlich",
+   "level": "B1",
+   "gloss": "thoroughly, carefully"
+  },
+  {
+   "id": "W1083",
+   "entry": "handeln, handelt, handelte, hat gehandelt",
+   "level": "B1",
+   "gloss": "to be about (es handelt sich um: it is)"
+  },
+  {
+   "id": "W1122",
+   "entry": "die Herausforderung, -en",
+   "level": "B1",
+   "gloss": "challenge"
+  },
+  {
+   "id": "W1187",
+   "entry": "individuell",
+   "level": "B1",
+   "gloss": "individual, personalized"
+  },
+  {
+   "id": "W1192",
+   "entry": "der Ingenieur, -e",
+   "level": "B1",
+   "gloss": "engineer"
+  },
+  {
+   "id": "W1256",
+   "entry": "die Kantine, -n",
+   "level": "B1",
+   "gloss": "company cafeteria"
+  },
+  {
+   "id": "W1277",
+   "entry": "kaum",
+   "level": "B1",
+   "gloss": "hardly, barely"
+  },
+  {
+   "id": "W1418",
+   "entry": "das Lager, -",
+   "level": "B1",
+   "gloss": "storeroom, warehouse"
+  },
+  {
+   "id": "W1444",
+   "entry": "der Lebenslauf, ¨-e",
+   "level": "B1",
+   "gloss": "résumé, CV"
+  },
+  {
+   "id": "W1450",
+   "entry": "die Lehre",
+   "level": "B1",
+   "gloss": "apprenticeship"
+  },
+  {
+   "id": "W1451",
+   "entry": "die Lehrstelle, -n",
+   "level": "B1",
+   "gloss": "apprenticeship position"
+  },
+  {
+   "id": "W1453",
+   "entry": "der Lehrling, -e",
+   "level": "B1",
+   "gloss": "apprentice"
+  },
+  {
+   "id": "W1462",
+   "entry": "leiten, leitet, leitete, hat geleitet",
+   "level": "B1",
+   "gloss": "to run, to lead"
+  },
+  {
+   "id": "W1463",
+   "entry": "der Leiter, - die Leiterin, -nen",
+   "level": "B1",
+   "gloss": "head, manager"
+  },
+  {
+   "id": "W1464",
+   "entry": "die Leitung, -en",
+   "level": "B1",
+   "gloss": "management, leadership"
+  },
+  {
+   "id": "W1494",
+   "entry": "der Lohn, ¨-e",
+   "level": "B1",
+   "gloss": "wage(s), pay"
+  },
+  {
+   "id": "W1551",
+   "entry": "der Meister, -",
+   "level": "B1",
+   "gloss": "master craftsman"
+  },
+  {
+   "id": "W1604",
+   "entry": "möglichst",
+   "level": "B1",
+   "gloss": "as ... as possible"
+  },
+  {
+   "id": "W1740",
+   "entry": "ordnen, ordnet, ordnete, hat geordnet",
+   "level": "B1",
+   "gloss": "to put in order, to sort"
+  },
+  {
+   "id": "W1777",
+   "entry": "in Pension gehen/sein (D, A) D: in Rente→ gehen/sein; D, CH: pensioniert werden/sein",
+   "level": "B1",
+   "gloss": "to retire (civil servants)"
+  },
+  {
+   "id": "W1778",
+   "entry": "pensioniert werden/sein (D, CH) D, A: in Pension→ gehen/sein; D: in Rente gehen/sein",
+   "level": "B1",
+   "gloss": "retired (esp. civil servants)"
+  },
+  {
+   "id": "W1787",
+   "entry": "das Personal",
+   "level": "B1",
+   "gloss": "staff, personnel"
+  },
+  {
+   "id": "W1840",
+   "entry": "produzieren, produziert, produzierte, hat produziert",
+   "level": "B1",
+   "gloss": "to produce, to make"
+  },
+  {
+   "id": "W1842",
+   "entry": "die Produktion",
+   "level": "B1",
+   "gloss": "production"
+  },
+  {
+   "id": "W1861",
+   "entry": "die Qualifikation, -en",
+   "level": "B1",
+   "gloss": "qualification"
+  },
+  {
+   "id": "W1932",
+   "entry": "die Rente, -n (D, CH) A,→ CH: Pension",
+   "level": "B1",
+   "gloss": "state pension (for employees)"
+  },
+  {
+   "id": "W1933",
+   "entry": "in Rente gehen/sein (D) → D, A: in Pension gehen/sein; CH, D: pensioniert werden/sein",
+   "level": "B1",
+   "gloss": "to retire"
+  },
+  {
+   "id": "W2064",
+   "entry": "der Schritt, -e",
+   "level": "B1",
+   "gloss": "step"
+  },
+  {
+   "id": "W2170",
+   "entry": "der Sozialarbeiter, - die Sozialarbeiterin, -nen",
+   "level": "B1",
+   "gloss": "social worker"
+  },
+  {
+   "id": "W2325",
+   "entry": "die Tätigkeit, -en",
+   "level": "B1",
+   "gloss": "duty, task (at work)"
+  },
+  {
+   "id": "W2418",
+   "entry": "trotzdem",
+   "level": "B1",
+   "gloss": "nevertheless, still"
+  },
+  {
+   "id": "W2438",
+   "entry": "übernehmen, übernimmt, übernahm, hat übernommen.",
+   "level": "B1",
+   "gloss": "to take over, to take on"
+  },
+  {
+   "id": "W2448",
+   "entry": "die Überstunde, -n",
+   "level": "B1",
+   "gloss": "hour of overtime"
+  },
+  {
+   "id": "W2461",
+   "entry": "um … zu",
+   "level": "B1",
+   "gloss": "in order to"
+  },
+  {
+   "id": "W2489",
+   "entry": "die Uniform, -en",
+   "level": "B1",
+   "gloss": "uniform"
+  },
+  {
+   "id": "W2512",
+   "entry": "die Unterstützung, -en",
+   "level": "B1",
+   "gloss": "support"
+  },
+  {
+   "id": "W2534",
+   "entry": "die Verantwortung",
+   "level": "B1",
+   "gloss": "responsibility"
+  },
+  {
+   "id": "W2586",
+   "entry": "die Vermittlung, -en",
+   "level": "B1",
+   "gloss": "(job) placement"
+  },
+  {
+   "id": "W2641",
+   "entry": "die Vollzeit",
+   "level": "B1",
+   "gloss": "full-time"
+  },
+  {
+   "id": "W2649",
+   "entry": "die Voraussetzung, -en",
+   "level": "B1",
+   "gloss": "requirement"
+  },
+  {
+   "id": "W2672",
+   "entry": "das Vorstellungsgespräch, -e",
+   "level": "B1",
+   "gloss": "job interview"
+  },
+  {
+   "id": "W2727",
+   "entry": "wenden, wendet, wendete, hat gewendet",
+   "level": "B1",
+   "gloss": "to turn to, to contact (sich wenden an)"
+  },
+  {
+   "id": "W2804",
+   "entry": "zahlreich",
+   "level": "B1",
+   "gloss": "numerous, many"
+  },
+  {
+   "id": "W2849",
+   "entry": "zufällig",
+   "level": "B1",
+   "gloss": "by chance"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2662",
+   "entry": "vorlesen, liest vor, las vor, hat vorgelesen",
+   "level": "B1",
+   "gloss": "to read aloud"
+  },
+  {
+   "id": "W1019",
+   "entry": "giftig",
+   "level": "B1",
+   "gloss": "poisonous"
+  },
+  {
+   "id": "W2434",
+   "entry": "überlegen, überlegt, überlegte, hat überlegt",
+   "level": "B1",
+   "gloss": "to think about, consider"
+  },
+  {
+   "id": "W2786",
+   "entry": "wollen, will, wollte, hat gewollt (hat wollen als",
+   "level": "A1",
+   "gloss": "to want (to); to intend to, plan to"
+  },
+  {
+   "id": "W0196",
+   "entry": "ausgeben, gibt aus, gab aus, hat ausgegeben",
+   "level": "A2",
+   "gloss": "to spend (money); to hand out, to give out"
+  },
+  {
+   "id": "W1796",
+   "entry": "die Pflicht, -en",
+   "level": "B1",
+   "gloss": "duty, obligation"
+  },
+  {
+   "id": "W0454",
+   "entry": "der Bürger, - die Bürgerin, -nen",
+   "level": "B1",
+   "gloss": "citizen"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X007",
+   "word": "bevorzugen, bevorzugt, bevorzugte, hat bevorzugt",
+   "gloss": "to prefer; bevorzugt = preferably",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R018",
+   "word": "die Matura",
+   "gloss": "school-leaving exam",
+   "kind": "austrian",
+   "de": "das Abitur"
+  }
+ ],
+ "story_opening": "Mateo García arbeitet seit drei Jahren als Koch in einem Restaurant in der Leipziger Innenstadt. Er kocht gern, aber die Arbeit ist anstrengend. Jeden Abend steht er bis Mitternacht in der heißen Küche, auch am Wochenende. Oft arbeitet er zehn Stunden statt acht, aber diese Überstunden bezahlt ihm niemand.\n\nAußerdem hat das Restaurant Geldprobleme. Letzten Monat hat der Chef, Herr Kessler, deshalb zwei Kellner entlassen. Mateo hat Angst vor einer Entlassung, denn er hat fast nichts gespart. Auch sein Einkommen ist zu niedrig: Alles wird teurer, aber sein Lohn ist seit drei Jahren gleich geblieben. Am Ende des Monats hat er kaum noch Geld auf dem Konto.\n\nUnd dann ist da noch der Deutschkurs. "
+}

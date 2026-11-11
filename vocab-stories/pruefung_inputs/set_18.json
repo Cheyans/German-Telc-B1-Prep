@@ -1,0 +1,443 @@
+{
+ "set": "18",
+ "title": "Geld und Online-Shopping",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "G362",
+   "entry": "stündlich",
+   "level": "B1",
+   "gloss": "hourly, every hour"
+  },
+  {
+   "id": "W0070",
+   "entry": "der Anbieter, -",
+   "level": "B1",
+   "gloss": "provider, seller"
+  },
+  {
+   "id": "W0104",
+   "entry": "anschaffen, schafft an, schaffte an, hat angeschafft",
+   "level": "B1",
+   "gloss": "to buy, acquire (something big)"
+  },
+  {
+   "id": "W0194",
+   "entry": "die Ausgabe, -n",
+   "level": "B1",
+   "gloss": "expense"
+  },
+  {
+   "id": "W0224",
+   "entry": "auswählen, wählt aus, wählte aus, hat ausgewählt",
+   "level": "B1",
+   "gloss": "to select, choose"
+  },
+  {
+   "id": "W0256",
+   "entry": "das Bargeld",
+   "level": "B1",
+   "gloss": "cash"
+  },
+  {
+   "id": "W0334",
+   "entry": "beschädigen, beschädigt, beschädigte, hat beschädigt",
+   "level": "B1",
+   "gloss": "to damage"
+  },
+  {
+   "id": "W0347",
+   "entry": "besitzen, besitzt, besaß, hat besessen",
+   "level": "B1",
+   "gloss": "to own"
+  },
+  {
+   "id": "W0363",
+   "entry": "der Betrag, ¨-e",
+   "level": "B1",
+   "gloss": "amount (of money)"
+  },
+  {
+   "id": "W0395",
+   "entry": "bisher",
+   "level": "B1",
+   "gloss": "until now, so far"
+  },
+  {
+   "id": "W0445",
+   "entry": "die Buchhandlung, -en",
+   "level": "B1",
+   "gloss": "bookstore"
+  },
+  {
+   "id": "W0507",
+   "entry": "deswegen",
+   "level": "B1",
+   "gloss": "that's why, therefore"
+  },
+  {
+   "id": "W0646",
+   "entry": "empfangen, empfängt, empfing, hat empfangen",
+   "level": "B1",
+   "gloss": "to receive, welcome (a guest)"
+  },
+  {
+   "id": "W0698",
+   "entry": "erhöhen, erhöht, erhöhte, hat erhöht",
+   "level": "B1",
+   "gloss": "to raise, increase"
+  },
+  {
+   "id": "W0699",
+   "entry": "die Erhöhung, -en",
+   "level": "B1",
+   "gloss": "increase, raise"
+  },
+  {
+   "id": "W0783",
+   "entry": "fassen, fasst, fasste, hat gefasst",
+   "level": "B1",
+   "gloss": "to grasp (can't believe it)"
+  },
+  {
+   "id": "W0917",
+   "entry": "garantieren, garantiert, garantierte, hat garantiert",
+   "level": "B1",
+   "gloss": "to guarantee"
+  },
+  {
+   "id": "W0918",
+   "entry": "die Garantie",
+   "level": "B1",
+   "gloss": "warranty, guarantee"
+  },
+  {
+   "id": "W1033",
+   "entry": "das Gold",
+   "level": "B1",
+   "gloss": "gold"
+  },
+  {
+   "id": "W1040",
+   "entry": "gratis",
+   "level": "B1",
+   "gloss": "free (of charge)"
+  },
+  {
+   "id": "W1085",
+   "entry": "der Händler, - die Händlerin, -nen",
+   "level": "B1",
+   "gloss": "dealer, retailer"
+  },
+  {
+   "id": "W1128",
+   "entry": "der Hersteller, -",
+   "level": "B1",
+   "gloss": "manufacturer"
+  },
+  {
+   "id": "W1137",
+   "entry": "hier/hier-",
+   "level": "A1",
+   "gloss": "here (hierher: over here)"
+  },
+  {
+   "id": "W1194",
+   "entry": "inklusive",
+   "level": "B1",
+   "gloss": "including"
+  },
+  {
+   "id": "W1225",
+   "entry": "je … desto …",
+   "level": "B1",
+   "gloss": "the more … the more …"
+  },
+  {
+   "id": "W1231",
+   "entry": "jemals",
+   "level": "B1",
+   "gloss": "ever"
+  },
+  {
+   "id": "W1272",
+   "entry": "der Katalog, -e",
+   "level": "B1",
+   "gloss": "catalog"
+  },
+  {
+   "id": "W1274",
+   "entry": "(sich etwas) kaufen, kauft, kaufte, hat gekauft",
+   "level": "A1",
+   "gloss": "to buy"
+  },
+  {
+   "id": "W1275",
+   "entry": "der Kauf",
+   "level": "B1",
+   "gloss": "purchase"
+  },
+  {
+   "id": "W1316",
+   "entry": "knapp",
+   "level": "B1",
+   "gloss": "tight, scarce"
+  },
+  {
+   "id": "W1340",
+   "entry": "konsumieren, konsumiert, konsumierte, hat konsumiert",
+   "level": "B1",
+   "gloss": "to consume"
+  },
+  {
+   "id": "W1341",
+   "entry": "der Konsum",
+   "level": "B1",
+   "gloss": "consumption, consumerism"
+  },
+  {
+   "id": "W1480",
+   "entry": "die Lieferung, -en",
+   "level": "B1",
+   "gloss": "delivery"
+  },
+  {
+   "id": "W1527",
+   "entry": "die Marke, -n",
+   "level": "B1",
+   "gloss": "brand"
+  },
+  {
+   "id": "W1567",
+   "entry": "der Metzger, - A: Fleis-→ chhauer",
+   "level": "B1",
+   "gloss": "butcher"
+  },
+  {
+   "id": "W1599",
+   "entry": "das Modell, -e",
+   "level": "B1",
+   "gloss": "model"
+  },
+  {
+   "id": "W1618",
+   "entry": "die Münze, -n",
+   "level": "B1",
+   "gloss": "coin"
+  },
+  {
+   "id": "W1634",
+   "entry": "die Nachfrage, -n",
+   "level": "B1",
+   "gloss": "demand"
+  },
+  {
+   "id": "W1676",
+   "entry": "neulich",
+   "level": "B1",
+   "gloss": "recently, the other day"
+  },
+  {
+   "id": "W1719",
+   "entry": "offenbar",
+   "level": "B1",
+   "gloss": "apparently, evidently"
+  },
+  {
+   "id": "W1867",
+   "entry": "der Rabatt, -e",
+   "level": "B1",
+   "gloss": "discount"
+  },
+  {
+   "id": "W1995",
+   "entry": "die Schachtel, -n",
+   "level": "B1",
+   "gloss": "box"
+  },
+  {
+   "id": "W2067",
+   "entry": "schuld",
+   "level": "B1",
+   "gloss": "at fault (schuld sein = to be to blame)"
+  },
+  {
+   "id": "W2119",
+   "entry": "der Service",
+   "level": "A2",
+   "gloss": "service"
+  },
+  {
+   "id": "W2136",
+   "entry": "der Sinn",
+   "level": "B1",
+   "gloss": "sense, point"
+  },
+  {
+   "id": "W2157",
+   "entry": "sondern",
+   "level": "B1",
+   "gloss": "but (rather)"
+  },
+  {
+   "id": "W2173",
+   "entry": "sparsam",
+   "level": "B1",
+   "gloss": "thrifty, frugal"
+  },
+  {
+   "id": "W2551",
+   "entry": "vergeblich",
+   "level": "B1",
+   "gloss": "in vain"
+  },
+  {
+   "id": "W2588",
+   "entry": "vermutlich",
+   "level": "B1",
+   "gloss": "presumably, probably"
+  },
+  {
+   "id": "W2590",
+   "entry": "verpacken, verpackt, verpackte, hat verpackt",
+   "level": "B1",
+   "gloss": "to wrap, pack"
+  },
+  {
+   "id": "W2630",
+   "entry": "verzichten, verzichtet, verzichtete, hat verzichtet",
+   "level": "B1",
+   "gloss": "to do without (auf)"
+  },
+  {
+   "id": "W2694",
+   "entry": "die Ware, -n",
+   "level": "B1",
+   "gloss": "goods, merchandise"
+  },
+  {
+   "id": "W2738",
+   "entry": "wert",
+   "level": "B1",
+   "gloss": "worth"
+  },
+  {
+   "id": "W2739",
+   "entry": "der Wert, -e",
+   "level": "B1",
+   "gloss": "value"
+  },
+  {
+   "id": "W2740",
+   "entry": "wertlos",
+   "level": "B1",
+   "gloss": "worthless"
+  },
+  {
+   "id": "W2741",
+   "entry": "wertvoll",
+   "level": "B1",
+   "gloss": "valuable"
+  },
+  {
+   "id": "W2758",
+   "entry": "wie viel(e)",
+   "level": "A1",
+   "gloss": "how much, how many"
+  },
+  {
+   "id": "W2777",
+   "entry": "wohl",
+   "level": "B1",
+   "gloss": "probably; well (sich wohl fühlen: to feel good)"
+  },
+  {
+   "id": "W2862",
+   "entry": "zumindest",
+   "level": "B1",
+   "gloss": "at least"
+  },
+  {
+   "id": "W2881",
+   "entry": "der Zustand, ¨-e",
+   "level": "B1",
+   "gloss": "condition, state"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2876",
+   "entry": "zuschauen, schaut zu, schaute zu, hat zugeschaut",
+   "level": "B1",
+   "gloss": "to watch"
+  },
+  {
+   "id": "W1755",
+   "entry": "die Panne, -n",
+   "level": "B1",
+   "gloss": "breakdown (of a car)"
+  },
+  {
+   "id": "W0981",
+   "entry": "das Gericht, -e",
+   "level": "A2",
+   "gloss": "dish (food); court (of law)"
+  },
+  {
+   "id": "W2389",
+   "entry": "tragen, trägt, trug, hat getragen",
+   "level": "A2",
+   "gloss": "to carry; to wear"
+  },
+  {
+   "id": "G004",
+   "entry": "bzw. (beziehungsweise)",
+   "level": "A2",
+   "gloss": "or; or rather; respectively"
+  },
+  {
+   "id": "W2724",
+   "entry": "welcher, welche, welches",
+   "level": "A2",
+   "gloss": "which; which one"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X001",
+   "word": "angeblich",
+   "gloss": "supposedly, allegedly (signals doubt)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X025",
+   "word": "der Anstieg",
+   "gloss": "the increase, rise",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X029",
+   "word": "der Verbraucher, - / die Verbraucherin, -nen",
+   "gloss": "consumer",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R001",
+   "word": "der Bankomat, -en",
+   "gloss": "ATM",
+   "kind": "austrian",
+   "de": "der Geldautomat"
+  },
+  {
+   "id": "R011",
+   "word": "die Geldbörse, -n",
+   "gloss": "wallet",
+   "kind": "austrian",
+   "de": "das Portemonnaie"
+  }
+ ],
+ "story_opening": "Am Dienstagabend sitzt Mateo in seinem Deutschkurs an der Volkshochschule. Heute ist das Thema „Geld und Konsum“. Frau Neumann schreibt eine Frage an die Tafel: „Wie viel Geld geben Sie im Monat für Dinge aus, die Sie nicht wirklich brauchen?“\n\nTomasz, ein junger Mann aus Polen, lacht. „Zu viel! Ich bestelle fast jeden Tag etwas im Internet.“ Frau Neumann nickt. „Viele Menschen konsumieren heute mehr als früher. Hat jemand von Ihnen jemals alle seine Ausgaben aufgeschrieben?“\n\nMateo hebt die Hand. Er ist ziemlich sparsam, denn er spart für die B1-Prüfung und für seine Einbürgerung. Beides kostet Geld. Seit einem Jahr schreibt er jede Ausgabe in ein kleines Heft: Miete, Strom, Handy, Essen. D"
+}

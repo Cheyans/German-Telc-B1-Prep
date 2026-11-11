@@ -1,0 +1,473 @@
+{
+ "set": "26",
+ "title": "Umwelt",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "G208",
+   "entry": "der Affe, -n",
+   "level": "B1",
+   "gloss": "monkey"
+  },
+  {
+   "id": "G210",
+   "entry": "die Biene, -n",
+   "level": "B1",
+   "gloss": "bee"
+  },
+  {
+   "id": "G211",
+   "entry": "der Elefant, -en",
+   "level": "B1",
+   "gloss": "elephant"
+  },
+  {
+   "id": "G215",
+   "entry": "die Giraffe, -n",
+   "level": "B1",
+   "gloss": "giraffe"
+  },
+  {
+   "id": "G218",
+   "entry": "das Insekt, -en",
+   "level": "B1",
+   "gloss": "insect"
+  },
+  {
+   "id": "G220",
+   "entry": "das Krokodil, -e",
+   "level": "B1",
+   "gloss": "crocodile"
+  },
+  {
+   "id": "G222",
+   "entry": "der Löwe, -n",
+   "level": "B1",
+   "gloss": "lion"
+  },
+  {
+   "id": "G226",
+   "entry": "der Pinguin, -e",
+   "level": "B1",
+   "gloss": "penguin"
+  },
+  {
+   "id": "G228",
+   "entry": "die Schildkröte, -n",
+   "level": "B1",
+   "gloss": "turtle, tortoise"
+  },
+  {
+   "id": "G238",
+   "entry": "das Grad",
+   "level": "A1",
+   "gloss": "degree (temperature)"
+  },
+  {
+   "id": "W0008",
+   "entry": "der Abfall, ¨-e",
+   "level": "B1",
+   "gloss": "waste, garbage"
+  },
+  {
+   "id": "W0010",
+   "entry": "Abgase (Pl.)",
+   "level": "B1",
+   "gloss": "exhaust fumes"
+  },
+  {
+   "id": "W0050",
+   "entry": "allerdings",
+   "level": "B1",
+   "gloss": "however"
+  },
+  {
+   "id": "W0052",
+   "entry": "der Alltag",
+   "level": "B1",
+   "gloss": "everyday life"
+  },
+  {
+   "id": "W0157",
+   "entry": "auffallen, fällt auf, fiel auf, ist aufgefallen",
+   "level": "B1",
+   "gloss": "to catch one's eye, to notice"
+  },
+  {
+   "id": "W0272",
+   "entry": "der Bedarf",
+   "level": "B1",
+   "gloss": "need, demand"
+  },
+  {
+   "id": "W0281",
+   "entry": "befreit",
+   "level": "B1",
+   "gloss": "exempt"
+  },
+  {
+   "id": "W0315",
+   "entry": "benötigen, benötigt, benötigte, hat benötigt",
+   "level": "B1",
+   "gloss": "to need, to require"
+  },
+  {
+   "id": "W0362",
+   "entry": "sich beteiligen, beteiligt sich, beteiligte sich, hat sich beteiligt",
+   "level": "B1",
+   "gloss": "to take part, to participate"
+  },
+  {
+   "id": "W0411",
+   "entry": "blühen, blüht, blühte, hat geblüht",
+   "level": "B1",
+   "gloss": "to bloom"
+  },
+  {
+   "id": "W0516",
+   "entry": "dienen, dient, diente, hat gedient",
+   "level": "B1",
+   "gloss": "to serve (as)"
+  },
+  {
+   "id": "W0604",
+   "entry": "einführen, führt ein, führte ein, hat eingeführt",
+   "level": "B1",
+   "gloss": "to introduce"
+  },
+  {
+   "id": "W0655",
+   "entry": "die Energie, -n",
+   "level": "B1",
+   "gloss": "energy"
+  },
+  {
+   "id": "W0673",
+   "entry": "entsorgen, entsorgt, entsorgte, hat entsorgt",
+   "level": "B1",
+   "gloss": "to dispose of, to throw away"
+  },
+  {
+   "id": "W0681",
+   "entry": "die Erde",
+   "level": "B1",
+   "gloss": "soil, ground"
+  },
+  {
+   "id": "W0750",
+   "entry": "extra",
+   "level": "B1",
+   "gloss": "especially, extra"
+  },
+  {
+   "id": "W0876",
+   "entry": "fressen, frisst, fraß, hat gefressen",
+   "level": "B1",
+   "gloss": "to eat (animals)"
+  },
+  {
+   "id": "W0883",
+   "entry": "frieren, friert, fror, hat gefroren",
+   "level": "B1",
+   "gloss": "to be cold, to freeze"
+  },
+  {
+   "id": "W0910",
+   "entry": "füttern, füttert, fütterte, hat gefüttert",
+   "level": "B1",
+   "gloss": "to feed (an animal)"
+  },
+  {
+   "id": "W1017",
+   "entry": "gießen, gießt, goss, gegossen",
+   "level": "B1",
+   "gloss": "to water (plants)"
+  },
+  {
+   "id": "W1051",
+   "entry": "der Grund, ¨-e",
+   "level": "B1",
+   "gloss": "reason"
+  },
+  {
+   "id": "W1121",
+   "entry": "heraus, fand heraus, hat herausgefunden",
+   "level": "B1",
+   "gloss": "to find out"
+  },
+  {
+   "id": "W1273",
+   "entry": "die Katastrophe, -n",
+   "level": "B1",
+   "gloss": "disaster, catastrophe"
+  },
+  {
+   "id": "W1307",
+   "entry": "das Klima",
+   "level": "B1",
+   "gloss": "climate"
+  },
+  {
+   "id": "W1366",
+   "entry": "das Kraftwerk, -e",
+   "level": "B1",
+   "gloss": "power plant"
+  },
+  {
+   "id": "W1412",
+   "entry": "die Küste, -n",
+   "level": "B1",
+   "gloss": "coast"
+  },
+  {
+   "id": "W1502",
+   "entry": "die Luft",
+   "level": "B1",
+   "gloss": "air"
+  },
+  {
+   "id": "W1652",
+   "entry": "nämlich",
+   "level": "B1",
+   "gloss": "you see (gives a reason)"
+  },
+  {
+   "id": "W1656",
+   "entry": "die Natur",
+   "level": "A2",
+   "gloss": "nature"
+  },
+  {
+   "id": "W1662",
+   "entry": "nebenbei",
+   "level": "B1",
+   "gloss": "in passing, by the way"
+  },
+  {
+   "id": "W1707",
+   "entry": "ob",
+   "level": "B1",
+   "gloss": "whether, if"
+  },
+  {
+   "id": "W1713",
+   "entry": "obwohl",
+   "level": "B1",
+   "gloss": "although"
+  },
+  {
+   "id": "W1725",
+   "entry": "Öko- (ökologisch)",
+   "level": "B1",
+   "gloss": "eco-, green (here: green electricity)"
+  },
+  {
+   "id": "W1750",
+   "entry": "der Ozean, -e",
+   "level": "B1",
+   "gloss": "ocean"
+  },
+  {
+   "id": "W1790",
+   "entry": "pflanzen, pflanzt, pflanzte, hat gepflanzt",
+   "level": "B1",
+   "gloss": "to plant"
+  },
+  {
+   "id": "W1806",
+   "entry": "das Plastik",
+   "level": "B1",
+   "gloss": "plastic"
+  },
+  {
+   "id": "W1874",
+   "entry": "der Rasen, -",
+   "level": "B1",
+   "gloss": "lawn"
+  },
+  {
+   "id": "W1912",
+   "entry": "die Region, -en",
+   "level": "B1",
+   "gloss": "region"
+  },
+  {
+   "id": "W1989",
+   "entry": "der Sand",
+   "level": "B1",
+   "gloss": "sand"
+  },
+  {
+   "id": "W2045",
+   "entry": "verschmutzen, verschmutzt, verschmutzte, hat verschmutzt",
+   "level": "B1",
+   "gloss": "to pollute"
+  },
+  {
+   "id": "W2076",
+   "entry": "schützen, schützt, schützte, hat geschützt",
+   "level": "B1",
+   "gloss": "to protect"
+  },
+  {
+   "id": "W2077",
+   "entry": "der Schutz",
+   "level": "B1",
+   "gloss": "protection, shelter"
+  },
+  {
+   "id": "W2093",
+   "entry": "die Nord-/Ostsee",
+   "level": "B1",
+   "gloss": "Baltic Sea / North Sea"
+  },
+  {
+   "id": "W2168",
+   "entry": "sowohl … als auch",
+   "level": "B1",
+   "gloss": "both … and"
+  },
+  {
+   "id": "W2346",
+   "entry": "die Temperatur, -en",
+   "level": "B1",
+   "gloss": "temperature"
+  },
+  {
+   "id": "W2365",
+   "entry": "das Haustier, -e",
+   "level": "B1",
+   "gloss": "pet"
+  },
+  {
+   "id": "W2473",
+   "entry": "die Umwelt",
+   "level": "B1",
+   "gloss": "environment"
+  },
+  {
+   "id": "W2474",
+   "entry": "der Umweltschutz",
+   "level": "B1",
+   "gloss": "environmental protection"
+  },
+  {
+   "id": "W2475",
+   "entry": "die Umweltverschmutzung, -en",
+   "level": "B1",
+   "gloss": "pollution"
+  },
+  {
+   "id": "W2541",
+   "entry": "verbrauchen, verbraucht, verbrauchte, hat verbraucht",
+   "level": "B1",
+   "gloss": "to use up, to consume"
+  },
+  {
+   "id": "W2680",
+   "entry": "wachsen, wächst, wuchs, ist gewachsen",
+   "level": "B1",
+   "gloss": "to grow"
+  },
+  {
+   "id": "W2696",
+   "entry": "die Wärme",
+   "level": "B1",
+   "gloss": "warmth, heat"
+  },
+  {
+   "id": "W2756",
+   "entry": "die Wiese, -n",
+   "level": "B1",
+   "gloss": "meadow"
+  },
+  {
+   "id": "W2829",
+   "entry": "das Zeug/-zeug",
+   "level": "B1",
+   "gloss": "stuff"
+  },
+  {
+   "id": "W2905",
+   "entry": "das Gas, -e",
+   "level": "B1",
+   "gloss": "gas (for heating)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2539",
+   "entry": "verbinden, verbindet, verband, hat verbunden",
+   "level": "B1",
+   "gloss": "to connect"
+  },
+  {
+   "id": "W0982",
+   "entry": "gering",
+   "level": "B1",
+   "gloss": "low, small"
+  },
+  {
+   "id": "W2150",
+   "entry": "sogar",
+   "level": "A2",
+   "gloss": "even"
+  },
+  {
+   "id": "W0583",
+   "entry": "eigen-",
+   "level": "A2",
+   "gloss": "own (as in: my own room)"
+  },
+  {
+   "id": "W2455",
+   "entry": "übrig",
+   "level": "B1",
+   "gloss": "left (over)"
+  },
+  {
+   "id": "W2647",
+   "entry": "vor allem",
+   "level": "B1",
+   "gloss": "above all, mainly"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X001",
+   "word": "angeblich",
+   "gloss": "supposedly, allegedly (signals doubt)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X005",
+   "word": "ehrenamtlich",
+   "gloss": "as a volunteer, unpaid",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X016",
+   "word": "erzeugen, erzeugt, erzeugte, hat erzeugt",
+   "gloss": "to produce, generate",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X018",
+   "word": "die Bürgerinitiative, -n",
+   "gloss": "a local citizens' action group",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X024",
+   "word": "die Maßnahme, -n",
+   "gloss": "a measure, step (taken by authorities)",
+   "kind": "extra",
+   "de": ""
+  }
+ ],
+ "story_opening": "Es ist ein Montagmorgen im April. Herr Braun steht im Hof neben den Mülltonnen und ärgert sich laut über die Nachbarn. Lena kommt gerade mit ihrem Fahrrad aus dem Haus. „Frau Hoffmann, schauen Sie sich das an!“, ruft er und öffnet die blaue Tonne. Sie ist nur für Papier, aber oben liegen Joghurtbecher, leere Flaschen und alte Tüten. „Das ganze Zeug gehört nicht hierher! Plastik kommt in die gelbe Tonne, und Glas bringt man zum Container an der Ecke. Ich würde gern wissen, wer das war!“\n\nSeit März gibt es im Hof außerdem etwas Neues: Die Hausverwaltung hat die Biotonne eingeführt. Das ist eine braune Tonne für Abfall aus der Küche, zum Beispiel für Kartoffelschalen, Obstreste oder Kaffeefilte"
+}

@@ -1,0 +1,494 @@
+{
+ "set": "06",
+ "title": "Einkaufen und umtauschen",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "W0040",
+   "entry": "die Aktion, -en",
+   "level": "B1",
+   "gloss": "promotion, special offer"
+  },
+  {
+   "id": "W0088",
+   "entry": "anhaben, hat an, hatte an, hat angehabt",
+   "level": "B1",
+   "gloss": "to have on, be wearing"
+  },
+  {
+   "id": "W0223",
+   "entry": "(sich etwas) aussuchen, sucht aus, suchte aus, hat ausgesucht",
+   "level": "B1",
+   "gloss": "to pick out, choose"
+  },
+  {
+   "id": "W0225",
+   "entry": "die Auswahl, -en",
+   "level": "B1",
+   "gloss": "selection, choice"
+  },
+  {
+   "id": "W0256",
+   "entry": "das Bargeld",
+   "level": "B1",
+   "gloss": "cash"
+  },
+  {
+   "id": "W0277",
+   "entry": "die Bedingung, -en",
+   "level": "B1",
+   "gloss": "condition, requirement"
+  },
+  {
+   "id": "W0310",
+   "entry": "der Beleg, -e",
+   "level": "B1",
+   "gloss": "receipt, proof of purchase"
+  },
+  {
+   "id": "W0322",
+   "entry": "berechnen, berechnet, berechnete, hat berechnet",
+   "level": "B1",
+   "gloss": "to charge (for)"
+  },
+  {
+   "id": "W0334",
+   "entry": "beschädigen, beschädigt, beschädigte, hat beschädigt",
+   "level": "B1",
+   "gloss": "to damage"
+  },
+  {
+   "id": "W0350",
+   "entry": "besorgen, besorgt, besorgte, hat besorgt",
+   "level": "B1",
+   "gloss": "to get, pick up (for someone)"
+  },
+  {
+   "id": "W0434",
+   "entry": "die Brieftasche, -n D,→ CH: Portemonnaie/Portmonee; A: Geldbörse",
+   "level": "B1",
+   "gloss": "wallet, billfold"
+  },
+  {
+   "id": "W0464",
+   "entry": "chic/schick",
+   "level": "B1",
+   "gloss": "chic, stylish"
+  },
+  {
+   "id": "W0504",
+   "entry": "derselbe, dieselbe, dasselbe",
+   "level": "B1",
+   "gloss": "the same"
+  },
+  {
+   "id": "W0546",
+   "entry": "die Drogerie, -n",
+   "level": "B1",
+   "gloss": "drugstore (toiletries, cosmetics)"
+  },
+  {
+   "id": "W0611",
+   "entry": "der Einkauf, ¨-e",
+   "level": "B1",
+   "gloss": "shopping, purchase"
+  },
+  {
+   "id": "W0641",
+   "entry": "elegant",
+   "level": "B1",
+   "gloss": "elegant"
+  },
+  {
+   "id": "W0658",
+   "entry": "entdecken, entdeckt, entdeckte, hat entdeckt",
+   "level": "B1",
+   "gloss": "to discover, spot"
+  },
+  {
+   "id": "W0723",
+   "entry": "eröffnen, eröffnet, eröffnete, hat eröffnet",
+   "level": "B1",
+   "gloss": "to open (a new business)"
+  },
+  {
+   "id": "W0724",
+   "entry": "die Eröffnung, -en",
+   "level": "B1",
+   "gloss": "(grand) opening"
+  },
+  {
+   "id": "W0816",
+   "entry": "das Feuerzeug, -e",
+   "level": "B1",
+   "gloss": "lighter"
+  },
+  {
+   "id": "W0885",
+   "entry": "der Friseur, -e die Friseurin, -nen (D, A) CH: Coiffeur→",
+   "level": "B1",
+   "gloss": "hairdresser"
+  },
+  {
+   "id": "W0915",
+   "entry": "gar",
+   "level": "B1",
+   "gloss": "at all (gar nicht, gar kein); even"
+  },
+  {
+   "id": "W1075",
+   "entry": "halt",
+   "level": "B1",
+   "gloss": "just, simply (particle)"
+  },
+  {
+   "id": "W1137",
+   "entry": "hier/hier-",
+   "level": "A1",
+   "gloss": "here (hierher: over here)"
+  },
+  {
+   "id": "W1177",
+   "entry": "der Hut, ¨-e",
+   "level": "B1",
+   "gloss": "hat"
+  },
+  {
+   "id": "W1194",
+   "entry": "inklusive",
+   "level": "B1",
+   "gloss": "including"
+  },
+  {
+   "id": "W1243",
+   "entry": "die Kabine, -n",
+   "level": "B1",
+   "gloss": "fitting room"
+  },
+  {
+   "id": "W1274",
+   "entry": "(sich etwas) kaufen, kauft, kaufte, hat gekauft",
+   "level": "A1",
+   "gloss": "to buy"
+  },
+  {
+   "id": "W1276",
+   "entry": "der Käufer, - die Käuferin, -nen",
+   "level": "B1",
+   "gloss": "buyer, shopper"
+  },
+  {
+   "id": "W1311",
+   "entry": "klingen, klingt, klang, hat geklungen",
+   "level": "B1",
+   "gloss": "to sound"
+  },
+  {
+   "id": "W1320",
+   "entry": "der Knopf, ¨-e",
+   "level": "B1",
+   "gloss": "button"
+  },
+  {
+   "id": "W1403",
+   "entry": "der Kunststoff, -e",
+   "level": "B1",
+   "gloss": "plastic"
+  },
+  {
+   "id": "W1446",
+   "entry": "das Leder",
+   "level": "B1",
+   "gloss": "leather"
+  },
+  {
+   "id": "W1545",
+   "entry": "die Mehrwertsteuer",
+   "level": "B1",
+   "gloss": "value-added tax (VAT)"
+  },
+  {
+   "id": "W1599",
+   "entry": "das Modell, -e",
+   "level": "B1",
+   "gloss": "model"
+  },
+  {
+   "id": "W1618",
+   "entry": "die Münze, -n",
+   "level": "B1",
+   "gloss": "coin"
+  },
+  {
+   "id": "W1645",
+   "entry": "die Nähe",
+   "level": "A2",
+   "gloss": "vicinity (in der Nähe: nearby)"
+  },
+  {
+   "id": "W1816",
+   "entry": "das Portemonnaie/Portmonee, -s (D, CH) Brief-→ tasche; A: Geldbörse",
+   "level": "B1",
+   "gloss": "wallet, coin purse"
+  },
+  {
+   "id": "W1865",
+   "entry": "die Quittung, -en",
+   "level": "B1",
+   "gloss": "receipt"
+  },
+  {
+   "id": "W1903",
+   "entry": "reduzieren, reduziert, reduzierte, hat reduziert",
+   "level": "B1",
+   "gloss": "to reduce, mark down"
+  },
+  {
+   "id": "W1984",
+   "entry": "der Salon, -s",
+   "level": "B1",
+   "gloss": "(hair) salon"
+  },
+  {
+   "id": "W2007",
+   "entry": "das Schaufenster, -",
+   "level": "B1",
+   "gloss": "store window"
+  },
+  {
+   "id": "W2028",
+   "entry": "die Schlange, -n",
+   "level": "B1",
+   "gloss": "line (of people waiting)"
+  },
+  {
+   "id": "W2042",
+   "entry": "der Schmuck",
+   "level": "B1",
+   "gloss": "jewelry"
+  },
+  {
+   "id": "W2129",
+   "entry": "sichtbar",
+   "level": "B1",
+   "gloss": "visible"
+  },
+  {
+   "id": "W2145",
+   "entry": "die Socke, -n",
+   "level": "B1",
+   "gloss": "sock"
+  },
+  {
+   "id": "W2156",
+   "entry": "Sonder- / das Sonderangebot, -e",
+   "level": "B1",
+   "gloss": "special offer, sale item"
+  },
+  {
+   "id": "W2232",
+   "entry": "stehen bleiben",
+   "level": "B1",
+   "gloss": "to stop (walking)"
+  },
+  {
+   "id": "W2247",
+   "entry": "still",
+   "level": "B1",
+   "gloss": "quiet, silent"
+  },
+  {
+   "id": "W2257",
+   "entry": "der Stoff, -e",
+   "level": "B1",
+   "gloss": "fabric, material"
+  },
+  {
+   "id": "W2278",
+   "entry": "der Strumpf, ¨-e",
+   "level": "B1",
+   "gloss": "stocking"
+  },
+  {
+   "id": "W2297",
+   "entry": "die Summe, -n",
+   "level": "B1",
+   "gloss": "total, sum"
+  },
+  {
+   "id": "W2304",
+   "entry": "das System, -e",
+   "level": "B1",
+   "gloss": "system"
+  },
+  {
+   "id": "W2330",
+   "entry": "tauschen, tauscht, tauschte, hat getauscht",
+   "level": "A2",
+   "gloss": "to swap, trade"
+  },
+  {
+   "id": "W2409",
+   "entry": "treten, tritt, trat, hat/ist getreten",
+   "level": "B1",
+   "gloss": "to step (on)"
+  },
+  {
+   "id": "W2419",
+   "entry": "das Tuch, ¨-er",
+   "level": "B1",
+   "gloss": "scarf, cloth"
+  },
+  {
+   "id": "W2423",
+   "entry": "die Tüte, -n",
+   "level": "B1",
+   "gloss": "(shopping) bag"
+  },
+  {
+   "id": "W2469",
+   "entry": "umsonst",
+   "level": "B1",
+   "gloss": "free, for nothing"
+  },
+  {
+   "id": "W2471",
+   "entry": "umtauschen, tauscht um, tauschte um, hat umgetauscht",
+   "level": "B1",
+   "gloss": "to exchange (a purchase)"
+  },
+  {
+   "id": "W2472",
+   "entry": "der Umtausch, ¨-e",
+   "level": "B1",
+   "gloss": "exchange (of a purchase)"
+  },
+  {
+   "id": "W2590",
+   "entry": "verpacken, verpackt, verpackte, hat verpackt",
+   "level": "B1",
+   "gloss": "to wrap, pack"
+  },
+  {
+   "id": "W2694",
+   "entry": "die Ware, -n",
+   "level": "B1",
+   "gloss": "goods, merchandise"
+  },
+  {
+   "id": "W2785",
+   "entry": "die Wolle",
+   "level": "B1",
+   "gloss": "wool"
+  },
+  {
+   "id": "W2811",
+   "entry": "das Zeichen, -",
+   "level": "B1",
+   "gloss": "sign, signal"
+  },
+  {
+   "id": "W2854",
+   "entry": "zugehen, geht zu, ging zu, ist zugegangen",
+   "level": "B1",
+   "gloss": "to walk up to (someone)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2168",
+   "entry": "sowohl … als auch",
+   "level": "B1",
+   "gloss": "both … and"
+  },
+  {
+   "id": "W0679",
+   "entry": "entwickeln, entwickelt, entwickelte, hat entwickelt",
+   "level": "B1",
+   "gloss": "to develop"
+  },
+  {
+   "id": "W2495",
+   "entry": "(sich) unterhalten, unterhält, unterhielt, hat unterhalten",
+   "level": "A2",
+   "gloss": "(sich) to talk, chat; to entertain"
+  },
+  {
+   "id": "W1293",
+   "entry": "klappen, klappt, klappte, hat geklappt",
+   "level": "A2",
+   "gloss": "to work out, to go well (Das hat geklappt!)"
+  },
+  {
+   "id": "W1041",
+   "entry": "greifen, greift, griff, hat gegriffen",
+   "level": "B1",
+   "gloss": "to reach (for), to grab"
+  },
+  {
+   "id": "W1460",
+   "entry": "leisten, leistet, leistete, hat geleistet",
+   "level": "B1",
+   "gloss": "to afford (sich etwas leisten)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X007",
+   "word": "bevorzugen, bevorzugt, bevorzugte, hat bevorzugt",
+   "gloss": "to prefer; bevorzugt = preferably",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X029",
+   "word": "der Verbraucher, - / die Verbraucherin, -nen",
+   "gloss": "consumer",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R002",
+   "word": "die Bankomat-Karte, -n",
+   "gloss": "debit card",
+   "kind": "austrian",
+   "de": "die EC-Karte"
+  },
+  {
+   "id": "R006",
+   "word": "der Erdapfel, Erdäpfel",
+   "gloss": "potato",
+   "kind": "austrian",
+   "de": "die Kartoffel"
+  },
+  {
+   "id": "R009",
+   "word": "der Fleischhauer, - / die Fleischhauerin, -nen",
+   "gloss": "butcher",
+   "kind": "austrian",
+   "de": "der Metzger"
+  },
+  {
+   "id": "R017",
+   "word": "die Marille, -n",
+   "gloss": "apricot",
+   "kind": "austrian",
+   "de": "die Aprikose"
+  },
+  {
+   "id": "R021",
+   "word": "der Paradeiser, -",
+   "gloss": "tomato",
+   "kind": "austrian",
+   "de": "die Tomate"
+  },
+  {
+   "id": "R027",
+   "word": "die Semmel, -n",
+   "gloss": "bread roll",
+   "kind": "austrian",
+   "de": "das Brötchen"
+  }
+ ],
+ "story_opening": "Es ist Samstagmorgen. Lena wohnt noch nicht lange in Leipzig. Am Montag hat sie ihre erste große Präsentation in der Agentur. Ein wichtiger Kunde kommt. Lena steht vor ihrem Kleiderschrank und ist unzufrieden. Darin hängen fast nur Jeans, T-Shirts und Pullover. Heute hat sie Jeans und einen alten grauen Pullover an. Das ist gut fürs Wochenende, aber nicht für einen Kunden. Für Mode hat sich Lena nie besonders interessiert.\n\nSie klingelt bei ihrer Nachbarin Aylin. „Hast du heute Zeit? Ich brauche etwas Elegantes für Montag.“ Aylin lacht. „Für Einkäufe habe ich immer Zeit. Aber um zwölf habe ich einen Termin beim Friseur. Meine Haare sind viel zu lang.“\n\nIm Treppenhaus treffen sie Frau Krüger."
+}

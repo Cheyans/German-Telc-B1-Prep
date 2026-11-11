@@ -1,0 +1,75 @@
+{
+ "story": "06",
+ "questions": [
+  {
+   "q": "Worum bittet Frau Krüger die beiden im Treppenhaus?",
+   "right": "Sie sollen ihr in der Stadt ein Feuerzeug kaufen.",
+   "wrong": [
+    "Sie sollen ihr für heute Abend Kerzen mitbringen.",
+    "Sie sollen ihr altes Feuerzeug reparieren lassen."
+   ],
+   "evidence": "Könnten Sie mir vielleicht ein Feuerzeug besorgen? Mein altes funktioniert nicht mehr, und heute Abend möchte ich Kerzen anzünden.“",
+   "why": "She asks them to get (besorgen) her a lighter, because her old one no longer works. The candles are what she wants to light tonight, not what she asks for.",
+   "words": [
+    "W0350",
+    "W0816"
+   ]
+  },
+  {
+   "q": "Wie reagiert Aylin, als Lena im Blazer aus der Kabine kommt?",
+   "right": "Erst ist sie sprachlos, dann lobt sie Lena.",
+   "wrong": [
+    "Sie ruft sofort laut, dass der Blazer toll aussieht.",
+    "Sie lacht, weil der Blazer Lena viel zu groß ist."
+   ],
+   "evidence": "Als sie aus der Kabine kommt, ist Aylin einen Moment ganz still. Dann sagt sie: „So elegant habe ich dich noch nie gesehen!“",
+   "why": "Aylin is silent (still) for a moment, then says she has never seen Lena look so elegant. She does not react right away, and the blazer fits perfectly.",
+   "words": [
+    "W2247",
+    "W1243"
+   ]
+  },
+  {
+   "q": "Was fällt Lena auf, als sie die Quittung genau liest?",
+   "right": "Die Socken stehen doppelt auf der Quittung.",
+   "wrong": [
+    "Auf der Quittung fehlt die Mehrwertsteuer.",
+    "Auf der Quittung fehlt ein Paar Socken."
+   ],
+   "evidence": "Unten steht: „Alle Preise inklusive 19 Prozent Mehrwertsteuer“. Aber dann entdeckt sie einen Fehler. „Entschuldigung, Sie haben mir die Socken zweimal berechnet. Ich habe aber nur drei Paar genommen.“",
+   "why": "She discovers (entdeckt) that the socks were charged (berechnet) twice, although she only took three pairs. The VAT is already included (inklusive) in all prices.",
+   "words": [
+    "W0322",
+    "W0658",
+    "W1194"
+   ]
+  },
+  {
+   "q": "Was bekommt Lena im Modegeschäft für ihren Blazer mit dem Fleck?",
+   "right": "Einen gleichen Blazer in ihrer Größe.",
+   "wrong": [
+    "Ihr Geld zurück, weil der Fleck so groß ist.",
+    "Dasselbe Modell, aber eine Nummer größer."
+   ],
+   "evidence": "Die Verkäuferin holt dasselbe Modell in derselben Größe.",
+   "why": "The saleswoman brings the same (dasselbe) model in the same (derselben) size. Lena does not get her money back, and the stain was small.",
+   "words": [
+    "W0504"
+   ]
+  },
+  {
+   "q": "Wie endet die Sache mit dem kaputten Wasserkocher?",
+   "right": "Lena zahlt etwas mehr und nimmt einen aus Glas.",
+   "wrong": [
+    "Lena lässt sich das Geld zurückgeben und geht.",
+    "Lena bekommt das gleiche Modell aus Kunststoff noch einmal."
+   ],
+   "evidence": "Auf billigen Kunststoff hat sie gar keine Lust mehr. „Ich nehme den Wasserkocher aus Glas. Dafür bezahle ich gern ein bisschen mehr.“",
+   "why": "She wants nothing more to do with cheap plastic (gar keine Lust auf Kunststoff), so she takes the glass kettle and pays a little more. She does not ask for a refund.",
+   "words": [
+    "W1403",
+    "W0915"
+   ]
+  }
+ ]
+}

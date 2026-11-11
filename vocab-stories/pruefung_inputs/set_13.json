@@ -1,0 +1,420 @@
+{
+ "set": "13",
+ "title": "Im Restaurant",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G063",
+   "entry": "das Ketchup",
+   "level": "B1",
+   "gloss": "ketchup"
+  },
+  {
+   "id": "G079",
+   "entry": "das Sandwich, -s",
+   "level": "B1",
+   "gloss": "sandwich"
+  },
+  {
+   "id": "G086",
+   "entry": "das Steak, -s",
+   "level": "B1",
+   "gloss": "steak"
+  },
+  {
+   "id": "W0046",
+   "entry": "der Alkohol",
+   "level": "B1",
+   "gloss": "alcohol"
+  },
+  {
+   "id": "W0275",
+   "entry": "bedienen, bedient, bediente, hat bedient",
+   "level": "B1",
+   "gloss": "to serve (guests)"
+  },
+  {
+   "id": "W0370",
+   "entry": "betrunken",
+   "level": "B1",
+   "gloss": "drunk"
+  },
+  {
+   "id": "W0462",
+   "entry": "die Chance, -n",
+   "level": "B1",
+   "gloss": "chance, opportunity"
+  },
+  {
+   "id": "W0481",
+   "entry": "damit",
+   "level": "B1",
+   "gloss": "so that"
+  },
+  {
+   "id": "W0506",
+   "entry": "das Dessert, -s D, A:→ Nachspeise",
+   "level": "B1",
+   "gloss": "dessert"
+  },
+  {
+   "id": "W0563",
+   "entry": "durstig",
+   "level": "B1",
+   "gloss": "thirsty"
+  },
+  {
+   "id": "W0638",
+   "entry": "das Eis",
+   "level": "A2",
+   "gloss": "ice"
+  },
+  {
+   "id": "W0639",
+   "entry": "das Eis (D, A) CH:→ Glace/Glacé",
+   "level": "B1",
+   "gloss": "ice cream"
+  },
+  {
+   "id": "W0694",
+   "entry": "erfüllen, erfüllt, erfüllte, hat erfüllt",
+   "level": "B1",
+   "gloss": "to fulfill (a wish)"
+  },
+  {
+   "id": "W0715",
+   "entry": "erledigen, erledigt, erledigte, hat erledigt",
+   "level": "B1",
+   "gloss": "to get done, to finish"
+  },
+  {
+   "id": "W0923",
+   "entry": "die Gaststätte, -n (D)",
+   "level": "B1",
+   "gloss": "traditional restaurant, inn"
+  },
+  {
+   "id": "W0964",
+   "entry": "gelten, gilt, galt, hat gegolten",
+   "level": "B1",
+   "gloss": "to be valid"
+  },
+  {
+   "id": "W0992",
+   "entry": "der Geschmack",
+   "level": "B1",
+   "gloss": "taste, flavor"
+  },
+  {
+   "id": "W1045",
+   "entry": "der Grill",
+   "level": "B1",
+   "gloss": "grill"
+  },
+  {
+   "id": "W1057",
+   "entry": "gucken, guckt, guckte, hat geguckt",
+   "level": "B1",
+   "gloss": "to look"
+  },
+  {
+   "id": "W1173",
+   "entry": "hungrig",
+   "level": "B1",
+   "gloss": "hungry"
+  },
+  {
+   "id": "W1230",
+   "entry": "jedoch",
+   "level": "B1",
+   "gloss": "however"
+  },
+  {
+   "id": "W1246",
+   "entry": "der Kakao, -s",
+   "level": "B1",
+   "gloss": "hot chocolate, cocoa"
+  },
+  {
+   "id": "W1280",
+   "entry": "der Kellner, - die Kellnerin, -nen D, A: Ober; → CH: Serviceangestellter",
+   "level": "B1",
+   "gloss": "waiter"
+  },
+  {
+   "id": "W1314",
+   "entry": "der Kloß, ¨-e (D) D, A:→ Knödel",
+   "level": "B1",
+   "gloss": "dumpling"
+  },
+  {
+   "id": "W1323",
+   "entry": "die Köchin, -nen",
+   "level": "B1",
+   "gloss": "cook, chef (female)"
+  },
+  {
+   "id": "W1441",
+   "entry": "lecker",
+   "level": "B1",
+   "gloss": "tasty, delicious"
+  },
+  {
+   "id": "W1505",
+   "entry": "die Lust",
+   "level": "A2",
+   "gloss": "desire (Lust auf = in the mood for)"
+  },
+  {
+   "id": "W1510",
+   "entry": "die Mahlzeit, -en",
+   "level": "B1",
+   "gloss": "meal"
+  },
+  {
+   "id": "W1513",
+   "entry": "das Mal, -e",
+   "level": "A2",
+   "gloss": "time, occasion"
+  },
+  {
+   "id": "W1558",
+   "entry": "das Menü, -s",
+   "level": "B1",
+   "gloss": "set meal (several courses)"
+  },
+  {
+   "id": "W1577",
+   "entry": "das Mineralwasser",
+   "level": "B1",
+   "gloss": "mineral water"
+  },
+  {
+   "id": "W1612",
+   "entry": "die Mühe",
+   "level": "B1",
+   "gloss": "effort (sich Mühe geben = to try hard)"
+  },
+  {
+   "id": "W1624",
+   "entry": "das Müesli/Müsli, -",
+   "level": "B1",
+   "gloss": "muesli (breakfast cereal)"
+  },
+  {
+   "id": "W1639",
+   "entry": "die Nachspeise, -n (D, A) Dessert→ nächst-",
+   "level": "B1",
+   "gloss": "dessert"
+  },
+  {
+   "id": "W1647",
+   "entry": "sich nähern, nähert sich, näherte sich, hat sich genähert",
+   "level": "B1",
+   "gloss": "to approach, to come closer"
+  },
+  {
+   "id": "W1687",
+   "entry": "noch mal",
+   "level": "B1",
+   "gloss": "once more, again"
+  },
+  {
+   "id": "W1710",
+   "entry": "der Ober, - (D, A) → Kellner; CH: Serviceangestellter",
+   "level": "B1",
+   "gloss": "waiter (old-fashioned)"
+  },
+  {
+   "id": "W1814",
+   "entry": "die Pommes frites (Pl.)",
+   "level": "B1",
+   "gloss": "French fries"
+  },
+  {
+   "id": "W1849",
+   "entry": "Prost",
+   "level": "B1",
+   "gloss": "cheers!"
+  },
+  {
+   "id": "W1897",
+   "entry": "recht",
+   "level": "B1",
+   "gloss": "all right, okay (with someone)"
+  },
+  {
+   "id": "W1913",
+   "entry": "regional",
+   "level": "B1",
+   "gloss": "regional, local"
+  },
+  {
+   "id": "W1980",
+   "entry": "die (Schlag-)Sahne (D) → A: (Schlag-)Obers; CH: (Schlag-)Rahm",
+   "level": "B1",
+   "gloss": "cream, whipped cream"
+  },
+  {
+   "id": "W1986",
+   "entry": "salzig",
+   "level": "B1",
+   "gloss": "salty"
+  },
+  {
+   "id": "W1991",
+   "entry": "satt",
+   "level": "B1",
+   "gloss": "full (after eating)"
+  },
+  {
+   "id": "W2050",
+   "entry": "das Schnitzel, -",
+   "level": "B1",
+   "gloss": "schnitzel, breaded cutlet"
+  },
+  {
+   "id": "W2120",
+   "entry": "der Serviceangestellte, -n",
+   "level": "B1",
+   "gloss": "service staff, server"
+  },
+  {
+   "id": "W2163",
+   "entry": "die Soße/Sauce, -n",
+   "level": "B1",
+   "gloss": "sauce, gravy"
+  },
+  {
+   "id": "W2180",
+   "entry": "Speise-/-speise, -n",
+   "level": "B1",
+   "gloss": "food, dish (Speisekarte = menu)"
+  },
+  {
+   "id": "W2412",
+   "entry": "das Trinkgeld, -er",
+   "level": "B1",
+   "gloss": "tip (for service)"
+  },
+  {
+   "id": "W2432",
+   "entry": "überhaupt",
+   "level": "B1",
+   "gloss": "at all; anyway, in general"
+  },
+  {
+   "id": "W2462",
+   "entry": "(sich) umdrehen, dreht um, drehte um, hat umgedreht",
+   "level": "B1",
+   "gloss": "to turn around, to turn over"
+  },
+  {
+   "id": "W2485",
+   "entry": "ungewöhnlich",
+   "level": "B1",
+   "gloss": "unusual"
+  },
+  {
+   "id": "W2518",
+   "entry": "die Ursache, -n",
+   "level": "B1",
+   "gloss": "cause"
+  },
+  {
+   "id": "W2524",
+   "entry": "vegetarisch",
+   "level": "B1",
+   "gloss": "vegetarian"
+  },
+  {
+   "id": "W2767",
+   "entry": "der Wirt, -e die Wirtin, -nen",
+   "level": "B1",
+   "gloss": "restaurant owner, innkeeper"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2777",
+   "entry": "wohl",
+   "level": "B1",
+   "gloss": "probably; well (sich wohl fühlen: to feel good)"
+  },
+  {
+   "id": "W0323",
+   "entry": "der Bereich, -e",
+   "level": "B1",
+   "gloss": "area, field"
+  },
+  {
+   "id": "W2912",
+   "entry": "die Reihe, -n",
+   "level": "A2",
+   "gloss": "row, line; turn (Ich bin an der Reihe: it is my turn)"
+  },
+  {
+   "id": "W0171",
+   "entry": "aufpassen, passt auf, passte auf, hat aufgepasst",
+   "level": "A2",
+   "gloss": "to pay attention, to watch out; (auf) to look after"
+  },
+  {
+   "id": "W2603",
+   "entry": "versichern, versichert, versicherte, hat versichert",
+   "level": "B1",
+   "gloss": "to insure"
+  },
+  {
+   "id": "W0083",
+   "entry": "der Angehörige, -n",
+   "level": "B1",
+   "gloss": "relative, family member (male)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X008",
+   "word": "über den Tellerrand schauen",
+   "gloss": "to look beyond your own little world",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R007",
+   "word": "das Faschierte",
+   "gloss": "minced meat",
+   "kind": "austrian",
+   "de": "das Hackfleisch"
+  },
+  {
+   "id": "R010",
+   "word": "das Gasthaus, Gasthäuser",
+   "gloss": "inn, traditional restaurant",
+   "kind": "austrian",
+   "de": "die Gaststätte"
+  },
+  {
+   "id": "R012",
+   "word": "das Hendl, -",
+   "gloss": "(roast) chicken",
+   "kind": "austrian",
+   "de": "das Hähnchen"
+  },
+  {
+   "id": "R014",
+   "word": "das Kaffeehaus, Kaffeehäuser",
+   "gloss": "(Viennese) coffee house",
+   "kind": "austrian",
+   "de": "das Café"
+  },
+  {
+   "id": "R026",
+   "word": "das Schwammerl, -n",
+   "gloss": "mushroom",
+   "kind": "austrian",
+   "de": "der Pilz"
+  }
+ ],
+ "story_opening": "Am Freitagabend ist Lena sehr hungrig. Zum Frühstück gab es nur ein bisschen Müsli mit Milch, und mittags hatte sie nur Zeit für ein Sandwich am Schreibtisch. Aber jetzt ist das große Projekt endlich erledigt: Der Kunde hat die neuen Plakate bekommen und ist sehr zufrieden. Das möchte Lena feiern.\n\n„Hast du Lust auf sächsisches Essen?“, fragt ihr Kollege Jonas. „Ich kenne eine alte Gaststätte in der Nähe vom Markt. Dort ist es gemütlich, und das Essen ist nicht zu teuer.“ Lena war in Leipzig noch nie in einem Lokal mit sächsischer Küche.\n\n„Gute Idee“, sagt Lena. „Ist es dir recht, wenn meine Nachbarin Aylin auch mitkommt?“\n\n„Klar“, sagt Jonas. „Je mehr Leute, desto lustiger.“\n\nUm sieben Uhr "
+}

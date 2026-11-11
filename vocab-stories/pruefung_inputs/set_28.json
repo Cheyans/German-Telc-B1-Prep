@@ -1,0 +1,551 @@
+{
+ "set": "28",
+ "title": "Der Einbruch",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G183",
+   "entry": "der Türke, -n / die Türkin, -nen",
+   "level": "B1",
+   "gloss": "Turk, Turkish man"
+  },
+  {
+   "id": "G184",
+   "entry": "türkisch",
+   "level": "B1",
+   "gloss": "Turkish"
+  },
+  {
+   "id": "W0029",
+   "entry": "abstimmen, stimmt ab, stimmte ab, hat abgestimmt",
+   "level": "B1",
+   "gloss": "to vote (on something)"
+  },
+  {
+   "id": "W0036",
+   "entry": "Achtung!",
+   "level": "B1",
+   "gloss": "Watch out! Careful!"
+  },
+  {
+   "id": "W0147",
+   "entry": "die Art, -en",
+   "level": "B1",
+   "gloss": "kind, type"
+  },
+  {
+   "id": "W0164",
+   "entry": "aufheben, hebt auf, hob auf, hat aufgehoben",
+   "level": "B1",
+   "gloss": "to pick up (from the ground)"
+  },
+  {
+   "id": "W0178",
+   "entry": "aufwachen, wacht auf, wachte auf, ist aufgewacht",
+   "level": "B1",
+   "gloss": "to wake up"
+  },
+  {
+   "id": "W0207",
+   "entry": "ausreichend",
+   "level": "B1",
+   "gloss": "sufficient, enough"
+  },
+  {
+   "id": "W0267",
+   "entry": "beachten, beachtet, beachtete, hat beachtet",
+   "level": "B1",
+   "gloss": "to observe, to pay attention to"
+  },
+  {
+   "id": "W0325",
+   "entry": "bereits",
+   "level": "B1",
+   "gloss": "already"
+  },
+  {
+   "id": "W0340",
+   "entry": "beschließen, beschließt, beschloss, hat beschlossen",
+   "level": "B1",
+   "gloss": "to decide, to pass (a law)"
+  },
+  {
+   "id": "W0359",
+   "entry": "bestrafen, bestraft, bestrafte, hat bestraft",
+   "level": "B1",
+   "gloss": "to punish"
+  },
+  {
+   "id": "W0369",
+   "entry": "betrügen, betrügt, betrog, hat betrogen",
+   "level": "B1",
+   "gloss": "to cheat, to swindle"
+  },
+  {
+   "id": "W0372",
+   "entry": "die Bevölkerung",
+   "level": "B1",
+   "gloss": "population (the people)"
+  },
+  {
+   "id": "W0377",
+   "entry": "der Beweis, -e",
+   "level": "B1",
+   "gloss": "evidence, proof"
+  },
+  {
+   "id": "W0515",
+   "entry": "der Dieb, -e",
+   "level": "B1",
+   "gloss": "thief"
+  },
+  {
+   "id": "W0587",
+   "entry": "die Eile",
+   "level": "B1",
+   "gloss": "hurry, haste"
+  },
+  {
+   "id": "W0591",
+   "entry": "einbrechen, bricht ein, brach ein, ist eingebrochen",
+   "level": "B1",
+   "gloss": "to break in (to a home)"
+  },
+  {
+   "id": "W0592",
+   "entry": "der Einbrecher, - die Einbrecherin, -nen",
+   "level": "B1",
+   "gloss": "burglar"
+  },
+  {
+   "id": "W0593",
+   "entry": "der Einbruch, ¨-e",
+   "level": "B1",
+   "gloss": "burglary, break-in"
+  },
+  {
+   "id": "W0808",
+   "entry": "festnehmen nimmt fest, nahm fest, hat festgenommen.",
+   "level": "B1",
+   "gloss": "to arrest, to detain"
+  },
+  {
+   "id": "W0835",
+   "entry": "fliehen, flieht, floh, ist geflohen",
+   "level": "B1",
+   "gloss": "to flee, to escape"
+  },
+  {
+   "id": "W0836",
+   "entry": "die Flucht",
+   "level": "B1",
+   "gloss": "escape, flight (fleeing)"
+  },
+  {
+   "id": "W0944",
+   "entry": "das Gefängnis, -se",
+   "level": "B1",
+   "gloss": "prison"
+  },
+  {
+   "id": "W0966",
+   "entry": "die Gemeinschaft, -en",
+   "level": "B1",
+   "gloss": "community"
+  },
+  {
+   "id": "W0980",
+   "entry": "gerecht",
+   "level": "B1",
+   "gloss": "fair, just"
+  },
+  {
+   "id": "W0997",
+   "entry": "das Gesetz, -e",
+   "level": "B1",
+   "gloss": "law"
+  },
+  {
+   "id": "W1005",
+   "entry": "die Gewalt, -en",
+   "level": "B1",
+   "gloss": "violence, force"
+  },
+  {
+   "id": "W1015",
+   "entry": "gewöhnlich",
+   "level": "B1",
+   "gloss": "usually; ordinary"
+  },
+  {
+   "id": "W1042",
+   "entry": "die Grenze, -n",
+   "level": "B1",
+   "gloss": "border"
+  },
+  {
+   "id": "W1084",
+   "entry": "der Handel",
+   "level": "B1",
+   "gloss": "trade, dealing"
+  },
+  {
+   "id": "W1120",
+   "entry": "heraus-, raus- (heraus-) finden, findet",
+   "level": "B1",
+   "gloss": "to find out"
+  },
+  {
+   "id": "W1144",
+   "entry": "hinterher",
+   "level": "B1",
+   "gloss": "afterwards"
+  },
+  {
+   "id": "W1179",
+   "entry": "ideal",
+   "level": "B1",
+   "gloss": "ideal, perfect"
+  },
+  {
+   "id": "W1181",
+   "entry": "illegal",
+   "level": "B1",
+   "gloss": "illegal"
+  },
+  {
+   "id": "W1196",
+   "entry": "inner-",
+   "level": "B1",
+   "gloss": "inner, inside"
+  },
+  {
+   "id": "W1383",
+   "entry": "Kriminal- / die Kriminalpolizei",
+   "level": "B1",
+   "gloss": "criminal police, detectives"
+  },
+  {
+   "id": "W1534",
+   "entry": "die Mauer, -n",
+   "level": "B1",
+   "gloss": "wall"
+  },
+  {
+   "id": "W1544",
+   "entry": "die Mehrheit, -en",
+   "level": "B1",
+   "gloss": "majority"
+  },
+  {
+   "id": "W1588",
+   "entry": "mitten",
+   "level": "B1",
+   "gloss": "in the middle of"
+  },
+  {
+   "id": "W1685",
+   "entry": "nirgendwo",
+   "level": "B1",
+   "gloss": "nowhere"
+  },
+  {
+   "id": "W1709",
+   "entry": "ober-",
+   "level": "B1",
+   "gloss": "upper, top"
+  },
+  {
+   "id": "W1716",
+   "entry": "öffentlich",
+   "level": "B1",
+   "gloss": "public"
+  },
+  {
+   "id": "W1717",
+   "entry": "die Öffentlichkeit",
+   "level": "B1",
+   "gloss": "general public"
+  },
+  {
+   "id": "W1733",
+   "entry": "das Opfer, -",
+   "level": "B1",
+   "gloss": "victim"
+  },
+  {
+   "id": "W1744",
+   "entry": "die Organisation, -en",
+   "level": "B1",
+   "gloss": "organization"
+  },
+  {
+   "id": "W1813",
+   "entry": "der Polizist, -en die Polizistin, -nen",
+   "level": "B1",
+   "gloss": "police officer"
+  },
+  {
+   "id": "W1852",
+   "entry": "der Prozess, -e",
+   "level": "B1",
+   "gloss": "trial (in court)"
+  },
+  {
+   "id": "W1907",
+   "entry": "die Regel, -n",
+   "level": "B1",
+   "gloss": "rule"
+  },
+  {
+   "id": "W1908",
+   "entry": "regelmäßig",
+   "level": "B1",
+   "gloss": "regularly"
+  },
+  {
+   "id": "W1948",
+   "entry": "der Richter, - die Richterin, -nen",
+   "level": "B1",
+   "gloss": "judge"
+  },
+  {
+   "id": "W2018",
+   "entry": "schieben, schiebt, schob, hat geschoben",
+   "level": "B1",
+   "gloss": "to push"
+  },
+  {
+   "id": "W2066",
+   "entry": "die Schuld",
+   "level": "B1",
+   "gloss": "fault, guilt"
+  },
+  {
+   "id": "W2069",
+   "entry": "schuldig",
+   "level": "B1",
+   "gloss": "guilty"
+  },
+  {
+   "id": "W2220",
+   "entry": "die Statistik, -en",
+   "level": "B1",
+   "gloss": "statistics"
+  },
+  {
+   "id": "W2221",
+   "entry": "statistisch",
+   "level": "B1",
+   "gloss": "statistically"
+  },
+  {
+   "id": "W2233",
+   "entry": "stehlen, stiehlt, stahl, hat gestohlen",
+   "level": "B1",
+   "gloss": "to steal"
+  },
+  {
+   "id": "W2263",
+   "entry": "die Strafe, -n",
+   "level": "B1",
+   "gloss": "punishment, sentence"
+  },
+  {
+   "id": "W2264",
+   "entry": "strafbar",
+   "level": "B1",
+   "gloss": "punishable (by law)"
+  },
+  {
+   "id": "W2323",
+   "entry": "die Tat, -en",
+   "level": "B1",
+   "gloss": "act, deed (crime)"
+  },
+  {
+   "id": "W2324",
+   "entry": "der Täter, - die Täterin, -nen",
+   "level": "B1",
+   "gloss": "offender, culprit"
+  },
+  {
+   "id": "W2382",
+   "entry": "der Tote, -n",
+   "level": "B1",
+   "gloss": "dead man, dead person"
+  },
+  {
+   "id": "W2383",
+   "entry": "die Tote, -n",
+   "level": "B1",
+   "gloss": "dead woman"
+  },
+  {
+   "id": "W2521",
+   "entry": "das Urteil, -e",
+   "level": "B1",
+   "gloss": "verdict, sentence"
+  },
+  {
+   "id": "W2542",
+   "entry": "der Verbrecher, - die Verbrecherin, -nen",
+   "level": "B1",
+   "gloss": "criminal"
+  },
+  {
+   "id": "W2545",
+   "entry": "der Verdacht",
+   "level": "B1",
+   "gloss": "suspicion"
+  },
+  {
+   "id": "W2546",
+   "entry": "verdächtig",
+   "level": "B1",
+   "gloss": "suspicious"
+  },
+  {
+   "id": "W2550",
+   "entry": "die Vergangenheit",
+   "level": "B1",
+   "gloss": "past"
+  },
+  {
+   "id": "W2559",
+   "entry": "verhaften, verhaftet, verhaftete, hat verhaftet",
+   "level": "B1",
+   "gloss": "to arrest"
+  },
+  {
+   "id": "W2594",
+   "entry": "verraten, verrät, verriet, hat verraten",
+   "level": "B1",
+   "gloss": "to give away, to betray"
+  },
+  {
+   "id": "W2621",
+   "entry": "verurteilen, verurteilt, verurteilte, hat verurteilt",
+   "level": "B1",
+   "gloss": "to sentence, to convict"
+  },
+  {
+   "id": "W2726",
+   "entry": "weltweit",
+   "level": "B1",
+   "gloss": "worldwide"
+  },
+  {
+   "id": "W2803",
+   "entry": "die Anzahl, -en",
+   "level": "B1",
+   "gloss": "number, amount"
+  },
+  {
+   "id": "W2826",
+   "entry": "zerstören, zerstört, zerstörte, hat zerstört",
+   "level": "B1",
+   "gloss": "to destroy"
+  },
+  {
+   "id": "W2830",
+   "entry": "der Zeuge, -n die Zeugin, -nen",
+   "level": "B1",
+   "gloss": "witness"
+  },
+  {
+   "id": "W2859",
+   "entry": "zukünftig",
+   "level": "B1",
+   "gloss": "from now on, in the future"
+  },
+  {
+   "id": "W2875",
+   "entry": "zusätzlich",
+   "level": "B1",
+   "gloss": "in addition"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2572",
+   "entry": "verlassen, verlässt, verließ, hat verlassen",
+   "level": "B1",
+   "gloss": "to leave"
+  },
+  {
+   "id": "W0982",
+   "entry": "gering",
+   "level": "B1",
+   "gloss": "low, small"
+  },
+  {
+   "id": "G321",
+   "entry": "tagsüber",
+   "level": "B1",
+   "gloss": "during the day"
+  },
+  {
+   "id": "G019",
+   "entry": "usw. (und so weiter)",
+   "level": "A2",
+   "gloss": "etc., and so on"
+  },
+  {
+   "id": "W2455",
+   "entry": "übrig",
+   "level": "B1",
+   "gloss": "left (over)"
+  },
+  {
+   "id": "W1025",
+   "entry": "gleich",
+   "level": "A1",
+   "gloss": "right away, in a minute; same, equal; right (next to)"
+  },
+  {
+   "id": "W2202",
+   "entry": "die Sprechstunde, -n A:→ Ordination",
+   "level": "B1",
+   "gloss": "office hours (doctor's)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X002",
+   "word": "ermitteln",
+   "gloss": "to find out, determine; (police) to investigate",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R011",
+   "word": "die Geldbörse, -n",
+   "gloss": "wallet",
+   "kind": "austrian",
+   "de": "das Portemonnaie"
+  },
+  {
+   "id": "R029",
+   "word": "die Stiege, -n",
+   "gloss": "stairs",
+   "kind": "austrian",
+   "de": "die Treppe"
+  },
+  {
+   "id": "R030",
+   "word": "das Stiegenhaus, -häuser",
+   "gloss": "stairwell",
+   "kind": "austrian",
+   "de": "das Treppenhaus"
+  },
+  {
+   "id": "R031",
+   "word": "die Zünder (Pl.)",
+   "gloss": "matches",
+   "kind": "austrian",
+   "de": "die Streichhölzer"
+  }
+ ],
+ "story_opening": "Mitten in der Nacht wacht Lena plötzlich auf. Gewöhnlich schläft sie tief, aber jetzt hört sie Lärm unten im Hof. Es ist drei Uhr. Sie geht in die Küche und sieht aus dem Fenster. Von hier oben, aus dem obersten Stock, sieht sie den ganzen Hof. Unten steht ein Mann mit einer großen Tasche. Er schiebt eine Mülltonne an die Mauer, steigt darauf und klettert über die Mauer. Dann ist es wieder still. Lena ist sehr müde. Hat sie das vielleicht nur geträumt? Sie geht zurück ins Bett.\n\nAm Samstagmorgen klopft Herr Braun, der Hausmeister, an ihre Tür. Er ist ganz blass. „Bei Frau Krüger ist jemand eingebrochen!“\n\nLena läuft mit ihm nach unten. Frau Krüger ist 78 und wohnt im Erdgeschoss, aber übers "
+}

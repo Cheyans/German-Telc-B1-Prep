@@ -1,0 +1,74 @@
+{
+ "story": "27",
+ "questions": [
+  {
+   "q": "Wie findet Mateo das Thema Politik?",
+   "right": "Zuerst hat er sich davor gefürchtet, jetzt mag er es.",
+   "wrong": [
+    "Er hat noch immer Angst vor den langen deutschen Wörtern.",
+    "Er versteht die Erklärungen seiner Lehrerin kaum."
+   ],
+   "evidence": "Anfangs hatte Mateo Angst davor, weil die deutschen Wörter so lang sind. Inzwischen macht ihm das Thema sogar Spaß. Seine Lehrerin an der Volkshochschule, Frau Neumann, erklärt nämlich alles sehr verständlich.",
+   "why": "Anfangs means at first: he was afraid of the long words, but now he even enjoys the topic. His teacher explains everything clearly (verständlich).",
+   "words": [
+    "W0080",
+    "W2608"
+   ]
+  },
+  {
+   "q": "Warum hört Mateo im Unterricht plötzlich kaum noch zu?",
+   "right": "Er freut sich, weil er bei der Bürgermeisterwahl mitmachen darf.",
+   "wrong": [
+    "Er ist müde, weil die Stunde schon sehr lange dauert.",
+    "Er ärgert sich, weil er gar nicht wählen darf."
+   ],
+   "evidence": "Mateo hört kaum noch zu. Er darf den Bürgermeister wählen!",
+   "why": "Mateo barely listens (kaum) because he is excited: as an EU citizen he may vote for the mayor. He cannot vote for the Bundestag, but he can vote locally.",
+   "words": [
+    "G192"
+   ]
+  },
+  {
+   "q": "Was ist für Olena das Wichtigste?",
+   "right": "Dass es keinen Krieg mehr gibt.",
+   "wrong": [
+    "Dass sie ihre Meinung frei sagen darf.",
+    "Dass ihre Tochter in Leipzig studieren kann."
+   ],
+   "evidence": "„Für mich ist Frieden das Wichtigste“, sagt sie leise. „Freiheit ist wichtig, aber ohne Frieden hat man nichts.“",
+   "why": "Olena fled the Krieg (war) in 2022. For her, Frieden (peace) matters most: freedom is important, but without peace you have nothing.",
+   "words": [
+    "W0882",
+    "W1381"
+   ]
+  },
+  {
+   "q": "Was antwortet Frau Berger auf Mateos Frage zu den Mieten?",
+   "right": "Die Stadt soll mehr eigene, günstige Wohnungen haben.",
+   "wrong": [
+    "Die Stadt soll ihre Wohnungen lieber an Firmen verkaufen.",
+    "Die Mieten in städtischen Wohnungen sollen steigen."
+   ],
+   "evidence": "„Das ist eine wichtige soziale Frage“, antwortet Frau Berger. „Wir brauchen mehr städtische Wohnungen. Diese Wohnungen gehören der Stadt, und die Mieten sind dort niedriger.“",
+   "why": "Städtische Wohnungen belong to the city and have lower rents, and she wants more of them. Selling them or raising their rents is the opposite of what she says.",
+   "words": [
+    "W2210",
+    "W2169"
+   ]
+  },
+  {
+   "q": "Was erfährt man am Abend nach der Wahl?",
+   "right": "Frau Berger hat mehr als die Hälfte der Stimmen.",
+   "wrong": [
+    "Herr Kraus hat die Wahl mit 52 Prozent gewonnen.",
+    "Lena erfährt von Mateo, wen er gewählt hat."
+   ],
+   "evidence": "Am Abend sehen Mateo und Lena das Ergebnis im Internet. Frau Berger hat 52 Prozent der Stimmen und damit die Mehrheit. Und wen hat Mateo gewählt? „Das sage ich nicht“, lacht er. „Die Wahl ist geheim.“",
+   "why": "52 Prozent is more than half, so Frau Berger has the majority (Mehrheit). Mateo does not say whom he voted for, because the vote is secret.",
+   "words": [
+    "G241",
+    "W1544"
+   ]
+  }
+ ]
+}

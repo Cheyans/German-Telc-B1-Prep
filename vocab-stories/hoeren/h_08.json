@@ -1,0 +1,258 @@
+{
+ "audio": "08",
+ "mt": 2,
+ "teil": 2,
+ "page": 64,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Stadtführer in Berlin (1. Hälfte)",
+   "from": "01:51",
+   "to": "04:34",
+   "intro": "Sie hören ein Radiogespräch aus der Reihe „Berufe mal anders“ mit Pascal König, der in Berlin als Stadtführer arbeitet. Hören Sie bis etwa 4:34.",
+   "items": [
+    {
+     "s": "Herr König ist nicht in Berlin aufgewachsen.",
+     "a": false,
+     "at": "02:30",
+     "ev": "Ich male am liebsten Szenen aus meiner Heimatstadt Berlin.",
+     "why": "„meiner Heimatstadt Berlin“: Berlin is his hometown, the city he comes from.",
+     "trap": "negation",
+     "w": [
+      [
+       "die Heimatstadt",
+       "hometown"
+      ],
+      [
+       "die Saison",
+       "season"
+      ]
+     ]
+    },
+    {
+     "s": "Zurzeit arbeitet Herr König jede Woche an den gleichen Tagen.",
+     "a": true,
+     "at": "03:04",
+     "ev": "Momentan ist das bei mir immer an denselben Tagen in der Woche",
+     "why": "The interviewer asks if the weather decides, but he says he is self-employed and sets his own times. Right now he works on the same days every week.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "selbstständig",
+       "self-employed"
+      ],
+      [
+       "festlegen",
+       "to set, to decide"
+      ],
+      [
+       "momentan",
+       "at the moment"
+      ]
+     ]
+    },
+    {
+     "s": "Herr König bietet seine Touren über eine Agentur an.",
+     "a": false,
+     "at": "03:12",
+     "ev": "Ich habe meine eigene Webseite … nicht so wie andere über eine Agentur",
+     "why": "He sells his tours on his own website. Other guides use an agency, but he says nicht so wie andere, so the last words you hear are the trap.",
+     "trap": "negation",
+     "w": [
+      [
+       "die Agentur",
+       "agency"
+      ],
+      [
+       "die Webseite",
+       "website"
+      ]
+     ]
+    },
+    {
+     "s": "Bei den Gästen sind die Streetart-Touren am beliebtesten.",
+     "a": false,
+     "at": "03:24",
+     "ev": "Am beliebtesten sind die Spaziergänge durch Berlin-Mitte.",
+     "why": "The walks through Berlin-Mitte are the most popular. The street art tours are the ones he enjoys most himself.",
+     "trap": "who",
+     "w": [
+      [
+       "beliebt",
+       "popular"
+      ],
+      [
+       "der Spaziergang",
+       "walk"
+      ]
+     ]
+    },
+    {
+     "s": "Bei Herrn König dauern die Touren durch Berlin-Mitte mindestens anderthalb Stunden.",
+     "a": true,
+     "at": "03:51",
+     "ev": "Deshalb biete ich dort nur Touren ab 90 Minuten an.",
+     "why": "Ab 90 Minuten means at least an hour and a half. He even says two hours would be better.",
+     "trap": "number",
+     "w": [
+      [
+       "einplanen",
+       "to allow time for, to plan for"
+      ],
+      [
+       "ab 90 Minuten",
+       "from 90 minutes up"
+      ]
+     ]
+    },
+    {
+     "s": "Am meisten Spaß machen Herrn König die Touren durch Kreuzberg.",
+     "a": true,
+     "at": "04:10",
+     "ev": "Am meisten Spaß machen mir die Streetart-Touren. Die gehen durch Kreuzberg.",
+     "why": "The street art tours are his favorite, and they go through Kreuzberg. So the Kreuzberg tours are the most fun for him.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Streetart",
+       "street art"
+      ],
+      [
+       "entdecken",
+       "to discover"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Stadtführer in Berlin (2. Hälfte)",
+   "from": "04:34",
+   "to": "07:03",
+   "intro": "Sie hören die zweite Hälfte des Gesprächs mit Pascal König. Hören Sie ab etwa 4:34 bis zum Ende des Gesprächs bei etwa 7:03.",
+   "items": [
+    {
+     "s": "Die normalen Touren bezahlt man schon vor der Führung im Internet.",
+     "a": true,
+     "at": "04:44",
+     "ev": "die Zahlung macht man dann auch vorher online",
+     "why": "You book on his website and pay online beforehand. Am Ende der Tour comes right after, but that is only about tips.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Zahlung",
+       "payment"
+      ],
+      [
+       "vorher",
+       "beforehand"
+      ]
+     ]
+    },
+    {
+     "s": "Herr König bekommt am Ende jeder Tour Trinkgeld.",
+     "a": false,
+     "at": "04:48",
+     "ev": "Manchmal geben die Leute aber am Ende der Tour auch noch Trinkgeld.",
+     "why": "People give a tip only sometimes (manchmal). Jeder turns sometimes into every time.",
+     "trap": "overstate",
+     "w": [
+      [
+       "das Trinkgeld",
+       "tip"
+      ],
+      [
+       "finanziell",
+       "financially"
+      ],
+      [
+       "eine nette Summe",
+       "a nice sum"
+      ]
+     ]
+    },
+    {
+     "s": "Bei Herrn König dürfen höchstens 20 Personen an einer normalen Tour teilnehmen.",
+     "a": true,
+     "at": "05:05",
+     "ev": "Diese normalen Gruppentouren habe ich auf 20 Personen beschränkt.",
+     "why": "He limits his normal group tours to 20 people. The 25 you hear next is what many colleagues take.",
+     "trap": "number",
+     "w": [
+      [
+       "beschränken auf",
+       "to limit to"
+      ],
+      [
+       "stressig",
+       "stressful"
+      ]
+     ]
+    },
+    {
+     "s": "Herr König macht nur Touren auf festen Strecken.",
+     "a": false,
+     "at": "05:43",
+     "ev": "Dann richte ich mich ganz nach den Wünschen der Gäste.",
+     "why": "Fixed tours are what you book on his website, but some groups write to him and want something else. Then he plans the tour around their wishes.",
+     "trap": "overstate",
+     "w": [
+      [
+       "sich richten nach",
+       "to go by, to adapt to"
+      ],
+      [
+       "die Strecke",
+       "route"
+      ],
+      [
+       "Wünsche äußern",
+       "to say what you would like"
+      ]
+     ]
+    },
+    {
+     "s": "Die meisten seiner Touren macht Herr König auf Deutsch.",
+     "a": false,
+     "at": "06:11",
+     "ev": "Touren auf Deutsch oder Englisch mache ich weniger.",
+     "why": "He grew up with two languages and specializes in tours in French. He does fewer tours in German or English, and weniger comes at the very end.",
+     "trap": "same-word",
+     "w": [
+      [
+       "zweisprachig aufwachsen",
+       "to grow up bilingual"
+      ],
+      [
+       "sich spezialisieren auf",
+       "to specialize in"
+      ],
+      [
+       "der Nachteil",
+       "disadvantage"
+      ]
+     ]
+    },
+    {
+     "s": "Manche Gäste benutzen bei seinen Touren eine App zum Übersetzen.",
+     "a": true,
+     "at": "06:46",
+     "ev": "mit irgendwelchen Übersetzungs-Apps alles übersetzen lassen",
+     "why": "Some people on his tours hardly understand him. „Sie können sich dann aber mit irgendwelchen Übersetzungs-Apps alles übersetzen lassen.“",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "der Anbieter, -",
+       "provider, company"
+      ],
+      [
+       "sich etwas übersetzen lassen",
+       "to have something translated"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

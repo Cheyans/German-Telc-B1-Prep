@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sprachbausteine Teil 2 — Karteikarten</title>
+<style>
+  :root{
+    --bg:#0f1220; --panel:#1a1f36; --panel2:#232a49; --text:#eef1ff; --muted:#9aa3c7;
+    --A:#ef5a6f; --B:#4b9bff; --C:#37c99e; --praep:#b48cff; --adv:#f2b24a; --kii:#33c2c2; --w:#8a94b8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:16px}
+  h1{font-size:1.1rem;margin:4px 0 2px;text-align:center}
+  .sub{color:var(--muted);font-size:.8rem;margin-bottom:14px;text-align:center}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:640px;margin-bottom:14px}
+  select,button{font-size:.85rem;border-radius:10px;border:1px solid #33406e;background:var(--panel2);color:var(--text);
+       padding:8px 12px;cursor:pointer}
+  button:active{transform:translateY(1px)}
+  button.on{background:#3550a8;border-color:#4b9bff}
+  .chk{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:.82rem}
+  .card{width:min(640px,94vw);min-height:300px;background:var(--panel);border-radius:20px;
+        box-shadow:0 12px 40px rgba(0,0,0,.4);display:flex;flex-direction:column;justify-content:center;align-items:center;
+        padding:28px;text-align:center;cursor:pointer;user-select:none;position:relative;border:1px solid #2a3358}
+  .badge{position:absolute;top:14px;left:14px;font-size:.68rem;font-weight:700;padding:4px 10px;border-radius:999px;
+        letter-spacing:.02em;text-transform:uppercase;color:#0d0f1a}
+  .catlabel{position:absolute;top:14px;right:14px;font-size:.68rem;color:var(--muted)}
+  .front{font-size:2.2rem;font-weight:800;line-height:1.15}
+  .hint{color:var(--muted);font-size:.8rem;margin-top:18px}
+  .back{display:none;width:100%}
+  .card.flipped .front{font-size:1.7rem;opacity:.55;margin-bottom:6px}
+  .card.flipped .back{display:block}
+  .answer{font-size:1.7rem;font-weight:800;margin:6px 0}
+  .note{font-size:.9rem;font-weight:600;margin:8px auto;padding:6px 12px;border-radius:10px;display:inline-block}
+  .ex{color:var(--muted);font-size:.92rem;font-style:italic;margin-top:10px}
+  .nav{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;justify-content:center}
+  .nav button{min-width:96px}
+  .known{background:#1f6b4d;border-color:#37c99e}
+  .again{background:#7a2233;border-color:#ef5a6f}
+  .progress{color:var(--muted);font-size:.85rem;margin-top:12px}
+  .kbd{font-family:monospace;background:#2a3358;border-radius:5px;padding:1px 5px;font-size:.75rem}
+</style>
+</head>
+<body>
+  <h1>🇩🇪 Sprachbausteine Teil 2 — Karteikarten</h1>
+  <div class="sub">Konnektoren · Präpositionen · Adverbien · Konjunktiv II · W-Wörter &nbsp;|&nbsp; Cheyan · telc B1</div>
+
+  <div class="controls">
+    <button id="modeBtn" title="Richtung wechseln">Modus: DE → Bedeutung</button>
+    <select id="cat">
+      <option value="all">Alle Kategorien</option>
+      <option value="konnektor">Nur Konnektoren</option>
+      <option value="korrelat">Zweiteilige Konnektoren</option>
+      <option value="praep">Nur Präpositionen</option>
+      <option value="adverb">Nur Adverbien</option>
+      <option value="kii">Konjunktiv II</option>
+      <option value="w">W-Wörter</option>
+    </select>
+    <button id="shuffle">🔀 Mischen</button>
+    <label class="chk"><input type="checkbox" id="onlyUnknown"> nur unbekannte</label>
+    <button id="reset" title="Fortschritt löschen">↺ Reset</button>
+  </div>
+
+  <div class="card" id="card">
+    <span class="badge" id="badge"></span>
+    <span class="catlabel" id="catlabel"></span>
+    <div class="front" id="front"></div>
+    <div class="back" id="back">
+      <div class="answer" id="answer"></div>
+      <span class="note" id="noteEl"></span>
+      <div class="ex" id="ex"></div>
+    </div>
+    <div class="hint" id="hint">Tippen / <span class="kbd">Leertaste</span> zum Umdrehen</div>
+  </div>
+
+  <div class="nav">
+    <button id="prev">← Zurück</button>
+    <button id="again" class="again">↻ Nochmal (a)</button>
+    <button id="knownBtn" class="known">✓ Kann ich (k)</button>
+    <button id="next">Weiter → (n)</button>
+  </div>
+  <div class="progress" id="progress"></div>
+
+<script>
+const CARDS = [
+  // ---- KONNEKTOREN: Grund ----
+  {de:"weil", en:"because", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende", ex:"Ich bleibe zu Hause, weil ich müde bin."},
+  {de:"da", en:"since / as (Grund)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende", ex:"Da es regnet, bleibe ich zu Hause."},
+  {de:"denn", en:"because / for", cat:"konnektor", t:"B", note:"ADUSO · normale Stellung (Subjekt, Verb)", ex:"Ich bleibe zu Hause, denn ich bin müde."},
+  // ---- Folge ----
+  {de:"deshalb", en:"therefore / that's why", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)", ex:"Ich bin müde, deshalb bleibe ich zu Hause."},
+  {de:"deswegen", en:"therefore / because of that", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)", ex:"Es regnet, deswegen bleibe ich zu Hause."},
+  {de:"darum", en:"that's why", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"daher", en:"hence / therefore", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"somit", en:"thus / hence (formal)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"folglich", en:"consequently (formal)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"infolgedessen", en:"as a result (formal)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"also", en:"so / therefore (spoken)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  // ---- Gegensatz ----
+  {de:"aber", en:"but", cat:"konnektor", t:"B", note:"ADUSO · normale Stellung", ex:"Ich bin müde, aber ich arbeite weiter."},
+  {de:"sondern", en:"but rather (nach Verneinung)", cat:"konnektor", t:"B", note:"ADUSO · nur nach 'nicht/kein'", ex:"Nicht heute, sondern morgen."},
+  {de:"obwohl", en:"although / even though", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende", ex:"Ich arbeite, obwohl ich müde bin."},
+  {de:"trotzdem", en:"nevertheless / anyway", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)", ex:"Ich bin müde, trotzdem arbeite ich."},
+  {de:"dennoch", en:"nonetheless (formal)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"jedoch", en:"however (formal)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"allerdings", en:"however / mind you", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"hingegen", en:"on the other hand / by contrast", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  // ---- Addition ----
+  {de:"und", en:"and", cat:"konnektor", t:"B", note:"ADUSO · normale Stellung"},
+  {de:"außerdem", en:"besides / in addition", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)", ex:"Es ist teuer. Außerdem habe ich keine Zeit."},
+  {de:"zudem", en:"moreover (formal)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"obendrein", en:"on top of that", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"darüber hinaus", en:"furthermore (formal)", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"ebenfalls", en:"likewise / also", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"ebenso", en:"just as / equally", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  // ---- Bedingung ----
+  {de:"wenn", en:"if / when(ever)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende", ex:"Wenn du Zeit hast, ruf mich an."},
+  {de:"falls", en:"in case", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  {de:"sofern", en:"provided that (formal)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  // ---- Zeit ----
+  {de:"als", en:"when (single past event)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende · ⚠️ vs wenn", ex:"Als ich klein war, wohnte ich in Wien."},
+  {de:"nachdem", en:"after", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende (davor Plusquamperfekt)"},
+  {de:"bevor", en:"before", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  {de:"bis", en:"until", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  {de:"sobald", en:"as soon as", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  {de:"solange", en:"as long as", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  {de:"seitdem", en:"since (temporal)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  {de:"während", en:"while / whereas", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende (auch Präp. +Gen = during)"},
+  {de:"inzwischen", en:"meanwhile / by now", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"mittlerweile", en:"meanwhile / by now", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  // ---- Zweck / Art ----
+  {de:"damit", en:"so that (purpose)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende (anderes Subjekt)", ex:"Ich spare, damit ich reisen kann."},
+  {de:"um … zu", en:"in order to (same subject)", cat:"konnektor", t:"INF", note:"+ Infinitiv (um … zu + Inf.)", ex:"Ich lerne, um die Prüfung zu bestehen."},
+  {de:"sodass", en:"so that (result)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende"},
+  {de:"indem", en:"by (doing sth) — means", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende", ex:"Er spart, indem er zu Fuß geht."},
+  // ---- Aussage / Frage ----
+  {de:"dass", en:"that", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende", ex:"Ich hoffe, dass du kommst."},
+  {de:"ob", en:"whether / if (indirekte Frage)", cat:"konnektor", t:"A", note:"Nebensatz · Verb ans Ende", ex:"Ich weiß nicht, ob er kommt."},
+  // ---- Alternative ----
+  {de:"oder", en:"or", cat:"konnektor", t:"B", note:"ADUSO · normale Stellung"},
+  {de:"sonst", en:"otherwise / or else", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  {de:"ansonsten", en:"otherwise", cat:"konnektor", t:"C", note:"Adverb · Inversion (FLIP)"},
+  // ---- Korrelate ----
+  {de:"zwar … aber", en:"admittedly … but", cat:"korrelat", t:"KOR", note:"zweiteiliger Konnektor"},
+  {de:"entweder … oder", en:"either … or", cat:"korrelat", t:"KOR", note:"zweiteiliger Konnektor"},
+  {de:"weder … noch", en:"neither … nor", cat:"korrelat", t:"KOR", note:"zweiteiliger Konnektor"},
+  {de:"sowohl … als auch", en:"both … and", cat:"korrelat", t:"KOR", note:"zweiteiliger Konnektor"},
+  {de:"nicht nur … sondern auch", en:"not only … but also", cat:"korrelat", t:"KOR", note:"zweiteiliger Konnektor"},
+  {de:"je … desto", en:"the … the (+ Komparativ)", cat:"korrelat", t:"KOR", note:"zweiteiliger Konnektor"},
+  // ---- Präpositionen ----
+  {de:"für", en:"for", cat:"praep", t:"AKK", note:"Präposition · + Akkusativ"},
+  {de:"um", en:"at / around (Zeit); um … zu", cat:"praep", t:"AKK", note:"Präposition · + Akkusativ"},
+  {de:"gegen", en:"against; around (ca.)", cat:"praep", t:"AKK", note:"Präposition · + Akkusativ"},
+  {de:"ohne", en:"without", cat:"praep", t:"AKK", note:"Präposition · + Akkusativ"},
+  {de:"durch", en:"through / by means of", cat:"praep", t:"AKK", note:"Präposition · + Akkusativ"},
+  {de:"mit", en:"with / by (transport)", cat:"praep", t:"DAT", note:"Präposition · + Dativ"},
+  {de:"von", en:"from / of / by", cat:"praep", t:"DAT", note:"Präposition · + Dativ"},
+  {de:"bei", en:"at / at sb's place / at a company", cat:"praep", t:"DAT", note:"Präposition · + Dativ", ex:"bei Ihrem Shop bestellt"},
+  {de:"seit", en:"since / for (time up to now)", cat:"praep", t:"DAT", note:"Präposition · + Dativ"},
+  {de:"ab", en:"from (starting point)", cat:"praep", t:"DAT", note:"Präposition · + Dativ", ex:"ab Montag"},
+  {de:"aus", en:"out of / from / made of", cat:"praep", t:"DAT", note:"Präposition · + Dativ"},
+  {de:"nach", en:"to / after / according to", cat:"praep", t:"DAT", note:"Präposition · + Dativ"},
+  {de:"zu", en:"to (people / events)", cat:"praep", t:"DAT", note:"Präposition · + Dativ"},
+  {de:"laut", en:"according to", cat:"praep", t:"DAT", note:"Präposition · + Dativ/Gen", ex:"laut dem Bericht"},
+  {de:"gemäß", en:"according to / in accordance with", cat:"praep", t:"DAT", note:"Präposition · + Dativ"},
+  {de:"über", en:"about / over", cat:"praep", t:"WEX", note:"Wechselpräp. · wo?→Dat / wohin?→Akk"},
+  {de:"unter", en:"under / among", cat:"praep", t:"WEX", note:"Wechselpräp. · wo?→Dat / wohin?→Akk"},
+  {de:"zwischen", en:"between", cat:"praep", t:"WEX", note:"Wechselpräp. · wo?→Dat / wohin?→Akk"},
+  {de:"an", en:"at / on (vertical)", cat:"praep", t:"WEX", note:"Wechselpräp. · wo?→Dat / wohin?→Akk"},
+  {de:"auf", en:"on (horizontal)", cat:"praep", t:"WEX", note:"Wechselpräp. · wo?→Dat / wohin?→Akk"},
+  {de:"in", en:"in / into", cat:"praep", t:"WEX", note:"Wechselpräp. · wo?→Dat / wohin?→Akk"},
+  {de:"vor", en:"before / in front of / ago", cat:"praep", t:"WEX", note:"Wechselpräp. · wo?→Dat / wohin?→Akk"},
+  {de:"statt / anstatt", en:"instead of", cat:"praep", t:"GEN", note:"Präposition · + Genitiv"},
+  {de:"trotz", en:"despite", cat:"praep", t:"GEN", note:"Präposition · + Genitiv"},
+  {de:"wegen", en:"because of", cat:"praep", t:"GEN", note:"Präposition · + Genitiv"},
+  {de:"aufgrund", en:"due to / on the basis of", cat:"praep", t:"GEN", note:"Präposition · + Genitiv"},
+  {de:"innerhalb", en:"within", cat:"praep", t:"GEN", note:"Präposition · + Genitiv"},
+  {de:"außerhalb", en:"outside of", cat:"praep", t:"GEN", note:"Präposition · + Genitiv"},
+  // ---- Adverbien: Zeit ----
+  {de:"bereits / schon", en:"already", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"erst", en:"only / not until", cat:"adverb", t:"ADV", note:"Adverb · Zeit", ex:"erst um 18 Uhr = not until 6"},
+  {de:"sofort", en:"immediately / at once", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"umgehend", en:"immediately (formal)", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"unverzüglich", en:"without delay (formal)", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"rechtzeitig", en:"in time / on time", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"fristgerecht", en:"by the deadline", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"zuerst", en:"(at) first", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"erneut", en:"again / anew", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"damals", en:"back then", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"lange", en:"for a long time", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"täglich", en:"daily", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"ganztägig", en:"all-day", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  // ---- Adverbien: Grad / Modal ----
+  {de:"sehr", en:"very", cat:"adverb", t:"ADV", note:"Adverb · Grad"},
+  {de:"besonders", en:"especially", cat:"adverb", t:"ADV", note:"Adverb · Grad"},
+  {de:"äußerst", en:"extremely", cat:"adverb", t:"ADV", note:"Adverb · Grad"},
+  {de:"ziemlich", en:"quite / fairly", cat:"adverb", t:"ADV", note:"Adverb · Grad"},
+  {de:"kaum", en:"hardly / barely", cat:"adverb", t:"ADV", note:"Adverb · Grad"},
+  {de:"nur", en:"only", cat:"adverb", t:"ADV", note:"Adverb · Grad/Fokus"},
+  {de:"wohl", en:"probably (Vermutung)", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"sicherlich", en:"surely / certainly", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"selbstverständlich", en:"of course / naturally", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"natürlich", en:"of course", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"wahrscheinlich", en:"probably", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"eigentlich", en:"actually", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"vielleicht", en:"maybe / perhaps", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"gerne", en:"gladly", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"leider", en:"unfortunately", cat:"adverb", t:"ADV", note:"Adverb · Modal"},
+  {de:"mehrfach", en:"repeatedly / several times", cat:"adverb", t:"ADV", note:"Adverb · Zeit"},
+  {de:"kurz", en:"briefly / short", cat:"adverb", t:"ADV", note:"Adverb"},
+  {de:"dringend", en:"urgently", cat:"adverb", t:"ADV", note:"Adverb / Adjektiv"},
+  {de:"herzlich", en:"warmly / cordially", cat:"adverb", t:"ADV", note:"Adverb (herzlichen Dank)"},
+  // ---- Konjunktiv II ----
+  {de:"würde", en:"would", cat:"kii", t:"KII", note:"Konjunktiv II (Höflichkeit)"},
+  {de:"könnte", en:"could", cat:"kii", t:"KII", note:"Konjunktiv II (Höflichkeit)"},
+  {de:"müsste", en:"would have to", cat:"kii", t:"KII", note:"Konjunktiv II"},
+  {de:"hätte", en:"would have", cat:"kii", t:"KII", note:"Konjunktiv II"},
+  {de:"wäre", en:"would be", cat:"kii", t:"KII", note:"Konjunktiv II"},
+  {de:"sollte", en:"should", cat:"kii", t:"KII", note:"Konjunktiv II"},
+  {de:"dürfte", en:"might / would be allowed", cat:"kii", t:"KII", note:"Konjunktiv II"},
+  {de:"möchte", en:"would like", cat:"kii", t:"KII", note:"Konjunktiv II"},
+  // ---- W-Wörter ----
+  {de:"wann", en:"when", cat:"w", t:"W", note:"W-Wort (Frage/Relativ)"},
+  {de:"wie", en:"how", cat:"w", t:"W", note:"W-Wort"},
+  {de:"wo", en:"where", cat:"w", t:"W", note:"W-Wort"},
+  {de:"wohin", en:"where to", cat:"w", t:"W", note:"W-Wort"},
+  {de:"woher", en:"where from", cat:"w", t:"W", note:"W-Wort"},
+  {de:"was", en:"what", cat:"w", t:"W", note:"W-Wort"},
+  {de:"welche(r)", en:"which", cat:"w", t:"W", note:"W-Wort"},
+  {de:"warum / weshalb / wieso", en:"why", cat:"w", t:"W", note:"W-Wort"},
+  {de:"wonach", en:"after what / according to which", cat:"w", t:"W", note:"W-Wort"},
+  {de:"inwiefern", en:"in what way / to what extent", cat:"w", t:"W", note:"W-Wort"}
+];
+
+const COLORS={A:"var(--A)",B:"var(--B)",C:"var(--C)",INF:"var(--C)",KOR:"var(--w)",AKK:"var(--praep)",DAT:"var(--praep)",GEN:"var(--praep)",WEX:"var(--praep)",ADV:"var(--adv)",KII:"var(--kii)",W:"var(--w)"};
+const BADGE={A:"A · Verb ans Ende",B:"B · ADUSO",C:"C · FLIP",INF:"+ Infinitiv",KOR:"zweiteilig",AKK:"+ Akk",DAT:"+ Dat",GEN:"+ Gen",WEX:"Wechsel",ADV:"Adverb",KII:"Konj. II",W:"W-Wort"};
+const CATLABEL={konnektor:"Konnektor",korrelat:"Korrelat",praep:"Präposition",adverb:"Adverb",kii:"Konjunktiv II",w:"W-Wort"};
+
+let deck=[], idx=0, flipped=false, mode="de"; // mode: "de" = DE->meaning, "en" = meaning->DE
+const known=JSON.parse(localStorage.getItem("sb2_known")||"{}");
+const saveKnown=()=>localStorage.setItem("sb2_known",JSON.stringify(known));
+
+const $=id=>document.getElementById(id);
+function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+
+function buildDeck(){
+  const cat=$("cat").value;
+  const onlyUnknown=$("onlyUnknown").checked;
+  deck=CARDS.filter(c=>(cat==="all"||c.cat===cat)&&(!onlyUnknown||!known[c.de]));
+  if(deck.length===0){deck=CARDS.filter(c=>(cat==="all"||c.cat===cat));} // if all known, show all
+  idx=0;flipped=false;render();
+}
+function render(){
+  if(deck.length===0){$("front").textContent="—";return;}
+  const c=deck[idx];
+  const card=$("card");
+  card.classList.toggle("flipped",flipped);
+  $("badge").textContent=BADGE[c.t]||"";
+  $("badge").style.background=COLORS[c.t]||"#888";
+  $("catlabel").textContent=CATLABEL[c.cat]||"";
+  const isKnown=!!known[c.de];
+  if(mode==="de"){$("front").textContent=c.de;$("answer").textContent=c.en;}
+  else{$("front").textContent=c.en;$("answer").textContent=c.de;}
+  $("noteEl").textContent=c.note;
+  $("noteEl").style.background=(COLORS[c.t]||"#888");
+  $("noteEl").style.color="#0d0f1a";
+  $("ex").textContent=c.ex?("„"+c.ex+"”"):"";
+  $("hint").style.display=flipped?"none":"block";
+  $("progress").textContent=`Karte ${idx+1} / ${deck.length}  ·  gelernt: ${Object.keys(known).length} / ${CARDS.length}${isKnown?"  ·  ✓ diese Karte: kann ich":""}`;
+}
+function flip(){flipped=!flipped;render();}
+function next(){if(deck.length){idx=(idx+1)%deck.length;flipped=false;render();}}
+function prev(){if(deck.length){idx=(idx-1+deck.length)%deck.length;flipped=false;render();}}
+function markKnown(){if(!deck.length)return;known[deck[idx].de]=1;saveKnown();next();}
+function markAgain(){if(!deck.length)return;delete known[deck[idx].de];saveKnown();next();}
+
+$("card").addEventListener("click",flip);
+$("next").addEventListener("click",e=>{e.stopPropagation();next();});
+$("prev").addEventListener("click",e=>{e.stopPropagation();prev();});
+$("knownBtn").addEventListener("click",e=>{e.stopPropagation();markKnown();});
+$("again").addEventListener("click",e=>{e.stopPropagation();markAgain();});
+$("shuffle").addEventListener("click",()=>{shuffle(deck);idx=0;flipped=false;render();});
+$("cat").addEventListener("change",buildDeck);
+$("onlyUnknown").addEventListener("change",buildDeck);
+$("modeBtn").addEventListener("click",()=>{mode=(mode==="de"?"en":"de");$("modeBtn").textContent="Modus: "+(mode==="de"?"DE → Bedeutung":"Bedeutung → DE");flipped=false;render();});
+$("reset").addEventListener("click",()=>{if(confirm("Fortschritt (gelernte Karten) löschen?")){for(const k in known)delete known[k];saveKnown();render();}});
+document.addEventListener("keydown",e=>{
+  if(e.code==="Space"||e.code==="Enter"){e.preventDefault();flip();}
+  else if(e.key==="n"||e.key==="ArrowRight")next();
+  else if(e.key==="p"||e.key==="ArrowLeft")prev();
+  else if(e.key==="k")markKnown();
+  else if(e.key==="a")markAgain();
+});
+buildDeck();
+</script>
+</body>
+</html>

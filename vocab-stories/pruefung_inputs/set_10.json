@@ -1,0 +1,537 @@
+{
+ "set": "10",
+ "title": "Ärger mit dem Internet",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G002",
+   "entry": "der Akku, -s",
+   "level": "B1",
+   "gloss": "(rechargeable) battery"
+  },
+  {
+   "id": "G006",
+   "entry": "d. h. (das heißt)",
+   "level": "B1",
+   "gloss": "that is, i.e."
+  },
+  {
+   "id": "G035",
+   "entry": "der Chat, -s",
+   "level": "B1",
+   "gloss": "chat"
+  },
+  {
+   "id": "G036",
+   "entry": "chatten",
+   "level": "A2",
+   "gloss": "to chat (online)"
+  },
+  {
+   "id": "G037",
+   "entry": "checken",
+   "level": "B1",
+   "gloss": "to check"
+  },
+  {
+   "id": "G038",
+   "entry": "der Chip, -s",
+   "level": "B1",
+   "gloss": "(computer) chip"
+  },
+  {
+   "id": "G048",
+   "entry": "das Fax, -e",
+   "level": "A1",
+   "gloss": "fax"
+  },
+  {
+   "id": "G049",
+   "entry": "faxen",
+   "level": "B1",
+   "gloss": "to fax"
+  },
+  {
+   "id": "G054",
+   "entry": "googeln",
+   "level": "B1",
+   "gloss": "to google"
+  },
+  {
+   "id": "G066",
+   "entry": "der Link, -s",
+   "level": "A2",
+   "gloss": "link"
+  },
+  {
+   "id": "G069",
+   "entry": "die Mailbox, -en",
+   "level": "A2",
+   "gloss": "voicemail"
+  },
+  {
+   "id": "G070",
+   "entry": "mailen",
+   "level": "B1",
+   "gloss": "to email"
+  },
+  {
+   "id": "G083",
+   "entry": "die Software, -s",
+   "level": "B1",
+   "gloss": "software"
+  },
+  {
+   "id": "G087",
+   "entry": "surfen",
+   "level": "A2",
+   "gloss": "to surf (the internet)"
+  },
+  {
+   "id": "G096",
+   "entry": "der User, -",
+   "level": "B1",
+   "gloss": "user"
+  },
+  {
+   "id": "G334",
+   "entry": "die Mitternacht",
+   "level": "B1",
+   "gloss": "midnight"
+  },
+  {
+   "id": "W0003",
+   "entry": "die Abbildung, -en",
+   "level": "B1",
+   "gloss": "illustration, picture"
+  },
+  {
+   "id": "W0056",
+   "entry": "als ob",
+   "level": "B1",
+   "gloss": "as if"
+  },
+  {
+   "id": "W0094",
+   "entry": "die Anleitung, -en",
+   "level": "B1",
+   "gloss": "instructions, guide"
+  },
+  {
+   "id": "W0102",
+   "entry": "der Anrufbeantworter, -",
+   "level": "B1",
+   "gloss": "answering machine"
+  },
+  {
+   "id": "W0105",
+   "entry": "anschließen, schließt an, schloss an, hat angeschlossen",
+   "level": "B1",
+   "gloss": "to connect, to plug in"
+  },
+  {
+   "id": "W0166",
+   "entry": "aufladen, lädt auf, lud auf, hat aufgeladen",
+   "level": "B1",
+   "gloss": "to charge (a battery)"
+  },
+  {
+   "id": "W0186",
+   "entry": "ausdrucken, druckt aus, druckte aus, hat ausgedruckt",
+   "level": "B1",
+   "gloss": "to print (out)"
+  },
+  {
+   "id": "W0276",
+   "entry": "die Bedienungsanleitung, -en",
+   "level": "B1",
+   "gloss": "user manual"
+  },
+  {
+   "id": "W0280",
+   "entry": "sich befinden, befindet sich, befand sich, hat sich befunden",
+   "level": "B1",
+   "gloss": "to be (located)"
+  },
+  {
+   "id": "W0295",
+   "entry": "behindern, behindert, behinderte, hat behindert",
+   "level": "B1",
+   "gloss": "to hinder, to obstruct"
+  },
+  {
+   "id": "W0341",
+   "entry": "beschränken",
+   "level": "B1",
+   "gloss": "to limit, to restrict"
+  },
+  {
+   "id": "W0387",
+   "entry": "der Bildschirm, -e",
+   "level": "B1",
+   "gloss": "screen"
+  },
+  {
+   "id": "W0482",
+   "entry": "danach",
+   "level": "B1",
+   "gloss": "afterwards, after that"
+  },
+  {
+   "id": "W0494",
+   "entry": "die Daten (Plural)",
+   "level": "B1",
+   "gloss": "data"
+  },
+  {
+   "id": "W0603",
+   "entry": "einfügen, fügt ein, fügte ein, hat eingefügt",
+   "level": "B1",
+   "gloss": "to paste, to insert"
+  },
+  {
+   "id": "W0621",
+   "entry": "einschalten, schaltet ein, schaltete ein, hat eingeschaltet",
+   "level": "B1",
+   "gloss": "to switch on, to turn on"
+  },
+  {
+   "id": "W0642",
+   "entry": "elektrisch",
+   "level": "B1",
+   "gloss": "electric, electrical"
+  },
+  {
+   "id": "W0643",
+   "entry": "Elektro-",
+   "level": "B1",
+   "gloss": "electrical (Elektrogeschäft: appliance store)"
+  },
+  {
+   "id": "W0644",
+   "entry": "elektronisch",
+   "level": "B1",
+   "gloss": "electronic"
+  },
+  {
+   "id": "W0735",
+   "entry": "erwarten, erwartet, erwartete, hat erwartet",
+   "level": "B1",
+   "gloss": "to expect"
+  },
+  {
+   "id": "W0805",
+   "entry": "die Festplatte, -n",
+   "level": "B1",
+   "gloss": "hard drive"
+  },
+  {
+   "id": "W0860",
+   "entry": "das Forum, Foren (Internetforum)",
+   "level": "B1",
+   "gloss": "(internet) forum"
+  },
+  {
+   "id": "W0902",
+   "entry": "funktionieren, funktioniert, funktionierte, hat funktioniert",
+   "level": "B1",
+   "gloss": "to work, to function"
+  },
+  {
+   "id": "W1041",
+   "entry": "greifen, greift, griff, hat gegriffen",
+   "level": "B1",
+   "gloss": "to reach (for), to grab"
+  },
+  {
+   "id": "W1119",
+   "entry": "her/her-",
+   "level": "A2",
+   "gloss": "here (toward the speaker)"
+  },
+  {
+   "id": "W1124",
+   "entry": "herein-, rein-",
+   "level": "A2",
+   "gloss": "in (toward the speaker)"
+  },
+  {
+   "id": "W1143",
+   "entry": "hinterlassen, hinterlässt, hinterließ, hat hinterlassen",
+   "level": "B1",
+   "gloss": "to leave (a message)"
+  },
+  {
+   "id": "W1152",
+   "entry": "hochladen, lädt hoch, lud hoch, hat hochgeladen",
+   "level": "B1",
+   "gloss": "to upload"
+  },
+  {
+   "id": "W1201",
+   "entry": "installieren, installiert, installierte, hat installiert",
+   "level": "B1",
+   "gloss": "to install"
+  },
+  {
+   "id": "W1242",
+   "entry": "das Kabel, -",
+   "level": "B1",
+   "gloss": "cable, cord"
+  },
+  {
+   "id": "W1305",
+   "entry": "klicken, klickt, klickte, hat geklickt",
+   "level": "B1",
+   "gloss": "to click"
+  },
+  {
+   "id": "W1306",
+   "entry": "der Klick, - s",
+   "level": "B1",
+   "gloss": "click"
+  },
+  {
+   "id": "W1437",
+   "entry": "das Laufwerk, -e",
+   "level": "B1",
+   "gloss": "(disk) drive"
+  },
+  {
+   "id": "W1499",
+   "entry": "löschen, löscht, löschte, hat gelöscht",
+   "level": "B1",
+   "gloss": "to delete"
+  },
+  {
+   "id": "W1535",
+   "entry": "maximal",
+   "level": "B1",
+   "gloss": "at most, maximum"
+  },
+  {
+   "id": "W1594",
+   "entry": "mobil/mobil-",
+   "level": "A2",
+   "gloss": "mobile"
+  },
+  {
+   "id": "W1595",
+   "entry": "die Mobilbox, -en",
+   "level": "B1",
+   "gloss": "voicemail"
+  },
+  {
+   "id": "W1597",
+   "entry": "das Mobiltelefon, -e",
+   "level": "B1",
+   "gloss": "cell phone"
+  },
+  {
+   "id": "W1608",
+   "entry": "der Monitor, -e",
+   "level": "B1",
+   "gloss": "monitor, screen"
+  },
+  {
+   "id": "W1671",
+   "entry": "das Netz, -e",
+   "level": "B1",
+   "gloss": "network"
+  },
+  {
+   "id": "W1672",
+   "entry": "das Netzwerk, -e",
+   "level": "B1",
+   "gloss": "(Wi-Fi) network"
+  },
+  {
+   "id": "W1893",
+   "entry": "der Rechner, -",
+   "level": "B1",
+   "gloss": "computer"
+  },
+  {
+   "id": "W1969",
+   "entry": "die Rufnummer, -n",
+   "level": "B1",
+   "gloss": "phone number"
+  },
+  {
+   "id": "W2113",
+   "entry": "senden, sendet, sendete/sandte, hat gesendet/gesandt",
+   "level": "B1",
+   "gloss": "to send; to broadcast"
+  },
+  {
+   "id": "W2128",
+   "entry": "sichern, sichert, sicherte, hat gesichert",
+   "level": "B1",
+   "gloss": "to back up, to save"
+  },
+  {
+   "id": "W2183",
+   "entry": "Spezial-",
+   "level": "B1",
+   "gloss": "special, specialized"
+  },
+  {
+   "id": "W2217",
+   "entry": "starten, startet, startete, ist gestartet",
+   "level": "B1",
+   "gloss": "to start, to restart"
+  },
+  {
+   "id": "W2230",
+   "entry": "der Stecker, -",
+   "level": "B1",
+   "gloss": "plug"
+  },
+  {
+   "id": "W2252",
+   "entry": "stimmen, stimmt, stimmte, hat gestimmt",
+   "level": "B1",
+   "gloss": "to be correct, to be right"
+  },
+  {
+   "id": "W2261",
+   "entry": "die Störung, -en",
+   "level": "B1",
+   "gloss": "outage, disruption"
+  },
+  {
+   "id": "W2321",
+   "entry": "die Tastatur, -en",
+   "level": "B1",
+   "gloss": "keyboard"
+  },
+  {
+   "id": "W2322",
+   "entry": "die Taste, -n",
+   "level": "B1",
+   "gloss": "key, button"
+  },
+  {
+   "id": "W2331",
+   "entry": "die Technik, -en",
+   "level": "B1",
+   "gloss": "technology, technical things"
+  },
+  {
+   "id": "W2332",
+   "entry": "technisch",
+   "level": "B1",
+   "gloss": "technical"
+  },
+  {
+   "id": "W2333",
+   "entry": "die Technologie, -n",
+   "level": "B1",
+   "gloss": "technology"
+  },
+  {
+   "id": "W2368",
+   "entry": "tippen, tippt, tippte, hat getippt",
+   "level": "B1",
+   "gloss": "to type"
+  },
+  {
+   "id": "W2455",
+   "entry": "übrig",
+   "level": "B1",
+   "gloss": "left (over)"
+  },
+  {
+   "id": "W2539",
+   "entry": "verbinden, verbindet, verband, hat verbunden",
+   "level": "B1",
+   "gloss": "to connect"
+  },
+  {
+   "id": "W2627",
+   "entry": "verwenden, verwendet, verwendete, hat verwendet",
+   "level": "B1",
+   "gloss": "to use"
+  },
+  {
+   "id": "W2651",
+   "entry": "vorbei/vorbei-",
+   "level": "A2",
+   "gloss": "over, past"
+  },
+  {
+   "id": "W2709",
+   "entry": "weder … noch",
+   "level": "B1",
+   "gloss": "neither … nor"
+  },
+  {
+   "id": "W2851",
+   "entry": "der Zugang, ¨-e",
+   "level": "B1",
+   "gloss": "access"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2168",
+   "entry": "sowohl … als auch",
+   "level": "B1",
+   "gloss": "both … and"
+  },
+  {
+   "id": "W0679",
+   "entry": "entwickeln, entwickelt, entwickelte, hat entwickelt",
+   "level": "B1",
+   "gloss": "to develop"
+  },
+  {
+   "id": "W2495",
+   "entry": "(sich) unterhalten, unterhält, unterhielt, hat unterhalten",
+   "level": "A2",
+   "gloss": "(sich) to talk, chat; to entertain"
+  },
+  {
+   "id": "W1293",
+   "entry": "klappen, klappt, klappte, hat geklappt",
+   "level": "A2",
+   "gloss": "to work out, to go well (Das hat geklappt!)"
+  },
+  {
+   "id": "G004",
+   "entry": "bzw. (beziehungsweise)",
+   "level": "A2",
+   "gloss": "or; or rather; respectively"
+  },
+  {
+   "id": "W1460",
+   "entry": "leisten, leistet, leistete, hat geleistet",
+   "level": "B1",
+   "gloss": "to afford (sich etwas leisten)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X009",
+   "word": "tausendfach",
+   "gloss": "a thousand times, thousandfold",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X011",
+   "word": "mehrmals",
+   "gloss": "several times",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X026",
+   "word": "zunehmend",
+   "gloss": "increasingly",
+   "kind": "extra",
+   "de": ""
+  }
+ ],
+ "story_opening": "Es ist Donnerstagabend, kurz nach acht. Lena sitzt in ihrer Wohnung am Schreibtisch. Ihr Rechner ist ein Laptop, aber zu Hause arbeitet sie lieber mit einem großen Monitor und einer richtigen Tastatur. Seit zwei Wochen arbeitet sie mit ihrem Kollegen Jonas an einem Plakat für ein neues Café. Jetzt ist es endlich fertig.\n\nDer Kunde erwartet die Datei morgen früh um neun Uhr, denn am Freitag soll das Plakat gedruckt werden. Lena tippt noch schnell eine kurze E-Mail, hängt die Datei an und klickt auf „Senden“. Aber nichts passiert. Auf dem Bildschirm steht nur: „Keine Verbindung zum Internet.“\n\nVon Technik versteht Lena nicht viel. Sie ist Grafikdesignerin, sie macht schöne Plakate und Logos. A"
+}

@@ -1,0 +1,520 @@
+{
+ "set": "21",
+ "title": "Medien im Alltag",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "G001",
+   "entry": "das Abo, -s (Abonnement)",
+   "level": "B1",
+   "gloss": "subscription"
+  },
+  {
+   "id": "G029",
+   "entry": "der Blog, -s",
+   "level": "A2",
+   "gloss": "blog"
+  },
+  {
+   "id": "G030",
+   "entry": "bloggen",
+   "level": "B1",
+   "gloss": "to blog"
+  },
+  {
+   "id": "G033",
+   "entry": "die Castingshow, -s",
+   "level": "B1",
+   "gloss": "talent show"
+  },
+  {
+   "id": "G039",
+   "entry": "die City, -s",
+   "level": "B1",
+   "gloss": "downtown, city center"
+  },
+  {
+   "id": "G046",
+   "entry": "das E-Book, -s",
+   "level": "A2",
+   "gloss": "e-book"
+  },
+  {
+   "id": "G053",
+   "entry": "global",
+   "level": "B1",
+   "gloss": "global"
+  },
+  {
+   "id": "G057",
+   "entry": "die Homepage, -s",
+   "level": "A2",
+   "gloss": "website, homepage"
+  },
+  {
+   "id": "G064",
+   "entry": "der Killer, -",
+   "level": "B1",
+   "gloss": "killer"
+  },
+  {
+   "id": "G067",
+   "entry": "live",
+   "level": "B1",
+   "gloss": "live"
+  },
+  {
+   "id": "G076",
+   "entry": "die Plattform, -en",
+   "level": "B1",
+   "gloss": "platform"
+  },
+  {
+   "id": "G080",
+   "entry": "die Show, -s",
+   "level": "B1",
+   "gloss": "show"
+  },
+  {
+   "id": "G085",
+   "entry": "der Spot, -s",
+   "level": "B1",
+   "gloss": "(TV) commercial"
+  },
+  {
+   "id": "G093",
+   "entry": "der Trend, -s",
+   "level": "B1",
+   "gloss": "trend"
+  },
+  {
+   "id": "G095",
+   "entry": "twittern",
+   "level": "B1",
+   "gloss": "to tweet"
+  },
+  {
+   "id": "W0021",
+   "entry": "abonnieren, abonniert, abonnierte, hat abonniert",
+   "level": "B1",
+   "gloss": "to subscribe (to)"
+  },
+  {
+   "id": "W0022",
+   "entry": "das Abonnement, -s/-e",
+   "level": "B1",
+   "gloss": "subscription"
+  },
+  {
+   "id": "W0053",
+   "entry": "alltäglich",
+   "level": "B1",
+   "gloss": "everyday, ordinary"
+  },
+  {
+   "id": "W0098",
+   "entry": "die Annonce, -n",
+   "level": "B1",
+   "gloss": "(newspaper) ad"
+  },
+  {
+   "id": "W0163",
+   "entry": "aufhalten, hält auf, hielt auf, hat aufgehalten",
+   "level": "B1",
+   "gloss": "to hold up, to keep (someone)"
+  },
+  {
+   "id": "W0169",
+   "entry": "aufnehmen, nimmt auf, nahm auf, hat aufgenommen",
+   "level": "B1",
+   "gloss": "to record"
+  },
+  {
+   "id": "W0170",
+   "entry": "die Aufnahme, -n",
+   "level": "B1",
+   "gloss": "recording"
+  },
+  {
+   "id": "W0187",
+   "entry": "der Ausdruck, ¨-e",
+   "level": "B1",
+   "gloss": "expression (phrase)"
+  },
+  {
+   "id": "W0260",
+   "entry": "die Batterie, -n",
+   "level": "B1",
+   "gloss": "battery"
+  },
+  {
+   "id": "W0286",
+   "entry": "der Beginn",
+   "level": "B1",
+   "gloss": "beginning, start"
+  },
+  {
+   "id": "W0328",
+   "entry": "der Bericht, -e",
+   "level": "B1",
+   "gloss": "report, article"
+  },
+  {
+   "id": "W0425",
+   "entry": "die Breite, -n",
+   "level": "B1",
+   "gloss": "width"
+  },
+  {
+   "id": "W0437",
+   "entry": "die Broschüre, -n",
+   "level": "B1",
+   "gloss": "brochure"
+  },
+  {
+   "id": "W0520",
+   "entry": "digital",
+   "level": "B1",
+   "gloss": "digital(ly)"
+  },
+  {
+   "id": "W0542",
+   "entry": "drehen, dreht, drehte, hat gedreht",
+   "level": "B1",
+   "gloss": "to shoot (a film), to film"
+  },
+  {
+   "id": "W0580",
+   "entry": "eher",
+   "level": "B1",
+   "gloss": "rather, more"
+  },
+  {
+   "id": "W0621",
+   "entry": "einschalten, schaltet ein, schaltete ein, hat eingeschaltet",
+   "level": "B1",
+   "gloss": "to switch on, to turn on"
+  },
+  {
+   "id": "W0693",
+   "entry": "erfordern, erfordert, erforderte, hat erfordert",
+   "level": "B1",
+   "gloss": "to require"
+  },
+  {
+   "id": "W0798",
+   "entry": "die Fernbedienung, -en",
+   "level": "B1",
+   "gloss": "remote control"
+  },
+  {
+   "id": "W0853",
+   "entry": "die Form, -en",
+   "level": "B1",
+   "gloss": "form"
+  },
+  {
+   "id": "W0859",
+   "entry": "die Fortsetzung, -en",
+   "level": "B1",
+   "gloss": "continuation, next episode"
+  },
+  {
+   "id": "W0931",
+   "entry": "die Gebrauchsanweisung, -en",
+   "level": "B1",
+   "gloss": "instructions for use, manual"
+  },
+  {
+   "id": "W1036",
+   "entry": "die Grafik, -en",
+   "level": "B1",
+   "gloss": "chart, graphic"
+  },
+  {
+   "id": "W1165",
+   "entry": "der Hörer, -; die Hörerin, -nen",
+   "level": "B1",
+   "gloss": "listener"
+  },
+  {
+   "id": "W1199",
+   "entry": "das Inserat, -e",
+   "level": "B1",
+   "gloss": "classified ad"
+  },
+  {
+   "id": "W1208",
+   "entry": "intensiv",
+   "level": "B1",
+   "gloss": "intensively, heavily"
+  },
+  {
+   "id": "W1235",
+   "entry": "der Journalist, -en die Journalistin, -nen",
+   "level": "B1",
+   "gloss": "journalist"
+  },
+  {
+   "id": "W1253",
+   "entry": "der Kanal, ¨-e",
+   "level": "B1",
+   "gloss": "channel"
+  },
+  {
+   "id": "W1270",
+   "entry": "die Kassette, -n",
+   "level": "B1",
+   "gloss": "cassette (tape)"
+  },
+  {
+   "id": "W1328",
+   "entry": "die Kommunikation",
+   "level": "B1",
+   "gloss": "communication"
+  },
+  {
+   "id": "W1379",
+   "entry": "das Kreuz, -e",
+   "level": "B1",
+   "gloss": "cross, X mark"
+  },
+  {
+   "id": "W1440",
+   "entry": "der Lautsprecher, -",
+   "level": "B1",
+   "gloss": "loudspeaker"
+  },
+  {
+   "id": "W1469",
+   "entry": "der Leser, - die Leserin, -nen",
+   "level": "B1",
+   "gloss": "reader"
+  },
+  {
+   "id": "W1537",
+   "entry": "die Medien (Pl.)",
+   "level": "B1",
+   "gloss": "media"
+  },
+  {
+   "id": "W1553",
+   "entry": "die Meldung, -en",
+   "level": "B1",
+   "gloss": "news item, short report"
+  },
+  {
+   "id": "W1583",
+   "entry": "miteinander",
+   "level": "B1",
+   "gloss": "with each other"
+  },
+  {
+   "id": "W1674",
+   "entry": "die Neuigkeit, -en",
+   "level": "B1",
+   "gloss": "(piece of) news"
+  },
+  {
+   "id": "W1718",
+   "entry": "veröffentlichen, veröffentlicht, veröffentlichte, hat veröffentlicht",
+   "level": "B1",
+   "gloss": "to publish"
+  },
+  {
+   "id": "W1833",
+   "entry": "die Presse",
+   "level": "B1",
+   "gloss": "the press"
+  },
+  {
+   "id": "W1891",
+   "entry": "die Recherche, -n",
+   "level": "B1",
+   "gloss": "research"
+  },
+  {
+   "id": "W1927",
+   "entry": "die Reklame, -n",
+   "level": "B1",
+   "gloss": "advertising (old-fashioned word)"
+  },
+  {
+   "id": "W1937",
+   "entry": "die Reportage, -n",
+   "level": "B1",
+   "gloss": "(TV) report, feature"
+  },
+  {
+   "id": "W1938",
+   "entry": "der Reporter, - die Reporterin, -nen",
+   "level": "B1",
+   "gloss": "reporter"
+  },
+  {
+   "id": "W2026",
+   "entry": "schlagen, schlägt, schlug, hat geschlagen",
+   "level": "B1",
+   "gloss": "to beat (defeat)"
+  },
+  {
+   "id": "W2087",
+   "entry": "die Schwierigkeit, -en",
+   "level": "B1",
+   "gloss": "difficulty, trouble"
+  },
+  {
+   "id": "W2113",
+   "entry": "senden, sendet, sendete/sandte, hat gesendet/gesandt",
+   "level": "B1",
+   "gloss": "to send; to broadcast"
+  },
+  {
+   "id": "W2114",
+   "entry": "der Sender, -",
+   "level": "B1",
+   "gloss": "(radio or TV) station"
+  },
+  {
+   "id": "W2118",
+   "entry": "die Serie, -n",
+   "level": "B1",
+   "gloss": "(TV) series"
+  },
+  {
+   "id": "W2286",
+   "entry": "das Studio, -s",
+   "level": "B1",
+   "gloss": "studio"
+  },
+  {
+   "id": "W2444",
+   "entry": "die Überschrift, -en",
+   "level": "B1",
+   "gloss": "headline"
+  },
+  {
+   "id": "W2463",
+   "entry": "die Umfrage, -n",
+   "level": "B1",
+   "gloss": "survey, poll"
+  },
+  {
+   "id": "W2569",
+   "entry": "der Verlag, -e (A: ¨-e)",
+   "level": "B1",
+   "gloss": "publishing house, publisher"
+  },
+  {
+   "id": "W2631",
+   "entry": "das Video, -s",
+   "level": "B1",
+   "gloss": "video"
+  },
+  {
+   "id": "W2635",
+   "entry": "virtuell",
+   "level": "B1",
+   "gloss": "virtual"
+  },
+  {
+   "id": "W2732",
+   "entry": "die Werbung, -en",
+   "level": "B1",
+   "gloss": "advertising, commercials"
+  },
+  {
+   "id": "W2762",
+   "entry": "winken, winkt, winkte, hat gewinkt",
+   "level": "B1",
+   "gloss": "to wave"
+  },
+  {
+   "id": "W2789",
+   "entry": "worum",
+   "level": "B1",
+   "gloss": "about what"
+  },
+  {
+   "id": "W2867",
+   "entry": "zurechtkommen, kommt zurecht, kam zurecht, ist zurechtgekommen",
+   "level": "B1",
+   "gloss": "to cope (with), to manage"
+  },
+  {
+   "id": "W2910",
+   "entry": "das Magazin, -e",
+   "level": "B1",
+   "gloss": "magazine"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2539",
+   "entry": "verbinden, verbindet, verband, hat verbunden",
+   "level": "B1",
+   "gloss": "to connect"
+  },
+  {
+   "id": "G013",
+   "entry": "das Kfz (Kraftfahrzeug)",
+   "level": "B1",
+   "gloss": "motor vehicle (abbreviation)"
+  },
+  {
+   "id": "W2150",
+   "entry": "sogar",
+   "level": "A2",
+   "gloss": "even"
+  },
+  {
+   "id": "W0583",
+   "entry": "eigen-",
+   "level": "A2",
+   "gloss": "own (as in: my own room)"
+  },
+  {
+   "id": "W2603",
+   "entry": "versichern, versichert, versicherte, hat versichert",
+   "level": "B1",
+   "gloss": "to insure"
+  },
+  {
+   "id": "W2647",
+   "entry": "vor allem",
+   "level": "B1",
+   "gloss": "above all, mainly"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X001",
+   "word": "angeblich",
+   "gloss": "supposedly, allegedly (signals doubt)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X009",
+   "word": "tausendfach",
+   "gloss": "a thousand times, thousandfold",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X021",
+   "word": "zusehen, sieht zu, sah zu, hat zugesehen",
+   "gloss": "to watch (= zuschauen)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R014",
+   "word": "das Kaffeehaus, Kaffeehäuser",
+   "gloss": "(Viennese) coffee house",
+   "kind": "austrian",
+   "de": "das Café"
+  }
+ ],
+ "story_opening": "Jeden Morgen um halb sieben holt Frau Krüger ihre Zeitung aus dem Briefkasten. Sie hat seit über vierzig Jahren ein Abonnement für diese Zeitung. Sie bezahlt jeden Monat, und die Zeitung kommt jeden Tag pünktlich zu ihr nach Hause. In der Küche kocht Frau Krüger Kaffee und macht das Radio an. Beim Frühstück liest sie zuerst die großen Überschriften auf der ersten Seite, dann die kurzen Meldungen aus Leipzig. Am interessantesten findet sie aber die Annoncen auf den letzten Seiten: Wer verkauft ein Fahrrad? Wer sucht eine Wohnung? Wer hat geheiratet? Ihr altes Sofa hat sie letztes Jahr selbst mit einem kleinen Inserat verkauft.\n\nIm Radio läuft wie jeden Morgen derselbe kleine Leipziger Sender."
+}

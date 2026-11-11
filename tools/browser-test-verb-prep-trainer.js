@@ -1,0 +1,115 @@
+async page => {
+  const out = [], errors = [];
+  const ok = (name, cond, extra) => out.push((cond ? "PASS " : "FAIL ") + name + (extra ? " :: " + extra : ""));
+  try {
+  page.on("pageerror", e => errors.push(e.message));
+  page.on("console", m => { if (m.type() === "error") errors.push(m.text()); });
+  const url = globalThis.B1_BASE + "/verb-prep-trainer.html";
+  await page.goto(url);
+  await page.evaluate(() => localStorage.clear());
+  await page.reload();
+  const txt = async sel => (await page.textContent(sel)) || "";
+  const jump = async id => { await page.evaluate(i => { session = [{it: ITEM_BY_ID[i], retry: 0}]; idx = 0; render(); }, id); };
+  ok("lernen visible first", await page.isVisible("#tab-lernen"));
+  ok("learn table 26 rows", (await page.$$eval("#learnTable tr", r => r.length)) === 27);
+  ok("counts", (await txt("#cardCount")) === "42" && (await txt("#itemCount")) === "200");
+
+  await page.click('.tabs button[data-tab="saetze"]');
+  await page.selectOption("#area", "P");
+  await page.selectOption("#mode", "reihe");
+  ok("reihe starts at a01", (await txt("#q")).includes("Beim Schreiben achte"));
+  await page.focus("input.blank");
+  await page.keyboard.press("Enter");
+  ok("empty submit blocked", (await txt("#flash")).includes("Bitte"));
+  await page.keyboard.press("ArrowRight");
+  ok("→ before submit stays", (await txt("#rIdx")) === "1");
+  await page.fill("input.blank", "an"); await page.keyboard.press("Enter");
+  ok("wrong → Falsch + label", (await txt("#fb")).includes("Falsch") && (await txt("#fb")).includes("Falsche Präposition"));
+  await page.fill("input.blank", "an"); await page.keyboard.press("Enter");
+  ok("bad retype blocked", (await txt("#flash")).includes("Noch nicht"));
+  await page.fill("input.blank", "auf"); await page.keyboard.press("Enter");
+  ok("retype accepted", (await txt("#fb")).includes("Gut abgetippt") && (await txt("#go")).includes("Weiter"));
+  await page.keyboard.press("ArrowRight");
+  ok("→ goes to a02", (await txt("#q")).includes("Wertsachen"));
+  await page.fill("input.blank", "auf"); await page.keyboard.press("Enter");
+  ok("correct → Richtig", (await txt("#fb")).includes("Richtig"));
+  await page.keyboard.press("Enter");
+  ok("Enter goes to a03", (await txt("#q")).includes("Wortstellung"));
+
+  await page.selectOption("#area", "c:wichtig_fuer");
+  ok("verb filter a10", (await txt("#q")).includes("Ausbildung"));
+  await page.fill("input.blank", "fuer"); await page.keyboard.press("Enter");
+  ok("ue accepted with note", (await txt("#fb")).includes("Umlaut"));
+
+  await page.selectOption("#area", "c:bedanken");
+  const ins = await page.$$("input.blank");
+  ok("two blanks", ins.length === 2);
+  await ins[0].fill("bei"); await ins[0].press("Enter");
+  ok("Enter jumps to blank 2", (await page.evaluate(() => document.activeElement.dataset.b)) === "1");
+  await page.keyboard.type("über"); await page.keyboard.press("Enter");
+  const fb2 = await txt("#fb");
+  ok("one blank wrong", fb2.includes("Falsch") && fb2.includes("②") && !fb2.includes("①"));
+  const ro = await page.$$eval("input.blank", xs => xs.map(x => x.readOnly));
+  ok("only wrong blank editable", ro[0] === true && ro[1] === false);
+  await page.fill('input.blank[data-b="1"]', "für"); await page.keyboard.press("Enter");
+  ok("two-blank retype ok", (await txt("#fb")).includes("Gut abgetippt"));
+
+  await jump("c13");
+  ok("caps badge c13", await page.isVisible("#capsBadge"));
+  await page.fill("input.blank", "mit ihnen"); await page.keyboard.press("Enter");
+  ok("caps error label", (await txt("#fb")).includes("Groß/klein"));
+  await jump("b35");
+  await page.fill("input.blank", "von dem"); await page.keyboard.press("Enter");
+  ok("long form accepted", (await txt("#fb")).includes("Beide Formen"));
+  await jump("a01");
+  await page.fill("input.blank", "mit"); await page.keyboard.press("Enter");
+  ok("case tip shown", (await txt("#fb")).includes("Tipp: Hier steht Akkusativ"));
+  await jump("d06");
+  ok("hint d06", (await txt("#hintline")).includes("ein… + der Erfolg"));
+  await page.fill("input.blank", "einen"); await page.keyboard.press("Enter");
+  ok("werden label", (await txt("#fb")).includes("werden + Nominativ"));
+  await jump("c18");
+  await page.fill("input.blank", "auf es"); await page.keyboard.press("Enter");
+  ok("sache label", (await txt("#fb")).includes("Sache: da(r)"));
+  await jump("d39");
+  ok("pronoun hint", (await txt("#hintline")).includes("ich (Pronomen)"));
+  await page.fill("input.blank", "mich"); await page.keyboard.press("Enter");
+  ok("refl dativ label", (await txt("#fb")).includes("Dativ-Verb"));
+  await page.fill("input.blank", "mir"); await page.keyboard.press("Enter");
+  await page.keyboard.press("Enter");
+  ok("missed item comes back", (await txt("#q")).includes("Dorf"));
+  await page.fill("input.blank", "mir"); await page.keyboard.press("Enter"); await page.keyboard.press("Enter");
+  ok("end of round box", await page.isVisible("#endBox") && (await txt("#endBox")).includes("Runde fertig"));
+
+  await page.click('.tabs button[data-tab="karten"]');
+  ok("card front shown", (await txt("#fcFront")).length > 5);
+  await page.keyboard.press("ArrowRight");
+  ok("→ before flip blocked", (await txt("#cflash")).includes("Erst umdrehen"));
+  await page.keyboard.press(" ");
+  ok("Space flips", await page.isVisible("#fcBack") && (await txt("#fcBack")).includes("Formen") || (await txt("#fcBack")).includes("Frage"));
+  await page.keyboard.press("Enter");
+  ok("Enter on back does not grade", (await txt("#cIdx")) === "1");
+  await page.keyboard.press("ArrowLeft");
+  ok("← Nochmal → card 2", (await txt("#cIdx")) === "2");
+  await page.keyboard.press("Enter"); await page.keyboard.press("ArrowRight");
+  ok("→ Gewusst → card 3", (await txt("#cIdx")) === "3" && (await txt("#cOk")) === "1");
+  await page.selectOption("#dir", "mean");
+  ok("meaning front shows + case", (await txt("#fcFront")).includes("+"));
+
+  await page.click('.tabs button[data-tab="bericht"]');
+  const rep = await page.inputValue("#repText");
+  ok("report sections", rep.includes("## Fehler nach Art") && rep.includes("an statt auf") && rep.includes("Oft „Nochmal“"));
+  const snap = await page.evaluate(() => JSON.stringify(store));
+  await page.evaluate(() => { store = fresh(); saveStore(); applySettings(); window.confirm = () => true; });
+  ok("reset works", (await page.evaluate(() => store.log.length)) === 0);
+  await page.evaluate(j => importProgress(new File([j], "p.json", {type: "application/json"})), snap);
+  await page.waitForTimeout(400);
+  const n0 = JSON.parse(snap).log.length;
+  ok("import restores log", (await page.evaluate(() => store.log.length)) === n0, "log " + n0);
+  await page.reload();
+  ok("persists after reload", (await page.evaluate(() => store.log.length)) === n0);
+  ok("opens last tab", await page.isVisible("#tab-bericht"));
+  } catch (e) { out.push("FAIL exception: " + e.message); }
+  ok("no page errors", errors.length === 0, errors.join(" | "));
+  return out.join("\n");
+}

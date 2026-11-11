@@ -1,0 +1,626 @@
+{
+ "set": "23",
+ "title": "Gefühle",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "W0085",
+   "entry": "angenehm",
+   "level": "B1",
+   "gloss": "pleasant"
+  },
+  {
+   "id": "W0087",
+   "entry": "ängstlich",
+   "level": "B1",
+   "gloss": "fearful, timid"
+  },
+  {
+   "id": "W0143",
+   "entry": "der Ärger",
+   "level": "B1",
+   "gloss": "anger"
+  },
+  {
+   "id": "W0144",
+   "entry": "ärgerlich",
+   "level": "B1",
+   "gloss": "annoying"
+  },
+  {
+   "id": "W0168",
+   "entry": "aufmerksam",
+   "level": "B1",
+   "gloss": "attentive"
+  },
+  {
+   "id": "W0173",
+   "entry": "aufregen, regt auf, regte auf, hat aufgeregt",
+   "level": "B1",
+   "gloss": "to get worked up (sich aufregen)"
+  },
+  {
+   "id": "W0198",
+   "entry": "ausgezeichnet",
+   "level": "B1",
+   "gloss": "excellent"
+  },
+  {
+   "id": "W0215",
+   "entry": "äußerlich",
+   "level": "B1",
+   "gloss": "outwardly, on the outside"
+  },
+  {
+   "id": "W0284",
+   "entry": "begeistert",
+   "level": "B1",
+   "gloss": "thrilled, enthusiastic"
+  },
+  {
+   "id": "W0311",
+   "entry": "beleidigen, beleidigt, beleidigte, hat beleidigt",
+   "level": "B1",
+   "gloss": "to insult, to offend"
+  },
+  {
+   "id": "W0332",
+   "entry": "beruhigen, beruhigt, beruhigte, hat beruhigt",
+   "level": "B1",
+   "gloss": "to calm (someone) down"
+  },
+  {
+   "id": "W0486",
+   "entry": "dankbar",
+   "level": "B1",
+   "gloss": "grateful"
+  },
+  {
+   "id": "W0581",
+   "entry": "ehrlich",
+   "level": "B1",
+   "gloss": "honest"
+  },
+  {
+   "id": "W0620",
+   "entry": "einsam",
+   "level": "B1",
+   "gloss": "lonely"
+  },
+  {
+   "id": "W0661",
+   "entry": "entgegenkommen",
+   "level": "B1",
+   "gloss": "to meet (someone) halfway"
+  },
+  {
+   "id": "W0670",
+   "entry": "entschlossen",
+   "level": "B1",
+   "gloss": "determined"
+  },
+  {
+   "id": "W0676",
+   "entry": "enttäuschen, enttäuscht, enttäuschte, hat enttäuscht",
+   "level": "B1",
+   "gloss": "to disappoint (enttäuscht: disappointed)"
+  },
+  {
+   "id": "W0677",
+   "entry": "die Enttäuschung, -en",
+   "level": "B1",
+   "gloss": "disappointment"
+  },
+  {
+   "id": "W0720",
+   "entry": "ernst",
+   "level": "B1",
+   "gloss": "serious"
+  },
+  {
+   "id": "W0721",
+   "entry": "ernsthaft",
+   "level": "B1",
+   "gloss": "seriously"
+  },
+  {
+   "id": "W0747",
+   "entry": "ewig",
+   "level": "B1",
+   "gloss": "forever"
+  },
+  {
+   "id": "W0846",
+   "entry": "folgen, folgt, folgte, ist gefolgt",
+   "level": "B1",
+   "gloss": "to follow"
+  },
+  {
+   "id": "W0869",
+   "entry": "frech",
+   "level": "B1",
+   "gloss": "sassy, cheeky"
+  },
+  {
+   "id": "W0878",
+   "entry": "die Freude",
+   "level": "B1",
+   "gloss": "joy"
+  },
+  {
+   "id": "W0886",
+   "entry": "die Frisur, -en",
+   "level": "B1",
+   "gloss": "hairstyle"
+  },
+  {
+   "id": "W0889",
+   "entry": "fröhlich",
+   "level": "B1",
+   "gloss": "cheerful"
+  },
+  {
+   "id": "W0905",
+   "entry": "(sich) fürchten, fürchtet, fürchtete, hat gefürchtet",
+   "level": "B1",
+   "gloss": "to fear, to be afraid"
+  },
+  {
+   "id": "W0936",
+   "entry": "die Geduld",
+   "level": "B1",
+   "gloss": "patience"
+  },
+  {
+   "id": "W0942",
+   "entry": "sich etwas gefallen lassen, lässt sich etwas gefallen, ließ sich etwas gefallen, hat sich etwas gefallen",
+   "level": "B1",
+   "gloss": "to put up with (something)"
+  },
+  {
+   "id": "W0945",
+   "entry": "das Gefühl, -e",
+   "level": "B1",
+   "gloss": "feeling"
+  },
+  {
+   "id": "W0963",
+   "entry": "gelingen, gelingt, gelang, ist gelungen",
+   "level": "B1",
+   "gloss": "to go well, to succeed"
+  },
+  {
+   "id": "W0999",
+   "entry": "gespannt",
+   "level": "B1",
+   "gloss": "excited, eager to see"
+  },
+  {
+   "id": "W1010",
+   "entry": "das Gewissen",
+   "level": "B1",
+   "gloss": "conscience"
+  },
+  {
+   "id": "W1013",
+   "entry": "die Gewohnheit, -en",
+   "level": "B1",
+   "gloss": "habit"
+  },
+  {
+   "id": "W1089",
+   "entry": "hassen, hasst, hasste, hat gehasst",
+   "level": "B1",
+   "gloss": "to hate"
+  },
+  {
+   "id": "W1106",
+   "entry": "das Heimweh",
+   "level": "B1",
+   "gloss": "homesickness"
+  },
+  {
+   "id": "W1159",
+   "entry": "die Hoffnung, -en",
+   "level": "B1",
+   "gloss": "hope"
+  },
+  {
+   "id": "W1160",
+   "entry": "höflich",
+   "level": "B1",
+   "gloss": "politely"
+  },
+  {
+   "id": "W1171",
+   "entry": "der Humor",
+   "level": "B1",
+   "gloss": "sense of humor"
+  },
+  {
+   "id": "W1186",
+   "entry": "indem",
+   "level": "B1",
+   "gloss": "by (doing something)"
+  },
+  {
+   "id": "W1207",
+   "entry": "die Intelligenz",
+   "level": "B1",
+   "gloss": "intelligence"
+  },
+  {
+   "id": "W1220",
+   "entry": "sich irren, irrt sich, irrte sich, hat sich geirrt",
+   "level": "B1",
+   "gloss": "to be wrong, to be mistaken"
+  },
+  {
+   "id": "W1228",
+   "entry": "jederzeit",
+   "level": "B1",
+   "gloss": "at any time"
+  },
+  {
+   "id": "W1278",
+   "entry": "kein-",
+   "level": "A1",
+   "gloss": "no, not any"
+  },
+  {
+   "id": "W1375",
+   "entry": "kreativ",
+   "level": "B1",
+   "gloss": "creative"
+  },
+  {
+   "id": "W1414",
+   "entry": "lächeln, lächelt, lächelte, hat gelächelt",
+   "level": "B1",
+   "gloss": "to smile"
+  },
+  {
+   "id": "W1429",
+   "entry": "längst",
+   "level": "B1",
+   "gloss": "long since, for a long time"
+  },
+  {
+   "id": "W1438",
+   "entry": "die Laune, -n",
+   "level": "B1",
+   "gloss": "mood"
+  },
+  {
+   "id": "W1455",
+   "entry": "leid tun, tut leid, tat leid, hat leidgetan",
+   "level": "A2",
+   "gloss": "to be sorry (es tut mir leid)"
+  },
+  {
+   "id": "W1475",
+   "entry": "lieb",
+   "level": "A1",
+   "gloss": "kind, sweet"
+  },
+  {
+   "id": "W1488",
+   "entry": "die Liste, -n",
+   "level": "B1",
+   "gloss": "list"
+  },
+  {
+   "id": "W1560",
+   "entry": "merkwürdig",
+   "level": "B1",
+   "gloss": "strange, odd"
+  },
+  {
+   "id": "W1580",
+   "entry": "miss-",
+   "level": "B1",
+   "gloss": "mis- (Missverständnis: misunderstanding)"
+  },
+  {
+   "id": "W1627",
+   "entry": "der Mut",
+   "level": "B1",
+   "gloss": "courage"
+  },
+  {
+   "id": "W1628",
+   "entry": "mutig",
+   "level": "B1",
+   "gloss": "brave"
+  },
+  {
+   "id": "W1668",
+   "entry": "der Nerv, -en",
+   "level": "B1",
+   "gloss": "nerve (mit den Nerven am Ende: frazzled)"
+  },
+  {
+   "id": "W1675",
+   "entry": "neugierig",
+   "level": "B1",
+   "gloss": "curious, nosy"
+  },
+  {
+   "id": "W1702",
+   "entry": "nun",
+   "level": "B1",
+   "gloss": "now"
+  },
+  {
+   "id": "W1734",
+   "entry": "optimistisch",
+   "level": "B1",
+   "gloss": "optimistic"
+  },
+  {
+   "id": "W1773",
+   "entry": "das Pech",
+   "level": "B1",
+   "gloss": "bad luck"
+  },
+  {
+   "id": "W1774",
+   "entry": "peinlich",
+   "level": "B1",
+   "gloss": "embarrassing"
+  },
+  {
+   "id": "W1864",
+   "entry": "quer",
+   "level": "B1",
+   "gloss": "across, diagonally"
+  },
+  {
+   "id": "W1941",
+   "entry": "der Respekt",
+   "level": "B1",
+   "gloss": "respect"
+  },
+  {
+   "id": "W2029",
+   "entry": "schlank",
+   "level": "B1",
+   "gloss": "slim, thin"
+  },
+  {
+   "id": "W2161",
+   "entry": "sorgen, sorgt, sorgte, hat gesorgt",
+   "level": "B1",
+   "gloss": "to take care of (sorgen für)"
+  },
+  {
+   "id": "W2162",
+   "entry": "die Sorge, -n",
+   "level": "B1",
+   "gloss": "worry"
+  },
+  {
+   "id": "W2222",
+   "entry": "statt",
+   "level": "B1",
+   "gloss": "instead of"
+  },
+  {
+   "id": "W2253",
+   "entry": "die Stimmung, -en",
+   "level": "B1",
+   "gloss": "mood, atmosphere"
+  },
+  {
+   "id": "W2258",
+   "entry": "stolz",
+   "level": "B1",
+   "gloss": "proud"
+  },
+  {
+   "id": "W2311",
+   "entry": "das Talent, -e",
+   "level": "B1",
+   "gloss": "talent"
+  },
+  {
+   "id": "W2375",
+   "entry": "tolerant",
+   "level": "B1",
+   "gloss": "tolerant, accepting"
+  },
+  {
+   "id": "W2394",
+   "entry": "die Träne, -n",
+   "level": "B1",
+   "gloss": "tear (from crying)"
+  },
+  {
+   "id": "W2399",
+   "entry": "Traum-",
+   "level": "A2",
+   "gloss": "dream ... (Traumjob: dream job)"
+  },
+  {
+   "id": "W2424",
+   "entry": "der Typ, -en",
+   "level": "B1",
+   "gloss": "type (of person)"
+  },
+  {
+   "id": "W2441",
+   "entry": "überraschen, überrascht, überraschte, hat überrascht",
+   "level": "B1",
+   "gloss": "to surprise"
+  },
+  {
+   "id": "W2442",
+   "entry": "die Überraschung,-en",
+   "level": "B1",
+   "gloss": "surprise"
+  },
+  {
+   "id": "W2468",
+   "entry": "umso",
+   "level": "B1",
+   "gloss": "the (je ... umso: the more ... the more)"
+  },
+  {
+   "id": "W2511",
+   "entry": "unterstützen, unterstützt, unterstützte, hat unterstützt",
+   "level": "B1",
+   "gloss": "to support"
+  },
+  {
+   "id": "W2519",
+   "entry": "verursachen, verursacht, verursachte, hat verursacht",
+   "level": "B1",
+   "gloss": "to cause"
+  },
+  {
+   "id": "W2531",
+   "entry": "(sich) verändern, verändert, veränderte, hat verändert",
+   "level": "B1",
+   "gloss": "to change (sich verändern)"
+  },
+  {
+   "id": "W2560",
+   "entry": "sich verhalten, verhält sich, verhielt sich, hat sich verhalten",
+   "level": "B1",
+   "gloss": "to behave, to act"
+  },
+  {
+   "id": "W2561",
+   "entry": "das Verhalten",
+   "level": "B1",
+   "gloss": "behavior"
+  },
+  {
+   "id": "W2589",
+   "entry": "vernünftig",
+   "level": "B1",
+   "gloss": "sensible, reasonable"
+  },
+  {
+   "id": "W2596",
+   "entry": "verrückt",
+   "level": "B1",
+   "gloss": "crazy"
+  },
+  {
+   "id": "W2616",
+   "entry": "vertrauen, vertraut, vertraute, hat vertraut",
+   "level": "B1",
+   "gloss": "to trust"
+  },
+  {
+   "id": "W2617",
+   "entry": "das Vertrauen",
+   "level": "B1",
+   "gloss": "trust, confidence"
+  },
+  {
+   "id": "W2678",
+   "entry": "waagerecht",
+   "level": "B1",
+   "gloss": "horizontal"
+  },
+  {
+   "id": "W2687",
+   "entry": "während",
+   "level": "B1",
+   "gloss": "while"
+  },
+  {
+   "id": "W2742",
+   "entry": "weshalb",
+   "level": "B1",
+   "gloss": "why"
+  },
+  {
+   "id": "W2797",
+   "entry": "sich wundern, wundert sich, wunderte sich, hat sich gewundert",
+   "level": "B1",
+   "gloss": "to be surprised, to wonder"
+  },
+  {
+   "id": "W2801",
+   "entry": "wütend",
+   "level": "B1",
+   "gloss": "furious, angry"
+  },
+  {
+   "id": "W2886",
+   "entry": "zuverlässig",
+   "level": "B1",
+   "gloss": "reliable"
+  },
+  {
+   "id": "W2888",
+   "entry": "zwar",
+   "level": "B1",
+   "gloss": "admittedly (zwar ... aber)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W1193",
+   "entry": "der Inhalt, -e",
+   "level": "B1",
+   "gloss": "content"
+  },
+  {
+   "id": "W0982",
+   "entry": "gering",
+   "level": "B1",
+   "gloss": "low, small"
+  },
+  {
+   "id": "W0350",
+   "entry": "besorgen, besorgt, besorgte, hat besorgt",
+   "level": "B1",
+   "gloss": "to get, pick up (for someone)"
+  },
+  {
+   "id": "W2670",
+   "entry": "(sich) vorstellen, stellt vor, stellte vor, hat vorgestellt",
+   "level": "A1",
+   "gloss": "to introduce (oneself); (sich etwas) to imagine"
+  },
+  {
+   "id": "W0696",
+   "entry": "das Ergebnis, -se",
+   "level": "A1",
+   "gloss": "result; outcome; score"
+  },
+  {
+   "id": "W0327",
+   "entry": "berichten, berichtet, berichtete, hat berichtet",
+   "level": "A2",
+   "gloss": "to report; (über/von) to tell about, to report on"
+  },
+  {
+   "id": "W2917",
+   "entry": "zeichnen, zeichnet, zeichnete, hat gezeichnet",
+   "level": "A2",
+   "gloss": "to draw"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X012",
+   "word": "hin und wieder",
+   "gloss": "now and then",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X026",
+   "word": "zunehmend",
+   "gloss": "increasingly",
+   "kind": "extra",
+   "de": ""
+  }
+ ],
+ "story_opening": "Am Mittwochabend steht Mateo García in seiner kleinen Küche in Leipzig. Nach einem langen Tag in der Kantine kocht er noch einmal für sich. Das ist eine alte Gewohnheit: Er vergisst den Stress, indem er kocht. Da klingelt sein Handy. Es ist Javier, ein guter Freund aus Sevilla. Dort hat Mateo viele Bekannte, aber nur wenige echte Freunde wie Javier.\n\n„Mateo, ich habe eine Überraschung für dich“, sagt Javier. „Im Frühling eröffne ich ein Restaurant in der Altstadt von Sevilla. Willst du dort Küchenchef werden?“\n\nMateo ist so überrascht, dass er fast den Löffel fallen lässt. Küchenchef in seiner Heimatstadt: Das ist sein Traumjob! Vor Freude tanzt er durch die Küche. „Ich bin total begeistert“"
+}

@@ -1,0 +1,1886 @@
+[
+{
+"id": "G004",
+"entry": "bzw. (beziehungsweise)",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G005",
+"entry": "ca. (circa)",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G007",
+"entry": "die DVD, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G011",
+"entry": "etc.",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G012",
+"entry": "der ICE",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G015",
+"entry": "der PC, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G017",
+"entry": "die SMS",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G018",
+"entry": "das TV",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G019",
+"entry": "usw. (und so weiter)",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G020",
+"entry": "vgl. (vergleiche)",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G021",
+"entry": "das WC, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G023",
+"entry": "z. B. (zum Beispiel)",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G024",
+"entry": "das Baby, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G025",
+"entry": "der Babysitter, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G026",
+"entry": "die Band, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G034",
+"entry": "der CD-Player, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G040",
+"entry": "der Club, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G041",
+"entry": "die Cola, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G043",
+"entry": "der Computer, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G044",
+"entry": "cool",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G047",
+"entry": "der Fan, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G051",
+"entry": "fit",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G055",
+"entry": "der Hamburger, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G058",
+"entry": "das Internet",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G060",
+"entry": "der Job, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G062",
+"entry": "joggen",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "G065",
+"entry": "der Laptop, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G068",
+"entry": "die E-Mail, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G074",
+"entry": "okay",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G075",
+"entry": "online",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G081",
+"entry": "das Smartphone, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G089",
+"entry": "das Taxi, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G090",
+"entry": "das Team, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G094",
+"entry": "das T-Shirt, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G139",
+"entry": "sehr gut (die Eins)",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G145",
+"entry": "hell-",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G146",
+"entry": "dunkel-",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G147",
+"entry": "blau",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G148",
+"entry": "braun",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G149",
+"entry": "gelb",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G150",
+"entry": "grau",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G151",
+"entry": "grün",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G152",
+"entry": "lila",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G154",
+"entry": "rosa",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G155",
+"entry": "rot",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G156",
+"entry": "schwarz",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G157",
+"entry": "violett",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G158",
+"entry": "weiß",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G159",
+"entry": "der Norden",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G161",
+"entry": "der Osten",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G163",
+"entry": "der Süden",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G165",
+"entry": "der Westen",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G167",
+"entry": "Deutschland",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G168",
+"entry": "der/die Deutsche, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G169",
+"entry": "deutsch",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G170",
+"entry": "Europa",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G173",
+"entry": "Österreich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G176",
+"entry": "die Schweiz",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G179",
+"entry": "Griechenland",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G182",
+"entry": "die Türkei",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G185",
+"entry": "die Ukraine",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G195",
+"entry": "die Europäische Union (EU)",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G201",
+"entry": "das Europäische Parlament",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G213",
+"entry": "der Fisch, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G217",
+"entry": "der Hund, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G219",
+"entry": "die Katze, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G221",
+"entry": "die Kuh, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G223",
+"entry": "die Maus, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G225",
+"entry": "das Pferd, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G230",
+"entry": "das Schwein, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G231",
+"entry": "der Vogel, ¨-",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G232",
+"entry": "der Euro, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G233",
+"entry": "der Cent, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G234",
+"entry": "der Meter, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G235",
+"entry": "der Zentimeter, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G236",
+"entry": "der Kilometer, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G239",
+"entry": "über Null / unter Null",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G240",
+"entry": "plus / minus",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G242",
+"entry": "der Liter, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G245",
+"entry": "das Kilo(gramm)",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G246",
+"entry": "Kilometer pro Stunde",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G247",
+"entry": "eins",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G248",
+"entry": "zwei",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G249",
+"entry": "drei",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G250",
+"entry": "vier",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G251",
+"entry": "fünf",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G252",
+"entry": "sechs",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G253",
+"entry": "sieben",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G254",
+"entry": "acht",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G255",
+"entry": "neun",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G256",
+"entry": "zehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G257",
+"entry": "elf",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G258",
+"entry": "zwölf",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G259",
+"entry": "dreizehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G260",
+"entry": "vierzehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G261",
+"entry": "fünfzehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G262",
+"entry": "sechzehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G263",
+"entry": "siebzehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G264",
+"entry": "achtzehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G265",
+"entry": "neunzehn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G266",
+"entry": "zwanzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G267",
+"entry": "einundzwanzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G268",
+"entry": "dreißig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G269",
+"entry": "vierzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G270",
+"entry": "fünfzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G271",
+"entry": "sechzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G272",
+"entry": "siebzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G273",
+"entry": "achtzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G274",
+"entry": "neunzig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G275",
+"entry": "hundert",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G276",
+"entry": "tausend",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G277",
+"entry": "die Million, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G278",
+"entry": "die Milliarde, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G279",
+"entry": "erste",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G280",
+"entry": "zweite",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G281",
+"entry": "dritte",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G282",
+"entry": "vierte",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G283",
+"entry": "erstens",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G284",
+"entry": "zweitens",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G285",
+"entry": "drittens",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G286",
+"entry": "viertens",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G288",
+"entry": "zweimal",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G289",
+"entry": "dreimal",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G291",
+"entry": "zweifach",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G294",
+"entry": "ein Drittel",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G295",
+"entry": "ein Viertel",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G297",
+"entry": "Ostern",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G299",
+"entry": "Weihnachten",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G302",
+"entry": "der Frühling",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G303",
+"entry": "das Frühjahr",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G304",
+"entry": "der Sommer",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G305",
+"entry": "der Herbst",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G306",
+"entry": "der Winter",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G307",
+"entry": "der Januar",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G308",
+"entry": "der Februar",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G309",
+"entry": "der März",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G310",
+"entry": "der April",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G311",
+"entry": "der Mai",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G312",
+"entry": "der Juni",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G313",
+"entry": "der Juli",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G314",
+"entry": "der August",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G315",
+"entry": "der September",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G316",
+"entry": "der Oktober",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G317",
+"entry": "der November",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G318",
+"entry": "der Dezember",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G319",
+"entry": "der Tag, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G320",
+"entry": "täglich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G322",
+"entry": "der Morgen, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G323",
+"entry": "morgens",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G324",
+"entry": "der Vormittag, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G325",
+"entry": "vormittags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G326",
+"entry": "der Mittag, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G327",
+"entry": "mittags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G328",
+"entry": "der Nachmittag, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G329",
+"entry": "nachmittags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G330",
+"entry": "der Abend, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G331",
+"entry": "abends",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G332",
+"entry": "die Nacht, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G333",
+"entry": "nachts",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G336",
+"entry": "vor / nach (fünf vor eins)",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G337",
+"entry": "Viertel vor / nach",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G339",
+"entry": "der Wochentag, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G342",
+"entry": "das Wochenende, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G343",
+"entry": "der Montag",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G344",
+"entry": "montags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G345",
+"entry": "der Dienstag",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G346",
+"entry": "dienstags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G347",
+"entry": "der Mittwoch",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G348",
+"entry": "mittwochs",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G349",
+"entry": "der Donnerstag",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G350",
+"entry": "donnerstags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G351",
+"entry": "der Freitag",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G352",
+"entry": "freitags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G353",
+"entry": "der Samstag",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G354",
+"entry": "samstags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G357",
+"entry": "der Sonntag",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G358",
+"entry": "sonntags",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "G359",
+"entry": "die Sekunde, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G360",
+"entry": "die Minute, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G363",
+"entry": "die Woche, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G365",
+"entry": "der Monat, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "G367",
+"entry": "das Jahr, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0001",
+"entry": "ab",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0005",
+"entry": "aber",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0006",
+"entry": "abfahren, fährt ab, fuhr ab, ist abgefahren",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0007",
+"entry": "die Abfahrt, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0011",
+"entry": "abgeben, gibt ab, gab ab, hat abgegeben",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0015",
+"entry": "abholen, holt ab, holte ab, hat abgeholt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0026",
+"entry": "der Absender, - die Absenderin, -nen",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0037",
+"entry": "die Adresse, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0039",
+"entry": "die Ahnung",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0041",
+"entry": "aktiv",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0043",
+"entry": "aktuell",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0047",
+"entry": "all-",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0048",
+"entry": "allein",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0055",
+"entry": "als",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0057",
+"entry": "also",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0058",
+"entry": "alt",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0059",
+"entry": "das Alter",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0064",
+"entry": "die Ampel, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0067",
+"entry": "an",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0069",
+"entry": "anbieten, bietet an, bot an, hat angeboten",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0071",
+"entry": "das Angebot, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0072",
+"entry": "ander-",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0074",
+"entry": "ändern, ändert, änderte, hat geändert",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0076",
+"entry": "anders",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0078",
+"entry": "anfangen, fängt an, fing an, hat angefangen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0079",
+"entry": "der Anfang, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0086",
+"entry": "die Angst, “-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0089",
+"entry": "anklicken, klickt an, klickte an, hat angeklickt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0090",
+"entry": "ankommen, kommt an, kam an, ist angekommen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0091",
+"entry": "die Ankunft",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0095",
+"entry": "anmelden, meldet an, meldete an, hat angemeldet",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0096",
+"entry": "die Anmeldung, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0099",
+"entry": "die Anrede, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0100",
+"entry": "anrufen, ruft an, rief an, hat angerufen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0101",
+"entry": "der Anruf, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0103",
+"entry": "die Ansage, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0106",
+"entry": "der Anschluss, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0108",
+"entry": "ansehen, sieht an, sah an, hat angesehen",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0119",
+"entry": "antworten, antwortet, antwortete, hat geantwortet",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0120",
+"entry": "die Antwort, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0124",
+"entry": "die Anzeige, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0125",
+"entry": "(sich) anziehen, zieht an, zog an, hat angezogen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0126",
+"entry": "der Anzug, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0127",
+"entry": "das Apartment, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0128",
+"entry": "der Apfel, ¨-",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0129",
+"entry": "die Apotheke, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0130",
+"entry": "der Apparat, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0131",
+"entry": "der Appetit",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0133",
+"entry": "arbeiten, arbeitet, arbeitete, hat gearbeitet",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0134",
+"entry": "die Arbeit, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0137",
+"entry": "arbeitslos",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0139",
+"entry": "der Arbeitsplatz, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0142",
+"entry": "(sich) ärgern, ärgert, ärgerte, hat geärgert",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0145",
+"entry": "arm",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0146",
+"entry": "der Arm, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0148",
+"entry": "der Artikel, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0149",
+"entry": "der Arzt, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0154",
+"entry": "auch",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0155",
+"entry": "auf",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0161",
+"entry": "die Aufgabe, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0165",
+"entry": "aufhören, hört auf, hörte auf, hat aufgehört",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0171",
+"entry": "aufpassen, passt auf, passte auf, hat aufgepasst",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0172",
+"entry": "aufräumen, räumt auf, räumte auf, hat aufgeräumt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0174",
+"entry": "aufstehen, steht auf, stand auf, ist aufgestanden",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0180",
+"entry": "der Aufzug, ¨-e (D, A) → Lift",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0181",
+"entry": "das Auge, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0183",
+"entry": "aus",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0184",
+"entry": "die Ausbildung, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0192",
+"entry": "der Ausflug, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0193",
+"entry": "ausfüllen, füllt aus, füllte aus, hat ausgefüllt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0195",
+"entry": "der Ausgang, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0196",
+"entry": "ausgeben, gibt aus, gab aus, hat ausgegeben",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0197",
+"entry": "ausgehen, geht aus, ging aus, ist ausgegangen",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0200",
+"entry": "die Auskunft, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0201",
+"entry": "das Ausland",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0202",
+"entry": "der Ausländer, - die Ausländerin, -nen",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0203",
+"entry": "ausländisch",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0204",
+"entry": "ausmachen, macht aus, machte aus, hat ausgemacht",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0209",
+"entry": "(sich) ausruhen, ruht aus, ruhte aus, hat ausgeruht",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0212",
+"entry": "aussehen, sieht aus, sah aus, hat ausgesehen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0214",
+"entry": "außerhalb",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0216",
+"entry": "außer",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0217",
+"entry": "außerdem",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0219",
+"entry": "aussprechen, spricht aus, sprach aus, hat ausgesprochen",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0222",
+"entry": "die Ausstellung, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0226",
+"entry": "der Ausweis, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0227",
+"entry": "ausziehen, zieht aus, zog aus, hat/ist ausgezogen",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0228",
+"entry": "das Auto, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0229",
+"entry": "die Autobahn, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0230",
+"entry": "der Automat, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0231",
+"entry": "automatisch",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0233",
+"entry": "backen, bäckt/backt, backte, hat gebacken",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0234",
+"entry": "die Bäckerei, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0235",
+"entry": "baden, badet, badete, hat gebadet",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0236",
+"entry": "das Bad, ¨-er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0238",
+"entry": "die Bahn, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0239",
+"entry": "S-Bahn, -en",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0240",
+"entry": "die Straßenbahn, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0242",
+"entry": "der Bahnhof, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0243",
+"entry": "der Bahnsteig, -e (D, A) → CH: Perron",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0244",
+"entry": "bald",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0245",
+"entry": "der Balkon, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0246",
+"entry": "der Ball, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0248",
+"entry": "die Banane, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0249",
+"entry": "die Bank, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0250",
+"entry": "die Bank, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0254",
+"entry": "die Bar, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0255",
+"entry": "bar",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0258",
+"entry": "der Basketball, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0259",
+"entry": "basteln, bastelt, bastelte, hat gebastelt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0261",
+"entry": "der Bauch, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0262",
+"entry": "bauen, baut, baute, hat gebaut",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0264",
+"entry": "die Baustelle, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0266",
+"entry": "der Baum, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0268",
+"entry": "der Beamte, -n die Beamtin, -nen",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0270",
+"entry": "beantworten, beantwortet, beantwortete, hat beantwortet",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0271",
+"entry": "sich bedanken, bedankt, bedankte, hat bedankt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0273",
+"entry": "bedeuten, bedeutet, bedeutete, hat bedeutet",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0278",
+"entry": "sich beeilen, beeilt sich, beeilte sich, hat sich beeilt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0279",
+"entry": "beenden, beendet, beendete, hat beendet",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0285",
+"entry": "beginnen, beginnt, begann, hat begonnen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0289",
+"entry": "begründen, begründet, begründete, hat begründet",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0298",
+"entry": "bei",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0300",
+"entry": "das Bein, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0302",
+"entry": "das Beispiel, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0305",
+"entry": "bekannt",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0306",
+"entry": "der Bekannte, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0307",
+"entry": "die Bekannte, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0309",
+"entry": "bekommen, bekommt, bekam, hat bekommen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0312",
+"entry": "beliebt",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0316",
+"entry": "benutzen, benutzt, benutzte, hat benutzt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0319",
+"entry": "bequem",
+"level": "A2",
+"pos": "other"
+}
+]

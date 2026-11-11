@@ -1,0 +1,215 @@
+{
+ "audio": "03",
+ "mt": 1,
+ "teil": 3,
+ "page": 35,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Durchsagen und Anrufe",
+   "from": "00:48",
+   "to": "08:43",
+   "intro": "Sie hören fünf kurze Texte: zwei Durchsagen, einen Wetterbericht und zwei Informationen am Telefon. Jeden Text hören Sie zweimal.",
+   "items": [
+    {
+     "t": 1,
+     "s": "Wegen einer Störung endet die S8 heute in Plänterwald.",
+     "a": true,
+     "at": "01:02",
+     "ev": "Deshalb fährt die S8 heute nur bis Haltestelle Plänterwald.",
+     "why": "Because of a signal failure, the S8 only goes as far as Plänterwald today. From there it turns back toward the city center.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Signalstörung",
+       "signal failure"
+      ],
+      [
+       "die Strecke",
+       "route, line"
+      ]
+     ]
+    },
+    {
+     "t": 1,
+     "s": "Fahrgäste zum Flughafen sollen in einen Bus umsteigen.",
+     "a": false,
+     "at": "01:18",
+     "ev": "Fahrgäste zum Flughafen BER, bitte steigen Sie … in die S9",
+     "why": "The bus is for passengers going to Grünau. People going to the airport should change to the S9 at the next stop.",
+     "trap": "who",
+     "w": [
+      [
+       "umsteigen",
+       "to change (trains or buses)"
+      ],
+      [
+       "der Fahrgast",
+       "passenger"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Morgen regnet es am Vormittag leicht.",
+     "a": false,
+     "at": "02:39",
+     "ev": "Heute Vormittag regnet es leicht … Morgen … den ganzen Tag sonnig",
+     "why": "The light rain is this morning, today. Tomorrow will be sunny all day.",
+     "trap": "when",
+     "w": [
+      [
+       "aufklaren",
+       "to clear up (sky)"
+      ],
+      [
+       "leicht regnen",
+       "to rain lightly"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Morgen wird es wärmer als heute.",
+     "a": true,
+     "at": "02:52",
+     "ev": "zwischen 17 und 19 Grad … steigen auf bis zu 24 Grad",
+     "why": "Today it is 17 to 19 degrees, tomorrow up to 24. You have to compare the two numbers.",
+     "trap": "number",
+     "w": [
+      [
+       "steigen",
+       "to rise"
+      ],
+      [
+       "bis zu",
+       "up to"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Nach der Rolltreppe geht man rechts in die Donaustraße.",
+     "a": true,
+     "at": "04:40",
+     "ev": "nach links … Oben müssen Sie dann rechts in die Donaustraße",
+     "why": "At the station you first go left to the exit, but at the top of the escalator you turn right into Donaustraße. Both directions are in the text, so check which step you are at.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Rolltreppe",
+       "escalator"
+      ],
+      [
+       "der Ausgang",
+       "exit"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Im Ärztehaus muss man die Treppe nehmen, weil der Lift kaputt ist.",
+     "a": false,
+     "at": "04:53",
+     "ev": "Sie können den Lift nehmen, aber es gibt natürlich auch eine Treppe.",
+     "why": "The elevator that is being repaired is the one at the subway station. In the medical building you can take the elevator or the stairs.",
+     "trap": "same-word",
+     "w": [
+      [
+       "der Lift",
+       "elevator"
+      ],
+      [
+       "reparieren",
+       "to repair"
+      ],
+      [
+       "die Etage",
+       "floor, story"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Die Agentur hat gerade keine Sprechzeit.",
+     "a": true,
+     "at": "06:26",
+     "ev": "Sie rufen außerhalb unserer Sprechzeiten an.",
+     "why": "„Sie rufen außerhalb unserer Sprechzeiten an“: you're calling outside the office hours, so nobody is there to answer right now.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "außerhalb",
+       "outside (of)"
+      ],
+      [
+       "das Anliegen",
+       "request, matter"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Telefonisch erreicht man die Agentur montags bis freitags bis 20 Uhr.",
+     "a": false,
+     "at": "06:33",
+     "ev": "von Montag bis Freitag zwischen 8 und 18 Uhr",
+     "why": "Phone advice is available Monday to Friday from 8 to 18 Uhr, which is 6 p.m. The days are right, but the closing time is not.",
+     "trap": "number",
+     "w": [
+      [
+       "die Sprechzeiten",
+       "office hours"
+      ],
+      [
+       "erreichbar",
+       "reachable, available"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Am Donnerstag schließt das Studio schon um 18 Uhr.",
+     "a": true,
+     "at": "08:06",
+     "ev": "am Donnerstag ist Feiertag … nur von 10 bis 18 Uhr geöffnet",
+     "why": "Thursday is a holiday, so the gym is open only from 10 to 18 Uhr. The 23 Uhr you hear next is for today.",
+     "trap": "when",
+     "w": [
+      [
+       "der Feiertag",
+       "public holiday"
+      ],
+      [
+       "wie gewohnt",
+       "as usual"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Der Kurs „Bauch, Beine, Po“ ist heute wie immer auf der Gymnastikfläche.",
+     "a": false,
+     "at": "08:30",
+     "ev": "heute ausnahmsweise in den großen Raum … nicht auf der Gymnastikfläche wie sonst",
+     "why": "Today is an exception: the class is in the big room, not on the usual exercise floor. Ausnahmsweise and wie sonst are the key words.",
+     "trap": "change",
+     "w": [
+      [
+       "ausnahmsweise",
+       "as an exception"
+      ],
+      [
+       "die Gymnastikfläche",
+       "exercise floor"
+      ],
+      [
+       "wie sonst",
+       "as usual"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

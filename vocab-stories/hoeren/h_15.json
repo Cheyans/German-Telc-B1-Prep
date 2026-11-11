@@ -1,0 +1,215 @@
+{
+ "audio": "15",
+ "mt": 3,
+ "teil": 3,
+ "page": 86,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Radio, Sprachnachricht und Ansagen",
+   "from": "00:48",
+   "to": "09:23",
+   "intro": "Sie hören fünf kurze Texte: eine Radiomeldung, eine Sprachnachricht, einen Wetterbericht, eine Durchsage im Supermarkt und eine Telefonansage. Sie hören jeden Text zweimal.",
+   "items": [
+    {
+     "t": 1,
+     "s": "Die Probleme mit der Kartenzahlung gibt es nur bei einigen Banken.",
+     "a": false,
+     "at": "01:09",
+     "ev": "betroffen sind alle Arten von Karten und Banken",
+     "why": "The report says „alle Arten von Karten und Banken“ are affected: all banks, not just some.",
+     "trap": "overstate",
+     "w": [
+      [
+       "die Kartenzahlung",
+       "paying by card"
+      ],
+      [
+       "betroffen sein",
+       "to be affected"
+      ]
+     ]
+    },
+    {
+     "t": 1,
+     "s": "Es ist nicht das erste Mal in diesem Jahr, dass es solche Probleme gibt.",
+     "a": true,
+     "at": "01:15",
+     "ev": "Und das zum zweiten Mal in diesem Jahr. Schon im April",
+     "why": "„Zum zweiten Mal in diesem Jahr“: there were already problems in April, so this is not the first time.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Störung",
+       "disruption, outage"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Ihr Freund hat zwei Plätze nebeneinander bekommen.",
+     "a": false,
+     "at": "03:07",
+     "ev": "Es gab keine Plätze mehr nebeneinander.",
+     "why": "„Keine Plätze mehr nebeneinander“ means there were no seats together left. The statement copies the words but drops the keine.",
+     "trap": "negation",
+     "w": [
+      [
+       "nebeneinander",
+       "side by side"
+      ],
+      [
+       "viel los sein",
+       "to be busy, crowded"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Ihr Freund geht schon ohne Sie ins Kino.",
+     "a": true,
+     "at": "03:10",
+     "ev": "Ich gehe jetzt rein und hole mir Popcorn.",
+     "why": "He complains about standing around in front of the cinema, but he doesn't keep waiting. „Ich gehe jetzt rein“: he goes in now and sends you your ticket.",
+     "trap": "change",
+     "w": [
+      [
+       "wie bestellt und nicht abgeholt",
+       "left standing around, stood up"
+      ],
+      [
+       "sich beeilen",
+       "to hurry"
+      ],
+      [
+       "Das nervt.",
+       "That's annoying."
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Heute Nachmittag regnet es vielerorts stark.",
+     "a": false,
+     "at": "04:41",
+     "ev": "Nachmittags kommt es dann vielerorts zu leichtem Regen.",
+     "why": "This afternoon there is only light rain („zu leichtem Regen“). The strong showers („zu starken Regenschauern“) come tomorrow evening, mostly in the south.",
+     "trap": "same-word",
+     "w": [
+      [
+       "wechselhaft",
+       "changeable"
+      ],
+      [
+       "vielerorts",
+       "in many places"
+      ],
+      [
+       "der Regenschauer",
+       "rain shower"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Morgen wird es etwas kühler als heute.",
+     "a": true,
+     "at": "04:50",
+     "ev": "Höchstwerten von 14 Grad … Temperaturen um 13 Grad",
+     "why": "Today's highs reach 14 degrees, and tomorrow brings „Temperaturen um 13 Grad“. So tomorrow is a little cooler.",
+     "trap": "number",
+     "w": [
+      [
+       "der Höchstwert",
+       "high (temperature)"
+      ],
+      [
+       "abwechselnd",
+       "alternately"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Die Sonderangebote zum Geburtstag gibt es nur heute.",
+     "a": false,
+     "at": "06:17",
+     "ev": "Zu unserem 30. gibt es diese Woche super Sonderangebote.",
+     "why": "The birthday offers run „diese Woche“, the whole week. „Heute“ only introduces today's bakery and fruit deals and the wheel of fortune.",
+     "trap": "overstate",
+     "w": [
+      [
+       "das Sonderangebot",
+       "special offer"
+      ],
+      [
+       "Ihrer Wahl",
+       "of your choice"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Drei Mangos kosten genauso viel wie drei Stück Apfelkuchen.",
+     "a": true,
+     "at": "06:37",
+     "ev": "Apfelkuchen für 3,33 Euro … 3 Mangos für 3,33 Euro",
+     "why": "Both cost 3.33 euros. The 3.50 euros is for one bread and three rolls, and the pears cost 3 euros.",
+     "trap": "number",
+     "w": [
+      [
+       "die Abteilung",
+       "department"
+      ],
+      [
+       "die Birne",
+       "pear"
+      ],
+      [
+       "das Glücksrad",
+       "wheel of fortune"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "An den Automaten bekommt man auch nach 17 Uhr noch Tickets.",
+     "a": true,
+     "at": "09:07",
+     "ev": "bis 17 Uhr am Haupteingang … auch jederzeit an unseren Ticketautomaten",
+     "why": "17 Uhr is only when the main entrance stops selling tickets. At the ticket machines you can buy them „jederzeit“, at any time, and online too.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "jederzeit",
+       "at any time"
+      ],
+      [
+       "der Haupteingang",
+       "main entrance"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Die günstigere Familienkarte kann man auch online kaufen.",
+     "a": false,
+     "at": "09:15",
+     "ev": "Familienkarte sowie Jahreskarten sind nur an den Kassen erhältlich",
+     "why": "Normal tickets are sold online too, but the cheaper family ticket and annual passes are „nur an den Kassen erhältlich“, only at the ticket desks.",
+     "trap": "same-word",
+     "w": [
+      [
+       "erhältlich",
+       "available"
+      ],
+      [
+       "die Kasse",
+       "ticket desk"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

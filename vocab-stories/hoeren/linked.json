@@ -1,0 +1,1702 @@
+[
+ {
+  "id": "DWV1",
+  "src": "dw",
+  "set": "DW: Deine Deutschprüfung B1 · Vorbereitung",
+  "part": "Hören Teil 1",
+  "what": "Tipps und Übungen",
+  "do": "Mach die sechs kurze Übungen bis „Teil 1: Teste dich!“. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/teil-1-die-aufgabe-lesen/l-73044718/e-73045091",
+  "go": "Übung bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "DWV2",
+  "src": "dw",
+  "set": "DW: Deine Deutschprüfung B1 · Vorbereitung",
+  "part": "Hören Teil 2",
+  "what": "Tipps und Übungen",
+  "do": "Mach die fünf kurze Übungen bis „Teil 2: Teste dich!“. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/teil-2-die-aufgaben-lesen-1/l-73044718/e-73045833",
+  "go": "Übung bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "DWV3",
+  "src": "dw",
+  "set": "DW: Deine Deutschprüfung B1 · Vorbereitung",
+  "part": "Hören Teil 3",
+  "what": "Tipps und Übungen",
+  "do": "Mach die fünf kurze Übungen bis „Teil 3: Teste dich! (2)“. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/teil-3-die-aufgaben-lesen/l-73044718/e-73046407",
+  "go": "Übung bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "TB1",
+  "src": "telc",
+  "set": "telc Deutsch B1 · Übungstest 1",
+  "part": "Hörverstehen Teil 1",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden nur einmal. Sind die Aussagen 41 bis 45 richtig oder falsch?",
+  "n": 5,
+  "items": "41 bis 45",
+  "plays": 1,
+  "page": "https://www.telc.net/sprachpruefungen/deutsch/zertifikat-deutsch-telc-deutsch-b1/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1_zd_uebungstest_1.pdf",
+   "q": 16,
+   "key": 43,
+   "tr": 44
+  },
+  "audio": {
+   "file": "telc_deutsch_b1_zd_uebungstest_4.mp3",
+   "from": "0:00",
+   "to": "5:40",
+   "note": "Die Datei heißt „_4“, gehört aber zu Übungstest 1."
+  },
+  "min": 8
+ },
+ {
+  "id": "TB2",
+  "src": "telc",
+  "set": "telc Deutsch B1 · Übungstest 1",
+  "part": "Hörverstehen Teil 2",
+  "what": "10 Aussagen",
+  "task": "Sie hören ein Gespräch, zweimal. Sind die Aussagen 46 bis 55 richtig oder falsch?",
+  "n": 10,
+  "items": "46 bis 55",
+  "plays": 2,
+  "page": "https://www.telc.net/sprachpruefungen/deutsch/zertifikat-deutsch-telc-deutsch-b1/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1_zd_uebungstest_1.pdf",
+   "q": 17,
+   "key": 43,
+   "tr": 44
+  },
+  "audio": {
+   "file": "telc_deutsch_b1_zd_uebungstest_4.mp3",
+   "from": "5:40",
+   "to": "15:10",
+   "note": "Die Datei heißt „_4“, gehört aber zu Übungstest 1."
+  },
+  "min": 12
+ },
+ {
+  "id": "TB3",
+  "src": "telc",
+  "set": "telc Deutsch B1 · Übungstest 1",
+  "part": "Hörverstehen Teil 3",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Sind die Aussagen 56 bis 60 richtig oder falsch?",
+  "n": 5,
+  "items": "56 bis 60",
+  "plays": 2,
+  "page": "https://www.telc.net/sprachpruefungen/deutsch/zertifikat-deutsch-telc-deutsch-b1/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1_zd_uebungstest_1.pdf",
+   "q": 18,
+   "key": 43,
+   "tr": 44
+  },
+  "audio": {
+   "file": "telc_deutsch_b1_zd_uebungstest_4.mp3",
+   "from": "15:10",
+   "to": "24:59",
+   "note": "Die Datei heißt „_4“, gehört aber zu Übungstest 1."
+  },
+  "min": 12
+ },
+ {
+  "id": "TS1",
+  "src": "telc",
+  "set": "telc Deutsch B1 Schule · Übungstest 1",
+  "part": "Hörverstehen Teil 1",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden nur einmal. Sind die Aussagen 41 bis 45 richtig oder falsch?",
+  "n": 5,
+  "items": "41 bis 45",
+  "plays": 1,
+  "page": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1-schule/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1_schule.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1-schule_uebungstest_1.pdf",
+   "q": 16,
+   "key": 42,
+   "tr": 43
+  },
+  "audio": {
+   "file": "telc_deutsch_b1-schule_uebungstest_1.mp3",
+   "from": "0:00",
+   "to": "6:20"
+  },
+  "min": 8
+ },
+ {
+  "id": "TS2",
+  "src": "telc",
+  "set": "telc Deutsch B1 Schule · Übungstest 1",
+  "part": "Hörverstehen Teil 2",
+  "what": "10 Aussagen",
+  "task": "Sie hören ein Gespräch, zweimal. Sind die Aussagen 46 bis 55 richtig oder falsch?",
+  "n": 10,
+  "items": "46 bis 55",
+  "plays": 2,
+  "page": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1-schule/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1_schule.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1-schule_uebungstest_1.pdf",
+   "q": 17,
+   "key": 42,
+   "tr": 43
+  },
+  "audio": {
+   "file": "telc_deutsch_b1-schule_uebungstest_1.mp3",
+   "from": "6:20",
+   "to": "18:40"
+  },
+  "min": 12
+ },
+ {
+  "id": "TS3",
+  "src": "telc",
+  "set": "telc Deutsch B1 Schule · Übungstest 1",
+  "part": "Hörverstehen Teil 3",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Sind die Aussagen 56 bis 60 richtig oder falsch?",
+  "n": 5,
+  "items": "56 bis 60",
+  "plays": 2,
+  "page": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1-schule/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1_schule.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1-schule_uebungstest_1.pdf",
+   "q": 18,
+   "key": 42,
+   "tr": 43
+  },
+  "audio": {
+   "file": "telc_deutsch_b1-schule_uebungstest_1.mp3",
+   "from": "18:40",
+   "to": "28:16"
+  },
+  "min": 12
+ },
+ {
+  "id": "TP1",
+  "src": "telc",
+  "set": "telc Deutsch B1+ Beruf · Übungstest 1",
+  "part": "Hörverstehen Teil 1",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden nur einmal. Sind die Aussagen 41 bis 45 richtig oder falsch?",
+  "n": 5,
+  "items": "41 bis 45",
+  "plays": 1,
+  "page": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1-beruf/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1_beruf.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1plus_beruf_uebungstest_1.pdf",
+   "q": 16,
+   "key": 42,
+   "tr": 43
+  },
+  "audio": {
+   "file": "telc_deutsch_b1plus_beruf_modelltest_1.mp3",
+   "from": "0:00",
+   "to": "6:45"
+  },
+  "min": 8
+ },
+ {
+  "id": "TP2",
+  "src": "telc",
+  "set": "telc Deutsch B1+ Beruf · Übungstest 1",
+  "part": "Hörverstehen Teil 2",
+  "what": "10 Aussagen",
+  "task": "Sie hören ein Gespräch, zweimal. Sind die Aussagen 46 bis 55 richtig oder falsch?",
+  "n": 10,
+  "items": "46 bis 55",
+  "plays": 2,
+  "page": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1-beruf/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1_beruf.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1plus_beruf_uebungstest_1.pdf",
+   "q": 17,
+   "key": 42,
+   "tr": 43
+  },
+  "audio": {
+   "file": "telc_deutsch_b1plus_beruf_modelltest_1.mp3",
+   "from": "6:45",
+   "to": "18:10"
+  },
+  "min": 12
+ },
+ {
+  "id": "TP3",
+  "src": "telc",
+  "set": "telc Deutsch B1+ Beruf · Übungstest 1",
+  "part": "Hörverstehen Teil 3",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Sind die Aussagen 56 bis 60 richtig oder falsch?",
+  "n": 5,
+  "items": "56 bis 60",
+  "plays": 2,
+  "page": "https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-b1-beruf/",
+  "get": "https://www.telc.net/fileadmin/user_upload/mock_exams/Deutsch/telc_deutsch_b1_beruf.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "telc_deutsch_b1plus_beruf_uebungstest_1.pdf",
+   "q": 18,
+   "key": 42,
+   "tr": 43
+  },
+  "audio": {
+   "file": "telc_deutsch_b1plus_beruf_modelltest_1.mp3",
+   "from": "18:10",
+   "to": "27:39"
+  },
+  "min": 12
+ },
+ {
+  "id": "OE1",
+  "src": "osd",
+  "set": "ÖSD Zertifikat Deutsch Österreich B1 · Modellsatz",
+  "part": "Hören Aufgabe 1",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden nur einmal. Sind die Aussagen 41 bis 45 richtig oder falsch?",
+  "n": 5,
+  "items": "41 bis 45",
+  "plays": 1,
+  "page": "https://osd.at/downloads/",
+  "get": "https://osd.at/wp-content/uploads/2026/08/ZDOe-B1_Modellsatz.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "ZDÖ B1 Modellsatz HP.pdf",
+   "q": 11,
+   "key": 20
+  },
+  "audio": {
+   "file": "B1_ZDO_MS_A1.mp3",
+   "from": "0:00",
+   "to": "5:07"
+  },
+  "min": 8
+ },
+ {
+  "id": "OE2",
+  "src": "osd",
+  "set": "ÖSD Zertifikat Deutsch Österreich B1 · Modellsatz",
+  "part": "Hören Aufgabe 2",
+  "what": "10 Aussagen",
+  "task": "Sie hören ein Gespräch, zweimal. Sind die Aussagen 46 bis 55 richtig oder falsch?",
+  "n": 10,
+  "items": "46 bis 55",
+  "plays": 2,
+  "page": "https://osd.at/downloads/",
+  "get": "https://osd.at/wp-content/uploads/2026/08/ZDOe-B1_Modellsatz.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "ZDÖ B1 Modellsatz HP.pdf",
+   "q": 11,
+   "key": 20
+  },
+  "audio": {
+   "file": "B1_ZDO_MS_A2.mp3",
+   "from": "0:00",
+   "to": "8:53"
+  },
+  "min": 12
+ },
+ {
+  "id": "OE3",
+  "src": "osd",
+  "set": "ÖSD Zertifikat Deutsch Österreich B1 · Modellsatz",
+  "part": "Hören Aufgabe 3",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Sind die Aussagen 56 bis 60 richtig oder falsch?",
+  "n": 5,
+  "items": "56 bis 60",
+  "plays": 2,
+  "page": "https://osd.at/downloads/",
+  "get": "https://osd.at/wp-content/uploads/2026/08/ZDOe-B1_Modellsatz.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "ZDÖ B1 Modellsatz HP.pdf",
+   "q": 12,
+   "key": 20
+  },
+  "audio": {
+   "file": "B1_ZDO_MS_A3_290817.mp3",
+   "from": "0:00",
+   "to": "8:27"
+  },
+  "min": 12
+ },
+ {
+  "id": "OJ1",
+  "src": "osd",
+  "set": "ÖSD Zertifikat Deutsch Österreich B1 · Modellsatz Jugendliche",
+  "part": "Hören Aufgabe 1",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden nur einmal. Sind die Aussagen 41 bis 45 richtig oder falsch?",
+  "n": 5,
+  "items": "41 bis 45",
+  "plays": 1,
+  "page": "https://osd.at/downloads/",
+  "get": "https://osd.at/wp-content/uploads/2026/08/ZDOe-B1_Jugendliche_Modellsatz.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "ZDÖ B1 J Modellsatz HP.pdf",
+   "q": 11,
+   "key": 20
+  },
+  "audio": {
+   "file": "B1_ZDO_J_MS_A1_180917.mp3",
+   "from": "0:00",
+   "to": "5:02"
+  },
+  "min": 8
+ },
+ {
+  "id": "OJ2",
+  "src": "osd",
+  "set": "ÖSD Zertifikat Deutsch Österreich B1 · Modellsatz Jugendliche",
+  "part": "Hören Aufgabe 2",
+  "what": "10 Aussagen",
+  "task": "Sie hören ein Gespräch, zweimal. Sind die Aussagen 46 bis 55 richtig oder falsch?",
+  "n": 10,
+  "items": "46 bis 55",
+  "plays": 2,
+  "page": "https://osd.at/downloads/",
+  "get": "https://osd.at/wp-content/uploads/2026/08/ZDOe-B1_Jugendliche_Modellsatz.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "ZDÖ B1 J Modellsatz HP.pdf",
+   "q": 11,
+   "key": 20
+  },
+  "audio": {
+   "file": "B1_ZDO_J_MS_A2_180917.mp3",
+   "from": "0:00",
+   "to": "10:13"
+  },
+  "min": 12
+ },
+ {
+  "id": "OJ3",
+  "src": "osd",
+  "set": "ÖSD Zertifikat Deutsch Österreich B1 · Modellsatz Jugendliche",
+  "part": "Hören Aufgabe 3",
+  "what": "5 Aussagen",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Sind die Aussagen 56 bis 60 richtig oder falsch?",
+  "n": 5,
+  "items": "56 bis 60",
+  "plays": 2,
+  "page": "https://osd.at/downloads/",
+  "get": "https://osd.at/wp-content/uploads/2026/08/ZDOe-B1_Jugendliche_Modellsatz.zip",
+  "getlab": "ZIP herunterladen",
+  "pdf": {
+   "name": "ZDÖ B1 J Modellsatz HP.pdf",
+   "q": 12,
+   "key": 20
+  },
+  "audio": {
+   "file": "B1_ZDO_J_MS_A3_180917.mp3",
+   "from": "0:00",
+   "to": "8:35"
+  },
+  "min": 12
+ },
+ {
+  "id": "DWT1",
+  "src": "dw",
+  "set": "DW: Deine Deutschprüfung B1 · Test",
+  "part": "Hören Teil 1: persönliche Berichte",
+  "what": "wie in der Prüfung",
+  "do": "Mach die Übung. DW zeigt dir danach die Lösungen.",
+  "url": "https://learngerman.dw.com/de/teil-1-pers%C3%B6nliche-berichte/l-73033929/e-73034091",
+  "go": "Test bei DW öffnen",
+  "min": 12
+ },
+ {
+  "id": "DWT2",
+  "src": "dw",
+  "set": "DW: Deine Deutschprüfung B1 · Test",
+  "part": "Hören Teil 2: ein Gespräch",
+  "what": "wie in der Prüfung",
+  "do": "Mach die Übung. DW zeigt dir danach die Lösungen.",
+  "url": "https://learngerman.dw.com/de/teil-2-ein-gespr%C3%A4ch/l-73033929/e-73034182",
+  "go": "Test bei DW öffnen",
+  "min": 12
+ },
+ {
+  "id": "DWT3",
+  "src": "dw",
+  "set": "DW: Deine Deutschprüfung B1 · Test",
+  "part": "Hören Teil 3: Informationstexte",
+  "what": "wie in der Prüfung",
+  "do": "Mach beide Übungen, Informationstexte (1) und (2). DW zeigt dir danach die Lösungen.",
+  "url": "https://learngerman.dw.com/de/teil-3-informationstexte-1/l-73033929/e-73034302",
+  "go": "Test bei DW öffnen",
+  "min": 12
+ },
+ {
+  "id": "G1E1",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Erwachsene)",
+  "part": "Hören Teil 1",
+  "what": "10 Aufgaben",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Zu jedem Text lösen Sie zwei Aufgaben: richtig oder falsch, dann a, b oder c (Aufgaben 1 bis 10).",
+  "n": 10,
+  "items": "1 bis 10",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf",
+   "q": 18,
+   "key": 33,
+   "tr": 34
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_erwachsene.mp4",
+   "from": "0:00",
+   "to": "10:40"
+  },
+  "min": 14
+ },
+ {
+  "id": "G1E2",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Erwachsene)",
+  "part": "Hören Teil 2",
+  "what": "5 Aufgaben",
+  "task": "Sie hören einen Text, nur einmal. Wählen Sie bei den Aufgaben 11 bis 15 a, b oder c.",
+  "n": 5,
+  "items": "11 bis 15",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf",
+   "q": 19,
+   "key": 33,
+   "tr": 35
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_erwachsene.mp4",
+   "from": "10:40",
+   "to": "15:09"
+  },
+  "min": 8
+ },
+ {
+  "id": "G1E3",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Erwachsene)",
+  "part": "Hören Teil 3",
+  "what": "7 Aussagen",
+  "task": "Sie hören ein Gespräch, nur einmal. Sind die Aussagen 16 bis 22 richtig oder falsch?",
+  "n": 7,
+  "items": "16 bis 22",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf",
+   "q": 20,
+   "key": 33,
+   "tr": 36
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_erwachsene.mp4",
+   "from": "15:09",
+   "to": "20:18"
+  },
+  "min": 8
+ },
+ {
+  "id": "G1E4",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Erwachsene)",
+  "part": "Hören Teil 4",
+  "what": "8 Aussagen",
+  "task": "Sie hören eine Diskussion, zweimal. Wer sagt was? Ordnen Sie die Aussagen 23 bis 30 zu.",
+  "n": 8,
+  "items": "23 bis 30",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_erwachsene.pdf",
+   "q": 21,
+   "key": 33,
+   "tr": 37
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_erwachsene.mp4",
+   "from": "20:18",
+   "to": "32:10"
+  },
+  "min": 16
+ },
+ {
+  "id": "G2E1",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Erwachsene)",
+  "part": "Hören Teil 1",
+  "what": "10 Aufgaben",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Zu jedem Text lösen Sie zwei Aufgaben: richtig oder falsch, dann a, b oder c (Aufgaben 1 bis 10).",
+  "n": 10,
+  "items": "1 bis 10",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Erwachsene.pdf",
+   "q": 18,
+   "key": 33,
+   "tr": 35
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_2_hoeren_b1_erwachsene.mp4",
+   "from": "0:00",
+   "to": "11:18"
+  },
+  "min": 14
+ },
+ {
+  "id": "G2E2",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Erwachsene)",
+  "part": "Hören Teil 2",
+  "what": "5 Aufgaben",
+  "task": "Sie hören einen Text, nur einmal. Wählen Sie bei den Aufgaben 11 bis 15 a, b oder c.",
+  "n": 5,
+  "items": "11 bis 15",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Erwachsene.pdf",
+   "q": 19,
+   "key": 33,
+   "tr": 36
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_2_hoeren_b1_erwachsene.mp4",
+   "from": "11:18",
+   "to": "16:25"
+  },
+  "min": 8
+ },
+ {
+  "id": "G2E3",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Erwachsene)",
+  "part": "Hören Teil 3",
+  "what": "7 Aussagen",
+  "task": "Sie hören ein Gespräch, nur einmal. Sind die Aussagen 16 bis 22 richtig oder falsch?",
+  "n": 7,
+  "items": "16 bis 22",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Erwachsene.pdf",
+   "q": 20,
+   "key": 33,
+   "tr": 37
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_2_hoeren_b1_erwachsene.mp4",
+   "from": "16:25",
+   "to": "21:10"
+  },
+  "min": 8
+ },
+ {
+  "id": "G2E4",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Erwachsene)",
+  "part": "Hören Teil 4",
+  "what": "8 Aussagen",
+  "task": "Sie hören eine Diskussion, zweimal. Wer sagt was? Ordnen Sie die Aussagen 23 bis 30 zu.",
+  "n": 8,
+  "items": "23 bis 30",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Erwachsene.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Erwachsene.pdf",
+   "q": 21,
+   "key": 33,
+   "tr": 38
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_2_hoeren_b1_erwachsene.mp4",
+   "from": "21:10",
+   "to": "33:59"
+  },
+  "min": 16
+ },
+ {
+  "id": "G1J1",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Jugendliche)",
+  "part": "Hören Teil 1",
+  "what": "10 Aufgaben",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Zu jedem Text lösen Sie zwei Aufgaben: richtig oder falsch, dann a, b oder c (Aufgaben 1 bis 10).",
+  "n": 10,
+  "items": "1 bis 10",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_jugend.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_jugend.pdf",
+   "q": 18,
+   "key": 33,
+   "tr": 34
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_jugendliche.mp4",
+   "from": "0:00",
+   "to": "10:09"
+  },
+  "min": 14
+ },
+ {
+  "id": "G1J2",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Jugendliche)",
+  "part": "Hören Teil 2",
+  "what": "5 Aufgaben",
+  "task": "Sie hören einen Text, nur einmal. Wählen Sie bei den Aufgaben 11 bis 15 a, b oder c.",
+  "n": 5,
+  "items": "11 bis 15",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_jugend.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_jugend.pdf",
+   "q": 19,
+   "key": 33,
+   "tr": 35
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_jugendliche.mp4",
+   "from": "10:09",
+   "to": "15:02"
+  },
+  "min": 8
+ },
+ {
+  "id": "G1J3",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Jugendliche)",
+  "part": "Hören Teil 3",
+  "what": "7 Aussagen",
+  "task": "Sie hören ein Gespräch, nur einmal. Sind die Aussagen 16 bis 22 richtig oder falsch?",
+  "n": 7,
+  "items": "16 bis 22",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_jugend.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_jugend.pdf",
+   "q": 20,
+   "key": 33,
+   "tr": 36
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_jugendliche.mp4",
+   "from": "15:02",
+   "to": "19:37"
+  },
+  "min": 8
+ },
+ {
+  "id": "G1J4",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 1 (Jugendliche)",
+  "part": "Hören Teil 4",
+  "what": "8 Aussagen",
+  "task": "Sie hören eine Diskussion, zweimal. Wer sagt was? Ordnen Sie die Aussagen 23 bis 30 zu.",
+  "n": 8,
+  "items": "23 bis 30",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "b1_modellsatz_jugend.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/b1_modellsatz_jugend.pdf",
+   "q": 21,
+   "key": 33,
+   "tr": 37
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp468/pruefungstraining_1_hoeren_b1_jugendliche.mp4",
+   "from": "19:37",
+   "to": "31:27"
+  },
+  "min": 16
+ },
+ {
+  "id": "G2J1",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Jugendliche)",
+  "part": "Hören Teil 1",
+  "what": "10 Aufgaben",
+  "task": "Sie hören fünf kurze Texte, jeden zweimal. Zu jedem Text lösen Sie zwei Aufgaben: richtig oder falsch, dann a, b oder c (Aufgaben 1 bis 10).",
+  "n": 10,
+  "items": "1 bis 10",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Jugendliche.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Jugendliche.pdf",
+   "q": 18,
+   "key": 33,
+   "tr": 35
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp310/pruefungstraining_2_hoeren_b1_jugendliche.mp3",
+   "from": "0:00",
+   "to": "11:53"
+  },
+  "min": 14
+ },
+ {
+  "id": "G2J2",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Jugendliche)",
+  "part": "Hören Teil 2",
+  "what": "5 Aufgaben",
+  "task": "Sie hören einen Text, nur einmal. Wählen Sie bei den Aufgaben 11 bis 15 a, b oder c.",
+  "n": 5,
+  "items": "11 bis 15",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Jugendliche.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Jugendliche.pdf",
+   "q": 19,
+   "key": 33,
+   "tr": 36
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp310/pruefungstraining_2_hoeren_b1_jugendliche.mp3",
+   "from": "11:53",
+   "to": "17:04"
+  },
+  "min": 8
+ },
+ {
+  "id": "G2J3",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Jugendliche)",
+  "part": "Hören Teil 3",
+  "what": "7 Aussagen",
+  "task": "Sie hören ein Gespräch, nur einmal. Sind die Aussagen 16 bis 22 richtig oder falsch?",
+  "n": 7,
+  "items": "16 bis 22",
+  "plays": 1,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Jugendliche.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Jugendliche.pdf",
+   "q": 20,
+   "key": 33,
+   "tr": 37
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp310/pruefungstraining_2_hoeren_b1_jugendliche.mp3",
+   "from": "17:04",
+   "to": "22:12"
+  },
+  "min": 8
+ },
+ {
+  "id": "G2J4",
+  "src": "goethe",
+  "set": "Goethe-Zertifikat B1 · Prüfungstraining 2 (Jugendliche)",
+  "part": "Hören Teil 4",
+  "what": "8 Aussagen",
+  "task": "Sie hören eine Diskussion, zweimal. Wer sagt was? Ordnen Sie die Aussagen 23 bis 30 zu.",
+  "n": 8,
+  "items": "23 bis 30",
+  "plays": 2,
+  "page": "https://www.goethe.de/de/spr/prf/ueb/pb1.html",
+  "pdf": {
+   "name": "B1_Uebungssatz_Jugendliche.pdf",
+   "url": "https://www.goethe.de/pro/relaunch/prf/materialien/B1/B1_Uebungssatz_Jugendliche.pdf",
+   "q": 21,
+   "key": 33,
+   "tr": 38
+  },
+  "audio": {
+   "url": "https://goethemp4s.akamaized.net/resources/files/mp310/pruefungstraining_2_hoeren_b1_jugendliche.mp3",
+   "from": "22:12",
+   "to": "34:29"
+  },
+  "min": 16
+ },
+ {
+  "id": "NW01",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 1 von 76: Berufsberatung",
+  "what": "Berufliche Interessen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/berufsberatung/l-38462985",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW02",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 2 von 76: Meine Muttersprache",
+  "what": "Sprachbiografien",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/meine-muttersprache/l-38462119",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW03",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 3 von 76: Bei der Arbeit",
+  "what": "Arbeitsbedingungen · Indirekte Fragesätze: ob",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/bei-der-arbeit/l-38463139",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW04",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 4 von 76: Zukunftspläne",
+  "what": "Ziele und Pläne · Modalverben",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/zukunftspl%C3%A4ne/l-38463290",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW05",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 5 von 76: Zu wenig Zeit?",
+  "what": "Über Zeit sprechen · Nominalisierung",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/zu-wenig-zeit/l-38464354",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW06",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 6 von 76: Keine Zeit",
+  "what": "Zeitmanagement · Nebensätze: während",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/keine-zeit/l-56006848",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW07",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 7 von 76: Pünktlichkeit",
+  "what": "Thema Pünktlichkeit",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/p%C3%BCnktlichkeit/l-38464021",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW08",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 8 von 76: Jetzt oder nie",
+  "what": "Zeitpunkte definieren · Indirekte Rede",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/jetzt-oder-nie/l-38462994",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW09",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 9 von 76: Heimat",
+  "what": "Über Heimat sprechen · Präteritum: unregelmäßig",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/heimat/l-38463594",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW10",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 10 von 76: Krieg und Frieden",
+  "what": "Persönliche Erlebnisse",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/krieg-und-frieden/l-38462968",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW11",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 11 von 76: Die Mauer",
+  "what": "Deutsche Geschichte · Präteritum oder Perfekt?",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/die-mauer/l-38463064",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW12",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 12 von 76: Wiedervereinigung",
+  "what": "Über Geschichte sprechen · Satzbau: Hauptsätze",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/wiedervereinigung/l-38465597",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW13",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 13 von 76: Alltagsprobleme",
+  "what": "Über Probleme sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/alltagsprobleme/l-38470438",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW14",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 14 von 76: Geldprobleme",
+  "what": "Begründungen · Adverbien: Gründe",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/geldprobleme/l-38466214",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW15",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 15 von 76: Tipps und Ratschläge",
+  "what": "Über Stress sprechen · Konjunktiv II: Tipps",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/tipps-und-ratschl%C3%A4ge/l-38466970",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW16",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 16 von 76: Alle haben Probleme",
+  "what": "Ratschläge geben",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/alle-haben-probleme/l-38467525",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW17",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 17 von 76: Jobsuche",
+  "what": "Über Fähigkeiten sprechen · Doppelkonjunktionen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/jobsuche/l-38467171",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW18",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 18 von 76: Stellenanzeigen",
+  "what": "Stellenanzeigen verstehen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/stellenanzeigen/l-38467719",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW19",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 19 von 76: Bewerbungen",
+  "what": "Eine Bewerbung schreiben",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/bewerbungen/l-38467622",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW20",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 20 von 76: Der erste Eindruck",
+  "what": "Das Bewerbungsgespräch · Finalsätze: um ... zu",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/der-erste-eindruck/l-38469854",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW21",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 21 von 76: Typisch?",
+  "what": "Über Klischees sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/typisch/l-38470217",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW22",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 22 von 76: Anders!",
+  "what": "Personenbeschreibung · Wortbildung: Adjektive",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/anders/l-38470706",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW23",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 23 von 76: Jobs und Gender",
+  "what": "Über Jobs sprechen · Kausale Verbindungen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/jobs-und-gender/l-38472135",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW24",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 24 von 76: Rollenverteilung",
+  "what": "Berufstätigkeit · Nebensätze: obwohl",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/rollenverteilung/l-38481220",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW25",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 25 von 76: Partnersuche",
+  "what": "Partner suchen · Konzessive Verbindungen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/partnersuche/l-38481290",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW26",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 26 von 76: Partnerschaft",
+  "what": "Über Haushalt sprechen · Nebensätze: zu + Infinitiv",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/partnerschaft/l-38481801",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW27",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 27 von 76: Männer und Frauen",
+  "what": "Kommunikationsprobleme · Konjunktionen: sondern",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/m%C3%A4nner-und-frauen/l-38482861",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW28",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 28 von 76: Beziehungsprobleme",
+  "what": "Über Beziehungen sprechen · Doppelkonjunktionen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/beziehungsprobleme/l-38482841",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW29",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 29 von 76: Mein Arbeitsplatz",
+  "what": "Arbeitsplatz und Kollegen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/mein-arbeitsplatz/l-38482450",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW30",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 30 von 76: Mein Gehalt?",
+  "what": "Gehaltsabrechnungen · Negation: nicht/kein",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/mein-gehalt/l-38483260",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW31",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 31 von 76: 112",
+  "what": "Notrufe machen · Präteritum",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/112/l-38483514",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW32",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 32 von 76: Gut versichert",
+  "what": "Unfälle und Versicherung · Nebensätze: wenn",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/gut-versichert/l-38484195",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW33",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 33 von 76: Schule",
+  "what": "Über Schule sprechen · Ordnungszahlen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/schule/l-38483735",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW34",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 34 von 76: Schulalltag",
+  "what": "Wünsche äußern · Konjunktiv II: Präsens",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/schulalltag/l-38485158",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW35",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 35 von 76: Lernen",
+  "what": "Über das Lernen sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/lernen/l-38484213",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW36",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 36 von 76: Berufe an der Schule",
+  "what": "Über Schulalltag sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/berufe-an-der-schule/l-38485719",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW37",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 37 von 76: Die Berufswahl",
+  "what": "Berufswahl · Fragewörter: wo(r)-",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/die-berufswahl/l-38485694",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW38",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 38 von 76: Weiterbildung",
+  "what": "Informationen verstehen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/weiterbildung/l-38491718",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW39",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 39 von 76: Praktikum",
+  "what": "Übers Praktikum sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/praktikum/l-38487433",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW40",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 40 von 76: Studium und Beruf",
+  "what": "Übers Studium sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/studium-und-beruf/l-38487338",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW41",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 41 von 76: Wetter und Klima",
+  "what": "Über das Wetter sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/wetter-und-klima/l-38490530",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW42",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 42 von 76: Wieder so ein Wetter",
+  "what": "Klima und Gesundheit · Doppelkonjunktionen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/wieder-so-ein-wetter/l-38487801",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW43",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 43 von 76: Wegen des Wetters",
+  "what": "Über das Klima sprechen · Präpositionen: wegen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/wegen-des-wetters/l-38489408",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW44",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 44 von 76: Es wird wärmer",
+  "what": "Klimawandel · Futur I",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/es-wird-w%C3%A4rmer/l-38496147",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW45",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 45 von 76: Mensch und Umwelt",
+  "what": "Über die Umwelt sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/mensch-und-umwelt/l-38507260",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW46",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 46 von 76: Umweltbelastungen",
+  "what": "Die Umwelt schützen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/umweltbelastungen/l-38506132",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW47",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 47 von 76: Umweltschutz",
+  "what": "Alternative Energien",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/umweltschutz/l-38506134",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW48",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 48 von 76: Wertstoffe",
+  "what": "Über Recycling sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/wertstoffe/l-38513010",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW49",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 49 von 76: In der Zeitung steht",
+  "what": "Zeitungen und Nachrichten",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/in-der-zeitung-steht/l-38511153",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW50",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 50 von 76: In der Redaktion",
+  "what": "Arbeit bei der Zeitung",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/in-der-redaktion/l-38508289",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW51",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 51 von 76: Analog oder digital?",
+  "what": "Alte und neue Medien",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/analog-oder-digital/l-38509295",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW52",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 52 von 76: Kontaktanzeigen",
+  "what": "Über Werbung sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/kontaktanzeigen/l-38508270",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW53",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 53 von 76: Peinlich?!",
+  "what": "Ein Missgeschick schildern",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/peinlich/l-38591182",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW54",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 54 von 76: Richtiges Benehmen",
+  "what": "Benehmen im Restaurant · Modalverben: sollen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/richtiges-benehmen/l-38585076",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW55",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 55 von 76: Benimmregeln",
+  "what": "Verhaltensregeln · Partizip I",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/benimmregeln/l-38582805",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW56",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 56 von 76: Was tun, wenn …?",
+  "what": "Beschwerden · Plusquamperfekt",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/was-tun-wenn/l-38585683",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW57",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 57 von 76: Endlich erwachsen",
+  "what": "Mindestalter · Doppelkonjunktionen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/endlich-erwachsen/l-38517253",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW58",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 58 von 76: Was Eltern erwarten",
+  "what": "Über Erwartungen sprechen · Nebensätze: seit",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/was-eltern-erwarten/l-38507284",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW59",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 59 von 76: Lebenswege",
+  "what": "Über Erfahrungen sprechen · Nebensätze: bevor",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/lebenswege/l-38515178",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW60",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 60 von 76: Noch mal anfangen",
+  "what": "Über Neuanfänge sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/noch-mal-anfangen/l-38515343",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW61",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 61 von 76: Bund und Länder",
+  "what": "Bundesländer · Genitiv",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/bund-und-l%C3%A4nder/l-38565710",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW62",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 62 von 76: Die EU",
+  "what": "Politik und Europa · brauchen + zu + Infinitiv",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/die-eu/l-38573517",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW63",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 63 von 76: Gerechtigkeit?",
+  "what": "Steuer- und Sozialsystem · Nomen auf -heit/-keit",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/gerechtigkeit/l-38574938",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW64",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 64 von 76: Wir haben die Wahl",
+  "what": "Über Wahlen sprechen · Passiv",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/wir-haben-die-wahl/l-38573876",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW65",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 65 von 76: Das Ruhrgebiet",
+  "what": "Regionen beschreiben · Nomen auf -chen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/das-ruhrgebiet/l-38594392",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW66",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 66 von 76: Industrie",
+  "what": "Arbeitsbedingungen · Präpositionen: während",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/industrie/l-38594827",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW67",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 67 von 76: Strukturwandel",
+  "what": "Veränderungen im Leben · Vergleiche: wie/als",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/strukturwandel/l-38594866",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW68",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 68 von 76: Kultur",
+  "what": "Über Kultur sprechen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/kultur/l-38594790",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW69",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 69 von 76: Nach Deutschland",
+  "what": "Über Migration sprechen · Temporale Präpositionen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/nach-deutschland/l-38585038",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW70",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 70 von 76: Migrationsgründe",
+  "what": "Migrationsgeschichten",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/migrationsgr%C3%BCnde/l-38586979",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW71",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 71 von 76: Hin und zurück?",
+  "what": "Gründe für Migration · Relativsätze: Genitiv",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/hin-und-zur%C3%BCck/l-38585901",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW72",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 72 von 76: Existenzgründung",
+  "what": "Geschäftsideen besprechen · Adversative Verbindungen",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/existenzgr%C3%BCndung/l-38591272",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW73",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 73 von 76: Neue Heimat",
+  "what": "Vermutungen äußern · Relativadverb: wo",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/neue-heimat/l-38575949",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW74",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 74 von 76: So geht’s!",
+  "what": "Abläufe beschreiben · lassen + Infinitiv",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/so-gehts/l-38575937",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW75",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 75 von 76: Zukunftspläne",
+  "what": "Gespräche in der Bank · n-Deklination",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/zukunftspl%C3%A4ne/l-38574989",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW76",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Lektion 76 von 76: Wünsche und Träume",
+  "what": "Wünsche ausdrücken · Wünsche ausdrücken",
+  "do": "Schau das Video und mach die Übungen dazu. DW zeigt dir die Lösungen.",
+  "url": "https://learngerman.dw.com/de/w%C3%BCnsche-und-tr%C3%A4ume/l-38575043",
+  "go": "Lektion bei DW öffnen",
+  "min": 15
+ },
+ {
+  "id": "NW77",
+  "src": "nicos",
+  "set": "DW: Nicos Weg B1",
+  "part": "Abschlusstest",
+  "what": "Überprüfe dein Wissen",
+  "do": "Mach den Test. Er prüft den ganzen B1-Kurs.",
+  "url": "https://learngerman.dw.com/de/abschlusstest-b1/l-44070818",
+  "go": "Lektion bei DW öffnen",
+  "min": 20
+ }
+]

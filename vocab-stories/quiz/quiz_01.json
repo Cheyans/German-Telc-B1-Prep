@@ -1,0 +1,75 @@
+{
+ "story": "01",
+ "questions": [
+  {
+   "q": "Welche Gegenstände dürfen während der Prüfung auf Mateos Tisch liegen?",
+   "right": "Der Ausweis, die Stifte und etwas zu trinken.",
+   "wrong": [
+    "Der Ausweis, die Stifte und eine Uhr.",
+    "Der Ausweis, die Stifte und ein kleiner Snack."
+   ],
+   "evidence": "Auf dem Tisch darf außer dem Ausweis, den Stiften, einem Radiergummi, einem Spitzer, Taschentüchern und einer Flasche Wasser kein anderer Gegenstand liegen.",
+   "why": "Only the ID, pens, an eraser, a sharpener, tissues and a bottle of water may be on the table, no other Gegenstand (object). A watch or a snack would be another object.",
+   "words": [
+    "W0950"
+   ]
+  },
+  {
+   "q": "Warum ist Mateos Antwortbogen um Viertel nach zehn fast leer?",
+   "right": "Er wollte die Lösungen erst am Schluss eintragen.",
+   "wrong": [
+    "Er hatte im Lesetext noch keine Lösung gefunden.",
+    "Er hatte den Antwortbogen erst sehr spät bekommen."
+   ],
+   "evidence": "Jede Lösung kreuzt er zuerst im Aufgabenheft an. Am Ende will er alle zusammen auf den Antwortbogen übertragen.",
+   "why": "He marks each answer in the booklet first and plans to copy them all to the answer sheet at the end. He did find answers, and he got the sheet before the exam started.",
+   "words": [
+    "G098",
+    "G115"
+   ]
+  },
+  {
+   "q": "Was erzählt Mateo im ersten Teil der mündlichen Prüfung über seine Sprachen?",
+   "right": "Spanisch hat er schon als kleines Kind gesprochen.",
+   "wrong": [
+    "Englisch spricht er genauso gut wie Spanisch.",
+    "Deutsch braucht er im Alltag nur selten."
+   ],
+   "evidence": "Meine Muttersprache ist Spanisch. Englisch habe ich in der Schule als Fremdsprache gelernt, aber ich spreche es nicht fließend. Deutsch ist für mich eine Zweitsprache, denn ich brauche es hier jeden Tag.",
+   "why": "Muttersprache means native language, so Spanish is the language of his childhood. His English is not fluent, and he needs German every day.",
+   "words": [
+    "W2199",
+    "W0838",
+    "W2200"
+   ]
+  },
+  {
+   "q": "Was sagen die beiden über die Einladung und den Termin?",
+   "right": "Der Termin am Freitag ist noch nicht ganz fest.",
+   "wrong": [
+    "Die anderen Kursteilnehmer haben den Freitag schon bestätigt.",
+    "Die Einladung bekommen alle persönlich im Kurs."
+   ],
+   "evidence": "Die Einladung schicken wir per E-Mail. Wir sagen vorläufig Freitag um sechs, und ich frage die anderen, ob der Termin passt.",
+   "why": "Vorläufig means for now: Friday at six is only a first plan, and Mateo will ask the others if it works. The invitation goes out by email, not in person.",
+   "words": [
+    "W2661",
+    "W1780"
+   ]
+  },
+  {
+   "q": "Was sagt Mateo am Telefon über die Prüfung?",
+   "right": "Er hat sich sehr bemüht und hofft, dass es reicht.",
+   "wrong": [
+    "Er glaubt, dass sich das viele Lernen nicht gelohnt hat.",
+    "Er kennt sein Ergebnis schon und ist sehr froh."
+   ],
+   "evidence": "Ich glaube, es ist gut gelaufen. Ich habe mich wirklich angestrengt. Hoffentlich reicht es.",
+   "why": "Ich habe mich angestrengt means he tried hard, and he only hopes it is enough. He thinks it went well, and the result comes later.",
+   "words": [
+    "W0114",
+    "W1495"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "set": "11",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Wie viel kostet der ganze Abendkurs ungefähr?",
+     "right": "Rund 900 Euro, weil man drei Module einzeln bezahlt.",
+     "wrong": [
+      "Rund 300 Euro, weil die Module zusammen so viel kosten.",
+      "Rund 1.200 Euro, weil es vier Module zu je 300 Euro gibt."
+     ],
+     "evidence": "Sie besuchen einen Abendkurs, der sie in drei Modulen auf die Prüfung B1 vorbereitet. Viele überlegen lange, bevor sie sich anmelden, denn sie geben dafür eigenes Geld aus: Ein Modul kostet rund 300 Euro.",
+     "why": "The course has three modules and one module costs about 300 euros, so the whole course costs about 900 euros. The 300 euros is the price of one module, and there are three modules, not four.",
+     "trap": "same-word",
+     "words": [
+      "G109",
+      "W0196"
+     ]
+    },
+    {
+     "q": "Wie korrigiert Frau Neumann die Texte ihrer Teilnehmer?",
+     "right": "Sie markiert nur die Fehler und schreibt keine Lösung dazu.",
+     "wrong": [
+      "Sie schreibt die richtige Form über jeden Fehler.",
+      "Sie verbessert die Texte und schreibt einen langen Kommentar dazu."
+     ],
+     "evidence": "Ihre Methode beim Korrigieren überrascht viele: Die Fehler werden nur unterstrichen, die richtige Form schreibt sie nicht hin. Die Teilnehmer müssen ihre Texte selbst verbessern, und unter jedem Text steht ein kurzer Kommentar.",
+     "why": "She only underlines the mistakes and does not write the correct form, so the learners fix their texts themselves. Her comment under each text is short, not long.",
+     "trap": "same-word",
+     "words": [
+      "W2510",
+      "W2535",
+      "G106"
+     ]
+    },
+    {
+     "q": "Was sagt Professorin Wehner?",
+     "right": "Fehler, die man selbst entdeckt, behält man besser im Kopf.",
+     "wrong": [
+      "Schlaf ist beim Lernen wichtiger als regelmäßiges Wiederholen.",
+      "Es ist am Anfang anstrengend, die eigenen Fehler zu verbessern."
+     ],
+     "evidence": "„Fehler, die man selbst findet, merkt man sich besser, das ist in der Wissenschaft gut bekannt“, erklärt Professorin Cornelia Wehner, die an einem Institut in Halle zum Sprachenlernen forscht. Laut Wehner ist auch Schlaf ein wichtiger Faktor, denn im Schlaf speichert das Gehirn neue Wörter, und genauso wichtig ist eine regelmäßige Wiederholung.",
+     "why": "Wehner says you remember mistakes better when you find them yourself, and that sleep and regular review are equally important. The remark that it is hard at first comes from Frau Neumann, not from Wehner.",
+     "trap": "who",
+     "words": [
+      "W2771",
+      "W0767",
+      "W2753"
+     ]
+    },
+    {
+     "q": "Was gilt laut Artikel für die Schulen in Sachsen?",
+     "right": "Nach der Grundschule gibt es dort zwei Arten von Schulen.",
+     "wrong": [
+      "Nach der Grundschule besuchen viele Kinder eine Realschule.",
+      "Nach der Grundschule lernen die Kinder zusammen an einer Gesamtschule."
+     ],
+     "evidence": "In Sachsen besuchen die Kinder nach der Grundschule das Gymnasium oder die Oberschule, die früher Mittelschule hieß. In anderen Bundesländern gibt es dagegen zum Beispiel die Realschule oder die Gesamtschule.",
+     "why": "In Saxony children go on to either the Gymnasium or the Oberschule, so there are two kinds of schools. The Realschule and the Gesamtschule are named for other federal states.",
+     "trap": "same-word",
+     "words": [
+      "G125",
+      "G121",
+      "G122"
+     ]
+    },
+    {
+     "q": "Was erfährt man über Karim?",
+     "right": "Er möchte wieder in seinem alten Beruf arbeiten.",
+     "wrong": [
+      "Er unterrichtet zurzeit Mathematik und Physik in Leipzig.",
+      "Sein Diplom ist in Deutschland schon anerkannt."
+     ],
+     "evidence": "Sein Abschluss muss in Deutschland aber erst anerkannt werden, und dafür braucht er eine offizielle Übersetzung seines Diploms. „Ich würde gern wieder als Lehrer arbeiten“, sagt er.",
+     "why": "Karim taught math and physics for ten years and would like to work as a teacher again. He is not teaching now, because his degree still has to be recognized.",
+     "trap": "when",
+     "words": [
+      "W2502",
+      "W0024",
+      "W0522"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "ads",
+   "prompts": [
+    {
+     "id": "1",
+     "text": "Ihre Kollegin möchte wieder arbeiten und sucht für ihren einjährigen Sohn einen Ganztagsplatz.",
+     "answer": "a",
+     "evidence": "Unsere Kindertagesstätte in Leipzig-Gohlis hat ab Januar wieder freie Plätze, auch in der Krippe für Kinder ab einem Jahr.",
+     "why": "Ad a has nursery places for children from age one and is open on weekdays from 6:30 to 17:00. The science course in ad h is only for children aged 6 to 10."
+    },
+    {
+     "id": "2",
+     "text": "Ihre Nachbarin hat bisher nur mit arabischen Buchstaben geschrieben und möchte Deutsch lernen.",
+     "answer": "d",
+     "evidence": "Neu ist ein Kurs für Lerner, die eine andere Schrift gewohnt sind und das lateinische Alphabet erst lernen müssen.",
+     "why": "Ad d has a new German course for people who are used to another script and still need to learn the Latin alphabet."
+    },
+    {
+     "id": "3",
+     "text": "Ihr Sohn ist 16 und braucht vor einer Klassenarbeit Hilfe in Chemie.",
+     "answer": "x",
+     "evidence": "Ich bin Student im siebten Semester und gebe Nachhilfe in Mathe und Physik für Schüler ab Klasse 5.",
+     "why": "Simon in ad b helps before class tests, but only in math and physics. Ad h has chemistry, but only for elementary school children aged 6 to 10, and ad c is in Graz."
+    },
+    {
+     "id": "4",
+     "text": "Ihr Neffe in Graz hat bald Matura und große Probleme beim Rechnen.",
+     "answer": "c",
+     "evidence": "Wir helfen Schülerinnen und Schülern in Graz, Wissenslücken zu schließen: vor jeder Schularbeit und besonders vor der Matura. Unterricht in Mathematik, Englisch und Deutsch, in kleinen Gruppen oder einzeln, Montag bis Samstag.",
+     "why": "Ad c is in Graz and teaches math before the Matura. Ad b also teaches math, but only at home in Leipzig."
+    },
+    {
+     "id": "5",
+     "text": "Ihr Bruder ist gelernter Elektriker, hat kein Abitur und möchte ein Studium beginnen.",
+     "answer": "e",
+     "evidence": "Auch dann können Sie unter bestimmten Bedingungen an einer Fachhochschule studieren.",
+     "why": "Ad e explains that people with vocational training but no Abitur can, under some conditions, study at a university of applied sciences."
+    }
+   ]
+  }
+ ]
+}

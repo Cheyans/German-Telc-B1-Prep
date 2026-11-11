@@ -1,0 +1,79 @@
+{
+ "story": "03",
+ "questions": [
+  {
+   "q": "Was erfährt man über Mateos Situation im Restaurant?",
+   "right": "Trotz höherer Preise verdient er immer noch gleich viel.",
+   "wrong": [
+    "Herr Kessler hat ihn im letzten Monat wegen Geldproblemen entlassen.",
+    "Seine vielen Überstunden bekommt er extra bezahlt."
+   ],
+   "evidence": "Auch sein Einkommen ist zu niedrig: Alles wird teurer, aber sein Lohn ist seit drei Jahren gleich geblieben.",
+   "why": "His Lohn (pay) has stayed the same for three years while everything gets more expensive. Herr Kessler fired two waiters, not Mateo, and nobody pays his overtime.",
+   "words": [
+    "W1494",
+    "W0612",
+    "W0664"
+   ]
+  },
+  {
+   "q": "Was steht in der Anzeige der Firma Sander?",
+   "right": "Man muss eine Ausbildung als Koch haben.",
+   "wrong": [
+    "Die Stelle hat nur zwanzig Stunden pro Woche.",
+    "Die Firma sucht einen Koch für ihr Restaurant."
+   ],
+   "evidence": "Voraussetzung: Sie sind ausgebildeter Koch oder ausgebildete Köchin und haben gute Kenntnisse der deutschen Sprache.",
+   "why": "Voraussetzung means requirement, and the requirement is training as a cook. The job is full-time with 40 hours, and it is in the company cafeteria, not a restaurant.",
+   "words": [
+    "W2649",
+    "W0185",
+    "W1256"
+   ]
+  },
+  {
+   "q": "Was sagt Frau Neumann über den Lebenslauf?",
+   "right": "Die letzte Stelle kommt zuerst, ganz oben.",
+   "wrong": [
+    "Er darf höchstens eine Seite lang sein.",
+    "Die Ausbildung in Spanien gehört ganz nach oben."
+   ],
+   "evidence": "„Ein Lebenslauf soll möglichst kurz sein, höchstens zwei Seiten“, erklärt sie. „Ordnen Sie alles nach dem Datum: Die neueste Stelle steht oben.“",
+   "why": "Order everything by date (ordnen), with the newest job at the top. It may be up to two pages, and his apprenticeship in Spain goes at the bottom.",
+   "words": [
+    "W1444",
+    "W1740"
+   ]
+  },
+  {
+   "q": "Was erzählt Herr Vogel über seine Pläne und die Stelle?",
+   "right": "Der neue Koch soll später der Chef der Küche werden.",
+   "wrong": [
+    "Er möchte die Küche noch zwanzig Jahre leiten.",
+    "Er wechselt nächstes Jahr zu einer anderen Firma."
+   ],
+   "evidence": "Ich leite diese Küche seit zwanzig Jahren. Nächstes Jahr gehe ich in Rente. Wir suchen also jemanden, der später die Leitung der Küche übernehmen kann.",
+   "why": "In Rente gehen means to retire, so they want someone who can later run the kitchen. Herr Vogel has led it for twenty years and is not moving to another company.",
+   "words": [
+    "W1933",
+    "W1464",
+    "W2438"
+   ]
+  },
+  {
+   "q": "Was steht in Mateos neuem Arbeitsvertrag?",
+   "right": "Jede zusätzliche Arbeitsstunde wird ihm bezahlt.",
+   "wrong": [
+    "Der Vertrag gilt zuerst nur für ein Jahr.",
+    "Er verdient dort genauso viel Geld wie im Restaurant."
+   ],
+   "evidence": "Er wird fest angestellt, der Vertrag gilt also nicht nur für ein Jahr. Der Lohn ist höher als im Restaurant, und jede Überstunde wird bezahlt.",
+   "why": "Every Überstunde (overtime hour) is paid now. He is hired permanently, not for just one year, and he earns more than at the restaurant.",
+   "words": [
+    "W2448",
+    "W0111",
+    "W1494"
+   ]
+  }
+ ]
+}

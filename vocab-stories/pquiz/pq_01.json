@@ -1,0 +1,161 @@
+{
+ "set": "01",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was ist Mateo García in der Prüfung passiert?",
+     "right": "Er hat seine Antworten erst sehr spät eingetragen.",
+     "wrong": [
+      "Er ist mit dem Antwortbogen nicht mehr rechtzeitig fertig geworden.",
+      "Er hat im Aufgabenheft noch keine Lösungen angekreuzt."
+     ],
+     "evidence": "Bis dahin hat der Koch aus Sevilla alle Lösungen nur im Aufgabenheft angekreuzt, aber noch keine einzige auf den Bogen übertragen. Zwei Minuten vor Schluss ist er fertig.",
+     "why": "With 15 minutes left he had not copied a single answer onto the sheet, so he entered them very late. He still finished two minutes before the end, and he had already marked every answer in the booklet.",
+     "trap": "when",
+     "words": [
+      "G115",
+      "W0478",
+      "G098"
+     ]
+    },
+    {
+     "q": "Was kritisiert Frau Neumann an vielen Lernenden?",
+     "right": "Sie üben nie, in der vorgegebenen Zeit fertig zu werden.",
+     "wrong": [
+      "Sie strengen sich bei der Vorbereitung auf die Prüfung zu wenig an.",
+      "Sie machen zu viele Modelltests, statt neue Wörter zu lernen."
+     ],
+     "evidence": "„Viele strengen sich monatelang an, aber mit der Uhr haben sie nie geübt“, sagt Frau Neumann, die seit zwanzig Jahren als Kursleiterin arbeitet.",
+     "why": "She says many learners work hard for months but never practice against the clock. So the option about trying too little is wrong (sich anstrengen = to try hard), and the article even recommends practice tests.",
+     "trap": "flip",
+     "words": [
+      "W0114",
+      "W2353"
+     ]
+    },
+    {
+     "q": "Warum soll man laut Artikel einen Ausdruck der Einladung mitnehmen?",
+     "right": "Weil darauf steht, wann und in welchem Raum man geprüft wird.",
+     "wrong": [
+      "Weil man ohne die Einladung nicht an der Prüfung teilnehmen darf.",
+      "Weil man sie während der Prüfung auf den Tisch legen muss."
+     ],
+     "evidence": "Hinein gehören der Ausweis, zwei Bleistifte, ein Kuli und ein Ausdruck der Einladung, denn diese enthält Uhrzeit und Raumnummer. Wer vor dem Gehen prüft, ob alles drin ist, fährt ruhiger los, denn ohne gültigen Ausweis ist keine Teilnahme möglich. Außer Ausweis, Stiften, Radiergummi, Spitzer, Taschentüchern und einer durchsichtigen Wasserflasche darf kein Gegenstand auf dem Tisch liegen.",
+     "why": "The printout is useful because it shows the time and the room number. Only a valid ID is required to take part, and the invitation is not one of the things allowed on the table (ID, pens, eraser, sharpener, tissues, water).",
+     "trap": "same-word",
+     "words": [
+      "W0188",
+      "W0662",
+      "W2341"
+     ]
+    },
+    {
+     "q": "Welchen Tipp gibt der Artikel für den Leseteil?",
+     "right": "Jede Antwort gleich nach dem Lösen in den Antwortbogen eintragen.",
+     "wrong": [
+      "Alle Antworten am Ende in Ruhe auf den Bogen übertragen.",
+      "Bei unsicheren Aufgaben lieber gar kein Kreuz machen."
+     ],
+     "evidence": "Falls man eine Aufgabe nicht lösen kann, sollte man trotzdem etwas ankreuzen, denn für falsche Antworten gibt es keine Minuspunkte. Am besten markiert man jede Lösung sofort auf dem Antwortbogen.",
+     "why": "The article says to mark each answer on the answer sheet right away, not all at the end. It also says to mark something even when you are unsure, because wrong answers cost no points.",
+     "trap": "when",
+     "words": [
+      "W1528",
+      "G099",
+      "G098"
+     ]
+    },
+    {
+     "q": "Was sagt der Artikel über das Sprechen im mündlichen Teil?",
+     "right": "Man sollte deutlich sprechen, auch wenn es nicht ganz fließend klingt.",
+     "wrong": [
+      "Man sollte fließend sprechen, kleine Fehler bei der Aussprache sind egal.",
+      "Man sollte möglichst ohne Akzent sprechen, so wie in der Muttersprache."
+     ],
+     "evidence": "Man muss zwar nicht so fließend sprechen wie in der Muttersprache, aber die Aussprache sollte klar sein. Ein leichter Akzent stört dabei nicht.",
+     "why": "You do not have to sound as fluent as in your native language, but your pronunciation should be clear. A slight accent is fine, so clear speech matters more than perfect fluency.",
+     "trap": "flip",
+     "words": [
+      "W0838",
+      "W0220",
+      "W2199"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Prüfungen bald auch am Samstag"
+    },
+    {
+     "id": "b",
+     "text": "Hitze im Kursraum kostet Punkte"
+    },
+    {
+     "id": "c",
+     "text": "Polizei: Vorsicht vor gekauften Zertifikaten"
+    },
+    {
+     "id": "d",
+     "text": "Werkstätten suchen Übersetzer"
+    },
+    {
+     "id": "e",
+     "text": "Zusätzliche Termine für den B1-Test"
+    },
+    {
+     "id": "f",
+     "text": "B1-Zertifikat jetzt auch ohne Prüfung"
+    },
+    {
+     "id": "g",
+     "text": "Junger Leser überzeugt die Jury"
+    },
+    {
+     "id": "h",
+     "text": "Deutsch lernen für die Arbeit am Auto"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "e",
+     "evidence": "Wegen der großen Nachfrage bietet die Volkshochschule im Dezember zwei zusätzliche Prüfungstermine für Deutsch B1 an.",
+     "why": "The item is about two extra exam dates in December. Saturday exams are only a maybe for the future, so a is wrong."
+    },
+    {
+     "id": "2",
+     "answer": "c",
+     "evidence": "Die Polizei warnt vor Werbung in sozialen Netzwerken, in der gefälschte Zertifikate angeboten werden.",
+     "why": "The police warn about online ads that sell fake certificates. A certificate without an exam is the scam itself, so f is wrong."
+    },
+    {
+     "id": "3",
+     "answer": "h",
+     "evidence": "Deshalb starten fünf Betriebe im Januar einen Intensivkurs: vier Wochen lang jeden Tag von acht bis zwölf Uhr.",
+     "why": "Car repair shops start an intensive German course for their trainees. Colleagues used to translate, but nobody is hiring translators, so d is wrong."
+    },
+    {
+     "id": "4",
+     "answer": "g",
+     "evidence": "In einer Wiener Bücherei hat ein zwölfjähriger Bub einen Wettbewerb im Vorlesen gewonnen.",
+     "why": "A 12-year-old boy won a reading-aloud contest, and the jury praised his clear pronunciation."
+    },
+    {
+     "id": "5",
+     "answer": "b",
+     "evidence": "Ab 25 Grad sanken die Testergebnisse deutlich, und je wärmer es war, desto weiter ging es abwärts.",
+     "why": "The study found that test scores drop when the room is warmer than 25 degrees."
+    }
+   ]
+  }
+ ]
+}

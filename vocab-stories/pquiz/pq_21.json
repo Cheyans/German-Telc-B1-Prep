@@ -1,0 +1,156 @@
+{
+ "set": "21",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was erfährt man über Frau Krüger?",
+     "right": "Sie hat ein Möbelstück mit einer Zeitungsanzeige verkauft.",
+     "wrong": [
+      "Sie liest beim Frühstück zuerst die Annoncen.",
+      "Sie hat ihr Abonnement vor vierzig Jahren gekündigt."
+     ],
+     "evidence": "Die 78-Jährige hat seit über vierzig Jahren ein Abonnement, und beim Frühstück liest sie zuerst die Überschriften auf der ersten Seite, dann die kurzen Meldungen aus Leipzig. „Mein altes Sofa habe ich letztes Jahr selbst mit einem kleinen Inserat verkauft“, erzählt sie stolz.",
+     "why": "An Inserat is a small classified ad in the paper, and a sofa is a piece of furniture. She reads the headlines first (the ads are only the most interesting part), and she has had her subscription for over forty years.",
+     "trap": "paraphrase",
+     "words": [
+      "W1199",
+      "W2444",
+      "W0022"
+     ]
+    },
+    {
+     "q": "Was teilte der Leipziger Verlag mit?",
+     "right": "Online-Abos gibt es heute dreimal so viele wie vor zehn Jahren.",
+     "wrong": [
+      "Online-Abos gibt es heute doppelt so viele wie vor zehn Jahren.",
+      "Die Zahl der Abonnenten der gedruckten Zeitung ist auf ein Drittel gesunken."
+     ],
+     "evidence": "Wie ein großer Leipziger Verlag mitteilte, hat sich die Zahl der Abonnenten der gedruckten Zeitung in den letzten zehn Jahren zwar halbiert, aber die Zeitung wird heute dreimal so oft in digitaler Form abonniert wie damals.",
+     "why": "In digitaler Form abonniert means subscribed digitally, and that happens three times (dreimal) as often as ten years ago, not twice as often. Print subscribers were halved (halbiert), so half are left, not a third.",
+     "trap": "same-word",
+     "words": [
+      "W0520",
+      "W0853",
+      "W0021"
+     ]
+    },
+    {
+     "q": "Wie lange hat das Team für die Reportage gefilmt?",
+     "right": "Nur einen Tag, an drei verschiedenen Orten.",
+     "wrong": [
+      "Fast eine ganze Woche, vor allem in der City.",
+      "Zwei Tage, einen davon in Frau Krügers Wohnung."
+     ],
+     "evidence": "Gedreht wurde dann an einem einzigen Tag: zuerst in der City, danach in einer Kantine und am Nachmittag in Frau Krügers Wohnzimmer.",
+     "why": "Gedreht means filmed, and the filming took one single day in three places: downtown, a canteen and Frau Krüger's living room. Almost a week is the whole work for ten minutes of TV, and two days is when the newspaper article came out.",
+     "trap": "when",
+     "words": [
+      "W0542",
+      "G039",
+      "W1937"
+     ]
+    },
+    {
+     "q": "Worüber schimpfte Frau Krüger?",
+     "right": "Über die Werbung kurz vor der Sendung.",
+     "wrong": [
+      "Über einen Spot für eine neue Autoversicherung.",
+      "Über die Annoncen in ihrer Tageszeitung."
+     ],
+     "evidence": "Vor der Reportage lief Werbung: zuerst ein Spot für Joghurt, dann einer für ein neues Auto. „Immer diese Reklame!“, schimpfte Frau Krüger, doch jüngere Leute benutzen diesen alten Ausdruck kaum noch.",
+     "why": "Reklame is an old word for Werbung, so she complains about the commercials right before the report. The car commercial was for a new car, not for insurance, and she likes the newspaper ads (Annoncen) best.",
+     "trap": "same-word",
+     "words": [
+      "W1927",
+      "G085",
+      "W0098"
+     ]
+    },
+    {
+     "q": "Was erfährt man über die Abonnenten von Mateos Kanal?",
+     "right": "Die meisten folgten ihm schon vor der Reportage.",
+     "wrong": [
+      "Die meisten kamen erst in der Woche nach der Reportage dazu.",
+      "Die meisten wohnen in Leipzig und Umgebung."
+     ],
+     "evidence": "Schon vor der Reportage hatten rund 20.000 Menschen seinen Kanal abonniert, in der Woche danach kamen 3.000 neue dazu. „Videos übers Kochen sind ein globaler Trend, meine Zuschauer kommen aus der ganzen Welt“, sagt er.",
+     "why": "About 20,000 people had subscribed (abonniert) before the report (schon vor), and only 3,000 came in the week after it, so most were there before. His viewers come from all over the world, not mainly from Leipzig.",
+     "trap": "when",
+     "words": [
+      "W1253",
+      "W0021",
+      "G053"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "rf",
+   "items": [
+    {
+     "s": "Niklas Reinhold wartet jede Woche auf die nächste Folge seiner Serie.",
+     "answer": false,
+     "evidence": "Auf die Fortsetzung warte ich aber nie eine Woche: Ich schaue alle Folgen an einem Wochenende.",
+     "why": "Fortsetzung means the next episode. He says he never waits a week for it, because he watches all the episodes in one weekend.",
+     "trap": "same-word",
+     "words": [
+      "W0859",
+      "W2118"
+     ]
+    },
+    {
+     "s": "Frau Haberl liest keine Zeitungen mehr, seit sie ihr Abonnement gekündigt hat.",
+     "answer": false,
+     "evidence": "Fast jeden Vormittag sitze ich dort zwei Stunden und lese die Zeitungen, die es für alle Gäste gibt, dazu ein politisches Magazin. Eine freie Presse ist für mich sehr wichtig, und trotzdem habe ich heuer mein eigenes Abonnement gekündigt, denn im Kaffeehaus lese ich ja sowieso alles.",
+     "why": "She canceled her own subscription only because she reads all the papers in the coffee house (Kaffeehaus) anyway. She still reads newspapers there almost every morning.",
+     "trap": "flip",
+     "words": [
+      "W0022",
+      "R014",
+      "W0583"
+     ]
+    },
+    {
+     "s": "Frau Haberl hat mit ihrem neuen Radio heute keine großen Probleme mehr.",
+     "answer": true,
+     "evidence": "Die Gebrauchsanweisung war so kompliziert, dass ich am Anfang große Schwierigkeiten hatte. Inzwischen komme ich aber gut damit zurecht.",
+     "why": "She had trouble (Schwierigkeiten) only at the beginning, because the manual was complicated. Inzwischen means by now, and zurechtkommen means to manage, so she manages well now.",
+     "trap": "when",
+     "words": [
+      "W2867",
+      "W2087",
+      "W0931"
+     ]
+    },
+    {
+     "s": "Frau Voigt sieht am Samstagabend gern Castingshows.",
+     "answer": false,
+     "evidence": "Meine Kinder sehen am Samstagabend gern einer Castingshow zu, in der junge Leute singen. Ich selbst finde solche Shows eher langweilig.",
+     "why": "Her children are the ones who like to watch (zusehen) the casting show. She herself finds such shows rather (eher) boring.",
+     "trap": "who",
+     "words": [
+      "X021",
+      "G033",
+      "W0580"
+     ]
+    },
+    {
+     "s": "Sebastian Engel nimmt seinen Blog zum Hören zu Hause auf.",
+     "answer": true,
+     "evidence": "Seit Beginn des Jahres gibt es den Blog auch zum Hören. Die Aufnahmen mache ich in meiner Küche, denn ein eigenes Studio kann ich mir nicht leisten.",
+     "why": "Aufnahmen are recordings, and he makes them in his kitchen, so at home. He says he cannot afford a studio of his own.",
+     "trap": "paraphrase",
+     "words": [
+      "W0170",
+      "W2286",
+      "W0583"
+     ]
+    }
+   ]
+  }
+ ]
+}

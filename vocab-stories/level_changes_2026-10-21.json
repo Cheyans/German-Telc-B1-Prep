@@ -1,0 +1,554 @@
+[
+ {
+  "id": "W0473",
+  "from": "B1",
+  "to": "A2",
+  "text": "dabei"
+ },
+ {
+  "id": "W0475",
+  "from": "B1",
+  "to": "A2",
+  "text": "dafür"
+ },
+ {
+  "id": "W0476",
+  "from": "B1",
+  "to": "A2",
+  "text": "dagegen"
+ },
+ {
+  "id": "W0638",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Eis"
+ },
+ {
+  "id": "W0645",
+  "from": "B1",
+  "to": "A1",
+  "text": "die Eltern (Pl.)"
+ },
+ {
+  "id": "W0683",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Erdgeschoss/ Ergeschoß, -e"
+ },
+ {
+  "id": "W0731",
+  "from": "B1",
+  "to": "A2",
+  "text": "erst-"
+ },
+ {
+  "id": "W0774",
+  "from": "B1",
+  "to": "A1",
+  "text": "der Familienstand (D, A) → Personenstand; CH: Zivilstand"
+ },
+ {
+  "id": "W0797",
+  "from": "B1",
+  "to": "A2",
+  "text": "Ferien-"
+ },
+ {
+  "id": "W0893",
+  "from": "B1",
+  "to": "A1",
+  "text": "früher/früher-"
+ },
+ {
+  "id": "W0937",
+  "from": "B1",
+  "to": "A2",
+  "text": "geehrt"
+ },
+ {
+  "id": "W0983",
+  "from": "B1",
+  "to": "A1",
+  "text": "gern/gerne"
+ },
+ {
+  "id": "W0990",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Geschirr"
+ },
+ {
+  "id": "W0995",
+  "from": "B1",
+  "to": "A1",
+  "text": "die Geschwister (Pl.)"
+ },
+ {
+  "id": "W1046",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Grippe"
+ },
+ {
+  "id": "W1048",
+  "from": "B1",
+  "to": "A1",
+  "text": "Groß-"
+ },
+ {
+  "id": "W1066",
+  "from": "B1",
+  "to": "A1",
+  "text": "das Hähnchen/Hühnchen, - (D) A: Hend(e)l; → Poulet, -s (CH)"
+ },
+ {
+  "id": "W1092",
+  "from": "B1",
+  "to": "A2",
+  "text": "Haupt- / die Hauptstadt, ¨-e"
+ },
+ {
+  "id": "W1096",
+  "from": "B1",
+  "to": "A1",
+  "text": "die Hausfrau/der Hausmann"
+ },
+ {
+  "id": "W1119",
+  "from": "B1",
+  "to": "A2",
+  "text": "her/her-"
+ },
+ {
+  "id": "W1124",
+  "from": "B1",
+  "to": "A2",
+  "text": "herein-, rein-"
+ },
+ {
+  "id": "W1137",
+  "from": "B1",
+  "to": "A1",
+  "text": "hier/hier-"
+ },
+ {
+  "id": "W1139",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Himmel"
+ },
+ {
+  "id": "W1142",
+  "from": "B1",
+  "to": "A2",
+  "text": "hinter/hinter-"
+ },
+ {
+  "id": "W1236",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Jugend"
+ },
+ {
+  "id": "W1268",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Käse"
+ },
+ {
+  "id": "W1274",
+  "from": "B1",
+  "to": "A1",
+  "text": "(sich etwas) kaufen, kauft, kaufte, hat gekauft"
+ },
+ {
+  "id": "W1278",
+  "from": "B1",
+  "to": "A1",
+  "text": "kein-"
+ },
+ {
+  "id": "W1455",
+  "from": "B1",
+  "to": "A2",
+  "text": "leid tun, tut leid, tat leid, hat leidgetan"
+ },
+ {
+  "id": "W1475",
+  "from": "B1",
+  "to": "A1",
+  "text": "lieb"
+ },
+ {
+  "id": "W1486",
+  "from": "B1",
+  "to": "A2",
+  "text": "link-"
+ },
+ {
+  "id": "W1505",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Lust"
+ },
+ {
+  "id": "W1512",
+  "from": "B1",
+  "to": "A2",
+  "text": "mal"
+ },
+ {
+  "id": "W1513",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Mal, -e"
+ },
+ {
+  "id": "W1542",
+  "from": "B1",
+  "to": "A1",
+  "text": "mehr (siehe auch viel)"
+ },
+ {
+  "id": "W1550",
+  "from": "B1",
+  "to": "A1",
+  "text": "meist(ens)"
+ },
+ {
+  "id": "W1594",
+  "from": "B1",
+  "to": "A2",
+  "text": "mobil/mobil-"
+ },
+ {
+  "id": "W1613",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Müll"
+ },
+ {
+  "id": "W1620",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Musik"
+ },
+ {
+  "id": "W1645",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Nähe"
+ },
+ {
+  "id": "W1656",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Natur"
+ },
+ {
+  "id": "W1722",
+  "from": "B1",
+  "to": "A1",
+  "text": "oft/öfter"
+ },
+ {
+  "id": "W1751",
+  "from": "B1",
+  "to": "A2",
+  "text": "(ein) paar"
+ },
+ {
+  "id": "W1866",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Quiz"
+ },
+ {
+  "id": "W1868",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Rad, ¨-er"
+ },
+ {
+  "id": "W1869",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Rad, ¨-er (D, A) → Fahrrad; CH: Velo"
+ },
+ {
+  "id": "W1885",
+  "from": "B1",
+  "to": "A2",
+  "text": "raus/raus-"
+ },
+ {
+  "id": "W1919",
+  "from": "B1",
+  "to": "A2",
+  "text": "rein"
+ },
+ {
+  "id": "W1946",
+  "from": "B1",
+  "to": "A1",
+  "text": "die Rezeption/Reception, -"
+ },
+ {
+  "id": "W1970",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Ruhe"
+ },
+ {
+  "id": "W2046",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Schnee"
+ },
+ {
+  "id": "W2119",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Service"
+ },
+ {
+  "id": "W2142",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Ski/Schi, -er/-"
+ },
+ {
+  "id": "W2174",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Spaß"
+ },
+ {
+  "id": "W2276",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Stress"
+ },
+ {
+  "id": "W2279",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Stück/-stück, -e"
+ },
+ {
+  "id": "W2330",
+  "from": "B1",
+  "to": "A2",
+  "text": "tauschen, tauscht, tauschte, hat getauscht"
+ },
+ {
+  "id": "W2348",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Tennis"
+ },
+ {
+  "id": "W2399",
+  "from": "B1",
+  "to": "A2",
+  "text": "Traum-"
+ },
+ {
+  "id": "W2493",
+  "from": "B1",
+  "to": "A1",
+  "text": "unter-"
+ },
+ {
+  "id": "W2536",
+  "from": "B1",
+  "to": "A2",
+  "text": "verbieten, verbietet, verbot, hat verboten"
+ },
+ {
+  "id": "W2567",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Verkehr"
+ },
+ {
+  "id": "W2632",
+  "from": "B1",
+  "to": "A1",
+  "text": "viel/viele"
+ },
+ {
+  "id": "W2651",
+  "from": "B1",
+  "to": "A2",
+  "text": "vorbei/vorbei-"
+ },
+ {
+  "id": "W2663",
+  "from": "B1",
+  "to": "A2",
+  "text": "vorn, vorne"
+ },
+ {
+  "id": "W2701",
+  "from": "B1",
+  "to": "A1",
+  "text": "was für ein-"
+ },
+ {
+  "id": "W2722",
+  "from": "B1",
+  "to": "A1",
+  "text": "weiter/weiter-"
+ },
+ {
+  "id": "W2728",
+  "from": "B1",
+  "to": "A1",
+  "text": "wenig/wenige"
+ },
+ {
+  "id": "W2751",
+  "from": "B1",
+  "to": "A2",
+  "text": "wieder/wieder-"
+ },
+ {
+  "id": "W2758",
+  "from": "B1",
+  "to": "A1",
+  "text": "wie viel(e)"
+ },
+ {
+  "id": "W2832",
+  "from": "B1",
+  "to": "A2",
+  "text": "ziehen, zieht, zog, hat/ist gezogen"
+ },
+ {
+  "id": "W2846",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Zucker"
+ },
+ {
+  "id": "W2868",
+  "from": "B1",
+  "to": "A1",
+  "text": "zurück/zurück-"
+ },
+ {
+  "id": "W2871",
+  "from": "B1",
+  "to": "A1",
+  "text": "zusammen/zusammen-"
+ },
+ {
+  "id": "G014",
+  "from": "B1",
+  "to": "A1",
+  "text": "der Lkw, -s"
+ },
+ {
+  "id": "G029",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Blog, -s"
+ },
+ {
+  "id": "G036",
+  "from": "B1",
+  "to": "A2",
+  "text": "chatten"
+ },
+ {
+  "id": "G042",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Comic, -s"
+ },
+ {
+  "id": "G046",
+  "from": "B1",
+  "to": "A2",
+  "text": "das E-Book, -s"
+ },
+ {
+  "id": "G048",
+  "from": "B1",
+  "to": "A1",
+  "text": "das Fax, -e"
+ },
+ {
+  "id": "G050",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Festival, -s"
+ },
+ {
+  "id": "G057",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Homepage, -s"
+ },
+ {
+  "id": "G066",
+  "from": "B1",
+  "to": "A2",
+  "text": "der Link, -s"
+ },
+ {
+  "id": "G069",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Mailbox, -en"
+ },
+ {
+  "id": "G077",
+  "from": "B1",
+  "to": "A2",
+  "text": "das Poster, -"
+ },
+ {
+  "id": "G087",
+  "from": "B1",
+  "to": "A2",
+  "text": "surfen"
+ },
+ {
+  "id": "G092",
+  "from": "B1",
+  "to": "A2",
+  "text": "die Tour, -en"
+ },
+ {
+  "id": "G098",
+  "from": "B1",
+  "to": "A1",
+  "text": "ankreuzen"
+ },
+ {
+  "id": "G101",
+  "from": "B1",
+  "to": "A1",
+  "text": "die Aussage, -n"
+ },
+ {
+  "id": "G238",
+  "from": "B1",
+  "to": "A1",
+  "text": "das Grad"
+ },
+ {
+  "id": "G355",
+  "from": "B1",
+  "to": "A1",
+  "text": "der Sonnabend"
+ },
+ {
+  "id": "W2917",
+  "from": "B1",
+  "to": "A2",
+  "text": "zeichnen, zeichnet, zeichnete, hat gezeichnet"
+ }
+]

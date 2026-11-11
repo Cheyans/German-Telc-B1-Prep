@@ -1,0 +1,453 @@
+{
+ "set": "22",
+ "title": "Streit und Versöhnung",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G356",
+   "entry": "sonnabends",
+   "level": "B1",
+   "gloss": "on Saturdays (northern German)"
+  },
+  {
+   "id": "W0019",
+   "entry": "abmachen, macht ab, machte ab, hat abgemacht",
+   "level": "B1",
+   "gloss": "to agree on, arrange"
+  },
+  {
+   "id": "W0023",
+   "entry": "absagen, sagt ab, sagte ab, hat abgesagt",
+   "level": "B1",
+   "gloss": "to cancel"
+  },
+  {
+   "id": "W0027",
+   "entry": "die Absicht, -en",
+   "level": "B1",
+   "gloss": "intention (on purpose)"
+  },
+  {
+   "id": "W0044",
+   "entry": "akzeptieren, akzeptiert, akzeptierte, hat akzeptiert",
+   "level": "B1",
+   "gloss": "to accept"
+  },
+  {
+   "id": "W0097",
+   "entry": "annehmen, nimmt an, nahm an, hat angenommen",
+   "level": "B1",
+   "gloss": "to accept"
+  },
+  {
+   "id": "W0109",
+   "entry": "ansprechen, spricht an, sprach an, hat angesprochen",
+   "level": "B1",
+   "gloss": "to bring up (a problem)"
+  },
+  {
+   "id": "W0208",
+   "entry": "ausrichten, richtet aus, richtete aus, hat ausgerichtet",
+   "level": "B1",
+   "gloss": "to pass on (a message)"
+  },
+  {
+   "id": "W0291",
+   "entry": "begrüßen, begrüßt, begrüßte, hat begrüßt",
+   "level": "B1",
+   "gloss": "to greet, welcome"
+  },
+  {
+   "id": "W0313",
+   "entry": "bemerken, bemerkt, bemerkte, hat bemerkt",
+   "level": "B1",
+   "gloss": "to notice"
+  },
+  {
+   "id": "W0338",
+   "entry": "Bescheid sagen",
+   "level": "B1",
+   "gloss": "to let (someone) know"
+  },
+  {
+   "id": "W0339",
+   "entry": "Bescheid geben",
+   "level": "B1",
+   "gloss": "to let (someone) know, notify"
+  },
+  {
+   "id": "W0348",
+   "entry": "besonder-",
+   "level": "B1",
+   "gloss": "special"
+  },
+  {
+   "id": "W0519",
+   "entry": "diesmal",
+   "level": "B1",
+   "gloss": "this time"
+  },
+  {
+   "id": "W0595",
+   "entry": "der Eindruck, ¨-e",
+   "level": "B1",
+   "gloss": "impression"
+  },
+  {
+   "id": "W0609",
+   "entry": "sich einigen, einigt sich, einigte sich, hat sich geeinigt",
+   "level": "B1",
+   "gloss": "to agree, reach an agreement"
+  },
+  {
+   "id": "W0636",
+   "entry": "einzig-",
+   "level": "B1",
+   "gloss": "only, single"
+  },
+  {
+   "id": "W0669",
+   "entry": "sich entschließen, entschließt sich, entschloss sich, hat sich entschlossen",
+   "level": "B1",
+   "gloss": "to decide, make up one's mind"
+  },
+  {
+   "id": "W0710",
+   "entry": "sich erkundigen, erkundigt sich, erkundigte sich, hat sich erkundigt",
+   "level": "B1",
+   "gloss": "to ask, inquire"
+  },
+  {
+   "id": "W0729",
+   "entry": "der Ersatz",
+   "level": "B1",
+   "gloss": "replacement"
+  },
+  {
+   "id": "W0986",
+   "entry": "geschehen, geschieht, geschah, ist geschehen",
+   "level": "B1",
+   "gloss": "to happen"
+  },
+  {
+   "id": "W1026",
+   "entry": "gleichfalls",
+   "level": "B1",
+   "gloss": "likewise, you too"
+  },
+  {
+   "id": "W1055",
+   "entry": "grüßen, grüßt, grüßte, hat gegrüßt",
+   "level": "B1",
+   "gloss": "to greet, say hello"
+  },
+  {
+   "id": "W1070",
+   "entry": "die Hälfte, -n",
+   "level": "B1",
+   "gloss": "half"
+  },
+  {
+   "id": "W1105",
+   "entry": "heimlich",
+   "level": "B1",
+   "gloss": "secretly"
+  },
+  {
+   "id": "W1140",
+   "entry": "(hinunter) runterwerfen, wirft runter, warf runter, hat runtergeworfen",
+   "level": "B1",
+   "gloss": "to knock off, throw down"
+  },
+  {
+   "id": "W1295",
+   "entry": "klären, klärt, klärte, hat geklärt",
+   "level": "B1",
+   "gloss": "to clear up, sort out"
+  },
+  {
+   "id": "W1331",
+   "entry": "der Kompromiss, -e",
+   "level": "B1",
+   "gloss": "compromise"
+  },
+  {
+   "id": "W1334",
+   "entry": "der Konflikt, -e",
+   "level": "B1",
+   "gloss": "conflict"
+  },
+  {
+   "id": "W1386",
+   "entry": "kritisieren, kritisiert, kritisierte, hat kritisiert",
+   "level": "B1",
+   "gloss": "to criticize"
+  },
+  {
+   "id": "W1409",
+   "entry": "kürzlich",
+   "level": "B1",
+   "gloss": "recently"
+  },
+  {
+   "id": "W1586",
+   "entry": "mitteilen, teilt mit, teilte mit, hat mitgeteilt",
+   "level": "B1",
+   "gloss": "to inform, tell"
+  },
+  {
+   "id": "W1633",
+   "entry": "nachdenken, denkt nach, dachte nach, hat nachgedacht",
+   "level": "B1",
+   "gloss": "to think (about), reflect"
+  },
+  {
+   "id": "W1635",
+   "entry": "nachher",
+   "level": "B1",
+   "gloss": "later, afterwards"
+  },
+  {
+   "id": "W1722",
+   "entry": "oft/öfter",
+   "level": "A1",
+   "gloss": "often; (öfter) more often, repeatedly"
+  },
+  {
+   "id": "W1873",
+   "entry": "der Rand, ¨-er",
+   "level": "B1",
+   "gloss": "edge, margin, rim"
+  },
+  {
+   "id": "W1877",
+   "entry": "der Rat",
+   "level": "B1",
+   "gloss": "advice"
+  },
+  {
+   "id": "W1878",
+   "entry": "Ratschlag, ¨-e",
+   "level": "B1",
+   "gloss": "piece of advice, tip"
+  },
+  {
+   "id": "W1886",
+   "entry": "reagieren, reagiert, reagierte, hat reagiert",
+   "level": "B1",
+   "gloss": "to react, respond"
+  },
+  {
+   "id": "W1887",
+   "entry": "die Reaktion, -en",
+   "level": "B1",
+   "gloss": "reaction"
+  },
+  {
+   "id": "W1915",
+   "entry": "reichen, reicht, reichte, hat gereicht",
+   "level": "B1",
+   "gloss": "to be enough"
+  },
+  {
+   "id": "W2019",
+   "entry": "schief",
+   "level": "B1",
+   "gloss": "crooked, not straight"
+  },
+  {
+   "id": "W2082",
+   "entry": "schweigen, schweigt, schwieg, hat geschwiegen",
+   "level": "B1",
+   "gloss": "to be silent"
+  },
+  {
+   "id": "W2228",
+   "entry": "stecken, steckt, steckte, hat gesteckt",
+   "level": "B1",
+   "gloss": "to put (into)"
+  },
+  {
+   "id": "W2434",
+   "entry": "überlegen, überlegt, überlegte, hat überlegt",
+   "level": "B1",
+   "gloss": "to think about, consider"
+  },
+  {
+   "id": "W2443",
+   "entry": "überreden, überredet, überredete, hat überredet",
+   "level": "B1",
+   "gloss": "to talk (someone) into, persuade"
+  },
+  {
+   "id": "W2449",
+   "entry": "überübertreiben, übertreibt, übertrieb, hat übertrieben",
+   "level": "B1",
+   "gloss": "to exaggerate"
+  },
+  {
+   "id": "W2466",
+   "entry": "umgekehrt",
+   "level": "B1",
+   "gloss": "the other way around"
+  },
+  {
+   "id": "W2496",
+   "entry": "die Unterhaltung, -en",
+   "level": "B1",
+   "gloss": "conversation"
+  },
+  {
+   "id": "W2570",
+   "entry": "verlangen, verlangt, verlangte, hat verlangt",
+   "level": "B1",
+   "gloss": "to demand, expect"
+  },
+  {
+   "id": "W2587",
+   "entry": "vermuten, vermutet, vermutete, hat vermutet",
+   "level": "B1",
+   "gloss": "to suspect, guess"
+  },
+  {
+   "id": "W2607",
+   "entry": "versprechen, verspricht, versprach, hat versprochen",
+   "level": "B1",
+   "gloss": "to promise"
+  },
+  {
+   "id": "W2609",
+   "entry": "das Verständnis",
+   "level": "B1",
+   "gloss": "understanding"
+  },
+  {
+   "id": "W2613",
+   "entry": "der Versuch, -e",
+   "level": "B1",
+   "gloss": "attempt"
+  },
+  {
+   "id": "W2628",
+   "entry": "verzeihen, verzeiht, verzieh, hat verziehen",
+   "level": "B1",
+   "gloss": "to forgive"
+  },
+  {
+   "id": "W2629",
+   "entry": "Verzeihung",
+   "level": "B1",
+   "gloss": "forgiveness"
+  },
+  {
+   "id": "W2659",
+   "entry": "vorhin",
+   "level": "B1",
+   "gloss": "a little while ago"
+  },
+  {
+   "id": "W2665",
+   "entry": "vorschlagen, schlägt vor, schlug vor, hat vorgeschlagen",
+   "level": "B1",
+   "gloss": "to suggest"
+  },
+  {
+   "id": "W2677",
+   "entry": "der Vorwurf, ¨-e",
+   "level": "B1",
+   "gloss": "accusation, reproach"
+  },
+  {
+   "id": "W2716",
+   "entry": "sich weigern, weigert sich, weigerte sich, hat sich geweigert",
+   "level": "B1",
+   "gloss": "to refuse"
+  },
+  {
+   "id": "W2734",
+   "entry": "werfen, wirft, warf, hat geworfen",
+   "level": "B1",
+   "gloss": "to throw; to cast (a glance)"
+  },
+  {
+   "id": "W2870",
+   "entry": "zusagen, sagt zu, sagte zu, hat zugesagt",
+   "level": "B1",
+   "gloss": "to say yes, accept"
+  },
+  {
+   "id": "W2890",
+   "entry": "zweifeln, zweifelt, zweifelte, hat gezweifelt",
+   "level": "B1",
+   "gloss": "to doubt"
+  },
+  {
+   "id": "W2913",
+   "entry": "schätzen, schätzt, schätzte, hat geschätzt",
+   "level": "B1",
+   "gloss": "to estimate"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2876",
+   "entry": "zuschauen, schaut zu, schaute zu, hat zugeschaut",
+   "level": "B1",
+   "gloss": "to watch"
+  },
+  {
+   "id": "W1755",
+   "entry": "die Panne, -n",
+   "level": "B1",
+   "gloss": "breakdown (of a car)"
+  },
+  {
+   "id": "W0981",
+   "entry": "das Gericht, -e",
+   "level": "A2",
+   "gloss": "dish (food); court (of law)"
+  },
+  {
+   "id": "W2389",
+   "entry": "tragen, trägt, trug, hat getragen",
+   "level": "A2",
+   "gloss": "to carry; to wear"
+  },
+  {
+   "id": "G004",
+   "entry": "bzw. (beziehungsweise)",
+   "level": "A2",
+   "gloss": "or; or rather; respectively"
+  },
+  {
+   "id": "W2724",
+   "entry": "welcher, welche, welches",
+   "level": "A2",
+   "gloss": "which; which one"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X010",
+   "word": "gelegentlich",
+   "gloss": "occasionally",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X027",
+   "word": "beispielsweise",
+   "gloss": "for example",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X028",
+   "word": "hingegen",
+   "gloss": "on the other hand, in contrast",
+   "kind": "extra",
+   "de": ""
+  }
+ ],
+ "story_opening": "Gleich nach dem Umzug nach Leipzig hat Lena mit ihrer Nachbarin Aylin etwas abgemacht. Sonnabends frühstücken sie zusammen, einmal bei Lena und einmal bei Aylin. Lena sagt immer „Sonnabend“, so wie man es in Hamburg sagt. Aylin sagt lieber „Samstag“, aber sie weiß natürlich, was Lena meint.\n\nBei Aylin gibt es immer türkischen Tee aus einer alten roten Kanne. Diese Kanne ist für Aylin etwas ganz Besonderes. Sie hat früher ihrer Oma in Izmir gehört. Die Oma ist vor fünf Jahren gestorben, und die Kanne ist die einzige Erinnerung an sie. In diese Kanne hat sich Aylin schon als kleines Mädchen verliebt.\n\nIn den letzten Wochen hatte Lena sehr viel Arbeit. Ihr Kollege Jonas hat sie öfter überredet,"
+}

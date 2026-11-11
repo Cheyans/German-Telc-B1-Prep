@@ -1,0 +1,254 @@
+{
+ "audio": "14",
+ "mt": 3,
+ "teil": 2,
+ "page": 85,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Zu Fuß von Nord nach Süd (1. Hälfte)",
+   "from": "01:54",
+   "to": "04:31",
+   "intro": "Sie hören ein Radiogespräch mit Jakob Gassner, der vom Norden bis in den Süden Deutschlands gewandert ist. Hören Sie bis etwa 4:31.",
+   "items": [
+    {
+     "s": "Jakob war gut sechs Monate unterwegs.",
+     "a": true,
+     "at": "02:27",
+     "ev": "Ein gutes halbes Jahr waren Sie unterwegs",
+     "why": "„Ein gutes halbes Jahr“ is a bit more than six months, which is exactly what „gut sechs Monate“ means. The number just comes in a different form.",
+     "trap": "number",
+     "w": [
+      [
+       "ein gutes halbes Jahr",
+       "a bit over half a year"
+      ],
+      [
+       "schaffen",
+       "to manage, to cover (a distance)"
+      ]
+     ]
+    },
+    {
+     "s": "Früher ist Jakob vor allem in Südamerika gewandert.",
+     "a": false,
+     "at": "02:40",
+     "ev": "Vor allem im Heimatland meiner Eltern, in Österreich. Aber auch weiter weg",
+     "why": "„Vor allem“ goes with Austria, his parents' home country. South America is only one of the places „weiter weg“ that he also visited.",
+     "trap": "same-word",
+     "w": [
+      [
+       "das Heimatland",
+       "home country"
+      ],
+      [
+       "weiter weg",
+       "farther away"
+      ]
+     ]
+    },
+    {
+     "s": "Jakob hat seine Route vor der Tour genau geplant.",
+     "a": false,
+     "at": "03:16",
+     "ev": "Richtig geplant habe ich nichts, sondern bin einfach immer dorthin gelaufen",
+     "why": "He says preparation matters for trips far away, but not in Germany. In „Richtig geplant habe ich nichts“ the nichts comes last: he planned nothing.",
+     "trap": "negation",
+     "w": [
+      [
+       "die Fernreise",
+       "trip to a faraway place"
+      ],
+      [
+       "die Vorbereitung",
+       "preparation"
+      ]
+     ]
+    },
+    {
+     "s": "Jakob findet, dass man für so eine Tour nicht trainieren muss.",
+     "a": true,
+     "at": "03:23",
+     "ev": "Jeden Tag so 20 bis 30 Kilometer. Dafür ist kein Training nötig.",
+     "why": "The host expects a lot of training, but Jakob only walked 20 to 30 km a day. „Dafür ist kein Training nötig“ means you don't need to train for that.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "nötig",
+       "necessary"
+      ],
+      [
+       "das Abenteuer",
+       "adventure"
+      ]
+     ]
+    },
+    {
+     "s": "Jakob kann sofort sagen, wo es ihm am besten gefallen hat.",
+     "a": false,
+     "at": "03:32",
+     "ev": "Das kann ich so einfach gar nicht sagen.",
+     "why": "He says „Das kann ich so einfach gar nicht sagen“: he can't pick one place. Then he names several: the Baltic coast, the Thuringian Forest and Saxon Switzerland.",
+     "trap": "negation",
+     "w": [
+      [
+       "besonders",
+       "especially"
+      ],
+      [
+       "die Gegend",
+       "area, region"
+      ]
+     ]
+    },
+    {
+     "s": "Beim Campen in der Natur hatte Jakob nie Ärger.",
+     "a": true,
+     "at": "04:18",
+     "ev": "eigentlich verboten. … Ich hatte nie Probleme.",
+     "why": "The host says camping in the wild is „eigentlich verboten“, so you expect trouble. But Jakob answers „Ich hatte nie Probleme“.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "der Ärger",
+       "trouble"
+      ],
+      [
+       "verboten",
+       "forbidden"
+      ],
+      [
+       "sich verhalten",
+       "to behave"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Zu Fuß von Nord nach Süd (2. Hälfte)",
+   "from": "04:31",
+   "to": "07:37",
+   "intro": "Sie hören die zweite Hälfte des Gesprächs mit Jakob Gassner. Hören Sie ab etwa 4:31 bis zum Ende des Gesprächs bei etwa 7:37.",
+   "items": [
+    {
+     "s": "Manchmal hat Jakob ein Zimmer genommen, weil er warm duschen wollte.",
+     "a": true,
+     "at": "04:51",
+     "ev": "Lust auf eine warme Dusche … auch mal ein Zimmer",
+     "why": "When it rained a lot or he „einfach Lust auf eine warme Dusche hatte“, he „auch mal“ took a room in a guesthouse or hotel. „Auch mal“ means sometimes.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "Lust haben auf",
+       "to feel like"
+      ],
+      [
+       "die Pension",
+       "guesthouse, B&B"
+      ]
+     ]
+    },
+    {
+     "s": "Wegen einer Erkältung blieb Jakob sechs Tage in einer Pension.",
+     "a": false,
+     "at": "05:09",
+     "ev": "nach sechs Tagen Dauerregen ziemlich erkältet. Nach drei Tagen in einer Pension",
+     "why": "Six days is how long it rained nonstop. He stayed in the guesthouse for three days, and then he felt fine again.",
+     "trap": "number",
+     "w": [
+      [
+       "der Dauerregen",
+       "nonstop rain"
+      ],
+      [
+       "sich erkälten",
+       "to catch a cold"
+      ],
+      [
+       "aufhören",
+       "to quit"
+      ]
+     ]
+    },
+    {
+     "s": "Jakob ist meistens erst gegen Mittag losgegangen.",
+     "a": true,
+     "at": "05:20",
+     "ev": "Meist habe ich bis neun geschlafen … Gegen zwölf bin ich gestartet",
+     "why": "Nine is when he usually got up, not when he left. After packing, coffee and breakfast he started „gegen zwölf“, around noon.",
+     "trap": "when",
+     "w": [
+      [
+       "der Frühaufsteher",
+       "early riser"
+      ],
+      [
+       "festlegen",
+       "to decide on, to set"
+      ]
+     ]
+    },
+    {
+     "s": "Abends hat Jakob meistens in einem Gasthof gegessen.",
+     "a": false,
+     "at": "06:06",
+     "ev": "Abends habe ich für mich gekocht. Manchmal …",
+     "why": "In the evening he cooked for himself. Invitations and the inn („Gasthof“) happened only „manchmal“, sometimes.",
+     "trap": "overstate",
+     "w": [
+      [
+       "der Gasthof",
+       "country inn"
+      ],
+      [
+       "meiden",
+       "to avoid"
+      ],
+      [
+       "sich ernähren",
+       "to feed oneself"
+      ]
+     ]
+    },
+    {
+     "s": "Am liebsten erinnert sich Jakob an die Natur.",
+     "a": false,
+     "at": "06:22",
+     "ev": "Eigentlich … Natur gesucht. Aber besonders gerne … die tollen Menschen",
+     "why": "„Eigentlich“ is the warning sign: he set out looking for nature, but „besonders gerne“ he remembers the people he met.",
+     "trap": "flip",
+     "w": [
+      [
+       "eigentlich",
+       "actually, originally"
+      ],
+      [
+       "begegnen",
+       "to meet, to come across"
+      ]
+     ]
+    },
+    {
+     "s": "Jakob empfiehlt die Tour vor allem Menschen, die gern zu Fuß gehen.",
+     "a": true,
+     "at": "06:55",
+     "ev": "wenn man gern zu Fuß unterwegs ist … eine super Sache",
+     "why": "His advice starts with „wenn man gern zu Fuß unterwegs ist“: then the trip is „eine super Sache“. So yes, it's mainly for people who like walking. Here „vor allem“ is true.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "abwechslungsreich",
+       "varied"
+      ],
+      [
+       "sich lohnen",
+       "to be worth it"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

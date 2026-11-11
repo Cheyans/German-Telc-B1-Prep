@@ -1,0 +1,131 @@
+{
+ "set": "17",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Warum hatte Lukas Haase nach drei Monaten Schulden?",
+     "right": "Er musste mehrere Beträge zur selben Zeit bezahlen.",
+     "wrong": [
+      "Sein Arbeitgeber hat ihm das Gehalt zu spät überwiesen.",
+      "Er hat die erste Mahnung nie bekommen."
+     ],
+     "evidence": "Als die erste Mahnung kam, legte Lukas Haase den Brief ungeöffnet in eine Schublade. Doch dann wurden mehrere Rechnungen gleichzeitig fällig. Sein Gehalt kam zwar pünktlich, aber es reichte nicht für alles.",
+     "why": "Fällig means due: several bills were due at the same time (gleichzeitig), and his pay was not enough. His pay came on time (pünktlich), and he did get the first reminder, he just put it in a drawer unopened.",
+     "trap": "paraphrase",
+     "words": [
+      "W0770",
+      "W1511",
+      "W2068"
+     ]
+    },
+    {
+     "q": "Was zeigt die Umfrage unter jungen Erwachsenen?",
+     "right": "Männer zahlen Rechnungen genauso oft zu spät wie Frauen.",
+     "wrong": [
+      "Vor allem junge Männer bezahlen ihre Rechnungen oft zu spät.",
+      "Fast jeder Dritte hat Schulden bei einer Bank."
+     ],
+     "evidence": "Laut einer Umfrage, die im Sommer unter 2.000 jungen Erwachsenen durchgeführt wurde, hat fast jeder Dritte schon einmal eine Rechnung zu spät bezahlt. Männer sind dabei ebenso oft betroffen wie Frauen.",
+     "why": "Ebenso oft ... wie means just as often as, so men and women are equal. The option with vor allem Männer (mainly men) overstates it, and jeder Dritte is about paying a bill late at least once, not about debts at a bank.",
+     "trap": "overstate",
+     "words": [
+      "W0569"
+     ]
+    },
+    {
+     "q": "Welchen Grund für die Schulden nennt der Artikel?",
+     "right": "Einen kleinen Kredit bekommt man im Internet oft fast sofort.",
+     "wrong": [
+      "Wer bar bezahlt, verliert schneller den Überblick über sein Geld.",
+      "Viele müssen jeden Monat sehr hohe Beträge zurückzahlen."
+     ],
+     "evidence": "Wer mit Kreditkarte oder Handy bezahlt, hat außerdem eine größere Distanz zu seinem Geld, denn man sieht nicht, wie die Scheine aus dem Portemonnaie verschwinden. Hinzu kommt, dass ein kleiner Kredit online oft in wenigen Minuten genehmigt wird. Solange die monatlichen Beträge gering sind, scheint alles in Ordnung zu sein.",
+     "why": "Genehmigt in wenigen Minuten means approved within a few minutes, so almost at once. It is card and phone payers, not cash payers, who lose sight of their money, and the monthly amounts are small (gering), not high.",
+     "trap": "paraphrase",
+     "words": [
+      "W0971",
+      "W0982",
+      "W0528"
+     ]
+    },
+    {
+     "q": "Was steht im Artikel über Mahnungen?",
+     "right": "Jede weitere Zahlungserinnerung kostet zusätzlich Geld.",
+     "wrong": [
+      "Schon für die erste Mahnung muss man eine Gebühr zahlen.",
+      "Nach der ersten Mahnung schreibt meistens sofort ein Anwalt."
+     ],
+     "evidence": "Die erste Mahnung kostet meist noch nichts. Mit jeder weiteren Mahnung kommen aber neue Gebühren dazu, und auf den offenen Betrag werden zusätzlich Zinsen berechnet. Erst nach der dritten Mahnung schreibt meistens ein Anwalt.",
+     "why": "Fees (Gebühren) and interest come with each further reminder, but the first one usually costs nothing. Erst nach der dritten means not before the third, so the lawyer does not write after the first.",
+     "trap": "same-word",
+     "words": [
+      "W1511",
+      "W0932",
+      "W0121"
+     ]
+    },
+    {
+     "q": "Was rät Constanze Uhlig, wenn man eine Zahlung eventuell nicht schafft?",
+     "right": "Man soll sofort Kontakt mit der Firma aufnehmen.",
+     "wrong": [
+      "Man soll zuerst mit seinen Angehörigen darüber sprechen.",
+      "Man soll zuerst eine Schuldnerberatung besuchen."
+     ],
+     "evidence": "„Wer merkt, dass er eine Zahlung eventuell nicht schafft, sollte sofort bei der Firma anrufen“, rät sie.",
+     "why": "Her advice is to call the company right away (sofort bei der Firma anrufen). The relatives (Angehörigen) are only mentioned because many people do not even talk to them, and she does not tell people to visit a debt office first.",
+     "trap": "same-word",
+     "words": [
+      "W2806",
+      "W0746",
+      "W0083"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "ads",
+   "prompts": [
+    {
+     "id": "1",
+     "text": "Sie studieren in Leipzig und möchten kostenlos Bargeld am Automaten bekommen.",
+     "answer": "a",
+     "evidence": "An über 300 Geldautomaten in Leipzig heben Sie ohne Gebühr Bargeld ab.",
+     "why": "Heben ... ab means to withdraw and ohne Gebühr means free: ad a offers this at ATMs in Leipzig, for students. Ad b is also free for students, but it is in Graz, Austria (Bankomat is the Austrian word for ATM)."
+    },
+    {
+     "id": "2",
+     "text": "Ihr kleiner Sohn macht manchmal Sachen von anderen kaputt. Sie suchen eine passende Versicherung.",
+     "answer": "c",
+     "evidence": "Unsere Versicherung zahlt, wenn Sie bei anderen etwas kaputt machen, egal ob sich der Schaden zu Hause oder im Urlaub ereignet. Im Familientarif sind alle Angehörigen, die mit Ihnen in einer Wohnung leben, ebenfalls versichert.",
+     "why": "This insurance pays when you break other people's things, and family members (Angehörige) who live with you are covered too. Ad h also covers children, but only for their teeth."
+    },
+    {
+     "id": "3",
+     "text": "Sie suchen einen Job am Vormittag und möchten nicht im Büro sitzen.",
+     "answer": "f",
+     "evidence": "Für Leipzig-Gohlis suchen wir ab sofort eine Briefträgerin oder einen Briefträger in Teilzeit, Montag bis Freitag von 8 bis 12 Uhr. Sie verteilen Briefe und kleine Pakete mit unserem E-Bike und sind bei jedem Wetter draußen.",
+     "why": "The mail carrier job is 8 to 12 on weekdays, and you are outside (draußen) delivering (verteilen) letters. Ad g mentions an office (Büro), but it is a shop, not a job."
+    },
+    {
+     "id": "4",
+     "text": "Sie können Ihre Rechnungen nicht mehr bezahlen und suchen kostenlose Hilfe.",
+     "answer": "e",
+     "evidence": "Die Schuldnerberatung des Vereins Neuanfang hilft Ihnen kostenlos: Gemeinsam machen wir einen Plan, und wir sprechen für Sie mit Banken und Firmen.",
+     "why": "The debt counseling (Schuldnerberatung) is free (kostenlos). Ad d also helps with debts (Schulden), but the first consultation costs 60 euros."
+    },
+    {
+     "id": "5",
+     "text": "Sie möchten am Sonntag einen Brief als Einschreiben verschicken.",
+     "answer": "x",
+     "evidence": "Geöffnet Montag bis Samstag 9 bis 19 Uhr.",
+     "why": "Only ad g sends registered letters (Einschreiben), and it is closed on Sundays. No other ad offers postal services, so no ad fits."
+    }
+   ]
+  }
+ ]
+}

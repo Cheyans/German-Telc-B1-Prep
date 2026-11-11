@@ -1,0 +1,219 @@
+{
+ "audio": "07",
+ "mt": 2,
+ "teil": 1,
+ "page": 62,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Lebenslanges Lernen",
+   "from": "01:29",
+   "to": "06:11",
+   "intro": "Im Radio hören Sie fünf Menschen, die ein Reporter auf der Straße zum Thema „Lebenslanges Lernen“ befragt hat. Sie hören jeden Text nur einmal.",
+   "items": [
+    {
+     "t": 1,
+     "s": "Die Person ist seit fünf Jahren berufstätig.",
+     "a": false,
+     "at": "02:05",
+     "ev": "Mein Studium hat fünf Jahre gedauert … seit über 20 Jahren berufstätig",
+     "why": "Five years is how long the studies took. The speaker has worked for over 20 years, so the first number you hear is the trap.",
+     "trap": "number",
+     "w": [
+      [
+       "berufstätig sein",
+       "to be employed, to have a job"
+      ],
+      [
+       "das Studium",
+       "university studies"
+      ]
+     ]
+    },
+    {
+     "t": 1,
+     "s": "Die Weiterbildungen waren eher den Firmen wichtig als der Person selbst.",
+     "a": true,
+     "at": "02:19",
+     "ev": "Das war wichtig für die Firmen … Ich selbst wollte das eher nicht.",
+     "why": "The training mattered to the companies the speaker worked for. The speaker personally did not really want it.",
+     "trap": "who",
+     "w": [
+      [
+       "die Weiterbildung",
+       "further training"
+      ],
+      [
+       "eher nicht",
+       "not really"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Die Freundin der Person lernt gerade, wie man Fahrräder repariert.",
+     "a": true,
+     "at": "03:19",
+     "ev": "Meine Freundin macht gerade einen Wochenendkurs … wie man Fahrräder repariert",
+     "why": "The weekend bike repair course is the friend's, not the speaker's. The speaker even adds that it is nothing for them.",
+     "trap": "who",
+     "w": [
+      [
+       "der Wochenendkurs",
+       "weekend course"
+      ],
+      [
+       "die Volkshochschule",
+       "adult education center"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Die Person hat sich schon für einen Kurs zur Stadtgeschichte angemeldet.",
+     "a": false,
+     "at": "03:25",
+     "ev": "vielleicht melde ich mich mal für einen Kurs über die Stadtgeschichte an",
+     "why": "The speaker only says maybe they will sign up some day. That is a plan, not something done, and the prefix an comes at the very end.",
+     "trap": "when",
+     "w": [
+      [
+       "sich anmelden für",
+       "to sign up for"
+      ],
+      [
+       "die Stadtgeschichte",
+       "history of the city"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Die Person möchte nichts mehr über Computerprogramme lernen.",
+     "a": false,
+     "at": "04:15",
+     "ev": "ich will noch viel mehr zu verschiedenen Programmen lernen",
+     "why": "The speaker is annoyed about having to teach themselves or pay for courses. But they find it interesting and want to learn much more.",
+     "trap": "flip",
+     "w": [
+      [
+       "voraussetzen",
+       "to require, to expect as a given"
+      ],
+      [
+       "sich etwas beibringen",
+       "to teach yourself something"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Die Person meint, Firmen sollten bei Computerkursen mehr helfen.",
+     "a": true,
+     "at": "04:20",
+     "ev": "Ich wünsche mir nur, dass Arbeitgeber das mehr unterstützen",
+     "why": "The speaker wishes employers would support this more, since they profit from it in the end. Firmen and helfen are other words for Arbeitgeber and unterstützen.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "der Arbeitgeber",
+       "employer"
+      ],
+      [
+       "unterstützen",
+       "to support"
+      ],
+      [
+       "profitieren von",
+       "to benefit from"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Die Person meint, Schüler sollten schon in der Schule einen Beruf lernen.",
+     "a": false,
+     "at": "05:07",
+     "ev": "Klar sollen sie in der Schule noch keine berufliche Ausbildung machen.",
+     "why": "The speaker says that of course school is not the place for job training yet. Listen for keine before berufliche Ausbildung.",
+     "trap": "negation",
+     "w": [
+      [
+       "die weiterführende Schule",
+       "secondary school"
+      ],
+      [
+       "die berufliche Ausbildung",
+       "vocational training"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Die Person findet, dass die Schule zu wenig Alltagswissen vermittelt.",
+     "a": true,
+     "at": "05:11",
+     "ev": "keins meiner Kinder weiß, wie die Krankenkassen funktionieren",
+     "why": "None of the children know how health insurance works or when you have to pay taxes, and the speaker says everyone needs that in daily life. So school teaches too little for everyday life.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Krankenkasse",
+       "health insurance fund"
+      ],
+      [
+       "Steuern zahlen",
+       "to pay taxes"
+      ],
+      [
+       "der Alltag",
+       "everyday life"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Seit fünf Jahren gibt die Person Englischkurse für den Beruf.",
+     "a": true,
+     "at": "05:54",
+     "ev": "Ich bin seit fünf Jahren Trainer und gebe Kurse … in Business-Englisch",
+     "why": "„seit fünf Jahren Trainer … Kurse und Weiterbildungen in Business-Englisch“: English for work, for five years now.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Weiterbildung, -en",
+       "further training"
+      ],
+      [
+       "buchen",
+       "to book"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Die Person gibt vor allem Einzeltrainings.",
+     "a": false,
+     "at": "06:01",
+     "ev": "Normalerweise buchen mich die Firmen direkt, manchmal auch für Einzeltrainings.",
+     "why": "Usually companies book the speaker directly, and one-on-one sessions happen only sometimes. Vor allem wrongly makes the occasional case the main one.",
+     "trap": "overstate",
+     "w": [
+      [
+       "buchen",
+       "to book"
+      ],
+      [
+       "das Einzeltraining",
+       "one-on-one training"
+      ],
+      [
+       "die Teilnehmenden",
+       "participants"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

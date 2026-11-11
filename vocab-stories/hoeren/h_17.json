@@ -1,0 +1,250 @@
+{
+ "audio": "17",
+ "mt": 4,
+ "teil": 2,
+ "page": 103,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Die Patientenfürsprecherin (1. Hälfte)",
+   "from": "01:54",
+   "to": "04:20",
+   "intro": "Sie hören im Radio ein Interview mit Franka Elmau über ihre Arbeit in einem Krankenhaus. Hören Sie bis etwa 4:20.",
+   "items": [
+    {
+     "s": "Frau Elmau arbeitet seit drei Jahren hauptberuflich in der Elisabeth-Klinik.",
+     "a": false,
+     "at": "02:13",
+     "ev": "arbeiten nun schon drei Jahre ehrenamtlich in der Elisabeth-Klinik",
+     "why": "She works there as a volunteer („ehrenamtlich“), not as her paid main job. The three years and the clinic are right, which makes it sound true.",
+     "trap": "same-word",
+     "w": [
+      [
+       "ehrenamtlich",
+       "as a volunteer, unpaid"
+      ],
+      [
+       "die Patientenfürsprecherin",
+       "patient advocate (woman)"
+      ]
+     ]
+    },
+    {
+     "s": "Laut Frau Elmau brauchen Patienten häufig ihre Unterstützung.",
+     "a": true,
+     "at": "02:47",
+     "ev": "Kommt das oft vor? Ja, schon",
+     "why": "The host asks if this happens often, and she says yes. In a hospital many people feel unsure and helpless.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "vorkommen",
+       "to happen"
+      ],
+      [
+       "hilflos",
+       "helpless"
+      ],
+      [
+       "das Missverständnis",
+       "misunderstanding"
+      ]
+     ]
+    },
+    {
+     "s": "Bei Konflikten steht Frau Elmau auf der Seite des Krankenhauspersonals.",
+     "a": false,
+     "at": "03:18",
+     "ev": "stehe ich zwischen dem Krankenhauspersonal auf der einen Seite",
+     "why": "She is a neutral person who stands between the staff and the patients. The statement takes „Seite“ and „Krankenhauspersonal“ from the audio but puts her on one side.",
+     "trap": "same-word",
+     "w": [
+      [
+       "das Krankenhauspersonal",
+       "the hospital staff"
+      ],
+      [
+       "sich wenden an",
+       "to turn to, to contact"
+      ],
+      [
+       "die Angehörigen",
+       "the relatives"
+      ]
+     ]
+    },
+    {
+     "s": "Frau Elmau spricht nur in ihrer Sprechstunde mit den Patienten.",
+     "a": false,
+     "at": "03:35",
+     "ev": "Wenn das nicht geht, mache ich auch Besuche am Krankenbett.",
+     "why": "Patients can come to her office hours, and if they can't, she visits them at their bed. So „nur“ is wrong.",
+     "trap": "overstate",
+     "w": [
+      [
+       "die Sprechstunde",
+       "office hours"
+      ],
+      [
+       "das Krankenbett",
+       "the hospital bed"
+      ]
+     ]
+    },
+    {
+     "s": "In den meisten Fällen reicht schon ein Gespräch, um ein Problem zu lösen.",
+     "a": true,
+     "at": "03:46",
+     "ev": "Meistens hilft schon ein Gespräch, um ein Problem schnell zu lösen.",
+     "why": "„Meistens“ means in most cases. She then says some problems are bigger, but that does not change the „meistens“.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "meistens",
+       "mostly, in most cases"
+      ],
+      [
+       "die Erfahrung",
+       "experience"
+      ]
+     ]
+    },
+    {
+     "s": "Obwohl alle Krankenhäuser diese Arbeit sinnvoll finden, gibt es sie nicht überall.",
+     "a": true,
+     "at": "04:12",
+     "ev": "Aber nicht in allen arbeiten welche.",
+     "why": "All hospitals know advocates are useful, but not every hospital has one. If you stop after „in allen Krankenhäusern“, you miss the „aber nicht“.",
+     "trap": "flip",
+     "w": [
+      [
+       "sinnvoll",
+       "useful, sensible"
+      ],
+      [
+       "tätig sein",
+       "to work, to be active"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Die Patientenfürsprecherin (2. Hälfte)",
+   "from": "04:20",
+   "to": "06:05",
+   "intro": "Hören Sie weiter ab etwa 4:20 bis zum Ende des Gesprächs bei etwa 6:05. Frau Elmau erzählt mehr über sich und ihre Arbeit.",
+   "items": [
+    {
+     "s": "Durch eine Kollegin hat Frau Elmau von dem Ehrenamt erfahren.",
+     "a": true,
+     "at": "04:34",
+     "ev": "Eine Kollegin hat mir dann von diesem Ehrenamt erzählt.",
+     "why": "A colleague told her about this volunteer work. „erzählen“ becomes „erfahren“ (to find out) in the statement.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "das Ehrenamt",
+       "volunteer work, unpaid role"
+      ],
+      [
+       "die Ausbildung",
+       "vocational training"
+      ]
+     ]
+    },
+    {
+     "s": "Frau Elmau hat erst in ihrem Beruf gelernt, gut zuzuhören.",
+     "a": false,
+     "at": "04:46",
+     "ev": "war schon als Kind eine gute Zuhörerin",
+     "why": "She was a good listener already as a child, long before her job. „schon als Kind“ is the key.",
+     "trap": "when",
+     "w": [
+      [
+       "die Zuhörerin",
+       "listener (woman)"
+      ],
+      [
+       "die Stärke",
+       "strength"
+      ]
+     ]
+    },
+    {
+     "s": "Im Patientenrecht kennt sich Frau Elmau schon sehr gut aus.",
+     "a": false,
+     "at": "05:04",
+     "ev": "Im Patientenrecht habe ich ein paar Wissenslücken.",
+     "why": "She says she has some gaps in what she knows about patient law. That is why she signed up for a course.",
+     "trap": "same-word",
+     "w": [
+      [
+       "die Wissenslücke",
+       "gap in knowledge"
+      ],
+      [
+       "sich auskennen",
+       "to know a lot about"
+      ]
+     ]
+    },
+    {
+     "s": "Frau Elmau macht bald eine Weiterbildung, und die Klinik bezahlt sie.",
+     "a": true,
+     "at": "05:13",
+     "ev": "Die beginnt jetzt am Montag und wird von der Klinik bezahlt.",
+     "why": "She has signed up, and the course starts on Monday, so it is still ahead of her. The clinic pays for it.",
+     "trap": "when",
+     "w": [
+      [
+       "die Weiterbildung",
+       "further training, a course"
+      ],
+      [
+       "sich anmelden für",
+       "to sign up for"
+      ]
+     ]
+    },
+    {
+     "s": "Frau Elmau bekommt für ihre Arbeit überhaupt kein Geld.",
+     "a": false,
+     "at": "05:28",
+     "ev": "trotzdem eine kleine Summe als Anerkennung … Bei mir ist das auch so.",
+     "why": "There is no salary, but most clinics still pay a small sum as thanks, and she gets it too. „trotzdem“ turns the answer.",
+     "trap": "flip",
+     "w": [
+      [
+       "das Gehalt",
+       "salary"
+      ],
+      [
+       "die Anerkennung",
+       "recognition, appreciation"
+      ]
+     ]
+    },
+    {
+     "s": "Frau Elmau hört oft, dass ihre Arbeit wertvoll ist.",
+     "a": true,
+     "at": "05:54",
+     "ev": "Ich bekomme häufig gesagt, wie gut und wichtig meine Arbeit ist.",
+     "why": "She is often told how good and important her work is. „häufig“ means „oft“, and „gut und wichtig“ means „wertvoll“.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "schätzen",
+       "to value, to appreciate"
+      ],
+      [
+       "leisten",
+       "to do, to achieve (work)"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

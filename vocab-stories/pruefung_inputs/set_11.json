@@ -1,0 +1,567 @@
+{
+ "set": "11",
+ "title": "Der Deutschkurs",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "G104",
+   "entry": "die Folie, -n",
+   "level": "B1",
+   "gloss": "slide (in a presentation)"
+  },
+  {
+   "id": "G106",
+   "entry": "der Kommentar, -e",
+   "level": "B1",
+   "gloss": "comment"
+  },
+  {
+   "id": "G109",
+   "entry": "das Modul, -e",
+   "level": "B1",
+   "gloss": "module (part of a course)"
+  },
+  {
+   "id": "G112",
+   "entry": "die Rückmeldung, -en",
+   "level": "B1",
+   "gloss": "feedback"
+  },
+  {
+   "id": "G116",
+   "entry": "die Krippe, -n",
+   "level": "B1",
+   "gloss": "daycare for babies and toddlers"
+  },
+  {
+   "id": "G118",
+   "entry": "die Kindertagesstätte, -n (Kita)",
+   "level": "B1",
+   "gloss": "daycare center (Kita)"
+  },
+  {
+   "id": "G119",
+   "entry": "die Grundschule, -n",
+   "level": "B1",
+   "gloss": "elementary school"
+  },
+  {
+   "id": "G120",
+   "entry": "die Mittelschule, -n",
+   "level": "B1",
+   "gloss": "secondary school (grades 5 to 10)"
+  },
+  {
+   "id": "G121",
+   "entry": "die Realschule, -n",
+   "level": "B1",
+   "gloss": "middle-track secondary school"
+  },
+  {
+   "id": "G122",
+   "entry": "die Gesamtschule, -n",
+   "level": "B1",
+   "gloss": "comprehensive school"
+  },
+  {
+   "id": "G123",
+   "entry": "die Berufsschule, -n",
+   "level": "B1",
+   "gloss": "vocational school"
+  },
+  {
+   "id": "G124",
+   "entry": "die Sonderschule, -n",
+   "level": "B1",
+   "gloss": "special-needs school (old term)"
+  },
+  {
+   "id": "G125",
+   "entry": "das Gymnasium, Gymnasien",
+   "level": "B1",
+   "gloss": "college-prep high school"
+  },
+  {
+   "id": "G126",
+   "entry": "die Fachhochschule, -n",
+   "level": "B1",
+   "gloss": "university of applied sciences"
+  },
+  {
+   "id": "G127",
+   "entry": "die Hochschule, -n",
+   "level": "B1",
+   "gloss": "university, college"
+  },
+  {
+   "id": "G129",
+   "entry": "die Volkshochschule, -n",
+   "level": "B1",
+   "gloss": "adult education center"
+  },
+  {
+   "id": "G131",
+   "entry": "Chemie",
+   "level": "B1",
+   "gloss": "chemistry"
+  },
+  {
+   "id": "G132",
+   "entry": "Geografie",
+   "level": "B1",
+   "gloss": "geography"
+  },
+  {
+   "id": "G134",
+   "entry": "Mathematik (Mathe)",
+   "level": "B1",
+   "gloss": "math"
+  },
+  {
+   "id": "G136",
+   "entry": "Philosophie",
+   "level": "B1",
+   "gloss": "philosophy"
+  },
+  {
+   "id": "G137",
+   "entry": "Physik",
+   "level": "B1",
+   "gloss": "physics"
+  },
+  {
+   "id": "G143",
+   "entry": "mangelhaft (die Fünf)",
+   "level": "B1",
+   "gloss": "poor, failing (grade 5)"
+  },
+  {
+   "id": "G144",
+   "entry": "ungenügend (die Sechs)",
+   "level": "B1",
+   "gloss": "very poor, failing (grade 6)"
+  },
+  {
+   "id": "G368",
+   "entry": "jährlich",
+   "level": "B1",
+   "gloss": "yearly, every year"
+  },
+  {
+   "id": "W0012",
+   "entry": "abhängen, hängt ab, hing ab, hat abgehangen (von)",
+   "level": "B1",
+   "gloss": "to depend (on)"
+  },
+  {
+   "id": "W0017",
+   "entry": "das Abitur (D)A, CH:→ Matura",
+   "level": "B1",
+   "gloss": "high school diploma for university entry"
+  },
+  {
+   "id": "W0024",
+   "entry": "der Abschluss, ¨-e",
+   "level": "B1",
+   "gloss": "qualification, degree"
+  },
+  {
+   "id": "W0054",
+   "entry": "das Alphabet, -e",
+   "level": "B1",
+   "gloss": "alphabet"
+  },
+  {
+   "id": "W0274",
+   "entry": "die Bedeutung, -en",
+   "level": "B1",
+   "gloss": "meaning"
+  },
+  {
+   "id": "W0282",
+   "entry": "befriedigend",
+   "level": "B1",
+   "gloss": "satisfactory (grade 3)"
+  },
+  {
+   "id": "W0343",
+   "entry": "die Beschreibung, -en",
+   "level": "B1",
+   "gloss": "description"
+  },
+  {
+   "id": "W0390",
+   "entry": "die Biologie",
+   "level": "B1",
+   "gloss": "biology"
+  },
+  {
+   "id": "W0522",
+   "entry": "das Diplom, -e",
+   "level": "B1",
+   "gloss": "diploma"
+  },
+  {
+   "id": "W0605",
+   "entry": "die Einführung, -en",
+   "level": "B1",
+   "gloss": "introduction"
+  },
+  {
+   "id": "W0709",
+   "entry": "die Erklärung, -en",
+   "level": "B1",
+   "gloss": "explanation"
+  },
+  {
+   "id": "W0767",
+   "entry": "der Faktor, -en",
+   "level": "B1",
+   "gloss": "factor"
+  },
+  {
+   "id": "W0851",
+   "entry": "fördern, fördert, förderte, hat gefördert",
+   "level": "B1",
+   "gloss": "to support, to promote"
+  },
+  {
+   "id": "W0852",
+   "entry": "die Förderung, -en",
+   "level": "B1",
+   "gloss": "support, extra help"
+  },
+  {
+   "id": "W0855",
+   "entry": "die Forschung, -en",
+   "level": "B1",
+   "gloss": "research"
+  },
+  {
+   "id": "W0857",
+   "entry": "der Fortschritt, -e",
+   "level": "B1",
+   "gloss": "progress"
+  },
+  {
+   "id": "W1202",
+   "entry": "das Institut, -e",
+   "level": "B1",
+   "gloss": "institute"
+  },
+  {
+   "id": "W1209",
+   "entry": "der Intensivkurs, -e",
+   "level": "B1",
+   "gloss": "intensive course"
+  },
+  {
+   "id": "W1257",
+   "entry": "das Kapitel, -",
+   "level": "B1",
+   "gloss": "chapter"
+  },
+  {
+   "id": "W1298",
+   "entry": "die Klassenarbeit, -en (D) A: Schularbeit→",
+   "level": "B1",
+   "gloss": "written test in class (at school)"
+  },
+  {
+   "id": "W1357",
+   "entry": "korrigieren, korrigiert, korrigierte, hat korrigiert",
+   "level": "B1",
+   "gloss": "to correct"
+  },
+  {
+   "id": "W1405",
+   "entry": "der Kursleiter, -",
+   "level": "B1",
+   "gloss": "course instructor (male)"
+  },
+  {
+   "id": "W1406",
+   "entry": "die Kursleiter, -nen",
+   "level": "B1",
+   "gloss": "course instructor (female)"
+  },
+  {
+   "id": "W1467",
+   "entry": "der Lerner, - die Lernerin, -nen",
+   "level": "B1",
+   "gloss": "learner"
+  },
+  {
+   "id": "W1472",
+   "entry": "das Lexikon, -Lexika",
+   "level": "B1",
+   "gloss": "encyclopedia"
+  },
+  {
+   "id": "W1524",
+   "entry": "die Mappe, -n",
+   "level": "B1",
+   "gloss": "folder"
+  },
+  {
+   "id": "W1555",
+   "entry": "die Mensa, -s/-en",
+   "level": "B1",
+   "gloss": "university cafeteria"
+  },
+  {
+   "id": "W1565",
+   "entry": "die Methode, -n",
+   "level": "B1",
+   "gloss": "method"
+  },
+  {
+   "id": "W1636",
+   "entry": "die Nachhilfe, -n",
+   "level": "B1",
+   "gloss": "tutoring, extra lessons"
+  },
+  {
+   "id": "W1638",
+   "entry": "nachschlagen, schlägt nach, schlug nach, hat nachgeschlagen",
+   "level": "B1",
+   "gloss": "to look up"
+  },
+  {
+   "id": "W1834",
+   "entry": "prima",
+   "level": "B1",
+   "gloss": "great"
+  },
+  {
+   "id": "W1843",
+   "entry": "der Professor, -en die Professorin, -nen",
+   "level": "B1",
+   "gloss": "professor"
+  },
+  {
+   "id": "W1904",
+   "entry": "das Referat, -e",
+   "level": "B1",
+   "gloss": "presentation (in class)"
+  },
+  {
+   "id": "W2005",
+   "entry": "schauen, schaut, schaute, hat geschaut",
+   "level": "B1",
+   "gloss": "to look"
+  },
+  {
+   "id": "W2061",
+   "entry": "die Schrift, -en",
+   "level": "B1",
+   "gloss": "script, writing system"
+  },
+  {
+   "id": "W2110",
+   "entry": "das Semester, -",
+   "level": "B1",
+   "gloss": "semester"
+  },
+  {
+   "id": "W2111",
+   "entry": "das Seminar, -e",
+   "level": "B1",
+   "gloss": "seminar (university class)"
+  },
+  {
+   "id": "W2283",
+   "entry": "der Studierende, -n",
+   "level": "B1",
+   "gloss": "student (male)"
+  },
+  {
+   "id": "W2284",
+   "entry": "die Studierende, -n",
+   "level": "B1",
+   "gloss": "student (female)"
+  },
+  {
+   "id": "W2287",
+   "entry": "die Stufe, -n",
+   "level": "B1",
+   "gloss": "level, stage"
+  },
+  {
+   "id": "W2306",
+   "entry": "die Tabelle, -n",
+   "level": "B1",
+   "gloss": "table, chart"
+  },
+  {
+   "id": "W2342",
+   "entry": "der Teilnehmer, - die Teilnehmerin, -nen",
+   "level": "B1",
+   "gloss": "participant, test taker"
+  },
+  {
+   "id": "W2359",
+   "entry": "theoretisch",
+   "level": "B1",
+   "gloss": "in theory, theoretically"
+  },
+  {
+   "id": "W2360",
+   "entry": "die Theorie, -n",
+   "level": "B1",
+   "gloss": "theory"
+  },
+  {
+   "id": "W2428",
+   "entry": "die Übung, -en",
+   "level": "B1",
+   "gloss": "exercise, practice"
+  },
+  {
+   "id": "W2447",
+   "entry": "die Übersetzung, -en",
+   "level": "B1",
+   "gloss": "translation"
+  },
+  {
+   "id": "W2486",
+   "entry": "unglaublich",
+   "level": "B1",
+   "gloss": "unbelievable"
+  },
+  {
+   "id": "W2502",
+   "entry": "unterrichten, unterrichtet, unterrichtete, hat unterrichtet",
+   "level": "B1",
+   "gloss": "to teach"
+  },
+  {
+   "id": "W2510",
+   "entry": "unterstreichen, unterstreicht, unterstrich, hat unterstrichen",
+   "level": "B1",
+   "gloss": "to underline"
+  },
+  {
+   "id": "W2535",
+   "entry": "(sich) verbessern, verbessert, verbesserte, hat verbessert",
+   "level": "B1",
+   "gloss": "to correct, to improve"
+  },
+  {
+   "id": "W2645",
+   "entry": "voneinander",
+   "level": "B1",
+   "gloss": "from each other"
+  },
+  {
+   "id": "W2662",
+   "entry": "vorlesen, liest vor, las vor, hat vorgelesen",
+   "level": "B1",
+   "gloss": "to read aloud"
+  },
+  {
+   "id": "W2674",
+   "entry": "der Vortrag, ¨-e",
+   "level": "B1",
+   "gloss": "talk, lecture"
+  },
+  {
+   "id": "W2753",
+   "entry": "die Wiederholung, -en",
+   "level": "B1",
+   "gloss": "review"
+  },
+  {
+   "id": "W2771",
+   "entry": "die Wissenschaft, -en",
+   "level": "B1",
+   "gloss": "science"
+  },
+  {
+   "id": "W2772",
+   "entry": "der Wissenschaftler, - die Wissenschaftlerin, -nen",
+   "level": "B1",
+   "gloss": "scientist"
+  },
+  {
+   "id": "W2792",
+   "entry": "das Wörterbuch, ¨-er",
+   "level": "B1",
+   "gloss": "dictionary"
+  },
+  {
+   "id": "W2815",
+   "entry": "die Zeile, -n",
+   "level": "B1",
+   "gloss": "line (of text)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W1193",
+   "entry": "der Inhalt, -e",
+   "level": "B1",
+   "gloss": "content"
+  },
+  {
+   "id": "W1019",
+   "entry": "giftig",
+   "level": "B1",
+   "gloss": "poisonous"
+  },
+  {
+   "id": "W2434",
+   "entry": "überlegen, überlegt, überlegte, hat überlegt",
+   "level": "B1",
+   "gloss": "to think about, consider"
+  },
+  {
+   "id": "W2786",
+   "entry": "wollen, will, wollte, hat gewollt (hat wollen als",
+   "level": "A1",
+   "gloss": "to want (to); to intend to, plan to"
+  },
+  {
+   "id": "W0196",
+   "entry": "ausgeben, gibt aus, gab aus, hat ausgegeben",
+   "level": "A2",
+   "gloss": "to spend (money); to hand out, to give out"
+  },
+  {
+   "id": "W1796",
+   "entry": "die Pflicht, -en",
+   "level": "B1",
+   "gloss": "duty, obligation"
+  },
+  {
+   "id": "W0454",
+   "entry": "der Bürger, - die Bürgerin, -nen",
+   "level": "B1",
+   "gloss": "citizen"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X006",
+   "word": "die Wissenslücke, -n",
+   "gloss": "a gap in knowledge",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R018",
+   "word": "die Matura",
+   "gloss": "school-leaving exam",
+   "kind": "austrian",
+   "de": "das Abitur"
+  },
+  {
+   "id": "R025",
+   "word": "die Schularbeit, -en",
+   "gloss": "class test",
+   "kind": "austrian",
+   "de": "die Klassenarbeit"
+  }
+ ],
+ "story_opening": "Dienstags und donnerstags fährt Mateo nach der Arbeit zur Volkshochschule. Dort besucht er einen Abendkurs, der auf die Prüfung B1 vorbereitet. Der Kurs hat drei Module, also drei Teile, und Mateo ist jetzt im letzten Modul. In seiner Gruppe sitzen zwölf Erwachsene aus neun Ländern, zum Beispiel Karim aus Syrien und Priya aus Indien. Die Kursleiterin heißt Frau Neumann. Sie hat Deutsch und Philosophie studiert und unterrichtet schon seit zwanzig Jahren. Jährlich bereitet sie etwa fünfzig Menschen auf die Prüfung vor. Mateo hat einmal gerechnet: In zwanzig Jahren sind das ungefähr tausend Menschen.\n\nMateos erster Kurs vor drei Jahren war ganz anders. Das war ein Intensivkurs: jeden Morgen vie"
+}

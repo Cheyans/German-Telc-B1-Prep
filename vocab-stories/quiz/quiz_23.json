@@ -1,0 +1,80 @@
+{
+ "story": "23",
+ "questions": [
+  {
+   "q": "Wie reagiert Mateo auf Javiers Angebot?",
+   "right": "Er freut sich sehr, denn von so einer Stelle träumt er.",
+   "wrong": [
+    "Er sagt sofort Ja, ohne lange darüber nachzudenken.",
+    "Er ist überrascht, aber die Stelle interessiert ihn nicht."
+   ],
+   "evidence": "Mateo ist so überrascht, dass er fast den Löffel fallen lässt. Küchenchef in seiner Heimatstadt: Das ist sein Traumjob! Vor Freude tanzt er durch die Küche.",
+   "why": "It is his dream job (Traumjob), and he dances with joy. He does not say yes yet, because Javier tells him to think it over and answer by Sunday.",
+   "words": [
+    "W2399",
+    "W0878",
+    "W0284"
+   ]
+  },
+  {
+   "q": "Was passiert am nächsten Abend im Deutschkurs?",
+   "right": "Mateo ist unkonzentriert und vergisst zum ersten Mal die Hausaufgaben.",
+   "wrong": [
+    "Mateo hört wie immer genau zu und stellt der Lehrerin viele Fragen.",
+    "Mateo liest seine Hausaufgaben als Erster laut im Kurs vor."
+   ],
+   "evidence": "Am nächsten Abend im Deutschkurs ist Mateo nicht aufmerksam. Normalerweise hört er genau zu und stellt viele Fragen. Heute schaut er nur aus dem Fenster. Während die anderen ihre Hausaufgaben vorlesen, merkt er: Er hat sie vergessen. Das ist ihm noch nie passiert.",
+   "why": "Nicht aufmerksam means he is not paying attention, and he forgets his homework for the first time. Listening closely and asking questions is what he normally does.",
+   "words": [
+    "W0168",
+    "W2687",
+    "W2886"
+   ]
+  },
+  {
+   "q": "Wie fühlt sich Mateo, als er nach dem Streit zu Hause ist?",
+   "right": "Er fühlt sich schuldig, denn Jonas hat es nicht böse gemeint.",
+   "wrong": [
+    "Er ist immer noch wütend, weil Jonas ihn beleidigt hat.",
+    "Er ist stolz darauf, dass er im Café seine Meinung gesagt hat."
+   ],
+   "evidence": "Zu Hause ist sein Ärger über Jonas schon weg. Jetzt hat er ein schlechtes Gewissen. Jonas wollte ihn nicht beleidigen, das weiß Mateo eigentlich. Er ärgert sich über sich selbst.",
+   "why": "His anger at Jonas is gone and he has a guilty conscience (schlechtes Gewissen). He knows Jonas did not mean to insult him, and he is annoyed with himself, not proud.",
+   "words": [
+    "W1010",
+    "W0143",
+    "W0311"
+   ]
+  },
+  {
+   "q": "Wie reagiert Herr Vogel, als Mateo ihm alles erklärt?",
+   "right": "Er bietet ihm an, später die Küche zu leiten.",
+   "wrong": [
+    "Er schimpft, weil Mateo bei der Arbeit Fehler macht.",
+    "Er rät ihm, die Stelle in Sevilla anzunehmen."
+   ],
+   "evidence": "Ich will dich nicht verlieren. Du bist kreativ, du hast Talent, und ich habe volles Vertrauen zu dir. Ich kann dir entgegenkommen. Nächsten Sommer gehe ich in Rente. Wie wäre es, wenn du dann hier Küchenchef wirst?",
+   "why": "Herr Vogel wants to keep Mateo and offers to make him head chef when he retires next summer. He stays calm on the outside and does not push him toward Sevilla.",
+   "words": [
+    "W0661",
+    "W2617",
+    "W0215"
+   ]
+  },
+  {
+   "q": "Was sagt Mateo am Sonntag zu Javier?",
+   "right": "Spanien fehlt ihm oft, aber er fühlt sich in Leipzig zu Hause.",
+   "wrong": [
+    "Er hat überhaupt kein Heimweh mehr, darum bleibt er in Leipzig.",
+    "Er nimmt die Stelle gern an, aber erst nach seiner Prüfung."
+   ],
+   "evidence": "„Ich habe zwar oft Heimweh“, sagt Mateo, „aber Leipzig ist längst mein Zuhause.“",
+   "why": "With zwar and aber he admits he is often homesick, but längst means Leipzig has long been his home. He turns the job down and stays in Leipzig.",
+   "words": [
+    "W2888",
+    "W1429",
+    "W1106"
+   ]
+  }
+ ]
+}

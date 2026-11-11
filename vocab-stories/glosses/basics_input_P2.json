@@ -1,0 +1,1886 @@
+[
+{
+"id": "W0320",
+"entry": "beraten, berät, beriet, hat beraten",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0326",
+"entry": "der Berg, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0327",
+"entry": "berichten, berichtet, berichtete, hat berichtet",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0329",
+"entry": "der Beruf, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0333",
+"entry": "berühmt",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0337",
+"entry": "der Bescheid, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0342",
+"entry": "beschreiben, beschreibt, beschrieb, hat beschrieben",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0344",
+"entry": "sich beschweren, beschwert sich, beschwerte sich, hat sich beschwert",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0346",
+"entry": "besichtigen, besichtigt, besichtigte, hat besichtigt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0349",
+"entry": "besonders",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0354",
+"entry": "bestätigen, bestätigt, bestätigte, hat bestätigt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0356",
+"entry": "bestehen, besteht, bestand, hat bestanden",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0357",
+"entry": "bestellen, bestellt, bestellte, hat bestellt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0360",
+"entry": "besuchen, besucht, besuchte, hat besucht",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0361",
+"entry": "der Besuch, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0371",
+"entry": "das Bett, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0378",
+"entry": "sich bewerben, bewirbt sich, bewarb sich, hat sich beworben",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0379",
+"entry": "die Bewerbung, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0381",
+"entry": "bezahlen, bezahlt, bezahlte, hat bezahlt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0383",
+"entry": "die Bibliothek, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0384",
+"entry": "das Bier",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0386",
+"entry": "das Bild, -er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0389",
+"entry": "billig",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0393",
+"entry": "die Birne, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0394",
+"entry": "bis",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0397",
+"entry": "bitten, bittet, bat, hat gebeten",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0398",
+"entry": "die Bitte, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0399",
+"entry": "bitte",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0400",
+"entry": "bitter",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0402",
+"entry": "das Blatt, ¨-er",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0403",
+"entry": "bleiben, bleibt, blieb, ist geblieben",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0404",
+"entry": "der Bleistift, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0405",
+"entry": "der Blick, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0409",
+"entry": "blond",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0412",
+"entry": "die Blume, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0413",
+"entry": "die Bluse, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0417",
+"entry": "der Bogen, -/¨-",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0420",
+"entry": "böse",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0421",
+"entry": "braten, brät, briet, hat gebraten",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0422",
+"entry": "der Braten, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0424",
+"entry": "breit",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0429",
+"entry": "der Brief, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0431",
+"entry": "die Briefmarke, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0435",
+"entry": "die Brille, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0436",
+"entry": "bringen, bringt, brachte, hat gebracht",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0438",
+"entry": "das Brot, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0439",
+"entry": "das Brötchen, - (D) A:→ Semmel; CH: Brötli das Brötli, - (CH) D:→ Brötchen; A: Semmel",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0440",
+"entry": "die Brücke, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0441",
+"entry": "der Bruder, ¨-",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0444",
+"entry": "das Buch, ¨-er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0446",
+"entry": "buchen, bucht, buchte, hat gebucht",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0447",
+"entry": "buchstabieren, buchstabiert, buchstabierte, hat buchstabiert",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0448",
+"entry": "der Buchstabe, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0452",
+"entry": "bunt",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0455",
+"entry": "das Büro, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0458",
+"entry": "der Bus, -se",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0459",
+"entry": "die Butter",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0460",
+"entry": "das Café, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0461",
+"entry": "die Cafeteria, -s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0463",
+"entry": "der Chef, -s die Chefin, -nen",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0468",
+"entry": "die Creme, -n/-s",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0472",
+"entry": "da",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0479",
+"entry": "damals",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0480",
+"entry": "die Dame, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0483",
+"entry": "daneben",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0484",
+"entry": "danken, dankt, dankte, hat gedankt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0485",
+"entry": "der Dank",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0487",
+"entry": "danke",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0488",
+"entry": "dann",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0491",
+"entry": "dass",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0492",
+"entry": "die Datei, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0493",
+"entry": "das Datum, die Daten",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0495",
+"entry": "dauern, dauert, dauerte, hat gedauert",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0500",
+"entry": "denken, denkt, dachte, hat gedacht",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0503",
+"entry": "denn",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0505",
+"entry": "deshalb",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0509",
+"entry": "deutlich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0514",
+"entry": "dick",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0518",
+"entry": "dies-",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0521",
+"entry": "das Ding, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0523",
+"entry": "direkt",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0526",
+"entry": "diskutieren, diskutiert, diskutierte, hat diskutiert",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0529",
+"entry": "doch",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0530",
+"entry": "der Doktor, -en die Doktorin, -nen",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0536",
+"entry": "das Dorf, ¨-er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0537",
+"entry": "dort",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0540",
+"entry": "draußen",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0543",
+"entry": "dringend",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0547",
+"entry": "drüben",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0548",
+"entry": "drucken, druckt, druckte, hat gedruckt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0549",
+"entry": "der Drucker, -",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0550",
+"entry": "drücken, drückt, drückte, hat gedrückt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0552",
+"entry": "dumm",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0553",
+"entry": "dunkel",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0554",
+"entry": "dünn",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0555",
+"entry": "durch",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0557",
+"entry": "die Durchsage, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0560",
+"entry": "dürfen, darf, durfte, hat gedurft (hat dürfen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0562",
+"entry": "der Durst",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0564",
+"entry": "(sich) duschen, duscht, duschte, hat geduscht",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0565",
+"entry": "die Dusche, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0571",
+"entry": "echt",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0573",
+"entry": "die Ecke, -n (D, CH) A:→ Eck",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0576",
+"entry": "egal",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0578",
+"entry": "die Ehefrau, -en/der Ehemann, ¨-er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0582",
+"entry": "das Ei, -er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0583",
+"entry": "eigen-",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0584",
+"entry": "eigentlich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0588",
+"entry": "eilig",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0589",
+"entry": "ein-",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0597",
+"entry": "einfach",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0606",
+"entry": "der Eingang, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0608",
+"entry": "einig-",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0610",
+"entry": "einkaufen, kauft ein, kaufte ein, hat eingekauft",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0613",
+"entry": "die Einladung, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0614",
+"entry": "einmal",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0617",
+"entry": "einpacken, packt ein, packte ein, hat eingepackt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0624",
+"entry": "einsteigen, steigt ein, stieg ein, ist eingestiegen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0626",
+"entry": "eintragen, trägt ein, trug ein, hat eingetragen",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0628",
+"entry": "der Eintritt",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0629",
+"entry": "einverstanden",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0634",
+"entry": "Einzel-",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0637",
+"entry": "einziehen, zieht ein, zog ein, ist eingezogen",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0648",
+"entry": "der Empfänger, -",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0649",
+"entry": "empfehlen, empfiehlt, empfahl, hat empfohlen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0651",
+"entry": "enden, endet, endete, hat geendet",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0652",
+"entry": "das Ende",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0654",
+"entry": "endlich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0656",
+"entry": "eng",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0671",
+"entry": "entschuldigen, entschuldigt, entschuldigte, hat entschuldigt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0672",
+"entry": "die Entschuldigung, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0687",
+"entry": "die Erfahrung, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0695",
+"entry": "ergänzen, ergänzt, ergänzte, hat ergänzt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0696",
+"entry": "das Ergebnis, -se",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0702",
+"entry": "erinnern, erinnert, erinnerte, hat erinnert",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0708",
+"entry": "erklären, erklärt, erklärte, hat erklärt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0711",
+"entry": "erlauben, erlaubt, erlaubte, hat erlaubt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0717",
+"entry": "die Ermäßigung, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0725",
+"entry": "erreichen, erreicht, erreichte, hat erreicht",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0730",
+"entry": "erst",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0734",
+"entry": "der Erwachsene, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0736",
+"entry": "erzählen, erzählt, erzählte, hat erzählt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0740",
+"entry": "es",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0741",
+"entry": "essen, isst, aß, hat gegessen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0742",
+"entry": "das Essen, -",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0745",
+"entry": "etwas",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0753",
+"entry": "das Fach, ¨-er",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0758",
+"entry": "fahren, fährt, fuhr, ist/hat gefahren",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0761",
+"entry": "der Fahrer, -",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0762",
+"entry": "die Fahrkarte, -n CH: Billet→",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0763",
+"entry": "der Fahrplan, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0764",
+"entry": "das Fahrrad, ¨-er D, A:→ Rad; CH: Velo",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0769",
+"entry": "fallen, fällt, fiel, ist gefallen",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0772",
+"entry": "falsch",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0773",
+"entry": "die Familie, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0777",
+"entry": "fantastisch",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0778",
+"entry": "die Farbe, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0784",
+"entry": "fast",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0785",
+"entry": "faul",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0788",
+"entry": "fehlen, fehlt, fehlte, hat gefehlt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0789",
+"entry": "der Fehler, -",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0790",
+"entry": "feiern, feiert, feierte, hat gefeiert",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0791",
+"entry": "die Feier, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0795",
+"entry": "das Fenster, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0799",
+"entry": "fernsehen, sieht fern, sah fern, hat ferngesehen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0800",
+"entry": "das Fernsehen",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0801",
+"entry": "der Fernseher, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0802",
+"entry": "fertig",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0803",
+"entry": "fest",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0804",
+"entry": "das Fest, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0812",
+"entry": "fett",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0813",
+"entry": "das Fett",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0815",
+"entry": "das Feuer",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0818",
+"entry": "das Fieber",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0820",
+"entry": "der Film, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0823",
+"entry": "finden, findet, fand, hat gefunden",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0825",
+"entry": "die Firma, Firmen",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0828",
+"entry": "die Flasche, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0830",
+"entry": "das Fleisch",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0832",
+"entry": "fleißig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0834",
+"entry": "fliegen, fliegt, flog, ist geflogen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0839",
+"entry": "der Flohmarkt, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0841",
+"entry": "der Flug, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0842",
+"entry": "der Flughafen, ¨-",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0844",
+"entry": "der Fluss, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0854",
+"entry": "das Formular, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0861",
+"entry": "fotografieren, fotografiert, fotografierte, hat fotografiert",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0862",
+"entry": "das Foto, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0863",
+"entry": "der Fotoapparat, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0866",
+"entry": "fragen, fragt, fragte, hat gefragt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0867",
+"entry": "die Frage, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0868",
+"entry": "die Frau, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0870",
+"entry": "frei",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0873",
+"entry": "die Freizeit",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0874",
+"entry": "freiwillig",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0875",
+"entry": "fremd",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0877",
+"entry": "sich freuen, freut sich, freute sich, hat sich gefreut",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0879",
+"entry": "der Freund, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0880",
+"entry": "freundlich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0884",
+"entry": "frisch",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0888",
+"entry": "froh",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0892",
+"entry": "früh",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0894",
+"entry": "frühstücken, frühstückt, frühstückte, hat gefrühstückt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0895",
+"entry": "das Frühstück",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0896",
+"entry": "fühlen, fühlt, fühlte, hat gefühlt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W0900",
+"entry": "die Führung, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0903",
+"entry": "für",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0904",
+"entry": "furchtbar",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0906",
+"entry": "der Fuß, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0907",
+"entry": "der Fußball, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0911",
+"entry": "die Gabel, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0913",
+"entry": "der Gang, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0914",
+"entry": "ganz",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0916",
+"entry": "die Garage, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0920",
+"entry": "der Garten, ¨-",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0921",
+"entry": "der Gast, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0925",
+"entry": "geben, gibt, gab, hat gegeben",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0934",
+"entry": "der Geburtstag, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0940",
+"entry": "gefährlich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0941",
+"entry": "gefallen, gefällt, gefiel, hat gefallen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0943",
+"entry": "lassen",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0946",
+"entry": "gegen",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0951",
+"entry": "das Gegenteil, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0952",
+"entry": "gegenüber",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0953",
+"entry": "das Gehalt, ¨-er",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0956",
+"entry": "gehen, geht, ging, ist gegangen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0957",
+"entry": "gehören, gehört, gehörte, hat gehört",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W0959",
+"entry": "das Geld",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0967",
+"entry": "das Gemüse",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0969",
+"entry": "genau",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0974",
+"entry": "genug",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W0976",
+"entry": "das Gepäck",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0977",
+"entry": "gerade",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0978",
+"entry": "geradeaus",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W0979",
+"entry": "das Gerät, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0981",
+"entry": "das Gericht, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0985",
+"entry": "das Geschäft, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0987",
+"entry": "das Geschenk, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W0988",
+"entry": "die Geschichte, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W0998",
+"entry": "das Gesicht, -er",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1000",
+"entry": "das Gespräch, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1001",
+"entry": "gestern",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1002",
+"entry": "gesund",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W1003",
+"entry": "die Gesundheit",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1004",
+"entry": "das Getränk, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1007",
+"entry": "das Gewicht, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1008",
+"entry": "gewinnen, gewinnt, gewann, hat gewonnen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1011",
+"entry": "das Gewitter, -",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1020",
+"entry": "die Gitarre, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1022",
+"entry": "das Glas, ¨-er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1024",
+"entry": "glauben, glaubt, glaubte, hat geglaubt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1025",
+"entry": "gleich",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1029",
+"entry": "das Gleis, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1030",
+"entry": "das Glück",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1031",
+"entry": "glücklich",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1032",
+"entry": "der Glückwunsch, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1038",
+"entry": "gratulieren, gratuliert, gratulierte, hat gratuliert",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1043",
+"entry": "grillen, grillt, grillte, hat gegrillt (D, A) CH: grillieren→",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1047",
+"entry": "groß",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1049",
+"entry": "die Größe, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1054",
+"entry": "die Gruppe, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1056",
+"entry": "der Gruß, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1058",
+"entry": "gültig",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1059",
+"entry": "günstig",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1060",
+"entry": "gut",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1062",
+"entry": "das Haar, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1063",
+"entry": "haben, hat, hatte, hat gehabt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1068",
+"entry": "die Halbpension",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1071",
+"entry": "die Halle, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1073",
+"entry": "hallo",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1074",
+"entry": "der Hals, ¨-e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1077",
+"entry": "halten, hält, hielt, hat gehalten",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1079",
+"entry": "die Haltestelle, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1081",
+"entry": "die Hand, ¨-e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1086",
+"entry": "das Handy, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1087",
+"entry": "hängen, hängt, hing/hängte, hat gehangen/gehängt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W1088",
+"entry": "hart",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W1090",
+"entry": "hässlich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W1094",
+"entry": "das Haus, ¨-er",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1095",
+"entry": "die Hausaufgabe, -n",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1097",
+"entry": "der Haushalt, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1101",
+"entry": "das Heft, -e",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1104",
+"entry": "die Heimat",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1107",
+"entry": "heiraten, heiratet, heiratete, hat geheiratet",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1108",
+"entry": "heiß",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W1109",
+"entry": "heißen, heißt, hieß, hat geheißen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1111",
+"entry": "die Heizung, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1113",
+"entry": "helfen, hilft, half, hat geholfen",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1114",
+"entry": "die Hilfe",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1115",
+"entry": "hell",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1116",
+"entry": "das Hemd, -en",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1123",
+"entry": "der Herd, -e",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1126",
+"entry": "der Herr, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1127",
+"entry": "herstellen, stellt her, stellte her, hat hergestellt",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W1134",
+"entry": "herzlich",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1135",
+"entry": "heute",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1141",
+"entry": "hinten",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1149",
+"entry": "das Hobby, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1150",
+"entry": "hoch",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1154",
+"entry": "die Hochzeit, -en",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1157",
+"entry": "hoffen, hofft, hoffte, hat gehofft",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W1158",
+"entry": "hoffentlich",
+"level": "A2",
+"pos": "other"
+},
+{
+"id": "W1161",
+"entry": "holen, holt, holte, hat geholt",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1164",
+"entry": "hören, hört, hörte, hat gehört",
+"level": "A1",
+"pos": "verb"
+},
+{
+"id": "W1167",
+"entry": "die Hose, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1168",
+"entry": "das Hotel, -s",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1172",
+"entry": "der Hunger",
+"level": "A1",
+"pos": "noun"
+},
+{
+"id": "W1175",
+"entry": "husten, hustet, hustete, hat gehustet",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W1176",
+"entry": "der Husten",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1180",
+"entry": "die Idee, -n",
+"level": "A2",
+"pos": "noun"
+},
+{
+"id": "W1183",
+"entry": "immer",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1185",
+"entry": "in",
+"level": "A1",
+"pos": "other"
+},
+{
+"id": "W1190",
+"entry": "informieren, informiert, informierte, hat informiert",
+"level": "A2",
+"pos": "verb"
+},
+{
+"id": "W1191",
+"entry": "die Information, -en",
+"level": "A1",
+"pos": "noun"
+}
+]

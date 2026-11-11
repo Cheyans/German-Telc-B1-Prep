@@ -1,0 +1,161 @@
+{
+ "set": "25",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Wie war das Wetter Mitte September laut Artikel?",
+     "right": "Es war noch richtig heiß, wie im Sommer.",
+     "wrong": [
+      "Es war mild, also nicht zu warm und nicht zu kalt.",
+      "Es war schon kühl, und es regnete oft."
+     ],
+     "evidence": "Normalerweise ist der September mild, in diesem Jahr wurden jedoch noch Mitte des Monats 31 Grad gemessen.",
+     "why": "Normalerweise ... jedoch flips the usual picture: September is normally mild, but this year it was 31 degrees in mid-September. Cool and rainy does not fit 31 degrees either.",
+     "trap": "flip",
+     "words": [
+      "W1690",
+      "W1574",
+      "G238"
+     ]
+    },
+    {
+     "q": "Was berichtet der Artikel über das Verhalten der Besucher?",
+     "right": "Viele kennen die Vorhersage und gehen trotzdem spät los.",
+     "wrong": [
+      "Die meisten lesen vor der Wanderung keinen Wetterbericht.",
+      "Viele klettern auch bei dunklen Wolken an Felswänden."
+     ],
+     "evidence": "In der Realität sieht es jedoch oft anders aus: Viele Besucher lesen den Wetterbericht zwar, brechen aber trotzdem erst gegen Mittag auf. Manche Kletterer suchen außerdem an senkrechten Felswänden den Nervenkitzel, auch wenn sich schon dunkle Wolken zeigen.",
+     "why": "Zwar ... trotzdem means many visitors do read the weather report but still leave around noon. Climbing under dark clouds is something only some climbers do (manche Kletterer), not many visitors.",
+     "trap": "flip",
+     "words": [
+      "W1889",
+      "W2746",
+      "X014"
+     ]
+    },
+    {
+     "q": "Wann sollte man laut Artikel sofort Schutz suchen?",
+     "right": "Wenn der Donner weniger als zehn Sekunden nach dem Blitz kommt.",
+     "wrong": [
+      "Wenn zwischen Blitz und Donner weniger als 30 Sekunden liegen.",
+      "Sobald man in der Ferne den ersten Donner hört."
+     ],
+     "evidence": "Wer zwischen Blitz und Donner weniger als zehn Sekunden zählt, sollte sofort Schutz suchen.",
+     "why": "The article's rule is fewer than ten seconds between lightning and thunder. The 30-second rule and the first-thunder rule are real advice elsewhere, but the article does not give them.",
+     "trap": "same-word",
+     "words": [
+      "W0408",
+      "W0533"
+     ]
+    },
+    {
+     "q": "Was erfährt man über die Kartoffeln von Familie Lehmann?",
+     "right": "Sie waren im Trockenen, bevor der Hagel kam.",
+     "wrong": [
+      "Der Hagel hat einen großen Verlust verursacht.",
+      "Drei Wanderer haben sie aus der Erde geholt."
+     ],
+     "evidence": "Die beiden hatten gerade die letzten Kartoffeln aus der Erde geholt, als ein Gewitter kam. Drei Wanderer aus Leipzig halfen spontan, die Kisten ins Trockene zu tragen. Kurz danach hagelte es sogar. „Wäre die Ernte nass geworden, hätten wir einen großen Verlust gehabt“, sagt der Bauer.",
+     "why": "The Lehmanns dug up the potatoes themselves, and the hikers only carried the boxes into the dry before the hail. Wäre ... hätten is Konjunktiv II, so the big loss did not happen.",
+     "trap": "who",
+     "words": [
+      "W2906",
+      "W2580",
+      "W0681"
+     ]
+    },
+    {
+     "q": "Was erfährt man im Artikel über giftige Pilze?",
+     "right": "Manche wirken erst einige Stunden nach dem Essen.",
+     "wrong": [
+      "Man findet sie vor allem auf Wiesen, nicht im Wald.",
+      "Die meisten erkennt man gut an ihrer Farbe."
+     ],
+     "evidence": "Doch Vorsicht: Viele giftige Pilze sehen fast genauso aus wie essbare, und manche enthalten ein Gift, das man erst nach Stunden bemerkt.",
+     "why": "The article says some contain a poison you notice only after hours. It also says they look almost like edible ones, so color is no help, and they grow in the forest (im Wald), not mainly on meadows.",
+     "trap": "paraphrase",
+     "words": [
+      "W1019",
+      "W0662",
+      "W1018"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Zigarette im Wald: ein Streichholz mit Folgen"
+    },
+    {
+     "id": "b",
+     "text": "Hagel beschädigt Hunderte Autos in Leipzig"
+    },
+    {
+     "id": "c",
+     "text": "Neues Insekt aus Asien in Leipzig entdeckt"
+    },
+    {
+     "id": "d",
+     "text": "Tiere pflegen die Deiche der Stadt"
+    },
+    {
+     "id": "e",
+     "text": "Steiermark: viele Vergiftungen durch Schwammerl"
+    },
+    {
+     "id": "f",
+     "text": "Unwetter erwartet: Autos besser nicht draußen parken"
+    },
+    {
+     "id": "g",
+     "text": "Nach dem Regen: Fähren auf der Elbe fahren wieder"
+    },
+    {
+     "id": "h",
+     "text": "Trockenheit stoppt die Schiffe in Dresden"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "f",
+     "evidence": "Die Stadt bittet alle Kfz-Halter, ihre Fahrzeuge zur Sicherheit in eine Garage oder ein Parkhaus zu stellen.",
+     "why": "Kfz-Halter are car owners, and the city asks them to put their cars in a garage before the storm. Headline b is a trap: the hail is only expected, nothing has been damaged yet."
+    },
+    {
+     "id": "2",
+     "answer": "c",
+     "evidence": "Im Süden der Stadt ist in diesem Sommer zum ersten Mal die Asiatische Tigermücke gefunden worden.",
+     "why": "A mosquito from Asia was found in Leipzig for the first time, and a mosquito is an insect."
+    },
+    {
+     "id": "3",
+     "answer": "h",
+     "evidence": "Die historischen Raddampfer bleiben deshalb im Hafen, und zwei Fähren, die die beiden Ufer verbinden, fahren nicht mehr.",
+     "why": "The Elbe is so low that the steamers stay in port and two ferries have stopped. Headline g says the opposite: it has hardly rained, and the ferries are not running."
+    },
+    {
+     "id": "4",
+     "answer": "d",
+     "evidence": "Die Tiere fressen das Gras kurz und treten mit ihren Füßen die Erde fest. So bleiben die Deiche bei Hochwasser stabil, und die Stadt braucht keine teuren Maschinen.",
+     "why": "The sheep keep the grass short and press the soil firm, so they take care of the dikes instead of machines."
+    },
+    {
+     "id": "5",
+     "answer": "a",
+     "evidence": "Nachdem er sich eine Zigarette angezündet hatte, warf er den noch brennenden Zünder ins trockene Gras.",
+     "why": "Zünder is Austrian for a match: a burning match in dry grass started a forest fire. Headline e repeats Schwammerl, but the item is about a fire, not about poisoning."
+    }
+   ]
+  }
+ ]
+}

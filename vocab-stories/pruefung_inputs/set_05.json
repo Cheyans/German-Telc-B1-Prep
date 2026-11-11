@@ -1,0 +1,561 @@
+{
+ "set": "05",
+ "title": "Beim Arzt",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "G340",
+   "entry": "wochentags",
+   "level": "B1",
+   "gloss": "on weekdays"
+  },
+  {
+   "id": "G355",
+   "entry": "der Sonnabend",
+   "level": "A1",
+   "gloss": "Saturday (northern and eastern Germany)"
+  },
+  {
+   "id": "W0049",
+   "entry": "aller-",
+   "level": "B1",
+   "gloss": "of all; das Allerwichtigste = most important thing"
+  },
+  {
+   "id": "W0150",
+   "entry": "die Ärztin, -nen",
+   "level": "B1",
+   "gloss": "doctor (female)"
+  },
+  {
+   "id": "W0152",
+   "entry": "atmen, atmet, atmete, hat geatmet",
+   "level": "B1",
+   "gloss": "to breathe"
+  },
+  {
+   "id": "W0153",
+   "entry": "der Atem",
+   "level": "B1",
+   "gloss": "breath"
+  },
+  {
+   "id": "W0189",
+   "entry": "auseinander",
+   "level": "B1",
+   "gloss": "apart"
+  },
+  {
+   "id": "W0210",
+   "entry": "ausschließen, schließt aus, schloss aus, hat ausgeschlossen",
+   "level": "B1",
+   "gloss": "to rule out"
+  },
+  {
+   "id": "W0293",
+   "entry": "behandeln, behandelt, behandelte, hat behandelt",
+   "level": "B1",
+   "gloss": "to treat (medically)"
+  },
+  {
+   "id": "W0353",
+   "entry": "die Besserung",
+   "level": "B1",
+   "gloss": "recovery; Gute Besserung = get well soon"
+  },
+  {
+   "id": "W0401",
+   "entry": "blass",
+   "level": "B1",
+   "gloss": "pale"
+  },
+  {
+   "id": "W0442",
+   "entry": "die Brust",
+   "level": "B1",
+   "gloss": "chest"
+  },
+  {
+   "id": "W0545",
+   "entry": "die Droge, -n",
+   "level": "B1",
+   "gloss": "drug (illegal)"
+  },
+  {
+   "id": "W0556",
+   "entry": "durcheinander",
+   "level": "B1",
+   "gloss": "in a mess, jumbled"
+  },
+  {
+   "id": "W0559",
+   "entry": "durchschnittlich",
+   "level": "B1",
+   "gloss": "on average"
+  },
+  {
+   "id": "W0615",
+   "entry": "einnehmen, nimmt ein, nahm ein, hat eingenommen",
+   "level": "B1",
+   "gloss": "to take (medicine)"
+  },
+  {
+   "id": "W0616",
+   "entry": "die Einnahme, -n",
+   "level": "B1",
+   "gloss": "taking (of medicine), intake"
+  },
+  {
+   "id": "W0653",
+   "entry": "endgültig",
+   "level": "B1",
+   "gloss": "for good, finally"
+  },
+  {
+   "id": "W0700",
+   "entry": "sich erholen, erholt sich, erholte sich, hat sich erholt",
+   "level": "B1",
+   "gloss": "to recover, rest"
+  },
+  {
+   "id": "W0701",
+   "entry": "die Erholung, -en",
+   "level": "B1",
+   "gloss": "rest, recovery"
+  },
+  {
+   "id": "W0704",
+   "entry": "sich erkälten, erkältet sich, erkältete sich, hat sich erkältet",
+   "level": "B1",
+   "gloss": "to catch a cold"
+  },
+  {
+   "id": "W0705",
+   "entry": "erkältet",
+   "level": "B1",
+   "gloss": "having a cold"
+  },
+  {
+   "id": "W0706",
+   "entry": "die Erkältung, -en",
+   "level": "B1",
+   "gloss": "cold (illness)"
+  },
+  {
+   "id": "W0716",
+   "entry": "erleichtern, erleichtert, erleichterte, hat erleichtert",
+   "level": "B1",
+   "gloss": "to make easier"
+  },
+  {
+   "id": "W0726",
+   "entry": "erschöpft",
+   "level": "B1",
+   "gloss": "exhausted"
+  },
+  {
+   "id": "W0768",
+   "entry": "der Fall, ¨-e",
+   "level": "B1",
+   "gloss": "case; auf jeden Fall = definitely"
+  },
+  {
+   "id": "W0824",
+   "entry": "der Finger, -",
+   "level": "B1",
+   "gloss": "finger"
+  },
+  {
+   "id": "W0845",
+   "entry": "die Flüssigkeit, -en",
+   "level": "B1",
+   "gloss": "liquid, fluids"
+  },
+  {
+   "id": "W1028",
+   "entry": "gleichzeitig",
+   "level": "B1",
+   "gloss": "at the same time"
+  },
+  {
+   "id": "W1046",
+   "entry": "die Grippe",
+   "level": "A2",
+   "gloss": "flu"
+  },
+  {
+   "id": "W1099",
+   "entry": "die Haut",
+   "level": "B1",
+   "gloss": "skin"
+  },
+  {
+   "id": "W1133",
+   "entry": "das Herz, -en",
+   "level": "B1",
+   "gloss": "heart"
+  },
+  {
+   "id": "W1142",
+   "entry": "hinter/hinter-",
+   "level": "A2",
+   "gloss": "behind"
+  },
+  {
+   "id": "W1189",
+   "entry": "die Infektion, -en",
+   "level": "B1",
+   "gloss": "infection"
+  },
+  {
+   "id": "W1224",
+   "entry": "je",
+   "level": "B1",
+   "gloss": "each, per; je einen Löffel = one spoonful each time"
+  },
+  {
+   "id": "W1368",
+   "entry": "der Kranke, -n",
+   "level": "B1",
+   "gloss": "sick person (male), patient"
+  },
+  {
+   "id": "W1369",
+   "entry": "die Kranke, -n",
+   "level": "B1",
+   "gloss": "sick person (female), patient"
+  },
+  {
+   "id": "W1370",
+   "entry": "das Krankenhaus, ¨-er",
+   "level": "B1",
+   "gloss": "hospital"
+  },
+  {
+   "id": "W1371",
+   "entry": "die Krankenkasse, -n",
+   "level": "B1",
+   "gloss": "health insurance company"
+  },
+  {
+   "id": "W1373",
+   "entry": "die Krankenschwester, -n",
+   "level": "B1",
+   "gloss": "nurse (female)"
+  },
+  {
+   "id": "W1456",
+   "entry": "leiden, leidet, litt, hat gelitten",
+   "level": "B1",
+   "gloss": "to suffer (from)"
+  },
+  {
+   "id": "W1487",
+   "entry": "die Lippe, -n",
+   "level": "B1",
+   "gloss": "lip"
+  },
+  {
+   "id": "W1539",
+   "entry": "die Medizin",
+   "level": "B1",
+   "gloss": "medicine"
+  },
+  {
+   "id": "W1550",
+   "entry": "meist(ens)",
+   "level": "A1",
+   "gloss": "mostly, usually"
+  },
+  {
+   "id": "W1653",
+   "entry": "die Nase, -n",
+   "level": "B1",
+   "gloss": "nose"
+  },
+  {
+   "id": "W1679",
+   "entry": "der Nichtraucher, - die Nichtraucherin, -nen",
+   "level": "B1",
+   "gloss": "nonsmoker"
+  },
+  {
+   "id": "W1770",
+   "entry": "der Patient, -en die Patientin, -nen",
+   "level": "B1",
+   "gloss": "patient"
+  },
+  {
+   "id": "W1799",
+   "entry": "die Pille, -n",
+   "level": "B1",
+   "gloss": "the pill (birth control)"
+  },
+  {
+   "id": "W1857",
+   "entry": "der Punkt, -e",
+   "level": "B1",
+   "gloss": "point; um Punkt elf = at eleven sharp"
+  },
+  {
+   "id": "W1882",
+   "entry": "der Raucher, - die Raucherin, -nen",
+   "level": "B1",
+   "gloss": "smoker"
+  },
+  {
+   "id": "W1900",
+   "entry": "rechtzeitig",
+   "level": "B1",
+   "gloss": "in time, on time"
+  },
+  {
+   "id": "W1983",
+   "entry": "die Salbe, -n",
+   "level": "B1",
+   "gloss": "ointment, cream"
+  },
+  {
+   "id": "W2025",
+   "entry": "der Schlaf",
+   "level": "B1",
+   "gloss": "sleep"
+  },
+  {
+   "id": "W2040",
+   "entry": "das Schmerzmittel, -",
+   "level": "B1",
+   "gloss": "painkiller"
+  },
+  {
+   "id": "W2051",
+   "entry": "der Schnupfen",
+   "level": "B1",
+   "gloss": "runny nose, head cold"
+  },
+  {
+   "id": "W2081",
+   "entry": "die Schwangerschaft, -en",
+   "level": "B1",
+   "gloss": "pregnancy"
+  },
+  {
+   "id": "W2090",
+   "entry": "schwitzen, schwitzt, schwitzte, hat geschwitzt",
+   "level": "B1",
+   "gloss": "to sweat"
+  },
+  {
+   "id": "W2107",
+   "entry": "selbstverständlich",
+   "level": "B1",
+   "gloss": "of course"
+  },
+  {
+   "id": "W2108",
+   "entry": "selten",
+   "level": "B1",
+   "gloss": "rarely"
+  },
+  {
+   "id": "W2176",
+   "entry": "spätestens",
+   "level": "B1",
+   "gloss": "at the latest"
+  },
+  {
+   "id": "W2202",
+   "entry": "die Sprechstunde, -n A:→ Ordination",
+   "level": "B1",
+   "gloss": "office hours (doctor's)"
+  },
+  {
+   "id": "W2204",
+   "entry": "die Spritze, -n",
+   "level": "B1",
+   "gloss": "shot, injection"
+  },
+  {
+   "id": "W2213",
+   "entry": "ständig",
+   "level": "B1",
+   "gloss": "constantly"
+  },
+  {
+   "id": "W2294",
+   "entry": "die Sucht, ¨-e",
+   "level": "B1",
+   "gloss": "addiction"
+  },
+  {
+   "id": "W2295",
+   "entry": "süchtig",
+   "level": "B1",
+   "gloss": "addicted"
+  },
+  {
+   "id": "W2296",
+   "entry": "das Suchtmittel, -",
+   "level": "B1",
+   "gloss": "addictive substance"
+  },
+  {
+   "id": "W2319",
+   "entry": "das Taschentuch, ¨-er",
+   "level": "B1",
+   "gloss": "tissue, handkerchief"
+  },
+  {
+   "id": "W2415",
+   "entry": "die Tropfen (Pl.)",
+   "level": "B1",
+   "gloss": "drops (medicine)"
+  },
+  {
+   "id": "W2456",
+   "entry": "übrigens",
+   "level": "B1",
+   "gloss": "by the way"
+  },
+  {
+   "id": "W2514",
+   "entry": "die Untersuchung, -en",
+   "level": "B1",
+   "gloss": "examination, checkup"
+  },
+  {
+   "id": "W2543",
+   "entry": "(sich) verbrennen, verbrennt, verbrannte, hat verbrannt",
+   "level": "B1",
+   "gloss": "to burn (oneself)"
+  },
+  {
+   "id": "W2601",
+   "entry": "verschreiben, verschreibt, verschrieb, hat verschrieben",
+   "level": "B1",
+   "gloss": "to prescribe"
+  },
+  {
+   "id": "W2604",
+   "entry": "die Versichertenkarte, -n (D) A: e-card →",
+   "level": "B1",
+   "gloss": "health insurance card"
+  },
+  {
+   "id": "W2626",
+   "entry": "verwechseln, verwechselt, verwechselte, hat verwechselt",
+   "level": "B1",
+   "gloss": "to mix up, confuse"
+  },
+  {
+   "id": "W2636",
+   "entry": "der Virus, Viren",
+   "level": "B1",
+   "gloss": "virus"
+  },
+  {
+   "id": "W2639",
+   "entry": "das Vitamin, -e",
+   "level": "B1",
+   "gloss": "vitamin"
+  },
+  {
+   "id": "W2697",
+   "entry": "warnen, warnt, warnte, hat gewarnt",
+   "level": "B1",
+   "gloss": "to warn"
+  },
+  {
+   "id": "W2763",
+   "entry": "wirken, wirkt, wirkte, hat gewirkt",
+   "level": "B1",
+   "gloss": "to work, take effect"
+  },
+  {
+   "id": "W2764",
+   "entry": "die Wirkung, -en",
+   "level": "B1",
+   "gloss": "effect"
+  },
+  {
+   "id": "W2794",
+   "entry": "das Wunder, -",
+   "level": "B1",
+   "gloss": "wonder, miracle; kein Wunder = no wonder"
+  },
+  {
+   "id": "W2809",
+   "entry": "die Zahncreme/-pasta",
+   "level": "B1",
+   "gloss": "toothpaste"
+  },
+  {
+   "id": "W2908",
+   "entry": "klagen, klagt, klagte, hat geklagt",
+   "level": "B1",
+   "gloss": "to complain (über = about)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2572",
+   "entry": "verlassen, verlässt, verließ, hat verlassen",
+   "level": "B1",
+   "gloss": "to leave"
+  },
+  {
+   "id": "W2732",
+   "entry": "die Werbung, -en",
+   "level": "B1",
+   "gloss": "advertising, commercials"
+  },
+  {
+   "id": "G321",
+   "entry": "tagsüber",
+   "level": "B1",
+   "gloss": "during the day"
+  },
+  {
+   "id": "G019",
+   "entry": "usw. (und so weiter)",
+   "level": "A2",
+   "gloss": "etc., and so on"
+  },
+  {
+   "id": "W0897",
+   "entry": "führen, führt, führte, hat geführt",
+   "level": "B1",
+   "gloss": "to lead, to show around"
+  },
+  {
+   "id": "W1025",
+   "entry": "gleich",
+   "level": "A1",
+   "gloss": "right away, in a minute; same, equal; right (next to)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X003",
+   "word": "übergewichtig",
+   "gloss": "overweight",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R004",
+   "word": "die e-card",
+   "gloss": "health insurance card",
+   "kind": "austrian",
+   "de": "die Versichertenkarte"
+  },
+  {
+   "id": "R020",
+   "word": "die Ordination, -en",
+   "gloss": "doctor's office; office hours",
+   "kind": "austrian",
+   "de": "die Arztpraxis; die Sprechstunde"
+  }
+ ],
+ "story_opening": "Lena ist selten krank. Aber an diesem Montag wacht sie auf und weiß sofort: Sie hat sich erkältet. Ihr Kopf ist schwer, der Hals tut weh, und ihre Nase ist zu. In der Nacht hat sie stark geschwitzt, obwohl es im Schlafzimmer kühl war. Ihr T-Shirt ist noch ganz nass.\n\nNeben dem Bett liegt schon ein kleiner Berg aus benutzten Taschentüchern. Lena hat Schnupfen, und sie muss ständig husten, fast jede Minute. Im Bad putzt sie sich die Zähne, aber sogar die Zahncreme schmeckt heute komisch, fast bitter. Im Spiegel sieht sie ein müdes Gesicht. Sie hat zehn Stunden geschlafen und ist trotzdem total erschöpft.\n\nSie schreibt ihrem Kollegen Jonas eine Nachricht: „Ich bin krank und komme heute nicht in"
+}

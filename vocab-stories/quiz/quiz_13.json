@@ -1,0 +1,73 @@
+{
+ "story": "13",
+ "questions": [
+  {
+   "q": "Warum möchte Lena am Freitagabend feiern?",
+   "right": "Sie hat ein großes Projekt beendet, und der Kunde ist froh.",
+   "wrong": [
+    "Das große Projekt fängt endlich an, und sie freut sich darauf.",
+    "Sie hatte heute frei und musste nicht am Schreibtisch sitzen."
+   ],
+   "evidence": "Aber jetzt ist das große Projekt endlich erledigt: Der Kunde hat die neuen Plakate bekommen und ist sehr zufrieden. Das möchte Lena feiern.",
+   "why": "Erledigt means done, so the big project is finished and the client is very happy. She ate lunch at her desk, so she did not have the day off.",
+   "words": [
+    "W0715"
+   ]
+  },
+  {
+   "q": "Warum ist Aylin überrascht, als Jonas ihr die Karte zeigt?",
+   "right": "Ein Menü ohne Fleisch ist in so einem Lokal selten.",
+   "wrong": [
+    "Auf der Karte gibt es nur Gerichte mit Fisch.",
+    "Das Fleisch und das Gemüse kommen aus dem Ausland."
+   ],
+   "evidence": "Aylin ist überrascht. Für eine traditionelle Gaststätte ist das ungewöhnlich, denn in der sächsischen Küche gibt es normalerweise viel Fleisch.",
+   "why": "The daily menu is vegetarian, which is unusual for a traditional Saxon inn, where most dishes have meat. The meat and vegetables come from farms near Leipzig, not from abroad.",
+   "words": [
+    "W2485",
+    "W2524",
+    "W1913"
+   ]
+  },
+  {
+   "q": "Warum bekommt Aylin zuerst eine Soße mit Fleisch?",
+   "right": "Moritz hat ihr den Teller eines anderen Gastes gebracht.",
+   "wrong": [
+    "Frau Lindemann hat für die Pilzsoße Fleisch benutzt.",
+    "Aylin hat aus Versehen Klöße mit Bratensoße bestellt."
+   ],
+   "evidence": "Die Ursache für das Problem ist schnell klar: Moritz hat die Teller von zwei Tischen verwechselt. Ein Herr in der Ecke hat gerade Klöße mit Pilzsoße bekommen, obwohl er Bratensoße bestellt hat.",
+   "why": "Ursache means cause: Moritz mixed up the plates of two tables. Aylin ordered the mushroom sauce herself, and the man in the corner got it by mistake.",
+   "words": [
+    "W2518"
+   ]
+  },
+  {
+   "q": "Warum geben die drei Moritz am Ende extra viel Trinkgeld?",
+   "right": "Er hat hart gearbeitet und war der einzige Kellner.",
+   "wrong": [
+    "Das Essen kam schnell, und es gab keine Fehler.",
+    "Jonas sagt, dass man in Leipzig mehr Trinkgeld gibt."
+   ],
+   "evidence": "Moritz hat sich wirklich viel Mühe gegeben. Und er musste ganz allein so viele Gäste bedienen.",
+   "why": "Sich Mühe geben means to try hard, and Moritz had to serve all the guests alone. The service was actually slow, and Jonas says tips here are the same as in Hamburg.",
+   "words": [
+    "W1612",
+    "W2412"
+   ]
+  },
+  {
+   "q": "Was passiert, als Lena die Wirtin nach dem Rezept fragt?",
+   "right": "Sie erfährt es nicht, bekommt aber einen Gutschein.",
+   "wrong": [
+    "Die Wirtin schreibt ihr das Rezept der Großmutter auf.",
+    "Sie muss für das Rezept zehn Euro bezahlen."
+   ],
+   "evidence": "„Diesen Wunsch kann ich Ihnen leider nicht erfüllen. Das Rezept ist ein Geheimnis meiner Großmutter. Aber ich habe etwas anderes für Sie.“ Sie gibt Lena einen Gutschein über zehn Euro.",
+   "why": "Einen Wunsch nicht erfüllen means she cannot grant the wish, because the recipe is a family secret. Instead she gives Lena a ten-euro voucher.",
+   "words": [
+    "W0694"
+   ]
+  }
+ ]
+}

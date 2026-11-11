@@ -1,0 +1,1585 @@
+{
+ "gebrauchten": {
+  "d": "gebrauchen",
+  "g": "used, second-hand",
+  "k": "word"
+ },
+ "gebuchte": {
+  "d": "buchen",
+  "g": "booked",
+  "k": "word"
+ },
+ "gebuchtes": {
+  "d": "buchen",
+  "g": "booked",
+  "k": "word"
+ },
+ "gedeckt": {
+  "d": "decken",
+  "g": "set (the table)",
+  "k": "word"
+ },
+ "gedruckte": {
+  "d": "drucken",
+  "g": "printed",
+  "k": "word"
+ },
+ "gedruckten": {
+  "d": "drucken",
+  "g": "printed",
+  "k": "word"
+ },
+ "Gedser": {
+  "d": "Gedser",
+  "g": "a port town in Denmark",
+  "k": "name"
+ },
+ "geduldig": {
+  "d": "geduldig",
+  "g": "patient, patiently",
+  "k": "word"
+ },
+ "geerntet": {
+  "d": "ernten",
+  "g": "harvested, picked",
+  "k": "word"
+ },
+ "gefielen": {
+  "d": "gefallen",
+  "g": "to please, to appeal to",
+  "k": "word"
+ },
+ "gefilmt": {
+  "d": "filmen",
+  "g": "to film",
+  "k": "word"
+ },
+ "gefälscht": {
+  "d": "fälschen",
+  "g": "fake, forged",
+  "k": "word"
+ },
+ "gefälschte": {
+  "d": "fälschen",
+  "g": "fake, forged",
+  "k": "word"
+ },
+ "gefüllt": {
+  "d": "füllen",
+  "g": "to fill",
+  "k": "word"
+ },
+ "gefüllte": {
+  "d": "füllen",
+  "g": "stuffed",
+  "k": "word"
+ },
+ "gegenseitig": {
+  "d": "gegenseitig",
+  "g": "each other, one another",
+  "k": "word"
+ },
+ "Gehirn": {
+  "d": "das Gehirn, -e",
+  "g": "brain",
+  "k": "word"
+ },
+ "Geholfen": {
+  "d": "helfen",
+  "g": "to help",
+  "k": "word"
+ },
+ "gekaufte": {
+  "d": "kaufen",
+  "g": "bought, purchased",
+  "k": "word"
+ },
+ "gekauften": {
+  "d": "kaufen",
+  "g": "bought, purchased",
+  "k": "word"
+ },
+ "geklatscht": {
+  "d": "klatschen",
+  "g": "to clap, to applaud",
+  "k": "word"
+ },
+ "gekochtes": {
+  "d": "kochen",
+  "g": "cooked",
+  "k": "word"
+ },
+ "gelangweilt": {
+  "d": "sich langweilen",
+  "g": "to be bored",
+  "k": "word"
+ },
+ "Gelassen": {
+  "d": "gelassen",
+  "g": "calm, composed",
+  "k": "word"
+ },
+ "Geldbörse": {
+  "d": "die Geldbörse, -n",
+  "g": "wallet, purse",
+  "k": "word"
+ },
+ "gelernter": {
+  "d": "lernen",
+  "g": "trained, qualified (in a trade)",
+  "k": "word"
+ },
+ "Gemeindehauses": {
+  "d": "das Gemeindehaus, ¨-er",
+  "g": "community hall, parish hall",
+  "k": "word"
+ },
+ "gemieteten": {
+  "d": "mieten",
+  "g": "rented",
+  "k": "word"
+ },
+ "Gemüsestand": {
+  "d": "der Gemüsestand, ¨-e",
+  "g": "vegetable stand",
+  "k": "word"
+ },
+ "genügend": {
+  "d": "Nicht genügend",
+  "g": "fail, lowest school grade (Austrian)",
+  "k": "word",
+  "base": "genügen"
+ },
+ "gepaddelt": {
+  "d": "paddeln",
+  "g": "to paddle",
+  "k": "word"
+ },
+ "gerätselt": {
+  "d": "rätseln",
+  "g": "to puzzle, to solve riddles",
+  "k": "word"
+ },
+ "Geräusch": {
+  "d": "das Geräusch, -e",
+  "g": "noise, sound",
+  "k": "word"
+ },
+ "geschäftlich": {
+  "d": "geschäftlich",
+  "g": "on business",
+  "k": "word"
+ },
+ "gesenkt": {
+  "d": "senken",
+  "g": "to lower, to reduce",
+  "k": "word"
+ },
+ "gesetzliches": {
+  "d": "gesetzlich",
+  "g": "legal, statutory",
+  "k": "word"
+ },
+ "gesperrt": {
+  "d": "sperren",
+  "g": "closed (to traffic)",
+  "k": "word"
+ },
+ "gesprochene": {
+  "d": "sprechen",
+  "g": "spoken",
+  "k": "word"
+ },
+ "Gesten": {
+  "d": "die Geste, -n",
+  "g": "gesture",
+  "k": "word"
+ },
+ "gestohlenen": {
+  "d": "stehlen",
+  "g": "stolen",
+  "k": "word"
+ },
+ "gestreichelt": {
+  "d": "streicheln",
+  "g": "to pet, to stroke",
+  "k": "word"
+ },
+ "gestreikt": {
+  "d": "streiken",
+  "g": "to go on strike",
+  "k": "word"
+ },
+ "gestrichen": {
+  "d": "streichen",
+  "g": "to paint; to cut (jobs)",
+  "k": "word"
+ },
+ "Gesünder": {
+  "d": "gesund",
+  "g": "healthier, more healthily",
+  "k": "word"
+ },
+ "gesünder": {
+  "d": "gesund",
+  "g": "healthier, more healthily",
+  "k": "word"
+ },
+ "Getreide": {
+  "d": "das Getreide",
+  "g": "grain, cereal crops",
+  "k": "word"
+ },
+ "getrennten": {
+  "d": "trennen",
+  "g": "separate",
+  "k": "word"
+ },
+ "Gewonnen": {
+  "d": "gewinnen",
+  "g": "to win",
+  "k": "word"
+ },
+ "Geöffnet": {
+  "d": "öffnen",
+  "g": "open (opening hours)",
+  "k": "word"
+ },
+ "Gigabyte": {
+  "d": "das Gigabyte, -s",
+  "g": "gigabyte",
+  "k": "word"
+ },
+ "Gittern": {
+  "d": "hinter Gittern sitzen",
+  "g": "to be behind bars, in prison",
+  "k": "word"
+ },
+ "Gleiche": {
+  "d": "das Gleiche",
+  "g": "the same (thing)",
+  "k": "word"
+ },
+ "Glocken": {
+  "d": "die Glocke, -n",
+  "g": "bell",
+  "k": "word"
+ },
+ "Glut": {
+  "d": "Glut",
+  "g": "name of a cooking school (embers)",
+  "k": "name"
+ },
+ "goldbraun": {
+  "d": "goldbraun",
+  "g": "golden brown",
+  "k": "word"
+ },
+ "Grafikdesign": {
+  "d": "das Grafikdesign",
+  "g": "graphic design",
+  "k": "word"
+ },
+ "Grafikdesignerin": {
+  "d": "die Grafikdesignerin, -nen",
+  "g": "graphic designer (female)",
+  "k": "word"
+ },
+ "Grammatik": {
+  "d": "die Grammatik, -en",
+  "g": "grammar",
+  "k": "word"
+ },
+ "Grazer": {
+  "d": "der Grazer, -",
+  "g": "man from Graz (Austria)",
+  "k": "word"
+ },
+ "Grimmaische": {
+  "d": "Grimmaische Straße",
+  "g": "a street in Leipzig",
+  "k": "name"
+ },
+ "Großen": {
+  "d": "der/die Große, -n",
+  "g": "older kids, the big ones",
+  "k": "word"
+ },
+ "grüne": {
+  "d": "grün",
+  "g": "green (one)",
+  "k": "word"
+ },
+ "Grüß": {
+  "d": "Grüß Gott",
+  "g": "hello (Austrian, southern German)",
+  "k": "interj"
+ },
+ "Gulasch": {
+  "d": "das Gulasch",
+  "g": "goulash",
+  "k": "word"
+ },
+ "Gute": {
+  "d": "alles Gute",
+  "g": "all the best",
+  "k": "word"
+ },
+ "gutgetan": {
+  "d": "guttun",
+  "g": "to do (someone) good",
+  "k": "word"
+ },
+ "Haarmonie": {
+  "d": "Haarmonie",
+  "g": "hair salon name, pun on harmony",
+  "k": "name"
+ },
+ "Hagel": {
+  "d": "der Hagel",
+  "g": "hail",
+  "k": "word"
+ },
+ "halbiert": {
+  "d": "sich halbieren",
+  "g": "to be halved",
+  "k": "word"
+ },
+ "Hals": {
+  "d": "Hals- und Beinbruch!",
+  "g": "break a leg, good luck",
+  "k": "interj"
+ },
+ "Halter": {
+  "d": "der Halter, -",
+  "g": "(vehicle) owner",
+  "k": "word"
+ },
+ "Hamburger": {
+  "d": "Hamburger (Adj.) / der Hamburger, -",
+  "g": "from Hamburg; person from Hamburg",
+  "k": "word"
+ },
+ "Handelskammer": {
+  "d": "die Handelskammer, -n",
+  "g": "chamber of commerce",
+  "k": "word"
+ },
+ "Handschlag": {
+  "d": "der Handschlag, ¨-e",
+  "g": "handshake",
+  "k": "word"
+ },
+ "harmlos": {
+  "d": "harmlos",
+  "g": "harmless",
+  "k": "word"
+ },
+ "harmonisch": {
+  "d": "harmonisch",
+  "g": "harmonious, peaceful",
+  "k": "word"
+ },
+ "Harz": {
+  "d": "der Harz",
+  "g": "a mountain range in Germany",
+  "k": "name"
+ },
+ "Hausdienste": {
+  "d": "der Hausdienst, -e",
+  "g": "home services, caretaking",
+  "k": "word"
+ },
+ "hausgemachte": {
+  "d": "hausgemacht",
+  "g": "homemade",
+  "k": "word"
+ },
+ "Haussegen": {
+  "d": "der Haussegen hängt schief",
+  "g": "there is tension (between people)",
+  "k": "word"
+ },
+ "heimische": {
+  "d": "heimisch",
+  "g": "native, local",
+  "k": "word"
+ },
+ "Heizen": {
+  "d": "das Heizen",
+  "g": "heating",
+  "k": "word"
+ },
+ "hektisch": {
+  "d": "hektisch",
+  "g": "hectic",
+  "k": "word"
+ },
+ "Helfer": {
+  "d": "der Helfer, -",
+  "g": "helper",
+  "k": "word"
+ },
+ "Helferinnen": {
+  "d": "die Helferin, -nen",
+  "g": "helper (female)",
+  "k": "word"
+ },
+ "Helm": {
+  "d": "der Helm, -e",
+  "g": "helmet",
+  "k": "word"
+ },
+ "Helme": {
+  "d": "der Helm, -e",
+  "g": "helmet",
+  "k": "word"
+ },
+ "herausgenommen": {
+  "d": "herausnehmen",
+  "g": "to take out, to remove",
+  "k": "word"
+ },
+ "Herbstferien": {
+  "d": "die Herbstferien (Pl.)",
+  "g": "fall break (school vacation)",
+  "k": "word"
+ },
+ "hereingelassen": {
+  "d": "hereinlassen",
+  "g": "to let in",
+  "k": "word"
+ },
+ "Herrengasse": {
+  "d": "Herrengasse",
+  "g": "a street in Graz",
+  "k": "name"
+ },
+ "herumliegenden": {
+  "d": "herumliegen",
+  "g": "lying around",
+  "k": "word"
+ },
+ "heruntergefallen": {
+  "d": "herunterfallen",
+  "g": "to fall down, to drop",
+  "k": "word"
+ },
+ "Heu": {
+  "d": "das Heu",
+  "g": "hay",
+  "k": "word"
+ },
+ "heuer": {
+  "d": "heuer",
+  "g": "this year (Austrian, southern German)",
+  "k": "word"
+ },
+ "hießen": {
+  "d": "heißen",
+  "g": "to be called",
+  "k": "word"
+ },
+ "hin": {
+  "d": "hin und her",
+  "g": "back and forth",
+  "k": "word"
+ },
+ "hindurch": {
+  "d": "hindurch",
+  "g": "through",
+  "k": "word"
+ },
+ "Hinein": {
+  "d": "hinein",
+  "g": "in, into it",
+  "k": "word"
+ },
+ "hing": {
+  "d": "hängen",
+  "g": "to hang",
+  "k": "word"
+ },
+ "hingehen": {
+  "d": "hingehen",
+  "g": "to go there",
+  "k": "word"
+ },
+ "hintereinander": {
+  "d": "hintereinander",
+  "g": "one behind another; in a row",
+  "k": "word"
+ },
+ "hinunter": {
+  "d": "hinunter",
+  "g": "down, downstairs",
+  "k": "word"
+ },
+ "hinüber": {
+  "d": "hinüber",
+  "g": "over, across",
+  "k": "word"
+ },
+ "Hm": {
+  "d": "hm",
+  "g": "hmm",
+  "k": "interj"
+ },
+ "hole": {
+  "d": "holen",
+  "g": "to get, to fetch",
+  "k": "word"
+ },
+ "hundertfünfzig": {
+  "d": "hundertfünfzig",
+  "g": "one hundred fifty",
+  "k": "word"
+ },
+ "hundertprozentig": {
+  "d": "hundertprozentig",
+  "g": "one hundred percent, totally",
+  "k": "word"
+ },
+ "hygienischen": {
+  "d": "hygienisch",
+  "g": "hygienic",
+  "k": "word"
+ },
+ "Hypnose": {
+  "d": "die Hypnose, -n",
+  "g": "hypnosis",
+  "k": "word"
+ },
+ "Händchen": {
+  "d": "Händchen halten",
+  "g": "to hold hands",
+  "k": "word",
+  "base": "Hand"
+ },
+ "IBAN": {
+  "d": "die IBAN = internationale Bankkontonummer",
+  "g": "IBAN, international bank account number",
+  "k": "abbr"
+ },
+ "ignorieren": {
+  "d": "ignorieren",
+  "g": "to ignore",
+  "k": "word"
+ },
+ "Immerhin": {
+  "d": "immerhin",
+  "g": "at least, after all",
+  "k": "word"
+ },
+ "impfen": {
+  "d": "sich impfen lassen",
+  "g": "to get vaccinated",
+  "k": "word"
+ },
+ "Impfung": {
+  "d": "die Impfung, -en",
+  "g": "vaccination, shot",
+  "k": "word"
+ },
+ "Industrie": {
+  "d": "die Industrie, -n",
+  "g": "industry",
+  "k": "word"
+ },
+ "Infos": {
+  "d": "die Info, -s = die Information",
+  "g": "info, information",
+  "k": "abbr"
+ },
+ "Inhaber": {
+  "d": "der Inhaber, -",
+  "g": "owner",
+  "k": "word"
+ },
+ "Inhaberin": {
+  "d": "die Inhaberin, -nen",
+  "g": "owner (female)",
+  "k": "word"
+ },
+ "Initiative": {
+  "d": "die Initiative, -n",
+  "g": "action group, initiative",
+  "k": "word"
+ },
+ "innerlich": {
+  "d": "innerlich",
+  "g": "inwardly, on the inside",
+  "k": "word"
+ },
+ "Interessantes": {
+  "d": "(etwas) Interessantes",
+  "g": "something interesting",
+  "k": "word",
+  "base": "interessant"
+ },
+ "Interessierten": {
+  "d": "der/die Interessierte, -n",
+  "g": "interested person",
+  "k": "word"
+ },
+ "irgendwo": {
+  "d": "irgendwo",
+  "g": "somewhere",
+  "k": "word"
+ },
+ "jahrelang": {
+  "d": "jahrelang",
+  "g": "for years",
+  "k": "word"
+ },
+ "Jobcenter": {
+  "d": "das Jobcenter, -",
+  "g": "job center (unemployment office)",
+  "k": "word"
+ },
+ "jobs": {
+  "d": "jobs = der Job, -s",
+  "g": "jobs (part of an email address)",
+  "k": "word"
+ },
+ "Joghurt": {
+  "d": "der/das Joghurt, -s",
+  "g": "yogurt",
+  "k": "word"
+ },
+ "Joghurtbecher": {
+  "d": "der Joghurtbecher, -",
+  "g": "yogurt cup",
+  "k": "word"
+ },
+ "Joghurtbechern": {
+  "d": "der Joghurtbecher, -",
+  "g": "yogurt cup",
+  "k": "word"
+ },
+ "Jury": {
+  "d": "die Jury, -s",
+  "g": "jury, panel of judges",
+  "k": "word"
+ },
+ "Jährige": {
+  "d": "-jährig",
+  "g": "… years old",
+  "k": "word"
+ },
+ "jährige": {
+  "d": "-jährig",
+  "g": "… years old",
+  "k": "word"
+ },
+ "Jährigen": {
+  "d": "-jährig",
+  "g": "… years old",
+  "k": "word"
+ },
+ "jährigen": {
+  "d": "-jährig",
+  "g": "… years old",
+  "k": "word"
+ },
+ "jähriger": {
+  "d": "-jährig",
+  "g": "… years old",
+  "k": "word"
+ },
+ "jähriges": {
+  "d": "-jährig",
+  "g": "… years old",
+  "k": "word"
+ },
+ "Jänner": {
+  "d": "der Jänner, -",
+  "g": "January (Austrian)",
+  "k": "word"
+ },
+ "jünger": {
+  "d": "jung",
+  "g": "younger",
+  "k": "word"
+ },
+ "Kaffeebecher": {
+  "d": "der Kaffeebecher, -",
+  "g": "coffee cup",
+  "k": "word"
+ },
+ "Kaffeefilter": {
+  "d": "der Kaffeefilter, -",
+  "g": "coffee filter",
+  "k": "word"
+ },
+ "Kaiser": {
+  "d": "Kaiser",
+  "g": "a person's name (surname)",
+  "k": "name"
+ },
+ "Kajaks": {
+  "d": "der/das Kajak, -s",
+  "g": "kayak",
+  "k": "word"
+ },
+ "Kaninchen": {
+  "d": "das Kaninchen, -",
+  "g": "rabbit",
+  "k": "word"
+ },
+ "Kanzlei": {
+  "d": "die Kanzlei, -en",
+  "g": "law office, law firm",
+  "k": "word"
+ },
+ "Kapitän": {
+  "d": "der Kapitän, -e",
+  "g": "captain",
+  "k": "word"
+ },
+ "Karim": {
+  "d": "Karim",
+  "g": "a person's name",
+  "k": "name"
+ },
+ "Kartoffelschalen": {
+  "d": "die Kartoffelschale, -n",
+  "g": "potato peel",
+  "k": "word"
+ },
+ "Kastanie": {
+  "d": "die Kastanie, -n",
+  "g": "chestnut tree",
+  "k": "word"
+ },
+ "Kaugummis": {
+  "d": "der/das Kaugummi, -s",
+  "g": "chewing gum",
+  "k": "word"
+ },
+ "keins": {
+  "d": "keiner, keine, keins",
+  "g": "none, not one",
+  "k": "word"
+ },
+ "Kiosks": {
+  "d": "der Kiosk, -e",
+  "g": "kiosk, newsstand",
+  "k": "word"
+ },
+ "Kita": {
+  "d": "die Kita, -s = die Kindertagesstätte",
+  "g": "daycare center",
+  "k": "abbr"
+ },
+ "Kitas": {
+  "d": "die Kita, -s = die Kindertagesstätte",
+  "g": "daycare center",
+  "k": "abbr"
+ },
+ "klatschen": {
+  "d": "klatschen",
+  "g": "to clap, to applaud",
+  "k": "word"
+ },
+ "klatscht": {
+  "d": "klatschen",
+  "g": "to clap, to applaud",
+  "k": "word"
+ },
+ "kleine-loeffel": {
+  "d": "kleine-loeffel.de",
+  "g": "web address of a catering kitchen",
+  "k": "name"
+ },
+ "Kleinigkeiten": {
+  "d": "die Kleinigkeit, -en",
+  "g": "small item, little thing",
+  "k": "word"
+ },
+ "Kleinschneiden": {
+  "d": "das Kleinschneiden",
+  "g": "chopping, cutting up",
+  "k": "word"
+ },
+ "Kletterer": {
+  "d": "der Kletterer, -",
+  "g": "climber",
+  "k": "word"
+ },
+ "Kletterwaldes": {
+  "d": "der Kletterwald, ¨-er",
+  "g": "treetop ropes course",
+  "k": "word"
+ },
+ "klingle": {
+  "d": "klingeln",
+  "g": "to ring (the doorbell)",
+  "k": "word"
+ },
+ "Klingt": {
+  "d": "klingen",
+  "g": "to sound",
+  "k": "word"
+ },
+ "knallt": {
+  "d": "knallen",
+  "g": "to bang, to go bang",
+  "k": "word"
+ },
+ "Knoblauch": {
+  "d": "der Knoblauch",
+  "g": "garlic",
+  "k": "word"
+ },
+ "Knochenbruch": {
+  "d": "der Knochenbruch, ¨-e",
+  "g": "broken bone, fracture",
+  "k": "word"
+ },
+ "Kohle": {
+  "d": "die Kohle, -n",
+  "g": "coal",
+  "k": "word"
+ },
+ "kolb-architektur": {
+  "d": "kolb-architektur.de",
+  "g": "web address of an architecture office",
+  "k": "name"
+ },
+ "Kommissare": {
+  "d": "der Kommissar, -e",
+  "g": "detective, police inspector",
+  "k": "word"
+ },
+ "konntest": {
+  "d": "können",
+  "g": "can, to be able to",
+  "k": "word"
+ },
+ "Konzept": {
+  "d": "das Konzept, -e",
+  "g": "concept, plan",
+  "k": "word"
+ },
+ "Korb": {
+  "d": "der Korb, ¨-e",
+  "g": "basket",
+  "k": "word"
+ },
+ "krankgeschrieben": {
+  "d": "krankschreiben",
+  "g": "(put) on sick leave",
+  "k": "word"
+ },
+ "Krankschreibungen": {
+  "d": "die Krankschreibung, -en",
+  "g": "sick note, sick leave",
+  "k": "word"
+ },
+ "Krapfen": {
+  "d": "der Krapfen, -",
+  "g": "jelly doughnut (Austrian, southern German)",
+  "k": "word"
+ },
+ "Kriegsbeil": {
+  "d": "das Kriegsbeil begraben",
+  "g": "to bury the hatchet",
+  "k": "word"
+ },
+ "kriminelle": {
+  "d": "kriminell",
+  "g": "criminal",
+  "k": "word"
+ },
+ "Kugel": {
+  "d": "die Kugel, -n",
+  "g": "ball, sphere",
+  "k": "word"
+ },
+ "Kulissen": {
+  "d": "der Blick hinter die Kulissen",
+  "g": "a look behind the scenes",
+  "k": "word",
+  "base": ""
+ },
+ "Kulturamts": {
+  "d": "das Kulturamt, ¨-er",
+  "g": "office of cultural affairs",
+  "k": "word"
+ },
+ "Kundinnen": {
+  "d": "die Kundin, -nen",
+  "g": "customer (female)",
+  "k": "word"
+ },
+ "kühler": {
+  "d": "kühl",
+  "g": "cooler",
+  "k": "word"
+ },
+ "kürzen": {
+  "d": "kürzen",
+  "g": "to cut back, to trim",
+  "k": "word"
+ },
+ "lachend": {
+  "d": "lachen",
+  "g": "laughing, with a laugh",
+  "k": "word"
+ },
+ "lachende": {
+  "d": "lachen",
+  "g": "laughing",
+  "k": "word"
+ },
+ "lachenden": {
+  "d": "lachen",
+  "g": "laughing",
+  "k": "word"
+ },
+ "Lacken": {
+  "d": "der Lack, -e",
+  "g": "varnish, lacquer",
+  "k": "word"
+ },
+ "langweilen": {
+  "d": "sich langweilen",
+  "g": "to be bored",
+  "k": "word"
+ },
+ "Lass": {
+  "d": "Lass das!",
+  "g": "stop it, don't do that",
+  "k": "word"
+ },
+ "lateinische": {
+  "d": "lateinisch",
+  "g": "Latin",
+  "k": "word"
+ },
+ "Laterne": {
+  "d": "Laterne",
+  "g": "name of a pub (lantern)",
+  "k": "name"
+ },
+ "lebendig": {
+  "d": "lebendig",
+  "g": "alive, lively",
+  "k": "word"
+ },
+ "lehnt": {
+  "d": "sich zurücklehnen",
+  "g": "to lean back",
+  "k": "word"
+ },
+ "Leihen": {
+  "d": "leihen",
+  "g": "to borrow",
+  "k": "word"
+ },
+ "Leipzig-Gohlis": {
+  "d": "Leipzig-Gohlis",
+  "g": "a district of Leipzig",
+  "k": "name"
+ },
+ "Leipzig-Grünau": {
+  "d": "Leipzig-Grünau",
+  "g": "a district of Leipzig",
+  "k": "name"
+ },
+ "Leipzig-Lindenau": {
+  "d": "Leipzig-Lindenau",
+  "g": "a district of Leipzig",
+  "k": "name"
+ },
+ "Leipzig-Stötteritz": {
+  "d": "Leipzig-Stötteritz",
+  "g": "a district of Leipzig",
+  "k": "name"
+ },
+ "Leipziger": {
+  "d": "Leipziger; der Leipziger, -",
+  "g": "of Leipzig; person from Leipzig",
+  "k": "word"
+ },
+ "Leipzigerinnen": {
+  "d": "die Leipzigerin, -nen",
+  "g": "woman from Leipzig",
+  "k": "word"
+ },
+ "leitgeb-fleisch": {
+  "d": "leitgeb-fleisch.at",
+  "g": "web address of a butcher shop",
+  "k": "name"
+ },
+ "Lernenden": {
+  "d": "der/die Lernende, -n",
+  "g": "learner",
+  "k": "word"
+ },
+ "Lesepaten": {
+  "d": "der Lesepate, -n",
+  "g": "volunteer reading mentor",
+  "k": "word"
+ },
+ "lesepaten": {
+  "d": "der Lesepate, -n",
+  "g": "reading mentors (in an email address)",
+  "k": "word"
+ },
+ "leuchten": {
+  "d": "leuchten",
+  "g": "to shine, to light up",
+  "k": "word"
+ },
+ "leuchtet": {
+  "d": "leuchten",
+  "g": "to shine, to light up",
+  "k": "word"
+ },
+ "Liebling": {
+  "d": "der Liebling, -e",
+  "g": "darling, beloved pet",
+  "k": "word"
+ },
+ "liebst": {
+  "d": "lieben",
+  "g": "to love",
+  "k": "word"
+ },
+ "liebstes": {
+  "d": "lieb",
+  "g": "favorite",
+  "k": "word"
+ },
+ "Limit": {
+  "d": "das Limit, -s",
+  "g": "limit",
+  "k": "word"
+ },
+ "Lindenauer": {
+  "d": "Lindenauer Markt",
+  "g": "a square in Leipzig",
+  "k": "name"
+ },
+ "Lizenz": {
+  "d": "die Lizenz, -en",
+  "g": "license",
+  "k": "word"
+ },
+ "Lob": {
+  "d": "das Lob",
+  "g": "praise",
+  "k": "word"
+ },
+ "Lobs": {
+  "d": "das Lob",
+  "g": "praise",
+  "k": "word"
+ },
+ "Logo": {
+  "d": "das Logo, -s",
+  "g": "logo",
+  "k": "word"
+ },
+ "Logos": {
+  "d": "das Logo, -s",
+  "g": "logo",
+  "k": "word"
+ },
+ "losgehen": {
+  "d": "losgehen",
+  "g": "to set off, to start out",
+  "k": "word"
+ },
+ "loswerden": {
+  "d": "loswerden",
+  "g": "to get rid of",
+  "k": "word"
+ },
+ "lächelnd": {
+  "d": "lächeln",
+  "g": "smiling, with a smile",
+  "k": "word"
+ },
+ "läuten": {
+  "d": "läuten",
+  "g": "to ring (bells)",
+  "k": "word"
+ },
+ "läuteten": {
+  "d": "läuten",
+  "g": "to ring (bells)",
+  "k": "word"
+ },
+ "Lücken": {
+  "d": "die Lücke, -n",
+  "g": "gap, blank",
+  "k": "word"
+ },
+ "lüften": {
+  "d": "lüften",
+  "g": "to air out, to ventilate",
+  "k": "word"
+ },
+ "Mach": {
+  "d": "Mach dir keine Sorgen!",
+  "g": "don't worry",
+  "k": "word",
+  "base": "machen"
+ },
+ "Macht": {
+  "d": "die Macht, ¨-e",
+  "g": "power",
+  "k": "word"
+ },
+ "Mama": {
+  "d": "die Mama, -s",
+  "g": "mom",
+  "k": "word"
+ },
+ "Matten": {
+  "d": "die Matte, -n",
+  "g": "mat",
+  "k": "word"
+ },
+ "Matura": {
+  "d": "die Matura",
+  "g": "high school final exam (Austrian, Swiss)",
+  "k": "word"
+ },
+ "Mausekönigs": {
+  "d": "der Mausekönig",
+  "g": "the Mouse King (fairy tale)",
+  "k": "word"
+ },
+ "med": {
+  "d": "Dr. med. = Doktor der Medizin",
+  "g": "doctor of medicine (abbreviation)",
+  "k": "abbr"
+ },
+ "Mediatorin": {
+  "d": "die Mediatorin, -nen",
+  "g": "mediator (female)",
+  "k": "word"
+ },
+ "Meeres": {
+  "d": "das Meer, -e",
+  "g": "sea",
+  "k": "word"
+ },
+ "Meerschweinchen": {
+  "d": "das Meerschweinchen, -",
+  "g": "guinea pig",
+  "k": "word"
+ },
+ "Meinen": {
+  "d": "mein",
+  "g": "my",
+  "k": "word"
+ },
+ "Meldebescheinigung": {
+  "d": "die Meldebescheinigung, -en",
+  "g": "proof of registered address",
+  "k": "word"
+ },
+ "Meteorologin": {
+  "d": "die Meteorologin, -nen",
+  "g": "meteorologist (female)",
+  "k": "word"
+ },
+ "Mietervereins": {
+  "d": "der Mieterverein, -e",
+  "g": "tenants' association",
+  "k": "word"
+ },
+ "Mikrofon": {
+  "d": "das Mikrofon, -e",
+  "g": "microphone",
+  "k": "word"
+ },
+ "mitarbeiten": {
+  "d": "mitarbeiten",
+  "g": "to help out, to work (on)",
+  "k": "word"
+ },
+ "mitbestimmen": {
+  "d": "mitbestimmen",
+  "g": "to have a say",
+  "k": "word"
+ },
+ "mitbezahlt": {
+  "d": "mitbezahlen",
+  "g": "to help pay for",
+  "k": "word"
+ },
+ "mitbringen": {
+  "d": "mitbringen",
+  "g": "to bring (along)",
+  "k": "word"
+ },
+ "mitbringt": {
+  "d": "mitbringen",
+  "g": "to bring (along)",
+  "k": "word"
+ },
+ "mitentscheiden": {
+  "d": "mitentscheiden",
+  "g": "to have a say (in decisions)",
+  "k": "word"
+ },
+ "mitgebracht": {
+  "d": "mitbringen",
+  "g": "to bring (along)",
+  "k": "word"
+ },
+ "mitgemacht": {
+  "d": "mitmachen",
+  "g": "to take part, to join in",
+  "k": "word"
+ },
+ "mitkommen": {
+  "d": "mitkommen",
+  "g": "to come along",
+  "k": "word"
+ },
+ "Mitmachen": {
+  "d": "mitmachen",
+  "g": "to take part; taking part",
+  "k": "word"
+ },
+ "mitmachen": {
+  "d": "mitmachen",
+  "g": "to take part, to join in",
+  "k": "word"
+ },
+ "mitmacht": {
+  "d": "mitmachen",
+  "g": "to take part, to join in",
+  "k": "word"
+ },
+ "mitnehmen": {
+  "d": "mitnehmen",
+  "g": "to take (along)",
+  "k": "word"
+ },
+ "mitwählen": {
+  "d": "mitwählen",
+  "g": "to vote (too)",
+  "k": "word"
+ },
+ "mitzumachen": {
+  "d": "mitmachen",
+  "g": "to take part, to join in",
+  "k": "word"
+ },
+ "Mo": {
+  "d": "Mo. = der Montag",
+  "g": "Monday (abbreviation)",
+  "k": "abbr"
+ },
+ "monatelang": {
+  "d": "monatelang",
+  "g": "for months",
+  "k": "word"
+ },
+ "motiviert": {
+  "d": "motivieren",
+  "g": "to motivate",
+  "k": "word"
+ },
+ "Muss": {
+  "d": "müssen",
+  "g": "must, to have to",
+  "k": "word"
+ },
+ "mussten": {
+  "d": "müssen",
+  "g": "must, to have to",
+  "k": "word"
+ },
+ "Mückenspray": {
+  "d": "das Mückenspray, -s",
+  "g": "mosquito repellent, bug spray",
+  "k": "word"
+ },
+ "Mückenstiche": {
+  "d": "der Mückenstich, -e",
+  "g": "mosquito bite",
+  "k": "word"
+ },
+ "müdes": {
+  "d": "müde",
+  "g": "tired",
+  "k": "word"
+ },
+ "Mütze": {
+  "d": "die Mütze, -n",
+  "g": "(knit) hat, cap",
+  "k": "word"
+ },
+ "Na": {
+  "d": "na gut",
+  "g": "oh well, all right",
+  "k": "interj"
+ },
+ "nach": {
+  "d": "nachdenken; nachfragen",
+  "g": "to think about; to inquire",
+  "k": "word",
+  "base": "nachdenken"
+ },
+ "nachsehen": {
+  "d": "nachsehen",
+  "g": "to check, to look",
+  "k": "word"
+ },
+ "Nachtdienste": {
+  "d": "der Nachtdienst, -e",
+  "g": "night shift",
+  "k": "word"
+ },
+ "Navi": {
+  "d": "das Navi, -s = das Navigationsgerät",
+  "g": "GPS, navigation device",
+  "k": "abbr"
+ },
+ "Nervosität": {
+  "d": "die Nervosität",
+  "g": "nervousness",
+  "k": "word"
+ },
+ "Neues": {
+  "d": "(etwas) Neues",
+  "g": "something new, new things",
+  "k": "word",
+  "base": "neu"
+ },
+ "nicken": {
+  "d": "nicken",
+  "g": "to nod",
+  "k": "word"
+ },
+ "nickt": {
+  "d": "nicken",
+  "g": "to nod",
+  "k": "word"
+ },
+ "Nikotin": {
+  "d": "das Nikotin",
+  "g": "nicotine",
+  "k": "word"
+ },
+ "Niveau": {
+  "d": "das Niveau, -s",
+  "g": "level",
+  "k": "word"
+ },
+ "Null": {
+  "d": "die Null, -en",
+  "g": "zero (the digit)",
+  "k": "word"
+ },
+ "null": {
+  "d": "null",
+  "g": "zero",
+  "k": "word"
+ },
+ "Nussknacker": {
+  "d": "der Nussknacker, -",
+  "g": "nutcracker",
+  "k": "word"
+ },
+ "Nussknackers": {
+  "d": "der Nussknacker, -",
+  "g": "nutcracker",
+  "k": "word"
+ },
+ "Nutzer": {
+  "d": "der Nutzer, -",
+  "g": "user",
+  "k": "word"
+ },
+ "Nüsse": {
+  "d": "die Nuss, ¨-e",
+  "g": "nut",
+  "k": "word"
+ },
+ "Obergeschoss": {
+  "d": "das Obergeschoss, -e",
+  "g": "upper floor",
+  "k": "word"
+ },
+ "oberhalb": {
+  "d": "oberhalb",
+  "g": "above",
+  "k": "word"
+ },
+ "offline": {
+  "d": "offline",
+  "g": "offline",
+  "k": "word"
+ },
+ "Oh": {
+  "d": "oh",
+  "g": "oh",
+  "k": "interj"
+ },
+ "Oliven": {
+  "d": "die Olive, -n",
+  "g": "olive",
+  "k": "word"
+ },
+ "Olivenöl": {
+  "d": "das Olivenöl",
+  "g": "olive oil",
+  "k": "word"
+ },
+ "Oma": {
+  "d": "die Oma, -s",
+  "g": "grandma",
+  "k": "word"
+ },
+ "Omelett": {
+  "d": "das Omelett, -s",
+  "g": "omelet",
+  "k": "word"
+ },
+ "online": {
+  "d": "online",
+  "g": "online",
+  "k": "word"
+ },
+ "Option": {
+  "d": "die Option, -en",
+  "g": "option",
+  "k": "word"
+ },
+ "Organisatorin": {
+  "d": "die Organisatorin, -nen",
+  "g": "organizer (female)",
+  "k": "word"
+ },
+ "Ost": {
+  "d": "Ost (= der Osten)",
+  "g": "east",
+  "k": "word",
+  "base": "Osten"
+ },
+ "paarmal": {
+  "d": "ein paarmal",
+  "g": "a few times",
+  "k": "word"
+ },
+ "Packung": {
+  "d": "die Packung, -en",
+  "g": "pack, package, box",
+  "k": "word"
+ },
+ "Packungen": {
+  "d": "die Packung, -en",
+  "g": "pack, package, box",
+  "k": "word"
+ },
+ "paddeln": {
+  "d": "paddeln",
+  "g": "to paddle",
+  "k": "word"
+ },
+ "Paella": {
+  "d": "die Paella, -s",
+  "g": "paella",
+  "k": "word"
+ },
+ "Panik": {
+  "d": "die Panik",
+  "g": "panic",
+  "k": "word"
+ },
+ "Papa": {
+  "d": "der Papa, -s",
+  "g": "dad",
+  "k": "word"
+ },
+ "parkendes": {
+  "d": "parken",
+  "g": "parked",
+  "k": "word"
+ },
+ "Partyplatten": {
+  "d": "die Partyplatte, -n",
+  "g": "party platter",
+  "k": "word"
+ },
+ "passende": {
+  "d": "passen",
+  "g": "suitable, right",
+  "k": "word"
+ },
+ "Passt": {
+  "d": "passen",
+  "g": "to suit, to be convenient",
+  "k": "word"
+ },
+ "Pfanne": {
+  "d": "die Pfanne, -n",
+  "g": "frying pan, pan",
+  "k": "word"
+ },
+ "Pflege": {
+  "d": "die Pflege",
+  "g": "nursing, care",
+  "k": "word"
+ },
+ "ph": {
+  "d": "ph",
+  "g": "the letters p and h",
+  "k": "word"
+ },
+ "Physiotherapeutin": {
+  "d": "die Physiotherapeutin, -nen",
+  "g": "physical therapist (female)",
+  "k": "word"
+ },
+ "PIN": {
+  "d": "die PIN = persönliche Identifikationsnummer",
+  "g": "PIN, personal identification number",
+  "k": "abbr"
+ },
+ "PIN-Code": {
+  "d": "der PIN-Code, -s",
+  "g": "PIN code",
+  "k": "word"
+ },
+ "Piste": {
+  "d": "die Piste, -n",
+  "g": "ski slope, run",
+  "k": "word"
+ },
+ "Planai": {
+  "d": "die Planai",
+  "g": "a ski mountain in Austria",
+  "k": "name"
+ },
+ "platt": {
+  "d": "platt",
+  "g": "flat (tire)",
+  "k": "word"
+ },
+ "Podcasts": {
+  "d": "der Podcast, -s",
+  "g": "podcast",
+  "k": "word"
+ },
+ "Polizeiinspektion": {
+  "d": "die Polizeiinspektion, -en",
+  "g": "police station (Austrian)",
+  "k": "word"
+ },
+ "Preisvergleichs": {
+  "d": "der Preisvergleich, -e",
+  "g": "price comparison",
+  "k": "word"
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "set": "12",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was zeigt die Umfrage des Familienmagazins „Wir“?",
+     "right": "Ein Viertel der Familien trifft sich mehrmals im Jahr mit allen Verwandten.",
+     "wrong": [
+      "Jede dritte Familie trifft sich mehrmals im Jahr mit allen Verwandten.",
+      "Vier von zehn Familien treffen sich mehrmals im Jahr mit allen Verwandten."
+     ],
+     "evidence": "Laut einer Umfrage des Familienmagazins „Wir“, für die 2.000 Leserinnen und Leser befragt wurden, trifft sich nur noch jede vierte Familie mehr als einmal im Jahr mit allen Angehörigen.",
+     "why": "Jede vierte Familie means one family in four, so a quarter meet all their relatives (Angehörige) more than once a year. Jede dritte is about marriages that end in divorce, and vier von zehn is about parents who share childcare.",
+     "trap": "same-word",
+     "words": [
+      "W0083"
+     ]
+    },
+    {
+     "q": "Was erzählt Lena Hoffmann über die Telefonate mit ihrer Oma?",
+     "right": "Die Oma will bei jedem Anruf wissen, ob Lena genug isst.",
+     "wrong": [
+      "Die Oma will bei jedem Anruf wissen, ob Lena schon einen Freund hat.",
+      "Die Oma will bei jedem Anruf wissen, wann Lena wieder nach Hamburg kommt."
+     ],
+     "evidence": "„Wir telefonieren jeden Sonntag, und jedes Mal fragt sie, ob ich genug esse.“",
+     "why": "Jedes Mal means every time, so on every call Oma asks if Lena eats enough. All three are typical grandma questions, but Lena names only this one.",
+     "trap": "paraphrase",
+     "words": [
+      "W1229"
+     ]
+    },
+    {
+     "q": "Wann können getrennte Paare laut Dr. Rehberg am besten Frieden schließen?",
+     "right": "Erst nach dem Essen, wenn alle in guter Stimmung sind.",
+     "wrong": [
+      "Gleich beim ersten Kaffee, wenn alle noch ausgeruht sind.",
+      "Schon vor dem Fest, wenn die beiden in Ruhe telefonieren können."
+     ],
+     "evidence": "„Trotzdem wäre es falsch, getrennte Paare nicht mehr einzuladen, denn ein Fest kann eine gute Gelegenheit sein, das Kriegsbeil zu begraben, also Frieden zu schließen. Wichtig ist nur der richtige Zeitpunkt: nicht beim ersten Kaffee, sondern später, wenn alle satt und zufrieden sind.“",
+     "why": "Das Kriegsbeil begraben (to bury the hatchet) means to make peace, and a party is a good chance (Gelegenheit) for it. The right moment (Zeitpunkt) is not the first coffee but later, when everyone has eaten and is happy.",
+     "trap": "when",
+     "words": [
+      "W2817",
+      "W0962",
+      "W2404"
+     ]
+    },
+    {
+     "q": "Was erfährt man über Hilde Möllers Umzug ins Altenheim?",
+     "right": "Vorher hat sie sich mit ihrer Tochter mehrere Heime angesehen.",
+     "wrong": [
+      "Sie musste mehrere Monate auf ein freies Zimmer im Heim warten.",
+      "Sie ist zusammen mit ihrem Mann ins Heim gezogen."
+     ],
+     "evidence": "Hilde selbst lebt seit zwei Jahren in einem Altenheim in Altona. Nach dem Tod ihres Mannes Heinrich vor drei Jahren war das Haus, in dem die beiden fünf Jahrzehnte gewohnt hatten, zu groß für sie allein. Mit ihrer Tochter hat sie damals drei Heime besichtigt. Plätze in guten Heimen sind begrenzt, doch Hilde hatte Glück: Schon nach sechs Wochen wurde ein Zimmer frei.",
+     "why": "Besichtigen means to go and look at a place. Places are limited (begrenzt), but she waited only six weeks, and she moved only after her husband's death (Tod), because the house was too big for her alone.",
+     "trap": "when",
+     "words": [
+      "W0346",
+      "W0288",
+      "W2372"
+     ]
+    },
+    {
+     "q": "Was erzählt Hilde Möller über die Zeit, als ihre Kinder klein waren?",
+     "right": "Sie war mit den Kindern meistens allein.",
+     "wrong": [
+      "Sie hat neben der Erziehung in einem Café gearbeitet.",
+      "Ihre Mutter hat ihr bei der Erziehung viel geholfen."
+     ],
+     "evidence": "„Ich war Hausfrau, und mein Mann war als Seemann oft monatelang auf See. Deshalb habe ich unsere zwei Kinder fast allein erzogen und hätte mir damals mehr Hilfe gewünscht“, erzählt sie.",
+     "why": "A Hausfrau works at home, not in a café, and she raised (erzogen) the children almost alone. She wished for more help, so nobody helped her much.",
+     "trap": "same-word",
+     "words": [
+      "W1096",
+      "W0738",
+      "W0739"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "rf",
+   "items": [
+    {
+     "s": "Theresia Lackner holt ihre zwei Enkelinnen dreimal pro Woche vom Hort ab.",
+     "answer": false,
+     "evidence": "Meine Schwiegertochter arbeitet Vollzeit im Krankenhaus, deshalb hole ich die zwei Buben dreimal pro Woche vom Hort ab.",
+     "why": "Buben is the Austrian word for Jungen (boys), so she picks up two grandsons, not granddaughters. Three times a week and the after-school care (Hort) are right.",
+     "trap": "who",
+     "words": [
+      "R003",
+      "X019"
+     ]
+    },
+    {
+     "s": "Torsten Sievers und seine frühere Frau feiern Weihnachten noch zusammen.",
+     "answer": true,
+     "evidence": "Heute bin ich geschieden, und trotzdem feiern wir Weihnachten und die Geburtstage der Kinder zusammen.",
+     "why": "Geschieden means divorced, and trotzdem flips what you expect: they still celebrate Christmas together.",
+     "trap": "flip",
+     "words": [
+      "W2011",
+      "W2010"
+     ]
+    },
+    {
+     "s": "Torstens neue Partnerin bleibt bei den Familienfesten lieber zu Hause.",
+     "answer": false,
+     "evidence": "Meine neue Partnerin hat nichts dagegen, sie feiert sogar mit.",
+     "why": "Nichts dagegen haben means she does not mind. She even celebrates with them.",
+     "trap": "flip",
+     "words": [
+      "W0476"
+     ]
+    },
+    {
+     "s": "Ömer Çelik hat die Hochzeit seiner Nichte selbst gefilmt.",
+     "answer": false,
+     "evidence": "Mein Neffe hat mit dem Handy einen Film über die ganze Hochzeit gedreht.",
+     "why": "Drehen here means to film. His nephew (Neffe) filmed the wedding of his niece (Nichte), not Ömer himself.",
+     "trap": "who",
+     "words": [
+      "W0542",
+      "W1663",
+      "W1678"
+     ]
+    },
+    {
+     "s": "Leonies Mutter bringt sie zum Zug, wenn sie zurück nach Leipzig fährt.",
+     "answer": true,
+     "evidence": "Meine Mutter begleitet mich zum Bahnhof, wir verabschieden uns am Gleis, und dann fahre ich zurück.",
+     "why": "Begleiten means to go with someone, so her mother takes her to the station. They say goodbye (verabschieden) on the platform, and then Leonie travels back.",
+     "trap": "paraphrase",
+     "words": [
+      "W0287",
+      "W2529",
+      "W2868"
+     ]
+    }
+   ]
+  }
+ ]
+}

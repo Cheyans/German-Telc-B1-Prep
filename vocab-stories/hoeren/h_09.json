@@ -1,0 +1,219 @@
+{
+ "audio": "09",
+ "mt": 2,
+ "teil": 3,
+ "page": 67,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Durchsagen und Nachrichten",
+   "from": "00:48",
+   "to": "08:52",
+   "intro": "Sie hören fünf kurze Texte: eine Mailbox-Nachricht, eine Durchsage im Zug, einen Hinweis im Radio, eine Sprachnachricht und eine Durchsage im Kaufhaus. Sie hören jeden Text zweimal.",
+   "items": [
+    {
+     "t": 1,
+     "s": "Ihr Termin am Freitag soll zwei Stunden später stattfinden.",
+     "a": true,
+     "at": "01:07",
+     "ev": "am Freitag um 13 Uhr … am gleichen Tag etwas um 15 Uhr",
+     "why": "The appointment was at 1 p.m. A colleague is sick, so the practice offers 3 p.m. on the same day, two hours later.",
+     "trap": "change",
+     "w": [
+      [
+       "sich krankmelden",
+       "to call in sick"
+      ],
+      [
+       "der Ersatz",
+       "replacement"
+      ]
+     ]
+    },
+    {
+     "t": 1,
+     "s": "Sie sollen die Praxis anrufen und den neuen Termin bestätigen.",
+     "a": false,
+     "at": "01:12",
+     "ev": "Wenn das bei Ihnen nicht klappt, rufen Sie uns doch kurz an.",
+     "why": "You only call if 3 p.m. doesn't work for you. If you don't call, the practice assumes the new time is fine.",
+     "trap": "same-word",
+     "w": [
+      [
+       "klappen",
+       "to work out"
+      ],
+      [
+       "davon ausgehen",
+       "to assume"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Warme Getränke gibt es im Bordbistro erst ab Leipzig.",
+     "a": false,
+     "at": "02:34",
+     "ev": "Snacks wie Chips und Schokolade sowie kalte und warme Getränke",
+     "why": "Cold and hot drinks are on sale right now. Erst ab Leipzig is only about hot meals.",
+     "trap": "same-word",
+     "w": [
+      [
+       "das Bordbistro",
+       "café car on the train"
+      ],
+      [
+       "der Wagen",
+       "train car"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Bis Leipzig gibt es im Bistro kein warmes Essen.",
+     "a": true,
+     "at": "02:50",
+     "ev": "Warme Speisen können wir Ihnen leider erst ab Leipzig anbieten",
+     "why": "Hot meals are only on offer from Leipzig, because the bistro gets new stock there. So until Leipzig there is no hot food.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "die Speise",
+       "dish, meal"
+      ],
+      [
+       "die Ware",
+       "goods, stock"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Im Gespräch mit dem Musiker geht es nicht nur um Musik.",
+     "a": true,
+     "at": "04:24",
+     "ev": "über sein neues Album und sein Engagement in der Politik",
+     "why": "They will talk about his new album and also about his political work. So the talk is not only about music.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "das Engagement",
+       "active involvement"
+      ],
+      [
+       "gleich",
+       "in a moment"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Die Gespräche mit den Spitzenkandidaten beginnen um 18 Uhr.",
+     "a": false,
+     "at": "04:41",
+     "ev": "Gespräche mit den Spitzenkandidaten aller Parteien führt sie ab halb zehn.",
+     "why": "At 6 p.m. the election night coverage with the latest results starts. The talks with the lead candidates begin only at half past nine.",
+     "trap": "number",
+     "w": [
+      [
+       "der Wahlabend",
+       "election night"
+      ],
+      [
+       "die Hochrechnung",
+       "projection of the results"
+      ],
+      [
+       "der Spitzenkandidat",
+       "lead candidate"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Ihr Freund hat sein Ladekabel heute in der Uni vergessen.",
+     "a": false,
+     "at": "06:00",
+     "ev": "ich glaube, dass ich gestern in der Uni mein Ladekabel vergessen habe",
+     "why": "He left it there yesterday. Heute only comes later, when he asks you to check today.",
+     "trap": "when",
+     "w": [
+      [
+       "das Ladekabel",
+       "charging cable"
+      ],
+      [
+       "vergessen",
+       "to leave behind, to forget"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Ihr Freund bittet Sie, heute in der Bibliothek nach dem Kabel zu fragen.",
+     "a": true,
+     "at": "06:15",
+     "ev": "Könntest du vielleicht mal fragen, wenn du heute wieder dort bist?",
+     "why": "He is not back at the library until tomorrow, and nobody answers the phone. So he asks you to ask there today and let him know.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "Bescheid sagen",
+       "to let someone know"
+      ],
+      [
+       "die Bib",
+       "the library (short for Bibliothek)"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Beim Gewinnspiel kann man nur Einkaufsgutscheine gewinnen.",
+     "a": false,
+     "at": "07:49",
+     "ev": "Badetiere und Einkaufsgutscheine … oder sogar eine Reise für zwei Personen",
+     "why": "You can also win pool toys or even a trip to Spain for two. Nur makes the statement false.",
+     "trap": "overstate",
+     "w": [
+      [
+       "das Gewinnspiel",
+       "prize draw"
+      ],
+      [
+       "das Badetier",
+       "inflatable pool animal"
+      ],
+      [
+       "der Einkaufsgutschein",
+       "shopping voucher"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Bademode und Sonnenbrillen findet man auf derselben Etage wie die Party.",
+     "a": true,
+     "at": "08:00",
+     "ev": "Sommerstrandparty in der vierten Etage … ebenfalls im vierten Stock",
+     "why": "The party is on the fourth floor (vierte Etage), and the swimwear and sunglasses are also on the fourth floor (vierter Stock). Etage and Stock mean the same here.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "ebenfalls",
+       "also, likewise"
+      ],
+      [
+       "zum Sonderpreis",
+       "at a special price"
+      ],
+      [
+       "die Bademode",
+       "swimwear"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

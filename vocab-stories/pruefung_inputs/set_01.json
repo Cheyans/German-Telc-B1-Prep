@@ -1,0 +1,548 @@
+{
+ "set": "01",
+ "title": "Der Prüfungstag",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G098",
+   "entry": "ankreuzen",
+   "level": "A1",
+   "gloss": "to check (a box), to mark with an X"
+  },
+  {
+   "id": "G099",
+   "entry": "der Antwortbogen, -",
+   "level": "B1",
+   "gloss": "answer sheet"
+  },
+  {
+   "id": "G101",
+   "entry": "die Aussage, -n",
+   "level": "A1",
+   "gloss": "statement"
+  },
+  {
+   "id": "G103",
+   "entry": "die Einleitung, -en",
+   "level": "B1",
+   "gloss": "introduction (of a text)"
+  },
+  {
+   "id": "G105",
+   "entry": "das Hilfsmittel, -",
+   "level": "B1",
+   "gloss": "aid, tool (such as a dictionary)"
+  },
+  {
+   "id": "G108",
+   "entry": "der Moderator, -en / die Moderatorin, -nen",
+   "level": "B1",
+   "gloss": "host (of a radio or TV show)"
+  },
+  {
+   "id": "G112",
+   "entry": "die Rückmeldung, -en",
+   "level": "B1",
+   "gloss": "feedback"
+  },
+  {
+   "id": "G113",
+   "entry": "die Struktur, -en",
+   "level": "B1",
+   "gloss": "structure"
+  },
+  {
+   "id": "G114",
+   "entry": "der Textaufbau",
+   "level": "B1",
+   "gloss": "text structure"
+  },
+  {
+   "id": "G115",
+   "entry": "übertragen",
+   "level": "B1",
+   "gloss": "to transfer (answers)"
+  },
+  {
+   "id": "G321",
+   "entry": "tagsüber",
+   "level": "B1",
+   "gloss": "during the day"
+  },
+  {
+   "id": "W0012",
+   "entry": "abhängen, hängt ab, hing ab, hat abgehangen (von)",
+   "level": "B1",
+   "gloss": "to depend (on)"
+  },
+  {
+   "id": "W0016",
+   "entry": "abschreiben, schreibt ab, schrieb ab, hat abgeschrieben",
+   "level": "B1",
+   "gloss": "to copy (someone's answers), to cheat"
+  },
+  {
+   "id": "W0025",
+   "entry": "der Abschnitt, -e",
+   "level": "B1",
+   "gloss": "section (of a text)"
+  },
+  {
+   "id": "W0032",
+   "entry": "abwärts",
+   "level": "B1",
+   "gloss": "downward, down"
+  },
+  {
+   "id": "W0114",
+   "entry": "sich anstrengen, strengt sich an, strengte sich an, hat sich angestrengt",
+   "level": "B1",
+   "gloss": "to try hard, to make an effort"
+  },
+  {
+   "id": "W0117",
+   "entry": "anwenden, wendet an, wandte an, hat angewandt/angewendet",
+   "level": "B1",
+   "gloss": "to apply, to use"
+  },
+  {
+   "id": "W0188",
+   "entry": "der Ausdruck, -e",
+   "level": "B1",
+   "gloss": "printout"
+  },
+  {
+   "id": "W0220",
+   "entry": "die Aussprache",
+   "level": "B1",
+   "gloss": "pronunciation"
+  },
+  {
+   "id": "W0428",
+   "entry": "brennen, brennt, brannte, hat gebrannt",
+   "level": "B1",
+   "gloss": "to burn, to sting"
+  },
+  {
+   "id": "W0478",
+   "entry": "dahin",
+   "level": "B1",
+   "gloss": "there; (bis dahin) until then"
+  },
+  {
+   "id": "W0511",
+   "entry": "der Dialekt, -e",
+   "level": "B1",
+   "gloss": "dialect"
+  },
+  {
+   "id": "W0512",
+   "entry": "der Dialog, -e",
+   "level": "B1",
+   "gloss": "dialogue, conversation"
+  },
+  {
+   "id": "W0544",
+   "entry": "drin, drinnen",
+   "level": "B1",
+   "gloss": "in it; inside"
+  },
+  {
+   "id": "W0605",
+   "entry": "die Einführung, -en",
+   "level": "B1",
+   "gloss": "introduction"
+  },
+  {
+   "id": "W0771",
+   "entry": "falls",
+   "level": "B1",
+   "gloss": "in case, if"
+  },
+  {
+   "id": "W0806",
+   "entry": "festhalten, hält fest, hielt fest, hat festgehalten",
+   "level": "B1",
+   "gloss": "to hold tight"
+  },
+  {
+   "id": "W0838",
+   "entry": "fließend",
+   "level": "B1",
+   "gloss": "fluently"
+  },
+  {
+   "id": "W0847",
+   "entry": "die Folge, -n",
+   "level": "B1",
+   "gloss": "consequence, result"
+  },
+  {
+   "id": "W0857",
+   "entry": "der Fortschritt, -e",
+   "level": "B1",
+   "gloss": "progress"
+  },
+  {
+   "id": "W0950",
+   "entry": "der Gegenstand, ¨-e",
+   "level": "B1",
+   "gloss": "object, item"
+  },
+  {
+   "id": "W1067",
+   "entry": "halb",
+   "level": "B1",
+   "gloss": "half (halb sechs = 5:30)"
+  },
+  {
+   "id": "W1209",
+   "entry": "der Intensivkurs, -e",
+   "level": "B1",
+   "gloss": "intensive course"
+  },
+  {
+   "id": "W1347",
+   "entry": "sich konzentrieren, konzentriert sich, konzentrierte sich, hat sich konzentriert",
+   "level": "B1",
+   "gloss": "to concentrate"
+  },
+  {
+   "id": "W1357",
+   "entry": "korrigieren, korrigiert, korrigierte, hat korrigiert",
+   "level": "B1",
+   "gloss": "to correct"
+  },
+  {
+   "id": "W1391",
+   "entry": "der Kuli, -s",
+   "level": "B1",
+   "gloss": "ballpoint pen"
+  },
+  {
+   "id": "W1406",
+   "entry": "die Kursleiter, -nen",
+   "level": "B1",
+   "gloss": "course instructor (female)"
+  },
+  {
+   "id": "W1495",
+   "entry": "sich lohnen, lohnt sich, lohnte sich, hat sich gelohnt",
+   "level": "B1",
+   "gloss": "to be worth it"
+  },
+  {
+   "id": "W1500",
+   "entry": "lösen, löst, löste, hat gelöst",
+   "level": "B1",
+   "gloss": "to solve"
+  },
+  {
+   "id": "W1524",
+   "entry": "die Mappe, -n",
+   "level": "B1",
+   "gloss": "folder"
+  },
+  {
+   "id": "W1528",
+   "entry": "markieren, markiert, markierte, hat markiert",
+   "level": "B1",
+   "gloss": "to mark"
+  },
+  {
+   "id": "W1542",
+   "entry": "mehr (siehe auch viel)",
+   "level": "A1",
+   "gloss": "more; (nicht mehr) no longer"
+  },
+  {
+   "id": "W1562",
+   "entry": "messen, misst, maß, hat gemessen",
+   "level": "B1",
+   "gloss": "to measure"
+  },
+  {
+   "id": "W1578",
+   "entry": "minimal",
+   "level": "B1",
+   "gloss": "minimal, tiny"
+  },
+  {
+   "id": "W1603",
+   "entry": "die Möglichkeit, -en",
+   "level": "B1",
+   "gloss": "possibility, option"
+  },
+  {
+   "id": "W1617",
+   "entry": "mündlich",
+   "level": "B1",
+   "gloss": "oral, spoken"
+  },
+  {
+   "id": "W1688",
+   "entry": "nochmals",
+   "level": "B1",
+   "gloss": "once more, again"
+  },
+  {
+   "id": "W1780",
+   "entry": "per",
+   "level": "B1",
+   "gloss": "by (as in by email)"
+  },
+  {
+   "id": "W1834",
+   "entry": "prima",
+   "level": "B1",
+   "gloss": "great"
+  },
+  {
+   "id": "W2005",
+   "entry": "schauen, schaut, schaute, hat geschaut",
+   "level": "B1",
+   "gloss": "to look"
+  },
+  {
+   "id": "W2059",
+   "entry": "aufschreiben",
+   "level": "B1",
+   "gloss": "to write down"
+  },
+  {
+   "id": "W2135",
+   "entry": "sinken, sinkt, sank, ist gesunken",
+   "level": "B1",
+   "gloss": "to sink, to drop"
+  },
+  {
+   "id": "W2166",
+   "entry": "so viel/so viel wie",
+   "level": "B1",
+   "gloss": "as much as"
+  },
+  {
+   "id": "W2198",
+   "entry": "die Fremdsprache, -n",
+   "level": "B1",
+   "gloss": "foreign language"
+  },
+  {
+   "id": "W2199",
+   "entry": "die Muttersprache, -n",
+   "level": "B1",
+   "gloss": "native language"
+  },
+  {
+   "id": "W2200",
+   "entry": "die Zweitsprache, -n",
+   "level": "B1",
+   "gloss": "second language"
+  },
+  {
+   "id": "W2279",
+   "entry": "das Stück/-stück, -e",
+   "level": "A2",
+   "gloss": "piece"
+  },
+  {
+   "id": "W2280",
+   "entry": "die Studie, -n",
+   "level": "B1",
+   "gloss": "study (research)"
+  },
+  {
+   "id": "W2341",
+   "entry": "die Teilnahme, -n",
+   "level": "B1",
+   "gloss": "participation"
+  },
+  {
+   "id": "W2342",
+   "entry": "der Teilnehmer, - die Teilnehmerin, -nen",
+   "level": "B1",
+   "gloss": "participant, test taker"
+  },
+  {
+   "id": "W2353",
+   "entry": "testen, testet, testete, hat getestet",
+   "level": "B1",
+   "gloss": "to test"
+  },
+  {
+   "id": "W2428",
+   "entry": "die Übung, -en",
+   "level": "B1",
+   "gloss": "exercise, practice"
+  },
+  {
+   "id": "W2446",
+   "entry": "der Übersetzer, - die Übersetzerin, -nen",
+   "level": "B1",
+   "gloss": "translator"
+  },
+  {
+   "id": "W2486",
+   "entry": "unglaublich",
+   "level": "B1",
+   "gloss": "unbelievable"
+  },
+  {
+   "id": "W2507",
+   "entry": "unterschiedlich",
+   "level": "B1",
+   "gloss": "different"
+  },
+  {
+   "id": "W2510",
+   "entry": "unterstreichen, unterstreicht, unterstrich, hat unterstrichen",
+   "level": "B1",
+   "gloss": "to underline"
+  },
+  {
+   "id": "W2535",
+   "entry": "(sich) verbessern, verbessert, verbesserte, hat verbessert",
+   "level": "B1",
+   "gloss": "to correct, to improve"
+  },
+  {
+   "id": "W2645",
+   "entry": "voneinander",
+   "level": "B1",
+   "gloss": "from each other"
+  },
+  {
+   "id": "W2647",
+   "entry": "vor allem",
+   "level": "B1",
+   "gloss": "above all, mainly"
+  },
+  {
+   "id": "W2653",
+   "entry": "die Vorbereitung, -en",
+   "level": "B1",
+   "gloss": "preparation"
+  },
+  {
+   "id": "W2661",
+   "entry": "vorläufig",
+   "level": "B1",
+   "gloss": "for now, provisionally"
+  },
+  {
+   "id": "W2662",
+   "entry": "vorlesen, liest vor, las vor, hat vorgelesen",
+   "level": "B1",
+   "gloss": "to read aloud"
+  },
+  {
+   "id": "W2674",
+   "entry": "der Vortrag, ¨-e",
+   "level": "B1",
+   "gloss": "talk, lecture"
+  },
+  {
+   "id": "W2788",
+   "entry": "worüber",
+   "level": "B1",
+   "gloss": "about what"
+  },
+  {
+   "id": "W2792",
+   "entry": "das Wörterbuch, ¨-er",
+   "level": "B1",
+   "gloss": "dictionary"
+  },
+  {
+   "id": "W2807",
+   "entry": "zählen, zählt, zählte, hat gezählt",
+   "level": "B1",
+   "gloss": "to count (also: to matter)"
+  },
+  {
+   "id": "W2827",
+   "entry": "das Zertifikat, -e",
+   "level": "B1",
+   "gloss": "certificate"
+  },
+  {
+   "id": "W2858",
+   "entry": "die Zukunft",
+   "level": "B1",
+   "gloss": "future"
+  },
+  {
+   "id": "W2863",
+   "entry": "zunächst",
+   "level": "B1",
+   "gloss": "first (of all)"
+  },
+  {
+   "id": "W2873",
+   "entry": "zusammenfassen, fasst zusammen, fasste zusammen, hat zusammengefasst",
+   "level": "B1",
+   "gloss": "to summarize"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2572",
+   "entry": "verlassen, verlässt, verließ, hat verlassen",
+   "level": "B1",
+   "gloss": "to leave"
+  },
+  {
+   "id": "W2732",
+   "entry": "die Werbung, -en",
+   "level": "B1",
+   "gloss": "advertising, commercials"
+  },
+  {
+   "id": "G013",
+   "entry": "das Kfz (Kraftfahrzeug)",
+   "level": "B1",
+   "gloss": "motor vehicle (abbreviation)"
+  },
+  {
+   "id": "G019",
+   "entry": "usw. (und so weiter)",
+   "level": "A2",
+   "gloss": "etc., and so on"
+  },
+  {
+   "id": "W0897",
+   "entry": "führen, führt, führte, hat geführt",
+   "level": "B1",
+   "gloss": "to lead, to show around"
+  },
+  {
+   "id": "W0662",
+   "entry": "enthalten, enthält, enthielt, hat enthalten",
+   "level": "B1",
+   "gloss": "to contain"
+  },
+  {
+   "id": "W2202",
+   "entry": "die Sprechstunde, -n A:→ Ordination",
+   "level": "B1",
+   "gloss": "office hours (doctor's)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X006",
+   "word": "die Wissenslücke, -n",
+   "gloss": "a gap in knowledge",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R003",
+   "word": "der Bub, -en",
+   "gloss": "boy",
+   "kind": "austrian",
+   "de": "der Junge"
+  }
+ ],
+ "story_opening": "Am Dienstag ist Mateo schon um halb sechs wach. Er kann nicht mehr schlafen, denn heute macht er die Prüfung telc Deutsch B1. Mit dem Zertifikat kann er später die Einbürgerung beantragen. Um zu bestehen, braucht er 60 Prozent im schriftlichen und 60 Prozent im mündlichen Teil. Mateo ist Koch, aber heute hat er keinen Hunger. Zum Frühstück isst er nur ein kleines Stück Brot.\n\nDann packt er seine Mappe. Darin liegen sein Ausweis, zwei Bleistifte, ein blauer Kuli und ein Ausdruck der E-Mail vom Prüfungszentrum. Er hat die E-Mail gestern ausgedruckt, denn dort stehen Uhrzeit und Raumnummer. An der Tür schaut er nochmals in die Mappe. Alles ist drin.\n\nIn der Straßenbahn denkt er an die Tipps von"
+}

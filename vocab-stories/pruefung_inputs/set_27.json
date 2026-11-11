@@ -1,0 +1,673 @@
+{
+ "set": "27",
+ "title": "Gesellschaft und Politik",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "G171",
+   "entry": "der Europäer, - / die Europäerin, -nen",
+   "level": "B1",
+   "gloss": "European (person)"
+  },
+  {
+   "id": "G172",
+   "entry": "europäisch",
+   "level": "B1",
+   "gloss": "European"
+  },
+  {
+   "id": "G174",
+   "entry": "der Österreicher, - / die Österreicherin, -nen",
+   "level": "B1",
+   "gloss": "Austrian (person)"
+  },
+  {
+   "id": "G175",
+   "entry": "österreichisch",
+   "level": "B1",
+   "gloss": "Austrian"
+  },
+  {
+   "id": "G177",
+   "entry": "der Schweizer, - / die Schweizerin, -nen",
+   "level": "B1",
+   "gloss": "Swiss (person)"
+  },
+  {
+   "id": "G178",
+   "entry": "schweizerisch",
+   "level": "B1",
+   "gloss": "Swiss"
+  },
+  {
+   "id": "G180",
+   "entry": "der Grieche, -n / die Griechin, -nen",
+   "level": "B1",
+   "gloss": "Greek (person)"
+  },
+  {
+   "id": "G181",
+   "entry": "griechisch",
+   "level": "B1",
+   "gloss": "Greek"
+  },
+  {
+   "id": "G186",
+   "entry": "der Ukrainer, - / die Ukrainerin, -nen",
+   "level": "B1",
+   "gloss": "Ukrainian woman"
+  },
+  {
+   "id": "G187",
+   "entry": "ukrainisch",
+   "level": "B1",
+   "gloss": "Ukrainian"
+  },
+  {
+   "id": "G188",
+   "entry": "der Bund",
+   "level": "B1",
+   "gloss": "federation, federal level"
+  },
+  {
+   "id": "G189",
+   "entry": "der Bundeskanzler, - / die Bundeskanzlerin, -nen",
+   "level": "B1",
+   "gloss": "federal chancellor"
+  },
+  {
+   "id": "G190",
+   "entry": "der Bundestag",
+   "level": "B1",
+   "gloss": "Bundestag (German parliament)"
+  },
+  {
+   "id": "G191",
+   "entry": "der Bundespräsident, -en / die Bundespräsidentin, -nen",
+   "level": "B1",
+   "gloss": "federal president"
+  },
+  {
+   "id": "G192",
+   "entry": "der Bürgermeister, - / die Bürgermeisterin, -nen",
+   "level": "B1",
+   "gloss": "mayor"
+  },
+  {
+   "id": "G193",
+   "entry": "die Demokratie, -n",
+   "level": "B1",
+   "gloss": "democracy"
+  },
+  {
+   "id": "G194",
+   "entry": "demokratisch",
+   "level": "B1",
+   "gloss": "democratic"
+  },
+  {
+   "id": "G196",
+   "entry": "die Gemeinde, -n",
+   "level": "B1",
+   "gloss": "municipality (town or city)"
+  },
+  {
+   "id": "G197",
+   "entry": "konservativ",
+   "level": "B1",
+   "gloss": "conservative"
+  },
+  {
+   "id": "G198",
+   "entry": "liberal",
+   "level": "B1",
+   "gloss": "liberal"
+  },
+  {
+   "id": "G199",
+   "entry": "der Minister, - / die Ministerin, -nen",
+   "level": "B1",
+   "gloss": "(government) minister"
+  },
+  {
+   "id": "G200",
+   "entry": "das Parlament, -e",
+   "level": "B1",
+   "gloss": "parliament"
+  },
+  {
+   "id": "G202",
+   "entry": "die Partei, -en",
+   "level": "B1",
+   "gloss": "(political) party"
+  },
+  {
+   "id": "G203",
+   "entry": "die Regierung, -en",
+   "level": "B1",
+   "gloss": "government"
+  },
+  {
+   "id": "G204",
+   "entry": "der Staat, -en",
+   "level": "B1",
+   "gloss": "state, country"
+  },
+  {
+   "id": "G205",
+   "entry": "staatlich",
+   "level": "B1",
+   "gloss": "state-run, public"
+  },
+  {
+   "id": "G206",
+   "entry": "das Bundesland, ¨-er",
+   "level": "B1",
+   "gloss": "federal state"
+  },
+  {
+   "id": "G207",
+   "entry": "die Bundesrepublik Deutschland",
+   "level": "B1",
+   "gloss": "Federal Republic of Germany"
+  },
+  {
+   "id": "G241",
+   "entry": "das Prozent, -e",
+   "level": "B1",
+   "gloss": "percent"
+  },
+  {
+   "id": "W0029",
+   "entry": "abstimmen, stimmt ab, stimmte ab, hat abgestimmt",
+   "level": "B1",
+   "gloss": "to vote (on something)"
+  },
+  {
+   "id": "W0051",
+   "entry": "allgemein",
+   "level": "B1",
+   "gloss": "universal, general"
+  },
+  {
+   "id": "W0075",
+   "entry": "die Änderung, -en",
+   "level": "B1",
+   "gloss": "change"
+  },
+  {
+   "id": "W0080",
+   "entry": "anfangs",
+   "level": "B1",
+   "gloss": "at first"
+  },
+  {
+   "id": "W0138",
+   "entry": "die Arbeitslosigkeit",
+   "level": "B1",
+   "gloss": "unemployment"
+  },
+  {
+   "id": "W0151",
+   "entry": "das Asyl",
+   "level": "B1",
+   "gloss": "asylum"
+  },
+  {
+   "id": "W0211",
+   "entry": "ausschließlich",
+   "level": "B1",
+   "gloss": "exclusively, only"
+  },
+  {
+   "id": "W0340",
+   "entry": "beschließen, beschließt, beschloss, hat beschlossen",
+   "level": "B1",
+   "gloss": "to decide, to pass (a law)"
+  },
+  {
+   "id": "W0454",
+   "entry": "der Bürger, - die Bürgerin, -nen",
+   "level": "B1",
+   "gloss": "citizen"
+  },
+  {
+   "id": "W0473",
+   "entry": "dabei",
+   "level": "A2",
+   "gloss": "with you; taking part"
+  },
+  {
+   "id": "W0601",
+   "entry": "der Einfluss, ¨-e",
+   "level": "B1",
+   "gloss": "influence"
+  },
+  {
+   "id": "W0602",
+   "entry": "beeinflussen, beeinflusst, beeinflusste, hat beeinflusst",
+   "level": "B1",
+   "gloss": "to influence"
+  },
+  {
+   "id": "W0607",
+   "entry": "einheitlich",
+   "level": "B1",
+   "gloss": "uniform, the same everywhere"
+  },
+  {
+   "id": "W0630",
+   "entry": "der Einwohner, - die Einwohnerin, -nen",
+   "level": "B1",
+   "gloss": "inhabitant, resident"
+  },
+  {
+   "id": "W0659",
+   "entry": "entfernen, entfernt, entfernte, hat entfernt",
+   "level": "B1",
+   "gloss": "to remove"
+  },
+  {
+   "id": "W0749",
+   "entry": "der Export, -e",
+   "level": "B1",
+   "gloss": "export(s)"
+  },
+  {
+   "id": "W0835",
+   "entry": "fliehen, flieht, floh, ist geflohen",
+   "level": "B1",
+   "gloss": "to flee, to escape"
+  },
+  {
+   "id": "W0836",
+   "entry": "die Flucht",
+   "level": "B1",
+   "gloss": "escape, flight (fleeing)"
+  },
+  {
+   "id": "W0872",
+   "entry": "die Freiheit",
+   "level": "B1",
+   "gloss": "freedom"
+  },
+  {
+   "id": "W0882",
+   "entry": "der Friede, Frieden, -",
+   "level": "B1",
+   "gloss": "peace"
+  },
+  {
+   "id": "W0893",
+   "entry": "früher/früher-",
+   "level": "A1",
+   "gloss": "in the past, formerly"
+  },
+  {
+   "id": "W0980",
+   "entry": "gerecht",
+   "level": "B1",
+   "gloss": "fair, just"
+  },
+  {
+   "id": "W0996",
+   "entry": "die Gesellschaft, -en",
+   "level": "B1",
+   "gloss": "society"
+  },
+  {
+   "id": "W0997",
+   "entry": "das Gesetz, -e",
+   "level": "B1",
+   "gloss": "law"
+  },
+  {
+   "id": "W1005",
+   "entry": "die Gewalt, -en",
+   "level": "B1",
+   "gloss": "violence, force"
+  },
+  {
+   "id": "W1027",
+   "entry": "gleichberechtigt",
+   "level": "B1",
+   "gloss": "having equal rights"
+  },
+  {
+   "id": "W1042",
+   "entry": "die Grenze, -n",
+   "level": "B1",
+   "gloss": "border"
+  },
+  {
+   "id": "W1084",
+   "entry": "der Handel",
+   "level": "B1",
+   "gloss": "trade, dealing"
+  },
+  {
+   "id": "W1092",
+   "entry": "Haupt- / die Hauptstadt, ¨-e",
+   "level": "A2",
+   "gloss": "capital city"
+  },
+  {
+   "id": "W1147",
+   "entry": "historisch",
+   "level": "B1",
+   "gloss": "historic"
+  },
+  {
+   "id": "W1184",
+   "entry": "der Import, -e",
+   "level": "B1",
+   "gloss": "import(s)"
+  },
+  {
+   "id": "W1188",
+   "entry": "die Industrie, -n",
+   "level": "B1",
+   "gloss": "industry"
+  },
+  {
+   "id": "W1204",
+   "entry": "integrieren, integriert, integrierte, hat integriert",
+   "level": "B1",
+   "gloss": "to integrate (oneself)"
+  },
+  {
+   "id": "W1205",
+   "entry": "die Integration, -en",
+   "level": "B1",
+   "gloss": "integration"
+  },
+  {
+   "id": "W1214",
+   "entry": "interkulturell",
+   "level": "B1",
+   "gloss": "intercultural"
+  },
+  {
+   "id": "W1251",
+   "entry": "kämpfen, kämpft, kämpfte, hat gekämpft",
+   "level": "B1",
+   "gloss": "to fight, to struggle"
+  },
+  {
+   "id": "W1252",
+   "entry": "der Kampf, ¨-e",
+   "level": "B1",
+   "gloss": "fight, struggle"
+  },
+  {
+   "id": "W1254",
+   "entry": "der Kandidat, -en",
+   "level": "B1",
+   "gloss": "candidate"
+  },
+  {
+   "id": "W1335",
+   "entry": "der König, -e",
+   "level": "B1",
+   "gloss": "king"
+  },
+  {
+   "id": "W1381",
+   "entry": "der Krieg, -e",
+   "level": "B1",
+   "gloss": "war"
+  },
+  {
+   "id": "W1385",
+   "entry": "die Krise, -n",
+   "level": "B1",
+   "gloss": "crisis"
+  },
+  {
+   "id": "W1512",
+   "entry": "mal",
+   "level": "A2",
+   "gloss": "just (softening particle)"
+  },
+  {
+   "id": "W1534",
+   "entry": "die Mauer, -n",
+   "level": "B1",
+   "gloss": "wall"
+  },
+  {
+   "id": "W1544",
+   "entry": "die Mehrheit, -en",
+   "level": "B1",
+   "gloss": "majority"
+  },
+  {
+   "id": "W1571",
+   "entry": "der Migrant, -en die Migrantin, -nen",
+   "level": "B1",
+   "gloss": "migrant"
+  },
+  {
+   "id": "W1572",
+   "entry": "die Migration",
+   "level": "B1",
+   "gloss": "migration"
+  },
+  {
+   "id": "W1575",
+   "entry": "die Minderheit, -en",
+   "level": "B1",
+   "gloss": "minority"
+  },
+  {
+   "id": "W1644",
+   "entry": "nah(e)",
+   "level": "B1",
+   "gloss": "near, close"
+  },
+  {
+   "id": "W1655",
+   "entry": "national/national-",
+   "level": "B1",
+   "gloss": "national"
+  },
+  {
+   "id": "W1704",
+   "entry": "nutzen, nutzt, nutzte, hat genutzt",
+   "level": "B1",
+   "gloss": "to use"
+  },
+  {
+   "id": "W1716",
+   "entry": "öffentlich",
+   "level": "B1",
+   "gloss": "public"
+  },
+  {
+   "id": "W1809",
+   "entry": "die Politik",
+   "level": "B1",
+   "gloss": "politics"
+  },
+  {
+   "id": "W1810",
+   "entry": "der Politiker, - die Politikerin, -nen",
+   "level": "B1",
+   "gloss": "politician"
+  },
+  {
+   "id": "W1811",
+   "entry": "politisch",
+   "level": "B1",
+   "gloss": "political"
+  },
+  {
+   "id": "W1813",
+   "entry": "der Polizist, -en die Polizistin, -nen",
+   "level": "B1",
+   "gloss": "police officer"
+  },
+  {
+   "id": "W1850",
+   "entry": "protestieren, protestiert, protestierte, hat protestiert",
+   "level": "B1",
+   "gloss": "to protest"
+  },
+  {
+   "id": "W1851",
+   "entry": "der Protest, -e",
+   "level": "B1",
+   "gloss": "protest"
+  },
+  {
+   "id": "W1895",
+   "entry": "das Recht, -e",
+   "level": "B1",
+   "gloss": "right; law"
+  },
+  {
+   "id": "W1896",
+   "entry": "rechtlich",
+   "level": "B1",
+   "gloss": "legally"
+  },
+  {
+   "id": "W1902",
+   "entry": "die Rede, -n",
+   "level": "B1",
+   "gloss": "speech"
+  },
+  {
+   "id": "W1905",
+   "entry": "die Reform, -en",
+   "level": "B1",
+   "gloss": "reform"
+  },
+  {
+   "id": "W2169",
+   "entry": "sozial",
+   "level": "B1",
+   "gloss": "social"
+  },
+  {
+   "id": "W2210",
+   "entry": "städtisch",
+   "level": "B1",
+   "gloss": "city-owned, municipal"
+  },
+  {
+   "id": "W2597",
+   "entry": "die Versammlung, -en",
+   "level": "B1",
+   "gloss": "meeting, assembly"
+  },
+  {
+   "id": "W2608",
+   "entry": "verständlich",
+   "level": "B1",
+   "gloss": "clearly, easy to understand"
+  },
+  {
+   "id": "W2683",
+   "entry": "die Wahl, -en",
+   "level": "B1",
+   "gloss": "election"
+  },
+  {
+   "id": "W2768",
+   "entry": "die Wirtschaft",
+   "level": "B1",
+   "gloss": "economy"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2732",
+   "entry": "die Werbung, -en",
+   "level": "B1",
+   "gloss": "advertising, commercials"
+  },
+  {
+   "id": "W0173",
+   "entry": "aufregen, regt auf, regte auf, hat aufgeregt",
+   "level": "B1",
+   "gloss": "to get worked up (sich aufregen)"
+  },
+  {
+   "id": "G321",
+   "entry": "tagsüber",
+   "level": "B1",
+   "gloss": "during the day"
+  },
+  {
+   "id": "W0897",
+   "entry": "führen, führt, führte, hat geführt",
+   "level": "B1",
+   "gloss": "to lead, to show around"
+  },
+  {
+   "id": "W2455",
+   "entry": "übrig",
+   "level": "B1",
+   "gloss": "left (over)"
+  },
+  {
+   "id": "W1025",
+   "entry": "gleich",
+   "level": "A1",
+   "gloss": "right away, in a minute; same, equal; right (next to)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X002",
+   "word": "ermitteln",
+   "gloss": "to find out, determine; (police) to investigate",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X004",
+   "word": "das Ehrenamt, -ämter",
+   "gloss": "a volunteer role (unpaid)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X005",
+   "word": "ehrenamtlich",
+   "gloss": "as a volunteer, unpaid",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X015",
+   "word": "verzeichnen, verzeichnet, verzeichnete, hat verzeichnet",
+   "gloss": "to record, register (numbers)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X025",
+   "word": "der Anstieg",
+   "gloss": "the increase, rise",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R022",
+   "word": "die Pension, -en",
+   "gloss": "pension",
+   "kind": "austrian",
+   "de": "die Rente"
+  },
+  {
+   "id": "R023",
+   "word": "der Pensionist, -en / die Pensionistin, -nen",
+   "gloss": "retiree",
+   "kind": "austrian",
+   "de": "der Rentner"
+  }
+ ],
+ "story_opening": "Mateo García möchte Deutscher werden. Dafür braucht er das B1-Zertifikat und den Einbürgerungstest. Im Test gibt es viele Fragen zur Politik. Anfangs hatte Mateo Angst davor, weil die deutschen Wörter so lang sind. Inzwischen macht ihm das Thema sogar Spaß. Seine Lehrerin an der Volkshochschule, Frau Neumann, erklärt nämlich alles sehr verständlich.\n\n„Heute geht es um unseren Staat“, sagt sie am Dienstagabend. „Unser Land heißt offiziell Bundesrepublik Deutschland. Es hat 16 Bundesländer, zum Beispiel Sachsen oder Bayern. Welche Stadt ist die Hauptstadt von Sachsen?“\n\n„Leipzig!“, ruft Nikos, ein Grieche aus Thessaloniki.\n\n„Leider falsch, es ist Dresden. Leipzig hat zwar mehr Einwohner, aber "
+}

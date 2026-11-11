@@ -1,0 +1,1578 @@
+{
+ "Prinz": {
+  "d": "der Prinz, -en",
+  "g": "prince",
+  "k": "word"
+ },
+ "Prinzip": {
+  "d": "das Prinzip, Prinzipien",
+  "g": "principle",
+  "k": "word"
+ },
+ "professionelle": {
+  "d": "professionell",
+  "g": "professional",
+  "k": "word"
+ },
+ "Prosit": {
+  "d": "Prosit Neujahr",
+  "g": "Happy New Year! (a toast)",
+  "k": "interj"
+ },
+ "Protokoll": {
+  "d": "das Protokoll, -e",
+  "g": "minutes (of a meeting)",
+  "k": "word"
+ },
+ "Prüfer": {
+  "d": "der Prüfer, -",
+  "g": "examiner",
+  "k": "word"
+ },
+ "Prüferin": {
+  "d": "die Prüferin, -nen",
+  "g": "examiner (female)",
+  "k": "word"
+ },
+ "Prüfern": {
+  "d": "der Prüfer, -",
+  "g": "examiner",
+  "k": "word"
+ },
+ "Psychologin": {
+  "d": "die Psychologin, -nen",
+  "g": "psychologist (female)",
+  "k": "word"
+ },
+ "Puh": {
+  "d": "puh",
+  "g": "phew",
+  "k": "interj"
+ },
+ "Raddampfer": {
+  "d": "der Raddampfer, -",
+  "g": "paddle steamer",
+  "k": "word"
+ },
+ "Rauch": {
+  "d": "der Rauch",
+  "g": "smoke",
+  "k": "word"
+ },
+ "rauchfrei": {
+  "d": "rauchfrei",
+  "g": "smoke-free",
+  "k": "word"
+ },
+ "Rechtsabbiegen": {
+  "d": "das Rechtsabbiegen",
+  "g": "turning right",
+  "k": "word"
+ },
+ "Rechtschreibung": {
+  "d": "die Rechtschreibung",
+  "g": "spelling",
+  "k": "word"
+ },
+ "Reduzierte": {
+  "d": "reduzieren",
+  "g": "reduced (in price)",
+  "k": "word"
+ },
+ "reduzierter": {
+  "d": "reduzieren",
+  "g": "reduced (in price)",
+  "k": "word"
+ },
+ "Reisenden": {
+  "d": "der/die Reisende, -n",
+  "g": "traveler, passenger",
+  "k": "word"
+ },
+ "reklamieren": {
+  "d": "reklamieren",
+  "g": "to complain (about a product)",
+  "k": "word"
+ },
+ "religiöses": {
+  "d": "religiös",
+  "g": "religious",
+  "k": "word"
+ },
+ "Reparieren": {
+  "d": "reparieren",
+  "g": "to repair, to fix",
+  "k": "word"
+ },
+ "Revolution": {
+  "d": "die Revolution, -en",
+  "g": "revolution",
+  "k": "word"
+ },
+ "Richtige": {
+  "d": "das Richtige",
+  "g": "the right thing",
+  "k": "word"
+ },
+ "riskiert": {
+  "d": "riskieren",
+  "g": "to risk",
+  "k": "word"
+ },
+ "rollen": {
+  "d": "rollen",
+  "g": "to roll",
+  "k": "word"
+ },
+ "rollt": {
+  "d": "zusammenrollen",
+  "g": "to roll up",
+  "k": "word"
+ },
+ "Ronjas": {
+  "d": "Ronja",
+  "g": "a woman's first name",
+  "k": "name"
+ },
+ "Rotkohl": {
+  "d": "der Rotkohl",
+  "g": "red cabbage",
+  "k": "word"
+ },
+ "Router": {
+  "d": "der Router, -",
+  "g": "(internet) router",
+  "k": "word"
+ },
+ "Routers": {
+  "d": "der Router, -",
+  "g": "(internet) router",
+  "k": "word"
+ },
+ "Ruf": {
+  "d": "anrufen / zurückrufen",
+  "g": "to call; to call back",
+  "k": "word"
+ },
+ "räumen": {
+  "d": "wegräumen",
+  "g": "to clear away",
+  "k": "word"
+ },
+ "räumt": {
+  "d": "räumen",
+  "g": "to clear (snow)",
+  "k": "word"
+ },
+ "Sammler": {
+  "d": "der Sammler, -",
+  "g": "collector",
+  "k": "word"
+ },
+ "Sauna": {
+  "d": "die Sauna, -s/Saunen",
+  "g": "sauna",
+  "k": "word"
+ },
+ "Saxofon": {
+  "d": "das Saxofon, -e",
+  "g": "saxophone",
+  "k": "word"
+ },
+ "Schatz": {
+  "d": "der Schatz, ¨-e",
+  "g": "darling, sweetheart",
+  "k": "word"
+ },
+ "Schaufeln": {
+  "d": "die Schaufel, -n",
+  "g": "shovel",
+  "k": "word"
+ },
+ "Schicht": {
+  "d": "die Schicht, -en",
+  "g": "shift (at work)",
+  "k": "word"
+ },
+ "Schlechtes": {
+  "d": "das Schlechte",
+  "g": "something bad",
+  "k": "word"
+ },
+ "Schlimmeres": {
+  "d": "das Schlimmere",
+  "g": "something worse",
+  "k": "word"
+ },
+ "Schläger": {
+  "d": "der Schläger, -",
+  "g": "racket, (golf) club",
+  "k": "word"
+ },
+ "Schnellste": {
+  "d": "der/die Schnellste",
+  "g": "the fastest one",
+  "k": "word"
+ },
+ "Schock": {
+  "d": "der Schock, -s",
+  "g": "shock",
+  "k": "word"
+ },
+ "Schublade": {
+  "d": "die Schublade, -n",
+  "g": "drawer",
+  "k": "word"
+ },
+ "Schwammerl": {
+  "d": "das Schwammerl, -n",
+  "g": "mushroom (Austrian, southern German)",
+  "k": "word"
+ },
+ "Schwarze": {
+  "d": "ins Schwarze treffen",
+  "g": "to hit the mark",
+  "k": "word"
+ },
+ "Schweres": {
+  "d": "das Schwere",
+  "g": "something heavy",
+  "k": "word"
+ },
+ "schwerfällt": {
+  "d": "schwerfallen",
+  "g": "to be hard (for someone)",
+  "k": "word"
+ },
+ "schämen": {
+  "d": "sich schämen",
+  "g": "to be ashamed",
+  "k": "word"
+ },
+ "Schätzungen": {
+  "d": "die Schätzung, -en",
+  "g": "estimate",
+  "k": "word"
+ },
+ "Schütze": {
+  "d": "Schütze",
+  "g": "name of a farm shop",
+  "k": "name"
+ },
+ "Sechserpack": {
+  "d": "der Sechserpack, -s",
+  "g": "six-pack, pack of six",
+  "k": "word"
+ },
+ "Seele": {
+  "d": "die Seele baumeln lassen",
+  "g": "to relax and unwind",
+  "k": "word"
+ },
+ "Seil": {
+  "d": "das Seil, -e",
+  "g": "rope",
+  "k": "word"
+ },
+ "Seile": {
+  "d": "das Seil, -e",
+  "g": "rope",
+  "k": "word"
+ },
+ "Sekretariat": {
+  "d": "das Sekretariat, -e",
+  "g": "(school) office",
+  "k": "word"
+ },
+ "Semesterferien": {
+  "d": "die Semesterferien (Pl.)",
+  "g": "semester break",
+  "k": "word"
+ },
+ "Semmel": {
+  "d": "die Semmel, -n",
+  "g": "bread roll (Austrian, southern German)",
+  "k": "word"
+ },
+ "Semmeln": {
+  "d": "die Semmel, -n",
+  "g": "bread roll (Austrian, southern German)",
+  "k": "word"
+ },
+ "Seniorinnen": {
+  "d": "die Seniorin, -nen",
+  "g": "senior citizen (female)",
+  "k": "word"
+ },
+ "Server": {
+  "d": "der Server, -",
+  "g": "(computer) server",
+  "k": "word"
+ },
+ "serviert": {
+  "d": "servieren",
+  "g": "to serve (food)",
+  "k": "word"
+ },
+ "Servus": {
+  "d": "Servus",
+  "g": "hello (Austrian, southern German)",
+  "k": "interj"
+ },
+ "Sevilla": {
+  "d": "Sevilla",
+  "g": "a city in Spain",
+  "k": "name"
+ },
+ "Shampoo": {
+  "d": "das Shampoo, -s",
+  "g": "shampoo",
+  "k": "word"
+ },
+ "Shop": {
+  "d": "der Shop, -s",
+  "g": "shop, store",
+  "k": "word"
+ },
+ "Sieb": {
+  "d": "das Sieb, -e",
+  "g": "strainer",
+  "k": "word"
+ },
+ "Silber": {
+  "d": "das Silber",
+  "g": "silver",
+  "k": "word"
+ },
+ "Singles": {
+  "d": "der Single, -s",
+  "g": "single person",
+  "k": "word"
+ },
+ "skeptisch": {
+  "d": "skeptisch",
+  "g": "skeptical",
+  "k": "word"
+ },
+ "Skifahren": {
+  "d": "das Skifahren",
+  "g": "skiing",
+  "k": "word"
+ },
+ "Smartwatches": {
+  "d": "die Smartwatch, -es",
+  "g": "smartwatch",
+  "k": "word"
+ },
+ "solltest": {
+  "d": "sollen",
+  "g": "should (advice)",
+  "k": "word"
+ },
+ "Sommerferien": {
+  "d": "die Sommerferien (Pl.)",
+  "g": "summer vacation",
+  "k": "word"
+ },
+ "sortieren": {
+  "d": "sortieren",
+  "g": "to sort",
+  "k": "word"
+ },
+ "Spanier": {
+  "d": "der Spanier, -",
+  "g": "Spaniard",
+  "k": "word"
+ },
+ "Spanisch": {
+  "d": "das Spanisch",
+  "g": "Spanish (language)",
+  "k": "word"
+ },
+ "spanische": {
+  "d": "spanisch",
+  "g": "Spanish",
+  "k": "word"
+ },
+ "spanischen": {
+  "d": "spanisch",
+  "g": "Spanish",
+  "k": "word"
+ },
+ "Spaziergänger": {
+  "d": "der Spaziergänger, -",
+  "g": "walker, person out walking",
+  "k": "word"
+ },
+ "Speck": {
+  "d": "der Speck",
+  "g": "bacon",
+  "k": "word"
+ },
+ "Spende": {
+  "d": "die Spende, -n",
+  "g": "donation",
+  "k": "word"
+ },
+ "spielerisch": {
+  "d": "spielerisch",
+  "g": "playfully, through play",
+  "k": "word"
+ },
+ "Spinnerei": {
+  "d": "die Spinnerei",
+  "g": "former spinning mill, now arts center",
+  "k": "name"
+ },
+ "spontan": {
+  "d": "spontan",
+  "g": "spontaneously, on the spot",
+  "k": "word"
+ },
+ "Sportmediziner": {
+  "d": "der Sportmediziner, -",
+  "g": "sports doctor",
+  "k": "word"
+ },
+ "Sprachenlernen": {
+  "d": "das Sprachenlernen",
+  "g": "language learning",
+  "k": "word"
+ },
+ "sprachlos": {
+  "d": "sprachlos",
+  "g": "speechless",
+  "k": "word"
+ },
+ "Sprecher": {
+  "d": "der Sprecher, -",
+  "g": "spokesperson",
+  "k": "word"
+ },
+ "Sprecherin": {
+  "d": "die Sprecherin, -nen",
+  "g": "spokeswoman",
+  "k": "word"
+ },
+ "sprich": {
+  "d": "weitersprechen",
+  "g": "to keep talking, to go on",
+  "k": "word"
+ },
+ "Staatsbürgerschaft": {
+  "d": "die Staatsbürgerschaft, -en",
+  "g": "citizenship",
+  "k": "word"
+ },
+ "stabil": {
+  "d": "stabil",
+  "g": "stable",
+  "k": "word"
+ },
+ "Stadtbezirks": {
+  "d": "der Stadtbezirk, -e",
+  "g": "city district",
+  "k": "word"
+ },
+ "Stadtlauf": {
+  "d": "der Stadtlauf, ¨-e",
+  "g": "city run (race)",
+  "k": "word"
+ },
+ "Stall": {
+  "d": "der Stall, ¨-e",
+  "g": "barn, stable",
+  "k": "word"
+ },
+ "Stammkundinnen": {
+  "d": "die Stammkundin, -nen",
+  "g": "regular customer (female)",
+  "k": "word"
+ },
+ "Stand": {
+  "d": "der Stand, ¨-e",
+  "g": "stall, stand (at a market)",
+  "k": "word"
+ },
+ "Staubsauger": {
+  "d": "der Staubsauger, -",
+  "g": "vacuum cleaner",
+  "k": "word"
+ },
+ "Steiermark": {
+  "d": "die Steiermark",
+  "g": "Styria, a state of Austria",
+  "k": "name"
+ },
+ "Stopp": {
+  "d": "stopp",
+  "g": "stop!",
+  "k": "interj"
+ },
+ "Strandputz": {
+  "d": "der Strandputz",
+  "g": "beach cleanup",
+  "k": "word"
+ },
+ "streichen": {
+  "d": "streichen",
+  "g": "to paint",
+  "k": "word"
+ },
+ "Streifen": {
+  "d": "der Streifen, -",
+  "g": "stripe; strip",
+  "k": "word"
+ },
+ "Streitigkeiten": {
+  "d": "die Streitigkeit, -en",
+  "g": "dispute, quarrel",
+  "k": "word"
+ },
+ "strengster": {
+  "d": "streng",
+  "g": "strict",
+  "k": "word"
+ },
+ "stressigste": {
+  "d": "stressig",
+  "g": "stressful",
+  "k": "word"
+ },
+ "Stundenlang": {
+  "d": "stundenlang",
+  "g": "for hours",
+  "k": "word"
+ },
+ "stundenlang": {
+  "d": "stundenlang",
+  "g": "for hours",
+  "k": "word"
+ },
+ "Sturz": {
+  "d": "der Sturz, ¨-e",
+  "g": "fall",
+  "k": "word"
+ },
+ "Ständen": {
+  "d": "der Stand, ¨-e",
+  "g": "stall (at a market)",
+  "k": "word"
+ },
+ "Suche": {
+  "d": "die Suche",
+  "g": "search",
+  "k": "word"
+ },
+ "SV": {
+  "d": "SV = der Sportverein",
+  "g": "sports club (abbreviation)",
+  "k": "abbr"
+ },
+ "Sächsische": {
+  "d": "sächsisch / die Sächsische Schweiz",
+  "g": "Saxon; Saxon Switzerland (mountain area)",
+  "k": "word"
+ },
+ "sächsische": {
+  "d": "sächsisch",
+  "g": "Saxon, from Saxony",
+  "k": "word"
+ },
+ "Sächsischen": {
+  "d": "die Sächsische Schweiz",
+  "g": "Saxon Switzerland, a mountain area",
+  "k": "name"
+ },
+ "sächsischen": {
+  "d": "sächsisch",
+  "g": "Saxon, from Saxony",
+  "k": "word"
+ },
+ "sächsischer": {
+  "d": "sächsisch",
+  "g": "Saxon, from Saxony",
+  "k": "word"
+ },
+ "sächsisches": {
+  "d": "sächsisch",
+  "g": "Saxon, from Saxony",
+  "k": "word"
+ },
+ "tagelang": {
+  "d": "tagelang",
+  "g": "for days",
+  "k": "word"
+ },
+ "Tarif": {
+  "d": "der Tarif, -e",
+  "g": "plan, rate (insurance)",
+  "k": "word"
+ },
+ "Techniker": {
+  "d": "der Techniker, -",
+  "g": "technician",
+  "k": "word"
+ },
+ "Teig": {
+  "d": "der Teig, -e",
+  "g": "dough, batter",
+  "k": "word"
+ },
+ "Tel": {
+  "d": "Tel. = das Telefon",
+  "g": "phone (abbreviation)",
+  "k": "abbr"
+ },
+ "telc": {
+  "d": "telc",
+  "g": "name of a language exam provider",
+  "k": "name"
+ },
+ "Telefonate": {
+  "d": "das Telefonat, -e",
+  "g": "phone call",
+  "k": "word"
+ },
+ "telefonisch": {
+  "d": "telefonisch",
+  "g": "by phone",
+  "k": "word"
+ },
+ "Telenova": {
+  "d": "Telenova",
+  "g": "name of an internet provider",
+  "k": "name"
+ },
+ "Thüringer": {
+  "d": "der Thüringer Wald",
+  "g": "a forested mountain range in Germany",
+  "k": "name"
+ },
+ "Tiersitterin": {
+  "d": "die Tiersitterin, -nen",
+  "g": "pet sitter (female)",
+  "k": "word"
+ },
+ "Tierwohl": {
+  "d": "das Tierwohl",
+  "g": "animal welfare",
+  "k": "word"
+ },
+ "Tischler": {
+  "d": "der Tischler, -",
+  "g": "carpenter, cabinetmaker",
+  "k": "word"
+ },
+ "Toaster": {
+  "d": "der Toaster, -",
+  "g": "toaster",
+  "k": "word"
+ },
+ "Tonne": {
+  "d": "die Tonne, -n",
+  "g": "garbage bin, trash can",
+  "k": "word"
+ },
+ "Tonnen": {
+  "d": "die Tonne, -n",
+  "g": "garbage bin, trash can",
+  "k": "word"
+ },
+ "Tortilla": {
+  "d": "die Tortilla, -s",
+  "g": "Spanish potato omelet",
+  "k": "word"
+ },
+ "Transporter": {
+  "d": "der Transporter, -",
+  "g": "van",
+  "k": "word"
+ },
+ "Trick": {
+  "d": "der Trick, -s",
+  "g": "trick, scam",
+  "k": "word"
+ },
+ "Tricks": {
+  "d": "der Trick, -s",
+  "g": "trick, scam",
+  "k": "word"
+ },
+ "Triester": {
+  "d": "die Triester Straße",
+  "g": "a street in Vienna",
+  "k": "name"
+ },
+ "Trockene": {
+  "d": "ins Trockene",
+  "g": "to a dry place, under cover",
+  "k": "word"
+ },
+ "Trockenen": {
+  "d": "im Trockenen",
+  "g": "in a dry place, under cover",
+  "k": "word"
+ },
+ "Trockenheit": {
+  "d": "die Trockenheit",
+  "g": "drought, dryness",
+  "k": "word"
+ },
+ "Turnier": {
+  "d": "das Turnier, -e",
+  "g": "tournament",
+  "k": "word"
+ },
+ "Tänzer": {
+  "d": "der Tänzer, -",
+  "g": "dancer",
+  "k": "word"
+ },
+ "Tänzerin": {
+  "d": "die Tänzerin, -nen",
+  "g": "dancer (female)",
+  "k": "word"
+ },
+ "umgebaut": {
+  "d": "umbauen",
+  "g": "to convert (a building)",
+  "k": "word"
+ },
+ "umgekippt": {
+  "d": "umkippen",
+  "g": "to tip over, to overturn",
+  "k": "word"
+ },
+ "Umland": {
+  "d": "das Umland",
+  "g": "surrounding area",
+  "k": "word"
+ },
+ "Umschlag": {
+  "d": "der Umschlag, ¨-e",
+  "g": "envelope",
+  "k": "word"
+ },
+ "Umschläge": {
+  "d": "der Umschlag, ¨-e",
+  "g": "envelope",
+  "k": "word"
+ },
+ "unbekannte": {
+  "d": "unbekannt",
+  "g": "unfamiliar, unknown",
+  "k": "word"
+ },
+ "ungeduldige": {
+  "d": "ungeduldig",
+  "g": "impatient",
+  "k": "word"
+ },
+ "ungefährlich": {
+  "d": "ungefährlich",
+  "g": "safe, not dangerous",
+  "k": "word"
+ },
+ "ungeöffnet": {
+  "d": "ungeöffnet",
+  "g": "unopened",
+  "k": "word"
+ },
+ "unglücklich": {
+  "d": "unglücklich",
+  "g": "unhappy",
+  "k": "word"
+ },
+ "Union": {
+  "d": "die Europäische Union",
+  "g": "the European Union",
+  "k": "name"
+ },
+ "unklar": {
+  "d": "unklar",
+  "g": "unclear",
+  "k": "word"
+ },
+ "unkonzentriert": {
+  "d": "unkonzentriert",
+  "g": "unfocused, distracted",
+  "k": "word"
+ },
+ "unnötig": {
+  "d": "unnötig",
+  "g": "unnecessary",
+  "k": "word"
+ },
+ "Unpünktlichkeit": {
+  "d": "die Unpünktlichkeit",
+  "g": "lateness, unpunctuality",
+  "k": "word"
+ },
+ "unruhig": {
+  "d": "unruhig",
+  "g": "bumpy (flight); restless, uneasy",
+  "k": "word"
+ },
+ "unruhiger": {
+  "d": "unruhig",
+  "g": "bumpy, turbulent (flight)",
+  "k": "word"
+ },
+ "Unseren": {
+  "d": "unser",
+  "g": "our",
+  "k": "word"
+ },
+ "unsicher": {
+  "d": "unsicher",
+  "g": "unsure, insecure",
+  "k": "word"
+ },
+ "unsicheren": {
+  "d": "unsicher",
+  "g": "insecure, timid; uncertain",
+  "k": "word"
+ },
+ "unsicherer": {
+  "d": "unsicher",
+  "g": "unsure, uncertain",
+  "k": "word"
+ },
+ "Unterbrechungen": {
+  "d": "die Unterbrechung, -en",
+  "g": "interruption",
+  "k": "word"
+ },
+ "unterschätzt": {
+  "d": "unterschätzen",
+  "g": "to underestimate",
+  "k": "word"
+ },
+ "Unwetter": {
+  "d": "das Unwetter, -",
+  "g": "severe weather, storm",
+  "k": "word"
+ },
+ "unzufrieden": {
+  "d": "unzufrieden",
+  "g": "dissatisfied, unhappy",
+  "k": "word"
+ },
+ "Urlauber": {
+  "d": "der Urlauber, -",
+  "g": "vacationer, tourist",
+  "k": "word"
+ },
+ "Vampir": {
+  "d": "der Vampir, -e",
+  "g": "vampire",
+  "k": "word"
+ },
+ "veranstaltet": {
+  "d": "veranstalten",
+  "g": "to organize, to hold (an event)",
+  "k": "word"
+ },
+ "Verb": {
+  "d": "das Verb, -en",
+  "g": "verb",
+  "k": "word"
+ },
+ "Verbraucherschützern": {
+  "d": "der Verbraucherschützer, -",
+  "g": "consumer advocate",
+  "k": "word"
+ },
+ "Verbraucherzentrale": {
+  "d": "die Verbraucherzentrale, -n",
+  "g": "consumer advice center",
+  "k": "word"
+ },
+ "verderben": {
+  "d": "verderben",
+  "g": "to spoil",
+  "k": "word"
+ },
+ "verdoppelt": {
+  "d": "sich verdoppeln",
+  "g": "to double",
+  "k": "word"
+ },
+ "verfolgen": {
+  "d": "verfolgen",
+  "g": "to track",
+  "k": "word"
+ },
+ "verfolgt": {
+  "d": "verfolgen",
+  "g": "to pursue (a goal)",
+  "k": "word"
+ },
+ "vergangenen": {
+  "d": "vergangen",
+  "g": "last, past",
+  "k": "word"
+ },
+ "vergeben": {
+  "d": "vergeben",
+  "g": "to give out; (already) taken",
+  "k": "word"
+ },
+ "Vergiftungen": {
+  "d": "die Vergiftung, -en",
+  "g": "poisoning",
+  "k": "word"
+ },
+ "Vergleichsportals": {
+  "d": "das Vergleichsportal, -e",
+  "g": "price comparison website",
+  "k": "word"
+ },
+ "verhielt": {
+  "d": "sich verhalten",
+  "g": "to behave",
+  "k": "word"
+ },
+ "Verkehrsforscherin": {
+  "d": "die Verkehrsforscherin, -nen",
+  "g": "transportation researcher (female)",
+  "k": "word"
+ },
+ "Verkäufen": {
+  "d": "der Verkauf, ¨-e",
+  "g": "sale",
+  "k": "word"
+ },
+ "Verletzte": {
+  "d": "der/die Verletzte, -n",
+  "g": "injured person",
+  "k": "word"
+ },
+ "verletzte": {
+  "d": "verletzen",
+  "g": "injured",
+  "k": "word"
+ },
+ "verloren": {
+  "d": "verlieren",
+  "g": "to lose",
+  "k": "word"
+ },
+ "Verlorene": {
+  "d": "verlieren",
+  "g": "lost",
+  "k": "word"
+ },
+ "verlorene": {
+  "d": "verlieren",
+  "g": "lost",
+  "k": "word"
+ },
+ "Verlängerung": {
+  "d": "die Verlängerung, -en",
+  "g": "extension",
+  "k": "word"
+ },
+ "Verpackung": {
+  "d": "die Verpackung, -en",
+  "g": "packaging",
+  "k": "word"
+ },
+ "verschicken": {
+  "d": "verschicken",
+  "g": "to send (out), to ship",
+  "k": "word"
+ },
+ "verschickt": {
+  "d": "verschicken",
+  "g": "to send (out)",
+  "k": "word"
+ },
+ "Version": {
+  "d": "die Version, -en",
+  "g": "version",
+  "k": "word"
+ },
+ "Versionen": {
+  "d": "die Version, -en",
+  "g": "version",
+  "k": "word"
+ },
+ "versorgt": {
+  "d": "versorgen",
+  "g": "to look after, to care for",
+  "k": "word"
+ },
+ "verspätete": {
+  "d": "verspätet",
+  "g": "late",
+  "k": "word"
+ },
+ "Versteck": {
+  "d": "das Versteck, -e",
+  "g": "hiding place",
+  "k": "word"
+ },
+ "versteigert": {
+  "d": "versteigern",
+  "g": "to auction off",
+  "k": "word"
+ },
+ "Verstärkung": {
+  "d": "die Verstärkung, -en",
+  "g": "new staff, reinforcement",
+  "k": "word"
+ },
+ "Versöhnung": {
+  "d": "die Versöhnung, -en",
+  "g": "reconciliation",
+  "k": "word"
+ },
+ "verwandelt": {
+  "d": "verwandeln",
+  "g": "to turn (into), to convert",
+  "k": "word"
+ },
+ "Vetter": {
+  "d": "Vetter",
+  "g": "a person's last name",
+  "k": "name"
+ },
+ "vierhundert": {
+  "d": "vierhundert",
+  "g": "four hundred",
+  "k": "word"
+ },
+ "viermal": {
+  "d": "viermal",
+  "g": "four times",
+  "k": "word"
+ },
+ "Vokabel-App": {
+  "d": "die Vokabel-App, -s",
+  "g": "vocabulary app",
+  "k": "word"
+ },
+ "Volk": {
+  "d": "das Volk, ¨-er",
+  "g": "the people, nation",
+  "k": "word"
+ },
+ "vollständig": {
+  "d": "vollständig",
+  "g": "completely, in full",
+  "k": "word"
+ },
+ "vollständigen": {
+  "d": "vollständig",
+  "g": "complete, full",
+  "k": "word"
+ },
+ "vorankommen": {
+  "d": "vorankommen",
+  "g": "to move along, to make progress",
+  "k": "word"
+ },
+ "vorgegebenen": {
+  "d": "vorgeben",
+  "g": "set, given (in advance)",
+  "k": "word"
+ },
+ "vorgezogen": {
+  "d": "vorziehen",
+  "g": "to move up (earlier)",
+  "k": "word"
+ },
+ "Vorhersage": {
+  "d": "die Vorhersage, -n",
+  "g": "(weather) forecast",
+  "k": "word"
+ },
+ "Vorrat": {
+  "d": "der Vorrat, ¨-e",
+  "g": "supply, stock",
+  "k": "word"
+ },
+ "Vorspeise": {
+  "d": "die Vorspeise, -n",
+  "g": "appetizer, starter",
+  "k": "word"
+ },
+ "Vortag": {
+  "d": "der Vortag, -e",
+  "g": "the day before",
+  "k": "word"
+ },
+ "Wachau": {
+  "d": "die Wachau",
+  "g": "a Danube valley in Austria",
+  "k": "name"
+ },
+ "Waffeln": {
+  "d": "die Waffel, -n",
+  "g": "waffle",
+  "k": "word"
+ },
+ "Waffen": {
+  "d": "die Waffe, -n",
+  "g": "weapon",
+  "k": "word"
+ },
+ "Wandel": {
+  "d": "der Wandel",
+  "g": "change",
+  "k": "word"
+ },
+ "Wanderer": {
+  "d": "der Wanderer, -",
+  "g": "hiker",
+  "k": "word"
+ },
+ "Wange": {
+  "d": "die Wange, -n",
+  "g": "cheek",
+  "k": "word"
+ },
+ "Wangen": {
+  "d": "die Wange, -n",
+  "g": "cheek",
+  "k": "word"
+ },
+ "Warnowtunnel": {
+  "d": "der Warnowtunnel",
+  "g": "a toll tunnel in Rostock",
+  "k": "name"
+ },
+ "Wartenden": {
+  "d": "der/die Wartende, -n",
+  "g": "person waiting (in line)",
+  "k": "word"
+ },
+ "Wartezeiten": {
+  "d": "die Wartezeit, -en",
+  "g": "waiting time, wait",
+  "k": "word"
+ },
+ "wasserdichten": {
+  "d": "wasserdicht",
+  "g": "waterproof",
+  "k": "word"
+ },
+ "Wasserkocher": {
+  "d": "der Wasserkocher, -",
+  "g": "electric kettle",
+  "k": "word"
+ },
+ "Wasserstand": {
+  "d": "der Wasserstand, ¨-e",
+  "g": "water level",
+  "k": "word"
+ },
+ "weggegeben": {
+  "d": "weggeben",
+  "g": "to give away",
+  "k": "word"
+ },
+ "weggeworfen": {
+  "d": "wegwerfen",
+  "g": "to throw away",
+  "k": "word"
+ },
+ "wegwerfen": {
+  "d": "wegwerfen",
+  "g": "to throw away",
+  "k": "word"
+ },
+ "weh": {
+  "d": "wehtun",
+  "g": "to hurt",
+  "k": "word"
+ },
+ "Weile": {
+  "d": "die Weile",
+  "g": "a while",
+  "k": "word"
+ },
+ "Weise": {
+  "d": "die Weise, -n",
+  "g": "way, manner",
+  "k": "word"
+ },
+ "weitergefahren": {
+  "d": "weiterfahren",
+  "g": "to travel on, to continue",
+  "k": "word"
+ },
+ "weiterhin": {
+  "d": "weiterhin",
+  "g": "still, continue to",
+  "k": "word"
+ },
+ "weiterverkauft": {
+  "d": "weiterverkaufen",
+  "g": "to resell",
+  "k": "word"
+ },
+ "Welchen": {
+  "d": "welcher",
+  "g": "which",
+  "k": "word"
+ },
+ "Welle": {
+  "d": "die Welle, -n",
+  "g": "wave (in a club's name)",
+  "k": "word"
+ },
+ "Wellen": {
+  "d": "die Welle, -n",
+  "g": "wave",
+  "k": "word"
+ },
+ "Welpen": {
+  "d": "der Welpe, -n",
+  "g": "puppy",
+  "k": "word"
+ },
+ "Wem": {
+  "d": "wer (Dativ: wem)",
+  "g": "(to) whom",
+  "k": "word"
+ },
+ "wem": {
+  "d": "wer (Dativ: wem)",
+  "g": "(to) whom",
+  "k": "word"
+ },
+ "Wen": {
+  "d": "wer (Akkusativ: wen)",
+  "g": "whom, who",
+  "k": "word"
+ },
+ "wen": {
+  "d": "wer (Akkusativ: wen)",
+  "g": "whom, who",
+  "k": "word"
+ },
+ "Werbeagentur": {
+  "d": "die Werbeagentur, -en",
+  "g": "advertising agency",
+  "k": "word"
+ },
+ "Werft": {
+  "d": "die Werft, -en",
+  "g": "shipyard",
+  "k": "word"
+ },
+ "Werkstatt": {
+  "d": "die Werkstatt, ¨-en",
+  "g": "(car) repair shop, garage",
+  "k": "word"
+ },
+ "Werkstätten": {
+  "d": "die Werkstatt, ¨-en",
+  "g": "(car) repair shop, garage",
+  "k": "word"
+ },
+ "West": {
+  "d": "West = der Westen",
+  "g": "the West, West Germany",
+  "k": "word"
+ },
+ "Wette": {
+  "d": "die Wette, -n",
+  "g": "bet",
+  "k": "word"
+ },
+ "Wichtiges": {
+  "d": "das Wichtige",
+  "g": "something important",
+  "k": "word"
+ },
+ "Wichtigste": {
+  "d": "das Wichtigste",
+  "g": "the most important thing",
+  "k": "word"
+ },
+ "Wien-Favoriten": {
+  "d": "Wien-Favoriten",
+  "g": "a district of Vienna",
+  "k": "name"
+ },
+ "Wiener": {
+  "d": "Wiener (Adj.) / der Wiener, -",
+  "g": "Viennese; person from Vienna",
+  "k": "word"
+ },
+ "Wienerinnen": {
+  "d": "die Wienerin, -nen",
+  "g": "Viennese woman",
+  "k": "word"
+ },
+ "Wienern": {
+  "d": "der Wiener, -",
+  "g": "person from Vienna",
+  "k": "word"
+ },
+ "WLAN": {
+  "d": "das WLAN, -s",
+  "g": "Wi-Fi",
+  "k": "abbr"
+ },
+ "woanders": {
+  "d": "woanders",
+  "g": "somewhere else, elsewhere",
+  "k": "word"
+ },
+ "Wobei": {
+  "d": "wobei",
+  "g": "with what",
+  "k": "word"
+ },
+ "Wochenlang": {
+  "d": "wochenlang",
+  "g": "for weeks",
+  "k": "word"
+ },
+ "wochenlang": {
+  "d": "wochenlang",
+  "g": "for weeks",
+  "k": "word"
+ },
+ "Workshop": {
+  "d": "der Workshop, -s",
+  "g": "workshop (course)",
+  "k": "word"
+ },
+ "Wovor": {
+  "d": "wovor",
+  "g": "about what, of what",
+  "k": "word"
+ },
+ "wussten": {
+  "d": "wissen",
+  "g": "to know",
+  "k": "word"
+ },
+ "www": {
+  "d": "www = World Wide Web",
+  "g": "start of a web address",
+  "k": "abbr"
+ },
+ "Wärmepumpen": {
+  "d": "die Wärmepumpe, -n",
+  "g": "heat pump",
+  "k": "word"
+ },
+ "wärmer": {
+  "d": "warm",
+  "g": "warm",
+  "k": "word"
+ },
+ "wärmeren": {
+  "d": "warm",
+  "g": "warm",
+  "k": "word"
+ },
+ "Zahnpasta": {
+  "d": "die Zahnpasta, Zahnpasten",
+  "g": "toothpaste",
+  "k": "word"
+ },
+ "Zahnplus": {
+  "d": "Zahnplus",
+  "g": "name of a dental insurer",
+  "k": "name"
+ },
+ "Zaun": {
+  "d": "der Zaun, ¨-e",
+  "g": "fence",
+  "k": "word"
+ },
+ "zehnjährigen": {
+  "d": "zehnjährig",
+  "g": "ten years old",
+  "k": "word"
+ },
+ "Ziegen": {
+  "d": "die Ziege, -n",
+  "g": "goat",
+  "k": "word"
+ },
+ "zittert": {
+  "d": "zittern",
+  "g": "to shake, to tremble",
+  "k": "word"
+ },
+ "zudrücken": {
+  "d": "ein Auge zudrücken",
+  "g": "to turn a blind eye",
+  "k": "word"
+ },
+ "zueinander": {
+  "d": "zueinander",
+  "g": "to each other",
+  "k": "word"
+ },
+ "Zugezogene": {
+  "d": "der/die Zugezogene, -n",
+  "g": "newcomer, person who moved here",
+  "k": "word"
+ },
+ "Zugezogenen": {
+  "d": "der/die Zugezogene, -n",
+  "g": "newcomer, person who moved here",
+  "k": "word"
+ },
+ "zurückbekommt": {
+  "d": "zurückbekommen",
+  "g": "to get back",
+  "k": "word"
+ },
+ "zurückbringen": {
+  "d": "zurückbringen",
+  "g": "to bring back, to return",
+  "k": "word"
+ },
+ "zurückfahren": {
+  "d": "zurückfahren",
+  "g": "to go back, to return",
+  "k": "word"
+ },
+ "zurückgeben": {
+  "d": "zurückgeben",
+  "g": "to give back, to return",
+  "k": "word"
+ },
+ "zurückgenommen": {
+  "d": "zurücknehmen",
+  "g": "to take back",
+  "k": "word"
+ },
+ "zurückgeschickt": {
+  "d": "zurückschicken",
+  "g": "to send back, to return",
+  "k": "word"
+ },
+ "zurücknehmen": {
+  "d": "zurücknehmen",
+  "g": "to take back",
+  "k": "word"
+ },
+ "zurückschicken": {
+  "d": "zurückschicken",
+  "g": "to send back",
+  "k": "word"
+ },
+ "zurückzahlen": {
+  "d": "zurückzahlen",
+  "g": "to pay back",
+  "k": "word"
+ },
+ "Zusage": {
+  "d": "die Zusage, -n",
+  "g": "positive answer, acceptance",
+  "k": "word"
+ },
+ "zusammen": {
+  "d": "zusammen",
+  "g": "together",
+  "k": "word"
+ },
+ "zusammengefasst": {
+  "d": "zusammenfassen",
+  "g": "to summarize",
+  "k": "word"
+ },
+ "zusammengestoßen": {
+  "d": "zusammenstoßen",
+  "g": "to collide, to crash",
+  "k": "word"
+ },
+ "zusammenleben": {
+  "d": "zusammenleben",
+  "g": "to live together",
+  "k": "word"
+ },
+ "zustellteam-leipzig": {
+  "d": "zustellteam-leipzig.de",
+  "g": "email domain of a delivery company",
+  "k": "name"
+ },
+ "zuvor": {
+  "d": "zuvor",
+  "g": "before",
+  "k": "word"
+ },
+ "zuzuhören": {
+  "d": "zuhören",
+  "g": "to listen",
+  "k": "word"
+ },
+ "zwei": {
+  "d": "zwei- = zweimal",
+  "g": "two times, twice",
+  "k": "word"
+ },
+ "zweihundert": {
+  "d": "zweihundert",
+  "g": "two hundred",
+  "k": "word"
+ },
+ "zweit": {
+  "d": "zu zweit",
+  "g": "in pairs, as a pair",
+  "k": "word",
+  "base": "zwei"
+ },
+ "zwölfjähriger": {
+  "d": "zwölfjährig",
+  "g": "twelve years old",
+  "k": "word"
+ },
+ "zündet": {
+  "d": "anzünden",
+  "g": "to light",
+  "k": "word"
+ },
+ "Älteren": {
+  "d": "der/die Ältere, -n",
+  "g": "older person, older ones",
+  "k": "word"
+ },
+ "ärztlich": {
+  "d": "ärztlich",
+  "g": "medical, by a doctor",
+  "k": "word"
+ },
+ "Äste": {
+  "d": "der Ast, ¨-e",
+  "g": "branch",
+  "k": "word"
+ },
+ "örtlichen": {
+  "d": "örtlich",
+  "g": "local",
+  "k": "word"
+ },
+ "übereinander": {
+  "d": "übereinander",
+  "g": "about each other",
+  "k": "word"
+ },
+ "Überrascht": {
+  "d": "überraschen",
+  "g": "surprised",
+  "k": "word"
+ },
+ "übersehen": {
+  "d": "übersehen",
+  "g": "to miss, to overlook",
+  "k": "word"
+ },
+ "übersetzte": {
+  "d": "übersetzen",
+  "g": "translated",
+  "k": "word"
+ }
+}

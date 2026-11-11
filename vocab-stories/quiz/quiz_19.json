@@ -1,0 +1,76 @@
+{
+ "story": "19",
+ "questions": [
+  {
+   "q": "Warum ist Aylin mit dem Angebot der Pension zufrieden?",
+   "right": "Frühstück und Abendessen kosten dort nichts extra.",
+   "wrong": [
+    "Eine Nacht kostet dort nur 30 Euro pro Person.",
+    "Die Pension liegt mitten in der Fußgängerzone im Zentrum."
+   ],
+   "evidence": "Für zwei Nächte mit Halbpension zahlt man pauschal 189 Euro pro Person. In diesem Preis ist alles dabei: das Zimmer, das Frühstück und das Abendessen. „Wir werden also zweimal am Tag verpflegt“, sagt Aylin zufrieden.",
+   "why": "The flat price („pauschal“) already covers the room, breakfast and dinner, so they are fed („verpflegt“) twice a day. The 30 euros is the youth hostel, and the Pension is on a quiet street by the beach.",
+   "words": [
+    "W1771",
+    "W2592"
+   ]
+  },
+  {
+   "q": "Wie geht es nach der Panne weiter?",
+   "right": "Mit einem neuen Reifen vom Mechaniker fahren sie weiter.",
+   "wrong": [
+    "Sie wechseln das Rad selbst und nehmen das Ersatzrad.",
+    "Sie lassen das Auto stehen und fahren mit dem Zug weiter."
+   ],
+   "evidence": "Er hat einen neuen Reifen dabei, und nach einer halben Stunde können die beiden ihre Fahrt fortsetzen.",
+   "why": "„Fortsetzen“ means to continue: the mechanic brings a new tire, and after half an hour they drive on. They cannot change the wheel themselves because the spare has almost no air.",
+   "words": [
+    "W0858",
+    "W1536",
+    "W1868"
+   ]
+  },
+  {
+   "q": "Wie löst Frau Petersen das Problem mit der Reservierung?",
+   "right": "Sie gibt ihnen ein Zimmer mit Meerblick zum gleichen Preis.",
+   "wrong": [
+    "Sie gibt ihnen doch noch das gebuchte Doppelzimmer.",
+    "Sie gibt ihnen ein Zimmer mit Meerblick, aber für 40 Euro mehr."
+   ],
+   "evidence": "Das Doppelzimmer ist leider nicht mehr frei. Aber ich habe noch ein schönes Zimmer mit Blick aufs Meer. Das bekommen Sie natürlich ohne Zuschlag.",
+   "why": "„Ohne Zuschlag“ means without the extra charge, so the sea-view room costs the same as the room they booked. The booked double room is no longer free.",
+   "words": [
+    "W2878",
+    "W1940"
+   ]
+  },
+  {
+   "q": "Was passiert während der Rundfahrt durch den Hafen?",
+   "right": "Für ein paar Minuten fallen kleine Eisstücke vom Himmel.",
+   "wrong": [
+    "Ein Sturm kommt, und das Schiff muss sofort zurückfahren.",
+    "Es regnet so stark, dass die Fahrt abgebrochen wird."
+   ],
+   "evidence": "Plötzlich wird der Himmel dunkel, und es hagelt: Kleine Stücke aus Eis fallen auf das Schiff und springen über das Deck.",
+   "why": "It hails (hagelt): small pieces of ice fall on the ship, the passengers go below, and after five minutes the sun is back. The trip is not cancelled.",
+   "words": [
+    "W1766"
+   ]
+  },
+  {
+   "q": "Was passiert auf der Rückfahrt nach Leipzig?",
+   "right": "Lena sitzt die ganze Zeit am Steuer, und alles klappt.",
+   "wrong": [
+    "Sie stehen lange im Stau und kommen erst spät nach Hause.",
+    "Aylin fährt, weil Lena das Schalten zu schwer findet."
+   ],
+   "evidence": "Diesmal gibt es keine Panne und keinen Stau. Lena fährt die ganze Strecke bis Leipzig, und das Schalten ist kein Problem mehr.",
+   "why": "„Die ganze Strecke“ means the whole way: Lena drives all the way and changing gears is easy now. There is no traffic jam („Stau“) this time.",
+   "words": [
+    "W2269",
+    "W2224",
+    "W2001"
+   ]
+  }
+ ]
+}

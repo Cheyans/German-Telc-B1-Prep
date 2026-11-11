@@ -1,0 +1,151 @@
+{
+ "set": "06",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Wer kommt laut Artikel am Montagvormittag in die Geschäfte?",
+     "right": "Vor allem Leute, die etwas zurückbringen wollen.",
+     "wrong": [
+      "Vor allem Kunden, die sich in Ruhe beraten lassen wollen.",
+      "Vor allem Leute, die neue Angebote ansehen wollen."
+     ],
+     "evidence": "Am Montagvormittag ist es in denselben Läden dagegen fast still. Wer dann kommt, will meistens nichts Neues kaufen, sondern einen Einkauf vom Wochenende umtauschen.",
+     "why": "umtauschen means to exchange a purchase: on quiet Monday mornings most people come to bring back something from the weekend. nichts Neues kaufen rules out getting advice or looking at new offers.",
+     "trap": "paraphrase",
+     "words": [
+      "W2471",
+      "W0611",
+      "W2247"
+     ]
+    },
+    {
+     "q": "Was steht im Artikel über den Umtausch von Ware ohne Fehler?",
+     "right": "Ein Geschäft muss sie nicht zurücknehmen.",
+     "wrong": [
+      "Nach dem Gesetz hat man 14 Tage Zeit für den Umtausch.",
+      "Sonderangebote kann man genauso zurückgeben wie andere Ware."
+     ],
+     "evidence": "„Ein gesetzliches Recht auf Umtausch gibt es nicht, wenn mit der Ware alles in Ordnung ist“, erklärt Heike Dörfler von der Verbraucherzentrale Sachsen. Reduzierte Ware und Sonderangebote werden dagegen oft gar nicht zurückgenommen.",
+     "why": "There is no legal right to exchange goods that are fine, so a shop doesn't have to take them back, and the 14 days are only a voluntary rule (freiwillig). dagegen shows that sale items are often not taken back at all.",
+     "trap": "flip",
+     "words": [
+      "W2472",
+      "W2471",
+      "W2156"
+     ]
+    },
+    {
+     "q": "Was gilt laut Artikel, wenn eine gekaufte Ware einen Fehler hat?",
+     "right": "Auch bei reduzierter Ware hat der Kunde Rechte.",
+     "wrong": [
+      "Der Kunde bekommt zuerst sein Geld zurück.",
+      "Bei reduzierter Ware ist das Geschäft für Fehler nicht verantwortlich."
+     ],
+     "evidence": "Das gilt sowohl für normale als auch für reduzierte Ware. Der Kunde kann zuerst eine Reparatur oder dasselbe Modell ohne Fehler verlangen. Erst wenn das nicht klappt, bekommt er sein Geld zurück.",
+     "why": "sowohl … als auch means both, so the shop is also responsible for defects in reduced goods, even though it often refuses reduced goods that are fine. zuerst comes a repair or the same model, and the money only if that fails (erst wenn … nicht klappt).",
+     "trap": "when",
+     "words": [
+      "W2168",
+      "W1293",
+      "W0504"
+     ]
+    },
+    {
+     "q": "Welchen Vorteil von Bargeld nennt der Artikel?",
+     "right": "Man kann auch bei einer Störung der Kasse zahlen.",
+     "wrong": [
+      "Beim Bezahlen bleiben die eigenen Daten privat.",
+      "Man gibt damit im Monat meistens weniger Geld aus."
+     ],
+     "evidence": "Laut der Umfrage bevorzugen 61 Prozent der über 65-Jährigen Bargeld, bei den unter 30-Jährigen sind es nur 18 Prozent. Der Vorteil liegt auf der Hand: Wenn das System an der Kasse ausfällt, kann man trotzdem bezahlen.",
+     "why": "ausfallen means to stop working: if the card system at the register fails, you can still pay with cash. Privacy and spending less are common arguments for cash, but the article doesn't make them.",
+     "trap": "paraphrase",
+     "words": [
+      "W0256",
+      "W2304"
+     ]
+    },
+    {
+     "q": "Warum sind Stammkundinnen für Silke Wendel so wichtig?",
+     "right": "Ohne diese Kundinnen wäre der Laden nicht zu bezahlen.",
+     "wrong": [
+      "Sie empfehlen den Laden ihren Freundinnen weiter.",
+      "Sie kaufen vor allem teure Kleider und Schmuck."
+     ],
+     "evidence": "Ohne ihre Stammkundinnen könnte sie sich den Laden in der Innenstadt gar nicht leisten, erzählt sie.",
+     "why": "sich etwas leisten means to afford it: without her regular customers she couldn't afford the shop in the city center. Recommendations and expensive purchases are sensible guesses, but the text doesn't say them.",
+     "trap": "paraphrase",
+     "words": [
+      "W1460",
+      "W0915"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "rf",
+   "items": [
+    {
+     "s": "Ein Mann ist Aylin Demir in der Schlange auf den Fuß getreten.",
+     "answer": false,
+     "evidence": "Neulich standen mindestens zehn Leute vor uns, und ein Mann ist meiner Freundin dabei auf den Fuß getreten.",
+     "why": "The man stepped on her friend's foot (meiner Freundin), not on Aylin's. The words match, but the person is wrong.",
+     "trap": "who",
+     "words": [
+      "W2409",
+      "W2028"
+     ]
+    },
+    {
+     "s": "Dieter Rößler hat eine eigene Methode, um sein Geld einzuteilen.",
+     "answer": true,
+     "evidence": "Dafür habe ich mir ein einfaches System entwickelt: Am Monatsanfang hole ich das Geld für vier Wochen von der Bank und teile es in Umschläge auf.",
+     "why": "System here means a method, and entwickeln means to develop: he splits the cash for the month into envelopes.",
+     "trap": "paraphrase",
+     "words": [
+      "W2304",
+      "W0679"
+     ]
+    },
+    {
+     "s": "Elisabeth Wallner bringt ihrer Nachbarin Brötchen vom Bäcker mit.",
+     "answer": true,
+     "evidence": "Zuerst hole ich beim Bäcker frische Semmeln, und meiner Nachbarin, die nicht mehr gut gehen kann, besorge ich auch gleich zwei.",
+     "why": "Semmel is the Austrian word for Brötchen, and besorgen means to get something for someone.",
+     "trap": "paraphrase",
+     "words": [
+      "R027",
+      "W0350"
+     ]
+    },
+    {
+     "s": "Elisabeth Wallner nimmt immer etwas Bargeld mit auf den Markt.",
+     "answer": true,
+     "evidence": "Bezahlen kann man inzwischen fast überall mit der Bankomatkarte. Trotzdem habe ich am Markt immer etwas Bargeld dabei, weil ein paar Bauern nur Scheine und Münzen nehmen.",
+     "why": "Cards work almost everywhere, but trotzdem turns it around: she always carries some cash, because a few farmers take only bills and coins.",
+     "trap": "flip",
+     "words": [
+      "W0256",
+      "R002",
+      "W1618"
+     ]
+    },
+    {
+     "s": "Gernot Hofer kauft seine Kartoffeln im Supermarkt.",
+     "answer": false,
+     "evidence": "Fleisch hole ich beim Fleischhauer in unserer Gasse, und die Erdäpfel bekomme ich direkt von einem Bauern aus der Steiermark.",
+     "why": "Erdäpfel is the Austrian word for potatoes. He gets them directly from a farmer in Styria, not from a supermarket.",
+     "trap": "none",
+     "words": [
+      "R006",
+      "R009"
+     ]
+    }
+   ]
+  }
+ ]
+}

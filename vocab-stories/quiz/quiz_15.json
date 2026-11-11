@@ -1,0 +1,74 @@
+{
+ "story": "15",
+ "questions": [
+  {
+   "q": "Was steht in der neuen Hausordnung?",
+   "right": "Im Hausflur darf man keine Schuhe abstellen.",
+   "wrong": [
+    "Die Mieter putzen jeden Samstag zusammen das Treppenhaus.",
+    "Man darf eine Wohnung an Touristen vermieten."
+   ],
+   "evidence": "Fahrräder, Kinderwagen, Schuhe etc. dürfen nicht im Flur stehen, denn bei einem Feuer sind sie eine Gefahr.",
+   "why": "Der Flur is the hallway: bikes, strollers and shoes must not stand there because of the fire risk. Only one tenant cleans each week, and renting to tourists is forbidden.",
+   "words": [
+    "W0843",
+    "W1570",
+    "W2584"
+   ]
+  },
+  {
+   "q": "Was erklärt Ben, als Lena und Aylin an seiner Tür stehen?",
+   "right": "Er hat beim Feiern nicht gemerkt, wie spät es ist.",
+   "wrong": [
+    "Er feiert heute eine Party für seinen neuen Job.",
+    "Am Wochenende darf man im Haus bis zwei Uhr laut sein."
+   ],
+   "evidence": "Ich habe die Zeit völlig vergessen. Ich feiere nämlich meinen Geburtstag.",
+   "why": "Völlig means completely: Ben completely forgot the time at his birthday party. The house rules set quiet hours from 10 p.m. to 6 a.m.",
+   "words": [
+    "W2643"
+   ]
+  },
+  {
+   "q": "Was erfährt Frau Krüger von Ben über die Wohnung?",
+   "right": "Er wohnt dort mit Erlaubnis, solange Herr Lindner weg ist.",
+   "wrong": [
+    "Er vermietet sie am Wochenende ohne Erlaubnis an Touristen.",
+    "Er hat sie im Juli von Herrn Lindner gekauft."
+   ],
+   "evidence": "Ich wohne hier als Untermieter: Ich miete die Wohnung von Herrn Lindner, solange er in Kanada ist. Der Vermieter hat es erlaubt.",
+   "why": "Ein Untermieter rents from the main tenant: Ben rents Herr Lindner's apartment while he is in Canada, and the landlord agreed. He did not buy it and does not rent it to tourists.",
+   "words": [
+    "W2493"
+   ]
+  },
+  {
+   "q": "Was sagt der Handwerker über den Fleck an Bens Decke?",
+   "right": "In einigen Wochen ist die Decke wieder wie neu.",
+   "wrong": [
+    "Er kann die Decke heute noch neu streichen.",
+    "So ein Schaden passiert nur sehr selten."
+   ],
+   "evidence": "Das passiert öfter, als Sie denken. Die Decke muss jetzt ein paar Wochen trocknen. Dann streiche ich sie neu, und man sieht nichts mehr.",
+   "why": "Trocknen means to dry: the ceiling must dry for a few weeks, then he paints it and nothing will show. He also says this happens more often than people think.",
+   "words": [
+    "W2414",
+    "W1998"
+   ]
+  },
+  {
+   "q": "Was erzählt Aylin, als alle über die Hausordnung sprechen?",
+   "right": "Wegen der netten Nachbarn will sie nun doch nicht umziehen.",
+   "wrong": [
+    "Sie zieht bald in einen Vorort, weil es dort ruhiger ist.",
+    "Sie findet, dass Kopfhörer keine gute Erfindung sind."
+   ],
+   "evidence": "Sie erzählt, dass sie nach der Party fast in einen Vorort ziehen wollte, weil es dort ruhiger ist. „Aber jetzt bleibe ich lieber hier. So nette Nachbarn finde ich nirgends.“",
+   "why": "Ein Vorort is a suburb: Aylin almost moved there after the party, but the nice neighbors made her stay. She calls headphones a great invention.",
+   "words": [
+    "W2664",
+    "W0689"
+   ]
+  }
+ ]
+}

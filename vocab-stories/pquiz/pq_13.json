@@ -1,0 +1,158 @@
+{
+ "set": "13",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was zeigt die Umfrage unter Leipziger Wirten?",
+     "right": "Vor allem Personal für den Service ist schwer zu finden.",
+     "wrong": [
+      "Vor allem Personal für die Küche ist schwer zu finden.",
+      "Fast jeder zweite Betrieb hatte im letzten Jahr weniger Gäste."
+     ],
+     "evidence": "Laut einer Umfrage unter 250 Leipziger Wirten konnten im vergangenen Jahr in fast jedem zweiten Betrieb nicht alle Stellen besetzt werden. Besonders groß ist der Mangel im Bereich Service.",
+     "why": "The survey says the gap is biggest in service (im Bereich Service), not in the kitchen. Almost every second business had jobs it could not fill, and the article describes full tables, not fewer guests.",
+     "trap": "same-word",
+     "words": [
+      "W2767",
+      "W0323"
+     ]
+    },
+    {
+     "q": "Was erfährt man über Gisela Lindemann?",
+     "right": "Sie ist nicht nur die Chefin, sondern kocht auch selbst.",
+     "wrong": [
+      "In ihrer Gaststätte wird inzwischen an vier Tagen pro Woche gekocht.",
+      "Sie hat die Gaststätte vor drei Jahren übernommen."
+     ],
+     "evidence": "Seit über dreißig Jahren gehört ihr eine traditionelle Gaststätte in der Nähe des Marktes, in der sie sowohl Wirtin als auch Köchin ist.",
+     "why": "She is both the owner (Wirtin) and the cook (Köchin), and the place has been hers for over thirty years, not three. Cooking on only four days a week is what other restaurants do (Andere Lokale), not hers.",
+     "trap": "who",
+     "words": [
+      "W1323",
+      "W2767",
+      "W0923"
+     ]
+    },
+    {
+     "q": "Was hat Lindemann für ihr Team geändert?",
+     "right": "Jetzt muss niemand im Team mehr sechs Tage ohne Pause arbeiten.",
+     "wrong": [
+      "Sie zahlt ihrem Team seit dem Sommer höhere Löhne.",
+      "Neue Mitarbeiter bedienen am Anfang nur wenige Tische."
+     ],
+     "evidence": "„Ich würde gern höhere Löhne zahlen, aber dann müsste ich auch die Preise erhöhen“, sagt die Wirtin. Stattdessen hat bei ihr seit dem Sommer jeder im Team zwei freie Abende pro Woche, damit niemand mehr sechs Tage hintereinander arbeiten muss.",
+     "why": "Since the summer everyone gets two evenings off a week, so that nobody has to work six days in a row. Higher wages are only her wish (würde gern), and Moritz had to serve more than twenty tables alone on his first day.",
+     "trap": "when",
+     "words": [
+      "W0481",
+      "W2767"
+     ]
+    },
+    {
+     "q": "Warum verwendet Lindemann fast nur regionale Produkte?",
+     "right": "Vielen Gästen ist die Herkunft ihres Essens wichtig.",
+     "wrong": [
+      "Regionale Produkte sind frischer und schmecken besser.",
+      "Sie möchte die Bauern aus der Umgebung unterstützen."
+     ],
+     "evidence": "Außerdem möchten viele Gäste wissen, woher ihr Essen kommt. In ihrer Küche werden deshalb fast nur regionale Produkte verwendet: Fleisch, Kartoffeln und Gemüse liefern Bauern aus der Umgebung. So kann sie die Wünsche der meisten Gäste erfüllen.",
+     "why": "The reason comes right before deshalb: many guests want to know where their food comes from. The article never says the products are fresher or tastier, or that she wants to help the farmers.",
+     "trap": "paraphrase",
+     "words": [
+      "W1913",
+      "W0694"
+     ]
+    },
+    {
+     "q": "Was erzählt Lindemann über ihre Gäste und das Trinken?",
+     "right": "Viele sagen auch Prost, wenn sie nur Wasser trinken.",
+     "wrong": [
+      "Betrunkene Gäste erlebt sie heute häufiger als früher.",
+      "Zwei Drittel ihrer Gäste bestellen weniger Alkohol als früher."
+     ],
+     "evidence": "„Auch mit Wasser sagen die Leute gern Prost“, erzählt Lindemann und lacht.",
+     "why": "Lindemann laughs that people like to say Prost even with water. She sees drunk guests (Betrunkene) only rarely now. The two thirds come from the survey of businesses and are about younger guests, not about her own guests.",
+     "trap": "who",
+     "words": [
+      "W1849",
+      "W0046"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Salziges Eis: Gäste sind enttäuscht"
+    },
+    {
+     "id": "b",
+     "text": "Brand in der Küche: Lokal will bald wieder öffnen"
+    },
+    {
+     "id": "c",
+     "text": "Wien: Kaffeehäuser bleiben am Wochenende zu"
+    },
+    {
+     "id": "d",
+     "text": "Fleisch richtig grillen, auch bei Kälte"
+    },
+    {
+     "id": "e",
+     "text": "Pilzsaison: Ein Gasthaus kocht Herbstgerichte"
+    },
+    {
+     "id": "f",
+     "text": "Eis gibt es jetzt auch im Winter"
+    },
+    {
+     "id": "g",
+     "text": "Kochschule sucht Grillmeister für den Winter"
+    },
+    {
+     "id": "h",
+     "text": "Lange Schlangen beim Frühstück im Kaffeehaus"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "b",
+     "evidence": "Sobald die Reparaturen erledigt sind, soll das Lokal Anfang Dezember wieder öffnen.",
+     "why": "A fire damaged the kitchen. The owner is insured, and the restaurant plans to reopen in early December once the repairs are done."
+    },
+    {
+     "id": "2",
+     "answer": "d",
+     "evidence": "Am Samstag, 14. November, bietet sie einen Wintergrillkurs für alle an, die Lust auf ein gutes Steak haben.",
+     "why": "A cooking school offers a grilling course in winter. It is not looking for a grill master, so g is wrong."
+    },
+    {
+     "id": "3",
+     "answer": "f",
+     "evidence": "Das Eiscafé „Dolomiti“ in der Südvorstadt bleibt in diesem Jahr zum ersten Mal auch im Winter geöffnet.",
+     "why": "The ice cream café stays open in winter for the first time. The chocolate ice cream with salt does not taste salty and most guests like it, so a is wrong."
+    },
+    {
+     "id": "4",
+     "answer": "h",
+     "evidence": "Am Wochenende warten die Gäste oft auf der Straße, bis sie an der Reihe sind.",
+     "why": "On weekends guests wait on the street until it is their turn, so there are long lines. The café is busy on weekends, not closed, so c is wrong."
+    },
+    {
+     "id": "5",
+     "answer": "e",
+     "evidence": "Ein Gasthaus in der Nähe von Graz bietet deshalb bis Ende November besondere Gerichte an.",
+     "why": "Schwammerln is the Austrian word for mushrooms. An inn near Graz serves special autumn dishes with them until the end of November."
+    }
+   ]
+  }
+ ]
+}

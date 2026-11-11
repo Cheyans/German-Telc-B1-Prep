@@ -1,0 +1,159 @@
+{
+ "set": "07",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was zeigt die Umfrage der Stadt?",
+     "right": "Knapp 20 Prozent kommen mit dem Fahrrad zur Arbeit.",
+     "wrong": [
+      "Etwa ein Drittel nutzt Bus und Straßenbahn für den Weg zur Arbeit.",
+      "Das Fahrrad ist inzwischen beliebter als der eigene Pkw."
+     ],
+     "evidence": "Laut einer Umfrage der Stadt unter rund 4.000 Bürgerinnen und Bürgern ist das Auto dabei noch immer am beliebtesten. 35 Prozent fahren mit dem eigenen Pkw zur Arbeit, 24 Prozent mit Bus und Straßenbahn, und beinahe jeder Fünfte kommt inzwischen mit dem Rad.",
+     "why": "„Beinahe jeder Fünfte“ means almost one in five, so just under 20 percent come by bike. Buses and trams have 24 percent (about a quarter, not a third), and the car (35 percent) is still more popular than the bike.",
+     "trap": "paraphrase",
+     "words": [
+      "W0301",
+      "W1869",
+      "G016"
+     ]
+    },
+    {
+     "q": "Was ist Mateo vor Kurzem passiert?",
+     "right": "An einer roten Ampel konnte er kaum anhalten.",
+     "wrong": [
+      "Ein Laster hat ihn beim Rechtsabbiegen beinahe übersehen.",
+      "Er ist auf nassen Blättern ausgerutscht und gestürzt."
+     ],
+     "evidence": "Im Herbst kommt noch ein Problem dazu: Nasse Blätter machen die Fahrbahn glatt. Bei Mateo war das vor Kurzem nicht so: An einer roten Ampel wollte er bremsen, doch die hintere Bremse funktionierte nicht mehr. „Erst kurz vor den Autos bin ich zum Stehen gekommen“, erinnert er sich.",
+     "why": "His back brake failed at a red light and he only stopped just before the cars, so he could hardly stop. He did not fall, and the truck turning right is a general danger in the article, not something that happened to him.",
+     "trap": "same-word",
+     "words": [
+      "W0426",
+      "W0427",
+      "W1023"
+     ]
+    },
+    {
+     "q": "Was hat die Stadt schon gemacht?",
+     "right": "In vielen Wohnstraßen darf man jetzt nur noch Tempo 30 fahren.",
+     "wrong": [
+      "Auf mehreren Hauptstraßen gibt es jetzt neue, breite Radwege.",
+      "Sie hat 18 Millionen Euro für zusätzliche Busse ausgegeben."
+     ],
+     "evidence": "Seit dem Frühjahr werden auf mehreren Hauptstraßen breite Radwege gebaut, und an zwölf Kreuzungen wurden eigene Ampeln für Radfahrer aufgestellt. Außerdem wurde in vielen Wohnstraßen die erlaubte Geschwindigkeit auf 30 Kilometer pro Stunde gesenkt.",
+     "why": "„Wurde … gesenkt“ is a finished action: many residential streets now have a 30 km/h limit. The bike paths „werden gebaut“ (are still being built), and the 18 million euros are for safer streets, not for buses.",
+     "trap": "when",
+     "words": [
+      "W0993",
+      "W2632",
+      "W0196"
+     ]
+    },
+    {
+     "q": "Was erfährt man über Bus und Straßenbahn in Leipzig?",
+     "right": "Die Busse der Linie 60 sollen bald doppelt so oft kommen.",
+     "wrong": [
+      "Ab Dezember kommt die Linie 60 alle zwanzig Minuten.",
+      "Seit dem Deutschlandticket gibt es zwölf Prozent mehr Busse."
+     ],
+     "evidence": "Seit der Einführung des Deutschlandtickets ist die Zahl der Fahrgäste um zwölf Prozent gestiegen, wie die Leipziger Verkehrsbetriebe mitteilten. Ab Dezember werden außerdem zusätzliche Busse eingesetzt: Die Linie 60, die zu den Fabriken am Stadtrand fährt, soll dann alle zehn statt alle zwanzig Minuten kommen.",
+     "why": "Every ten minutes instead of every twenty means twice as often, so the buses will not come every twenty minutes. The 12 percent is about passengers, not about the number of buses.",
+     "trap": "same-word",
+     "words": [
+      "W1484",
+      "W2919"
+     ]
+    },
+    {
+     "q": "Was schlägt Katharina Leitner für Leipzig vor?",
+     "right": "Busse und Straßenbahnen sollen in Leipzig schneller vorankommen.",
+     "wrong": [
+      "Leipzig soll nach dem Vorbild von Wien eine U-Bahn planen.",
+      "Leipzig soll das Parken in der Innenstadt deutlich teurer machen."
+     ],
+     "evidence": "Eine eigene U-Bahn wäre für Leipzig allerdings zu teuer, meint sie. Stattdessen sollte die Stadt Bus und Straßenbahn schneller machen.",
+     "why": "She says a U-Bahn „wäre … zu teuer“ (would be too expensive), and „stattdessen“ (instead) Leipzig should make buses and trams faster. Parking prices are not part of her proposal.",
+     "trap": "flip",
+     "words": [
+      "W2426"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Neuer Speisewagen: Kostenloses Essen im ICE nach München"
+    },
+    {
+     "id": "b",
+     "text": "Junge Erfinderinnen helfen blinden Fahrgästen"
+    },
+    {
+     "id": "c",
+     "text": "Rote Ampeln, alte Motorräder: Bilanz einer Polizeiaktion"
+    },
+    {
+     "id": "d",
+     "text": "Giftige Farben: Baumarkt in Leipzig muss schließen"
+    },
+    {
+     "id": "e",
+     "text": "Stundenlang im Wald: ICE-Reisende sitzen fest"
+    },
+    {
+     "id": "f",
+     "text": "Sturm: Urlauber landen in Dresden statt in Leipzig"
+    },
+    {
+     "id": "g",
+     "text": "Flughafen Leipzig: Neues Terminal für Familien eröffnet"
+    },
+    {
+     "id": "h",
+     "text": "Lastwagen umgekippt: A14 Richtung Dresden gesperrt"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "e",
+     "evidence": "Ein ICE von Leipzig in Richtung München ist am Dienstagabend im Thüringer Wald auf freier Strecke stehen geblieben. Wegen einer technischen Störung mussten rund 350 Fahrgäste fast drei Stunden warten, die meisten ohne Empfang auf dem Handy.",
+     "why": "The item is about an ICE that stood still for almost three hours in the Thuringian Forest. Water and rolls were handed out free in the dining car, but there is no new dining car (a)."
+    },
+    {
+     "id": "2",
+     "answer": "h",
+     "evidence": "Auf der A14 bei Leipzig ist am Mittwochmorgen ein Laster in einer Kurve umgekippt.",
+     "why": "A truck tipped over and both lanes toward Dresden were closed. It was only unclear whether the liquid was poisonous, and no store has to close (d)."
+    },
+    {
+     "id": "3",
+     "answer": "b",
+     "evidence": "Zwei Schülerinnen aus Leipzig haben eine App erfunden, die blinden Menschen helfen soll, allein mit Bus und Bahn zu fahren.",
+     "why": "Two schoolgirls invented an app for blind passengers, so they are young inventors. The headline paraphrases „erfunden“ and „blinden Menschen“."
+    },
+    {
+     "id": "4",
+     "answer": "f",
+     "evidence": "Wegen eines Sturms konnten am Sonntag mehrere Flugzeuge nicht wie geplant in Leipzig landen. Zwei Maschinen aus Mallorca und Antalya flogen deshalb weiter nach Dresden.",
+     "why": "Because of a storm, two holiday flights landed in Dresden instead of Leipzig. Families only waited in the terminal, and no new terminal opened (g)."
+    },
+    {
+     "id": "5",
+     "answer": "c",
+     "evidence": "Dabei überfuhren elf Autofahrer eine rote Ampel, und ein Lieferwagen fuhr sogar rückwärts durch eine Einbahnstraße. Zwei Motorräder waren seit Jahren nicht mehr beim TÜV.",
+     "why": "The police report the results of a big check: drivers ran red lights and two motorcycles had not had their TÜV inspection for years."
+    }
+   ]
+  }
+ ]
+}

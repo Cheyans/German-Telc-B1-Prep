@@ -1,0 +1,163 @@
+{
+ "book": "U",
+ "task": 6,
+ "tracks": [
+  "18"
+ ],
+ "title": "Ein Podcast: Übungen am Arbeitsplatz",
+ "intro": "Sie hören einen Podcast mit kurzen Übungen für den Arbeitsplatz. Spielen Sie den Track einmal ab.",
+ "items": [
+  {
+   "tr": "18",
+   "s": "Der Podcast fängt nach einer kurzen Einleitung gleich mit den Übungen an.",
+   "a": true,
+   "at": "00:19",
+   "ev": "Ich will gar nicht viel reden, los geht’s!",
+   "why": "After a short welcome the host says „Ich will gar nicht viel reden, los geht’s!“ and starts at once with „Stehen Sie auf“.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "den Kreislauf in Schwung bringen",
+     "to get your circulation going"
+    ],
+    [
+     "der Hintern",
+     "backside (informal)"
+    ]
+   ]
+  },
+  {
+   "tr": "18",
+   "s": "Die Arme streckt man zur Seite, und zwar höher als die Schultern.",
+   "a": false,
+   "at": "00:31",
+   "ev": "nur bis zu den Schultern, also nicht höher als Schulterhöhe",
+   "why": "The arms go out only up to the shoulders: „nicht höher als Schulterhöhe“. If you miss the „nicht“, it sounds right.",
+   "trap": "negation",
+   "w": [
+    [
+     "ausstrecken",
+     "to stretch out"
+    ],
+    [
+     "die Schulterhöhe",
+     "shoulder height"
+    ]
+   ]
+  },
+  {
+   "tr": "18",
+   "s": "Man kreist nicht nur mit den Armen, sondern auch mit den Schultern.",
+   "a": true,
+   "at": "00:52",
+   "ev": "immer schön mit beiden Schultern und beiden Armen kreisen",
+   "why": "You circle with both arms and both shoulders („mit beiden Schultern und beiden Armen“). „Nicht nur … sondern auch“ does not make it false.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "kreisen",
+     "to move in circles"
+    ],
+    [
+     "locker",
+     "loose, relaxed"
+    ]
+   ]
+  },
+  {
+   "tr": "18",
+   "s": "Nach dem Kreisen schüttelt man nur die Hände aus, nicht die Arme.",
+   "a": false,
+   "at": "01:06",
+   "ev": "Schütteln Sie Ihre Arme und Hände aus",
+   "why": "You let the arms hang down and shake out arms and hands („Arme und Hände“). „Nur die Hände“ leaves out the arms.",
+   "trap": "overstate",
+   "w": [
+    [
+     "ausschütteln",
+     "to shake out"
+    ],
+    [
+     "herunterhängen",
+     "to hang down"
+    ]
+   ]
+  },
+  {
+   "tr": "18",
+   "s": "Den Kopf dreht man zuerst langsam nach links.",
+   "a": false,
+   "at": "01:15",
+   "ev": "Drehen Sie Ihren Kopf langsam nach rechts",
+   "why": "The head goes slowly to the right first („nach rechts“). Left comes only after you turn back to the middle.",
+   "trap": "same-word",
+   "w": [
+    [
+     "den Kopf drehen",
+     "to turn your head"
+    ]
+   ]
+  },
+  {
+   "tr": "18",
+   "s": "Man atmet insgesamt dreimal tief in den Bauch ein.",
+   "a": true,
+   "at": "02:24",
+   "ev": "Und noch ein drittes Mal … tief einatmen",
+   "why": "You breathe in deeply once, then „wieder“, then „noch ein drittes Mal“. That is three times in all.",
+   "trap": "number",
+   "w": [
+    [
+     "einatmen",
+     "to breathe in"
+    ],
+    [
+     "ausatmen",
+     "to breathe out"
+    ],
+    [
+     "die Fingerspitze",
+     "fingertip"
+    ]
+   ]
+  },
+  {
+   "tr": "18",
+   "s": "Auf der Stelle läuft man möglichst schnell.",
+   "a": false,
+   "at": "02:29",
+   "ev": "Laufen Sie auf der Stelle. Langsam … nicht so schnell",
+   "why": "„Laufen Sie auf der Stelle. Langsam … nicht so schnell“: slowly, not fast. The nicht comes late, so listen to the end.",
+   "trap": "negation",
+   "w": [
+    [
+     "auf der Stelle",
+     "on the spot, in place"
+    ],
+    [
+     "breitbeinig",
+     "with legs apart"
+    ]
+   ]
+  },
+  {
+   "tr": "18",
+   "s": "Die Zehen zeigen bei dieser Übung die ganze Zeit zum Boden.",
+   "a": false,
+   "at": "03:02",
+   "ev": "und jetzt zeigen die Zehen zu Ihrem Körper",
+   "why": "The toes point to the floor, then to your body, again and again. So they don't point to the floor the whole time.",
+   "trap": "overstate",
+   "w": [
+    [
+     "die Zehe",
+     "toe"
+    ],
+    [
+     "breitbeinig",
+     "with your legs apart"
+    ]
+   ]
+  }
+ ]
+}

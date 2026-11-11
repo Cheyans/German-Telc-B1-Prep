@@ -1,0 +1,159 @@
+{
+ "set": "04",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was zeigt die Umfrage der Stadt?",
+     "right": "Viele wissen nicht genau, bis wann sie sich anmelden müssen.",
+     "wrong": [
+      "Jeder Vierte meldet sich erst nach einem Monat an.",
+      "Fast alle Neu-Leipziger kennen die Frist von zwei Wochen genau."
+     ],
+     "evidence": "Trotzdem kennen viele diese Pflicht nicht genau: Bei einer Umfrage der Stadt dachte jeder Vierte, dass man einen Monat Zeit hat.",
+     "why": "One in four only THOUGHT they had a month, so many do not know the deadline exactly. The text says nothing about people actually registering after a month, and nicht genau rules out fast alle.",
+     "trap": "same-word",
+     "words": [
+      "W1796",
+      "W0887"
+     ]
+    },
+    {
+     "q": "Was sagt die Stadt über verspätete Anmeldungen?",
+     "right": "Wer keinen Termin bekommt und sich deshalb zu spät anmeldet, zahlt keine Strafe.",
+     "wrong": [
+      "Auch ohne freien Termin muss man die Strafe von bis zu 1.000 Euro zahlen.",
+      "Im Herbst wird die Frist auf vier Wochen verlängert."
+     ],
+     "evidence": "Inzwischen warten viele drei bis vier Wochen, also deutlich länger, als die Frist erlaubt. Eine Strafe muss in solchen Fällen aber niemand zahlen, betont die Stadt.",
+     "why": "aber flips the warning from the first paragraph: when people wait longer than the deadline because there are no appointments, nobody pays a fine. The deadline itself stays the same. People just wait longer than it allows.",
+     "trap": "flip",
+     "words": [
+      "W0887",
+      "W0288"
+     ]
+    },
+    {
+     "q": "Wie hat Lena Hoffmann ihren Termin bekommen?",
+     "right": "Sie hat früh morgens selbst online nach Terminen gesucht.",
+     "wrong": [
+      "Sie hat jeden Morgen um sieben Uhr beim Bürgeramt angerufen.",
+      "Ihre Nachbarin hat ihr den eigenen Termin abgegeben."
+     ],
+     "evidence": "„Online war kein Termin frei, und am Telefon bin ich nie durchgekommen“, erzählt sie. Dann hatte ihre Nachbarin einen Einfall: Lena sollte jeden Morgen um sieben Uhr auf der Internetseite nachsehen. Bereits am nächsten Morgen fand Lena einen freien Termin.",
+     "why": "The 7 a.m. tip was about the website, and Lena never got through on the phone. The neighbor only had the idea (Einfall = idea), and Lena found the slot herself.",
+     "trap": "same-word",
+     "words": [
+      "W0600",
+      "W0325"
+     ]
+    },
+    {
+     "q": "Was hat die Stadt gegen die Probleme schon getan?",
+     "right": "Sie hat den Verkauf von Terminen im Internet verboten.",
+     "wrong": [
+      "Sie hat 25 neue Mitarbeiter für die Bürgerämter eingestellt.",
+      "Sie bietet in den Bürgerämtern jetzt auch samstags Termine an."
+     ],
+     "evidence": "Zwar sollen bis zum Frühjahr 25 neue Mitarbeiter eingestellt werden, aber das allein reicht nicht. Deshalb hat die Stadt vor, ab Januar auch samstags Termine anzubieten. Die Stadt hat diesen Handel verboten, doch trotz des Verbots gibt es solche Angebote immer wieder.",
+     "why": "The ban on reselling appointments is already in place (hat verboten). The 25 new staff are only planned (sollen bis zum Frühjahr eingestellt werden), and Saturday appointments only start in January (hat vor = plans).",
+     "trap": "when",
+     "words": [
+      "W2536",
+      "W2657",
+      "X024"
+     ]
+    },
+    {
+     "q": "Was gilt laut Artikel für die Bestätigung des Vermieters?",
+     "right": "Man kann sie auch als Kopie mitbringen.",
+     "wrong": [
+      "Man muss sie wie den Ausweis im Original zeigen.",
+      "Statt der Bestätigung reicht auch der Mietvertrag."
+     ],
+     "evidence": "Für die Anmeldung sind ein gültiger Ausweis und die Bestätigung des Vermieters erforderlich. Den Ausweis muss man im Original zeigen, bei der Bestätigung reicht dagegen auch eine Kopie.",
+     "why": "dagegen marks the contrast: the ID must be the original, but for the landlord's confirmation a copy is enough. The confirmation is erforderlich (required), so the rental contract cannot replace it.",
+     "trap": "flip",
+     "words": [
+      "W0355",
+      "W1745",
+      "W0476"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Wien: Post von der Stadt wird verständlicher"
+    },
+    {
+     "id": "b",
+     "text": "Fundbüro versteigert alte Ausweise und Pässe"
+    },
+    {
+     "id": "c",
+     "text": "Gesünder essen, weniger wiegen: Kurs startet im Januar"
+    },
+    {
+     "id": "d",
+     "text": "Aufenthaltserlaubnis: Verlängerung bald auch online"
+    },
+    {
+     "id": "e",
+     "text": "Gesundheitsamt: Kurs für Erwachsene jetzt kostenlos"
+    },
+    {
+     "id": "f",
+     "text": "Verlorene Ausweise: Hunderte warten auf ihre Besitzer"
+    },
+    {
+     "id": "g",
+     "text": "Ausländerbehörde: Kein Termin vor Ort mehr nötig"
+    },
+    {
+     "id": "h",
+     "text": "Neues Anmeldeformular: Ein Film hilft beim Ausfüllen"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "f",
+     "evidence": "Im Fundbüro der Stadt Leipzig liegen mehr als 400 Ausweise und Pässe, die nie abgeholt wurden.",
+     "why": "More than 400 IDs and passports were never picked up, so they are still waiting for their owners. b is wrong: unlike bikes and phones (im Gegensatz zu), they are not auctioned."
+    },
+    {
+     "id": "2",
+     "answer": "h",
+     "evidence": "Damit beim Ausfüllen keine Fehler passieren, hat die Stadt ein kurzes Video gedreht.",
+     "why": "gedreht = filmed: the city made a short video that explains the new registration form, field by field."
+    },
+    {
+     "id": "3",
+     "answer": "c",
+     "evidence": "Das Gesundheitsamt bietet ab Januar wieder den Kurs „Gesund abnehmen“ an.",
+     "why": "abnehmen = to lose weight (weniger wiegen), and the course starts in January. e is wrong: the course costs 90 euros, and the subsidy is at most 75 euros."
+    },
+    {
+     "id": "4",
+     "answer": "a",
+     "evidence": "Briefe vom Amt sollen ab Jänner leichter zu verstehen sein.",
+     "why": "Jänner is Austrian for Januar: from January, letters from the Vienna city offices will be easier to understand."
+    },
+    {
+     "id": "5",
+     "answer": "d",
+     "evidence": "Wer seinen Aufenthalt in Deutschland verlängern möchte, kann den Antrag dann im Internet stellen.",
+     "why": "verlängern = to extend: from December you can apply online to extend your stay. g is wrong: you still need an appointment for the fingerprints."
+    }
+   ]
+  }
+ ]
+}

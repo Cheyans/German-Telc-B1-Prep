@@ -1,0 +1,618 @@
+{
+ "set": "24",
+ "title": "Kultur und Feste",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "G050",
+   "entry": "das Festival, -s",
+   "level": "A2",
+   "gloss": "festival"
+  },
+  {
+   "id": "G056",
+   "entry": "der Hit, -s",
+   "level": "B1",
+   "gloss": "hit (song)"
+  },
+  {
+   "id": "G059",
+   "entry": "der Jazz",
+   "level": "B1",
+   "gloss": "jazz"
+  },
+  {
+   "id": "G077",
+   "entry": "das Poster, -",
+   "level": "A2",
+   "gloss": "poster"
+  },
+  {
+   "id": "G084",
+   "entry": "der Song, -s",
+   "level": "B1",
+   "gloss": "song"
+  },
+  {
+   "id": "G296",
+   "entry": "Neujahr",
+   "level": "B1",
+   "gloss": "New Year's (Day)"
+  },
+  {
+   "id": "G298",
+   "entry": "Pfingsten",
+   "level": "B1",
+   "gloss": "Pentecost"
+  },
+  {
+   "id": "G300",
+   "entry": "Silvester",
+   "level": "B1",
+   "gloss": "New Year's Eve"
+  },
+  {
+   "id": "G301",
+   "entry": "der Nationalfeiertag",
+   "level": "B1",
+   "gloss": "national holiday"
+  },
+  {
+   "id": "W0160",
+   "entry": "aufführen, führt auf, führte auf, hat aufgeführt",
+   "level": "B1",
+   "gloss": "to perform, to stage"
+  },
+  {
+   "id": "W0176",
+   "entry": "auftreten, tritt auf, trat auf, ist aufgetreten",
+   "level": "B1",
+   "gloss": "to perform (on stage)"
+  },
+  {
+   "id": "W0177",
+   "entry": "der Auftritt, -e",
+   "level": "B1",
+   "gloss": "performance, appearance on stage"
+  },
+  {
+   "id": "W0232",
+   "entry": "der Autor, -en die Autorin, -nen",
+   "level": "B1",
+   "gloss": "author"
+  },
+  {
+   "id": "W0247",
+   "entry": "das Ballett, -e",
+   "level": "B1",
+   "gloss": "ballet"
+  },
+  {
+   "id": "W0257",
+   "entry": "der Bart, ¨-e",
+   "level": "B1",
+   "gloss": "beard"
+  },
+  {
+   "id": "W0451",
+   "entry": "die Bühne, -n",
+   "level": "B1",
+   "gloss": "stage"
+  },
+  {
+   "id": "W0453",
+   "entry": "die Burg, -en",
+   "level": "B1",
+   "gloss": "castle"
+  },
+  {
+   "id": "W0489",
+   "entry": "darstellen, stellt dar, stellte dar, hat dargestellt",
+   "level": "B1",
+   "gloss": "to show, to depict"
+  },
+  {
+   "id": "W0499",
+   "entry": "dekorieren, dekoriert, dekorierte, hat dekoriert",
+   "level": "B1",
+   "gloss": "to decorate"
+  },
+  {
+   "id": "W0502",
+   "entry": "das Denkmal, ¨-er",
+   "level": "B1",
+   "gloss": "monument"
+  },
+  {
+   "id": "W0679",
+   "entry": "entwickeln, entwickelt, entwickelte, hat entwickelt",
+   "level": "B1",
+   "gloss": "to develop"
+  },
+  {
+   "id": "W0727",
+   "entry": "erschrecken, erschrickt, erschrak, ist erschrocken/ jdn. erschrecken, erschreckt, erschreckte, hat erschreckt",
+   "level": "B1",
+   "gloss": "to be startled, to frighten (someone)"
+  },
+  {
+   "id": "W0737",
+   "entry": "die Erzählung, -en",
+   "level": "B1",
+   "gloss": "story, tale"
+  },
+  {
+   "id": "W0776",
+   "entry": "die Fantasie/Phantasie, -n",
+   "level": "B1",
+   "gloss": "imagination"
+  },
+  {
+   "id": "W0779",
+   "entry": "farbig",
+   "level": "B1",
+   "gloss": "colorful"
+  },
+  {
+   "id": "W0781",
+   "entry": "der Fasching, - (D, A) D:→ Karneval; CH: Fasnacht",
+   "level": "B1",
+   "gloss": "carnival (word used in Saxony)"
+  },
+  {
+   "id": "W0793",
+   "entry": "der Feiertag, -e",
+   "level": "B1",
+   "gloss": "public holiday"
+  },
+  {
+   "id": "W0819",
+   "entry": "die Figur, -en",
+   "level": "B1",
+   "gloss": "figure, figurine"
+  },
+  {
+   "id": "W0840",
+   "entry": "die Flöte, -n",
+   "level": "B1",
+   "gloss": "flute"
+  },
+  {
+   "id": "W0864",
+   "entry": "der Fotograf, -en",
+   "level": "B1",
+   "gloss": "photographer"
+  },
+  {
+   "id": "W0865",
+   "entry": "die Fotografie, -n",
+   "level": "B1",
+   "gloss": "photograph"
+  },
+  {
+   "id": "W0912",
+   "entry": "die Galerie, -n",
+   "level": "B1",
+   "gloss": "gallery"
+  },
+  {
+   "id": "W0919",
+   "entry": "die Garderobe, -n",
+   "level": "B1",
+   "gloss": "coat check"
+  },
+  {
+   "id": "W0935",
+   "entry": "das Gedicht, -e",
+   "level": "B1",
+   "gloss": "poem"
+  },
+  {
+   "id": "W1035",
+   "entry": "der Gott, ¨-er",
+   "level": "B1",
+   "gloss": "God (Gott sei Dank: thank God)"
+  },
+  {
+   "id": "W1039",
+   "entry": "die Gratulation, -en",
+   "level": "B1",
+   "gloss": "congratulations"
+  },
+  {
+   "id": "W1112",
+   "entry": "der Held, -en die Heldin, -nen",
+   "level": "B1",
+   "gloss": "hero"
+  },
+  {
+   "id": "W1151",
+   "entry": "die Höhe",
+   "level": "B1",
+   "gloss": "height"
+  },
+  {
+   "id": "W1166",
+   "entry": "der Zuhörer",
+   "level": "B1",
+   "gloss": "listener"
+  },
+  {
+   "id": "W1169",
+   "entry": "hübsch",
+   "level": "B1",
+   "gloss": "prettily, nicely"
+  },
+  {
+   "id": "W1261",
+   "entry": "der Karneval, -s/-e (D) → D, A: Fasching; CH: Fasnacht",
+   "level": "B1",
+   "gloss": "carnival"
+  },
+  {
+   "id": "W1278",
+   "entry": "kein-",
+   "level": "A1",
+   "gloss": "no, not any"
+  },
+  {
+   "id": "W1362",
+   "entry": "das Kostüm, -e",
+   "level": "B1",
+   "gloss": "costume"
+  },
+  {
+   "id": "W1401",
+   "entry": "der Künstler, - die Künstlerin, -nen",
+   "level": "B1",
+   "gloss": "artist"
+  },
+  {
+   "id": "W1414",
+   "entry": "lächeln, lächelt, lächelte, hat gelächelt",
+   "level": "B1",
+   "gloss": "to smile"
+  },
+  {
+   "id": "W1489",
+   "entry": "die Literatur",
+   "level": "B1",
+   "gloss": "literature"
+  },
+  {
+   "id": "W1515",
+   "entry": "der Maler, - die Malerin, -nen",
+   "level": "B1",
+   "gloss": "painter"
+  },
+  {
+   "id": "W1525",
+   "entry": "das Märchen, -",
+   "level": "B1",
+   "gloss": "fairy tale"
+  },
+  {
+   "id": "W1532",
+   "entry": "das Material",
+   "level": "B1",
+   "gloss": "material"
+  },
+  {
+   "id": "W1620",
+   "entry": "die Musik",
+   "level": "A2",
+   "gloss": "music"
+  },
+  {
+   "id": "W1621",
+   "entry": "musikalisch",
+   "level": "B1",
+   "gloss": "musical, musically gifted"
+  },
+  {
+   "id": "W1622",
+   "entry": "der Musiker, - die Musikerin, nen",
+   "level": "B1",
+   "gloss": "musician"
+  },
+  {
+   "id": "W1730",
+   "entry": "die Oper, -n",
+   "level": "B1",
+   "gloss": "opera, opera house"
+  },
+  {
+   "id": "W1736",
+   "entry": "das Orchester, -",
+   "level": "B1",
+   "gloss": "orchestra"
+  },
+  {
+   "id": "W1797",
+   "entry": "die Phantasie/Fantasie, -n",
+   "level": "B1",
+   "gloss": "imagination (older spelling)"
+  },
+  {
+   "id": "W1815",
+   "entry": "populär",
+   "level": "B1",
+   "gloss": "popular"
+  },
+  {
+   "id": "W1855",
+   "entry": "das Publikum",
+   "level": "B1",
+   "gloss": "audience"
+  },
+  {
+   "id": "W1930",
+   "entry": "die Religion, -en",
+   "level": "B1",
+   "gloss": "religion"
+  },
+  {
+   "id": "W1959",
+   "entry": "die Rolle, -n",
+   "level": "B1",
+   "gloss": "role, part"
+  },
+  {
+   "id": "W1960",
+   "entry": "der Roman, -e",
+   "level": "B1",
+   "gloss": "novel"
+  },
+  {
+   "id": "W1975",
+   "entry": "der Saal, Säle",
+   "level": "B1",
+   "gloss": "hall, auditorium"
+  },
+  {
+   "id": "W1990",
+   "entry": "der Sänger, - die Sängerin, -nen",
+   "level": "B1",
+   "gloss": "singer"
+  },
+  {
+   "id": "W2008",
+   "entry": "der Schauspieler, - die Schauspielerin, -nen",
+   "level": "B1",
+   "gloss": "actor (Schauspielerin: actress)"
+  },
+  {
+   "id": "W2041",
+   "entry": "schminken, schminkt, schminkte, hat geschminkt",
+   "level": "B1",
+   "gloss": "to put makeup on (someone)"
+  },
+  {
+   "id": "W2056",
+   "entry": "der Schreck(en)",
+   "level": "B1",
+   "gloss": "fright, scare"
+  },
+  {
+   "id": "W2063",
+   "entry": "der Schriftsteller, - die Schriftstellerin, -nen",
+   "level": "B1",
+   "gloss": "writer, author"
+  },
+  {
+   "id": "W2149",
+   "entry": "sogenannt-",
+   "level": "B1",
+   "gloss": "so-called"
+  },
+  {
+   "id": "W2245",
+   "entry": "der Stil, -e",
+   "level": "B1",
+   "gloss": "style"
+  },
+  {
+   "id": "W2246",
+   "entry": "stilistisch",
+   "level": "B1",
+   "gloss": "in terms of style"
+  },
+  {
+   "id": "W2251",
+   "entry": "die Stimme, -n",
+   "level": "B1",
+   "gloss": "voice"
+  },
+  {
+   "id": "W2258",
+   "entry": "stolz",
+   "level": "B1",
+   "gloss": "proud"
+  },
+  {
+   "id": "W2305",
+   "entry": "die Szene, -n",
+   "level": "B1",
+   "gloss": "scene"
+  },
+  {
+   "id": "W2316",
+   "entry": "der Tanz, ¨-e",
+   "level": "B1",
+   "gloss": "dance"
+  },
+  {
+   "id": "W2387",
+   "entry": "die Tradition, -en",
+   "level": "B1",
+   "gloss": "tradition"
+  },
+  {
+   "id": "W2388",
+   "entry": "traditionell",
+   "level": "B1",
+   "gloss": "traditional"
+  },
+  {
+   "id": "W2422",
+   "entry": "der Turm, ¨-e",
+   "level": "B1",
+   "gloss": "tower"
+  },
+  {
+   "id": "W2484",
+   "entry": "ungefähr",
+   "level": "B1",
+   "gloss": "about, approximately"
+  },
+  {
+   "id": "W2488",
+   "entry": "unheimlich",
+   "level": "B1",
+   "gloss": "creepy, eerie"
+  },
+  {
+   "id": "W2532",
+   "entry": "die Veranstaltung, -en",
+   "level": "B1",
+   "gloss": "event"
+  },
+  {
+   "id": "W2654",
+   "entry": "vorder-",
+   "level": "B1",
+   "gloss": "front (vordere Reihen: front rows)"
+  },
+  {
+   "id": "W2671",
+   "entry": "die Vorstellung, -en",
+   "level": "B1",
+   "gloss": "performance, show"
+  },
+  {
+   "id": "W2735",
+   "entry": "das Werk, -e",
+   "level": "B1",
+   "gloss": "work (of art)"
+  },
+  {
+   "id": "W2813",
+   "entry": "die Zeichnung, -en",
+   "level": "B1",
+   "gloss": "drawing"
+  },
+  {
+   "id": "W2857",
+   "entry": "der Zuhörer, - die Zuhörerin, -nen",
+   "level": "B1",
+   "gloss": "(female) listener"
+  },
+  {
+   "id": "W2871",
+   "entry": "zusammen/zusammen-",
+   "level": "A1",
+   "gloss": "together"
+  },
+  {
+   "id": "W2907",
+   "entry": "die Kerze, -n",
+   "level": "B1",
+   "gloss": "candle"
+  },
+  {
+   "id": "W2917",
+   "entry": "zeichnen, zeichnet, zeichnete, hat gezeichnet",
+   "level": "A2",
+   "gloss": "to draw"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W1864",
+   "entry": "quer",
+   "level": "B1",
+   "gloss": "across, diagonally"
+  },
+  {
+   "id": "W2526",
+   "entry": "(sich) verabreden, verabredet, verabredete, hat verabredet",
+   "level": "B1",
+   "gloss": "to arrange to meet"
+  },
+  {
+   "id": "W1091",
+   "entry": "häufig",
+   "level": "B1",
+   "gloss": "often, frequently"
+  },
+  {
+   "id": "W0306",
+   "entry": "der Bekannte, -n",
+   "level": "A1",
+   "gloss": "acquaintance, friend (male)"
+  },
+  {
+   "id": "W2672",
+   "entry": "das Vorstellungsgespräch, -e",
+   "level": "B1",
+   "gloss": "job interview"
+  },
+  {
+   "id": "W0964",
+   "entry": "gelten, gilt, galt, hat gegolten",
+   "level": "B1",
+   "gloss": "to be valid"
+  },
+  {
+   "id": "W2535",
+   "entry": "(sich) verbessern, verbessert, verbesserte, hat verbessert",
+   "level": "B1",
+   "gloss": "to correct, to improve"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X004",
+   "word": "das Ehrenamt, -ämter",
+   "gloss": "a volunteer role (unpaid)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X005",
+   "word": "ehrenamtlich",
+   "gloss": "as a volunteer, unpaid",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X017",
+   "word": "errichten, errichtet, errichtete, hat errichtet",
+   "gloss": "to build, set up",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X022",
+   "word": "die Anerkennung",
+   "gloss": "recognition, appreciation",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R012",
+   "word": "das Hendl, -",
+   "gloss": "(roast) chicken",
+   "kind": "austrian",
+   "de": "das Hähnchen"
+  },
+  {
+   "id": "R017",
+   "word": "die Marille, -n",
+   "gloss": "apricot",
+   "kind": "austrian",
+   "de": "die Aprikose"
+  }
+ ],
+ "story_opening": "Lena Hoffmann arbeitet seit ein paar Monaten in einer Werbeagentur in Leipzig. Im November bekommt sie ihren ersten großen Auftrag. Das Kulturamt der Stadt möchte ein Poster für das nächste Jahr. Darauf sollen die wichtigsten kulturellen Veranstaltungen von Januar bis Dezember stehen. Das Poster wird groß: Es hat eine Höhe von zwei Metern, so hoch wie eine Tür.\n\nLena arbeitet zwei Wochen daran. Sie wählt schöne Fotografien von einem bekannten Fotografen aus: Kirchen, Museen, Plätze und alte Häuser. Aber Frau Brückner vom Kulturamt ist nicht zufrieden. „Die Fotos sind schön, aber ein bisschen langweilig“, sagt sie. „Ich sehe nur Gebäude und keine Menschen. Kultur ist doch lebendig! Bis Silves"
+}

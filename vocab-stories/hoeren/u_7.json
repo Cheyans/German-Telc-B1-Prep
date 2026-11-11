@@ -1,0 +1,164 @@
+{
+ "book": "U",
+ "task": 7,
+ "tracks": [
+  "19",
+  "20"
+ ],
+ "title": "Urlaubspläne und eine Taxifahrerin",
+ "intro": "Sie hören zuerst ein Familiengespräch über den Sommerurlaub und den Anfang eines Radiointerviews. Dann hören Sie das Interview mit einer Taxifahrerin noch einmal und länger.",
+ "items": [
+  {
+   "tr": "19",
+   "s": "Die Mutter war noch nicht im Reisebüro.",
+   "a": false,
+   "at": "00:15",
+   "ev": "Da war ich im Reisebüro. Schau her, ist das nicht super?",
+   "why": "„Wir sollten uns allmählich überlegen“ sounds like a plan, but then she says „Da war ich im Reisebüro“. She has already been there and shows him a trip to Colva.",
+   "trap": "when",
+   "w": [
+    [
+     "allmählich",
+     "gradually, it's about time"
+    ],
+    [
+     "im letzten Moment",
+     "at the last minute"
+    ]
+   ]
+  },
+  {
+   "tr": "19",
+   "s": "Die Mutter fand den letzten Urlaub in Griechenland erholsam.",
+   "a": false,
+   "at": "00:33",
+   "ev": "Glaubst du, es war erholsam letztes Jahr in Griechenland?",
+   "why": "She asks this to make a point. She lists temples, ruins, „nichts als alte Steine“ and a new hotel every night, so for her it was not restful.",
+   "trap": "same-word",
+   "w": [
+    [
+     "erholsam",
+     "restful"
+    ],
+    [
+     "die Ruine",
+     "ruin"
+    ]
+   ]
+  },
+  {
+   "tr": "19",
+   "s": "Martin war von der Reise nach Griechenland nicht begeistert.",
+   "a": true,
+   "at": "00:50",
+   "ev": "Na ja, es geht so. Ich könnte mir spannendere Ferien vorstellen.",
+   "why": "His father hopes it was interesting, but Martin says „es geht so“ (so-so). He can imagine more exciting vacations.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "es geht so",
+     "so-so"
+    ],
+    [
+     "sich etwas vorstellen",
+     "to imagine something"
+    ]
+   ]
+  },
+  {
+   "tr": "19",
+   "s": "Für Carina ist es ganz normal, als Frau Taxi zu fahren.",
+   "a": true,
+   "at": "01:22",
+   "ev": "für mich ist das nichts Besonderes",
+   "why": "The host asks „Ganz besonders?“, but she says „für mich ist das nichts Besonderes“. She is not the only woman driver, and she has done it for a while.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "der Taxler",
+     "taxi driver (southern German, informal)"
+    ],
+    [
+     "wahrnehmen",
+     "to notice"
+    ]
+   ]
+  },
+  {
+   "tr": "20",
+   "s": "Carina fährt schon seit mehr als drei Jahren Taxi.",
+   "a": false,
+   "at": "00:37",
+   "ev": "schon fast drei Jahre, fehlen noch 2 Monate oder so",
+   "why": "It is almost three years, about two months short („fast drei Jahre“). It only feels longer to her („kommt mir viel länger vor“).",
+   "trap": "number",
+   "w": [
+    [
+     "mittlerweile",
+     "by now"
+    ],
+    [
+     "es kommt mir länger vor",
+     "it seems longer to me"
+    ]
+   ]
+  },
+  {
+   "tr": "20",
+   "s": "Die Idee, Taxi zu fahren, hatte Carinas Freundin.",
+   "a": true,
+   "at": "01:05",
+   "ev": "Da ist sie auf Taxifahren gekommen.",
+   "why": "Carina was studying. Her friend had dropped out of her training, needed money and came up with taxi driving („Da ist sie auf Taxifahren gekommen“).",
+   "trap": "who",
+   "w": [
+    [
+     "die Ausbildung abbrechen",
+     "to drop out of vocational training"
+    ],
+    [
+     "auf etwas kommen",
+     "to come up with something"
+    ]
+   ]
+  },
+  {
+   "tr": "20",
+   "s": "Carina hat die Ortskundeprüfung gleich beim ersten Mal geschafft.",
+   "a": true,
+   "at": "01:51",
+   "ev": "Zum Glück. Ich hatte echt Angst, ein zweites Mal",
+   "why": "The host asks if she was in the 90% or passed the first time. „Zum Glück“ means she passed, and a second try never happened („wär nichts für meine Nerven gewesen“).",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "die Ortskundeprüfung",
+     "test on knowing the city's streets"
+    ],
+    [
+     "durchfallen",
+     "to fail an exam"
+    ]
+   ]
+  },
+  {
+   "tr": "20",
+   "s": "Beim Taxifahren ist Carina schon einmal etwas Schlimmes passiert.",
+   "a": false,
+   "at": "02:17",
+   "ev": "Und passiert ist mir auch nichts.",
+   "why": "She is rarely afraid, and she ends with „passiert ist mir auch nichts“: nothing has happened to her. The „nichts“ comes last.",
+   "trap": "negation",
+   "w": [
+    [
+     "der Fahrgast",
+     "passenger"
+    ],
+    [
+     "die Zentrale",
+     "taxi dispatch office"
+    ]
+   ]
+  }
+ ]
+}

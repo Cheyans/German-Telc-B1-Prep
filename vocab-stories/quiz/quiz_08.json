@@ -1,0 +1,75 @@
+{
+ "story": "08",
+ "questions": [
+  {
+   "q": "Was hatte Lena eigentlich für ihr freies Wochenende geplant?",
+   "right": "Sie wollte sich zu Hause ausruhen und nichts Anstrengendes tun.",
+   "wrong": [
+    "Sie wollte mit ihrem Kollegen Jonas ein Spiel im Stadion sehen.",
+    "Sie wollte viel Sport treiben, damit sie endlich fit wird."
+   ],
+   "evidence": "„Ich will einfach nur faulenzen“, antwortet Lena. „Lange schlafen, auf dem Sofa liegen, Comics lesen und vielleicht ein Puzzle mit tausend Teilen machen.“",
+   "why": "At first she only wants to laze around (faulenzen): sleep in, lie on the sofa, read comics. The stadium is Jonas's idea, and Aylin is the one who does a lot of sport.",
+   "words": [
+    "W0786"
+   ]
+  },
+  {
+   "q": "Was schlägt Jonas für die Wette vor?",
+   "right": "Wer verliert, muss am Sonntag beim Hobby des anderen mitmachen.",
+   "wrong": [
+    "Wer gewinnt, muss am Sonntag beim Hobby des anderen mitmachen.",
+    "Wer verliert, muss am Sonntag für beide ein Picknick machen."
+   ],
+   "evidence": "„Wetten, dass Leipzig gewinnt?“, fragt Jonas. „Der Verlierer macht am Sonntag das Hobby des Siegers mit.“",
+   "why": "The loser (Verlierer) has to join the winner's (Sieger) hobby on Sunday. The picnic only comes up later, after the game ends in a draw.",
+   "words": [
+    "W2579",
+    "W2132",
+    "W2744"
+   ]
+  },
+  {
+   "q": "Wie geht das Fußballspiel aus?",
+   "right": "Keine Mannschaft gewinnt, jede schießt ein Tor.",
+   "wrong": [
+    "Leipzig gewinnt mit einem Tor kurz vor dem Ende.",
+    "Hamburg gewinnt, weil der Torwart so gut hält."
+   ],
+   "evidence": "Am Ende haben beide Mannschaften jeweils ein Tor geschossen. Das Spiel endet 1:1, also unentschieden. Es gibt keinen Sieg für Leipzig und keinen für Hamburg.",
+   "why": "Each team scores one goal (jeweils ein Tor), so the game is a draw (unentschieden). The Hamburg goalkeeper catches Leipzig's late shot, and Hamburg does not win either.",
+   "words": [
+    "W0668",
+    "W1234",
+    "W2131"
+   ]
+  },
+  {
+   "q": "Was passiert, als Lena im Kletterwald zehn Meter hoch ist?",
+   "right": "Sie will zuerst aufhören, macht aber dann doch weiter.",
+   "wrong": [
+    "Sie bekommt Angst und klettert sofort wieder hinunter.",
+    "Ein paar Kinder lachen sie aus, weil sie so langsam ist."
+   ],
+   "evidence": "In zehn Metern Höhe will sie aufgeben und wieder nach unten. Doch ein paar Kinder schauen ihr interessiert von unten zu und rufen: „Du schaffst das!“ Also klettert Lena weiter.",
+   "why": "At ten meters she wants to give up (aufgeben), but children watching (zuschauen) from below cheer her on, so she keeps climbing. Nobody laughs at her.",
+   "words": [
+    "W0162",
+    "W2876"
+   ]
+  },
+  {
+   "q": "Was denkt Lena am Sonntagabend über ihr Wochenende?",
+   "right": "Es war spannend, und in Leipzig ist sie weniger einsam.",
+   "wrong": [
+    "Sie hat sich an diesem Wochenende oft gelangweilt.",
+    "Sie möchte nie wieder mit Jonas ins Stadion gehen."
+   ],
+   "evidence": "Lena muss lachen: An diesem sportlichen Wochenende hat sie sich keine Minute gelangweilt. Und in Leipzig fühlt sie sich jetzt nicht mehr so allein.",
+   "why": "She was not bored (gelangweilt) for a single minute, and she feels less alone in Leipzig now. She also says yes right away when Jonas invites her to the next game.",
+   "words": [
+    "W1431"
+   ]
+  }
+ ]
+}

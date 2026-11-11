@@ -1,0 +1,695 @@
+[
+ {
+  "id": "X001",
+  "word": "angeblich",
+  "gloss": "supposedly, allegedly (signals doubt)",
+  "pos": "adj/adv",
+  "kind": "extra",
+  "sets": [
+   "21",
+   "18",
+   "26"
+  ]
+ },
+ {
+  "id": "X002",
+  "word": "ermitteln, ermittelt, ermittelte, hat ermittelt",
+  "gloss": "to find out, determine; (police) to investigate",
+  "pos": "verb",
+  "kind": "extra",
+  "sets": [
+   "28",
+   "27"
+  ]
+ },
+ {
+  "id": "X003",
+  "word": "übergewichtig",
+  "gloss": "overweight",
+  "pos": "adj",
+  "kind": "extra",
+  "sets": [
+   "05",
+   "20"
+  ]
+ },
+ {
+  "id": "X004",
+  "word": "das Ehrenamt, -ämter",
+  "gloss": "a volunteer role (unpaid)",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "27",
+   "24"
+  ]
+ },
+ {
+  "id": "X005",
+  "word": "ehrenamtlich",
+  "gloss": "as a volunteer, unpaid",
+  "pos": "adj",
+  "kind": "extra",
+  "sets": [
+   "26",
+   "24",
+   "27"
+  ]
+ },
+ {
+  "id": "X006",
+  "word": "die Wissenslücke, -n",
+  "gloss": "a gap in knowledge",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "11",
+   "01"
+  ]
+ },
+ {
+  "id": "X007",
+  "word": "bevorzugen, bevorzugt, bevorzugte, hat bevorzugt",
+  "gloss": "to prefer; bevorzugt = preferably",
+  "pos": "verb",
+  "kind": "extra",
+  "sets": [
+   "06",
+   "03"
+  ]
+ },
+ {
+  "id": "X008",
+  "word": "über den Tellerrand schauen",
+  "gloss": "to look beyond your own little world",
+  "pos": "idiom",
+  "kind": "extra",
+  "sets": [
+   "13",
+   "19"
+  ]
+ },
+ {
+  "id": "X009",
+  "word": "tausendfach",
+  "gloss": "a thousand times, thousandfold",
+  "pos": "adv",
+  "kind": "extra",
+  "sets": [
+   "21",
+   "10"
+  ]
+ },
+ {
+  "id": "X010",
+  "word": "gelegentlich",
+  "gloss": "occasionally",
+  "pos": "adv",
+  "kind": "extra",
+  "sets": [
+   "08",
+   "22"
+  ]
+ },
+ {
+  "id": "X011",
+  "word": "mehrmals",
+  "gloss": "several times",
+  "pos": "adv",
+  "kind": "extra",
+  "sets": [
+   "10",
+   "16"
+  ]
+ },
+ {
+  "id": "X012",
+  "word": "hin und wieder",
+  "gloss": "now and then",
+  "pos": "adv",
+  "kind": "extra",
+  "sets": [
+   "23",
+   "15"
+  ]
+ },
+ {
+  "id": "X013",
+  "word": "die Grenzerfahrung, -en",
+  "gloss": "an experience at your limits",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "08",
+   "19"
+  ]
+ },
+ {
+  "id": "X014",
+  "word": "der Nervenkitzel",
+  "gloss": "the thrill",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "08",
+   "25"
+  ]
+ },
+ {
+  "id": "X015",
+  "word": "verzeichnen, verzeichnet, verzeichnete, hat verzeichnet",
+  "gloss": "to record, register (numbers)",
+  "pos": "verb",
+  "kind": "extra",
+  "sets": [
+   "27",
+   "19"
+  ]
+ },
+ {
+  "id": "X016",
+  "word": "erzeugen, erzeugt, erzeugte, hat erzeugt",
+  "gloss": "to produce, generate",
+  "pos": "verb",
+  "kind": "extra",
+  "sets": [
+   "26",
+   "25"
+  ]
+ },
+ {
+  "id": "X017",
+  "word": "errichten, errichtet, errichtete, hat errichtet",
+  "gloss": "to build, set up",
+  "pos": "verb",
+  "kind": "extra",
+  "sets": [
+   "24",
+   "02"
+  ]
+ },
+ {
+  "id": "X018",
+  "word": "die Bürgerinitiative, -n",
+  "gloss": "a local citizens' action group",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "15",
+   "26"
+  ]
+ },
+ {
+  "id": "X019",
+  "word": "der Hort, -e",
+  "gloss": "after-school care (for primary-school children)",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "14",
+   "12"
+  ]
+ },
+ {
+  "id": "X020",
+  "word": "der TÜV",
+  "gloss": "the vehicle safety inspection",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "07",
+   "16"
+  ]
+ },
+ {
+  "id": "X021",
+  "word": "zusehen, sieht zu, sah zu, hat zugesehen",
+  "gloss": "to watch (= zuschauen)",
+  "pos": "verb",
+  "kind": "extra",
+  "sets": [
+   "09",
+   "21"
+  ]
+ },
+ {
+  "id": "X022",
+  "word": "die Anerkennung",
+  "gloss": "recognition, appreciation",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "14",
+   "24"
+  ]
+ },
+ {
+  "id": "X023",
+  "word": "der Zuschuss, Zuschüsse",
+  "gloss": "a subsidy, grant",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "04",
+   "17"
+  ]
+ },
+ {
+  "id": "X024",
+  "word": "die Maßnahme, -n",
+  "gloss": "a measure, step (taken by authorities)",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "26",
+   "04"
+  ]
+ },
+ {
+  "id": "X025",
+  "word": "der Anstieg",
+  "gloss": "the increase, rise",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "18",
+   "27"
+  ]
+ },
+ {
+  "id": "X026",
+  "word": "zunehmend",
+  "gloss": "increasingly",
+  "pos": "adv",
+  "kind": "extra",
+  "sets": [
+   "23",
+   "10"
+  ]
+ },
+ {
+  "id": "X027",
+  "word": "beispielsweise",
+  "gloss": "for example",
+  "pos": "adv",
+  "kind": "extra",
+  "sets": [
+   "09",
+   "22"
+  ]
+ },
+ {
+  "id": "X028",
+  "word": "hingegen",
+  "gloss": "on the other hand, in contrast",
+  "pos": "adv",
+  "kind": "extra",
+  "sets": [
+   "22",
+   "25"
+  ]
+ },
+ {
+  "id": "X029",
+  "word": "der Verbraucher, - / die Verbraucherin, -nen",
+  "gloss": "consumer",
+  "pos": "noun",
+  "kind": "extra",
+  "sets": [
+   "18",
+   "06"
+  ]
+ },
+ {
+  "id": "R001",
+  "word": "der Bankomat, -en",
+  "gloss": "ATM",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Geldautomat",
+  "sets": [
+   "17",
+   "18"
+  ]
+ },
+ {
+  "id": "R002",
+  "word": "die Bankomat-Karte, -n",
+  "gloss": "debit card",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die EC-Karte",
+  "sets": [
+   "17",
+   "06"
+  ]
+ },
+ {
+  "id": "R003",
+  "word": "der Bub, -en",
+  "gloss": "boy",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Junge",
+  "sets": [
+   "12",
+   "01"
+  ]
+ },
+ {
+  "id": "R004",
+  "word": "die e-card",
+  "gloss": "health insurance card",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Versichertenkarte",
+  "sets": [
+   "05",
+   "16"
+  ]
+ },
+ {
+  "id": "R005",
+  "word": "das Eck, -en",
+  "gloss": "corner",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Ecke",
+  "sets": [
+   "02",
+   "07"
+  ]
+ },
+ {
+  "id": "R006",
+  "word": "der Erdapfel, Erdäpfel",
+  "gloss": "potato",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Kartoffel",
+  "sets": [
+   "20",
+   "06"
+  ]
+ },
+ {
+  "id": "R007",
+  "word": "das Faschierte",
+  "gloss": "minced meat",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "das Hackfleisch",
+  "sets": [
+   "20",
+   "13"
+  ]
+ },
+ {
+  "id": "R008",
+  "word": "der Fauteuil, -s",
+  "gloss": "armchair",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Sessel",
+  "sets": [
+   "02",
+   "15"
+  ]
+ },
+ {
+  "id": "R009",
+  "word": "der Fleischhauer, - / die Fleischhauerin, -nen",
+  "gloss": "butcher",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Metzger",
+  "sets": [
+   "06",
+   "20"
+  ]
+ },
+ {
+  "id": "R010",
+  "word": "das Gasthaus, Gasthäuser",
+  "gloss": "inn, traditional restaurant",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Gaststätte",
+  "sets": [
+   "13",
+   "19"
+  ]
+ },
+ {
+  "id": "R011",
+  "word": "die Geldbörse, -n",
+  "gloss": "wallet",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "das Portemonnaie",
+  "sets": [
+   "28",
+   "18"
+  ]
+ },
+ {
+  "id": "R012",
+  "word": "das Hendl, -",
+  "gloss": "(roast) chicken",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "das Hähnchen",
+  "sets": [
+   "13",
+   "24"
+  ]
+ },
+ {
+  "id": "R013",
+  "word": "die Jause, -n",
+  "gloss": "snack",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Imbiss, die Zwischenmahlzeit",
+  "sets": [
+   "08",
+   "14"
+  ]
+ },
+ {
+  "id": "R014",
+  "word": "das Kaffeehaus, Kaffeehäuser",
+  "gloss": "(Viennese) coffee house",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "das Café",
+  "sets": [
+   "13",
+   "21"
+  ]
+ },
+ {
+  "id": "R015",
+  "word": "kosten, kostet, kostete, hat gekostet",
+  "gloss": "to taste (food)",
+  "pos": "verb",
+  "kind": "austrian",
+  "de": "probieren",
+  "sets": [
+   "20",
+   "12"
+  ]
+ },
+ {
+  "id": "R016",
+  "word": "das Kuvert, -s",
+  "gloss": "envelope",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Briefumschlag",
+  "sets": [
+   "17",
+   "04"
+  ]
+ },
+ {
+  "id": "R017",
+  "word": "die Marille, -n",
+  "gloss": "apricot",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Aprikose",
+  "sets": [
+   "06",
+   "24"
+  ]
+ },
+ {
+  "id": "R018",
+  "word": "die Matura",
+  "gloss": "school-leaving exam",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "das Abitur",
+  "sets": [
+   "11",
+   "03"
+  ]
+ },
+ {
+  "id": "R019",
+  "word": "das (Schlag-)Obers",
+  "gloss": "(whipped) cream",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die (Schlag-)Sahne",
+  "sets": [
+   "20",
+   "12"
+  ]
+ },
+ {
+  "id": "R020",
+  "word": "die Ordination, -en",
+  "gloss": "doctor's office; office hours",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Arztpraxis; die Sprechstunde",
+  "sets": [
+   "05",
+   "16"
+  ]
+ },
+ {
+  "id": "R021",
+  "word": "der Paradeiser, -",
+  "gloss": "tomato",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Tomate",
+  "sets": [
+   "06",
+   "20"
+  ]
+ },
+ {
+  "id": "R022",
+  "word": "die Pension, -en",
+  "gloss": "(retirement) pension; (in Pension) retired",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Rente",
+  "sets": [
+   "27",
+   "12"
+  ]
+ },
+ {
+  "id": "R023",
+  "word": "der Pensionist, -en / die Pensionistin, -nen",
+  "gloss": "retiree",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Rentner",
+  "sets": [
+   "27",
+   "15"
+  ]
+ },
+ {
+  "id": "R024",
+  "word": "das (Back-)Rohr, -e",
+  "gloss": "oven",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der (Back-)Ofen",
+  "sets": [
+   "20",
+   "02"
+  ]
+ },
+ {
+  "id": "R025",
+  "word": "die Schularbeit, -en",
+  "gloss": "class test",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Klassenarbeit",
+  "sets": [
+   "11",
+   "09"
+  ]
+ },
+ {
+  "id": "R026",
+  "word": "das Schwammerl, -n",
+  "gloss": "mushroom",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Pilz",
+  "sets": [
+   "25",
+   "13"
+  ]
+ },
+ {
+  "id": "R027",
+  "word": "die Semmel, -n",
+  "gloss": "bread roll",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "das Brötchen",
+  "sets": [
+   "06",
+   "08"
+  ]
+ },
+ {
+  "id": "R028",
+  "word": "der Sessel, -",
+  "gloss": "chair (in Germany: armchair)",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "der Stuhl",
+  "sets": [
+   "02",
+   "14"
+  ]
+ },
+ {
+  "id": "R029",
+  "word": "die Stiege, -n",
+  "gloss": "stairs",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Treppe",
+  "sets": [
+   "15",
+   "28"
+  ]
+ },
+ {
+  "id": "R030",
+  "word": "das Stiegenhaus, -häuser",
+  "gloss": "stairwell",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "das Treppenhaus",
+  "sets": [
+   "15",
+   "28"
+  ]
+ },
+ {
+  "id": "R031",
+  "word": "der Zünder, -",
+  "gloss": "match (for lighting a fire)",
+  "pos": "noun",
+  "kind": "austrian",
+  "de": "die Streichhölzer",
+  "sets": [
+   "25",
+   "28"
+  ]
+ }
+]

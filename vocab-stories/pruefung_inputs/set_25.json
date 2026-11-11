@@ -1,0 +1,545 @@
+{
+ "set": "25",
+ "title": "Natur und Wetter",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G209",
+   "entry": "der Bär, -en",
+   "level": "B1",
+   "gloss": "bear"
+  },
+  {
+   "id": "G212",
+   "entry": "die Ente, -n",
+   "level": "B1",
+   "gloss": "duck"
+  },
+  {
+   "id": "G214",
+   "entry": "die Fliege, -n",
+   "level": "B1",
+   "gloss": "fly (insect)"
+  },
+  {
+   "id": "G216",
+   "entry": "der Hase, -n",
+   "level": "B1",
+   "gloss": "hare"
+  },
+  {
+   "id": "G224",
+   "entry": "die Mücke, -n",
+   "level": "B1",
+   "gloss": "mosquito"
+  },
+  {
+   "id": "G227",
+   "entry": "das Schaf, -e",
+   "level": "B1",
+   "gloss": "sheep"
+  },
+  {
+   "id": "G238",
+   "entry": "das Grad",
+   "level": "A1",
+   "gloss": "degree (temperature)"
+  },
+  {
+   "id": "W0050",
+   "entry": "allerdings",
+   "level": "B1",
+   "gloss": "however"
+  },
+  {
+   "id": "W0265",
+   "entry": "der Bauer, -n",
+   "level": "B1",
+   "gloss": "farmer"
+  },
+  {
+   "id": "W0303",
+   "entry": "beißen, beißt, biss, hat gebissen",
+   "level": "B1",
+   "gloss": "to bite"
+  },
+  {
+   "id": "W0407",
+   "entry": "blitzen, blitzt, blitzte, hat geblitzt",
+   "level": "B1",
+   "gloss": "to flash (lightning)"
+  },
+  {
+   "id": "W0408",
+   "entry": "der Blitz, -e",
+   "level": "B1",
+   "gloss": "lightning"
+  },
+  {
+   "id": "W0410",
+   "entry": "bloß",
+   "level": "B1",
+   "gloss": "only, just; (for emphasis) on earth (Was ist bloß los?)"
+  },
+  {
+   "id": "W0532",
+   "entry": "donnern, donnert, donnerte, hat gedonnert",
+   "level": "B1",
+   "gloss": "to thunder"
+  },
+  {
+   "id": "W0533",
+   "entry": "der Donner, -",
+   "level": "B1",
+   "gloss": "thunder"
+  },
+  {
+   "id": "W0538",
+   "entry": "dorthin",
+   "level": "B1",
+   "gloss": "(to) there"
+  },
+  {
+   "id": "W0575",
+   "entry": "eckig",
+   "level": "B1",
+   "gloss": "angular, with corners"
+  },
+  {
+   "id": "W0681",
+   "entry": "die Erde",
+   "level": "B1",
+   "gloss": "soil, ground"
+  },
+  {
+   "id": "W0722",
+   "entry": "die Ernte, -n",
+   "level": "B1",
+   "gloss": "harvest, crop"
+  },
+  {
+   "id": "W0794",
+   "entry": "das Feld, -er",
+   "level": "B1",
+   "gloss": "field"
+  },
+  {
+   "id": "W0810",
+   "entry": "feststehen, steht fest, stand fest, ist festgestanden",
+   "level": "B1",
+   "gloss": "to be certain, to be settled"
+  },
+  {
+   "id": "W0814",
+   "entry": "feucht",
+   "level": "B1",
+   "gloss": "damp, moist"
+  },
+  {
+   "id": "W0837",
+   "entry": "fließen, fließt, floss, ist geflossen",
+   "level": "B1",
+   "gloss": "to flow"
+  },
+  {
+   "id": "W0876",
+   "entry": "fressen, frisst, fraß, hat gefressen",
+   "level": "B1",
+   "gloss": "to eat (animals)"
+  },
+  {
+   "id": "W0883",
+   "entry": "frieren, friert, fror, hat gefroren",
+   "level": "B1",
+   "gloss": "to be cold, to freeze"
+  },
+  {
+   "id": "W0927",
+   "entry": "das Gebiet, -e",
+   "level": "B1",
+   "gloss": "area, territory"
+  },
+  {
+   "id": "W0928",
+   "entry": "das Gebirge",
+   "level": "B1",
+   "gloss": "mountains, mountain range"
+  },
+  {
+   "id": "W0948",
+   "entry": "die Gegend, -en",
+   "level": "B1",
+   "gloss": "area, part of the country"
+  },
+  {
+   "id": "W1018",
+   "entry": "das Gift, -e",
+   "level": "B1",
+   "gloss": "poison"
+  },
+  {
+   "id": "W1019",
+   "entry": "giftig",
+   "level": "B1",
+   "gloss": "poisonous"
+  },
+  {
+   "id": "W1037",
+   "entry": "das Gras",
+   "level": "B1",
+   "gloss": "grass"
+  },
+  {
+   "id": "W1139",
+   "entry": "der Himmel",
+   "level": "A2",
+   "gloss": "sky"
+  },
+  {
+   "id": "W1148",
+   "entry": "die Hitze",
+   "level": "B1",
+   "gloss": "heat"
+  },
+  {
+   "id": "W1156",
+   "entry": "der Bauernhof, ¨-e",
+   "level": "B1",
+   "gloss": "farm"
+  },
+  {
+   "id": "W1170",
+   "entry": "der Hügel, -",
+   "level": "B1",
+   "gloss": "hill"
+  },
+  {
+   "id": "W1249",
+   "entry": "die Kälte",
+   "level": "B1",
+   "gloss": "cold, coldness"
+  },
+  {
+   "id": "W1421",
+   "entry": "die Landwirtschaft",
+   "level": "B1",
+   "gloss": "agriculture, farming"
+  },
+  {
+   "id": "W1492",
+   "entry": "locker",
+   "level": "B1",
+   "gloss": "loose"
+  },
+  {
+   "id": "W1502",
+   "entry": "die Luft",
+   "level": "B1",
+   "gloss": "air"
+  },
+  {
+   "id": "W1574",
+   "entry": "mild",
+   "level": "B1",
+   "gloss": "mild"
+  },
+  {
+   "id": "W1590",
+   "entry": "mittlerweile",
+   "level": "B1",
+   "gloss": "by now, meanwhile"
+  },
+  {
+   "id": "W1607",
+   "entry": "der Mond, -e",
+   "level": "B1",
+   "gloss": "moon"
+  },
+  {
+   "id": "W1632",
+   "entry": "nachdem",
+   "level": "B1",
+   "gloss": "after (conjunction)"
+  },
+  {
+   "id": "W1652",
+   "entry": "nämlich",
+   "level": "B1",
+   "gloss": "you see (gives a reason)"
+  },
+  {
+   "id": "W1656",
+   "entry": "die Natur",
+   "level": "A2",
+   "gloss": "nature"
+  },
+  {
+   "id": "W1658",
+   "entry": "der Nebel, -",
+   "level": "B1",
+   "gloss": "fog"
+  },
+  {
+   "id": "W1682",
+   "entry": "niedrig",
+   "level": "B1",
+   "gloss": "low"
+  },
+  {
+   "id": "W1690",
+   "entry": "normalerweise",
+   "level": "B1",
+   "gloss": "normally, usually"
+  },
+  {
+   "id": "W1707",
+   "entry": "ob",
+   "level": "B1",
+   "gloss": "whether, if"
+  },
+  {
+   "id": "W1713",
+   "entry": "obwohl",
+   "level": "B1",
+   "gloss": "although"
+  },
+  {
+   "id": "W1800",
+   "entry": "der Pilz, -e → A: Schwammerl",
+   "level": "B1",
+   "gloss": "mushroom"
+  },
+  {
+   "id": "W1889",
+   "entry": "die Realität, -en",
+   "level": "B1",
+   "gloss": "reality"
+  },
+  {
+   "id": "W1929",
+   "entry": "relativ",
+   "level": "B1",
+   "gloss": "relatively"
+  },
+  {
+   "id": "W1989",
+   "entry": "der Sand",
+   "level": "B1",
+   "gloss": "sand"
+  },
+  {
+   "id": "W2004",
+   "entry": "der Schatten, -",
+   "level": "B1",
+   "gloss": "shade, shadow"
+  },
+  {
+   "id": "W2046",
+   "entry": "der Schnee",
+   "level": "A2",
+   "gloss": "snow"
+  },
+  {
+   "id": "W2117",
+   "entry": "senkrecht",
+   "level": "B1",
+   "gloss": "vertical"
+  },
+  {
+   "id": "W2127",
+   "entry": "die Sicherheit, -en",
+   "level": "B1",
+   "gloss": "safety (here: just in case)"
+  },
+  {
+   "id": "W2227",
+   "entry": "stechen, sticht, stach, hat gestochen",
+   "level": "B1",
+   "gloss": "to sting, to bite (insects)"
+  },
+  {
+   "id": "W2235",
+   "entry": "steil",
+   "level": "B1",
+   "gloss": "steep"
+  },
+  {
+   "id": "W2236",
+   "entry": "der Stein, -e",
+   "level": "B1",
+   "gloss": "stone, rock"
+  },
+  {
+   "id": "W2241",
+   "entry": "der Stern, -e",
+   "level": "B1",
+   "gloss": "star"
+  },
+  {
+   "id": "W2291",
+   "entry": "der Sturm, ¨-e",
+   "level": "B1",
+   "gloss": "storm"
+  },
+  {
+   "id": "W2310",
+   "entry": "das Tal, ¨-er",
+   "level": "B1",
+   "gloss": "valley"
+  },
+  {
+   "id": "W2346",
+   "entry": "die Temperatur, -en",
+   "level": "B1",
+   "gloss": "temperature"
+  },
+  {
+   "id": "W2457",
+   "entry": "das Ufer, -",
+   "level": "B1",
+   "gloss": "bank, shore"
+  },
+  {
+   "id": "W2464",
+   "entry": "die Umgebung, -en",
+   "level": "B1",
+   "gloss": "surroundings, surrounding area"
+  },
+  {
+   "id": "W2580",
+   "entry": "der Verlust, -e",
+   "level": "B1",
+   "gloss": "loss"
+  },
+  {
+   "id": "W2660",
+   "entry": "vorkommen, kommt vor, kam vor, ist vorgekommen",
+   "level": "B1",
+   "gloss": "to occur, to be found"
+  },
+  {
+   "id": "W2663",
+   "entry": "vorn, vorne",
+   "level": "A2",
+   "gloss": "in front, at the front"
+  },
+  {
+   "id": "W2680",
+   "entry": "wachsen, wächst, wuchs, ist gewachsen",
+   "level": "B1",
+   "gloss": "to grow"
+  },
+  {
+   "id": "W2746",
+   "entry": "der Wetterbericht, -e",
+   "level": "B1",
+   "gloss": "weather report"
+  },
+  {
+   "id": "W2747",
+   "entry": "die Wettervorhersage, -n",
+   "level": "B1",
+   "gloss": "weather forecast"
+  },
+  {
+   "id": "W2755",
+   "entry": "wild",
+   "level": "B1",
+   "gloss": "wild"
+  },
+  {
+   "id": "W2756",
+   "entry": "die Wiese, -n",
+   "level": "B1",
+   "gloss": "meadow"
+  },
+  {
+   "id": "W2796",
+   "entry": "wunderschön",
+   "level": "B1",
+   "gloss": "beautiful, gorgeous"
+  },
+  {
+   "id": "W2906",
+   "entry": "hageln, hagelt, hagelte, hat gehagelt",
+   "level": "B1",
+   "gloss": "to hail"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2539",
+   "entry": "verbinden, verbindet, verband, hat verbunden",
+   "level": "B1",
+   "gloss": "to connect"
+  },
+  {
+   "id": "G013",
+   "entry": "das Kfz (Kraftfahrzeug)",
+   "level": "B1",
+   "gloss": "motor vehicle (abbreviation)"
+  },
+  {
+   "id": "W2150",
+   "entry": "sogar",
+   "level": "A2",
+   "gloss": "even"
+  },
+  {
+   "id": "W0583",
+   "entry": "eigen-",
+   "level": "A2",
+   "gloss": "own (as in: my own room)"
+  },
+  {
+   "id": "W0662",
+   "entry": "enthalten, enthält, enthielt, hat enthalten",
+   "level": "B1",
+   "gloss": "to contain"
+  },
+  {
+   "id": "W2647",
+   "entry": "vor allem",
+   "level": "B1",
+   "gloss": "above all, mainly"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X014",
+   "word": "der Nervenkitzel",
+   "gloss": "the thrill",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X016",
+   "word": "erzeugen, erzeugt, erzeugte, hat erzeugt",
+   "gloss": "to produce, generate",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X028",
+   "word": "hingegen",
+   "gloss": "on the other hand, in contrast",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R026",
+   "word": "das Schwammerl, -n",
+   "gloss": "mushroom",
+   "kind": "austrian",
+   "de": "der Pilz"
+  },
+  {
+   "id": "R031",
+   "word": "die Zünder (Pl.)",
+   "gloss": "matches",
+   "kind": "austrian",
+   "de": "die Streichhölzer"
+  }
+ ],
+ "story_opening": "Am Freitagabend sitzen Lena, Aylin und Mateo in Lenas Küche und planen eine Wanderung. „Wie wäre es, wenn wir am Samstag in die Sächsische Schweiz fahren?“, fragt Mateo. Lena lacht. „In die Schweiz? Das ist doch viel zu weit!“ „Nicht in die echte Schweiz“, antwortet Mateo. „Die Sächsische Schweiz ist ein kleines Gebirge an der Elbe, nicht weit von Dresden. Dort gibt es hohe Felsen, dunkle Wälder und viele Wanderwege. Das Gebiet ist zum Teil sogar ein Nationalpark.“\n\nAylin liest den Wetterbericht auf ihrem Handy vor: „Morgen wird es sonnig und heiß, bis zu 31 Grad. Allerdings sind am Nachmittag im Gebirge Gewitter möglich, und es kann sehr windig werden. Am Sonntag wird es kühler: morgens neb"
+}

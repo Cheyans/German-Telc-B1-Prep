@@ -1,0 +1,567 @@
+{
+ "set": "09",
+ "title": "Die Diskussion im Kurs",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "W0018",
+   "entry": "ablehnen, lehnt ab, lehnte ab, hat abgelehnt",
+   "level": "B1",
+   "gloss": "to reject, turn down"
+  },
+  {
+   "id": "W0019",
+   "entry": "abmachen, macht ab, machte ab, hat abgemacht",
+   "level": "B1",
+   "gloss": "to agree on, arrange"
+  },
+  {
+   "id": "W0044",
+   "entry": "akzeptieren, akzeptiert, akzeptierte, hat akzeptiert",
+   "level": "B1",
+   "gloss": "to accept"
+  },
+  {
+   "id": "W0063",
+   "entry": "die Alternative, -n",
+   "level": "B1",
+   "gloss": "alternative"
+  },
+  {
+   "id": "W0073",
+   "entry": "andererseits",
+   "level": "B1",
+   "gloss": "on the other hand"
+  },
+  {
+   "id": "W0092",
+   "entry": "ankündigen, kündigt an, kündigte an, hat angekündigt",
+   "level": "B1",
+   "gloss": "to announce (in advance)"
+  },
+  {
+   "id": "W0158",
+   "entry": "auffordern, fordert auf, forderte auf, hat aufgefordert",
+   "level": "B1",
+   "gloss": "to ask, call on (someone)"
+  },
+  {
+   "id": "W0159",
+   "entry": "die Aufforderung, -en",
+   "level": "B1",
+   "gloss": "request, instruction"
+  },
+  {
+   "id": "W0205",
+   "entry": "die Ausnahme, -n",
+   "level": "B1",
+   "gloss": "exception"
+  },
+  {
+   "id": "W0290",
+   "entry": "die Begründung, -en",
+   "level": "B1",
+   "gloss": "reason, justification"
+  },
+  {
+   "id": "W0291",
+   "entry": "begrüßen, begrüßt, begrüßte, hat begrüßt",
+   "level": "B1",
+   "gloss": "to greet, welcome"
+  },
+  {
+   "id": "W0294",
+   "entry": "behaupten, behauptet, behauptete, hat behauptet",
+   "level": "B1",
+   "gloss": "to claim"
+  },
+  {
+   "id": "W0308",
+   "entry": "bekannt geben, gibt bekannt, gab bekannt, hat bekannt gegeben",
+   "level": "B1",
+   "gloss": "to announce"
+  },
+  {
+   "id": "W0313",
+   "entry": "bemerken, bemerkt, bemerkte, hat bemerkt",
+   "level": "B1",
+   "gloss": "to notice"
+  },
+  {
+   "id": "W0348",
+   "entry": "besonder-",
+   "level": "B1",
+   "gloss": "special"
+  },
+  {
+   "id": "W0376",
+   "entry": "beweisen, beweist, bewies, hat bewiesen",
+   "level": "B1",
+   "gloss": "to prove"
+  },
+  {
+   "id": "W0385",
+   "entry": "bieten, bietet, bot, hat geboten",
+   "level": "B1",
+   "gloss": "to offer"
+  },
+  {
+   "id": "W0490",
+   "entry": "die Darstellung, -en",
+   "level": "B1",
+   "gloss": "chart, representation"
+  },
+  {
+   "id": "W0501",
+   "entry": "der Gedanke, -n",
+   "level": "B1",
+   "gloss": "thought, idea"
+  },
+  {
+   "id": "W0508",
+   "entry": "das Detail, -s",
+   "level": "B1",
+   "gloss": "detail"
+  },
+  {
+   "id": "W0527",
+   "entry": "die Diskussion, -en",
+   "level": "B1",
+   "gloss": "discussion"
+  },
+  {
+   "id": "W0566",
+   "entry": "duzen, duzt, duzte, hat geduzt",
+   "level": "B1",
+   "gloss": "to address as du (informal you)"
+  },
+  {
+   "id": "W0595",
+   "entry": "der Eindruck, ¨-e",
+   "level": "B1",
+   "gloss": "impression"
+  },
+  {
+   "id": "W0596",
+   "entry": "einerseits",
+   "level": "B1",
+   "gloss": "on the one hand"
+  },
+  {
+   "id": "W0599",
+   "entry": "einfallen, fällt ein, fiel ein, ist eingefallen",
+   "level": "B1",
+   "gloss": "to come to mind, occur to"
+  },
+  {
+   "id": "W0609",
+   "entry": "sich einigen, einigt sich, einigte sich, hat sich geeinigt",
+   "level": "B1",
+   "gloss": "to agree, reach an agreement"
+  },
+  {
+   "id": "W0635",
+   "entry": "die Einzelheit, -en",
+   "level": "B1",
+   "gloss": "detail"
+  },
+  {
+   "id": "W0636",
+   "entry": "einzig-",
+   "level": "B1",
+   "gloss": "only, single"
+  },
+  {
+   "id": "W0650",
+   "entry": "die Empfehlung, -en",
+   "level": "B1",
+   "gloss": "recommendation"
+  },
+  {
+   "id": "W0666",
+   "entry": "entscheiden, entscheidet, entschied, hat entschieden",
+   "level": "B1",
+   "gloss": "to decide"
+  },
+  {
+   "id": "W0667",
+   "entry": "die Entscheidung, -en",
+   "level": "B1",
+   "gloss": "decision"
+  },
+  {
+   "id": "W0678",
+   "entry": "entweder ... oder",
+   "level": "B1",
+   "gloss": "either ... or"
+  },
+  {
+   "id": "W0729",
+   "entry": "der Ersatz",
+   "level": "B1",
+   "gloss": "replacement"
+  },
+  {
+   "id": "W0807",
+   "entry": "festlegen, legt fest, legte fest, hat festgelegt",
+   "level": "B1",
+   "gloss": "to set, fix"
+  },
+  {
+   "id": "W0849",
+   "entry": "fordern, fordert, forderte, hat gefordert",
+   "level": "B1",
+   "gloss": "to demand"
+  },
+  {
+   "id": "W0850",
+   "entry": "die Forderung, -en",
+   "level": "B1",
+   "gloss": "demand"
+  },
+  {
+   "id": "W1070",
+   "entry": "die Hälfte, -n",
+   "level": "B1",
+   "gloss": "half"
+  },
+  {
+   "id": "W1105",
+   "entry": "heimlich",
+   "level": "B1",
+   "gloss": "secretly"
+  },
+  {
+   "id": "W1129",
+   "entry": "herunter-, runter- (herunter-)laden, lädt",
+   "level": "B1",
+   "gloss": "to download"
+  },
+  {
+   "id": "W1145",
+   "entry": "hinweisen, weist hin, wies hin, hat hingewiesen",
+   "level": "B1",
+   "gloss": "to point out"
+  },
+  {
+   "id": "W1146",
+   "entry": "der Hinweise, -e",
+   "level": "B1",
+   "gloss": "tip, hint"
+  },
+  {
+   "id": "W1193",
+   "entry": "der Inhalt, -e",
+   "level": "B1",
+   "gloss": "content"
+  },
+  {
+   "id": "W1295",
+   "entry": "klären, klärt, klärte, hat geklärt",
+   "level": "B1",
+   "gloss": "to clear up, sort out"
+  },
+  {
+   "id": "W1331",
+   "entry": "der Kompromiss, -e",
+   "level": "B1",
+   "gloss": "compromise"
+  },
+  {
+   "id": "W1386",
+   "entry": "kritisieren, kritisiert, kritisierte, hat kritisiert",
+   "level": "B1",
+   "gloss": "to criticize"
+  },
+  {
+   "id": "W1387",
+   "entry": "die Kritik, -en",
+   "level": "B1",
+   "gloss": "criticism"
+  },
+  {
+   "id": "W1388",
+   "entry": "kritisch",
+   "level": "B1",
+   "gloss": "critical"
+  },
+  {
+   "id": "W1486",
+   "entry": "link-",
+   "level": "A2",
+   "gloss": "left"
+  },
+  {
+   "id": "W1490",
+   "entry": "loben, lobt, lobte, hat gelobt",
+   "level": "B1",
+   "gloss": "to praise"
+  },
+  {
+   "id": "W1547",
+   "entry": "meinetwegen",
+   "level": "B1",
+   "gloss": "fine by me"
+  },
+  {
+   "id": "W1633",
+   "entry": "nachdenken, denkt nach, dachte nach, hat nachgedacht",
+   "level": "B1",
+   "gloss": "to think (about), reflect"
+  },
+  {
+   "id": "W1635",
+   "entry": "nachher",
+   "level": "B1",
+   "gloss": "later, afterwards"
+  },
+  {
+   "id": "W1640",
+   "entry": "der Nachteil, -e",
+   "level": "B1",
+   "gloss": "disadvantage"
+  },
+  {
+   "id": "W1664",
+   "entry": "negativ",
+   "level": "B1",
+   "gloss": "negative"
+  },
+  {
+   "id": "W1722",
+   "entry": "oft/öfter",
+   "level": "A1",
+   "gloss": "often; (öfter) more often, repeatedly"
+  },
+  {
+   "id": "W1805",
+   "entry": "die Planung, -en",
+   "level": "B1",
+   "gloss": "planning"
+  },
+  {
+   "id": "W1818",
+   "entry": "positiv",
+   "level": "B1",
+   "gloss": "positive"
+  },
+  {
+   "id": "W1873",
+   "entry": "der Rand, ¨-er",
+   "level": "B1",
+   "gloss": "edge, margin, rim"
+  },
+  {
+   "id": "W1886",
+   "entry": "reagieren, reagiert, reagierte, hat reagiert",
+   "level": "B1",
+   "gloss": "to react, respond"
+  },
+  {
+   "id": "W1915",
+   "entry": "reichen, reicht, reichte, hat gereicht",
+   "level": "B1",
+   "gloss": "to be enough"
+  },
+  {
+   "id": "W1918",
+   "entry": "die Reihenfolge, -n",
+   "level": "B1",
+   "gloss": "order, sequence"
+  },
+  {
+   "id": "W2133",
+   "entry": "(sich) siezen, siezt, siezte, hat gesiezt",
+   "level": "B1",
+   "gloss": "to address as Sie (formal you)"
+  },
+  {
+   "id": "W2214",
+   "entry": "der Standpunkt, -e",
+   "level": "B1",
+   "gloss": "point of view"
+  },
+  {
+   "id": "W2228",
+   "entry": "stecken, steckt, steckte, hat gesteckt",
+   "level": "B1",
+   "gloss": "to put (into)"
+  },
+  {
+   "id": "W2434",
+   "entry": "überlegen, überlegt, überlegte, hat überlegt",
+   "level": "B1",
+   "gloss": "to think about, consider"
+  },
+  {
+   "id": "W2439",
+   "entry": "überprüfen, überprüft, überprüfte, hat überprüft",
+   "level": "B1",
+   "gloss": "to check"
+  },
+  {
+   "id": "W2449",
+   "entry": "überübertreiben, übertreibt, übertrieb, hat übertrieben",
+   "level": "B1",
+   "gloss": "to exaggerate"
+  },
+  {
+   "id": "W2452",
+   "entry": "(sich) überzeugen, überzeugt, überzeugte, hat überzeugt",
+   "level": "B1",
+   "gloss": "to convince"
+  },
+  {
+   "id": "W2453",
+   "entry": "die Überzeugung, -en",
+   "level": "B1",
+   "gloss": "conviction"
+  },
+  {
+   "id": "W2466",
+   "entry": "umgekehrt",
+   "level": "B1",
+   "gloss": "the other way around"
+  },
+  {
+   "id": "W2494",
+   "entry": "unterbrechen, unterbricht, unterbrach, hat unterbrochen",
+   "level": "B1",
+   "gloss": "to interrupt"
+  },
+  {
+   "id": "W2505",
+   "entry": "unterscheiden, unterscheidet, unterschied, hat unterschieden",
+   "level": "B1",
+   "gloss": "to distinguish"
+  },
+  {
+   "id": "W2613",
+   "entry": "der Versuch, -e",
+   "level": "B1",
+   "gloss": "attempt"
+  },
+  {
+   "id": "W2659",
+   "entry": "vorhin",
+   "level": "B1",
+   "gloss": "a little while ago"
+  },
+  {
+   "id": "W2665",
+   "entry": "vorschlagen, schlägt vor, schlug vor, hat vorgeschlagen",
+   "level": "B1",
+   "gloss": "to suggest"
+  },
+  {
+   "id": "W2673",
+   "entry": "der Vorteil, -e",
+   "level": "B1",
+   "gloss": "advantage"
+  },
+  {
+   "id": "W2734",
+   "entry": "werfen, wirft, warf, hat geworfen",
+   "level": "B1",
+   "gloss": "to throw; to cast (a glance)"
+  },
+  {
+   "id": "W2749",
+   "entry": "widersprechen, widerspricht, widersprach, hat widersprochen",
+   "level": "B1",
+   "gloss": "to contradict, disagree"
+  },
+  {
+   "id": "W2883",
+   "entry": "zustimmen, stimmt zu, stimmte zu, hat zugestimmt",
+   "level": "B1",
+   "gloss": "to agree (with someone)"
+  },
+  {
+   "id": "W2884",
+   "entry": "die Zustimmung, -en",
+   "level": "B1",
+   "gloss": "approval, agreement"
+  },
+  {
+   "id": "W2889",
+   "entry": "der Zweck, -e",
+   "level": "B1",
+   "gloss": "purpose"
+  },
+  {
+   "id": "W2891",
+   "entry": "der Zweifel, -",
+   "level": "B1",
+   "gloss": "doubt"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2777",
+   "entry": "wohl",
+   "level": "B1",
+   "gloss": "probably; well (sich wohl fühlen: to feel good)"
+  },
+  {
+   "id": "W0323",
+   "entry": "der Bereich, -e",
+   "level": "B1",
+   "gloss": "area, field"
+  },
+  {
+   "id": "W2912",
+   "entry": "die Reihe, -n",
+   "level": "A2",
+   "gloss": "row, line; turn (Ich bin an der Reihe: it is my turn)"
+  },
+  {
+   "id": "W0171",
+   "entry": "aufpassen, passt auf, passte auf, hat aufgepasst",
+   "level": "A2",
+   "gloss": "to pay attention, to watch out; (auf) to look after"
+  },
+  {
+   "id": "W2603",
+   "entry": "versichern, versichert, versicherte, hat versichert",
+   "level": "B1",
+   "gloss": "to insure"
+  },
+  {
+   "id": "W0083",
+   "entry": "der Angehörige, -n",
+   "level": "B1",
+   "gloss": "relative, family member (male)"
+  },
+  {
+   "id": "W2202",
+   "entry": "die Sprechstunde, -n A:→ Ordination",
+   "level": "B1",
+   "gloss": "office hours (doctor's)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X021",
+   "word": "zusehen, sieht zu, sah zu, hat zugesehen",
+   "gloss": "to watch (= zuschauen)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X027",
+   "word": "beispielsweise",
+   "gloss": "for example",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R025",
+   "word": "die Schularbeit, -en",
+   "gloss": "class test",
+   "kind": "austrian",
+   "de": "die Klassenarbeit"
+  }
+ ],
+ "story_opening": "Am Dienstagabend sitzt Mateo früher als sonst im Kursraum der Volkshochschule. Frau Neumann hat letzte Woche angekündigt, dass es heute eine Diskussion gibt. „Das ist eine Übung für die mündliche Prüfung“, hat sie gesagt. Mateo braucht die B1-Prüfung für den deutschen Pass. In der Küche ist er nie nervös, auch wenn hundert Gäste warten. Aber frei auf Deutsch diskutieren ist etwas anderes. Er hat Zweifel, ob er das schafft.\n\nPünktlich um sieben begrüßt Frau Neumann die Gruppe: „Guten Abend, schön, dass Sie alle da sind! Bitte stecken Sie Ihre Handys in die Tasche. Heute brauchen wir nur unsere Köpfe.“ Alle lachen.\n\nIm Kurs duzen sich die Teilnehmer, sie sagen „du“ zueinander. Das haben sie am"
+}

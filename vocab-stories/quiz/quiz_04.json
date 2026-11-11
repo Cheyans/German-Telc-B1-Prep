@@ -1,0 +1,72 @@
+{
+ "story": "04",
+ "questions": [
+  {
+   "q": "Was gibt Herr Braun Lena im Treppenhaus?",
+   "right": "Ein Dokument, das ihre neue Adresse beweist.",
+   "wrong": [
+    "Einen Termin beim Bürgeramt für den nächsten Tag.",
+    "Den Schlüssel für den Keller und den Briefkasten."
+   ],
+   "evidence": "Er gibt ihr ein Blatt Papier. „Das ist die Bestätigung vom Vermieter. Damit zeigen Sie dem Amt, dass Sie wirklich hier wohnen.",
+   "why": "He gives her the Bestätigung (confirmation) from the landlord, which proves to the office that she lives there. She finds her appointment herself later, online.",
+   "words": [
+    "W0355"
+   ]
+  },
+  {
+   "q": "Welchen Tipp gibt Frau Krüger Lena?",
+   "right": "Sie soll morgens früh online nach Terminen suchen.",
+   "wrong": [
+    "Sie soll ohne Termin hingehen und dort geduldig warten.",
+    "Sie soll so lange anrufen, bis jemand antwortet."
+   ],
+   "evidence": "Wie wäre es, wenn Sie jeden Morgen um sieben Uhr ins Internet schauen? Dann gibt es oft neue Termine, weil andere Leute ihren Termin absagen.",
+   "why": "Her Einfall (idea) is to check online every morning at seven, because other people cancel. She says not to wait passively (passiv), and she does not suggest calling.",
+   "words": [
+    "W0600",
+    "W1769"
+   ]
+  },
+  {
+   "q": "Was sagt Frau Seidel über Lenas Personalausweis?",
+   "right": "Nach März ist er nicht mehr gültig.",
+   "wrong": [
+    "Mit dem neuen Aufkleber gilt er jetzt länger.",
+    "Er ist schon seit letztem März ungültig."
+   ],
+   "evidence": "„Ihr Ausweis ist übrigens nur noch bis März gültig“, sagt sie. „Danach ist er ungültig. Denken Sie also daran, rechtzeitig einen neuen zu beantragen.“",
+   "why": "Ungültig means not valid, so after March she cannot use this ID. It is still valid now, and the sticker only shows her new address.",
+   "words": [
+    "W2480"
+   ]
+  },
+  {
+   "q": "Was sagt Herr Albers zu Mateos Situation?",
+   "right": "Für die Prüfungen muss Mateo nicht bis zum Antrag warten.",
+   "wrong": [
+    "Mateo kann seinen Antrag schon nächste Woche abgeben.",
+    "Das telc-Zertifikat erkennt die Behörde leider nicht an."
+   ],
+   "evidence": "„Dann fehlen Ihnen noch zwei Jahre“, sagt Herr Albers. „Aber die beiden Prüfungen können Sie schon jetzt machen. Dann haben Sie später alles zusammen.“",
+   "why": "Mateo still needs two more years before he can apply, but he can take both exams now. Herr Albers also says they do recognize (anerkennen) the telc certificate.",
+   "words": [
+    "W0077"
+   ]
+  },
+  {
+   "q": "Was braucht die Behörde noch für Mateos Antrag?",
+   "right": "Das Original der Geburtsurkunde und eine Übersetzung.",
+   "wrong": [
+    "Eine übersetzte Kopie der Geburtsurkunde reicht aus.",
+    "Zusätzlich seine Heiratsurkunde aus Spanien."
+   ],
+   "evidence": "Aber hier ist nur eine Kopie. Für den Antrag müssen wir das Original sehen. Außerdem ist die Urkunde auf Spanisch, also brauchen wir auch eine Übersetzung ins Deutsche.",
+   "why": "A copy is not enough: the office must see the Original, and because the Urkunde (certificate) is in Spanish it also needs a German translation. He is single, so no marriage certificate is needed.",
+   "words": [
+    "W1745",
+    "W2516"
+   ]
+  }
+ ]
+}

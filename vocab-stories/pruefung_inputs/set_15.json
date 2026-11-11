@@ -1,0 +1,462 @@
+{
+ "set": "15",
+ "title": "Nachbarn und Hausordnung",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "W0033",
+   "entry": "abwaschen, wäscht ab, wusch ab, hat abgewaschen",
+   "level": "B1",
+   "gloss": "to wash (the dishes)"
+  },
+  {
+   "id": "W0237",
+   "entry": "die Badewanne, -n",
+   "level": "B1",
+   "gloss": "bathtub"
+  },
+  {
+   "id": "W0263",
+   "entry": "der Bau, Bauten",
+   "level": "B1",
+   "gloss": "construction (of a building)"
+  },
+  {
+   "id": "W0373",
+   "entry": "bevor",
+   "level": "B1",
+   "gloss": "before (conjunction)"
+  },
+  {
+   "id": "W0380",
+   "entry": "der Bewohner, - die Bewohnerin, -nen",
+   "level": "B1",
+   "gloss": "resident"
+  },
+  {
+   "id": "W0416",
+   "entry": "der Boden, ¨-",
+   "level": "B1",
+   "gloss": "floor"
+  },
+  {
+   "id": "W0456",
+   "entry": "die Bürste, -n",
+   "level": "B1",
+   "gloss": "brush"
+  },
+  {
+   "id": "W0457",
+   "entry": "die Zahnbürste, -n",
+   "level": "B1",
+   "gloss": "toothbrush"
+  },
+  {
+   "id": "W0477",
+   "entry": "daher",
+   "level": "B1",
+   "gloss": "therefore, that's why"
+  },
+  {
+   "id": "W0498",
+   "entry": "die Decke, -n",
+   "level": "B1",
+   "gloss": "ceiling"
+  },
+  {
+   "id": "W0541",
+   "entry": "der Dreck",
+   "level": "B1",
+   "gloss": "dirt, mess"
+  },
+  {
+   "id": "W0586",
+   "entry": "eilen, eilt, eilte, hat/ist geeilt",
+   "level": "B1",
+   "gloss": "to hurry, rush"
+  },
+  {
+   "id": "W0675",
+   "entry": "entstehen, entsteht, entstand, ist entstanden",
+   "level": "B1",
+   "gloss": "to come about, come into being"
+  },
+  {
+   "id": "W0686",
+   "entry": "erfahren, erfährt, erfuhr, hat erfahren",
+   "level": "B1",
+   "gloss": "to find out, learn"
+  },
+  {
+   "id": "W0689",
+   "entry": "die Erfindung, -en",
+   "level": "B1",
+   "gloss": "invention"
+  },
+  {
+   "id": "W0829",
+   "entry": "der Fleck, -en",
+   "level": "B1",
+   "gloss": "stain"
+  },
+  {
+   "id": "W0843",
+   "entry": "der Flur, -e Gang; D, CH:→ Korridor",
+   "level": "B1",
+   "gloss": "hallway"
+  },
+  {
+   "id": "W0939",
+   "entry": "die Gefahr, -en",
+   "level": "B1",
+   "gloss": "danger, hazard"
+  },
+  {
+   "id": "W0990",
+   "entry": "das Geschirr",
+   "level": "A2",
+   "gloss": "dishes"
+  },
+  {
+   "id": "W1012",
+   "entry": "gewöhnen, gewöhnt, gewöhnte, hat gewöhnt/ist gewöhnt",
+   "level": "B1",
+   "gloss": "to get used to"
+  },
+  {
+   "id": "W1053",
+   "entry": "das Grundstück, -e",
+   "level": "B1",
+   "gloss": "property, lot (land)"
+  },
+  {
+   "id": "W1082",
+   "entry": "der Handwerker, - die Handwerkerin, -nen",
+   "level": "B1",
+   "gloss": "repairman, tradesperson"
+  },
+  {
+   "id": "W1162",
+   "entry": "das Holz",
+   "level": "B1",
+   "gloss": "wood"
+  },
+  {
+   "id": "W1259",
+   "entry": "kaputtgehen",
+   "level": "B1",
+   "gloss": "to break (get broken)"
+  },
+  {
+   "id": "W1271",
+   "entry": "der Kasten, ¨- (D) Kiste→ (A, D) der Kasten, ¨- (A, CH) D,→ CH: Schrank",
+   "level": "B1",
+   "gloss": "crate (of bottles)"
+  },
+  {
+   "id": "W1313",
+   "entry": "klopfen, klopft, klopfte, hat geklopft",
+   "level": "B1",
+   "gloss": "to knock"
+  },
+  {
+   "id": "W1356",
+   "entry": "der Korridor, -e (D, CH) → Gang; D: Flur",
+   "level": "B1",
+   "gloss": "corridor"
+  },
+  {
+   "id": "W1433",
+   "entry": "der Lärm",
+   "level": "B1",
+   "gloss": "noise"
+  },
+  {
+   "id": "W1465",
+   "entry": "die Leiter, -n",
+   "level": "B1",
+   "gloss": "ladder"
+  },
+  {
+   "id": "W1491",
+   "entry": "das Loch, ¨-er",
+   "level": "B1",
+   "gloss": "hole"
+  },
+  {
+   "id": "W1564",
+   "entry": "das Metall, -e",
+   "level": "B1",
+   "gloss": "metal"
+  },
+  {
+   "id": "W1570",
+   "entry": "der Mieter, - die Mieterin, -nen",
+   "level": "B1",
+   "gloss": "tenant"
+  },
+  {
+   "id": "W1642",
+   "entry": "die Nadel, -n",
+   "level": "B1",
+   "gloss": "needle"
+  },
+  {
+   "id": "W1646",
+   "entry": "nähen, näht, nähte, hat genäht",
+   "level": "B1",
+   "gloss": "to sew"
+  },
+  {
+   "id": "W1715",
+   "entry": "der (Back-)Ofen, ¨- (D, CH) A: (Back-)Rohr→",
+   "level": "B1",
+   "gloss": "oven"
+  },
+  {
+   "id": "W1737",
+   "entry": "ordentlich",
+   "level": "B1",
+   "gloss": "neat, tidy"
+  },
+  {
+   "id": "W1920",
+   "entry": "reinigen, reinigt, reinigte, hat gereinigt",
+   "level": "B1",
+   "gloss": "to clean"
+  },
+  {
+   "id": "W1977",
+   "entry": "der Sack, ¨-e",
+   "level": "B1",
+   "gloss": "sack, large bag"
+  },
+  {
+   "id": "W1998",
+   "entry": "der Schaden, ¨-",
+   "level": "B1",
+   "gloss": "damage"
+  },
+  {
+   "id": "W2043",
+   "entry": "der Schmutz",
+   "level": "B1",
+   "gloss": "dirt"
+  },
+  {
+   "id": "W2109",
+   "entry": "seltsam",
+   "level": "B1",
+   "gloss": "strange, odd"
+  },
+  {
+   "id": "W2186",
+   "entry": "der Spiegel, -",
+   "level": "B1",
+   "gloss": "mirror"
+  },
+  {
+   "id": "W2205",
+   "entry": "spülen, spült, spülte, hat gespült",
+   "level": "B1",
+   "gloss": "to wash the dishes, rinse"
+  },
+  {
+   "id": "W2207",
+   "entry": "spüren, spürt, spürte, hat gespürt",
+   "level": "B1",
+   "gloss": "to feel (physically)"
+  },
+  {
+   "id": "W2225",
+   "entry": "der Staub",
+   "level": "B1",
+   "gloss": "dust"
+  },
+  {
+   "id": "W2226",
+   "entry": "staubsaugen, staubsaugt, staubsaugte, hat gestaubsaugt",
+   "level": "B1",
+   "gloss": "to vacuum"
+  },
+  {
+   "id": "W2254",
+   "entry": "stinken, stinkt, stank, hat gestunken",
+   "level": "B1",
+   "gloss": "to stink"
+  },
+  {
+   "id": "W2270",
+   "entry": "das Streichholz, ¨-er → Zündholz; A: Zünder",
+   "level": "B1",
+   "gloss": "match (for lighting)"
+  },
+  {
+   "id": "W2352",
+   "entry": "die Terrasse, -n",
+   "level": "B1",
+   "gloss": "patio, terrace"
+  },
+  {
+   "id": "W2414",
+   "entry": "trocknen, trocknet, trocknete, hat/ist getrocknet",
+   "level": "B1",
+   "gloss": "to dry"
+  },
+  {
+   "id": "W2493",
+   "entry": "unter-",
+   "level": "A1",
+   "gloss": "sub-, under- (Untermieter: subtenant)"
+  },
+  {
+   "id": "W2522",
+   "entry": "die Vase, -n",
+   "level": "B1",
+   "gloss": "vase"
+  },
+  {
+   "id": "W2584",
+   "entry": "die Vermietung, -en",
+   "level": "B1",
+   "gloss": "renting out"
+  },
+  {
+   "id": "W2643",
+   "entry": "völlig",
+   "level": "B1",
+   "gloss": "completely"
+  },
+  {
+   "id": "W2664",
+   "entry": "der Vorort, -e",
+   "level": "B1",
+   "gloss": "suburb"
+  },
+  {
+   "id": "W2704",
+   "entry": "das Waschmittel, -",
+   "level": "B1",
+   "gloss": "laundry detergent"
+  },
+  {
+   "id": "W2708",
+   "entry": "der Wecker, -",
+   "level": "B1",
+   "gloss": "alarm clock, alarm"
+  },
+  {
+   "id": "W2834",
+   "entry": "ziemlich",
+   "level": "B1",
+   "gloss": "quite, rather"
+  },
+  {
+   "id": "W2893",
+   "entry": "(sich) zwingen, zwingt, zwang, hat gezwungen",
+   "level": "B1",
+   "gloss": "to force (oneself)"
+  },
+  {
+   "id": "W2923",
+   "entry": "die Rücksicht, -en",
+   "level": "B1",
+   "gloss": "consideration (Rücksicht nehmen: be considerate)"
+  },
+  {
+   "id": "W2924",
+   "entry": "schreien, schreit, schrie, hat geschrien",
+   "level": "B1",
+   "gloss": "to shout, to scream"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2662",
+   "entry": "vorlesen, liest vor, las vor, hat vorgelesen",
+   "level": "B1",
+   "gloss": "to read aloud"
+  },
+  {
+   "id": "W0173",
+   "entry": "aufregen, regt auf, regte auf, hat aufgeregt",
+   "level": "B1",
+   "gloss": "to get worked up (sich aufregen)"
+  },
+  {
+   "id": "W0350",
+   "entry": "besorgen, besorgt, besorgte, hat besorgt",
+   "level": "B1",
+   "gloss": "to get, pick up (for someone)"
+  },
+  {
+   "id": "W2670",
+   "entry": "(sich) vorstellen, stellt vor, stellte vor, hat vorgestellt",
+   "level": "A1",
+   "gloss": "to introduce (oneself); (sich etwas) to imagine"
+  },
+  {
+   "id": "W0696",
+   "entry": "das Ergebnis, -se",
+   "level": "A1",
+   "gloss": "result; outcome; score"
+  },
+  {
+   "id": "W0327",
+   "entry": "berichten, berichtet, berichtete, hat berichtet",
+   "level": "A2",
+   "gloss": "to report; (über/von) to tell about, to report on"
+  },
+  {
+   "id": "W2917",
+   "entry": "zeichnen, zeichnet, zeichnete, hat gezeichnet",
+   "level": "A2",
+   "gloss": "to draw"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X012",
+   "word": "hin und wieder",
+   "gloss": "now and then",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X018",
+   "word": "die Bürgerinitiative, -n",
+   "gloss": "a local citizens' action group",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R008",
+   "word": "der Fauteuil, -s",
+   "gloss": "armchair",
+   "kind": "austrian",
+   "de": "der Sessel"
+  },
+  {
+   "id": "R023",
+   "word": "der Pensionist, -en / die Pensionistin, -nen",
+   "gloss": "retiree",
+   "kind": "austrian",
+   "de": "der Rentner"
+  },
+  {
+   "id": "R029",
+   "word": "die Stiege, -n",
+   "gloss": "stairs",
+   "kind": "austrian",
+   "de": "die Treppe"
+  },
+  {
+   "id": "R030",
+   "word": "das Stiegenhaus, -häuser",
+   "gloss": "stairwell",
+   "kind": "austrian",
+   "de": "das Treppenhaus"
+  }
+ ],
+ "story_opening": "Lena wohnt jetzt seit drei Monaten in Leipzig. An vieles hat sie sich schon gewöhnt: an die vielen Treppen, an die Straßenbahn vor dem Fenster und an den Lärm am Morgen. Gegenüber entsteht nämlich ein neues Hotel. Der Bau hat im Sommer begonnen, und seitdem hört man jeden Morgen ab sieben Uhr die Maschinen, sogar im vierten Stock. Trotzdem ist Lena froh, dass sie nach Leipzig umgezogen ist.\n\nAuch die meisten anderen Bewohner des Hauses kennt Lena inzwischen. Frau Krüger wohnt im Erdgeschoss. Vor ihrer Wohnung liegt eine kleine Terrasse mit vielen Blumen. Hinter dem Hof gehört noch eine Wiese zum Grundstück. Dort trocknet Frau Krüger bei schönem Wetter ihre Wäsche, und dann riecht der ganze H"
+}

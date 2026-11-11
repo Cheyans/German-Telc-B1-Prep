@@ -1,0 +1,77 @@
+{
+ "story": "26",
+ "questions": [
+  {
+   "q": "Was hat Frau Krüger schon lange bemerkt?",
+   "right": "Die Schilder an den Tonnen kann man kaum lesen.",
+   "wrong": [
+    "Die Tonnen im Hof sind für das Haus viel zu klein.",
+    "Die Biotonne gibt es schon seit vielen Jahren."
+   ],
+   "evidence": "„Mir ist schon lange aufgefallen, dass die Schilder an den Tonnen viel zu klein sind. Ich kann sie nicht einmal mit meiner Brille lesen.“",
+   "why": "Aufgefallen means noticed: she can't read the signs on the bins, even with glasses. The signs are too small, not the bins, and the organic bin has only been there since March.",
+   "words": [
+    "W0157",
+    "W0604"
+   ]
+  },
+  {
+   "q": "Was sagt Frau Winkler über den Umweltschutz?",
+   "right": "Umweltschutz geht alle an, Kinder genauso wie Erwachsene.",
+   "wrong": [
+    "Umweltschutz ist vor allem eine Aufgabe für die Politik.",
+    "Umweltschutz ist ein Thema für die Schule, nicht für zu Hause."
+   ],
+   "evidence": "„Heute geht es um Umweltschutz. Das ist nicht nur ein Thema für Politiker. Jeder kann im Alltag etwas für die Umwelt tun, sowohl Kinder als auch Erwachsene.“",
+   "why": "Frau Winkler says it is not only a topic for politicians: everyone can do something im Alltag (in everyday life), sowohl Kinder als auch Erwachsene (both children and adults).",
+   "words": [
+    "W2474",
+    "W0052",
+    "W2168"
+   ]
+  },
+  {
+   "q": "Was erzählt Frau Winkler über das Kraftwerk südlich von Leipzig?",
+   "right": "Es macht die Luft schmutzig und schadet der Gesundheit.",
+   "wrong": [
+    "Es macht heute nur noch Strom aus Sonne und Wind.",
+    "Es ist schon lange geschlossen, und dort ist heute ein See."
+   ],
+   "evidence": "Südlich von Leipzig steht heute noch ein großes Kraftwerk, das aus Kohle Strom macht. Seine Abgase verschmutzen die Luft und sind schädlich für die Gesundheit.",
+   "why": "The coal plant still runs today, and its exhaust (Abgase) pollutes (verschmutzen) the air and harms health. The lakes are old coal pits, not the plant.",
+   "words": [
+    "W1366",
+    "W0010",
+    "W2045"
+   ]
+  },
+  {
+   "q": "Wann blühen die ersten Blumen auf der neuen Wiese, wenn sie gut wachsen?",
+   "right": "Bereits im Juni.",
+   "wrong": [
+    "Erst im September.",
+    "Erst im nächsten Jahr."
+   ],
+   "evidence": "„Wann blühen die Blumen?“, fragt ein Junge. „Wenn sie gut wachsen, die ersten schon im Juni“, antwortet Frau Winkler.",
+   "why": "Frau Winkler says the first flowers will bloom (blühen) as early as June if they grow (wachsen) well.",
+   "words": [
+    "W0411",
+    "W2680"
+   ]
+  },
+  {
+   "q": "Wie sieht es eine Woche später in den Tonnen aus?",
+   "right": "Vieles ist besser, aber noch nicht alles ist richtig.",
+   "wrong": [
+    "Jetzt trennen alle Nachbarn ihren Müll ohne Fehler.",
+    "In der blauen Tonne liegt wieder viel Plastik und Glas."
+   ],
+   "evidence": "Eine Woche später öffnet Herr Braun die blaue Tonne. Darin liegt nur noch Papier. Allerdings findet er in der gelben Tonne eine alte Pfanne. „Na ja“, sagt er und lacht. „Obwohl noch nicht alles perfekt ist, sind wir auf einem guten Weg.“",
+   "why": "The blue bin now holds only paper, but (allerdings) there is an old pan in the yellow bin. So it is better, but not perfect yet (obwohl noch nicht alles perfekt ist).",
+   "words": [
+    "W0050",
+    "W1713"
+   ]
+  }
+ ]
+}

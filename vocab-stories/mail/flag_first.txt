@@ -1,0 +1,2 @@
+
+First round only: show my email with each error marked ~~like this~~ and a small number after it, but don't give the corrections yet. Below, give a short English hint for each number (the rule, not the answer). Then ask me to send a corrected version. When I send it, give the full feedback below for the corrected version, and say which errors I fixed myself. In the rating, also rate my first version, because the exam gives no second try.

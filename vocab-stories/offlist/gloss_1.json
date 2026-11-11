@@ -1,0 +1,1595 @@
+{
+ "abbrechen": {
+  "d": "abbrechen",
+  "g": "to call off, to stop",
+  "k": "word"
+ },
+ "abgebrochen": {
+  "d": "abbrechen",
+  "g": "to call off, to cut short",
+  "k": "word"
+ },
+ "abgelaufen": {
+  "d": "ablaufen",
+  "g": "to expire",
+  "k": "word"
+ },
+ "abgelegt": {
+  "d": "ablegen",
+  "g": "to take (an exam)",
+  "k": "word"
+ },
+ "abgelenkt": {
+  "d": "ablenken",
+  "g": "distracted",
+  "k": "word"
+ },
+ "abgeschlossen": {
+  "d": "abschließen",
+  "g": "locked; finished, completed",
+  "k": "word"
+ },
+ "Abholung": {
+  "d": "die Abholung, -en",
+  "g": "pickup (by the customer)",
+  "k": "word"
+ },
+ "Ablauf": {
+  "d": "der Ablauf, ¨-e",
+  "g": "procedure, how it runs",
+  "k": "word"
+ },
+ "ablesen": {
+  "d": "ablesen",
+  "g": "to read off (a page)",
+  "k": "word"
+ },
+ "Absagen": {
+  "d": "die Absage, -n",
+  "g": "cancellation",
+  "k": "word"
+ },
+ "abschließen": {
+  "d": "abschließen",
+  "g": "to sign up for (a contract)",
+  "k": "word"
+ },
+ "abschließt": {
+  "d": "abschließen",
+  "g": "to complete, to finish",
+  "k": "word"
+ },
+ "abschreibt": {
+  "d": "abschreiben",
+  "g": "to copy (answers), to cheat",
+  "k": "word"
+ },
+ "absichtlich": {
+  "d": "absichtlich",
+  "g": "on purpose, deliberately",
+  "k": "word"
+ },
+ "Abstand": {
+  "d": "der Abstand, ¨-e",
+  "g": "distance (taking a step back)",
+  "k": "word"
+ },
+ "abstellen": {
+  "d": "abstellen",
+  "g": "to put (down), to park",
+  "k": "word"
+ },
+ "Abwechslung": {
+  "d": "die Abwechslung, -en",
+  "g": "change (of pace), variety",
+  "k": "word"
+ },
+ "Achtet": {
+  "d": "achten (auf + Akk.)",
+  "g": "to watch out for",
+  "k": "word"
+ },
+ "Achtzigern": {
+  "d": "die Achtziger (Pl.)",
+  "g": "the eighties (1980s)",
+  "k": "word"
+ },
+ "Agentur": {
+  "d": "die Agentur, -en",
+  "g": "agency",
+  "k": "word"
+ },
+ "Agenturen": {
+  "d": "die Agentur, -en",
+  "g": "agency",
+  "k": "word"
+ },
+ "Akzent": {
+  "d": "der Akzent, -e",
+  "g": "accent",
+  "k": "word"
+ },
+ "Album": {
+  "d": "das Album, Alben",
+  "g": "album",
+  "k": "word"
+ },
+ "alkoholfreies": {
+  "d": "alkoholfrei",
+  "g": "non-alcoholic",
+  "k": "word"
+ },
+ "Altbau": {
+  "d": "der Altbau, -ten",
+  "g": "old (pre-war) building",
+  "k": "word"
+ },
+ "altmodisch": {
+  "d": "altmodisch",
+  "g": "old-fashioned",
+  "k": "word"
+ },
+ "Am": {
+  "d": "am = an dem; am …sten (am besten)",
+  "g": "at the, on the; the most (superlative)",
+  "k": "word"
+ },
+ "am": {
+  "d": "am = an dem; am …sten (am besten)",
+  "g": "at the, on the; the most (superlative)",
+  "k": "word"
+ },
+ "an": {
+  "d": "anrufen (ruf … an); an",
+  "g": "to call (phone); to (send to)",
+  "k": "word"
+ },
+ "Anbau": {
+  "d": "der Anbau",
+  "g": "growing, cultivation (farming)",
+  "k": "word"
+ },
+ "anderen": {
+  "d": "eine nach der anderen",
+  "g": "one after another",
+  "k": "word",
+  "base": "ander-"
+ },
+ "Anfahrt": {
+  "d": "die Anfahrt, -en",
+  "g": "travel (to the customer)",
+  "k": "word"
+ },
+ "anfassen": {
+  "d": "anfassen",
+  "g": "to touch",
+  "k": "word"
+ },
+ "Anfragen": {
+  "d": "die Anfrage, -n",
+  "g": "inquiry, request",
+  "k": "word"
+ },
+ "Anfänger": {
+  "d": "der Anfänger, -",
+  "g": "beginner",
+  "k": "word"
+ },
+ "anfühlt": {
+  "d": "sich anfühlen",
+  "g": "to feel (like)",
+  "k": "word"
+ },
+ "angefahren": {
+  "d": "anfahren",
+  "g": "to hit (with a vehicle)",
+  "k": "word"
+ },
+ "angemacht": {
+  "d": "anmachen",
+  "g": "to turn on, to switch on",
+  "k": "word"
+ },
+ "angezündet": {
+  "d": "anzünden",
+  "g": "to light",
+  "k": "word"
+ },
+ "anhalten": {
+  "d": "anhalten",
+  "g": "to hold (one's breath); to stop",
+  "k": "word"
+ },
+ "Anhang": {
+  "d": "der Anhang, ¨-e",
+  "g": "attachment (to an email)",
+  "k": "word"
+ },
+ "anhören": {
+  "d": "(sich) anhören",
+  "g": "to listen to",
+  "k": "word"
+ },
+ "Animation": {
+  "d": "die Animation, -en",
+  "g": "animation",
+  "k": "word"
+ },
+ "Anliegen": {
+  "d": "das Anliegen, -",
+  "g": "matter, request",
+  "k": "word"
+ },
+ "anprobieren": {
+  "d": "anprobieren",
+  "g": "to try on",
+  "k": "word"
+ },
+ "anprobiert": {
+  "d": "anprobieren",
+  "g": "to try on",
+  "k": "word"
+ },
+ "anruft": {
+  "d": "anrufen",
+  "g": "to call (on the phone)",
+  "k": "word"
+ },
+ "anschauen": {
+  "d": "(sich) anschauen",
+  "g": "to watch, to look at",
+  "k": "word"
+ },
+ "Anschreiben": {
+  "d": "das Anschreiben, -",
+  "g": "cover letter",
+  "k": "word"
+ },
+ "anstecken": {
+  "d": "sich anstecken",
+  "g": "to catch it, to get infected",
+  "k": "word"
+ },
+ "Anstrengendes": {
+  "d": "nichts Anstrengendes",
+  "g": "nothing strenuous, nothing tiring",
+  "k": "word",
+  "base": "anstrengend"
+ },
+ "Anteil": {
+  "d": "der Anteil, -e",
+  "g": "share, portion",
+  "k": "word"
+ },
+ "Antwortbögen": {
+  "d": "der Antwortbogen, ¨-",
+  "g": "answer sheet",
+  "k": "word"
+ },
+ "Anweisung": {
+  "d": "die Anweisung, -en",
+  "g": "instruction",
+  "k": "word"
+ },
+ "Anwohner": {
+  "d": "der Anwohner, -",
+  "g": "local resident",
+  "k": "word"
+ },
+ "anzünden": {
+  "d": "anzünden",
+  "g": "to light",
+  "k": "word"
+ },
+ "Apfelstrudel": {
+  "d": "der Apfelstrudel, -",
+  "g": "apple strudel",
+  "k": "word"
+ },
+ "Apotheker": {
+  "d": "der Apotheker, -",
+  "g": "pharmacist",
+  "k": "word"
+ },
+ "Apothekerin": {
+  "d": "die Apothekerin, -nen",
+  "g": "pharmacist (female)",
+  "k": "word"
+ },
+ "Apothekerinnen": {
+  "d": "die Apothekerin, -nen",
+  "g": "pharmacist (female)",
+  "k": "word"
+ },
+ "App": {
+  "d": "die App, -s",
+  "g": "app",
+  "k": "word"
+ },
+ "Applaus": {
+  "d": "der Applaus",
+  "g": "applause",
+  "k": "word"
+ },
+ "Arabisch": {
+  "d": "(das) Arabisch",
+  "g": "Arabic (language)",
+  "k": "word"
+ },
+ "arabischen": {
+  "d": "arabisch",
+  "g": "Arabic",
+  "k": "word"
+ },
+ "Arbeitgeber": {
+  "d": "der Arbeitgeber, -",
+  "g": "employer",
+  "k": "word"
+ },
+ "Arbeitsblatts": {
+  "d": "das Arbeitsblatt, ¨-er",
+  "g": "worksheet",
+  "k": "word"
+ },
+ "Arbeitszeiten": {
+  "d": "die Arbeitszeit, -en",
+  "g": "working hours",
+  "k": "word"
+ },
+ "argumentieren": {
+  "d": "argumentieren",
+  "g": "to argue, to make one's case",
+  "k": "word"
+ },
+ "Artems": {
+  "d": "Artem",
+  "g": "a person's name (Olga's son)",
+  "k": "name"
+ },
+ "at": {
+  "d": ".at",
+  "g": "internet domain for Austria",
+  "k": "abbr"
+ },
+ "Atlas": {
+  "d": "der Atlas, Atlanten",
+  "g": "atlas",
+  "k": "word"
+ },
+ "Au": {
+  "d": "au!",
+  "g": "ouch!",
+  "k": "interj"
+ },
+ "auf": {
+  "d": "auf (antworten auf + Akk.)",
+  "g": "to (reply to)",
+  "k": "word"
+ },
+ "aufeinander": {
+  "d": "aufeinander",
+  "g": "to each other, for each other",
+  "k": "word"
+ },
+ "aufgehängt": {
+  "d": "aufhängen",
+  "g": "to put up, to hang up",
+  "k": "word"
+ },
+ "aufgeregt": {
+  "d": "aufgeregt",
+  "g": "excited, nervous, agitated",
+  "k": "word"
+ },
+ "aufgestellt": {
+  "d": "aufstellen",
+  "g": "to set up; to set (a record)",
+  "k": "word"
+ },
+ "aufgewachsen": {
+  "d": "aufwachsen",
+  "g": "to grow up",
+  "k": "word"
+ },
+ "Aufhängen": {
+  "d": "das Aufhängen",
+  "g": "hanging (up)",
+  "k": "word"
+ },
+ "aufhängen": {
+  "d": "aufhängen",
+  "g": "to hang (up)",
+  "k": "word"
+ },
+ "Aufkleber": {
+  "d": "der Aufkleber, -",
+  "g": "sticker",
+  "k": "word"
+ },
+ "Aufläufe": {
+  "d": "der Auflauf, ¨-e",
+  "g": "casserole",
+  "k": "word"
+ },
+ "aufmachen": {
+  "d": "aufmachen",
+  "g": "to open (a business)",
+  "k": "word"
+ },
+ "Aufsicht": {
+  "d": "die Aufsicht, -en",
+  "g": "proctor, exam supervisor",
+  "k": "word"
+ },
+ "aus": {
+  "d": "ausschalten (aus- und einschalten)",
+  "g": "to switch off (and on)",
+  "k": "word"
+ },
+ "ausbilden": {
+  "d": "ausbilden",
+  "g": "to train (apprentices)",
+  "k": "word"
+ },
+ "ausgebucht": {
+  "d": "ausbuchen",
+  "g": "fully booked",
+  "k": "word"
+ },
+ "ausgelöst": {
+  "d": "auslösen",
+  "g": "to set off, to trigger",
+  "k": "word"
+ },
+ "ausgerechnet": {
+  "d": "ausgerechnet",
+  "g": "of all things",
+  "k": "word"
+ },
+ "ausgerutscht": {
+  "d": "ausrutschen",
+  "g": "to slip",
+  "k": "word"
+ },
+ "ausgeschaltet": {
+  "d": "ausschalten",
+  "g": "to switch off, to turn off",
+  "k": "word"
+ },
+ "ausgetauscht": {
+  "d": "austauschen",
+  "g": "to replace",
+  "k": "word"
+ },
+ "auskennen": {
+  "d": "sich auskennen",
+  "g": "to know one's way around",
+  "k": "word"
+ },
+ "auskommen": {
+  "d": "auskommen (ohne + Akk.)",
+  "g": "to manage (without), to get by",
+  "k": "word"
+ },
+ "ausladen": {
+  "d": "ausladen",
+  "g": "to unload",
+  "k": "word"
+ },
+ "ausleihen": {
+  "d": "(sich) ausleihen",
+  "g": "to borrow",
+  "k": "word"
+ },
+ "Ausprobieren": {
+  "d": "das Ausprobieren",
+  "g": "trying (things) out",
+  "k": "word"
+ },
+ "ausprobieren": {
+  "d": "ausprobieren",
+  "g": "to try (out)",
+  "k": "word"
+ },
+ "ausverkauft": {
+  "d": "ausverkaufen",
+  "g": "sold out",
+  "k": "word"
+ },
+ "ausweichen": {
+  "d": "ausweichen",
+  "g": "to move aside, to dodge",
+  "k": "word"
+ },
+ "auswendig": {
+  "d": "auswendig",
+  "g": "by heart",
+  "k": "word"
+ },
+ "Auswertung": {
+  "d": "die Auswertung, -en",
+  "g": "analysis, evaluation",
+  "k": "word"
+ },
+ "auszuhalten": {
+  "d": "aushalten",
+  "g": "to bear, to stand",
+  "k": "word"
+ },
+ "Autofahren": {
+  "d": "das Autofahren",
+  "g": "driving (a car)",
+  "k": "word"
+ },
+ "Automatik": {
+  "d": "die Automatik, -en",
+  "g": "automatic transmission",
+  "k": "word"
+ },
+ "Auwald": {
+  "d": "der Auwald, ¨-er",
+  "g": "floodplain forest (in Leipzig)",
+  "k": "word"
+ },
+ "Aylin-Home": {
+  "d": "Aylin-Home",
+  "g": "name of a Wi-Fi network",
+  "k": "name"
+ },
+ "ballferien-leipzig": {
+  "d": "ballferien-leipzig.de",
+  "g": "web address of a soccer camp",
+  "k": "name"
+ },
+ "Bananenschalen": {
+  "d": "die Bananenschale, -n",
+  "g": "banana peel",
+  "k": "word"
+ },
+ "Bass": {
+  "d": "der Bass, ¨-e",
+  "g": "bass (low sounds)",
+  "k": "word"
+ },
+ "baumeln": {
+  "d": "die Seele baumeln lassen",
+  "g": "to unwind, to relax completely",
+  "k": "word"
+ },
+ "Baumes": {
+  "d": "der Baum, ¨-e",
+  "g": "tree",
+  "k": "word"
+ },
+ "Beamter": {
+  "d": "der Beamte, -n (ein Beamter)",
+  "g": "civil servant, official",
+  "k": "word"
+ },
+ "Becher": {
+  "d": "der Becher, -",
+  "g": "cup",
+  "k": "word"
+ },
+ "befragt": {
+  "d": "befragen",
+  "g": "to survey, to question",
+  "k": "word"
+ },
+ "Befragten": {
+  "d": "der/die Befragte, -n",
+  "g": "respondent, person surveyed",
+  "k": "word"
+ },
+ "befragten": {
+  "d": "befragen",
+  "g": "surveyed",
+  "k": "word"
+ },
+ "begraben": {
+  "d": "das Kriegsbeil begraben",
+  "g": "to bury the hatchet",
+  "k": "word"
+ },
+ "Begrüßung": {
+  "d": "die Begrüßung, -en",
+  "g": "greeting, welcome",
+  "k": "word"
+ },
+ "Beides": {
+  "d": "beides",
+  "g": "both (things)",
+  "k": "word"
+ },
+ "Beinbruch": {
+  "d": "Hals- und Beinbruch!",
+  "g": "break a leg! (good luck)",
+  "k": "interj"
+ },
+ "beleidigt": {
+  "d": "beleidigen",
+  "g": "offended, hurt",
+  "k": "word"
+ },
+ "bellt": {
+  "d": "anbellen",
+  "g": "to bark at",
+  "k": "word"
+ },
+ "bemüht": {
+  "d": "sich bemühen",
+  "g": "to make an effort, try hard",
+  "k": "word"
+ },
+ "benutzten": {
+  "d": "benutzen",
+  "g": "used",
+  "k": "word"
+ },
+ "Berater": {
+  "d": "der Berater, -",
+  "g": "advisor, consultant",
+  "k": "word"
+ },
+ "Berliner": {
+  "d": "Berliner (Adjektiv)",
+  "g": "Berlin, of Berlin",
+  "k": "word"
+ },
+ "Berufstätige": {
+  "d": "der/die Berufstätige, -n",
+  "g": "working person",
+  "k": "word"
+ },
+ "Bescheinigung": {
+  "d": "die Bescheinigung, -en",
+  "g": "certificate (official confirmation)",
+  "k": "word"
+ },
+ "beschimpft": {
+  "d": "beschimpfen",
+  "g": "to insult, to yell at",
+  "k": "word"
+ },
+ "beseitigt": {
+  "d": "beseitigen",
+  "g": "to fix, to remove (a defect)",
+  "k": "word"
+ },
+ "Besichtigung": {
+  "d": "die Besichtigung, -en",
+  "g": "viewing (before renting or buying)",
+  "k": "word"
+ },
+ "Besitzer": {
+  "d": "der Besitzer, -",
+  "g": "owner",
+  "k": "word"
+ },
+ "Besondere": {
+  "d": "das Besondere",
+  "g": "the special thing",
+  "k": "word"
+ },
+ "besseres": {
+  "d": "gut, besser, am besten",
+  "g": "better",
+  "k": "word"
+ },
+ "Beste": {
+  "d": "das Beste",
+  "g": "the best (thing)",
+  "k": "word"
+ },
+ "Bestellung": {
+  "d": "die Bestellung, -en",
+  "g": "order",
+  "k": "word"
+ },
+ "Bestellungen": {
+  "d": "die Bestellung, -en",
+  "g": "order",
+  "k": "word"
+ },
+ "Besucher": {
+  "d": "der Besucher, -",
+  "g": "visitor",
+  "k": "word"
+ },
+ "betont": {
+  "d": "betonen",
+  "g": "to stress, to emphasize",
+  "k": "word"
+ },
+ "betonte": {
+  "d": "betonen",
+  "g": "to stress, to emphasize",
+  "k": "word"
+ },
+ "betreffen": {
+  "d": "betreffen",
+  "g": "to concern, to be about",
+  "k": "word"
+ },
+ "betrifft": {
+  "d": "betreffen",
+  "g": "to affect, to concern",
+  "k": "word"
+ },
+ "betroffen": {
+  "d": "betreffen",
+  "g": "affected",
+  "k": "word"
+ },
+ "Betroffene": {
+  "d": "der/die Betroffene, -n",
+  "g": "person affected",
+  "k": "word"
+ },
+ "Betrug": {
+  "d": "der Betrug",
+  "g": "fraud, scam",
+  "k": "word"
+ },
+ "beträgt": {
+  "d": "betragen",
+  "g": "to amount to, to be",
+  "k": "word"
+ },
+ "Betrüger": {
+  "d": "der Betrüger, -",
+  "g": "scammer, fraudster",
+  "k": "word"
+ },
+ "bewahrt": {
+  "d": "aufbewahren",
+  "g": "to keep, to store",
+  "k": "word"
+ },
+ "Bewerber": {
+  "d": "der Bewerber, -",
+  "g": "applicant",
+  "k": "word"
+ },
+ "bewertet": {
+  "d": "bewerten",
+  "g": "to assess, to grade",
+  "k": "word"
+ },
+ "bewusst": {
+  "d": "bewusst",
+  "g": "deliberately; consciously",
+  "k": "word"
+ },
+ "Bezahlen": {
+  "d": "das Bezahlen",
+  "g": "paying",
+  "k": "word"
+ },
+ "bezahlte": {
+  "d": "bezahlen",
+  "g": "paid",
+  "k": "word"
+ },
+ "Bezahlung": {
+  "d": "die Bezahlung",
+  "g": "pay, payment",
+  "k": "word"
+ },
+ "Bezirk": {
+  "d": "der Bezirk, -e",
+  "g": "district",
+  "k": "word"
+ },
+ "Bilanz": {
+  "d": "die Bilanz, -en",
+  "g": "results, outcome",
+  "k": "word"
+ },
+ "bilden": {
+  "d": "sich bilden",
+  "g": "to form",
+  "k": "word"
+ },
+ "bildete": {
+  "d": "sich bilden",
+  "g": "to form",
+  "k": "word"
+ },
+ "Bin": {
+  "d": "sein",
+  "g": "to be (I am)",
+  "k": "word"
+ },
+ "bisherigen": {
+  "d": "bisherig",
+  "g": "previous",
+  "k": "word"
+ },
+ "Blazer": {
+  "d": "der Blazer, -",
+  "g": "blazer (jacket)",
+  "k": "word"
+ },
+ "blinkt": {
+  "d": "blinken",
+  "g": "to flash, to blink",
+  "k": "word"
+ },
+ "Block": {
+  "d": "der Block, ¨-e/-s",
+  "g": "block (of buildings)",
+  "k": "word"
+ },
+ "Bornaische": {
+  "d": "Bornaische Straße",
+  "g": "a street in Leipzig",
+  "k": "name"
+ },
+ "Brand": {
+  "d": "der Brand, ¨-e",
+  "g": "fire",
+  "k": "word"
+ },
+ "braune": {
+  "d": "braun",
+  "g": "brown",
+  "k": "word"
+ },
+ "Brei": {
+  "d": "der Brei, -e",
+  "g": "porridge, mush (proverb: the broth)",
+  "k": "word"
+ },
+ "brennenden": {
+  "d": "brennen",
+  "g": "burning",
+  "k": "word"
+ },
+ "Brenner": {
+  "d": "Brenner",
+  "g": "a person's name (cookbook author)",
+  "k": "name"
+ },
+ "Buchung": {
+  "d": "die Buchung, -en",
+  "g": "booking, reservation",
+  "k": "word"
+ },
+ "buero": {
+  "d": "buero = das Büro, -s",
+  "g": "office (in an email address)",
+  "k": "word"
+ },
+ "Busfahrt": {
+  "d": "die Busfahrt, -en",
+  "g": "bus ride, bus trip",
+  "k": "word"
+ },
+ "Bäcker": {
+  "d": "der Bäcker, -",
+  "g": "baker; the baker's (shop)",
+  "k": "word"
+ },
+ "Böhme": {
+  "d": "Böhme",
+  "g": "a surname (here a company)",
+  "k": "name"
+ },
+ "Bücherei": {
+  "d": "die Bücherei, -en",
+  "g": "library",
+  "k": "word"
+ },
+ "CD": {
+  "d": "die CD, -s (Compact Disc)",
+  "g": "CD",
+  "k": "abbr"
+ },
+ "CDs": {
+  "d": "die CD, -s (Compact Disc)",
+  "g": "CD",
+  "k": "abbr"
+ },
+ "Chaos": {
+  "d": "das Chaos",
+  "g": "chaos",
+  "k": "word"
+ },
+ "Chemikalien": {
+  "d": "die Chemikalie, -n",
+  "g": "chemical",
+  "k": "word"
+ },
+ "Chor": {
+  "d": "der Chor, ¨-e",
+  "g": "choir",
+  "k": "word"
+ },
+ "christlicher": {
+  "d": "christlich",
+  "g": "Christian",
+  "k": "word"
+ },
+ "Clever": {
+  "d": "clever",
+  "g": "smart, smartly",
+  "k": "word"
+ },
+ "Code": {
+  "d": "der Code, -s",
+  "g": "code",
+  "k": "word"
+ },
+ "Computerfehlers": {
+  "d": "der Computerfehler, -",
+  "g": "computer error",
+  "k": "word"
+ },
+ "Container": {
+  "d": "der Container, -",
+  "g": "(recycling) container",
+  "k": "word"
+ },
+ "Containern": {
+  "d": "der Container, -",
+  "g": "(recycling) container",
+  "k": "word"
+ },
+ "Copyshop": {
+  "d": "der Copyshop, -s",
+  "g": "copy shop, print shop",
+  "k": "word"
+ },
+ "daheim": {
+  "d": "daheim",
+  "g": "at home (Austrian, southern German)",
+  "k": "word"
+ },
+ "Dank": {
+  "d": "vielen Dank (im Voraus)",
+  "g": "many thanks (in advance)",
+  "k": "interj"
+ },
+ "dank": {
+  "d": "dank (+ Genitiv)",
+  "g": "thanks to",
+  "k": "word"
+ },
+ "Dankeschön": {
+  "d": "das Dankeschön",
+  "g": "a thank-you",
+  "k": "word"
+ },
+ "Datenvolumen": {
+  "d": "das Datenvolumen",
+  "g": "mobile data (allowance)",
+  "k": "word"
+ },
+ "Dazwischen": {
+  "d": "dazwischen",
+  "g": "in between",
+  "k": "word"
+ },
+ "dazwischen": {
+  "d": "dazwischen",
+  "g": "in between",
+  "k": "word"
+ },
+ "de": {
+  "d": ".de",
+  "g": "internet domain for Germany",
+  "k": "abbr"
+ },
+ "Deck": {
+  "d": "das Deck, -s",
+  "g": "deck (of a ship)",
+  "k": "word"
+ },
+ "Deckel": {
+  "d": "der Deckel, -",
+  "g": "lid",
+  "k": "word"
+ },
+ "Deiche": {
+  "d": "der Deich, -e",
+  "g": "levee, dike",
+  "k": "word"
+ },
+ "Deichen": {
+  "d": "der Deich, -e",
+  "g": "levee, dike",
+  "k": "word"
+ },
+ "Demos": {
+  "d": "Demos (griechisches Wort)",
+  "g": "people (a Greek word)",
+  "k": "word"
+ },
+ "Denk": {
+  "d": "nachdenken",
+  "g": "to think (it) over",
+  "k": "word"
+ },
+ "derzeit": {
+  "d": "derzeit",
+  "g": "currently, at present",
+  "k": "word"
+ },
+ "Design": {
+  "d": "das Design, -s",
+  "g": "design",
+  "k": "word"
+ },
+ "Deutschlernen": {
+  "d": "das Deutschlernen",
+  "g": "learning German",
+  "k": "word"
+ },
+ "Dieselbe": {
+  "d": "derselbe, dieselbe, dasselbe",
+  "g": "the same",
+  "k": "word"
+ },
+ "Digital": {
+  "d": "digital",
+  "g": "digital, digitally",
+  "k": "word"
+ },
+ "Dip": {
+  "d": "der Dip, -s",
+  "g": "dip (sauce)",
+  "k": "word"
+ },
+ "Display": {
+  "d": "das Display, -s",
+  "g": "screen, display",
+  "k": "word"
+ },
+ "Dr": {
+  "d": "Dr. = Doktor (Titel)",
+  "g": "Dr. (academic title)",
+  "k": "abbr"
+ },
+ "dreihundert": {
+  "d": "dreihundert",
+  "g": "three hundred",
+  "k": "word"
+ },
+ "dreiundzwanzig": {
+  "d": "dreiundzwanzig",
+  "g": "twenty-three",
+  "k": "word"
+ },
+ "Drinnen": {
+  "d": "drinnen",
+  "g": "inside, indoors",
+  "k": "word"
+ },
+ "dritt": {
+  "d": "zu dritt",
+  "g": "the three of them (together)",
+  "k": "word",
+  "base": "drei"
+ },
+ "Drittel": {
+  "d": "das Drittel, -",
+  "g": "third (fraction)",
+  "k": "word"
+ },
+ "dunkelblaue": {
+  "d": "dunkelblau",
+  "g": "dark blue, navy",
+  "k": "word"
+ },
+ "dunkelblauen": {
+  "d": "dunkelblau",
+  "g": "dark blue, navy",
+  "k": "word"
+ },
+ "durchgeführt": {
+  "d": "durchführen",
+  "g": "to carry out, to conduct",
+  "k": "word"
+ },
+ "durchgekommen": {
+  "d": "durchkommen",
+  "g": "to get through (by phone)",
+  "k": "word"
+ },
+ "Düne": {
+  "d": "Hohe Düne",
+  "g": "a seaside part of Rostock",
+  "k": "name"
+ },
+ "e-card": {
+  "d": "die e-card, -s",
+  "g": "health insurance card (Austrian)",
+  "k": "word"
+ },
+ "Eck": {
+  "d": "das Eck, -en",
+  "g": "corner (Austrian, southern German)",
+  "k": "word"
+ },
+ "ehemalige": {
+  "d": "ehemalig",
+  "g": "former",
+  "k": "word"
+ },
+ "ehemaligen": {
+  "d": "ehemalig",
+  "g": "former",
+  "k": "word"
+ },
+ "Ehrenamtliche": {
+  "d": "ehrenamtlich",
+  "g": "volunteer, unpaid",
+  "k": "word"
+ },
+ "Eigentümer": {
+  "d": "der Eigentümer, -",
+  "g": "owner, homeowner",
+  "k": "word"
+ },
+ "Eimer": {
+  "d": "der Eimer, -",
+  "g": "bucket",
+  "k": "word"
+ },
+ "Eimern": {
+  "d": "der Eimer, -",
+  "g": "bucket",
+  "k": "word"
+ },
+ "ein": {
+  "d": "einmal (ein- oder zweimal)",
+  "g": "once (once or twice)",
+  "k": "word"
+ },
+ "einbürgern": {
+  "d": "einbürgern (sich einbürgern lassen)",
+  "g": "to naturalize (become a citizen)",
+  "k": "word"
+ },
+ "Einbürgerung": {
+  "d": "die Einbürgerung, -en",
+  "g": "naturalization (citizenship)",
+  "k": "word"
+ },
+ "Einbürgerungen": {
+  "d": "die Einbürgerung, -en",
+  "g": "naturalization (citizenship)",
+  "k": "word"
+ },
+ "eingebürgert": {
+  "d": "einbürgern",
+  "g": "to naturalize (grant citizenship)",
+  "k": "word"
+ },
+ "eingereist": {
+  "d": "einreisen",
+  "g": "to enter (a country)",
+  "k": "word"
+ },
+ "Einheit": {
+  "d": "die Einheit",
+  "g": "unity (German reunification)",
+  "k": "word"
+ },
+ "einjährigen": {
+  "d": "einjährig",
+  "g": "one-year-old",
+  "k": "word"
+ },
+ "Einkaufen": {
+  "d": "das Einkaufen",
+  "g": "shopping",
+  "k": "word"
+ },
+ "einschlafen": {
+  "d": "einschlafen",
+  "g": "to fall asleep",
+  "k": "word"
+ },
+ "Einstieg": {
+  "d": "der Einstieg, -e",
+  "g": "joining, start (of a course)",
+  "k": "word"
+ },
+ "Einzug": {
+  "d": "der Einzug, ¨-e",
+  "g": "moving in",
+  "k": "word"
+ },
+ "einzuteilen": {
+  "d": "einteilen",
+  "g": "to budget, to divide up",
+  "k": "word"
+ },
+ "eiskalt": {
+  "d": "eiskalt",
+  "g": "ice-cold, freezing",
+  "k": "word"
+ },
+ "Elektriker": {
+  "d": "der Elektriker, -",
+  "g": "electrician",
+  "k": "word"
+ },
+ "Elster": {
+  "d": "die Weiße Elster",
+  "g": "a river in Leipzig",
+  "k": "name"
+ },
+ "engagieren": {
+  "d": "sich engagieren",
+  "g": "to get involved, to be active",
+  "k": "word"
+ },
+ "Englisch": {
+  "d": "(das) Englisch",
+  "g": "English (language)",
+  "k": "word"
+ },
+ "entfernt": {
+  "d": "entfernt (weit entfernt)",
+  "g": "away, apart, distant",
+  "k": "word"
+ },
+ "entscheidende": {
+  "d": "entscheidend",
+  "g": "decisive, crucial",
+  "k": "word"
+ },
+ "Entschuldige": {
+  "d": "entschuldigen",
+  "g": "to excuse (here: sorry)",
+  "k": "word"
+ },
+ "entspannt": {
+  "d": "entspannen",
+  "g": "relaxed",
+  "k": "word"
+ },
+ "Enttäuscht": {
+  "d": "enttäuschen",
+  "g": "disappointed",
+  "k": "word"
+ },
+ "Entworfen": {
+  "d": "entwerfen",
+  "g": "to design",
+  "k": "word"
+ },
+ "Entwurf": {
+  "d": "der Entwurf, ¨-e",
+  "g": "draft, design",
+  "k": "word"
+ },
+ "erfahrene": {
+  "d": "erfahren",
+  "g": "experienced",
+  "k": "word",
+  "base": ""
+ },
+ "erfahrenen": {
+  "d": "erfahren",
+  "g": "experienced",
+  "k": "word",
+  "base": ""
+ },
+ "Erfinderinnen": {
+  "d": "die Erfinderin, -nen",
+  "g": "inventor (female)",
+  "k": "word"
+ },
+ "ergeben": {
+  "d": "ergeben",
+  "g": "to show, to find (results)",
+  "k": "word"
+ },
+ "erlaubte": {
+  "d": "erlauben",
+  "g": "permitted, allowed",
+  "k": "word"
+ },
+ "erleichtert": {
+  "d": "erleichtert",
+  "g": "relieved",
+  "k": "word",
+  "base": "erleichtern"
+ },
+ "erneuert": {
+  "d": "erneuern",
+  "g": "to renew, to resurface",
+  "k": "word"
+ },
+ "Ernährungsberaterin": {
+  "d": "die Ernährungsberaterin, -nen",
+  "g": "nutritionist (female)",
+  "k": "word"
+ },
+ "erreichbar": {
+  "d": "erreichbar",
+  "g": "reachable, available",
+  "k": "word"
+ },
+ "erscheint": {
+  "d": "erscheinen",
+  "g": "to appear",
+  "k": "word"
+ },
+ "erschrocken": {
+  "d": "erschrecken",
+  "g": "startled, frightened",
+  "k": "word"
+ },
+ "Erster": {
+  "d": "als Erster",
+  "g": "first, the first one",
+  "k": "word",
+  "base": "erst-"
+ },
+ "Erstes": {
+  "d": "als Erstes",
+  "g": "first (of all)",
+  "k": "word",
+  "base": "erst-"
+ },
+ "Erwachsener": {
+  "d": "der/die Erwachsene, -n",
+  "g": "adult",
+  "k": "word"
+ },
+ "erwischt": {
+  "d": "erwischen",
+  "g": "to catch",
+  "k": "word"
+ },
+ "erwähnt": {
+  "d": "erwähnen",
+  "g": "to mention",
+  "k": "word"
+ },
+ "erzähl": {
+  "d": "erzählen",
+  "g": "to tell",
+  "k": "word"
+ },
+ "Esel": {
+  "d": "der Esel, -",
+  "g": "donkey",
+  "k": "word"
+ },
+ "essbare": {
+  "d": "essbar",
+  "g": "edible",
+  "k": "word"
+ },
+ "Expertin": {
+  "d": "die Expertin, -nen",
+  "g": "expert (female)",
+  "k": "word"
+ },
+ "externen": {
+  "d": "extern",
+  "g": "external",
+  "k": "word"
+ },
+ "Faden": {
+  "d": "der Faden, ¨-",
+  "g": "thread; train of thought",
+  "k": "word"
+ },
+ "Fahr": {
+  "d": "fahren",
+  "g": "to drive",
+  "k": "word"
+ },
+ "Fahrt": {
+  "d": "die Fahrt, -en",
+  "g": "trip, ride, journey",
+  "k": "word"
+ },
+ "Fakten": {
+  "d": "der/das Fakt, -en",
+  "g": "fact",
+  "k": "word"
+ },
+ "Familienmagazins": {
+  "d": "das Familienmagazin, -e",
+  "g": "family magazine",
+  "k": "word"
+ },
+ "Familientarif": {
+  "d": "der Familientarif, -e",
+  "g": "family plan (insurance)",
+  "k": "word"
+ },
+ "Familientherapeutin": {
+  "d": "die Familientherapeutin, -nen",
+  "g": "family therapist (female)",
+  "k": "word"
+ },
+ "Favoriten": {
+  "d": "Favoriten",
+  "g": "a district of Vienna",
+  "k": "name"
+ },
+ "Federn": {
+  "d": "die Feder, -n",
+  "g": "feather",
+  "k": "word"
+ },
+ "feiere": {
+  "d": "feiern",
+  "g": "to celebrate",
+  "k": "word"
+ },
+ "Felsen": {
+  "d": "der Felsen, -",
+  "g": "rock, cliff",
+  "k": "word"
+ },
+ "Ferien": {
+  "d": "die Ferien (Pl.)",
+  "g": "vacation, school break",
+  "k": "word"
+ },
+ "Ferne": {
+  "d": "die Ferne",
+  "g": "distance (far away)",
+  "k": "word"
+ },
+ "Filialen": {
+  "d": "die Filiale, -n",
+  "g": "branch (of a bank)",
+  "k": "word"
+ },
+ "filmt": {
+  "d": "filmen",
+  "g": "to film",
+  "k": "word"
+ },
+ "Fingerabdrücke": {
+  "d": "der Fingerabdruck, ¨-e",
+  "g": "fingerprint",
+  "k": "word"
+ },
+ "Fleischbällchen": {
+  "d": "das Fleischbällchen, -",
+  "g": "meatball",
+  "k": "word"
+ },
+ "Fleischer": {
+  "d": "der Fleischer, -",
+  "g": "butcher",
+  "k": "word"
+ },
+ "Fleischhauerei": {
+  "d": "die Fleischhauerei, -en",
+  "g": "butcher shop (Austrian)",
+  "k": "word"
+ },
+ "Flusses": {
+  "d": "der Fluss, ¨-e",
+  "g": "river",
+  "k": "word"
+ },
+ "Flyer": {
+  "d": "der Flyer, -",
+  "g": "flyer, leaflet",
+  "k": "word"
+ },
+ "flüstert": {
+  "d": "flüstern",
+  "g": "to whisper",
+  "k": "word"
+ },
+ "foerderschule-auensee": {
+  "d": "foerderschule-auensee.de",
+  "g": "part of a school's email address",
+  "k": "name"
+ },
+ "Forscher": {
+  "d": "der Forscher, -",
+  "g": "researcher",
+  "k": "word"
+ },
+ "Fr": {
+  "d": "Fr. = der Freitag",
+  "g": "Friday (abbreviation)",
+  "k": "abbr"
+ },
+ "freigegeben": {
+  "d": "freigeben",
+  "g": "to release, to make available",
+  "k": "word"
+ },
+ "freihalten": {
+  "d": "freihalten",
+  "g": "to keep clear",
+  "k": "word"
+ },
+ "Freiwillige": {
+  "d": "der/die Freiwillige, -n",
+  "g": "volunteer",
+  "k": "word"
+ },
+ "Fremden": {
+  "d": "der/die Fremde, -n",
+  "g": "stranger",
+  "k": "word"
+ },
+ "friedlich": {
+  "d": "friedlich",
+  "g": "peaceful",
+  "k": "word"
+ },
+ "Friedliche": {
+  "d": "die Friedliche Revolution",
+  "g": "the Peaceful Revolution (1989)",
+  "k": "name"
+ },
+ "Fritteuse": {
+  "d": "die Fritteuse, -n",
+  "g": "deep fryer",
+  "k": "word"
+ },
+ "frustriert": {
+  "d": "frustrieren",
+  "g": "frustrated",
+  "k": "word"
+ },
+ "Futter": {
+  "d": "das Futter",
+  "g": "(animal) food, feed",
+  "k": "word"
+ },
+ "Futters": {
+  "d": "das Futter",
+  "g": "(animal) food, feed",
+  "k": "word"
+ },
+ "Fußballvereins": {
+  "d": "der Fußballverein, -e",
+  "g": "soccer club",
+  "k": "word"
+ },
+ "Füchse": {
+  "d": "der Fuchs, ¨-e",
+  "g": "fox",
+  "k": "word"
+ },
+ "füllt": {
+  "d": "füllen",
+  "g": "to fill",
+  "k": "word"
+ },
+ "fünfmal": {
+  "d": "fünfmal",
+  "g": "five times",
+  "k": "word"
+ },
+ "Gasse": {
+  "d": "die Gasse, -n",
+  "g": "street, lane (Austrian usage)",
+  "k": "word"
+ },
+ "Gastgeber": {
+  "d": "der Gastgeber, -",
+  "g": "host",
+  "k": "word"
+ },
+ "Gastronomie": {
+  "d": "die Gastronomie",
+  "g": "restaurant business, hospitality",
+  "k": "word"
+ },
+ "gebrauchte": {
+  "d": "gebrauchen",
+  "g": "used, second-hand",
+  "k": "word"
+ }
+}

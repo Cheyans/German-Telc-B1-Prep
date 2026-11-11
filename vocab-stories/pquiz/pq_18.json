@@ -1,0 +1,148 @@
+{
+ "set": "18",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Wie viele der unter 30-Jährigen bestellen laut Studie jede Woche im Netz?",
+     "right": "Etwa vier von zehn.",
+     "wrong": [
+      "Etwa sechs von zehn.",
+      "Etwa einer von zehn."
+     ],
+     "evidence": "Bei den unter 30-Jährigen und den über 60-Jährigen kaufen 41 bzw. 12 Prozent mindestens einmal pro Woche im Netz.",
+     "why": "bzw. (respectively) pairs the numbers in order: 41 percent of the under-30s, about four in ten, and 12 percent of the over-60s, about one in ten.",
+     "trap": "who",
+     "words": [
+      "G004"
+     ]
+    },
+    {
+     "q": "Wozu dient laut Artikel der Hinweis „Nur noch drei Stück!“?",
+     "right": "Kunden sollen kaufen, bevor sie die Preise vergleichen.",
+     "wrong": [
+      "Er zeigt, dass die Ware im Moment sehr gefragt ist.",
+      "Der Shop will damit alte Ware schneller loswerden."
+     ],
+     "evidence": "Häufig steht neben dem Preis: „Nur noch drei Stück!“ Angeblich ist die Ware dann besonders gefragt, in Wahrheit sollen die Kunden aber nur schneller kaufen, ohne lange zu vergleichen.",
+     "why": "angeblich (supposedly) casts doubt on the high demand, and in Wahrheit gives the real aim: people should buy fast without comparing. Clearing out old stock isn't mentioned.",
+     "trap": "flip",
+     "words": [
+      "X001",
+      "W1274"
+     ]
+    },
+    {
+     "q": "Warum ist ein hoher Rabatt am „Black Friday“ laut Artikel oft kein gutes Angebot?",
+     "right": "Manche Geschäfte machen ihre Waren kurz vorher teurer.",
+     "wrong": [
+      "Reduzierte Ware darf man meistens nicht zurückschicken.",
+      "Die Rabatte gelten meist für alte Modelle."
+     ],
+     "evidence": "Einige Händler erhöhen ihre Preise kurz vor dem „Black Friday“, damit der Rabatt danach größer aussieht. Nach einer solchen Erhöhung ist ein Angebot mit 30 Prozent Rabatt oft kaum günstiger als im Oktober.",
+     "why": "erhöhen means to raise: some sellers raise prices first, so the discount looks bigger than it is. The article says most goods can be returned within 14 days, and it does not name old models as the reason.",
+     "trap": "same-word",
+     "words": [
+      "W0698",
+      "W0699",
+      "W1867"
+     ]
+    },
+    {
+     "q": "Wer ist laut Artikel verantwortlich, wenn ein Paket beschädigt ankommt?",
+     "right": "Das Geschäft, bei dem man bestellt hat.",
+     "wrong": [
+      "Der Paketdienst, der das Paket gebracht hat.",
+      "Der Hersteller, weil er auf das Gerät Garantie gibt."
+     ],
+     "evidence": "Kommt die Ware beschädigt an, ist in der Regel der Händler verantwortlich. Die Garantie des Herstellers hilft dagegen nur bei Fehlern, die das Gerät schon in der Fabrik hatte.",
+     "why": "Händler means the seller, so in der Regel the shop you ordered from is responsible. The delivery company isn't named, and dagegen shows the manufacturer's warranty covers only factory defects.",
+     "trap": "who",
+     "words": [
+      "W1085",
+      "W1128",
+      "W0918"
+     ]
+    },
+    {
+     "q": "Warum kaufen manche Menschen laut Artikel ein teures Gerät lieber im Geschäft?",
+     "right": "Sie wollen es vorher anfassen und Fragen stellen.",
+     "wrong": [
+      "Sie möchten das Gerät gleich mit nach Hause nehmen.",
+      "Sie wollen keine Daten im Internet angeben."
+     ],
+     "evidence": "Wer sich ein teures Gerät anschaffen will, möchte außerdem nicht die Katze im Sack kaufen. Im Geschäft kann man das passende Gerät auswählen, es vor dem Kauf in die Hand nehmen und sich beraten lassen.",
+     "why": "anschaffen means to buy something big, and vor dem Kauf means before buying: in the shop you can hold the device and get advice. Taking it home right away and privacy are sensible reasons, but the article doesn't name them.",
+     "trap": "paraphrase",
+     "words": [
+      "W0104",
+      "W1275",
+      "W0224"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "rf",
+   "items": [
+    {
+     "s": "Herr Novak findet die Paket-App für seine Arbeit eher praktisch.",
+     "answer": false,
+     "evidence": "Ehrlich gesagt eher ein Nachteil, denn die App zeigt stündlich, wo das Paket gerade ist. Deswegen rufen manche Kunden sofort an, wenn ich nur eine halbe Stunde später komme als geplant.",
+     "why": "He calls the app eher ein Nachteil: because it shows every hour (stündlich) where the package is, customers call as soon as he is a little late.",
+     "trap": "flip",
+     "words": [
+      "G362",
+      "W0507"
+     ]
+    },
+    {
+     "s": "Einmal pro Woche bekommt Herr Novak im Erdgeschoss einen Kaffee.",
+     "answer": true,
+     "evidence": "Ein älterer Herr im Erdgeschoss empfängt mich zum Beispiel jeden Freitag mit einem Kaffee und nimmt Pakete für das ganze Haus an.",
+     "why": "empfangen means to welcome: every Friday, so once a week, the older neighbor on the ground floor welcomes him with a coffee.",
+     "trap": "paraphrase",
+     "words": [
+      "W0646"
+     ]
+    },
+    {
+     "s": "Laut Herrn Novak gehen manche Schachteln schon vor der Fahrt zum Kunden kaputt.",
+     "answer": true,
+     "evidence": "Meistens schon, aber manche Schachteln sind so schlecht verpackt, dass sie schon im Lager kaputtgehen.",
+     "why": "He says some boxes are packed so badly (schlecht verpackt) that they already break in the warehouse, before the drive to the customer.",
+     "trap": "paraphrase",
+     "words": [
+      "W1995",
+      "W2590"
+     ]
+    },
+    {
+     "s": "Eine Kundin hat extra Geld abgehoben, um ihm Trinkgeld zu geben.",
+     "answer": true,
+     "evidence": "Natürlich, vor allem vor Weihnachten, wenn viele Kunden ihre Geldbörse holen und mir ein Trinkgeld geben. Eine Kundin ist sogar extra zum Bankomaten gegangen, weil sie kein Bargeld mehr zu Hause hatte.",
+     "why": "Bankomat is the Austrian word for an ATM. She went there especially (extra) because she had no cash left for his tip.",
+     "trap": "paraphrase",
+     "words": [
+      "R001",
+      "W0256",
+      "R011"
+     ]
+    },
+    {
+     "s": "Am Abend kocht Herr Novak selbst ein warmes Gericht.",
+     "answer": false,
+     "evidence": "Mittags esse ich meistens nur schnell eine Semmel im Wagen, und ein warmes Gericht gibt es für mich erst am Abend, wenn meine Frau kocht.",
+     "why": "He does get a warm dish (Gericht) in the evening, but his wife cooks it (wenn meine Frau kocht), not he himself.",
+     "trap": "who",
+     "words": [
+      "W0981"
+     ]
+    }
+   ]
+  }
+ ]
+}

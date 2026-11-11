@@ -1,0 +1,78 @@
+{
+ "story": "09",
+ "questions": [
+  {
+   "q": "Wie fühlt sich Mateo vor der Übung für die mündliche Prüfung?",
+   "right": "Er ist nicht sicher, ob er frei sprechen kann.",
+   "wrong": [
+    "Er ist ganz sicher, dass er die Diskussion schafft.",
+    "Er ist nervös, weil in der Küche hundert Gäste warten."
+   ],
+   "evidence": "In der Küche ist er nie nervös, auch wenn hundert Gäste warten. Aber frei auf Deutsch diskutieren ist etwas anderes. Er hat Zweifel, ob er das schafft.",
+   "why": "Zweifel means doubts: he is not sure he can manage a free discussion in German. In the kitchen he is never nervous, even with a hundred guests.",
+   "words": [
+    "W2891",
+    "W0527"
+   ]
+  },
+  {
+   "q": "Was ist laut Frau Neumann in der Prüfung wichtig?",
+   "right": "Man soll seine Meinung immer mit einem Grund sagen.",
+   "wrong": [
+    "Man soll den Inhalt möglichst genau und vollständig erzählen.",
+    "Man soll sich vor allem auf die eigenen Argumente konzentrieren."
+   ],
+   "evidence": "Sie müssen nicht jedes Detail erzählen, die Einzelheiten sind nicht so wichtig. Wichtig ist Ihre Meinung, und zwar mit einer Begründung. Eine Meinung ohne Grund ist in der Prüfung zu wenig.",
+   "why": "She says a Begründung (reason) is what matters, not every detail (Einzelheiten). She also says to react to your partner and answer their arguments.",
+   "words": [
+    "W0290",
+    "W0635",
+    "W0508"
+   ]
+  },
+  {
+   "q": "Was will Mateo sagen, als er auf die Grafik zeigt?",
+   "right": "Die Grafik zeigt nicht, dass Kinder ohne Handy besser lernen.",
+   "wrong": [
+    "Die Grafik zeigt, dass Schüler mit Handy schlechtere Noten haben.",
+    "Die Grafik zeigt, dass Schüler im Unterricht selten aufs Handy schauen."
+   ],
+   "evidence": "Du hast vorhin gesagt, dass Kinder ohne Handy besser lernen. Kannst du das beweisen? Die Darstellung zeigt nur, wie oft die Schüler aufs Handy schauen. Über ihre Noten sagt sie nichts.",
+   "why": "Mateo asks Olga to prove (beweisen) her claim. The graph (Darstellung) only shows how often students look at their phones (often, not rarely). It says nothing about grades.",
+   "words": [
+    "W0376",
+    "W0490",
+    "W2659"
+   ]
+  },
+  {
+   "q": "Welche Regel gehört zum Kompromiss von Olga und Mateo?",
+   "right": "Die Lehrerin darf im Unterricht manchmal Handys erlauben.",
+   "wrong": [
+    "In den Pausen dürfen alle Schüler ihr Handy benutzen.",
+    "Die Handys liegen den ganzen Tag in einem Schrank."
+   ],
+   "evidence": "So einigen sich die beiden auf einen Kompromiss: kein totales Verbot, aber klare Regeln. „Das müssen wir notieren“, sagt Mateo und schreibt die Regeln auf sein Blatt: Erstens bleiben die Handys im Unterricht aus, zweitens darf die Lehrerin Ausnahmen machen, drittens dürfen in den Pausen nur die Großen ihr Handy benutzen, und viertens können im Notfall alle Kinder ihre Eltern anrufen.",
+   "why": "Ausnahme means exception: the teacher may allow phones, for example for a project. In the breaks only the older students may use them, and there is no total ban.",
+   "words": [
+    "W1331",
+    "W0205",
+    "W0609"
+   ]
+  },
+  {
+   "q": "Was sagt Olga auf dem Weg zur Straßenbahn?",
+   "right": "Sie ist nicht ganz seiner Meinung, findet die Lösung aber gut.",
+   "wrong": [
+    "Mateo hat sie jetzt völlig von seiner Meinung überzeugt.",
+    "Sie möchte die E-Mail an Artems Schule lieber allein schreiben."
+   ],
+   "evidence": "„Du hast mich nicht ganz überzeugt“, sagt sie. „Aber unser Kompromiss ist gut. Wollen wir zusammen eine E-Mail an Artems Schule schreiben?“",
+   "why": "Nicht ganz überzeugt means not fully convinced, but she calls the compromise good. She wants to write the email together with Mateo, not alone.",
+   "words": [
+    "W2452",
+    "W1331"
+   ]
+  }
+ ]
+}

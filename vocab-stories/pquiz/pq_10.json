@@ -1,0 +1,161 @@
+{
+ "set": "10",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was steht im Artikel über die Störung am Donnerstag?",
+     "right": "Sie dauerte etwas weniger als zwei Tage.",
+     "wrong": [
+      "Sie war erst am Samstagabend vorbei.",
+      "Die Techniker fanden die kaputte Stelle sofort."
+     ],
+     "evidence": "Wie der Anbieter Telenova mitteilte, waren rund 2.400 Haushalte von der Störung betroffen, weil bei Bauarbeiten gegen 19 Uhr ein Kabel beschädigt wurde. Die Techniker mussten die kaputte Stelle erst lange mit einem Spezialgerät suchen. Laut Telenova sollte die Reparatur maximal 48 Stunden dauern, d. h. bis spätestens Samstagabend. Am Ende war die Störung schon am Samstagnachmittag vorbei.",
+     "why": "It started around 7 p.m. on Thursday and was over (vorbei) on Saturday afternoon, so a bit under 48 hours. Saturday evening was only the latest possible end (maximal, bis spätestens), and the technicians had to search a long time for the broken spot.",
+     "trap": "when",
+     "words": [
+      "W1535",
+      "G006",
+      "W2651"
+     ]
+    },
+    {
+     "q": "Warum konnte Lena die Datei nicht über ihr Handy schicken?",
+     "right": "Ihr Handyvertrag hat ein Limit für mobile Daten.",
+     "wrong": [
+      "Der Akku ihres Handys war schon ganz leer.",
+      "Sie hatte auf dem Handy gar keine mobilen Daten."
+     ],
+     "evidence": "Auch über das Handy klappte es nicht, denn ihre mobilen Daten sind auf fünf Gigabyte im Monat beschränkt.",
+     "why": "beschränkt means limited: her plan has only 5 GB of mobile data a month. So she does have mobile data, and the battery comes up later and was only almost empty, with 8 percent left.",
+     "trap": "paraphrase",
+     "words": [
+      "W1293",
+      "W0494",
+      "W0341"
+     ]
+    },
+    {
+     "q": "Was zeigt die Umfrage des Vergleichsportals?",
+     "right": "Bei jedem zehnten Befragten dauerte eine Störung über einen Tag.",
+     "wrong": [
+      "Ein Viertel der Befragten war länger als einen Tag offline.",
+      "Die meisten Befragten hatten im letzten Jahr keine Störung."
+     ],
+     "evidence": "Laut einer Umfrage eines Vergleichsportals hatten im letzten Jahr 62 Prozent der Befragten mindestens eine Störung. Bei 25 bzw. 10 Prozent der Befragten dauerte sie länger als drei Stunden bzw. länger als einen Tag.",
+     "why": "bzw. pairs the numbers in order: 25 percent goes with more than three hours, and 10 percent (one in ten) with more than a day. Also, 62 percent had at least one outage, so most people did have one.",
+     "trap": "paraphrase",
+     "words": [
+      "G004",
+      "W2261"
+     ]
+    },
+    {
+     "q": "Was rät Matthias Roloff?",
+     "right": "Schon vor einer Störung die Nachbarn um Hilfe bitten.",
+     "wrong": [
+      "Für Notfälle einen Handyvertrag mit mehr Datenvolumen abschließen.",
+      "Dateien lieber im Internet als auf einer Festplatte speichern."
+     ],
+     "evidence": "Außerdem rät Roloff, wichtige Daten auch auf einer Festplatte zu sichern, denn ohne Internet hat man zu Online-Dateien keinen Zugang. Einen teuren Handyvertrag mit viel Datenvolumen muss sich dagegen niemand leisten: „Fragen Sie lieber vorher Ihre Nachbarn, ob Sie im Notfall deren WLAN benutzen dürfen.“",
+     "why": "He says nobody needs to pay for (sich leisten) an expensive plan with lots of data: ask your neighbors beforehand if you may use their Wi-Fi. He also wants files backed up (sichern) on a hard drive, because without internet you have no access (Zugang) to online files.",
+     "trap": "same-word",
+     "words": [
+      "W1460",
+      "W2128",
+      "W2851"
+     ]
+    },
+    {
+     "q": "Was erfährt man über Herrn Braun?",
+     "right": "Er hatte früher einen anderen Beruf.",
+     "wrong": [
+      "Er arbeitet heute noch in einem Elektrogeschäft.",
+      "In seinem Büro steht nur ein altes Telefon."
+     ],
+     "evidence": "In seinem kleinen Büro stehen sowohl ein Faxgerät als auch ein Telefon mit Anrufbeantworter. Der Hausmeister, der früher dreißig Jahre in einem Elektrogeschäft gearbeitet hat, faxte Lenas Formular an Telenova und sagte stolz: „Alte Technik funktioniert immer.“",
+     "why": "Today he is the caretaker. The 30 years in an electrical store were früher, in the past, so that was a different job. sowohl … als auch means both: his office has a fax machine and a phone.",
+     "trap": "when",
+     "words": [
+      "W0643",
+      "W2168",
+      "W0102"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Kostenlos online: Neues Angebot im Bürgerzentrum"
+    },
+    {
+     "id": "b",
+     "text": "Enkel bringen ihren Großeltern das Chatten bei"
+    },
+    {
+     "id": "c",
+     "text": "Polizei warnt: Betrüger wollen Daten vom Handy stehlen"
+    },
+    {
+     "id": "d",
+     "text": "Neue App übersetzt Sächsisch ins Hochdeutsche"
+    },
+    {
+     "id": "e",
+     "text": "Internetkurs für die Generation 60 plus"
+    },
+    {
+     "id": "f",
+     "text": "Paketdienst informiert Kunden jetzt per SMS"
+    },
+    {
+     "id": "g",
+     "text": "Lesen statt anhören: Studentinnen erfinden praktische App"
+    },
+    {
+     "id": "h",
+     "text": "Reparieren statt wegwerfen: Freiwillige helfen kostenlos"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "e",
+     "evidence": "Die Volkshochschule Leipzig startet am 9. November wieder ihren Kurs „Digital fit ab 60“, in dem ältere Menschen an sechs Vormittagen lernen, wie man im Internet surft, Fotos mailt oder mit der Familie chattet.",
+     "why": "The course teaches people over 60 to surf, email and chat. The grandchildren are only the people they want to talk to (sich unterhalten), so b is wrong."
+    },
+    {
+     "id": "2",
+     "answer": "c",
+     "evidence": "In Wirklichkeit ist das eine Software, die persönliche Daten vom Mobiltelefon an die Täter sendet.",
+     "why": "The fake app sends (sendet) personal data from the cell phone to criminals. The texts only look as if (als ob) they came from a delivery service, so f is wrong."
+    },
+    {
+     "id": "3",
+     "answer": "h",
+     "evidence": "Im Repair-Café in Plagwitz helfen Freiwillige jeden ersten Samstag im Monat bei der Reparatur von elektrischen und elektronischen Geräten. Die Hilfe ist kostenlos, nur Ersatzteile muss man selbst bezahlen.",
+     "why": "Volunteers repair electrical and electronic devices, and the help is free. Only spare parts cost money."
+    },
+    {
+     "id": "4",
+     "answer": "g",
+     "evidence": "Drei Studentinnen aus Leipzig haben eine App entwickelt, die gesprochene Nachrichten in Text verwandelt.",
+     "why": "entwickelt means developed: the app turns voicemail into text, so you read instead of listening. Saxon dialect is only a weak point (der Text stimmt nicht immer), so d is wrong."
+    },
+    {
+     "id": "5",
+     "answer": "a",
+     "evidence": "Im neuen Bürgerzentrum in Grünau gibt es ab Montag, dem 2. November, kostenloses WLAN für alle Besucher.",
+     "why": "The community center offers free Wi-Fi and computers for visitors. Zugang zum Internet means internet access."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "set": "23",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Wer machte Mateo das Angebot, über das er sich so freute?",
+     "right": "Ein Freund von früher, der in Sevilla ein Lokal aufmachen will.",
+     "wrong": [
+      "Der Besitzer eines Hotels, bei dem er sich beworben hatte.",
+      "Seine Familie, die in Sevilla ein kleines Restaurant hat."
+     ],
+     "evidence": "Ein alter Freund, der dort im Frühling ein Restaurant eröffnet, bot ihm die Stelle als Küchenchef an. „Das war mein Traumjob. Ich war so begeistert, dass ich vor Freude durch die Küche getanzt bin“",
+     "why": "The offer that made him dance for joy came from an old friend who is opening a restaurant in Sevilla. It was a surprise, not a job he had applied for, and the article says nothing about a family restaurant.",
+     "trap": "who",
+     "words": [
+      "W0284",
+      "W0878",
+      "W2399"
+     ]
+    },
+    {
+     "q": "Was erfährt man über das Heimweh von Zugezogenen?",
+     "right": "Auch nach vielen Jahren in Leipzig haben immer mehr Menschen Heimweh.",
+     "wrong": [
+      "Wer schon lange hier lebt, hat immer seltener Heimweh.",
+      "Das Ergebnis der Studie hat die Psychologin sehr überrascht."
+     ],
+     "evidence": "Das hat uns nicht überrascht“, sagt die Psychologin Dr. Friederike Jansen. „Wir sehen aber, dass zunehmend auch Menschen betroffen sind, die schon lange hier leben.",
+     "why": "Zunehmend means increasingly: more and more people who have lived here a long time are homesick too. The psychologist says the results did not surprise her team.",
+     "trap": "flip",
+     "words": [
+      "X026",
+      "W2441",
+      "W0696"
+     ]
+    },
+    {
+     "q": "Was hilft laut dem Artikel vielen Menschen gegen Heimweh?",
+     "right": "Sie rufen regelmäßig ihre Familie an.",
+     "wrong": [
+      "Sie vermeiden Gerichte, die sie an ihre Kindheit erinnern.",
+      "Sie behalten ihre Sorgen lieber für sich."
+     ],
+     "evidence": "Helfen können dagegen feste Gewohnheiten: Viele Menschen beruhigen sich, indem sie ein Gericht aus ihrer Kindheit kochen oder regelmäßig mit der Familie telefonieren.",
+     "why": "Many people calm down by calling their family regularly, or by cooking a dish from their childhood. So avoiding those dishes is wrong, and keeping your worries to yourself makes you feel worse.",
+     "trap": "same-word",
+     "words": [
+      "W0332",
+      "W1186",
+      "W1013"
+     ]
+    },
+    {
+     "q": "Wie zeichnete Mateo die Linie auf dem Blatt?",
+     "right": "Von links nach rechts, zwischen den Namen der Städte.",
+     "wrong": [
+      "Von oben nach unten, in der Mitte des Blattes.",
+      "Quer über die ganze Seite, von links oben nach rechts unten."
+     ],
+     "evidence": "Auch Mateo stand nachts um zwei Uhr auf, schrieb „Sevilla“ oben und „Leipzig“ unten auf ein Blatt und zeichnete dazwischen eine waagerechte Linie. Am Ende schrieb er quer über die ganze Seite: „Was will ich wirklich?“",
+     "why": "Waagerecht means horizontal, so the line ran from left to right between Sevilla at the top and Leipzig at the bottom. Quer über die ganze Seite is how he wrote his question at the end, not the line.",
+     "trap": "same-word",
+     "words": [
+      "W2678",
+      "W1864",
+      "W2917"
+     ]
+    },
+    {
+     "q": "Was hat Mateo bei seiner Entscheidung geholfen?",
+     "right": "Sein Chef hört nächsten Sommer auf, dann soll Mateo Küchenchef werden.",
+     "wrong": [
+      "Sein Chef geht schon im Frühling in Rente, dann wird Mateo Küchenchef.",
+      "Sein Chef ist seit dem Frühling in Rente, nun leitet Mateo die Küche."
+     ],
+     "evidence": "Geholfen hat ihm schließlich sein Chef, der ihn nicht verlieren wollte und ihm entgegenkam: Wenn er im nächsten Sommer in Rente geht, soll Mateo die Leitung der Küche übernehmen.",
+     "why": "His boss met him halfway: when the boss retires next summer, Mateo is to run the kitchen. The boss has not retired yet, and it happens next summer, not in spring.",
+     "trap": "when",
+     "words": [
+      "W0661"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "ads",
+   "prompts": [
+    {
+     "id": "1",
+     "text": "Der Hund Ihrer Nachbarin fürchtet sich vor Gästen. Sie sucht Hilfe zu Hause.",
+     "answer": "c",
+     "evidence": "Er bellt jeden Besucher an und verhält sich draußen merkwürdig? Hausbesuche in Leipzig und Umgebung, erste Stunde 45 Euro.",
+     "why": "The trainer in ad c helps anxious dogs that bark at visitors, and she comes to your home. Ad d is a puppy group that meets in the park."
+    },
+    {
+     "id": "2",
+     "text": "Ihr Kollege ärgert sich oft im Büro und sucht einen Kurs nach Feierabend.",
+     "answer": "a",
+     "evidence": "Tipps für schwierige Gespräche im Büro. Volkshochschule Leipzig, Löhrstraße 3–7, montags 18.30–20 Uhr",
+     "why": "Ad a is about anger at work and meets on Monday evenings. Ad b is also in the evening, but it is only for couples."
+    },
+    {
+     "id": "3",
+     "text": "Ihre Oma kann nicht mehr aus dem Haus und braucht samstags einen Friseur.",
+     "answer": "x",
+     "evidence": "Wer nicht mehr aus dem Haus kann, den besuchen wir montags und mittwochs zu Hause.",
+     "why": "The salon in ad f visits customers at home, but only on Mondays and Wednesdays. No ad offers a hairdresser at home on Saturday."
+    },
+    {
+     "id": "4",
+     "text": "Ihre Schwester möchte vor Publikum sicherer werden, hat aber nur am Wochenende Zeit.",
+     "answer": "e",
+     "evidence": "Sie werden rot, wenn alle Sie ansehen? Wochenendkurs für Erwachsene ohne Vorkenntnisse: Sa./So., 21./22. November, 10–16 Uhr, 95 Euro.",
+     "why": "Ad e is a weekend workshop for people who get nervous when everyone looks at them. Ad h is about speaking in public too, but it meets on Tuesday evenings."
+    },
+    {
+     "id": "5",
+     "text": "Ihr Opa hat kaum noch Kontakt zu anderen und wünscht sich kostenlosen Besuch.",
+     "answer": "g",
+     "evidence": "Unsere zuverlässigen Helferinnen und Helfer besuchen ältere Menschen einmal pro Woche zu Hause und besorgen auf Wunsch auch Kleinigkeiten aus der Apotheke. Für viele ist das eine angenehme Abwechslung. Der Besuchsdienst ist kostenlos.",
+     "why": "Ad g offers free weekly home visits for older people who are alone. The salon in ad f also visits homes, but only to cut hair."
+    }
+   ]
+  }
+ ]
+}

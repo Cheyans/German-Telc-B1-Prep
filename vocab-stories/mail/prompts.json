@@ -1,0 +1,970 @@
+[
+ {
+  "id": "M01",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Einladung",
+  "from": "E-Mail von Ihrer Freundin Lena",
+  "mail": "Hallo! Am Samstag werde ich 30 und mache eine kleine Party bei mir zu Hause. Ab 19 Uhr gibt es Essen und Musik. Kommst du? Liebe Grüße, Lena",
+  "points": [
+   "Bedanken Sie sich für die Einladung.",
+   "Sagen Sie, dass Sie nicht kommen können, und warum.",
+   "Schlagen Sie einen anderen Tag für ein Treffen vor."
+  ],
+  "focus": [
+   "Thanks: Vielen Dank für deine Einladung (für + Akk).",
+   "Refusal: Leider kann ich nicht kommen, weil ich arbeiten muss (verb right after Leider, verb last after weil).",
+   "Party wish: Ich wünsche dir eine schöne Party! Alles Gute zum Geburtstag (zum = zu dem) waits until the day, because early wishes count as bad luck in Germany.",
+   "Sign-off without a comma: Viele Grüße"
+  ]
+ },
+ {
+  "id": "M02",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Hilfe",
+  "from": "E-Mail von Ihrer Nachbarin Frau Nowak",
+  "mail": "Hallo, ich besuche bald für zwei Wochen meine Schwester in Polen. Könnten Sie in dieser Zeit meine Pflanzen gießen? Das wäre wirklich sehr nett! Ich bringe Ihnen dann auch etwas aus Polen mit. Viele Grüße, Ewa Nowak",
+  "points": [
+   "Sagen Sie, dass Sie Frau Nowak gern helfen.",
+   "Fragen Sie, wann sie fährt und zurückkommt.",
+   "Fragen Sie nach dem Schlüssel."
+  ],
+  "focus": [
+   "Sie to the last line: Ihre Pflanzen, Ihnen. No dein, dir or schreib.",
+   "Yes to a favor: Das mache ich gern! (not Ich werde gern machen)",
+   "The point says sie, the email says Sie: Wann fahren Sie genau? Wann kommen Sie zurück?",
+   "Viele Grüße with no comma, then the full name."
+  ]
+ },
+ {
+  "id": "M03",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Krankheit",
+  "from": "E-Mail von Ihrem Freund Paul",
+  "mail": "Hallo! Schlechte Nachrichten von mir: Beim Skifahren habe ich mir das Bein gebrochen. Jetzt muss ich drei Wochen zu Hause bleiben, und mir ist total langweilig. Wie geht es dir? Viele Grüße, Paul",
+  "points": [
+   "Reagieren Sie auf Pauls Nachricht.",
+   "Wünschen Sie Paul gute Besserung.",
+   "Machen Sie einen Vorschlag für einen Besuch."
+  ],
+  "focus": [
+   "Bad news: Es tut mir leid, dass du dir das Bein gebrochen hast (body part: Dativ + article, du hast).",
+   "Get well: Gute Besserung!",
+   "Visit: Wie wäre es, wenn ich dich am Samstag besuche? (besuchen + Akk, verb last)"
+  ]
+ },
+ {
+  "id": "M04",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Termin",
+  "from": "E-Mail von Ihrem Kollegen Herrn Brandt",
+  "mail": "Hallo, ich möchte Sie an unser Treffen am Donnerstag um 10 Uhr erinnern. Wir wollen über das neue Projekt sprechen. Bitte bringen Sie die Zahlen vom letzten Monat mit. Bis Donnerstag! Viele Grüße, Stefan Brandt",
+  "points": [
+   "Sagen Sie den Termin am Donnerstag ab.",
+   "Erklären Sie, warum Sie nicht kommen können.",
+   "Schlagen Sie einen neuen Termin vor."
+  ],
+  "focus": [
+   "Cancel: Leider muss ich unseren Termin am Donnerstag absagen (der Termin, Akk unseren).",
+   "Reason: weil ich krank bin (verb last), not weil ich bin krank.",
+   "Postpone: Können wir den Termin auf Montag verschieben? (auf + new date)",
+   "Sie to the last line. Vielen Dank für Ihr Verständnis."
+  ]
+ },
+ {
+  "id": "F01",
+  "kind": "full",
+  "reg": "du",
+  "theme": "Tiere",
+  "from": "E-Mail von Ihrer Freundin Katja",
+  "mail": "Hallo! Stell dir vor, ich habe seit letzter Woche einen Hund aus dem Tierheim! Er heißt Bruno und ist zwei Jahre alt. Er ist total lieb, und wir gehen jeden Tag lange spazieren. Aber er bleibt nicht gern allein, und ich arbeite ja bis 17 Uhr. Hast du eine Idee? Liebe Grüße, Katja",
+  "points": [
+   "Reagieren Sie auf Katjas Neuigkeit.",
+   "Berichten Sie von Ihrer Erfahrung mit Tieren.",
+   "Geben Sie Katja einen Tipp für Bruno.",
+   "Machen Sie einen Vorschlag für ein Treffen."
+  ],
+  "focus": [
+   "Good news: Wie schön! / Herzlichen Glückwunsch zu deinem Hund! Not zufrieden.",
+   "der Hund: ihn (Akk), ihm (Dat). The point says Ihre Erfahrung, the email says meine Erfahrung.",
+   "One time or one period in the past: Als ich ein Kind war, hatte ich eine Katze (als, not wenn; verb last, then verb first).",
+   "Tip and plan: Du könntest einen Hundesitter suchen (infinitive last). Hast du Lust, am Samstag mit Bruno spazieren zu gehen?"
+  ]
+ },
+ {
+  "id": "M05",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Glückwunsch",
+  "from": "E-Mail von Ihrem Freund Tim",
+  "mail": "Hallo! Ich habe zwei tolle Neuigkeiten: Ich habe endlich meinen Führerschein! Und ab Februar arbeite ich bei einer neuen Firma in Hamburg. Ich freue mich riesig. Und was gibt es bei dir Neues? Schreib mir bald! Viele Grüße, Tim",
+  "points": [
+   "Gratulieren Sie Tim und fragen Sie nach seiner neuen Stelle.",
+   "Erzählen Sie Ihre Neuigkeit: Sie sind umgezogen."
+  ],
+  "focus": [
+   "The point says seiner, the email says deiner: Herzlichen Glückwunsch zu deiner neuen Stelle! (zu + Dat)",
+   "Perfekt with sein: Ich bin umgezogen.",
+   "Warm reaction: Ich freue mich so für dich! (für + Akk)"
+  ]
+ },
+ {
+  "id": "M06",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Kurs",
+  "from": "Anzeige der Sprachschule Lingua",
+  "mail": "Französisch am Abend! Neuer Kurs für Anfänger ab Montag, dem 11. Januar, immer montags von 18 bis 20 Uhr. Kleine Gruppen und erfahrene Lehrkräfte. Fragen? Schreiben Sie uns eine E-Mail!",
+  "points": [
+   "Sagen Sie, warum Sie sich für den Kurs interessieren.",
+   "Fragen Sie nach dem Preis.",
+   "Fragen Sie, wie viele Personen in einer Gruppe sind."
+  ],
+  "focus": [
+   "Formal frame: Sehr geehrte Damen und Herren, (small g), then a lowercase first word.",
+   "Reason: Ich interessiere mich für Ihren Kurs, weil ich Französisch lernen möchte (verb last).",
+   "Indirect questions, verb last: Ich würde gern wissen, wie viel der Kurs kostet.",
+   "Vielen Dank im Voraus (not Ich danke mich). Mit freundlichen Grüßen, no comma, full name."
+  ]
+ },
+ {
+  "id": "M07",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Hilfe",
+  "from": "Nachricht von Ihrem Freund Emre",
+  "mail": "Hi! Mein Fahrrad ist kaputt, und am Wochenende möchte ich mit meiner Freundin eine Radtour an der Elbe machen. Kannst du mir vielleicht dein Fahrrad leihen? Ich passe auch gut darauf auf, versprochen! Liebe Grüße, Emre",
+  "points": [
+   "Sagen Sie, ob Sie Emre Ihr Fahrrad leihen.",
+   "Erklären Sie, worauf er achten muss.",
+   "Fragen Sie, wann er es zurückbringt."
+  ],
+  "focus": [
+   "Person + thing: Ich leihe dir gern mein Fahrrad (dir = Dativ). The point says Ihr, the email says mein.",
+   "du imperative, no -st: Schließ es bitte immer ab! Achte auf die Bremsen! (achten auf + Akk)",
+   "Separable verb: Wann bringst du es zurück? Kannst du es bis Sonntag zurückbringen?"
+  ]
+ },
+ {
+  "id": "F02",
+  "kind": "full",
+  "reg": "Sie",
+  "theme": "Feier",
+  "from": "E-Mail von Ihrer Kollegin Frau Albers",
+  "mail": "Liebe Kolleginnen und Kollegen, Frau Petersen geht Ende November in Rente. Sie hat 25 Jahre bei uns gearbeitet, und wir möchten uns bei ihr bedanken. Deshalb machen wir am Freitag, dem 20. November, ab 18 Uhr eine kleine Abschiedsfeier im Besprechungsraum. Bitte sagen Sie mir bis Mittwoch, ob Sie kommen. Viele Grüße, Karin Albers",
+  "points": [
+   "Bedanken Sie sich bei Frau Albers für die Einladung.",
+   "Sagen Sie, dass Sie später kommen, und warum.",
+   "Bieten Sie Ihre Hilfe an.",
+   "Fragen Sie nach einem Geschenk für Frau Petersen."
+  ],
+  "focus": [
+   "Sie to the last line, including the closing line: Ich freue mich auf Ihre Antwort (no Bitte schreib mir).",
+   "Late: Leider kann ich erst um 19 Uhr kommen, weil ich bis 18.30 Uhr arbeiten muss (verb last).",
+   "Help: Ich kann gern einen Kuchen mitbringen. Gift: ein Geschenk für sie (Frau Petersen), not für Ihnen.",
+   "Copy names from the task: Petersen, Albers. Liebe Frau Albers fits her Viele Grüße."
+  ]
+ },
+ {
+  "id": "M08",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Umzug",
+  "from": "E-Mail von Frau Lang aus Ihrem Yogakurs",
+  "mail": "Hallo, stellen Sie sich vor: Ich habe meine Prüfung als Erzieherin bestanden! Im Dezember ziehe ich mit meinen zwei Kindern nach München, weil ich dort eine Stelle in einem Kindergarten gefunden habe. Ein Umzug mit Kindern ist aber viel Arbeit. Sind Sie schon einmal umgezogen? Herzliche Grüße, Sabine Lang",
+  "points": [
+   "Reagieren Sie auf die Neuigkeiten von Frau Lang.",
+   "Berichten Sie von Ihrer Erfahrung mit einem Umzug."
+  ],
+  "focus": [
+   "Good news: Herzlichen Glückwunsch zur bestandenen Prüfung! / Wie schön, dass … Not zufrieden.",
+   "Capital Ihr- for her: mit Ihren Kindern, für Ihren Umzug. im Dezember.",
+   "Perfekt with sein: Ich bin vor zwei Jahren umgezogen.",
+   "Semi-formal: Liebe Frau Lang … Viele Grüße, not Sehr geehrte."
+  ]
+ },
+ {
+  "id": "M09",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Reise",
+  "from": "Nachricht von Ihrem Freund Jonas",
+  "mail": "Hallo! Na, wie war dein Wochenende in Wien? Ich habe gehört, dass es dort die ganze Zeit geregnet hat. Hattet ihr trotzdem Spaß? Was habt ihr gemacht? Ich will alles wissen! Viele Grüße, Jonas",
+  "points": [
+   "Berichten Sie, wie das Wochenende war.",
+   "Erzählen Sie, was Sie mit Ihren Freunden gemacht haben.",
+   "Schlagen Sie vor, wann Sie sich sehen können."
+  ],
+  "focus": [
+   "The point says Ihren Freunden, the email needs mit meinen Freunden (Dativ plural, my).",
+   "trotzdem after a contrast: Es hat geregnet. Trotzdem war es toll (verb right after trotzdem).",
+   "People haben Spaß, things machen Spaß: Wir hatten viel Spaß. Es hat viel Spaß gemacht (viel, not viele). Wir sind ins Museum gegangen.",
+   "Suggestion: Hast du Lust, nächste Woche ins Kino zu gehen? (zu + infinitive last)"
+  ]
+ },
+ {
+  "id": "M10",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Beschwerde",
+  "from": "E-Mail vom Hotel Seeblick",
+  "mail": "Liebe Gäste, vielen Dank für Ihren Aufenthalt im Hotel Seeblick am Wörthersee. Wir hoffen, Sie haben sich bei uns wohlgefühlt. Ihre Meinung ist uns wichtig: Schreiben Sie uns, was Ihnen gefallen hat und was wir besser machen können. Mit freundlichen Grüßen, Ihr Team vom Hotel Seeblick",
+  "points": [
+   "Beschweren Sie sich über das schmutzige Zimmer und den Lärm.",
+   "Sagen Sie, was Sie jetzt vom Hotel erwarten."
+  ],
+  "focus": [
+   "Formal frame: Sehr geehrte Damen und Herren … Mit freundlichen Grüßen + full name, no comma.",
+   "Complaint: Leider muss ich Ihnen mitteilen, dass das Zimmer schmutzig war (verb last). in Ihrem Hotel, not im Ihrem.",
+   "Perfekt: Ich habe zwei Nächte bei Ihnen übernachtet. Lärm von der Straße (von + Dat).",
+   "Demand: Ich erwarte, dass Sie mir einen Teil des Preises zurückzahlen (dass + verb last)."
+  ]
+ },
+ {
+  "id": "F03",
+  "kind": "full",
+  "reg": "du",
+  "theme": "Einladung",
+  "from": "E-Mail von Ihrem Freund Niklas",
+  "mail": "Hi! Zu meinem 40. Geburtstag möchte ich etwas Verrücktes machen: einen Fallschirmsprung! Meine Schwester und zwei Kollegen springen auch mit. Ich bin noch nie gesprungen und bin schon ein bisschen nervös. Der Termin ist am Samstag, dem 15. Mai. Kommst du mit? Du kannst auch nur zuschauen. Das wäre super! Viele Grüße, Niklas",
+  "points": [
+   "Reagieren Sie auf die Idee von Niklas.",
+   "Sagen Sie Ihre Meinung zu Extremsport.",
+   "Sagen Sie, ob Sie mitkommen, und warum (nicht).",
+   "Machen Sie einen anderen Vorschlag für seinen Geburtstag."
+  ],
+  "focus": [
+   "Opinion: Ich finde, dass Extremsport zu gefährlich ist (verb last) / Meiner Meinung nach ist … (verb second).",
+   "Konjunktiv II: Das wäre mir zu gefährlich. Ich würde lieber zuschauen.",
+   "weil ich Höhenangst habe (verb last). Ich komme gern mit, aber ich springe nicht (separable mitkommen).",
+   "zu deinem Geburtstag (zu + Dat). Wie wäre es mit einem Picknick? Vary the starts, not every sentence with Ich."
+  ]
+ },
+ {
+  "id": "M11",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Wohnen",
+  "from": "E-Mail von Ihrer Freundin Ana",
+  "mail": "Hallo! Gute Nachrichten: Ich habe eine Stelle in deiner Stadt gefunden! Im April ziehe ich um. Dann können wir uns endlich öfter sehen! Aber ich kenne mich dort gar nicht aus. In welchem Stadtteil wohnt man gut? Und wie finde ich am besten eine Wohnung? Liebe Grüße, Ana",
+  "points": [
+   "Reagieren Sie auf Anas Neuigkeit.",
+   "Empfehlen Sie einen Stadtteil und sagen Sie, warum.",
+   "Geben Sie Ana einen Tipp für die Wohnungssuche."
+  ],
+  "focus": [
+   "du -st inside clauses: Wie schön, dass du umziehst! (verb last)",
+   "Advice: Du solltest … / An deiner Stelle würde ich im Internet suchen (not musst; infinitive last).",
+   "Dort gibt es viele Cafés (viele + plural). du forms only: deine Kontakte, not Ihre."
+  ]
+ },
+ {
+  "id": "M12",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Hilfe",
+  "from": "E-Mail von Ihrem Nachbarn Herrn Yilmaz",
+  "mail": "Guten Tag, meine Eltern besuchen mich im Juni für zwei Wochen. Sie waren noch nie in unserer Stadt. Leider muss ich am ersten Samstag arbeiten. Hätten Sie vielleicht Zeit, ihnen die Stadt ein bisschen zu zeigen? Das wäre wirklich toll. Viele Grüße, Murat Yilmaz",
+  "points": [
+   "Reagieren Sie auf die Bitte von Herrn Yilmaz.",
+   "Schlagen Sie vor, was Sie mit seinen Eltern machen können.",
+   "Sagen Sie, wann Sie Zeit haben."
+  ],
+  "focus": [
+   "Capitals: Ihren Eltern (his parents, you write to him), but ihnen / sie for them, lowercase.",
+   "Person + thing: Ich zeige Ihren Eltern gern die Stadt (Dativ before Akk, no zu).",
+   "Wir könnten ins Museum gehen (infinitive last). im Juni, am Samstag.",
+   "Lieber Herr Yilmaz for a neighbor you know. Last line: Ich freue mich auf Ihre Antwort."
+  ]
+ },
+ {
+  "id": "M13",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Einladung",
+  "from": "Nachricht von Ihrer Freundin Linh",
+  "mail": "Hallo! Was machst du am Freitagabend? Ich habe zwei Karten für ein Jazzkonzert gewonnen. Meine Schwester kann leider nicht. Hast du Lust mitzukommen? Das Konzert ist im Kulturhaus und fängt um 20 Uhr an. Ich würde mich sehr freuen! Bis bald, Linh",
+  "points": [
+   "Nehmen Sie die Einladung an und bedanken Sie sich.",
+   "Schlagen Sie einen Treffpunkt und eine Uhrzeit vor."
+  ],
+  "focus": [
+   "Accept with joy: Danke für die Einladung, ich komme sehr gern mit! (separable mitkommen)",
+   "Meeting: Wollen wir uns um 19.30 Uhr vor dem Kulturhaus treffen? (sich treffen, vor + Dat)",
+   "Ich freue mich schon auf Freitag (sich freuen auf + Akk for something coming)."
+  ]
+ },
+ {
+  "id": "M14",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Arbeit",
+  "from": "E-Mail von Ihrer Teamleiterin Frau Schulz",
+  "mail": "Guten Morgen, dieses Jahr möchten wir im Dezember wieder zusammen essen gehen. Könnten Sie das Weihnachtsessen für unser Team planen? Sie kennen ja viele gute Restaurants. Bitte schreiben Sie mir bald, ob Sie Zeit dafür haben. Viele Grüße, Petra Schulz",
+  "points": [
+   "Sagen Sie, ob Sie das Essen planen können.",
+   "Schlagen Sie ein Restaurant und einen Tag vor.",
+   "Schreiben Sie, was die Kollegen (nicht) gern essen."
+  ],
+  "focus": [
+   "Sie to the boss to the last line, no du slip in the closing.",
+   "Ich würde vorschlagen, dass wir am Freitag, dem 18. Dezember, ins Restaurant … gehen (verb last).",
+   "Plural verb: Viele Kollegen essen kein Fleisch. The colleagues are sie, lowercase.",
+   "mit allen Kollegen (Dativ plural -n). im Dezember."
+  ]
+ },
+ {
+  "id": "F04",
+  "kind": "full",
+  "reg": "Sie",
+  "theme": "Entschuldigung",
+  "from": "E-Mail von Ihrer Nachbarin Frau Hoffmann",
+  "mail": "Guten Tag, ich wohne direkt unter Ihnen. Am Samstag war es bei Ihnen bis zwei Uhr nachts sehr laut. Ich konnte nicht schlafen, und mein kleiner Sohn ist mehrmals aufgewacht. Ich verstehe, dass man auch mal feiert. Aber nach 22 Uhr muss es im Haus ruhig sein. Bitte denken Sie beim nächsten Mal daran. Mit freundlichen Grüßen, Monika Hoffmann",
+  "points": [
+   "Entschuldigen Sie sich für den Lärm.",
+   "Erklären Sie, warum es so laut war.",
+   "Sagen Sie, was Sie beim nächsten Mal anders machen.",
+   "Laden Sie Frau Hoffmann zu einem Kaffee ein."
+  ],
+  "focus": [
+   "Apology: Es tut mir sehr leid, dass es am Samstag so laut war (verb last).",
+   "Reason in the past: Wir haben meinen Geburtstag gefeiert und nicht auf die Uhr geachtet (Perfekt, achten auf + Akk).",
+   "Promise: Beim nächsten Mal sage ich Ihnen vorher Bescheid (verb second after the time phrase).",
+   "Offer: Darf ich Sie zu einem Kaffee einladen? Ihr Sohn = her son, capital Ihr."
+  ]
+ },
+ {
+  "id": "M15",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Arbeit",
+  "from": "E-Mail von Ihrer Freundin Mia",
+  "mail": "Hallo! Es hat geklappt: Ab Montag arbeite ich an der Rezeption in einem großen Hotel! Ich freue mich, aber ich bin auch total nervös. Ich kenne dort noch niemanden. Was mache ich, wenn die neuen Kollegen mich nicht mögen? Liebe Grüße, Mia",
+  "points": [
+   "Reagieren Sie auf Mias Neuigkeit.",
+   "Berichten Sie von Ihrer Erfahrung mit neuen Kollegen.",
+   "Geben Sie Mia einen Tipp für die ersten Tage."
+  ],
+  "focus": [
+   "Good news: Herzlichen Glückwunsch zu deiner neuen Stelle! (zu + Dat) Not zufrieden.",
+   "Dativ plural: mit deinen neuen Kollegen, mit meinen Kollegen (adjective -en, noun -n).",
+   "du -st in clauses: wenn du sie kennenlernst. Advice: An deiner Stelle würde ich … (infinitive last)."
+  ]
+ },
+ {
+  "id": "M16",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Beschwerde",
+  "from": "E-Mail vom Onlineshop ModeDirekt",
+  "mail": "Sehr geehrte Kundin, sehr geehrter Kunde, Ihre Bestellung Nr. 48213 ist gestern bei Ihnen angekommen. Wir hoffen, Ihre neue Winterjacke gefällt Ihnen! Haben Sie Fragen oder Probleme? Dann antworten Sie einfach auf diese E-Mail. Mit freundlichen Grüßen, Ihr ModeDirekt-Team",
+  "points": [
+   "Beschreiben Sie die Probleme mit der Jacke (Größe, Knopf).",
+   "Fragen Sie, ob Sie die Jacke umtauschen können."
+  ],
+  "focus": [
+   "Complaint: Leider bin ich mit meiner Bestellung nicht zufrieden. Die Jacke ist gestern angekommen (sein).",
+   "The subject is Nominativ: Ein Knopf fehlt (not einen Knopf ist fehlend).",
+   "Wäre es möglich, die Jacke umzutauschen? (zu inside the separable verb)",
+   "Formal frame, full name. Ich freue mich auf Ihre Antwort. Vielen Dank! as two sentences."
+  ]
+ },
+ {
+  "id": "M17",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Entschuldigung",
+  "from": "Nachricht von Ihrem Freund Jakob",
+  "mail": "Hallo, wo warst du gestern? Wir wollten uns doch um 18 Uhr im Café Lindner treffen. Ich habe fast eine Stunde gewartet und dich zweimal angerufen. Ist alles in Ordnung? Bitte melde dich! Viele Grüße, Jakob",
+  "points": [
+   "Entschuldigen Sie sich bei Jakob.",
+   "Erklären Sie, warum Sie nicht gekommen sind.",
+   "Schlagen Sie ein neues Treffen vor."
+  ],
+  "focus": [
+   "Apology: Es tut mir so leid, dass ich nicht gekommen bin (dass + verb last, kommen with sein).",
+   "Reason in the past: Ich hatte unser Treffen total vergessen / Mein Handy war leer.",
+   "New meeting: Hast du am Donnerstag Zeit? (time before Zeit). Darf ich dich zum Kaffee einladen?"
+  ]
+ },
+ {
+  "id": "F05",
+  "kind": "full",
+  "reg": "du",
+  "theme": "Glückwunsch",
+  "from": "E-Mail von Ihrer Freundin Nadia",
+  "mail": "Hallo! Sie ist da: Am Dienstag ist unsere Tochter Ida auf die Welt gekommen! Sie ist klein und süß und schläft fast den ganzen Tag. Nur nachts ist sie oft wach, deshalb sind Malik und ich ziemlich müde. Aber wir sind sehr glücklich. Ich schicke dir ein Foto von ihr. Wann kommst du uns besuchen? Liebe Grüße, Nadia",
+  "points": [
+   "Gratulieren Sie Nadia und Malik.",
+   "Fragen Sie nach dem Baby.",
+   "Sagen Sie, wie Sie den beiden helfen können.",
+   "Schlagen Sie einen Termin für einen Besuch vor."
+  ],
+  "focus": [
+   "Congratulate: Herzlichen Glückwunsch zur Geburt von Ida! (zur = zu der) Ich freue mich so für euch!",
+   "du and ihr forms only: euch, eure Tochter (euer → eure, no extra e). No Sie.",
+   "Help: Ich kann gern für euch einkaufen oder kochen (modal, infinitive last).",
+   "Visit: Passt es euch am Samstagnachmittag? Vary the starts, not every sentence with Ich."
+  ]
+ },
+ {
+  "id": "M18",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Dank",
+  "from": "Nachricht von Ihrem Nachbarn Herrn Kowalski",
+  "mail": "Guten Abend, heute Vormittag hat der Postbote ein großes Paket für Sie bei mir abgegeben. Sie waren wohl nicht zu Hause. Ich bin morgen den ganzen Tag da. Wann kann ich es Ihnen bringen? Viele Grüße, Tomasz Kowalski",
+  "points": [
+   "Bedanken Sie sich bei Herrn Kowalski.",
+   "Sagen Sie, wann er das Paket bringen kann."
+  ],
+  "focus": [
+   "Thanks: Vielen Dank, dass Sie mein Paket angenommen haben (dass + verb last).",
+   "Time before place: Ich bin morgen ab 18 Uhr zu Hause. Sie können es gern vorbeibringen (infinitive last).",
+   "Capital Sie / Ihnen for Herrn Kowalski, to the last line."
+  ]
+ },
+ {
+  "id": "M19",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Feier",
+  "from": "E-Mail von Malte, dem Partner Ihrer Freundin Sara",
+  "mail": "Hallo! Sara hat nächsten Freitag ihre letzte Prüfung an der Uni. Danach möchte ich eine Überraschungsparty für sie machen. Sie darf aber nichts davon wissen! Hast du Lust, mir bei der Planung zu helfen? Und hast du vielleicht eine Idee für ein Geschenk? Viele Grüße, Malte",
+  "points": [
+   "Reagieren Sie auf Maltes Idee.",
+   "Sagen Sie, wie Sie bei der Party helfen können.",
+   "Machen Sie einen Vorschlag für ein Geschenk."
+  ],
+  "focus": [
+   "du to Malte, but Sara is sie / ihr, lowercase: ein Geschenk für sie, ihre Lieblingsband.",
+   "Help: Ich kann gern einen Kuchen backen oder die Getränke kaufen (modal, infinitive last).",
+   "Gift: Wie wäre es mit einem Gutschein für …? (mit + Dat). das Geschenk: ein Geschenk, no ending."
+  ]
+ },
+ {
+  "id": "M20",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Reparatur",
+  "from": "Nachricht von Ihrem Vermieter Herrn Becker",
+  "mail": "Guten Tag, die Heizung in Ihrer Wohnung muss repariert werden. Ein Handwerker kommt am Dienstag zwischen 9 und 12 Uhr. Sind Sie zu dieser Zeit zu Hause? Bitte geben Sie mir bis Freitag Bescheid. Mit freundlichen Grüßen, Klaus Becker",
+  "points": [
+   "Sagen Sie, dass Sie am Dienstag arbeiten müssen.",
+   "Schlagen Sie einen anderen Tag oder eine andere Zeit vor.",
+   "Fragen Sie, wie lange die Reparatur dauert."
+  ],
+  "focus": [
+   "Formal frame: Sehr geehrter Herr Becker, then lowercase. Mit freundlichen Grüßen + full name.",
+   "Leider passt mir diese Zeit nicht, weil ich am Dienstag arbeiten muss (verb after Leider, verb last after weil).",
+   "Question with the verb first: Könnten wir stattdessen einen anderen Termin vereinbaren? Passt Ihnen der 12. Mai?",
+   "Indirect question: Ich würde gern wissen, wie lange die Reparatur dauert."
+  ]
+ },
+ {
+  "id": "F06",
+  "kind": "full",
+  "reg": "Sie",
+  "theme": "Arbeit",
+  "from": "E-Mail von Ihrer Kollegin Frau Petrović",
+  "mail": "Hallo, ich habe gehört, dass Sie auch in Neustadt wohnen. Die Züge haben ja in letzter Zeit oft Verspätung. Ich fahre jeden Tag mit dem Auto ins Büro und habe noch einen Platz frei. Hätten Sie Lust auf eine Fahrgemeinschaft? Wir könnten uns die Benzinkosten teilen. Was meinen Sie? Viele Grüße, Jelena Petrović",
+  "points": [
+   "Reagieren Sie auf den Vorschlag von Frau Petrović.",
+   "Sagen Sie, an welchen Tagen Sie mitfahren möchten.",
+   "Schlagen Sie einen Treffpunkt vor.",
+   "Fragen Sie, wann Frau Petrović morgens losfährt."
+  ],
+  "focus": [
+   "Reaction: Das ist eine tolle Idee! Ich fahre gern mit (separable mitfahren). Not zufrieden.",
+   "Days, verb second after the time: Von Dienstag bis Freitag fahre ich gern mit. Montags arbeite ich zu Hause.",
+   "Meeting point: Wir könnten uns um 7.30 Uhr vor dem Bahnhof treffen (vor + Dat, infinitive last).",
+   "Indirect question: Ich würde gern wissen, wann Sie morgens losfahren (verb last, joined). Sie to the last line."
+  ]
+ },
+ {
+  "id": "M21",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Umzug",
+  "from": "Nachricht von Ihrem Freund Ali",
+  "mail": "Hallo! Du weißt ja, dass ich eine neue Wohnung habe. Am Samstag ziehe ich um. Leider habe ich viele Kisten und nur wenige Helfer. Kannst du mir beim Tragen helfen? Wir fangen um 9 Uhr an. Mittags gibt es Pizza für alle! Viele Grüße, Ali",
+  "points": [
+   "Reagieren Sie auf Alis Bitte.",
+   "Sagen Sie, dass Sie erst am Nachmittag kommen, und warum.",
+   "Schreiben Sie, was Sie zum Umzug mitbringen."
+  ],
+  "focus": [
+   "Help with the boxes: Ich helfe dir gern bei den Kisten (helfen + Dat, Dativ plural -n).",
+   "erst am Nachmittag, weil ich vormittags arbeiten muss (modal, infinitive, verb last).",
+   "Separable verbs: Ich bringe Getränke mit. Ich komme um 14 Uhr vorbei."
+  ]
+ },
+ {
+  "id": "M22",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Krankheit",
+  "from": "Nachricht von Ihrer Nachbarin Frau Krüger",
+  "mail": "Guten Morgen, leider muss ich für eine Woche ins Krankenhaus. Mein Knie wird operiert. Meine Tochter wohnt in Köln und kann nicht kommen. Könnten Sie in dieser Zeit meine zwei Katzen füttern? Den Schlüssel bekommen Sie natürlich von mir. Herzliche Grüße, Helga Krüger",
+  "points": [
+   "Reagieren Sie auf die Nachricht von Frau Krüger.",
+   "Schreiben Sie, was Sie für sie tun können.",
+   "Stellen Sie eine Frage zu den Katzen."
+  ],
+  "focus": [
+   "Bad news in the Sie form: Es tut mir leid, dass Sie ins Krankenhaus müssen. Ich wünsche Ihnen gute Besserung!",
+   "Capitals: Ihre Katzen (her cats), but sie / ihnen for the cats, lowercase.",
+   "Ich kümmere mich gern um Ihre Katzen (sich kümmern um + Akk). Wie oft soll ich sie füttern?",
+   "Liebe Frau Krüger for a neighbor you know, and no du in the last line."
+  ]
+ },
+ {
+  "id": "M23",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Dank",
+  "from": "E-Mail von Ihrer Tante Gül",
+  "mail": "Hallo, mein Schatz! Ist mein Paket gut bei dir angekommen? Ich habe den Pullover selbst gestrickt, damit du im Winter nicht frierst. Ich hoffe, die Farbe gefällt dir. Wenn er zu groß ist, kann ich ihn noch ändern. Liebe Grüße, deine Tante Gül",
+  "points": [
+   "Bedanken Sie sich für das Geschenk.",
+   "Sagen Sie, wie Ihnen der Pullover gefällt."
+  ],
+  "focus": [
+   "Thanks: Vielen Dank für den schönen Pullover! (für + Akk: der Pullover → den)",
+   "gefallen + Dativ: Der Pullover gefällt mir sehr (the thing is the subject). The point says Ihnen, the email says mir.",
+   "Family is du: Liebe Tante Gül … no Sie, Ihnen or Ihr."
+  ]
+ },
+ {
+  "id": "M24",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Kurs",
+  "from": "E-Mail der Volkshochschule",
+  "mail": "Sehr geehrte Teilnehmerinnen und Teilnehmer, ab dem 4. März findet Ihr Spanischkurs leider nicht mehr am Montagabend statt, sondern am Donnerstagabend. Die Uhrzeit bleibt gleich: von 18 bis 19.30 Uhr. Wir bitten um Ihr Verständnis. Mit freundlichen Grüßen, Ihre Volkshochschule",
+  "points": [
+   "Reagieren Sie auf die Änderung.",
+   "Sagen Sie, warum der Donnerstag (nicht) passt.",
+   "Bitten Sie um weitere Informationen."
+  ],
+  "focus": [
+   "Formal frame: Sehr geehrte Damen und Herren … Mit freundlichen Grüßen + full name.",
+   "Leider passt mir der Donnerstag nicht, weil ich donnerstags arbeite (verb after Leider, verb last after weil).",
+   "Request: Könnten Sie mir bitte weitere Informationen schicken? (person in Dativ)",
+   "Ich würde gern wissen, warum sich die Kurszeit ändert (sich ändern, verb last)."
+  ]
+ },
+ {
+  "id": "F07",
+  "kind": "full",
+  "reg": "du",
+  "theme": "Meinung",
+  "from": "E-Mail von Ihrem Freund Lukas",
+  "mail": "Hallo! Mein Auto ist jetzt fünfzehn Jahre alt und muss schon wieder in die Werkstatt. Ich überlege, ob ich es verkaufe und in Zukunft nur noch mit dem Fahrrad und mit der Bahn fahre. Das ist billiger und besser für die Umwelt. Aber im Winter und mit dem Einkauf? Ich weiß nicht. Was denkst du? Viele Grüße, Lukas",
+  "points": [
+   "Reagieren Sie auf die Idee von Lukas.",
+   "Sagen Sie Ihre Meinung zum Leben ohne Auto.",
+   "Berichten Sie von Ihren Erfahrungen mit Bus, Bahn oder Auto.",
+   "Geben Sie Lukas einen Tipp für seine Entscheidung."
+  ],
+  "focus": [
+   "Opinion: Ich finde, dass man in der Stadt kein Auto braucht (verb last) / Meiner Meinung nach ist … (verb second).",
+   "Comparatives: billiger, praktischer, besser als ein Auto (als, not wie).",
+   "Experience: Ich fahre seit drei Jahren mit dem Fahrrad zur Arbeit (seit + Präsens, mit + Dat).",
+   "Tip: An deiner Stelle würde ich erst einmal einen Monat ohne Auto leben (infinitive last). Vary the starts."
+  ]
+ },
+ {
+  "id": "M25",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Arbeit",
+  "from": "E-Mail von Ihrer Kollegin Frau Haddad",
+  "mail": "Hallo, mein Sohn ist krank, und ich muss am Freitag bei ihm zu Hause bleiben. Eigentlich habe ich an dem Tag Frühschicht. Könnten Sie vielleicht mit mir tauschen? Ich übernehme dafür gern Ihre Spätschicht am Montag. Viele Grüße, Samira Haddad",
+  "points": [
+   "Sagen Sie, ob Sie die Schicht tauschen können.",
+   "Begründen Sie Ihre Antwort.",
+   "Wünschen Sie ihrem Sohn gute Besserung."
+  ],
+  "focus": [
+   "The point says ihrem Sohn, the email says Ihrem Sohn: Ich wünsche Ihrem Sohn gute Besserung.",
+   "Yes: Das mache ich gern! No: Leider kann ich am Freitag nicht, weil ich einen Arzttermin habe (verb last).",
+   "Sie to the last line: Ich freue mich auf Ihre Antwort, no du slip."
+  ]
+ },
+ {
+  "id": "M26",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Freizeit",
+  "from": "Nachricht von Ihrer Freundin Fatma",
+  "mail": "Hallo! Ich möchte endlich mehr Sport machen und mit dem Joggen anfangen. Aber allein habe ich einfach keine Motivation. Hast du Lust, einmal pro Woche mit mir zu laufen? Am liebsten am Wochenende, da habe ich mehr Zeit. Liebe Grüße, Fatma",
+  "points": [
+   "Reagieren Sie auf Fatmas Idee.",
+   "Schlagen Sie einen Tag und einen Treffpunkt vor.",
+   "Geben Sie Fatma einen Tipp für den Anfang."
+  ],
+  "focus": [
+   "Reaction: Was für eine gute Idee! Ich laufe gern mit (separable mitlaufen).",
+   "Plan: Hast du am Sonntag um 9 Uhr Zeit? Wir könnten uns im Park treffen (infinitive last).",
+   "Tip: Am Anfang solltest du langsam laufen (sollte for advice, not musst)."
+  ]
+ },
+ {
+  "id": "M27",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Beschwerde",
+  "from": "E-Mail vom Möbelhaus Nord",
+  "mail": "Liebe Kundin, lieber Kunde, gestern haben wir Ihnen zwei Küchenstühle „Oslo“ in Grau geliefert. Sind Sie mit Ihrem Einkauf zufrieden? Wir freuen uns über Ihre Bewertung auf unserer Webseite. Bei Fragen erreichen Sie uns jederzeit per E-Mail. Mit freundlichen Grüßen, Ihr Möbelhaus Nord",
+  "points": [
+   "Nennen Sie den Grund für Ihr Schreiben.",
+   "Beschreiben Sie die Probleme (kaputt, falsche Farbe).",
+   "Sagen Sie, was Sie jetzt erwarten."
+  ],
+  "focus": [
+   "Formal frame, even though the shop wrote Liebe Kundin: Sehr geehrte Damen und Herren … full name.",
+   "Plural: Die Stühle sind gestern angekommen (sein). Einer ist kaputt, der andere hat die falsche Farbe.",
+   "Ich erwarte, dass Sie mir einen neuen Stuhl schicken (dass + verb last, person in Dativ).",
+   "zufrieden fits a complaint: Leider bin ich mit meiner Bestellung nicht zufrieden."
+  ]
+ },
+ {
+  "id": "F08",
+  "kind": "full",
+  "reg": "Sie",
+  "theme": "Verein",
+  "from": "E-Mail von Frau Steiner, Ihrer Trainerin im Schwimmverein",
+  "mail": "Liebe Mitglieder, am Samstag, dem 19. Juni, feiert unser Verein seinen 50. Geburtstag mit einem großen Sommerfest am See. Es gibt Musik, Spiele für Kinder und ein Buffet. Für so ein Fest brauchen wir viele Helferinnen und Helfer: beim Aufbauen, am Grill oder beim Kuchenverkauf. Wer kann uns unterstützen? Bitte melden Sie sich bis Ende Mai bei mir. Sportliche Grüße, Brigitte Steiner",
+  "points": [
+   "Reagieren Sie auf die Pläne für das Sommerfest.",
+   "Sagen Sie, wie Sie helfen können.",
+   "Schreiben Sie, wann Sie Zeit haben.",
+   "Fragen Sie, ob Sie Ihre Familie mitbringen können."
+  ],
+  "focus": [
+   "Semi-formal: Liebe Frau Steiner … Viele Grüße. Capital Sie / Ihnen for her all the way through.",
+   "Help: Ich kann gern beim Aufbauen helfen oder einen Kuchen backen (beim + Dat, infinitive last).",
+   "Time first: Am Samstag habe ich ab 14 Uhr Zeit (not Ich habe Zeit am Samstag).",
+   "Indirect question: Ich würde gern wissen, ob ich meine Familie mitbringen kann (verb last). Ihre in the point, meine in the email."
+  ]
+ },
+ {
+  "id": "M28",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Geschenk",
+  "from": "E-Mail von Ihrem Bruder Daniel",
+  "mail": "Hallo! Mama wird im April 60. Ich möchte ihr gern zusammen mit dir etwas Besonderes schenken. Ich habe an einen Gutschein für ein Wellnesshotel gedacht, aber das ist ziemlich teuer. Hast du eine bessere Idee? Liebe Grüße, Daniel",
+  "points": [
+   "Sagen Sie Ihre Meinung zu Daniels Idee.",
+   "Machen Sie einen anderen Vorschlag für ein Geschenk.",
+   "Sagen Sie, wie viel Geld Sie ausgeben möchten."
+  ],
+  "focus": [
+   "Opinion: Ich finde die Idee schön, aber … / Ich finde, dass das zu teuer ist (verb last).",
+   "Person + thing: Wir könnten ihr ein Fotobuch schenken (ihr = Mama, Dativ). Wie wäre es mit einem Konzert?",
+   "ausgeben für + Akk: Ich möchte höchstens 100 Euro für das Geschenk ausgeben (infinitive last)."
+  ]
+ },
+ {
+  "id": "M29",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Dank",
+  "from": "E-Mail von Ihrer Kursleiterin Frau Okafor",
+  "mail": "Hallo, wie ist Ihr Vorstellungsgespräch am Montag gelaufen? Ich habe an Sie gedacht und hoffe, unser Bewerbungstraining hat Ihnen geholfen. Im Frühling beginnt wieder ein neuer Kurs. Würden Sie ihn weiterempfehlen? Ich freue mich über eine kurze Nachricht! Herzliche Grüße, Esther Okafor",
+  "points": [
+   "Berichten Sie, wie das Vorstellungsgespräch gelaufen ist.",
+   "Sagen Sie, ob Sie den Kurs weiterempfehlen.",
+   "Bedanken Sie sich für die Hilfe."
+  ],
+  "focus": [
+   "laufen with sein: Das Gespräch ist gut gelaufen.",
+   "Two objects, Dativ first: Ich empfehle meinen Freunden gern Ihren Kurs (Dativ plural -n, no zu, capital Ihren).",
+   "Thanks: Vielen Dank für Ihre Hilfe! Sie to the last line."
+  ]
+ },
+ {
+  "id": "M30",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Freizeit",
+  "from": "Nachricht von Ihrem Freund Felix",
+  "mail": "Hallo! Hast du schon den Wetterbericht gesehen? Am Sonntag soll es den ganzen Tag regnen und stürmen. Unsere Wanderung im Harz macht dann wirklich keinen Spaß. Sollen wir sie verschieben, oder hast du eine andere Idee für Sonntag? Viele Grüße, Felix",
+  "points": [
+   "Sagen Sie, ob Sie die Wanderung verschieben möchten.",
+   "Machen Sie einen anderen Vorschlag für Sonntag."
+  ],
+  "focus": [
+   "Postpone: Wir könnten die Wanderung auf nächsten Sonntag verschieben (auf + Akk). die Wanderung → sie.",
+   "Rain plan: Wie wäre es, wenn wir ins Museum gehen? / Hast du Lust, … zu …?",
+   "Time first: Am nächsten Wochenende habe ich Zeit (not Ich habe Zeit nächstes Wochenende)."
+  ]
+ },
+ {
+  "id": "F09",
+  "kind": "full",
+  "reg": "du",
+  "theme": "Besuch",
+  "from": "E-Mail von Ihrer Freundin Chiara",
+  "mail": "Hallo! Endlich ist es so weit: Im März habe ich eine Woche Urlaub und kann dich besuchen! Ich war ja noch nie in deiner Stadt. Wäre das Wochenende vom 13. bis 14. März gut für dich? Kann ich bei dir übernachten, oder soll ich lieber ein Hotel buchen? Und was können wir zusammen unternehmen? Ich freue mich schon sehr! Liebe Grüße, Chiara",
+  "points": [
+   "Reagieren Sie auf Chiaras Idee.",
+   "Sagen Sie, ob das Wochenende passt.",
+   "Sagen Sie, wo Chiara übernachten kann.",
+   "Schlagen Sie vor, was Sie zusammen machen können."
+  ],
+  "focus": [
+   "Reaction: Wie schön, dass du mich besuchen willst! (verb last) Not zufrieden.",
+   "Where to sleep: Du kannst bei mir übernachten / in meinem Wohnzimmer schlafen (wo? → Dativ).",
+   "Plans: Am Samstag könnten wir in die Altstadt gehen (wohin? → Akk) und abends essen gehen.",
+   "passen + Dativ: Das Wochenende passt mir gut. Vary the starts, not every sentence with Ich."
+  ]
+ },
+ {
+  "id": "M31",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Entschuldigung",
+  "from": "E-Mail der Stadtbibliothek",
+  "mail": "Sehr geehrte Leserin, sehr geehrter Leser, Sie haben das Buch „Kochen mit Gemüse“ noch nicht zurückgebracht. Die Leihzeit war am 15. Januar zu Ende. Bitte bringen Sie das Buch bald zurück. Für jeden Tag Verspätung zahlen Sie 50 Cent. Mit freundlichen Grüßen, Ihre Stadtbibliothek",
+  "points": [
+   "Entschuldigen Sie sich für die Verspätung.",
+   "Erklären Sie, warum Sie das Buch noch haben.",
+   "Fragen Sie, ob Sie die Leihzeit verlängern können."
+  ],
+  "focus": [
+   "Formal frame: Sehr geehrte Damen und Herren, lowercase start, Mit freundlichen Grüßen + full name.",
+   "Apology: Es tut mir leid, dass ich das Buch noch nicht zurückgebracht habe (verb last).",
+   "Reason in the past: Ich war zwei Wochen krank / verreist.",
+   "Wäre es möglich, die Leihzeit zu verlängern? (zu + infinitive)"
+  ]
+ },
+ {
+  "id": "M32",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Rat",
+  "from": "E-Mail von Ihrer Freundin Leonie",
+  "mail": "Hallo! Ich brauche mal deinen Rat. Mein Mitbewohner Ben spült nie ab und lässt seine Sachen überall in der Küche liegen. Ich habe schon zweimal mit ihm gesprochen, aber nichts ändert sich. Langsam habe ich wirklich genug. Was soll ich machen? Liebe Grüße, Leonie",
+  "points": [
+   "Zeigen Sie Verständnis für Leonies Problem.",
+   "Berichten Sie von einer ähnlichen Erfahrung.",
+   "Geben Sie Leonie einen Rat."
+  ],
+  "focus": [
+   "Understanding: Das kann ich gut verstehen! Das ist wirklich ärgerlich.",
+   "Past experience: Als ich in einer WG gewohnt habe, hatte ich das gleiche Problem (verb last, then verb first).",
+   "Advice: Du könntest einen Putzplan machen / An deiner Stelle würde ich noch einmal mit ihm sprechen (mit + Dat)."
+  ]
+ },
+ {
+  "id": "M33",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Arbeit",
+  "from": "E-Mail von Ihrem Chef Herrn Nguyen",
+  "mail": "Guten Morgen, am Montag fängt unsere neue Kollegin Frau Weber im Team an. Ich bin leider die ganze Woche auf einer Messe in Frankfurt. Könnten Sie ihr am ersten Tag alles zeigen und sie den Kollegen vorstellen? Vielen Dank im Voraus! Viele Grüße, Minh Nguyen",
+  "points": [
+   "Sagen Sie, ob Sie Frau Weber am Montag helfen können.",
+   "Schreiben Sie, was Sie ihr am ersten Tag zeigen."
+  ],
+  "focus": [
+   "Frau Weber is ihr (Dativ) and sie (Akk), lowercase. Capital Sie / Ihnen only for Herrn Nguyen.",
+   "Ich zeige ihr das Büro und die Kantine. Ich stelle sie den Kollegen vor (Dativ plural -n, separable).",
+   "Lieber Herr Nguyen … Viele Grüße. Ich wünsche Ihnen viel Erfolg auf der Messe!"
+  ]
+ },
+ {
+  "id": "M34",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Verein",
+  "from": "Nachricht von Ihrer Freundin Svetlana",
+  "mail": "Hallo! Du singst doch so gern. Unser Chor sucht neue Mitglieder, und ich habe sofort an dich gedacht! Wir treffen uns jeden Mittwoch um 19.30 Uhr zum Singen. Danach gehen wir oft noch zusammen etwas trinken. Willst du nicht einmal mitkommen? Liebe Grüße, Svetlana",
+  "points": [
+   "Reagieren Sie auf Svetlanas Idee.",
+   "Sagen Sie, ob der Mittwoch für Sie passt.",
+   "Fragen Sie nach den Kosten."
+  ],
+  "focus": [
+   "Interest: Das klingt toll! Ich habe große Lust (not Ich bin interessiert in).",
+   "passen + Dativ: Der Mittwoch passt mir gut / Leider passt mir der Mittwoch nicht, weil ich da einen Kurs habe.",
+   "Question: Was kostet das? / Muss man etwas bezahlen? (modal + infinitive last)"
+  ]
+ },
+ {
+  "id": "F10",
+  "kind": "full",
+  "reg": "Sie",
+  "theme": "Dank",
+  "from": "E-Mail von Frau Berger, der Mutter Ihrer Freundin Lisa",
+  "mail": "Hallo, vielen Dank noch einmal für die schönen Blumen am Sonntag! Mein Mann und ich haben uns sehr über Ihren Besuch gefreut. Sie wollten das Rezept für meinen Apfelkuchen haben: Ich schicke es Ihnen mit dieser E-Mail. Beim nächsten Mal zeigen Sie mir dann Ihr Lieblingsrezept, ja? Kochen Sie eigentlich gern? Herzliche Grüße, Renate Berger",
+  "points": [
+   "Bedanken Sie sich für das Rezept.",
+   "Sagen Sie, was Ihnen am Sonntag besonders gefallen hat.",
+   "Erzählen Sie von Ihrem Lieblingsessen.",
+   "Machen Sie einen Vorschlag für das nächste Treffen."
+  ],
+  "focus": [
+   "A friend's mother is Sie: Liebe Frau Berger … Herzliche Grüße. No du slip.",
+   "Thanks: Vielen Dank für das Rezept! Ich habe mich sehr über die Einladung gefreut (sich freuen über + Akk).",
+   "Perfekt + Dativ: Der Apfelkuchen hat mir sehr gut geschmeckt. Der Nachmittag hat mir gefallen.",
+   "Suggestion: Wie wäre es, wenn wir nächsten Monat zusammen kochen? (verb last) Vary the starts."
+  ]
+ },
+ {
+  "id": "M35",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Reise",
+  "from": "Anzeige der Familie Hofer in Tirol",
+  "mail": "Ferienwohnung in Tirol! Ruhige Lage mit Blick auf die Berge, 2 Zimmer, Küche, Balkon. Ideal für Wanderer und Familien. Nur 10 Minuten zum Skilift. Ab 85 Euro pro Nacht. Fragen? Schreiben Sie uns!",
+  "points": [
+   "Schreiben Sie, wann und mit wem Sie kommen möchten.",
+   "Fragen Sie, ob Sie Ihren Hund mitbringen dürfen.",
+   "Fragen Sie nach einem Parkplatz."
+  ],
+  "focus": [
+   "Formal frame: Sehr geehrte Familie Hofer, then lowercase. Mit freundlichen Grüßen + full name.",
+   "Dates and people: vom 3. bis 10. Juli, mit meiner Familie (mit + Dat).",
+   "Indirect question: Ich würde gern wissen, ob ich meinen Hund mitbringen darf (verb last). Ihren in the point, meinen in the email.",
+   "Gibt es einen Parkplatz? (es gibt + Akk)"
+  ]
+ },
+ {
+  "id": "M36",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Reise",
+  "from": "E-Mail von Ihrem Freund Marco",
+  "mail": "Hallo! Lange nichts von dir gehört. Wie geht es dir? Bei mir ist alles gut, ich habe nur viel Stress bei der Arbeit. Hast du eigentlich schon Pläne für Ostern? Ich bleibe dieses Jahr zu Hause. Erzähl mal! Viele Grüße, Marco",
+  "points": [
+   "Erzählen Sie von Ihren Plänen für Ostern.",
+   "Bitten Sie Marco, Sie zum Flughafen zu bringen.",
+   "Bieten Sie ihm etwas als Dank an."
+  ],
+  "focus": [
+   "Plans: Über Ostern fliege ich nach … (time first, verb second).",
+   "Favor in the du form: Könntest du mich am Freitag zum Flughafen bringen? The point says Sie, the email says mich.",
+   "Thanks in return: Als Dank lade ich dich zum Essen ein (separable einladen)."
+  ]
+ },
+ {
+  "id": "M37",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Kurs",
+  "from": "E-Mail von Ihrem Kursleiter Herrn Costa",
+  "mail": "Liebe Teilnehmerinnen und Teilnehmer, nächsten Donnerstag ist schon unser letzter Kursabend! Ich möchte mit Ihnen ein kleines Abschlussessen machen. Jeder bringt etwas mit, zum Beispiel einen Salat, ein Dessert oder Getränke. Bitte sagen Sie mir bis Montag Bescheid. Herzliche Grüße, Paolo Costa",
+  "points": [
+   "Sagen Sie, ob Sie zum Abschlussessen kommen.",
+   "Schreiben Sie, was Sie für das Essen mitbringen.",
+   "Sagen Sie, was Ihnen im Kurs gefallen hat."
+  ],
+  "focus": [
+   "Semi-formal: Lieber Herr Costa … Viele Grüße. Capital Sie / Ihnen for him.",
+   "Separable: Ich bringe einen Kartoffelsalat mit (der Salat → einen, Akk).",
+   "Perfekt: Der Kurs hat mir sehr gut gefallen. Ich habe viel gelernt.",
+   "Ich freue mich auf Donnerstag (sich freuen auf + Akk)."
+  ]
+ },
+ {
+  "id": "F11",
+  "kind": "full",
+  "reg": "du",
+  "theme": "Einladung",
+  "from": "E-Mail von Ihrem Freund Dimitri",
+  "mail": "Hallo! Rate mal, was passiert ist: Elena und ich heiraten! Die Hochzeit ist am Samstag, dem 21. August, in Innsbruck. Dort wohnen Elenas Eltern. Wir feiern in einem kleinen Hotel in den Bergen, und wir würden uns sehr freuen, wenn du dabei bist! Kannst du mir bis Ende Mai Bescheid sagen? Viele Grüße, Dimitri",
+  "points": [
+   "Gratulieren Sie Dimitri und Elena.",
+   "Sagen Sie, ob Sie zur Hochzeit kommen.",
+   "Fragen Sie nach einem Hotel in der Nähe.",
+   "Fragen Sie, was sich die beiden wünschen."
+  ],
+  "focus": [
+   "Congratulate: Herzlichen Glückwunsch! Ich freue mich so für euch! Not zufrieden.",
+   "zu + Dat: Ich komme sehr gern zu eurer Hochzeit (euer → eurer, no extra e).",
+   "Kannst du mir ein Hotel in der Nähe empfehlen? (person in Dativ, infinitive last)",
+   "Reflexive in an indirect question: Ich würde gern wissen, was ihr euch wünscht (verb last)."
+  ]
+ },
+ {
+  "id": "M38",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Dank",
+  "from": "Nachricht von Ihrer Freundin Theresa",
+  "mail": "Hallo! Bist du gut zu Hause angekommen? Der Zug hatte hoffentlich keine Verspätung. Es war so schön, dass du uns in Salzburg besucht hast! Die Kinder fragen schon, wann du wiederkommst. Liebe Grüße, Theresa",
+  "points": [
+   "Bedanken Sie sich für die schöne Zeit.",
+   "Berichten Sie von Ihrer Rückfahrt.",
+   "Laden Sie Theresa und die Kinder zu sich ein."
+  ],
+  "focus": [
+   "Thanks: Vielen Dank für die schöne Zeit bei euch! (bei + Dat)",
+   "Trip home: Ich bin gut angekommen, aber der Zug hatte eine Stunde Verspätung (ankommen with sein).",
+   "Invitation, ihr form: Habt ihr Lust, mich im Sommer zu besuchen? (zu + infinitive last)"
+  ]
+ },
+ {
+  "id": "M39",
+  "kind": "mini",
+  "reg": "Sie",
+  "theme": "Arbeit",
+  "from": "Anzeige des Cafés Morgenrot",
+  "mail": "Aushilfe gesucht! Wir suchen ab April eine freundliche Aushilfe für das Wochenende, samstags und sonntags von 8 bis 14 Uhr. Erfahrung ist nicht nötig. Interesse? Schreiben Sie uns eine kurze E-Mail. Café Morgenrot, Lindenstraße 12",
+  "points": [
+   "Sagen Sie, warum Sie sich für die Stelle interessieren.",
+   "Berichten Sie kurz von Ihren Erfahrungen.",
+   "Fragen Sie, wie viel man pro Stunde verdient."
+  ],
+  "focus": [
+   "Formal frame: Sehr geehrte Damen und Herren … Mit freundlichen Grüßen + full name.",
+   "Ich interessiere mich für die Stelle, weil ich gern mit Menschen arbeite (für + Akk, verb last).",
+   "Experience: Ich habe schon zwei Jahre in einem Restaurant gearbeitet. Ich bin Studentin (no article).",
+   "Indirect question: Ich würde gern wissen, wie viel man pro Stunde verdient (verb last)."
+  ]
+ },
+ {
+  "id": "M40",
+  "kind": "mini",
+  "reg": "du",
+  "theme": "Rat",
+  "from": "Nachricht von Ihrer Freundin Elif",
+  "mail": "Hallo! Meine Kollegin aus Spanien ist nächste Woche zum ersten Mal hier. Ich möchte mit ihr typisch deutsch essen gehen. Kennst du ein gutes Restaurant? Es sollte nicht zu teuer sein, und sie isst kein Fleisch. Danke dir! Liebe Grüße, Elif",
+  "points": [
+   "Empfehlen Sie Elif ein Restaurant und sagen Sie, warum.",
+   "Geben Sie einen Tipp, was die beiden bestellen können."
+  ],
+  "focus": [
+   "empfehlen + Dativ: Ich empfehle dir das Gasthaus … in der Altstadt (dir, not dich).",
+   "Reason: Mir gefällt es dort, weil das Essen lecker und nicht teuer ist (verb last).",
+   "Two people, ihr form: Ihr könntet Käsespätzle bestellen (infinitive last)."
+  ]
+ },
+ {
+  "id": "F12",
+  "kind": "full",
+  "reg": "Sie",
+  "theme": "Wohnen",
+  "from": "E-Mail von Ihrem Nachbarn Herrn Arslan",
+  "mail": "Liebe Nachbarinnen und Nachbarn, unser Hof ist leider ziemlich grau und leer. Ich habe eine Idee: Wir könnten dort zusammen Blumen und Kräuter pflanzen und eine Bank aufstellen. Die Hausverwaltung hat schon Ja gesagt. Wer hat Lust mitzumachen? Wir treffen uns am Samstag, dem 17. April, um 15 Uhr im Hof und planen alles. Viele Grüße, Cem Arslan",
+  "points": [
+   "Sagen Sie Ihre Meinung zur Idee von Herrn Arslan.",
+   "Schreiben Sie, ob Sie zum Treffen am 17. April kommen.",
+   "Machen Sie einen eigenen Vorschlag für den Hof.",
+   "Fragen Sie, wer die Pflanzen bezahlt."
+  ],
+  "focus": [
+   "Opinion: Ich finde die Idee super / Ich finde, dass unser Hof schöner werden sollte (verb last).",
+   "He wrote to all neighbors, you write to him: Lieber Herr Arslan … Viele Grüße, capital Sie / Ihnen.",
+   "Date: am Samstag, dem 17. April. Leider kann ich erst um 16 Uhr kommen (verb right after Leider).",
+   "Suggestion: Wir könnten auch Tomaten pflanzen oder einen Tisch aufstellen (infinitive last)."
+  ]
+ }
+]

@@ -1,0 +1,370 @@
+{
+ "set": "17",
+ "title": "Bank, Post und Versicherung",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "W0013",
+   "entry": "abhängig",
+   "level": "B1",
+   "gloss": "dependent (on)"
+  },
+  {
+   "id": "W0014",
+   "entry": "abheben, hebt ab, hob ab, hat abgehoben",
+   "level": "B1",
+   "gloss": "to withdraw (money)"
+  },
+  {
+   "id": "W0093",
+   "entry": "die Anlage, -n",
+   "level": "B1",
+   "gloss": "enclosure, attachment (in a letter)"
+  },
+  {
+   "id": "W0121",
+   "entry": "der Anwalt, ¨-e",
+   "level": "B1",
+   "gloss": "lawyer (male)"
+  },
+  {
+   "id": "W0122",
+   "entry": "die Anwältin, -nen",
+   "level": "B1",
+   "gloss": "lawyer (female)"
+  },
+  {
+   "id": "W0252",
+   "entry": "die Bankleitzahl, -en",
+   "level": "B1",
+   "gloss": "bank code, routing number"
+  },
+  {
+   "id": "W0304",
+   "entry": "der Beitrag, ¨-e",
+   "level": "B1",
+   "gloss": "premium, contribution"
+  },
+  {
+   "id": "W0321",
+   "entry": "die Beratung",
+   "level": "B1",
+   "gloss": "consultation, advice"
+  },
+  {
+   "id": "W0432",
+   "entry": "der Briefträger, CH:dieBriefträgerin,-nen → Pöstler",
+   "level": "B1",
+   "gloss": "mail carrier"
+  },
+  {
+   "id": "W0433",
+   "entry": "der Briefumschlag, ¨-e → A: Kuvert; CH: Couvert",
+   "level": "B1",
+   "gloss": "envelope"
+  },
+  {
+   "id": "W0528",
+   "entry": "die Distanz, -en",
+   "level": "B1",
+   "gloss": "distance"
+  },
+  {
+   "id": "W0569",
+   "entry": "ebenso",
+   "level": "B1",
+   "gloss": "just as"
+  },
+  {
+   "id": "W0572",
+   "entry": "die ec-Karte/EC-Karte → A: Bankomat-Karte",
+   "level": "B1",
+   "gloss": "debit card"
+  },
+  {
+   "id": "W0585",
+   "entry": "sich eignen, eignet sich, eignete sich, hat sich geeignet",
+   "level": "B1",
+   "gloss": "to be suitable"
+  },
+  {
+   "id": "W0622",
+   "entry": "einschließlich",
+   "level": "B1",
+   "gloss": "including"
+  },
+  {
+   "id": "W0623",
+   "entry": "das Einschreiben, -",
+   "level": "B1",
+   "gloss": "registered letter (like certified mail)"
+  },
+  {
+   "id": "W0631",
+   "entry": "einzahlen, zahlt ein, zahlte ein, hat eingezahlt",
+   "level": "B1",
+   "gloss": "to deposit (money)"
+  },
+  {
+   "id": "W0632",
+   "entry": "die Einzahlung, -en",
+   "level": "B1",
+   "gloss": "deposit (of money)"
+  },
+  {
+   "id": "W0685",
+   "entry": "sich ereignen, ereignet sich, ereignete sich, hat sich ereignet",
+   "level": "B1",
+   "gloss": "to happen, to occur"
+  },
+  {
+   "id": "W0746",
+   "entry": "eventuell",
+   "level": "B1",
+   "gloss": "possibly, perhaps"
+  },
+  {
+   "id": "W0770",
+   "entry": "fällig",
+   "level": "B1",
+   "gloss": "due (for payment)"
+  },
+  {
+   "id": "W0821",
+   "entry": "finanzieren, finanziert, finanzierte, hat finanziert",
+   "level": "B1",
+   "gloss": "to finance, to pay for (with a loan)"
+  },
+  {
+   "id": "W0822",
+   "entry": "finanziell",
+   "level": "B1",
+   "gloss": "financially"
+  },
+  {
+   "id": "W0930",
+   "entry": "gebrauchen, gebraucht, gebrauchte, hat gebraucht",
+   "level": "B1",
+   "gloss": "to use, to make use of"
+  },
+  {
+   "id": "W0932",
+   "entry": "die Gebühr, -en",
+   "level": "B1",
+   "gloss": "fee"
+  },
+  {
+   "id": "W0937",
+   "entry": "geehrt",
+   "level": "A2",
+   "gloss": "dear (Sehr geehrte ...), honored"
+  },
+  {
+   "id": "W0960",
+   "entry": "der Geldautomat, -en (D) A, CH:→ Bancomat/Bankomat",
+   "level": "B1",
+   "gloss": "ATM, cash machine"
+  },
+  {
+   "id": "W0971",
+   "entry": "genehmigen, genehmigt, genehmigte, hat genehmigt",
+   "level": "B1",
+   "gloss": "to approve"
+  },
+  {
+   "id": "W0982",
+   "entry": "gering",
+   "level": "B1",
+   "gloss": "low, small"
+  },
+  {
+   "id": "W1100",
+   "entry": "heben, hebt, hob, hat gehoben",
+   "level": "B1",
+   "gloss": "to lift"
+  },
+  {
+   "id": "W1200",
+   "entry": "insgesamt",
+   "level": "B1",
+   "gloss": "in total, altogether"
+  },
+  {
+   "id": "W1218",
+   "entry": "irgendirgendein",
+   "level": "B1",
+   "gloss": "any, some (irgendein-)"
+  },
+  {
+   "id": "W1265",
+   "entry": "die Chipkarte, -n",
+   "level": "B1",
+   "gloss": "chip card (health insurance card)"
+  },
+  {
+   "id": "W1344",
+   "entry": "das Girokonto, -en",
+   "level": "B1",
+   "gloss": "checking account"
+  },
+  {
+   "id": "W1377",
+   "entry": "die Kreditkarte, -n",
+   "level": "B1",
+   "gloss": "credit card"
+  },
+  {
+   "id": "W1511",
+   "entry": "die Mahnung, -en",
+   "level": "B1",
+   "gloss": "payment reminder, overdue notice"
+  },
+  {
+   "id": "W1955",
+   "entry": "das Risiko, Risiken",
+   "level": "B1",
+   "gloss": "risk"
+  },
+  {
+   "id": "W2068",
+   "entry": "die Schulden (Pl.)",
+   "level": "B1",
+   "gloss": "debts"
+  },
+  {
+   "id": "W2152",
+   "entry": "solange",
+   "level": "B1",
+   "gloss": "as long as"
+  },
+  {
+   "id": "W2451",
+   "entry": "die Überweisung, - en",
+   "level": "B1",
+   "gloss": "bank transfer"
+  },
+  {
+   "id": "W2465",
+   "entry": "umgehen, geht um, ging um, ist umgegangen",
+   "level": "B1",
+   "gloss": "to handle, to deal with (mit)"
+  },
+  {
+   "id": "W2602",
+   "entry": "verschwinden, verschwindet, verschwand, ist verschwunden",
+   "level": "B1",
+   "gloss": "to disappear"
+  },
+  {
+   "id": "W2603",
+   "entry": "versichern, versichert, versicherte, hat versichert",
+   "level": "B1",
+   "gloss": "to insure"
+  },
+  {
+   "id": "W2605",
+   "entry": "die Versicherung, -en",
+   "level": "B1",
+   "gloss": "insurance"
+  },
+  {
+   "id": "W2614",
+   "entry": "verteilen, verteilt, verteilte, hat verteilt",
+   "level": "B1",
+   "gloss": "to distribute, to deliver"
+  },
+  {
+   "id": "W2667",
+   "entry": "die Vorschrift, -en",
+   "level": "B1",
+   "gloss": "rule, regulation"
+  },
+  {
+   "id": "W2806",
+   "entry": "die Zahlung, -en",
+   "level": "B1",
+   "gloss": "payment"
+  },
+  {
+   "id": "W2837",
+   "entry": "die Zinsen (nur Pl.)",
+   "level": "B1",
+   "gloss": "interest (on money)"
+  },
+  {
+   "id": "W2916",
+   "entry": "die Steuer, -n",
+   "level": "B1",
+   "gloss": "tax"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2777",
+   "entry": "wohl",
+   "level": "B1",
+   "gloss": "probably; well (sich wohl fühlen: to feel good)"
+  },
+  {
+   "id": "W0323",
+   "entry": "der Bereich, -e",
+   "level": "B1",
+   "gloss": "area, field"
+  },
+  {
+   "id": "W2912",
+   "entry": "die Reihe, -n",
+   "level": "A2",
+   "gloss": "row, line; turn (Ich bin an der Reihe: it is my turn)"
+  },
+  {
+   "id": "W0171",
+   "entry": "aufpassen, passt auf, passte auf, hat aufgepasst",
+   "level": "A2",
+   "gloss": "to pay attention, to watch out; (auf) to look after"
+  },
+  {
+   "id": "W0662",
+   "entry": "enthalten, enthält, enthielt, hat enthalten",
+   "level": "B1",
+   "gloss": "to contain"
+  },
+  {
+   "id": "W0083",
+   "entry": "der Angehörige, -n",
+   "level": "B1",
+   "gloss": "relative, family member (male)"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X023",
+   "word": "der Zuschuss, Zuschüsse",
+   "gloss": "a subsidy, grant",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R001",
+   "word": "der Bankomat, -en",
+   "gloss": "ATM",
+   "kind": "austrian",
+   "de": "der Geldautomat"
+  },
+  {
+   "id": "R002",
+   "word": "die Bankomat-Karte, -n",
+   "gloss": "debit card",
+   "kind": "austrian",
+   "de": "die EC-Karte"
+  },
+  {
+   "id": "R016",
+   "word": "das Kuvert, -s",
+   "gloss": "envelope",
+   "kind": "austrian",
+   "de": "der Briefumschlag"
+  }
+ ],
+ "story_opening": "Lena hat noch ihr altes Konto bei einer kleinen Bank in Hamburg. In Leipzig gibt es diese Bank aber nicht. Für jedes persönliche Gespräch müsste Lena nach Hamburg fahren, und die Distanz ist einfach zu groß. Außerdem kostet das Konto eine Gebühr von acht Euro im Monat. Deshalb möchte Lena in Leipzig ein neues Girokonto eröffnen. Sie macht einen Termin für eine Beratung bei einer Bank in der Nähe ihres Büros.\n\nDer Berater heißt Herr Schuster. Er zeigt Lena zwei Konten. „Dieses Konto eignet sich gut für Sie“, sagt er. „Es kostet nichts, solange Ihr Gehalt jeden Monat auf dieses Konto kommt. Bei dem anderen Konto ist der Preis abhängig davon, wie oft Sie es benutzen.“ Lena entscheidet sich für "
+}

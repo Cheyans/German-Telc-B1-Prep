@@ -1,0 +1,77 @@
+{
+ "story": "17",
+ "questions": [
+  {
+   "q": "Warum möchte Lena in Leipzig ein neues Konto eröffnen?",
+   "right": "Ihre Bank ist weit weg, und das Konto ist nicht kostenlos.",
+   "wrong": [
+    "Für jedes Gespräch in der Bank muss sie acht Euro zahlen.",
+    "Die Bank in Hamburg hat ihr altes Konto schon gekündigt."
+   ],
+   "evidence": "Für jedes persönliche Gespräch müsste Lena nach Hamburg fahren, und die Distanz ist einfach zu groß. Außerdem kostet das Konto eine Gebühr von acht Euro im Monat.",
+   "why": "The distance („Distanz“) to Hamburg is too big, and the account has a fee („Gebühr“) of 8 euros a month, not per meeting. Lena cancels the account herself later.",
+   "words": [
+    "W0528",
+    "W0932"
+   ]
+  },
+  {
+   "q": "Lenas neues Konto kostet nichts, …",
+   "right": "wenn sie dort jeden Monat ihren Lohn bekommt.",
+   "wrong": [
+    "wenn sie es im Monat nur selten benutzt.",
+    "aber nur im ersten Jahr, danach acht Euro im Monat."
+   ],
+   "evidence": "Es kostet nichts, solange Ihr Gehalt jeden Monat auf dieses Konto kommt. Bei dem anderen Konto ist der Preis abhängig davon, wie oft Sie es benutzen.",
+   "why": "„Solange“ means as long as: the account is free while her salary arrives there every month. A price that depends („abhängig“) on how often you use it belongs to the other account.",
+   "words": [
+    "W2152",
+    "W0013",
+    "W0585"
+   ]
+  },
+  {
+   "q": "Warum schickt die Umzugsfirma Lena einen Brief?",
+   "right": "Lena hat eine Rechnung nicht rechtzeitig bezahlt.",
+   "wrong": [
+    "Lena hat der Firma im September zu viel Geld überwiesen.",
+    "Die Firma will Lena fünf Euro zurückzahlen."
+   ],
+   "evidence": "Sehr geehrte Frau Hoffmann, leider haben wir Ihre Zahlung für unsere Rechnung vom 2. September noch nicht bekommen. Die Rechnung war am 16. September fällig.",
+   "why": "A „Mahnung“ is a payment reminder: the bill was due („fällig“) on 16 September and her payment has not arrived. The five euros are a reminder fee she must pay, not money back.",
+   "words": [
+    "W1511",
+    "W0770",
+    "W2806"
+   ]
+  },
+  {
+   "q": "Was macht Lena noch am selben Abend nach dem Gespräch mit Aylin?",
+   "right": "Sie schließt im Internet eine Haftpflichtversicherung ab.",
+   "wrong": [
+    "Sie findet eine Versicherung zu teuer und wartet noch.",
+    "Sie meint, dass ihre Krankenversicherung genug ist."
+   ],
+   "evidence": "Aber noch am selben Abend versichert sich Lena im Internet. Jetzt hat auch sie eine Haftpflichtversicherung.",
+   "why": "Lena laughs that Aylin is ebenso (just as) careful as her mother, but that same evening she insures herself (versichert sich) online and now has liability insurance.",
+   "words": [
+    "W2603",
+    "W0569"
+   ]
+  },
+  {
+   "q": "Was macht Lena am Samstag am Automaten in der Bank?",
+   "right": "Sie bringt das Geld für ihren alten Teppich auf das Konto.",
+   "wrong": [
+    "Sie holt Geld, weil sie einen neuen Teppich kaufen will.",
+    "Sie bezahlt mit der neuen Karte die Mahnung der Umzugsfirma."
+   ],
+   "evidence": "Am Automaten in der Bank zahlt sie fünfzig Euro ein. Das Geld hat sie für den alten grünen Teppich aus dem Keller bekommen.",
+   "why": "„Einzahlen“ means putting money into your account, the opposite of „abheben“. The money comes from selling the old carpet, and the moving bill was already paid online.",
+   "words": [
+    "W0631",
+    "W0632"
+   ]
+  }
+ ]
+}

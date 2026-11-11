@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Deklination & Pronomen: B1 Trainer</title>
+<style>
+  :root{
+    --bg:#0f1220; --card:#1b2036; --ink:#eef1f7; --mut:#9aa3b2; --line:#2b3350;
+    --ok:#2ecc71; --no:#ff6b6b; --hl:#ffd86b; --blue:#2b5cff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;padding:16px;}
+  .wrap{max-width:820px;margin:0 auto;}
+  h1{font-size:20px;margin:4px 0 2px;}
+  .sub{color:var(--mut);font-size:13px;margin-bottom:12px;}
+  .tabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap;}
+  .tabs button{background:var(--card);color:var(--mut);border:1px solid var(--line);border-radius:8px;
+    padding:8px 14px;font-size:14px;cursor:pointer;}
+  .tabs button.active{color:var(--ink);border-color:var(--blue);background:#1e2650;}
+  .help{background:#141a30;border:1px solid var(--line);border-radius:10px;padding:8px 12px;
+    font-size:12.5px;color:var(--mut);margin-bottom:12px;}
+  .help b{color:var(--ink);}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px;}
+  select,button{background:var(--card);color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:14px;cursor:pointer;}
+  button:hover{border-color:#3d4877;}
+  label.tog{font-size:13.5px;color:var(--mut);display:flex;align-items:center;gap:6px;cursor:pointer;}
+  .stats{font-size:13px;color:var(--mut);margin-bottom:10px;}
+  .stats b{color:var(--ink);}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:12px;}
+  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    padding:2px 8px;border-radius:999px;color:#0f1220;margin-right:6px;}
+  .caps{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;
+    border:1px solid var(--hl);color:var(--hl);}
+  .q{font-size:20px;margin:10px 0 14px;}
+  .q .blank{color:var(--hl);font-weight:700;}
+  .row{display:flex;gap:8px;flex-wrap:wrap;}
+  #in{flex:1;min-width:180px;background:#0d1122;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:12px 14px;font-size:18px;outline:none;}
+  #in:focus{border-color:#3d4877;}
+  #in[readonly]{opacity:.75;}
+  .go{background:var(--blue);border-color:var(--blue);font-weight:700;padding:12px 18px;}
+  .flash{color:var(--hl);font-size:13px;min-height:18px;margin-top:6px;}
+  .fb{margin-top:10px;font-size:15px;}
+  .fb .head{font-weight:700;}
+  .fb.okk .head{color:var(--ok);}
+  .fb.noo .head{color:var(--no);}
+  .fb s{color:var(--no);}
+  .fb .ans{color:var(--ink);}
+  .fb .note{color:var(--mut);font-size:13.5px;margin-top:4px;}
+  .fb .rule{color:var(--hl);font-size:13.5px;margin-top:4px;}
+  .fb .ptr{color:#8fb3ff;font-size:13px;margin-top:4px;}
+  .fb .good{color:var(--ok);font-size:13.5px;margin-top:6px;font-weight:700;}
+  .prog{height:6px;background:#0d1122;border-radius:999px;overflow:hidden;margin-top:14px;}
+  .prog>i{display:block;height:100%;background:var(--blue);width:0;}
+  .hint{font-size:12.5px;color:var(--mut);}
+  kbd{background:#0d1122;border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:12px;}
+  .tblwrap{overflow-x:auto;}
+  table{border-collapse:collapse;font-size:13.5px;margin-top:6px;}
+  th,td{border:1px solid var(--line);padding:4px 8px;text-align:center;white-space:nowrap;}
+  th{color:var(--mut);font-weight:600;background:#151a2e;}
+  td.hl{background:var(--hl);color:#111;font-weight:700;}
+  td.ln{background:#232b4d;}
+  th.hr,th.hc{color:var(--hl);}
+  .sub2{font-size:11px;color:var(--mut);font-weight:400;}
+  .mini{margin-top:14px;}
+  .mt{font-size:12.5px;color:var(--mut);font-weight:700;}
+  .mn{font-size:12px;color:var(--mut);margin-top:4px;}
+  table.drill td{padding:3px;vertical-align:top;}
+  table.drill input{width:92px;padding:6px;font-size:15px;background:#0d1122;color:var(--ink);
+    border:1px solid var(--line);border-radius:6px;}
+  table.drill td.ok input{border-color:var(--ok);}
+  table.drill td.no input{border-color:var(--no);}
+  .sol{font-size:12px;color:var(--no);font-weight:700;}
+  td.given{color:var(--mut);vertical-align:middle;}
+  .end ul{margin:8px 0;padding-left:20px;font-size:14px;}
+  .end li{margin:3px 0;}
+  .kpis{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px;}
+  .kpis div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:130px;}
+  .kpis b{font-size:22px;display:block;}
+  .kpis span{font-size:12px;color:var(--mut);}
+  textarea{width:100%;min-height:320px;background:#0d1122;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:10px;font-family:ui-monospace,Menlo,monospace;font-size:12.5px;}
+  .shake{animation:sh .3s;}
+  @keyframes sh{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+  [hidden]{display:none !important;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Deklination &amp; Pronomen: B1 Trainer</h1>
+  <div class="sub">4 Master-Tabellen · <span id="itemCount"></span> Aufgaben · Fehler werden gespeichert</div>
+
+  <nav class="tabs">
+    <button data-tab="quiz" class="active">Quiz</button>
+    <button data-tab="drill">Tabellen-Drill</button>
+    <button data-tab="report">Fortschritt &amp; Bericht</button>
+  </nav>
+
+  <!-- ================= QUIZ ================= -->
+  <section id="tab-quiz">
+    <div class="help"><b>So übst du:</b> 1. Eine Tabelle im <b>Tabellen-Drill</b> aus dem Kopf ausfüllen. 2. Eine Runde <b>Smart</b>: deine Fehler kommen automatisch wieder, bis sie sitzen. 3. Danach <b>Fortschritt → Bericht kopieren</b> und an Claude schicken.</div>
+    <div class="bar">
+      <select id="cat"></select>
+      <select id="mode">
+        <option value="smart">Smart (Fehler zuerst)</option>
+        <option value="fehler">Nur meine Fehler</option>
+        <option value="alle">Alle gemischt</option>
+      </select>
+      <select id="size">
+        <option value="20">20 Fragen</option>
+        <option value="40">40 Fragen</option>
+        <option value="alle">Alle</option>
+      </select>
+      <label class="tog"><input type="checkbox" id="retype"> Korrektur abtippen</label>
+      <button id="start">▶ Neue Runde</button>
+    </div>
+    <div class="stats">Sicher (3× richtig in Folge): <b id="mastered">0</b>/<b id="total">0</b> · Frage <b id="rIdx">0</b>/<b id="rLen">0</b> · richtig in dieser Runde: <b id="rOk">0</b></div>
+
+    <div class="card" id="card">
+      <div id="qa">
+        <span class="tag" id="tag">—</span><span class="caps" id="capsBadge" hidden>Aa: Groß/klein zählt</span>
+        <div class="q" id="q">…</div>
+        <div class="row">
+          <input type="text" id="in" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Antwort eintippen …">
+          <button class="go" id="go">Prüfen</button>
+        </div>
+        <div class="flash" id="flash"></div>
+        <div class="fb" id="fb"></div>
+        <div id="mini"></div>
+      </div>
+      <div id="endBox" class="end" hidden></div>
+      <div class="prog"><i id="pbar"></i></div>
+    </div>
+    <div class="hint"><kbd>Enter</kbd> = prüfen · nach dem Prüfen: <kbd>Enter</kbd> oder <kbd>→</kbd> = weiter. Ohne Antwort geht es nicht weiter.</div>
+  </section>
+
+  <!-- ================= DRILL ================= -->
+  <section id="tab-drill" hidden>
+    <div class="help">Fülle die ganze Tabelle <b>aus dem Kopf</b> aus (<kbd>Enter</kbd> springt zur nächsten Zelle). Dann <b>Prüfen</b>. Falsche Zellen zeigen die Lösung. Mit <b>Nur Fehler nochmal</b> löschst du nur die falschen und versuchst es erneut. Tipps erscheinen erst nach dem Prüfen. In Tabelle 2 sind die Spalten Genus + Kasus und werden bei jedem „Leeren“ neu gemischt.</div>
+    <div class="bar">
+      <select id="drillSel">
+        <option value="T1d">Tabelle 1: der-Wörter (16)</option>
+        <option value="T1e">Tabelle 1: ein-Wörter, Muster mein (16)</option>
+        <option value="T2">Tabelle 2: Possessiv (48)</option>
+        <option value="T3">Tabelle 3: Pronomen &amp; Reflexiv (36)</option>
+        <option value="T4">Tabelle 4: Relativ (16)</option>
+      </select>
+      <button class="go" id="drillCheck">Prüfen</button>
+      <button id="drillRetry">↺ Nur Fehler nochmal</button>
+      <button id="drillReset">Leeren</button>
+      <span class="stats" id="drillScore"></span>
+    </div>
+    <div class="hint" id="drillInfo"></div>
+    <div class="card" id="drillGrid"></div>
+  </section>
+
+  <!-- ================= REPORT ================= -->
+  <section id="tab-report" hidden>
+    <div class="help"><b>An Claude schicken:</b> „Bericht kopieren" und im Chat einfügen. Oder „Bericht speichern" (landet in Downloads) und Claude schreiben: „Bericht ist in Downloads". <b>Computer wechseln:</b> Dein Fortschritt liegt nur in diesem Browser. „Fortschritt sichern" speichert alles als Datei, auf dem neuen Computer dann „Fortschritt laden".</div>
+    <div id="summary"></div>
+    <div class="bar">
+      <button class="go" id="copyRep">📋 Bericht kopieren</button>
+      <button id="saveRep">⬇️ Bericht speichern</button>
+      <button id="expProg">💾 Fortschritt sichern</button>
+      <button id="impProg">📂 Fortschritt laden</button>
+      <input type="file" id="impFile" accept=".json,application/json" hidden>
+      <button id="resetAll">🗑 Fortschritt löschen</button>
+    </div>
+    <div class="flash" id="copyMsg"></div>
+    <textarea id="repText" readonly></textarea>
+  </section>
+</div>
+
+<script>
+/*DATA-START*/
+const GROWS = [["m","m (der Vater)"],["f","f (die Mutter)"],["n","n (das Kind)"],["Pl","Pl (die Kinder)"]];
+const CASES = [["Nom","Nom"],["Akk","Akk"],["Dat","Dat"],["Gen","Gen"]];
+const TABLES = {
+  T1d: { short:"T1 der", title:"Tabelle 1: der-Wörter", caps:false, rows:GROWS, cols:CASES,
+    data:{m:["der","den","dem","des"], f:["die","die","der","der"], n:["das","das","dem","des"], Pl:["die","die","den","der"]},
+    note:"Dativ Plural: Nomen +n (den Kindern) · Genitiv m/n: Nomen +s (des Vaters)" },
+  T1e: { short:"T1 ein", title:"Tabelle 1: ein-Wörter (Muster: mein)", caps:false, rows:GROWS, cols:CASES,
+    data:{m:["mein","meinen","meinem","meines"], f:["meine","meine","meiner","meiner"], n:["mein","mein","meinem","meines"], Pl:["meine","meine","meinen","meiner"]},
+    note:"Gleiche Endungen für ein, kein, dein, sein, ihr, unser, euer, Ihr. Keine Endung nur bei m Nom, n Nom, n Akk." },
+  T2: { short:"T2", title:"Tabelle 2: Possessiv (Person × Endung)", caps:true,
+    rows:[["ich","ich"],["du","du"],["er","er / es"],["sie","sie (she)"],["wir","wir"],["ihr","ihr (you all)"],["siePl","sie (they)"],["Sie","Sie (formal)"]],
+    cols:[["e0","∅"],["e","-e"],["en","-en"],["em","-em"],["er","-er"],["es","-es"]],
+    data:{ich:["mein","meine","meinen","meinem","meiner","meines"], du:["dein","deine","deinen","deinem","deiner","deines"],
+      er:["sein","seine","seinen","seinem","seiner","seines"], sie:["ihr","ihre","ihren","ihrem","ihrer","ihres"],
+      wir:["unser","unsere","unseren","unserem","unserer","unseres"], ihr:["euer","eure","euren","eurem","eurer","eures"],
+      siePl:["ihr","ihre","ihren","ihrem","ihrer","ihres"], Sie:["Ihr","Ihre","Ihren","Ihrem","Ihrer","Ihres"]},
+    note:"∅ = m Nom, n Nom/Akk · -e = f/Pl Nom/Akk · -en = m Akk, Pl Dat · -em = m/n Dat · -er = f Dat, f/Pl Gen · -es = m/n Gen · euer wird eur- vor jeder Endung" },
+  T3: { short:"T3", title:"Tabelle 3: Personal- & Reflexivpronomen", caps:true, given:"Nom",
+    rows:[["ich","ich"],["du","du"],["er","er"],["sie","sie (she)"],["es","es"],["wir","wir"],["ihr","ihr (you all)"],["siePl","sie (they)"],["Sie","Sie (formal)"]],
+    cols:[["Nom","Nom"],["Akk","Akk"],["Dat","Dat"],["RAkk","Refl. Akk"],["RDat","Refl. Dat"]],
+    data:{ich:["ich","mich","mir","mich","mir"], du:["du","dich","dir","dich","dir"], er:["er","ihn","ihm","sich","sich"],
+      sie:["sie","sie","ihr","sich","sich"], es:["es","es","ihm","sich","sich"], wir:["wir","uns","uns","uns","uns"],
+      ihr:["ihr","euch","euch","euch","euch"], siePl:["sie","sie","ihnen","sich","sich"], Sie:["Sie","Sie","Ihnen","sich","sich"]},
+    note:"sich ist immer klein, auch bei Sie. ich/du/wir/ihr: Reflexiv = normales Akk/Dat-Pronomen." },
+  T4: { short:"T4", title:"Tabelle 4: Relativpronomen", caps:false, rows:GROWS, cols:CASES,
+    data:{m:["der","den","dem","dessen"], f:["die","die","der","deren"], n:["das","das","dem","dessen"], Pl:["die","die","denen","deren"]},
+    note:"Wie die der-Wörter, außer: denen (Dat Pl), dessen / deren (Gen)." }
+};
+
+const CTX_POOL = {e0:[["m","Nom"],["n","Nom"],["n","Akk"]], e:[["f","Nom"],["f","Akk"],["Pl","Nom"],["Pl","Akk"]],
+  en:[["m","Akk"],["Pl","Dat"]], em:[["m","Dat"],["n","Dat"]], er:[["f","Dat"],["f","Gen"],["Pl","Gen"]], es:[["m","Gen"],["n","Gen"]]};
+const CASE_FULL = {Nom:"Nominativ", Akk:"Akkusativ", Dat:"Dativ", Gen:"Genitiv"};
+const G_LABEL = {m:"der Vater (mask.)", f:"die Mutter (fem.)", n:"das Kind (neutr.)", Pl:"die Kinder (Plural)"};
+
+function I(id, cat, q, a, note, cells){
+  return {id, cat, q, a, note, cells: cells.split("|").map(s => { const p = s.split(":"); return {t:p[0], r:p[1], c:p[2]}; })};
+}
+
+const ITEMS = [
+  // ===== TABELLE 1: der-Wörter =====
+  I("d-m-nom","T1","(Nom) ___ Mann ist hier.","der","maskulin Nominativ = der","T1d:m:Nom"),
+  I("d-m-akk","T1","(Akk) Ich sehe ___ Mann.","den","maskulin Akkusativ = den (-n)","T1d:m:Akk"),
+  I("d-m-dat","T1","(Dat) Ich helfe ___ Mann.","dem","maskulin Dativ = dem (-m)","T1d:m:Dat"),
+  I("d-m-gen","T1","(Gen) das Auto ___ Mannes","des","maskulin Genitiv = des, das Nomen bekommt -s","T1d:m:Gen"),
+  I("d-f-nom","T1","(Nom) ___ Frau ist hier.","die","feminin Nominativ = die","T1d:f:Nom"),
+  I("d-f-akk","T1","(Akk) Ich sehe ___ Frau.","die","feminin Akkusativ = die (wie Nominativ)","T1d:f:Akk"),
+  I("d-f-dat","T1","(Dat) Ich helfe ___ Frau.","der","feminin Dativ = der (-r). Die klassische Falle!","T1d:f:Dat"),
+  I("d-f-gen","T1","(Gen) das Auto ___ Frau","der","feminin Genitiv = der","T1d:f:Gen"),
+  I("d-n-nom","T1","(Nom) ___ Kind spielt.","das","neutrum Nominativ = das","T1d:n:Nom"),
+  I("d-n-akk","T1","(Akk) Ich sehe ___ Kind.","das","neutrum Akkusativ = das (wie Nominativ)","T1d:n:Akk"),
+  I("d-n-dat","T1","(Dat) Ich helfe ___ Kind.","dem","neutrum Dativ = dem (-m)","T1d:n:Dat"),
+  I("d-n-gen","T1","(Gen) das Spielzeug ___ Kindes","des","neutrum Genitiv = des, das Nomen bekommt -s","T1d:n:Gen"),
+  I("d-pl-nom","T1","(Nom) ___ Kinder spielen.","die","Plural Nominativ = die","T1d:Pl:Nom"),
+  I("d-pl-akk","T1","(Akk) Ich sehe ___ Kinder.","die","Plural Akkusativ = die","T1d:Pl:Akk"),
+  I("d-pl-dat","T1","(Dat) Ich helfe ___ Kindern.","den","Plural Dativ = den, das Nomen bekommt -n (Kindern)","T1d:Pl:Dat"),
+  I("d-pl-gen","T1","(Gen) die Sachen ___ Kinder","der","Plural Genitiv = der","T1d:Pl:Gen"),
+
+  // ===== TABELLE 1: ein / kein =====
+  I("e-ein-m-nom","T1","(Nom, m) Da steht ___ Mann. [ein]","ein","m Nominativ: keine Endung (∅)","T1e:m:Nom"),
+  I("e-ein-m-akk","T1","(Akk, m) Ich habe ___ Termin. [ein]","einen","m Akkusativ: -en","T1e:m:Akk"),
+  I("e-ein-m-dat","T1","(Dat, m) Ich fahre mit ___ Freund. [ein]","einem","m Dativ: -em","T1e:m:Dat"),
+  I("e-ein-m-gen","T1","(Gen, m) das Auto ___ Freundes [ein]","eines","m Genitiv: -es (Nomen +s)","T1e:m:Gen"),
+  I("e-ein-f-akk","T1","(Akk, f) Ich suche ___ Wohnung. [ein]","eine","f Akkusativ: -e","T1e:f:Akk"),
+  I("e-ein-f-dat","T1","(Dat, f) Ich arbeite bei ___ Firma. [ein]","einer","f Dativ: -er","T1e:f:Dat"),
+  I("e-ein-n-akk","T1","(Akk, n) Ich kaufe ___ Auto. [ein]","ein","n Akkusativ: keine Endung (∅)","T1e:n:Akk"),
+  I("e-kein-m-akk","T1","(Akk, m) Ich habe ___ Hunger. [kein]","keinen","m Akkusativ: -en","T1e:m:Akk"),
+  I("e-kein-pl-dat","T1","(Dat, Pl) Er hilft ___ Nachbarn. [kein]","keinen","Plural Dativ: -en","T1e:Pl:Dat"),
+
+  // ===== TABELLE 2: Possessiv =====
+  I("p-mein-m-nom","T2","(Nom, m) ___ Vater ist nett. [mein]","mein","m Nominativ: keine Endung","T1e:m:Nom|T2:ich:e0"),
+  I("p-mein-m-akk","T2","(Akk, m) Ich sehe ___ Vater. [mein]","meinen","m Akkusativ: -en","T1e:m:Akk|T2:ich:en"),
+  I("p-mein-m-dat","T2","(Dat, m) Ich helfe ___ Vater. [mein]","meinem","m Dativ: -em","T1e:m:Dat|T2:ich:em"),
+  I("p-mein-m-gen","T2","(Gen, m) das Auto ___ Vaters [mein]","meines","m Genitiv: -es (Nomen +s)","T1e:m:Gen|T2:ich:es"),
+  I("p-mein-f-akk","T2","(Akk, f) Ich rufe ___ Mutter an. [mein]","meine","f Akkusativ: -e","T1e:f:Akk|T2:ich:e"),
+  I("p-mein-f-dat","T2","(Dat, f) Ich helfe ___ Schwester. [mein]","meiner","f Dativ: -er","T1e:f:Dat|T2:ich:er"),
+  I("p-dein-m-nom","T2","(Nom, m) Ist das ___ Bruder? [dein]","dein","m Nominativ: keine Endung","T1e:m:Nom|T2:du:e0"),
+  I("p-dein-m-akk","T2","(Akk, m) Ich kenne ___ Bruder. [dein]","deinen","m Akkusativ: -en","T1e:m:Akk|T2:du:en"),
+  I("p-dein-m-dat","T2","(Dat, m) Ich spreche mit ___ Bruder. [dein]","deinem","m Dativ: -em","T1e:m:Dat|T2:du:em"),
+  I("p-dein-m-gen","T2","(Gen, m) das Auto ___ Bruders [dein]","deines","m Genitiv: -es (Nomen +s)","T1e:m:Gen|T2:du:es"),
+  I("p-dein-f-nom","T2","(Nom, f) ___ Mutter ist nett. [dein]","deine","f Nominativ: -e","T1e:f:Nom|T2:du:e"),
+  I("p-dein-f-akk","T2","(Akk, f) Ich sehe ___ Mutter. [dein]","deine","f Akkusativ: -e","T1e:f:Akk|T2:du:e"),
+  I("p-dein-f-dat","T2","(Dat, f) Ich helfe ___ Mutter. [dein]","deiner","f Dativ: -er","T1e:f:Dat|T2:du:er"),
+  I("p-dein-f-gen","T2","(Gen, f) das Haus ___ Mutter [dein]","deiner","f Genitiv: -er","T1e:f:Gen|T2:du:er"),
+  I("p-sein-n-nom","T2","(Nom, n) ___ Kind spielt. [sein]","sein","n Nominativ: keine Endung","T1e:n:Nom|T2:er:e0"),
+  I("p-sein-n-akk","T2","(Akk, n) Er sieht ___ Kind. [sein]","sein","n Akkusativ: keine Endung!","T1e:n:Akk|T2:er:e0"),
+  I("p-sein-n-dat","T2","(Dat, n) Er hilft ___ Kind. [sein]","seinem","n Dativ: -em","T1e:n:Dat|T2:er:em"),
+  I("p-sein-n-gen","T2","(Gen, n) das Spielzeug ___ Kindes [sein]","seines","n Genitiv: -es (Nomen +s)","T1e:n:Gen|T2:er:es"),
+  I("p-sein-f-akk","T2","(Akk, f) Er liebt ___ Frau. [sein]","seine","f Akkusativ: -e","T1e:f:Akk|T2:er:e"),
+  I("p-sein-m-akk","T2","(Akk, m) Er sucht ___ Schlüssel. [sein]","seinen","m Akkusativ: -en","T1e:m:Akk|T2:er:en"),
+  I("p-sein-f-dat","T2","(Dat, f) Er schreibt ___ Mutter. [sein]","seiner","f Dativ: -er","T1e:f:Dat|T2:er:er"),
+  I("p-ihr-m-nom","T2","(Nom, m) ___ Mann heißt Paul. [ihr = her]","ihr","m Nominativ: keine Endung","T1e:m:Nom|T2:sie:e0"),
+  I("p-ihr-m-dat","T2","(Dat, m) Sie wohnt bei ___ Mann. [ihr = her]","ihrem","m Dativ: -em. Klein, weil ihr = her","T1e:m:Dat|T2:sie:em"),
+  I("p-ihr-n-gen","T2","(Gen, n) das Zimmer ___ Kindes [ihr = her]","ihres","n Genitiv: -es (Nomen +s)","T1e:n:Gen|T2:sie:es"),
+  I("p-ihr-pl-nom","T2","(Nom, Pl) ___ Eltern sind hier. [ihr = her]","ihre","Plural Nominativ: -e","T1e:Pl:Nom|T2:sie:e"),
+  I("p-ihr-pl-akk","T2","(Akk, Pl) Ich sehe ___ Eltern. [ihr = her]","ihre","Plural Akkusativ: -e. Klein, weil ihr = her","T1e:Pl:Akk|T2:sie:e"),
+  I("p-ihr-pl-dat","T2","(Dat, Pl) Ich helfe ___ Eltern. [ihr = her]","ihren","Plural Dativ: -en. Klein, weil ihr = her","T1e:Pl:Dat|T2:sie:en"),
+  I("p-ihr-pl-gen","T2","(Gen, Pl) das Haus ___ Eltern [ihr = her]","ihrer","Plural Genitiv: -er","T1e:Pl:Gen|T2:sie:er"),
+  I("p-unser-m-akk","T2","(Akk, m) Ich sehe ___ Chef. [unser]","unseren","unser + en","T1e:m:Akk|T2:wir:en"),
+  I("p-unser-m-dat","T2","(Dat, m) Ich helfe ___ Chef. [unser]","unserem","unser + em (unser behält sein -e-)","T1e:m:Dat|T2:wir:em"),
+  I("p-unser-f-nom","T2","(Nom, f) ___ Firma ist groß. [unser]","unsere","unser + e","T1e:f:Nom|T2:wir:e"),
+  I("p-unser-f-dat","T2","(Dat, f) Wir helfen ___ Nachbarin. [unser]","unserer","unser + er","T1e:f:Dat|T2:wir:er"),
+  I("p-unser-n-gen","T2","(Gen, n) das Dach ___ Hauses [unser]","unseres","unser + es (Nomen +s)","T1e:n:Gen|T2:wir:es"),
+  I("p-euer-m-akk","T2","(Akk, m) Ich sehe ___ Vater. [euer]","euren","euer wird eur- vor der Endung: euren","T1e:m:Akk|T2:ihr:en"),
+  I("p-euer-m-dat","T2","(Dat, m) Ich fahre mit ___ Vater. [euer]","eurem","euer wird eur- vor der Endung: eurem","T1e:m:Dat|T2:ihr:em"),
+  I("p-euer-f-nom","T2","(Nom, f) ___ Mutter ist nett. [euer]","eure","euer wird eur- vor der Endung: eure","T1e:f:Nom|T2:ihr:e"),
+  I("p-euer-f-dat","T2","(Dat, f) Ich gratuliere ___ Mutter. [euer]","eurer","euer wird eur- vor der Endung: eurer","T1e:f:Dat|T2:ihr:er"),
+  I("p-euer-m-gen","T2","(Gen, m) das Auto ___ Vaters [euer]","eures","euer wird eur- vor der Endung: eures","T1e:m:Gen|T2:ihr:es"),
+  I("p-ihrPl-n-akk","T2","(Akk, n) Die Kinder lieben ___ Haus. [ihr = their]","ihr","n Akkusativ: keine Endung. Klein, weil ihr = their","T1e:n:Akk|T2:siePl:e0"),
+  I("p-ihrPl-f-akk","T2","(Akk, f) Die Eltern verkaufen ___ Wohnung. [ihr = their]","ihre","f Akkusativ: -e. Klein, weil ihr = their","T1e:f:Akk|T2:siePl:e"),
+  I("p-ihrPl-pl-dat","T2","(Dat, Pl) Die Eltern helfen ___ Kindern. [ihr = their]","ihren","Plural Dativ: -en. Klein, weil ihr = their","T1e:Pl:Dat|T2:siePl:en"),
+  I("p-ihrPl-m-dat","T2","(Dat, m) Die Kinder spielen mit ___ Hund. [ihr = their]","ihrem","m Dativ: -em. Klein, weil ihr = their","T1e:m:Dat|T2:siePl:em"),
+  I("p-ihrPl-f-dat","T2","(Dat, f) Die Kinder schenken ___ Lehrerin Blumen. [ihr = their]","ihrer","f Dativ: -er. Klein, weil ihr = their","T1e:f:Dat|T2:siePl:er"),
+  I("p-ihrPl-m-gen","T2","(Gen, m) das Haus ___ Großvaters [ihr = their]","ihres","m Genitiv: -es. Klein, weil ihr = their","T1e:m:Gen|T2:siePl:es"),
+  I("p-Ihr-m-akk","T2","(Akk, m) Danke für ___ Brief. [Ihr = your, formell]","Ihren","m Akkusativ: Ihr + en","T1e:m:Akk|T2:Sie:en"),
+  I("p-Ihr-n-akk","T2","(Akk, n) Danke für ___ Angebot. [Ihr]","Ihr","n Akkusativ: keine Endung!","T1e:n:Akk|T2:Sie:e0"),
+  I("p-Ihr-f-akk","T2","(Akk, f) Danke für ___ Hilfe. [Ihr]","Ihre","f Akkusativ: Ihr + e","T1e:f:Akk|T2:Sie:e"),
+  I("p-Ihr-n-dat","T2","(Dat, n) mit ___ Angebot [Ihr]","Ihrem","n Dativ: Ihr + em","T1e:n:Dat|T2:Sie:em"),
+  I("p-Ihr-f-dat","T2","(Dat, f) Ich bin mit ___ Antwort zufrieden. [Ihr]","Ihrer","f Dativ: Ihr + er","T1e:f:Dat|T2:Sie:er"),
+  I("p-Ihr-n-gen","T2","(Gen, n) wegen ___ Angebots [Ihr]","Ihres","n Genitiv: Ihr + es (Nomen +s)","T1e:n:Gen|T2:Sie:es"),
+  I("p-Ihr-pl-dat","T2","(Dat, Pl) mit ___ Unterlagen [Ihr]","Ihren","Plural Dativ: Ihr + en","T1e:Pl:Dat|T2:Sie:en"),
+
+  // ===== TABELLE 3: Personal- & Reflexivpronomen =====
+  I("r-er-akk","T3","Ersetze: Ich sehe den Mann → Ich sehe ___.","ihn","er → ihn (Akk, -n wie den)","T3:er:Akk"),
+  I("r-er-akk2","T3","(Akk) Ich frage ___. [him]","ihn","er → ihn (fragen + Akk)","T3:er:Akk"),
+  I("r-er-dat","T3","Ersetze: Ich helfe dem Mann → Ich helfe ___.","ihm","er → ihm (Dat, -m wie dem)","T3:er:Dat"),
+  I("r-sie-akk","T3","Ersetze: Ich sehe die Frau → Ich sehe ___.","sie","sie → sie (Akk = Nom)","T3:sie:Akk"),
+  I("r-sie-dat","T3","Ersetze: Ich helfe der Frau → Ich helfe ___.","ihr","sie → ihr (Dat, -r wie der)","T3:sie:Dat"),
+  I("r-es-akk","T3","Ersetze: Ich sehe das Kind → Ich sehe ___.","es","es → es (Akk = Nom)","T3:es:Akk"),
+  I("r-es-dat","T3","Ersetze: Ich helfe dem Kind → Ich helfe ___.","ihm","es → ihm (Dat, -m wie dem)","T3:es:Dat"),
+  I("r-siePl-akk","T3","Ersetze: Ich sehe die Kinder → Ich sehe ___.","sie","sie (Pl) → sie (Akk = Nom)","T3:siePl:Akk"),
+  I("r-siePl-dat","T3","Ersetze: Ich helfe den Kindern → Ich helfe ___.","ihnen","sie (Pl) → ihnen (Dat). Klein = them","T3:siePl:Dat"),
+  I("r-Sie-dat","T3","(formell) Ich danke ___. [you, formal]","Ihnen","Sie → Ihnen (Dat). Groß = formal you","T3:Sie:Dat"),
+  I("r-ich-akk","T3","(Akk) Kannst du ___ sehen? [me]","mich","ich → mich (Akk)","T3:ich:Akk"),
+  I("r-ich-dat","T3","(Dat) Kannst du ___ helfen? [to me]","mir","ich → mir (Dat)","T3:ich:Dat"),
+  I("r-du-akk","T3","(Akk) Ich sehe ___. [you, du]","dich","du → dich (Akk)","T3:du:Akk"),
+  I("r-du-dat","T3","(Dat) Ich gebe ___ das Buch. [you, du]","dir","du → dir (Dat)","T3:du:Dat"),
+  I("r-wir-akk","T3","(Akk) Er sieht ___. [us]","uns","wir → uns (Akk = Dat)","T3:wir:Akk"),
+  I("r-wir-dat","T3","(Dat) Er hilft ___. [us]","uns","wir → uns (Akk = Dat)","T3:wir:Dat"),
+  I("r-ihr-akk","T3","(Akk) Ich sehe ___. [you all]","euch","ihr → euch (Akk = Dat)","T3:ihr:Akk"),
+  I("r-ihr-dat","T3","(Dat) Ich gebe ___ das Buch. [you all]","euch","ihr → euch (Akk = Dat)","T3:ihr:Dat"),
+  I("f-ich","T3","Ich freue ___ auf das Wochenende.","mich","ich: reflexiv Akk = mich","T3:ich:RAkk"),
+  I("f-du","T3","Du freust ___ auf das Wochenende.","dich","du: reflexiv = dich","T3:du:RAkk"),
+  I("f-er","T3","Er freut ___ auf das Wochenende.","sich","er: reflexiv = sich","T3:er:RAkk"),
+  I("f-wir","T3","Wir freuen ___ auf das Wochenende.","uns","wir: reflexiv = uns","T3:wir:RAkk"),
+  I("f-ihr","T3","Ihr freut ___ auf das Wochenende.","euch","ihr: reflexiv = euch","T3:ihr:RAkk"),
+  I("f-siePl","T3","Sie (they) freuen ___ auf das Wochenende.","sich","sie (Pl): reflexiv = sich","T3:siePl:RAkk"),
+  I("f-Sie","T3","Freuen Sie ___ auf den Urlaub? (formell)","sich","Sie: reflexiv = sich (immer klein!)","T3:Sie:RAkk"),
+  I("f-ich-dat","T3","Ich merke ___ die Nummer. (Dativ-Reflexiv)","mir","ich: reflexiv Dat = mir","T3:ich:RDat"),
+  I("f-du-dat","T3","Kannst du ___ das merken? (du, Dativ)","dir","du: reflexiv Dat = dir","T3:du:RDat"),
+
+  // ===== TABELLE 4: Relativpronomen =====
+  I("l-m-nom","T4","Der Mann, ___ dort steht, ist mein Chef. (Nom)","der","Relativ m Nom = der","T4:m:Nom"),
+  I("l-m-akk","T4","Der Mann, ___ ich sehe, ist mein Chef. (Akk)","den","Relativ m Akk = den","T4:m:Akk"),
+  I("l-m-dat","T4","Der Mann, ___ ich helfe, ist mein Chef. (Dat)","dem","Relativ m Dat = dem","T4:m:Dat"),
+  I("l-m-gen","T4","Der Mann, ___ Auto rot ist, … (Gen)","dessen","Relativ m Gen = dessen","T4:m:Gen"),
+  I("l-f-nom","T4","Die Frau, ___ dort steht, … (Nom)","die","Relativ f Nom = die","T4:f:Nom"),
+  I("l-f-akk","T4","Die Frau, ___ ich sehe, … (Akk)","die","Relativ f Akk = die","T4:f:Akk"),
+  I("l-f-dat","T4","Die Frau, ___ ich helfe, … (Dat)","der","Relativ f Dat = der","T4:f:Dat"),
+  I("l-f-gen","T4","Die Frau, ___ Auto rot ist, … (Gen)","deren","Relativ f Gen = deren","T4:f:Gen"),
+  I("l-n-nom","T4","Das Kind, ___ dort spielt, … (Nom)","das","Relativ n Nom = das","T4:n:Nom"),
+  I("l-n-akk","T4","Das Kind, ___ ich sehe, … (Akk)","das","Relativ n Akk = das","T4:n:Akk"),
+  I("l-n-dat","T4","Das Kind, ___ ich helfe, … (Dat)","dem","Relativ n Dat = dem","T4:n:Dat"),
+  I("l-n-gen","T4","Das Kind, ___ Mutter Ärztin ist, … (Gen)","dessen","Relativ n Gen = dessen","T4:n:Gen"),
+  I("l-pl-nom","T4","Die Leute, ___ dort stehen, … (Nom)","die","Relativ Plural Nom = die","T4:Pl:Nom"),
+  I("l-pl-akk","T4","Die Leute, ___ ich sehe, … (Akk)","die","Relativ Plural Akk = die","T4:Pl:Akk"),
+  I("l-pl-dat","T4","Die Leute, ___ ich helfe, … (Dat)","denen","Relativ Plural Dat = denen (nicht den!)","T4:Pl:Dat"),
+  I("l-pl-gen","T4","Die Leute, ___ Kinder hier spielen, … (Gen)","deren","Relativ Plural Gen = deren","T4:Pl:Gen"),
+
+  // ===== MIX: Unterscheiden =====
+  I("x-him","Mix","'him' (Akkusativ) = ?","ihn","den → ihn","T3:er:Akk"),
+  I("x-tohim","Mix","'to him' (Dativ) = ?","ihm","dem → ihm","T3:er:Dat"),
+  I("x-toher","Mix","'to her' (Dativ) = ?","ihr","der → ihr","T3:sie:Dat"),
+  I("x-tothem","Mix","'to them' (Dativ) = ?","ihnen","den (Pl) → ihnen. Klein = them","T3:siePl:Dat"),
+  I("x-toyou","Mix","'to you' (formell, Dativ) = ?","Ihnen","formell → Ihnen. Groß!","T3:Sie:Dat"),
+  I("x-them-akk","Mix","'they/them' im Akkusativ = ?","sie","they = sie (klein). Akk = Nom","T3:siePl:Akk"),
+  I("x-you-akk","Mix","'you (formal)' im Akkusativ = ?","Sie","formell you, Akk = Sie (groß)","T3:Sie:Akk"),
+  I("x-refl-er","Mix","Reflexivpronomen für 'er' = ?","sich","3. Person reflexiv = sich","T3:er:RAkk"),
+  I("x-mit-bus","Mix","(Dat) mit ___ Bus [der Bus]","dem","mit + Dativ, m → dem","T1d:m:Dat"),
+  I("x-fuer-hund","Mix","(Akk) für ___ Hund [der Hund]","den","für + Akkusativ, m → den","T1d:m:Akk"),
+  I("x-gebe-frau","Mix","(Dat) Ich gebe ___ Frau das Buch. [die Frau]","der","indirektes Objekt im Dativ, f → der","T1d:f:Dat"),
+  I("x-art-kindern","Mix","Artikel: 'mit ___ Kindern' (the children)","den","vor einem Nomen = Artikel den (+ Kindern)","T1d:Pl:Dat"),
+  I("x-rel-denen","Mix","Relativ: 'die Kinder, ___ ich helfe'","denen","steht allein = Relativpronomen denen","T4:Pl:Dat"),
+  I("x-trotz","Mix","(Gen, n) trotz ___ Wetters [das Wetter]","des","Genitiv neutrum = des (+s)","T1d:n:Gen"),
+  I("x-aus-schweiz","Mix","(Dat, f) aus ___ Schweiz [die Schweiz]","der","aus + Dativ, f → der","T1d:f:Dat"),
+  I("x-ohne-papiere","Mix","(Akk, Pl) ohne ___ Papiere [die Papiere]","die","ohne + Akkusativ, Plural → die (kein -n)","T1d:Pl:Akk"),
+  I("x-Ihr-m-akk","Mix","(Akk, m) Ich kenne ___ Vater. [your, formell]","Ihren","Ihr + en (m Akk)","T1e:m:Akk|T2:Sie:en"),
+  I("x-unser-pl-dat","Mix","(Dat, Pl) mit ___ Kollegen [our]","unseren","unser + en (Dativ Plural)","T1e:Pl:Dat|T2:wir:en"),
+  I("x-unser-base","Mix","Possessiv für 'wir' (our), Grundform = ?","unser","wir → unser","T2:wir:e0"),
+  I("x-euer-base","Mix","Possessiv für 'ihr' (your, you all), Grundform = ?","euer","ihr (Pl) → euer","T2:ihr:e0")
+];
+
+const TRAP_LABELS = {
+  base:"Grundform (Nominativ)",
+  bare:"∅ keine Endung (m Nom, n Nom/Akk)",
+  eEnd:"-e (f / Plural, Nom/Akk)",
+  mAkk:"-n / -en: maskulin Akkusativ",
+  en:"-en (m Akk oder Dativ Plural)",
+  datMN:"-m: Dativ maskulin/neutrum",
+  datF:"-r: Dativ feminin",
+  datPl:"Dativ Plural (-n / -en)",
+  gen:"Genitiv (-s / -es / -er)",
+  euer:"euer wird eur- vor der Endung",
+  stem:"Possessiv-Stamm (mein, dein, sein, ihr, unser, euer, Ihr)",
+  caps:"Groß/klein (Sie, Ihnen, Ihr vs. sie, ihnen, ihr)",
+  refl:"Reflexiv: sich",
+  relSpecial:"Relativ: denen / dessen / deren",
+  pron:"Personalpronomen (Akk vs. Dat)"
+};
+
+const CAPS_FAMILY = ["sie","ihr","ihnen","ihre","ihren","ihrem","ihrer","ihres"];
+function norm(s){ return String(s == null ? "" : s).trim().replace(/\s+/g, " "); }
+function answers(it){ return Array.isArray(it.a) ? it.a : [it.a]; }
+function sentenceInitial(q){ return q.replace(/^\s*(\([^)]*\)\s*)+/, "").startsWith("___"); }
+function strictCaps(it){ return answers(it).some(a => CAPS_FAMILY.includes(a.toLowerCase())) && !sentenceInitial(it.q); }
+function isCorrect(it, val){
+  const v = norm(val);
+  return answers(it).some(a => strictCaps(it) ? v === a : v.toLowerCase() === a.toLowerCase());
+}
+function colIndex(t, c){ return TABLES[t].cols.findIndex(x => x[0] === c); }
+function cellValue(cell){ return TABLES[cell.t].data[cell.r][colIndex(cell.t, cell.c)]; }
+function trapOf(cell){
+  const t = cell.t, r = cell.r, c = cell.c;
+  if (t === "T1d" || t === "T1e" || t === "T4"){
+    if (c === "Gen") return t === "T4" ? "relSpecial" : "gen";
+    if (c === "Dat"){ if (r === "Pl") return t === "T4" ? "relSpecial" : "datPl"; return r === "f" ? "datF" : "datMN"; }
+    if (c === "Akk"){ if (r === "m") return "mAkk"; if (t === "T1e") return r === "n" ? "bare" : "eEnd"; return "base"; }
+    if (t === "T1e") return (r === "m" || r === "n") ? "bare" : "eEnd";
+    return "base";
+  }
+  if (t === "T2") return {e0:"bare", e:"eEnd", en:"en", em:"datMN", er:"datF", es:"gen"}[c];
+  if (t === "T3"){
+    if (c === "RAkk" || c === "RDat") return ["er","sie","es","siePl","Sie"].includes(r) ? "refl" : "pron";
+    return c === "Nom" ? "base" : "pron";
+  }
+  return "base";
+}
+function itemTraps(it){
+  const tr = [trapOf(it.cells[0])];
+  if (it.cells.some(c => c.t === "T2" && c.r === "ihr" && c.c !== "e0")) tr.push("euer");
+  return tr;
+}
+function stemOf(cell){ return cell && cell.t === "T2" ? (cell.r === "ihr" ? "eu" : TABLES.T2.data[cell.r][0]) : null; }
+function itemStem(it){ return stemOf(it.cells.find(c => c.t === "T2")); }
+function classifyErr(exp, given, traps, stem){
+  const g = norm(given).toLowerCase(), e = exp.toLowerCase();
+  if (g === e) return "caps";
+  if (e.startsWith("eur") && g === "euer" + e.slice(3)) return "euer";
+  if (stem && !g.startsWith(stem.toLowerCase())) return "stem";
+  return traps[0];
+}
+/*DATA-END*/
+
+// ================= APP =================
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const pad = n => String(n).padStart(2, "0");
+const fmt = ts => { const d = new Date(ts); return `${pad(d.getDate())}.${pad(d.getMonth()+1)}. ${pad(d.getHours())}:${pad(d.getMinutes())}`; };
+const shuffle = a => { for (let j = a.length - 1; j > 0; j--){ const k = Math.floor(Math.random() * (j + 1)); [a[j], a[k]] = [a[k], a[j]]; } return a; };
+const ITEM_BY_ID = Object.fromEntries(ITEMS.map(it => [it.id, it]));
+const CAT_LABEL = {T1:"Tabelle 1", T2:"Tabelle 2", T3:"Tabelle 3", T4:"Tabelle 4", Mix:"Mix"};
+const CAT_NAME = {T1:"Tabelle 1 · Artikel & ein/kein", T2:"Tabelle 2 · Possessiv", T3:"Tabelle 3 · Pronomen & Reflexiv", T4:"Tabelle 4 · Relativ", Mix:"Mix · Unterscheiden"};
+const CAT_COLOR = {T1:"#4f9cff", T2:"#b98bff", T3:"#2ecc71", T4:"#ff9f43", Mix:"#8a94a6"};
+const rowLabel = c => (TABLES[c.t].rows.find(x => x[0] === c.r) || [, c.r])[1];
+const colLabel = c => (TABLES[c.t].cols.find(x => x[0] === c.c) || [, c.c])[1];
+
+// ---------- storage ----------
+const KEY = "declTrainer_v2";
+function fresh(){ return {v:2, items:{}, log:[], drills:{}, settings:{cat:"Alle", mode:"smart", size:"20", retype:true}}; }
+function loadStore(){ try { const s = JSON.parse(localStorage.getItem(KEY)); if (s && s.v === 2) return s; } catch(e){} return fresh(); }
+let store = loadStore();
+function saveStore(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch(e){} }
+function st(id){ return store.items[id] || (store.items[id] = {box:0, seen:0, ok:0, bad:0, last:0, wrong:[]}); }
+function pushLog(e){ store.log.push(e); if (store.log.length > 1500) store.log.splice(0, store.log.length - 1500); }
+
+// ---------- elements ----------
+const catSel = $("cat"), modeSel = $("mode"), sizeSel = $("size"), retypeCb = $("retype");
+const inEl = $("in"), goBtn = $("go"), qEl = $("q"), tagEl = $("tag"), capsBadge = $("capsBadge");
+const fbEl = $("fb"), miniEl = $("mini"), flashEl = $("flash"), cardEl = $("card");
+const qaEl = $("qa"), endBox = $("endBox"), pbar = $("pbar");
+
+// ---------- tabs ----------
+let activeTab = "quiz";
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => showTab(b.dataset.tab));
+function showTab(name){
+  activeTab = name;
+  document.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("active", b.dataset.tab === name));
+  ["quiz","drill","report"].forEach(t => $("tab-" + t).hidden = t !== name);
+  if (name === "report") renderReport();
+  if (name === "drill") renderDrill();
+  if (name === "quiz" && state !== "idle") inEl.focus();
+}
+
+// ---------- mastery ----------
+function prio(it){ const s = store.items[it.id]; if (!s || !s.seen) return 1; if (s.box === 0) return 0; return 1 + s.box; }
+function updateMastery(){
+  const sicher = ITEMS.filter(it => (store.items[it.id] || {}).box >= 3).length;
+  $("mastered").textContent = sicher; $("total").textContent = ITEMS.length;
+  const cur = catSel.value || store.settings.cat;
+  catSel.innerHTML = `<option value="Alle">Alle Tabellen</option>` + ["T1","T2","T3","T4","Mix"].map(k => {
+    const list = ITEMS.filter(it => it.cat === k);
+    const s = list.filter(it => (store.items[it.id] || {}).box >= 3).length;
+    return `<option value="${k}">${CAT_NAME[k]} (${s}/${list.length} sicher)</option>`;
+  }).join("");
+  catSel.value = cur;
+}
+
+// ---------- quiz ----------
+let session = [], idx = 0, state = "idle", roundOk = 0, roundBad = [], cur = null;
+
+function buildSession(){
+  store.settings = {cat: catSel.value, mode: modeSel.value, size: sizeSel.value, retype: retypeCb.checked};
+  saveStore();
+  const cat = catSel.value, mode = modeSel.value;
+  let pool = ITEMS.filter(it => cat === "Alle" || it.cat === cat);
+  if (mode === "fehler") pool = pool.filter(it => { const s = store.items[it.id]; return s && s.bad > 0 && s.box < 3; });
+  if (!pool.length){
+    session = []; state = "idle";
+    qaEl.hidden = true; endBox.hidden = false;
+    endBox.innerHTML = `<div class="q">Keine offenen Fehler in diesem Bereich. 🎉</div><div class="note hint">Wähle „Smart" oder einen anderen Bereich.</div>`;
+    return;
+  }
+  const n = sizeSel.value === "alle" ? pool.length : Math.min(+sizeSel.value, pool.length);
+  let pick;
+  if (mode === "smart"){
+    const errs = shuffle(pool.filter(it => prio(it) === 0));
+    const rest = shuffle(pool.filter(it => prio(it) !== 0)).sort((a, b) => prio(a) - prio(b));
+    const nErr = Math.min(errs.length, Math.ceil(n * 0.6));
+    pick = errs.slice(0, nErr).concat(rest.slice(0, n - nErr));
+    if (pick.length < n) pick = pick.concat(errs.slice(nErr, nErr + (n - pick.length)));
+    pick = shuffle(pick);
+  } else {
+    pick = shuffle(pool.slice()).slice(0, n);
+  }
+  session = pick.map(it => ({it, retry:0}));
+  idx = 0; roundOk = 0; roundBad = [];
+  $("rOk").textContent = 0;
+  qaEl.hidden = false; endBox.hidden = true;
+  render();
+}
+
+function render(){
+  cur = session[idx];
+  const it = cur.it;
+  fbEl.className = "fb"; fbEl.innerHTML = ""; miniEl.innerHTML = ""; flashEl.textContent = "";
+  inEl.value = ""; inEl.readOnly = false; inEl.placeholder = "Antwort eintippen …";
+  goBtn.textContent = "Prüfen";
+  state = "answer";
+  tagEl.textContent = CAT_LABEL[it.cat]; tagEl.style.background = CAT_COLOR[it.cat];
+  capsBadge.hidden = !strictCaps(it);
+  qEl.innerHTML = esc(it.q).replace(/___/g, '<span class="blank">_____</span>');
+  $("rIdx").textContent = idx + 1; $("rLen").textContent = session.length;
+  pbar.style.width = Math.round(idx / session.length * 100) + "%";
+  inEl.focus();
+}
+
+function pointer(it){ return it.cells.map(c => `${TABLES[c.t].short}: ${rowLabel(c)} · ${colLabel(c)}`).join("  →  "); }
+
+function tableHTML(t, hl){
+  const T = TABLES[t];
+  let h = `<div class="mini"><div class="mt">${esc(T.title)}</div><div class="tblwrap"><table><tr><th></th>`;
+  T.cols.forEach(c => { h += `<th class="${hl && hl.c === c[0] ? "hc" : ""}">${esc(c[1])}</th>`; });
+  h += `</tr>`;
+  T.rows.forEach(([rk, rl]) => {
+    h += `<tr><th class="${hl && hl.r === rk ? "hr" : ""}">${esc(rl)}</th>`;
+    T.cols.forEach(([ck], ci) => {
+      const on = hl && hl.r === rk && hl.c === ck, line = hl && (hl.r === rk || hl.c === ck);
+      h += `<td class="${on ? "hl" : line ? "ln" : ""}">${esc(T.data[rk][ci])}</td>`;
+    });
+    h += `</tr>`;
+  });
+  return h + `</table></div><div class="mn">${esc(T.note)}</div></div>`;
+}
+
+function flash(msg){
+  flashEl.textContent = msg;
+  cardEl.classList.remove("shake"); void cardEl.offsetWidth; cardEl.classList.add("shake");
+}
+
+function grade(it, val, ok){
+  const s = st(it.id);
+  s.seen++; s.last = Date.now();
+  if (ok){ s.ok++; s.box = Math.min(s.box + 1, 4); }
+  else {
+    s.bad++; s.box = 0;
+    s.wrong.push(norm(val)); if (s.wrong.length > 6) s.wrong.shift();
+    pushLog({ts: Date.now(), src: "quiz", id: it.id, given: norm(val), exp: answers(it)[0], err: classifyErr(answers(it)[0], val, itemTraps(it), itemStem(it))});
+  }
+  saveStore();
+}
+
+function setDone(){ state = "done"; inEl.readOnly = true; goBtn.textContent = "Weiter →"; inEl.focus(); }
+
+function submit(){
+  if (state === "done"){ next(); return; }
+  if (state !== "answer" && state !== "retype") return;
+  const val = inEl.value;
+  if (!norm(val)){ flash("Bitte zuerst eine Antwort eintippen."); inEl.focus(); return; }
+  const it = cur.it, exp = answers(it)[0];
+  if (state === "retype"){
+    if (isCorrect(it, val)){ flashEl.textContent = ""; fbEl.insertAdjacentHTML("beforeend", `<div class="good">✓ Gut abgetippt. Jetzt sitzt es besser.</div>`); setDone(); }
+    else flash("Noch nicht ganz. Tippe genau: " + exp);
+    return;
+  }
+  const ok = isCorrect(it, val);
+  grade(it, val, ok);
+  if (ok){
+    roundOk++; $("rOk").textContent = roundOk;
+    fbEl.className = "fb okk";
+    fbEl.innerHTML = `<span class="head">✓ Richtig</span> <span class="ans">${esc(exp)}</span><div class="note">${esc(it.note)}</div><div class="ptr">📍 ${esc(pointer(it))}</div>`;
+    setDone();
+  } else {
+    const err = classifyErr(exp, val, itemTraps(it), itemStem(it));
+    fbEl.className = "fb noo";
+    fbEl.innerHTML = `<span class="head">✗ Falsch</span> du: <s>${esc(norm(val))}</s> · richtig: <b class="ans">${esc(exp)}</b>`
+      + `<div class="note">${esc(it.note)}</div>`
+      + `<div class="rule">Regel: ${esc(TRAP_LABELS[err] || err)}</div>`
+      + `<div class="ptr">📍 ${esc(pointer(it))}</div>`;
+    miniEl.innerHTML = it.cells.map(c => tableHTML(c.t, c)).join("");
+    roundBad.push({it, given: norm(val)});
+    if (cur.retry < 2){ session.splice(Math.min(idx + 4, session.length), 0, {it, retry: cur.retry + 1}); $("rLen").textContent = session.length; }
+    if (retypeCb.checked){
+      state = "retype"; inEl.value = ""; inEl.placeholder = "Tippe die richtige Form ab …"; goBtn.textContent = "Prüfen";
+      flashEl.textContent = "Tippe die richtige Form einmal ab, dann geht es weiter."; inEl.focus();
+    } else setDone();
+  }
+  updateMastery();
+}
+
+function next(){
+  idx++;
+  if (idx >= session.length){ endRound(); return; }
+  render();
+}
+
+function endRound(){
+  state = "idle";
+  pbar.style.width = "100%";
+  qaEl.hidden = true; endBox.hidden = false;
+  let h = `<div class="q">Runde fertig: ${roundOk} / ${session.length} richtig</div>`;
+  if (roundBad.length){
+    h += `<div class="hint">Deine Fehler kommen in „Smart" und „Nur meine Fehler" wieder:</div><ul>`;
+    const seen = new Set();
+    roundBad.forEach(b => { if (seen.has(b.it.id)) return; seen.add(b.it.id);
+      h += `<li>${esc(b.it.q)} → <b>${esc(answers(b.it)[0])}</b> <span class="hint">(du: ${esc(b.given)})</span></li>`; });
+    h += `</ul>`;
+  } else h += `<div class="hint">Keine Fehler. Stark! 💪</div>`;
+  h += `<div class="row" style="margin-top:10px"><button class="go" id="againBtn">▶ Neue Runde</button><button id="errBtn">↺ Nur meine Fehler</button><button id="repBtn">📋 Zum Bericht</button></div>`;
+  endBox.innerHTML = h;
+  $("againBtn").onclick = buildSession;
+  $("errBtn").onclick = () => { modeSel.value = "fehler"; buildSession(); };
+  $("repBtn").onclick = () => showTab("report");
+  $("againBtn").focus();
+}
+
+inEl.addEventListener("keydown", e => {
+  if (e.key === "Enter"){ e.preventDefault(); submit(); }
+  else if (e.key === "ArrowRight" && state === "done"){ e.preventDefault(); next(); }
+});
+document.addEventListener("keydown", e => {
+  if (activeTab !== "quiz") return;
+  if (["INPUT","BUTTON","SELECT","TEXTAREA"].includes(e.target.tagName)) return;
+  if (state === "done" && (e.key === "Enter" || e.key === "ArrowRight")){ e.preventDefault(); next(); }
+});
+goBtn.onclick = submit;
+$("start").onclick = buildSession;
+catSel.onchange = buildSession;
+modeSel.onchange = buildSession;
+sizeSel.onchange = buildSession;
+retypeCb.onchange = () => { store.settings.retype = retypeCb.checked; saveStore(); };
+
+// ---------- drill ----------
+const drillSel = $("drillSel"), drillGrid = $("drillGrid");
+function pickT2Cols(){
+  for (let tries = 0; tries < 60; tries++){
+    const cols = Object.keys(CTX_POOL).map(end => { const o = CTX_POOL[end]; const [g, k] = o[Math.floor(Math.random() * o.length)]; return {end, g, k}; });
+    if (new Set(cols.map(c => c.g)).size === 4 || tries === 59) return shuffle(cols);
+  }
+}
+function renderDrill(){
+  const t = drillSel.value, T = TABLES[t];
+  const ctxCols = t === "T2" ? pickT2Cols() : null;
+  const title = ctxCols ? "Tabelle 2: Possessiv · Zeile = wessen? (Person) · Spalte = Kasus + Nomen (bei jedem „Leeren“ neu gemischt)" : T.title;
+  let h = `<div class="mt">${esc(title)}</div><div class="tblwrap"><table class="drill"><tr><th></th>`;
+  if (ctxCols) ctxCols.forEach(c => { h += `<th>${CASE_FULL[c.k]}<div class="sub2">${G_LABEL[c.g]}</div></th>`; });
+  else T.cols.forEach(c => { h += `<th>${esc(c[1])}</th>`; });
+  h += `</tr>`;
+  T.rows.forEach(([rk, rl]) => {
+    h += `<tr><th>${esc(rl)}</th>`;
+    if (ctxCols) ctxCols.forEach(c => {
+      h += `<td><input data-r="${rk}" data-c="${c.end}" data-g="${c.g}" data-k="${c.k}" autocomplete="off" autocapitalize="off" spellcheck="false"><div class="sol"></div></td>`;
+    });
+    else T.cols.forEach(([ck], ci) => {
+      if (T.given && ck === T.given) h += `<td class="given">${esc(T.data[rk][ci])}</td>`;
+      else h += `<td><input data-r="${rk}" data-c="${ck}" autocomplete="off" autocapitalize="off" spellcheck="false"><div class="sol"></div></td>`;
+    });
+    h += `</tr>`;
+  });
+  const note = t === "T2" ? "Endung aus Tabelle 1 (Genus + Kasus), Stamm aus der Zeile. " + T.note : T.note;
+  h += `</table></div><div class="mn" id="drillNote" hidden>💡 ${esc(note)}</div>`;
+  drillGrid.innerHTML = h;
+  $("drillScore").textContent = "";
+  const d = store.drills[t];
+  $("drillInfo").textContent = d ? `Zuletzt: ${d.lastOk}/${d.lastTot} (${fmt(d.lastTs)}) · bestes: ${d.bestOk}/${d.lastTot} · ${d.runs}× geübt` : "Noch nie geübt. Fülle die Tabelle aus dem Kopf aus.";
+  const first = drillGrid.querySelector("input"); if (first) first.focus();
+}
+function checkDrill(){
+  const t = drillSel.value, T = TABLES[t];
+  const inputs = [...drillGrid.querySelectorAll("input")];
+  let ok = 0, filled = 0;
+  inputs.forEach(inp => {
+    const cell = {t, r: inp.dataset.r, c: inp.dataset.c};
+    const exp = cellValue(cell), given = norm(inp.value);
+    const good = T.caps ? given === exp : given.toLowerCase() === exp.toLowerCase();
+    const td = inp.parentElement;
+    td.classList.remove("ok", "no"); td.querySelector(".sol").textContent = "";
+    if (given) filled++;
+    if (good){ ok++; td.classList.add("ok"); }
+    else {
+      td.classList.add("no"); td.querySelector(".sol").textContent = exp;
+      const ctx = inp.dataset.g ? `${inp.dataset.g} ${inp.dataset.k}` : "";
+      const trap = inp.dataset.g ? trapOf({t: "T1e", r: inp.dataset.g, c: inp.dataset.k}) : trapOf(cell);
+      if (given) pushLog({ts: Date.now(), src: "drill", id: `${t}:${cell.r}:${cell.c}`, ctx, given, exp, err: classifyErr(exp, given, [trap], stemOf(cell))});
+    }
+  });
+  const tot = inputs.length;
+  const d = store.drills[t] || {runs: 0, bestOk: 0};
+  d.runs++; d.lastOk = ok; d.lastTot = tot; d.lastTs = Date.now(); d.bestOk = Math.max(d.bestOk || 0, ok);
+  store.drills[t] = d; saveStore();
+  $("drillScore").textContent = `${ok} / ${tot} richtig` + (filled < tot ? ` (${tot - filled} leer)` : "");
+  const nt = drillGrid.querySelector("#drillNote"); if (nt) nt.hidden = false;
+  $("drillInfo").textContent = `Zuletzt: ${d.lastOk}/${d.lastTot} · bestes: ${d.bestOk}/${d.lastTot} · ${d.runs}× geübt`;
+}
+function retryDrill(){
+  drillGrid.querySelectorAll("td.no").forEach(td => { td.classList.remove("no"); const i = td.querySelector("input"); if (i) i.value = ""; td.querySelector(".sol").textContent = ""; });
+  const first = drillGrid.querySelector("td:not(.ok) input"); if (first) first.focus();
+}
+drillGrid.addEventListener("keydown", e => {
+  if (e.key !== "Enter" || e.target.tagName !== "INPUT") return;
+  e.preventDefault();
+  const ins = [...drillGrid.querySelectorAll("input")], i = ins.indexOf(e.target);
+  if (i < ins.length - 1) ins[i + 1].focus(); else checkDrill();
+});
+drillSel.onchange = renderDrill;
+$("drillCheck").onclick = checkDrill;
+$("drillRetry").onclick = retryDrill;
+$("drillReset").onclick = renderDrill;
+
+// ---------- report ----------
+function errOf(e){
+  if (e.src === "quiz"){ const it = ITEM_BY_ID[e.id]; return it ? classifyErr(e.exp, e.given, itemTraps(it), itemStem(it)) : e.err; }
+  const [t, r, c] = e.id.split(":"), cell = {t, r, c};
+  const trap = e.ctx ? trapOf({t: "T1e", r: e.ctx.split(" ")[0], c: e.ctx.split(" ")[1]}) : trapOf(cell);
+  return classifyErr(e.exp, e.given, [trap], stemOf(cell));
+}
+function buildReport(){
+  let answered = 0, right = 0;
+  const byCat = {};
+  ITEMS.forEach(it => {
+    const s = store.items[it.id];
+    const c = byCat[it.cat] || (byCat[it.cat] = {n:0, seen:0, ok:0, sicher:0});
+    c.n++;
+    if (s){ c.seen += s.seen; c.ok += s.ok; if (s.box >= 3) c.sicher++; answered += s.seen; right += s.ok; }
+  });
+  const sicher = ITEMS.filter(it => (store.items[it.id] || {}).box >= 3).length;
+  let r = `# Deklinations-Trainer: Bericht\n\n`;
+  r += `Stand: ${fmt(Date.now())} · Antworten: ${answered} · richtig: ${answered ? Math.round(right / answered * 100) : 0}% · sicher: ${sicher}/${ITEMS.length}\n\n`;
+  r += `## Quiz nach Tabelle\n| Bereich | Antworten | richtig | sicher |\n|---|---|---|---|\n`;
+  ["T1","T2","T3","T4","Mix"].forEach(k => { const c = byCat[k]; if (!c) return;
+    r += `| ${CAT_NAME[k]} | ${c.seen} | ${c.seen ? Math.round(c.ok / c.seen * 100) : 0}% | ${c.sicher}/${c.n} |\n`; });
+  r += `\n## Tabellen-Drill\n`;
+  Object.keys(TABLES).forEach(t => { const d = store.drills[t];
+    r += `- ${t === "T2" ? "Tabelle 2: Possessiv (Genus + Kasus gemischt)" : TABLES[t].title}: ` + (d ?`zuletzt ${d.lastOk}/${d.lastTot} (${fmt(d.lastTs)}), bestes ${d.bestOk}/${d.lastTot}, ${d.runs}× geübt` : `noch nicht geübt`) + `\n`; });
+  const week = Date.now() - 7 * 864e5, byRule = {};
+  store.log.forEach(e => { const k = errOf(e); const b = byRule[k] || (byRule[k] = {all:0, week:0}); b.all++; if (e.ts >= week) b.week++; });
+  r += `\n## Fehler nach Regel\n`;
+  const rules = Object.entries(byRule).sort((a, b) => b[1].all - a[1].all);
+  if (!rules.length) r += `(noch keine Fehler)\n`;
+  else { r += `| Regel | Fehler gesamt | letzte 7 Tage |\n|---|---|---|\n`; rules.forEach(([k, v]) => { r += `| ${TRAP_LABELS[k] || k} | ${v.all} | ${v.week} |\n`; }); }
+  const probs = ITEMS.filter(it => (store.items[it.id] || {}).bad >= 2).sort((a, b) => store.items[b.id].bad - store.items[a.id].bad);
+  r += `\n## Problem-Aufgaben (mind. 2× falsch)\n`;
+  if (!probs.length) r += `(keine)\n`;
+  probs.slice(0, 25).forEach(it => { const s = store.items[it.id];
+    r += `- [${CAT_LABEL[it.cat]}] ${it.q} · richtig: ${answers(it)[0]} · deine falschen: ${[...new Set(s.wrong)].join(", ")} · ${s.ok}/${s.seen} richtig\n`; });
+  const drillErr = {};
+  store.log.filter(e => e.src === "drill").forEach(e => { const key = e.id + "|" + (e.ctx || ""); const b = drillErr[key] || (drillErr[key] = {n:0, exp:e.exp, given:new Set()}); b.n++; b.given.add(e.given); });
+  const de = Object.entries(drillErr).sort((a, b) => b[1].n - a[1].n);
+  r += `\n## Tabellen-Drill: häufigste Fehler-Zellen\n`;
+  if (!de.length) r += `(keine)\n`;
+  de.slice(0, 20).forEach(([k, v]) => { const [id, ctx] = k.split("|"); const [t, rr, cc] = id.split(":");
+    r += `- ${TABLES[t].short} · ${rowLabel({t, r: rr})} × ${ctx || colLabel({t, c: cc})}: richtig ${v.exp} · du: ${[...v.given].join(", ")} (${v.n}×)\n`; });
+  r += `\n## Letzte 30 Fehler\n`;
+  const last = store.log.slice(-30).reverse();
+  if (!last.length) r += `(keine)\n`;
+  last.forEach(e => {
+    let where;
+    if (e.src === "quiz") where = ITEM_BY_ID[e.id] ? ITEM_BY_ID[e.id].q : e.id;
+    else { const [t, rr, cc] = e.id.split(":"); where = `Drill ${TABLES[t].short} · ${rowLabel({t, r: rr})} × ${e.ctx || colLabel({t, c: cc})}`; }
+    r += `- ${fmt(e.ts)} · ${where} · du: ${e.given} · richtig: ${e.exp} · Regel: ${TRAP_LABELS[errOf(e)] || errOf(e)}\n`;
+  });
+  return r;
+}
+function renderReport(){
+  const txt = buildReport();
+  $("repText").value = txt;
+  let answered = 0, right = 0;
+  Object.values(store.items).forEach(s => { answered += s.seen; right += s.ok; });
+  const sicher = ITEMS.filter(it => (store.items[it.id] || {}).box >= 3).length;
+  const byRule = {};
+  store.log.forEach(e => { const k = errOf(e); byRule[k] = (byRule[k] || 0) + 1; });
+  const top = Object.entries(byRule).sort((a, b) => b[1] - a[1]).slice(0, 3);
+  $("summary").innerHTML = `<div class="kpis"><div><b>${sicher}/${ITEMS.length}</b><span>sicher (3× richtig)</span></div>`
+    + `<div><b>${answered ? Math.round(right / answered * 100) : 0}%</b><span>richtig (${answered} Antworten)</span></div>`
+    + `<div><b>${store.log.length}</b><span>Fehler gespeichert</span></div></div>`
+    + (top.length ? `<div class="hint" style="margin-bottom:10px">Schwächste Regeln: ${top.map(([k, v]) => `<b>${esc(TRAP_LABELS[k] || k)}</b> (${v})`).join(" · ")}</div>` : "");
+}
+async function copyReport(){
+  const txt = buildReport(); $("repText").value = txt;
+  try { await navigator.clipboard.writeText(txt); $("copyMsg").textContent = "Kopiert! Jetzt im Chat bei Claude einfügen."; }
+  catch(e){
+    $("repText").select();
+    try { document.execCommand("copy"); $("copyMsg").textContent = "Kopiert! Jetzt im Chat bei Claude einfügen."; }
+    catch(e2){ $("copyMsg").textContent = "Bitte den Text unten markieren (Cmd+A) und kopieren (Cmd+C)."; }
+  }
+}
+function saveReport(){
+  const blob = new Blob([buildReport()], {type: "text/markdown;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = "deklination-bericht.md";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  $("copyMsg").textContent = "Gespeichert (Downloads). Schreib Claude: „Bericht ist in Downloads“.";
+}
+function exportProgress(){
+  const d = new Date();
+  const blob = new Blob([JSON.stringify(store)], {type: "application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `deklination-fortschritt-${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}.json`;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  $("copyMsg").textContent = "Fortschritt gesichert (Downloads). Auf dem neuen Computer: „Fortschritt laden“.";
+}
+function importProgress(file){
+  const rd = new FileReader();
+  rd.onload = () => {
+    let s;
+    try { s = JSON.parse(rd.result); } catch(e){ s = null; }
+    if (!s || s.v !== 2 || typeof s.items !== "object" || !Array.isArray(s.log)){
+      $("copyMsg").textContent = "Diese Datei ist kein gültiger Trainer-Fortschritt.";
+      return;
+    }
+    if (!confirm(`Fortschritt laden? ${Object.keys(s.items).length} Aufgaben, ${s.log.length} gespeicherte Fehler. Der aktuelle Stand wird ersetzt.`)) return;
+    s.drills = s.drills || {};
+    s.settings = Object.assign(fresh().settings, s.settings || {});
+    store = s; saveStore();
+    catSel.value = s.settings.cat; modeSel.value = s.settings.mode; sizeSel.value = s.settings.size; retypeCb.checked = s.settings.retype !== false;
+    updateMastery(); renderReport(); buildSession();
+    $("copyMsg").textContent = "Fortschritt geladen ✓";
+  };
+  rd.readAsText(file);
+}
+$("copyRep").onclick = copyReport;
+$("saveRep").onclick = saveReport;
+$("expProg").onclick = exportProgress;
+$("impProg").onclick = () => $("impFile").click();
+$("impFile").onchange = e => { const f = e.target.files[0]; if (f) importProgress(f); e.target.value = ""; };
+$("resetAll").onclick = () => {
+  if (!confirm("Wirklich alle Fortschritte und Fehler löschen?")) return;
+  store = fresh(); saveStore(); updateMastery(); renderReport(); buildSession();
+};
+
+// ---------- init ----------
+$("itemCount").textContent = ITEMS.length;
+updateMastery();
+catSel.value = store.settings.cat || "Alle";
+modeSel.value = store.settings.mode || "smart";
+sizeSel.value = store.settings.size || "20";
+retypeCb.checked = store.settings.retype !== false;
+buildSession();
+</script>
+</body>
+</html>

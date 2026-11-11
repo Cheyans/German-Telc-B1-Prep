@@ -1,0 +1,78 @@
+{
+ "story": "22",
+ "questions": [
+  {
+   "q": "Was ist in den Wochen vor dem Streit passiert?",
+   "right": "Lena hat wegen Jonas oft auch am Wochenende gearbeitet.",
+   "wrong": [
+    "Lena hat Jonas überredet, am Wochenende für sie zu arbeiten.",
+    "Aylin hat das gemeinsame Frühstück zweimal kurz vorher abgesagt."
+   ],
+   "evidence": "Ihr Kollege Jonas hat sie öfter überredet, auch am Wochenende zu arbeiten. „Nur noch dieses eine Mal, bitte!“, sagt er dann, und Lena kann nicht Nein sagen. Kürzlich hat sie das Frühstück zweimal abgesagt, einmal sogar nur zehn Minuten vorher.",
+   "why": "Jonas talked Lena into weekend work (überreden), and Lena canceled breakfast twice. It was Lena who canceled, not Aylin, and Jonas persuaded her, not the other way around.",
+   "words": [
+    "W2443",
+    "W1722",
+    "W0023"
+   ]
+  },
+  {
+   "q": "Warum ist Lenas erste Reaktion auf die kaputte Kanne falsch?",
+   "right": "Eine neue Kanne ist für Aylin nicht dasselbe wie Omas Kanne.",
+   "wrong": [
+    "Lena will die kaputte Kanne nicht ersetzen, obwohl sie schuld ist.",
+    "Lena gibt Aylin die Schuld daran, dass die Kanne kaputt ist."
+   ],
+   "evidence": "Das ist genau die falsche Reaktion. „Einen Ersatz?“, ruft Aylin. „Für die Kanne von meiner Oma gibt es keinen Ersatz!“",
+   "why": "Aylin says there is no replacement (Ersatz) for her grandmother's teapot. Lena does offer to buy a new one and blames herself, so the other two are false.",
+   "words": [
+    "W1887",
+    "W0729"
+   ]
+  },
+  {
+   "q": "Was sagt Frau Krüger, nachdem Lena ihr alles erzählt hat?",
+   "right": "Aylin fürchtet, dass Lena kaum noch Zeit für sie hat.",
+   "wrong": [
+    "Aylin ist vor allem wegen der kaputten Kanne so traurig.",
+    "Lena sollte Aylin möglichst schnell eine neue Kanne kaufen."
+   ],
+   "evidence": "Ich vermute, es geht gar nicht um die Kanne. Ihre Freundin hat Angst, dass Sie keine Zeit mehr für sie haben.",
+   "why": "Frau Krüger guesses (vermuten) that the teapot is not the real issue: Aylin is afraid Lena has no time for her. Later she even says not to bring a new teapot.",
+   "words": [
+    "W2587",
+    "W1878"
+   ]
+  },
+  {
+   "q": "Was passiert in Herrn Brauns Werkstatt?",
+   "right": "Er repariert den Deckel und will dafür nicht bezahlt werden.",
+   "wrong": [
+    "Er braucht für die Reparatur viel länger, als er geschätzt hat.",
+    "Er repariert die Kanne, und der Deckel ist wieder ganz gerade."
+   ],
+   "evidence": "Er hat richtig geschätzt: Nach einer Stunde ist die Kanne fertig. Nur der Deckel sitzt jetzt ein bisschen schief, nicht mehr ganz gerade. Lena möchte ihm Geld geben, aber Herr Braun weigert sich, etwas anzunehmen.",
+   "why": "Herr Braun fixes it in the hour he estimated and refuses (sich weigern) to take money. The lid now sits a bit crooked (schief), so it is not straight again.",
+   "words": [
+    "W2716",
+    "W0097",
+    "W2019"
+   ]
+  },
+  {
+   "q": "Welchen Kompromiss schlägt Lena vor?",
+   "right": "Sie frühstücken seltener, aber jeder zweite Samstag ist ein fester Termin.",
+   "wrong": [
+    "Sie frühstücken weiter jede Woche, aber nur noch eine Stunde.",
+    "Lena kommt jeden Samstag, darf aber dabei kurz arbeiten."
+   ],
+   "evidence": "Wir frühstücken nur noch jeden zweiten Sonnabend, aber dann ganz sicher. Und mein Handy bleibt in der Tasche.",
+   "why": "Lena's Kompromiss: breakfast only every second Saturday (Sonnabend), but then for sure, and her phone stays in her bag, so no working at breakfast.",
+   "words": [
+    "W1331",
+    "W2665",
+    "W0339"
+   ]
+  }
+ ]
+}

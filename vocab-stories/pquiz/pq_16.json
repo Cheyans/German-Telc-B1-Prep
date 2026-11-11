@@ -1,0 +1,160 @@
+{
+ "set": "16",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was erfährt man im Artikel über Skiunfälle?",
+     "right": "Es gibt heute etwas weniger Unfälle als früher.",
+     "wrong": [
+      "Etwa die Hälfte der Verletzungen betrifft das Knie.",
+      "Am Nachmittag passieren heute mehr Unfälle als früher."
+     ],
+     "evidence": "Am häufigsten trifft es das Knie: Etwa jede dritte Verletzung passiert dort, danach folgen Schulter und Kopf. Die Zahl der Unfälle ist zwar seit Jahren leicht gesunken, eine Tatsache hat sich aber kaum verändert: Ein großer Teil der Unfälle passiert am Nachmittag.",
+     "why": "Leicht gesunken means the number went down a little, so there are slightly fewer accidents now. Only about every third injury (jede dritte Verletzung) is at the knee, not half, and the afternoon share has hardly changed (kaum verändert).",
+     "trap": "same-word",
+     "words": [
+      "W2575",
+      "W1318",
+      "W2326"
+     ]
+    },
+    {
+     "q": "Was erfährt man über Pauls Unfall?",
+     "right": "Unter seinem rechten Knie hatte er einen Knochenbruch.",
+     "wrong": [
+      "Er fuhr auf einem breiten Weg zwischen den Bäumen.",
+      "Er hatte seinen Freund vor dem Weg gewarnt."
+     ],
+     "evidence": "Der 26-jährige Student aus Hamburg wählte am letzten Urlaubstag einen schmalen Weg zwischen den Bäumen, obwohl ihn sein Freund gewarnt hatte. Ein Knochen direkt unter dem rechten Knie war gebrochen.",
+     "why": "Gebrochen means broken, so he had a broken bone (Knochenbruch) under his right knee. The path was narrow (schmal), not wide, and it was his friend who warned Paul, not the other way around.",
+     "trap": "who",
+     "words": [
+      "W0423",
+      "W2037",
+      "W2697"
+     ]
+    },
+    {
+     "q": "Was steht im Text über den Krankenwagen?",
+     "right": "Er war in höchstens zwanzig Minuten da.",
+     "wrong": [
+      "Er kam erst nach mehr als zwanzig Minuten.",
+      "Er musste weit von der Straße weg fahren."
+     ],
+     "evidence": "Der Krankenwagen war innerhalb von zwanzig Minuten da, weil der Unfall nicht weit von der Straße passiert war.",
+     "why": "Innerhalb von zwanzig Minuten means within twenty minutes, so it took twenty minutes at most. The accident happened not far from the road.",
+     "trap": "flip",
+     "words": [
+      "W1197",
+      "W1374"
+     ]
+    },
+    {
+     "q": "Was erfährt man über die Zeit nach der Operation?",
+     "right": "In den ersten sechs Wochen darf man keinen Sport machen.",
+     "wrong": [
+      "Die Therapie beginnt meistens erst nach zwei Tagen im Bett.",
+      "Nach etwa sechs Wochen ist man meistens wieder ganz gesund."
+     ],
+     "evidence": "Deshalb beginnt die Therapie meistens schon am Tag nach der Operation, auch wenn das vielen schwerfällt. Sechs Wochen lang sind Sport und schwere körperliche Arbeit verboten, danach geht es langsam aufwärts. Jede Woche bringt eine kleine Besserung, bis zur vollständigen Erholung dauert es jedoch oft mehrere Monate.",
+     "why": "Sport and heavy physical work are forbidden (verboten) for six weeks. Therapy starts the next day, not after two days in bed, and a full recovery (Erholung) often takes several months, not six weeks.",
+     "trap": "when",
+     "words": [
+      "W2361",
+      "W1550",
+      "W0701"
+     ]
+    },
+    {
+     "q": "Was sagt der Artikel über das Gewicht nach einer Operation?",
+     "right": "Weil man sich wenig bewegt, wird man leicht schwerer.",
+     "wrong": [
+      "Weil man im Krankenhaus wenig Hunger hat, nimmt man oft ab.",
+      "Viele nehmen ab, weil sie nach der Operation Muskeln verlieren."
+     ],
+     "evidence": "Weil man nach einer Operation wenig läuft, nimmt man leicht zu. Eine strenge Diät ist trotzdem keine gute Idee, denn wer zu schnell abnimmt, verliert auch Muskeln.",
+     "why": "Zunehmen means to gain weight: because you walk little after an operation, you easily get heavier. Abnehmen (to lose weight) only comes up in the warning about strict diets, and losing muscle (Muskeln verlieren) is about those diets, not about the weeks after an operation.",
+     "trap": "same-word",
+     "words": [
+      "W2866",
+      "W0020"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "headlines",
+   "options": [
+    {
+     "id": "a",
+     "text": "Hilfe holen, ohne zu sprechen"
+    },
+    {
+     "id": "b",
+     "text": "Raucher bei Feuer im dritten Stock verletzt"
+    },
+    {
+     "id": "c",
+     "text": "Klinik zeigt Interessierten den Alltag in der Pflege"
+    },
+    {
+     "id": "d",
+     "text": "Fehlalarm mitten in der Nacht"
+    },
+    {
+     "id": "e",
+     "text": "Nur mit e-card: Neue Praxis an der Talstation"
+    },
+    {
+     "id": "f",
+     "text": "Auto ohne gültige Prüfung: Radfahrer verletzt"
+    },
+    {
+     "id": "g",
+     "text": "Notruf 112 bald nur noch per App"
+    },
+    {
+     "id": "h",
+     "text": "Schnelle Hilfe für verletzte Skifahrer direkt am Berg"
+    }
+   ],
+   "prompts": [
+    {
+     "id": "1",
+     "answer": "d",
+     "evidence": "Ein Raucher hat in der Nacht auf Donnerstag in der örtlichen Klinik einen Alarm ausgelöst. Die Feuerwehr war nach wenigen Minuten da, musste aber niemanden retten.",
+     "why": "A cigarette set off the alarm at night, but there was no fire and nobody had to be rescued. Headline b is wrong because there was no fire."
+    },
+    {
+     "id": "2",
+     "answer": "f",
+     "evidence": "Wie die Polizei mitteilte, war der TÜV des Autos seit über einem Jahr abgelaufen. Die Bremsen waren in einem schlechten Zustand.",
+     "why": "The car's TÜV, the vehicle safety inspection, ran out (abgelaufen) more than a year ago. So the car had no valid inspection."
+    },
+    {
+     "id": "3",
+     "answer": "h",
+     "evidence": "Direkt an der Talstation der Planai hat eine neue Ordination für Wintersportler eröffnet. Zwei Ärztinnen behandeln dort täglich von 8 bis 18 Uhr vor allem leichte Verletzungen.",
+     "why": "A new doctor's office (Ordination) at the bottom of the ski lift treats injured skiers right there. Headline e is wrong: guests from Germany can use their own insurance card."
+    },
+    {
+     "id": "4",
+     "answer": "a",
+     "evidence": "Wer taub oder stumm ist, kann im Notfall nicht einfach die 112 anrufen. Seit 2021 gibt es dafür eine kostenlose App: Man wählt auf dem Handy aus, was passiert ist, und das Handy schickt den Ort automatisch mit. So kommt der Notruf auch ohne ein Wort an.",
+     "why": "The app lets deaf (taub) or mute (stumm) people call for help without speaking. Headline g is wrong: the app is an extra way for people who cannot phone, and nothing says 112 calls will end."
+    },
+    {
+     "id": "5",
+     "answer": "c",
+     "evidence": "Am Samstag, 14. November, öffnet deshalb eine große Klinik im Leipziger Süden ihre Türen. Besucher können sich die Stationen ansehen und erfahren, wie man einen Kranken pflegt: vom Waschen und Rasieren bis zur Hilfe beim Essen.",
+     "why": "On an open day, visitors can see the wards and learn how nurses care for patients (pflegen). The clinic wants to find new staff."
+    }
+   ]
+  }
+ ]
+}

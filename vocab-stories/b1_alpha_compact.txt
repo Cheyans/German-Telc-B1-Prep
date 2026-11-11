@@ -1,0 +1,1776 @@
+0002:abbiegen
+0003:die Abbildung
+0004:das Abenteuer
+0008:der Abfall
+0009:der Abfalleimer
+0010:Abgase (Pl.)
+0012:abhängen
+0013:abhängig
+0014:abheben
+0016:abschreiben
+0017:das Abitur
+0018:ablehnen
+0019:abmachen
+0020:abnehmen
+0021:abonnieren
+0022:das Abonnement
+0023:absagen
+0024:der Abschluss
+0025:der Abschnitt
+0027:die Absicht
+0028:absolut
+0029:abstimmen
+0030:die Abteilung
+0032:abwärts
+0033:abwaschen
+0034:abwesend
+0035:achten
+0036:Achtung!
+0038:ähnlich
+0040:die Aktion
+0042:die Aktivität
+0044:akzeptieren
+0045:der Alarm
+0046:der Alkohol
+0049:aller-
+0050:allerdings
+0051:allgemein
+0052:der Alltag
+0053:alltäglich
+0054:das Alphabet
+0056:als ob
+0060:das Altenheim
+0061:das Altersheim
+0062:alternativ
+0063:die Alternative
+0065:das Amt
+0066:sich amüsieren
+0068:analysieren
+0070:der Anbieter
+0073:andererseits
+0075:die Änderung
+0077:anerkennen
+0080:anfangs
+0081:angeben
+0082:die Angabe
+0083:der Angehörige
+0084:die Angehörige
+0085:angenehm
+0087:ängstlich
+0088:anhaben
+0092:ankündigen
+0093:die Anlage
+0094:die Anleitung
+0097:annehmen
+0098:die Annonce
+0102:der Anrufbeantworter
+0104:anschaffen
+0105:anschließen
+0107:anschnallen
+0109:ansprechen
+0110:der Anspruch
+0111:anstellen
+0112:der Angestellte
+0113:die Angestellte
+0114:sich anstrengen
+0115:anstrengend
+0116:der Antrag
+0117:anwenden
+0118:anwesend
+0121:der Anwalt
+0122:die Anwältin
+0123:anzeigen
+0132:die Aprikose
+0135:der Arbeiter
+0136:die Arbeitserlaubnis
+0138:die Arbeitslosigkeit
+0140:die Arbeitsstelle
+0141:der Architekt
+0143:der Ärger
+0144:ärgerlich
+0147:die Art
+0150:die Ärztin
+0151:das Asyl
+0152:atmen
+0153:der Atem
+0156:der Aufenthalt
+0157:auffallen
+0158:auffordern
+0159:die Aufforderung
+0160:aufführen
+0162:aufgeben
+0163:aufhalten
+0164:aufheben
+0166:aufladen
+0167:auflösen
+0168:aufmerksam
+0169:aufnehmen
+0170:die Aufnahme
+0173:aufregen
+0175:der Auftrag
+0176:auftreten
+0177:der Auftritt
+0178:aufwachen
+0179:aufwärts
+0182:der Augenblick
+0185:ausgebildet
+0186:ausdrucken
+0187:der Ausdruck
+0188:der Ausdruck
+0189:auseinander
+0190:die Ausfahrt
+0191:ausfallen
+0194:die Ausgabe
+0198:ausgezeichnet
+0199:die Aushilfe
+0205:die Ausnahme
+0206:ausreichen
+0207:ausreichend
+0208:ausrichten
+0210:ausschließen
+0211:ausschließlich
+0213:außen
+0215:äußerlich
+0218:die Aussicht
+0220:die Aussprache
+0221:ausstellen
+0223:(sich etwas) aussuchen
+0224:auswählen
+0225:die Auswahl
+0232:der Autor
+0237:die Badewanne
+0241:die U-Bahn
+0247:das Ballett
+0252:die Bankleitzahl
+0256:das Bargeld
+0257:der Bart
+0260:die Batterie
+0263:der Bau
+0265:der Bauer
+0267:beachten
+0269:beantragen
+0272:der Bedarf
+0274:die Bedeutung
+0275:bedienen
+0276:die Bedienungsanleitung
+0277:die Bedingung
+0280:sich befinden
+0281:befreit
+0282:befriedigend
+0283:begegnen
+0284:begeistert
+0286:der Beginn
+0287:begleiten
+0288:begrenzt
+0290:die Begründung
+0291:begrüßen
+0292:behalten
+0293:behandeln
+0294:behaupten
+0295:behindern
+0296:behindert
+0297:die Behörde
+0299:beid-
+0301:beinahe
+0303:beißen
+0304:der Beitrag
+0308:bekannt geben
+0310:der Beleg
+0311:beleidigen
+0313:bemerken
+0314:sich bemühen
+0315:benötigen
+0317:das Benzin
+0318:beobachten
+0321:die Beratung
+0322:berechnen
+0323:der Bereich
+0324:bereit
+0325:bereits
+0328:der Bericht
+0330:beruflich
+0331:berufstätig
+0332:beruhigen
+0334:beschädigen
+0335:beschäftigen
+0336:die Beschäftigung
+0338:Bescheid sagen
+0339:Bescheid geben
+0340:beschließen
+0341:beschränken
+0343:die Beschreibung
+0345:besetzen
+0347:besitzen
+0348:besonder-
+0350:besorgen
+0351:besprechen
+0352:die Besprechung
+0353:die Besserung
+0355:die Bestätigung
+0358:bestimmt
+0359:bestrafen
+0362:sich beteiligen
+0363:der Betrag
+0364:betreuen
+0365:der Betreuer
+0366:die Betreuung
+0367:der Betrieb
+0368:der Betriebsrat
+0369:betrügen
+0370:betrunken
+0372:die Bevölkerung
+0373:bevor
+0374:bewegen
+0375:die Bewegung
+0376:beweisen
+0377:der Beweis
+0380:der Bewohner
+0382:die Beziehung
+0385:bieten
+0387:der Bildschirm
+0388:das Billett
+0390:die Biologie
+0391:Bio-
+0392:bio(logisch)
+0395:bisher
+0396:ein bisschen
+0401:blass
+0406:blind
+0407:blitzen
+0408:der Blitz
+0410:bloß
+0411:blühen
+0414:bluten
+0415:das Blut
+0416:der Boden
+0418:das Boot
+0419:die Botschaft
+0423:brechen
+0425:die Breite
+0426:bremsen
+0427:die Bremse
+0428:brennen
+0430:der Briefkasten
+0432:der Briefträger
+0433:der Briefumschlag
+0434:die Brieftasche
+0437:die Broschüre
+0442:die Brust
+0445:die Buchhandlung
+0449:die Büchse
+0450:das Buffet
+0451:die Bühne
+0453:die Burg
+0454:der Bürger
+0456:die Bürste
+0457:die Zahnbürste
+0462:die Chance
+0464:chic/schick
+0465:der Coiffeur
+0467:die Couch
+0469:der Cousin
+0470:die Cousine
+0473:dabei
+0474:das Dach
+0475:dafür
+0476:dagegen
+0477:daher
+0478:dahin
+0481:damit
+0482:danach
+0486:dankbar
+0489:darstellen
+0490:die Darstellung
+0494:die Daten (Plural)
+0496:die Dauer
+0497:dauernd
+0498:die Decke
+0499:dekorieren
+0501:der Gedanke
+0502:das Denkmal
+0504:derselbe
+0506:das Dessert
+0507:deswegen
+0508:das Detail
+0510:die Diät
+0511:der Dialekt
+0512:der Dialog
+0513:dicht
+0515:der Dieb
+0516:dienen
+0517:der Dienst
+0519:diesmal
+0520:digital
+0522:das Diplom
+0524:der Direktor
+0525:die Diskothek
+0527:die Diskussion
+0528:die Distanz
+0531:das Dokument
+0532:donnern
+0533:der Donner
+0534:doppelt
+0535:Doppel-
+0538:dorthin
+0539:die Dose
+0541:der Dreck
+0542:drehen
+0544:drin
+0545:die Droge
+0546:die Drogerie
+0551:der Druck
+0556:durcheinander
+0558:der Durchschnitt
+0559:durchschnittlich
+0561:als Modalverb)
+0563:durstig
+0566:duzen
+0567:eben
+0568:ebenfalls
+0569:ebenso
+0572:die ec-Karte/EC-Karte
+0575:eckig
+0577:die Ehe
+0579:das Ehepaar
+0580:eher
+0581:ehrlich
+0585:sich eignen
+0586:eilen
+0587:die Eile
+0590:die Einbahnstraße
+0591:einbrechen
+0592:der Einbrecher
+0593:der Einbruch
+0594:eindeutig
+0595:der Eindruck
+0596:einerseits
+0598:die Einfahrt
+0599:einfallen
+0600:der Einfall
+0601:der Einfluss
+0602:beeinflussen
+0603:einfügen
+0604:einführen
+0605:die Einführung
+0607:einheitlich
+0609:sich einigen
+0611:der Einkauf
+0612:das Einkommen
+0615:einnehmen
+0616:die Einnahme
+0618:einrichten
+0619:die Einrichtung
+0620:einsam
+0621:einschalten
+0622:einschließlich
+0623:das Einschreiben
+0625:einstellen
+0627:eintreten
+0630:der Einwohner
+0631:einzahlen
+0632:die Einzahlung
+0633:einzeln
+0635:die Einzelheit
+0636:einzig-
+0638:das Eis
+0639:das Eis (D
+0640:die Eisenbahn
+0641:elegant
+0642:elektrisch
+0643:Elektro-
+0644:elektronisch
+0645:die Eltern (Pl.)
+0646:empfangen
+0647:der Empfang
+0650:die Empfehlung
+0653:endgültig
+0655:die Energie
+0657:der Enkel
+0658:entdecken
+0659:entfernen
+0660:die Entfernung
+0661:entgegenkommen
+0662:enthalten
+0663:entlang
+0664:entlassen
+0665:die Entlassung
+0666:entscheiden
+0667:die Entscheidung
+0668:unentschieden
+0669:sich entschließen
+0670:entschlossen
+0673:entsorgen
+0674:entspannend
+0675:entstehen
+0676:enttäuschen
+0677:die Enttäuschung
+0678:entweder ... oder
+0679:entwickeln
+0680:die Entwicklung
+0681:die Erde
+0683:das Erdgeschoss/ Ergeschoß
+0684:das Ereignis
+0685:sich ereignen
+0686:erfahren
+0688:erfinden
+0689:die Erfindung
+0690:der Erfolg
+0691:erfolgreich
+0692:erforderlich
+0693:erfordern
+0694:erfüllen
+0697:erhalten
+0698:erhöhen
+0699:die Erhöhung
+0700:sich erholen
+0701:die Erholung
+0703:die Erinnerung
+0704:sich erkälten
+0705:erkältet
+0706:die Erkältung
+0707:erkennen
+0709:die Erklärung
+0710:sich erkundigen
+0712:die Erlaubnis
+0713:erleben
+0714:das Erlebnis
+0715:erledigen
+0716:erleichtern
+0718:ernähren
+0719:die Ernährung
+0720:ernst
+0721:ernsthaft
+0722:die Ernte
+0723:eröffnen
+0724:die Eröffnung
+0726:erschöpft
+0727:erschrecken
+0728:ersetzen
+0729:der Ersatz
+0731:erst-
+0732:erstellen
+0733:erwachsen
+0735:erwarten
+0737:die Erzählung
+0738:erziehen
+0739:die Erziehung
+0743:die Etage
+0744:etwa
+0746:eventuell
+0747:ewig
+0748:der Experte
+0749:der Export
+0750:extra
+0751:extrem
+0752:die Fabrik
+0754:der Fachmann
+0755:die Fachfrau
+0756:die Fachleute (Pl.)
+0757:die Fähigkeit
+0759:die Fähre
+0760:die Fahrbahn
+0765:das Fahrzeug
+0766:fair
+0767:der Faktor
+0768:der Fall
+0770:fällig
+0771:falls
+0774:der Familienstand (D
+0775:fangen
+0776:die Fantasie/Phantasie
+0779:farbig
+0781:der Fasching
+0783:fassen
+0786:faulenzen
+0792:der Feierabend
+0793:der Feiertag
+0794:das Feld
+0797:Ferien-
+0798:die Fernbedienung
+0805:die Festplatte
+0806:festhalten
+0807:festlegen
+0808:festnehmen nimmt fest
+0809:festsetzen
+0810:feststehen
+0811:feststellen
+0814:feucht
+0816:das Feuerzeug
+0817:die Feuerwehr
+0819:die Figur
+0821:finanzieren
+0822:finanziell
+0824:der Finger
+0826:flach
+0827:die Fläche
+0829:der Fleck
+0833:flexibel
+0835:fliehen
+0836:die Flucht
+0837:fließen
+0838:fließend
+0840:die Flöte
+0843:der Flur
+0845:die Flüssigkeit
+0846:folgen
+0847:die Folge
+0848:folgend
+0849:fordern
+0850:die Forderung
+0851:fördern
+0852:die Förderung
+0853:die Form
+0855:die Forschung
+0856:die Fortbildung
+0857:der Fortschritt
+0858:fortsetzen
+0859:die Fortsetzung
+0860:das Forum
+0864:der Fotograf
+0865:die Fotografie
+0869:frech
+0871:im Freien
+0872:die Freiheit
+0876:fressen
+0878:die Freude
+0881:die Freundschaft
+0882:der Friede
+0883:frieren
+0885:der Friseur
+0886:die Frisur
+0887:die Frist
+0889:fröhlich
+0890:die Frucht
+0893:früher/früher-
+0897:führen
+0899:der Führerschein
+0901:das Fundbüro
+0902:funktionieren
+0905:(sich) fürchten
+0908:der Fußgänger
+0909:die Fußgängerzone
+0910:füttern
+0912:die Galerie
+0915:gar
+0917:garantieren
+0918:die Garantie
+0919:die Garderobe
+0923:die Gaststätte
+0924:das Gebäude
+0926:das Gebäck
+0927:das Gebiet
+0928:das Gebirge
+0929:geboren werden
+0930:gebrauchen
+0931:die Gebrauchsanweisung
+0932:die Gebühr
+0933:die Geburt
+0935:das Gedicht
+0936:die Geduld
+0937:geehrt
+0938:geeignet
+0939:die Gefahr
+0942:sich etwas gefallen lassen
+0944:das Gefängnis
+0945:das Gefühl
+0947:der Gegner
+0948:die Gegend
+0949:der Gegensatz
+0950:der Gegenstand
+0954:das Geheimnis
+0955:geheim
+0958:der Gehsteig (D
+0960:der Geldautomat
+0962:die Gelegenheit
+0963:gelingen
+0964:gelten
+0965:gemeinsam
+0966:die Gemeinschaft
+0968:gemütlich
+0970:genauso
+0971:genehmigen
+0972:die Generation
+0973:genießen
+0975:genügen
+0980:gerecht
+0982:gering
+0983:gern/gerne
+0984:gesamt-/Gesamt-
+0986:geschehen
+0989:geschieden
+0990:das Geschirr
+0991:das Geschlecht
+0992:der Geschmack
+0993:die Geschwindigkeit
+0994:die Geschwindigkeitsbeschrän
+0995:die Geschwister (Pl.)
+0996:die Gesellschaft
+0997:das Gesetz
+0999:gespannt
+1005:die Gewalt
+1006:die Gewerkschaft
+1009:der Gewinn
+1010:das Gewissen
+1012:gewöhnen
+1013:die Gewohnheit
+1014:gewohnt
+1015:gewöhnlich
+1016:das Gewürz
+1017:gießen
+1018:das Gift
+1019:giftig
+1023:glatt
+1026:gleichfalls
+1027:gleichberechtigt
+1028:gleichzeitig
+1033:das Gold
+1034:Golf
+1035:der Gott
+1036:die Grafik
+1037:das Gras
+1039:die Gratulation
+1040:gratis
+1041:greifen
+1042:die Grenze
+1045:der Grill
+1046:die Grippe
+1048:Groß-
+1050:gründen
+1051:der Grund
+1052:gründlich
+1053:das Grundstück
+1055:grüßen
+1057:gucken
+1061:die Gymnastik
+1064:das Hackfleisch (D
+1065:der Hafen
+1066:das Hähnchen/Hühnchen
+1067:halb
+1069:halbtags
+1070:die Hälfte
+1072:das Hallenbad
+1075:halt
+1076:haltbar
+1078:der Halt
+1080:der Hammer
+1082:der Handwerker
+1083:handeln
+1084:der Handel
+1085:der Händler
+1089:hassen
+1091:häufig
+1092:Hauptdie Hauptstadt
+1093:der Hauptbahnhof
+1096:die Hausfrau/der Hausmann
+1098:der Hausmeister
+1099:die Haut
+1100:heben
+1102:heim
+1103:das Heim
+1105:heimlich
+1106:das Heimweh
+1110:heizen
+1112:der Held
+1118:Poulet
+1119:her/her-
+1120:heraus-
+1121:heraus
+1122:die Herausforderung
+1124:herein-
+1125:die Herkunft
+1128:der Hersteller
+1129:herunter-
+1130:herunter
+1131:(herunter-)fahren
+1132:herunter
+1133:das Herz
+1136:heutig-
+1137:hier/hier-
+1138:hierher
+1139:der Himmel
+1140:(hinunter) runterwerfen
+1142:hinter/hinter-
+1143:hinterlassen
+1144:hinterher
+1145:hinweisen
+1146:der Hinweise
+1147:historisch
+1148:die Hitze
+1151:die Höhe
+1152:hochladen
+1153:höchstens
+1155:der Hof
+1156:der Bauernhof
+1159:die Hoffnung
+1160:höflich
+1162:das Holz
+1163:der Honig
+1165:der Hörer
+1166:der Zuhörer
+1169:hübsch
+1170:der Hügel
+1171:der Humor
+1173:hungrig
+1174:hupen
+1177:der Hut
+1178:die Hütte
+1179:ideal
+1181:illegal
+1182:der Imbiss
+1184:der Import
+1186:indem
+1187:individuell
+1188:die Industrie
+1189:die Infektion
+1192:der Ingenieur
+1193:der Inhalt
+1194:inklusive
+1195:innen
+1196:inner-
+1197:innerhalb
+1199:das Inserat
+1200:insgesamt
+1201:installieren
+1202:das Institut
+1204:integrieren
+1205:die Integration
+1207:die Intelligenz
+1208:intensiv
+1209:der Intensivkurs
+1214:interkulturell
+1217:inzwischen
+1218:irgendirgendein
+1219:irgendwann
+1220:sich irren
+1224:je
+1225:je … desto …
+1228:jederzeit
+1229:jedes Mal
+1230:jedoch
+1231:jemals
+1234:jeweils
+1235:der Journalist
+1236:die Jugend
+1239:die Jugendherberge
+1242:das Kabel
+1243:die Kabine
+1246:der Kakao
+1249:die Kälte
+1251:kämpfen
+1252:der Kampf
+1253:der Kanal
+1254:der Kandidat
+1255:die Kanne
+1256:die Kantine
+1257:das Kapitel
+1259:kaputtgehen
+1260:kaputtmachen
+1261:der Karneval
+1262:die Karotte
+1263:die Karriere
+1265:die Chipkarte
+1268:der Käse
+1270:die Kassette
+1271:der Kasten
+1272:der Katalog
+1273:die Katastrophe
+1274:(sich etwas) kaufen
+1275:der Kauf
+1276:der Käufer
+1277:kaum
+1278:kein-
+1280:der Kellner
+1284:das Kennzeichen
+1291:die Kiste
+1292:das Kissen
+1295:klären
+1298:die Klassenarbeit
+1300:kleben
+1304:klettern
+1305:klicken
+1306:der Klick
+1307:das Klima
+1308:die Klimaanlage
+1309:klingeln
+1310:die Klingel
+1311:klingen
+1312:die Klinik
+1313:klopfen
+1314:der Kloß
+1316:knapp
+1317:die Kneipe
+1318:das Knie
+1319:der Knochen
+1320:der Knopf
+1322:der Koch
+1323:die Köchin
+1328:die Kommunikation
+1329:komplett
+1330:kompliziert
+1331:der Kompromiss
+1332:die Konferenz
+1334:der Konflikt
+1335:der König
+1336:die Konkurrenz
+1338:als Modalverb)
+1339:das Konsulat
+1340:konsumieren
+1341:der Konsum
+1344:das Girokonto
+1346:die Kontrolle
+1347:sich konzentrieren
+1350:kopieren
+1351:die Kopie
+1352:der Kopierer
+1354:körperlich
+1355:korrekt
+1356:der Korridor
+1357:korrigieren
+1362:das Kostüm
+1363:die Kraft
+1364:kräftig
+1365:das Kraftfahrzeug
+1366:das Kraftwerk
+1368:der Kranke
+1369:die Kranke
+1370:das Krankenhaus
+1371:die Krankenkasse
+1372:der Krankenpfleger
+1373:die Krankenschwester
+1374:der Krankenwagen
+1375:kreativ
+1377:die Kreditkarte
+1378:der Kreis
+1379:das Kreuz
+1381:der Krieg
+1383:Kriminaldie Kriminalpolizei
+1385:die Krise
+1386:kritisieren
+1387:die Kritik
+1388:kritisch
+1391:der Kuli
+1399:die Kündigung
+1401:der Künstler
+1402:künstlich
+1403:der Kunststoff
+1405:der Kursleiter
+1406:die Kursleiter
+1407:die Kurve
+1409:kürzlich
+1410:küssen
+1411:der Kuss
+1412:die Küste
+1414:lächeln
+1417:die Lage
+1418:das Lager
+1421:die Landwirtschaft
+1423:landen
+1424:die Landung
+1426:die Länge
+1429:längst
+1431:sich langweilen
+1432:die Langeweile
+1433:der Lärm
+1435:der Laster
+1437:das Laufwerk
+1438:die Laune
+1440:der Lautsprecher
+1441:lecker
+1444:der Lebenslauf
+1445:die Lebensmittel (Pl.)
+1446:das Leder
+1450:die Lehre
+1451:die Lehrstelle
+1453:der Lehrling
+1455:leid tun
+1456:leiden
+1460:leisten
+1461:die Leistung
+1462:leiten
+1463:der Leiter
+1464:die Leitung
+1465:die Leiter
+1467:der Lerner
+1469:der Leser
+1472:das Lexikon
+1475:lieb
+1476:die Liebe
+1480:die Lieferung
+1482:der Lift
+1483:die Limonade
+1484:die Linie
+1486:link-
+1487:die Lippe
+1488:die Liste
+1489:die Literatur
+1490:loben
+1491:das Loch
+1492:locker
+1494:der Lohn
+1495:sich lohnen
+1497:los/los-
+1498:losfahren
+1499:löschen
+1500:lösen
+1502:die Luft
+1505:die Lust
+1510:die Mahlzeit
+1511:die Mahnung
+1512:mal
+1513:das Mal
+1515:der Maler
+1519:der Mangel
+1524:die Mappe
+1525:das Märchen
+1527:die Marke
+1528:markieren
+1530:die Marmelade
+1532:das Material
+1534:die Mauer
+1535:maximal
+1536:der Mechaniker
+1537:die Medien (Pl.)
+1539:die Medizin
+1541:das Mehl
+1542:mehr (siehe auch viel)
+1543:mehrere
+1544:die Mehrheit
+1545:die Mehrwertsteuer
+1547:meinetwegen
+1550:meist(ens)
+1551:der Meister
+1552:melden
+1553:die Meldung
+1555:die Mensa
+1557:menschlich
+1558:das Menü
+1560:merkwürdig
+1562:messen
+1564:das Metall
+1565:die Methode
+1566:die Metropole
+1567:der Metzger
+1570:der Mieter
+1571:der Migrant
+1572:die Migration
+1574:mild
+1575:die Minderheit
+1577:das Mineralwasser
+1578:minimal
+1579:mischen
+1580:miss-
+1583:miteinander
+1584:das Mitglied
+1586:mitteilen
+1588:mitten
+1589:mittler-
+1590:mittlerweile
+1592:möbliert
+1594:mobil/mobil-
+1595:die Mobilbox
+1596:die Mobilität
+1597:das Mobiltelefon
+1599:das Modell
+1603:die Möglichkeit
+1604:möglichst
+1605:die Möhre
+1607:der Mond
+1608:der Monitor
+1610:das Motorrad
+1612:die Mühe
+1613:der Müll
+1614:die Müllabfuhr
+1615:die Mülltonne
+1617:mündlich
+1618:die Münze
+1620:die Musik
+1621:musikalisch
+1622:der Musiker
+1623:der Muskel
+1624:das Müesli/Müsli
+1626:als Modalverb)
+1627:der Mut
+1628:mutig
+1632:nachdem
+1633:nachdenken
+1634:die Nachfrage
+1635:nachher
+1636:die Nachhilfe
+1638:nachschlagen
+1639:die Nachspeise
+1640:der Nachteil
+1641:der Nachwuchs
+1642:die Nadel
+1643:der Nagel
+1644:nah(e)
+1645:die Nähe
+1646:nähen
+1647:sich nähern
+1648:das Nahrungsmittel
+1652:nämlich
+1653:die Nase
+1655:national/national-
+1656:die Natur
+1658:der Nebel
+1662:nebenbei
+1663:der Neffe
+1664:negativ
+1668:der Nerv
+1671:das Netz
+1672:das Netzwerk
+1674:die Neuigkeit
+1675:neugierig
+1676:neulich
+1678:die Nichte
+1679:der Nichtraucher
+1682:niedrig
+1685:nirgendwo
+1687:noch mal
+1688:nochmals
+1690:normalerweise
+1691:Notdie Notaufnahme
+1692:der Notausgang
+1693:der Notfall
+1694:der Notruf
+1697:nötig
+1702:nun
+1704:nutzen
+1705:nützen
+1707:ob
+1709:ober-
+1710:der Ober
+1712:das Obst (D
+1713:obwohl
+1715:der (Back-)Ofen
+1716:öffentlich
+1717:die Öffentlichkeit
+1718:veröffentlichen
+1719:offenbar
+1720:offiziell
+1722:oft/öfter
+1725:Öko- (ökologisch)
+1728:der Onkel
+1730:die Oper
+1731:operieren
+1732:die Operation
+1733:das Opfer
+1734:optimistisch
+1736:das Orchester
+1737:ordentlich
+1740:ordnen
+1741:der Ordner
+1744:die Organisation
+1745:das Original
+1746:original
+1748:der Vorort
+1749:der Wohnort
+1750:der Ozean
+1751:(ein) paar
+1755:die Panne
+1758:parallel
+1766:der Passagier
+1769:passiv
+1770:der Patient
+1771:pauschal
+1773:das Pech
+1774:peinlich
+1775:die Pension
+1777:in Pension gehen/sein (D
+1778:pensioniert werden/sein (D
+1780:per
+1781:perfekt
+1784:persönlich
+1785:die Personalien (Pl.)
+1786:der Personenstand D
+1787:das Personal
+1789:der Pfeffer
+1790:pflanzen
+1792:das Pflaster
+1793:die Pflaume
+1794:pflegen
+1795:der Pfleger
+1796:die Pflicht
+1797:die Phantasie/Fantasie
+1798:das Picknick
+1799:die Pille
+1800:der Pilz
+1805:die Planung
+1806:das Plastik
+1809:die Politik
+1810:der Politiker
+1811:politisch
+1813:der Polizist
+1814:die Pommes frites (Pl.)
+1815:populär
+1816:das Portemonnaie/Portmonee
+1818:positiv
+1823:Hend(e)l
+1825:der Praktikant
+1827:präsentieren
+1828:die Präsentation
+1833:die Presse
+1834:prima
+1840:produzieren
+1842:die Produktion
+1843:der Professor
+1844:der Profi
+1845:der Profisportler
+1849:Prost
+1850:protestieren
+1851:der Protest
+1852:der Prozess
+1855:das Publikum
+1857:der Punkt
+1859:die Puppe
+1861:die Qualifikation
+1864:quer
+1865:die Quittung
+1866:das Quiz
+1867:der Rabatt
+1868:das Rad
+1869:das Rad
+1870:der Radfahrer
+1873:der Rand
+1874:der Rasen
+1875:(sich) rasieren
+1877:der Rat
+1878:Ratschlag
+1882:der Raucher
+1884:rauf/rauf-
+1885:raus/raus-
+1886:reagieren
+1887:die Reaktion
+1888:realisieren
+1889:die Realität
+1890:realistisch
+1891:die Recherche
+1893:der Rechner
+1895:das Recht
+1896:rechtlich
+1897:recht
+1899:recht-
+1900:rechtzeitig
+1902:die Rede
+1903:reduzieren
+1904:das Referat
+1905:die Reform
+1906:das Regal
+1907:die Regel
+1908:regelmäßig
+1909:regeln
+1912:die Region
+1913:regional
+1915:reichen
+1916:reif
+1918:die Reihenfolge
+1919:rein
+1920:reinigen
+1927:die Reklame
+1928:der Rekord
+1929:relativ
+1930:die Religion
+1931:rennen
+1932:die Rente
+1933:in Rente gehen/sein
+1937:die Reportage
+1938:der Reporter
+1940:die Reservierung
+1941:der Respekt
+1944:retten
+1946:die Rezeption/Reception
+1947:en
+1948:der Richter
+1950:die Richtung
+1952:riesig
+1955:das Risiko
+1957:roh
+1959:die Rolle
+1960:der Roman
+1963:rückdie Rückfahrt
+1964:die Rückkehr
+1965:rückwärts
+1969:die Rufnummer
+1970:die Ruhe
+1973:die Runde
+1974:die Rundfahrt
+1975:der Saal
+1977:der Sack
+1980:die (Schlag-)Sahne
+1981:die Saison
+1983:die Salbe
+1984:der Salon
+1986:salzig
+1988:sämtliche
+1989:der Sand
+1990:der Sänger
+1991:satt
+1995:die Schachtel
+1997:schaden
+1998:der Schaden
+2001:schalten
+2004:der Schatten
+2005:schauen
+2006:zuschauen
+2007:das Schaufenster
+2008:der Schauspieler
+2009:die Scheibe
+2010:sich scheiden lassen
+2011:geschieden
+2012:die Scheidung
+2018:schieben
+2019:schief
+2020:schießen
+2025:der Schlaf
+2026:schlagen
+2028:die Schlange
+2029:schlank
+2032:schließlich
+2037:schmal
+2040:das Schmerzmittel
+2041:schminken
+2042:der Schmuck
+2043:der Schmutz
+2045:verschmutzen
+2046:der Schnee
+2050:das Schnitzel
+2051:der Schnupfen
+2056:der Schreck(en)
+2059:aufschreiben
+2061:die Schrift
+2063:der Schriftsteller
+2064:der Schritt
+2066:die Schuld
+2067:schuld
+2068:die Schulden (Pl.)
+2069:schuldig
+2073:die Schulter
+2074:die Schüssel
+2075:schütteln
+2076:schützen
+2077:der Schutz
+2081:die Schwangerschaft
+2082:schweigen
+2085:Schwieger-
+2087:die Schwierigkeit
+2090:schwitzen
+2093:die Nord-/Ostsee
+2100:seitdem
+2102:der Sekretär
+2103:selb-
+2105:selber
+2107:selbstverständlich
+2108:selten
+2109:seltsam
+2110:das Semester
+2111:das Seminar
+2113:senden
+2114:der Sender
+2116:die Senioren (Pl.)
+2117:senkrecht
+2118:die Serie
+2119:der Service
+2120:der Serviceangestellte
+2121:/ die Serviceangestellte
+2123:der Sessel
+2127:die Sicherheit
+2128:sichern
+2129:sichtbar
+2130:siegen
+2131:der Sieg
+2132:der Sieger
+2133:(sich) siezen
+2135:sinken
+2136:der Sinn
+2137:sinnlos
+2138:sinnvoll
+2141:der Sitz
+2142:der Ski/Schi
+2144:sobald
+2145:die Socke
+2146:sodass
+2149:sogenannt-
+2152:solange
+2153:solch-
+2155:Modalverb)
+2156:Sonderdas Sonderangebot
+2157:sondern
+2161:sorgen
+2162:die Sorge
+2163:die Soße/Sauce
+2164:das Souvenir
+2165:soviel
+2166:so viel/so viel wie
+2167:sowieso
+2168:sowohl … als auch
+2169:sozial
+2170:der Sozialarbeiter
+2173:sparsam
+2174:der Spaß
+2176:spätestens
+2178:der Spaziergang
+2180:Speise-/-speise
+2182:der Speisewagen
+2183:Spezial-
+2184:der Spezialist
+2185:speziell
+2186:der Spiegel
+2189:der Spieler
+2190:der Spielplatz
+2191:das Spielzeug
+2192:spitz
+2194:die Sportart
+2195:der Sportler
+2198:die Fremdsprache
+2199:die Muttersprache
+2200:die Zweitsprache
+2202:die Sprechstunde
+2203:springen
+2204:die Spritze
+2205:spülen
+2206:die Spur
+2207:spüren
+2208:das Stadion
+2210:städtisch
+2212:stammen
+2213:ständig
+2214:der Standpunkt
+2217:starten
+2218:der Start
+2219:die Station
+2220:die Statistik
+2221:statistisch
+2222:statt
+2224:der Stau
+2225:der Staub
+2226:staubsaugen
+2227:stechen
+2228:stecken
+2229:die Steckdose
+2230:der Stecker
+2232:stehen bleiben
+2233:stehlen
+2234:steigen
+2235:steil
+2236:der Stein
+2239:der Stempel
+2241:der Stern
+2242:der Steward
+2243:die Stewardess
+2245:der Stil
+2246:stilistisch
+2247:still
+2251:die Stimme
+2252:stimmen
+2253:die Stimmung
+2254:stinken
+2255:der Stock D
+2257:der Stoff
+2258:stolz
+2259:stoppen
+2261:die Störung
+2262:(sich) stoßen
+2263:die Strafe
+2264:strafbar
+2265:der Strafzettel
+2269:die Strecke
+2270:das Streichholz
+2271:streiken
+2272:der Streik
+2274:der Streit
+2276:der Stress
+2277:der Strom
+2278:der Strumpf
+2279:das Stück/-stück
+2280:die Studie
+2283:der Studierende
+2284:die Studierende
+2286:das Studio
+2287:die Stufe
+2289:stumm
+2291:der Sturm
+2292:stürzen
+2294:die Sucht
+2295:süchtig
+2296:das Suchtmittel
+2297:die Summe
+2302:das Symbol
+2304:das System
+2305:die Szene
+2306:die Tabelle
+2309:der Tagesablauf
+2310:das Tal
+2311:das Talent
+2312:tanken
+2313:die Tankstelle
+2314:die Tante
+2316:der Tanz
+2319:das Taschentuch
+2321:die Tastatur
+2322:die Taste
+2323:die Tat
+2324:der Täter
+2325:die Tätigkeit
+2326:die Tatsache
+2327:tatsächlich
+2328:taub
+2329:tauchen
+2330:tauschen
+2331:die Technik
+2332:technisch
+2333:die Technologie
+2335:Tee ziehen lassen
+2339:die Teilzeit
+2341:die Teilnahme
+2342:der Teilnehmer
+2346:die Temperatur
+2347:das Tempo
+2348:das Tennis
+2349:der Teppich
+2351:der Terminkalender
+2352:die Terrasse
+2353:testen
+2359:theoretisch
+2360:die Theorie
+2361:die Therapie
+2365:das Haustier
+2366:der Tierpark
+2368:tippen
+2372:der Tod
+2373:tödlich
+2375:tolerant
+2379:das Tor
+2382:der Tote
+2383:die Tote
+2385:der Tourismus
+2387:die Tradition
+2388:traditionell
+2391:der Trainer
+2393:das Tram
+2394:die Träne
+2395:transportieren
+2396:der Transport
+2399:Traum-
+2402:der Treffpunkt
+2403:treiben
+2404:(sich) trennen
+2405:die Trennung
+2406:getrennt leben
+2408:das Treppenhaus
+2409:treten
+2410:treu
+2412:das Trinkgeld
+2414:trocknen
+2415:die Tropfen (Pl.)
+2417:trotz
+2418:trotzdem
+2419:das Tuch
+2422:der Turm
+2423:die Tüte
+2424:der Typ
+2426:die U-Bahn
+2428:die Übung
+2431:überfahren
+2432:überhaupt
+2433:überholen
+2434:überlegen
+2437:die Übernachtung
+2438:übernehmen
+2439:überprüfen
+2440:überqueren
+2441:überraschen
+2442:die Überraschung
+2443:überreden
+2444:die Überschrift
+2446:der Übersetzer
+2447:die Übersetzung
+2448:die Überstunde
+2449:überübertreiben
+2451:die Überweisung
+2452:(sich) überzeugen
+2453:die Überzeugung
+2454:üblich
+2455:übrig
+2456:übrigens
+2457:das Ufer
+2460:umarmen
+2461:um … zu
+2462:(sich) umdrehen
+2463:die Umfrage
+2464:die Umgebung
+2465:umgehen
+2466:umgekehrt
+2467:die Umleitung
+2468:umso
+2469:umsonst
+2471:umtauschen
+2472:der Umtausch
+2473:die Umwelt
+2474:der Umweltschutz
+2475:die Umweltverschmutzung
+2479:umgezogen
+2480:un-
+2484:ungefähr
+2485:ungewöhnlich
+2486:unglaublich
+2487:das Unglück
+2488:unheimlich
+2489:die Uniform
+2493:unter-
+2494:unterbrechen
+2496:die Unterhaltung
+2498:die Unterlagen (Pl.)
+2499:unterlassen
+2501:der Unternehmer
+2502:unterrichten
+2504:untersagt
+2505:unterscheiden
+2507:unterschiedlich
+2510:unterstreichen
+2511:unterstützen
+2512:die Unterstützung
+2514:die Untersuchung
+2515:unterwegs
+2516:die Urkunde
+2518:die Ursache
+2519:verursachen
+2520:ursprünglich
+2521:das Urteil
+2522:die Vase
+2524:vegetarisch
+2526:(sich) verabreden
+2527:verabredet
+2528:die Verabredung
+2529:(sich) verabschieden
+2530:der Abschied
+2531:(sich) verändern
+2532:die Veranstaltung
+2533:verantwortlich
+2534:die Verantwortung
+2535:(sich) verbessern
+2536:verbieten
+2537:das Verbot
+2539:verbinden
+2540:die Verbindung
+2541:verbrauchen
+2542:der Verbrecher
+2543:(sich) verbrennen
+2544:verbringen
+2545:der Verdacht
+2546:verdächtig
+2550:die Vergangenheit
+2551:vergeblich
+2554:der Vergleich
+2555:sich vergnügen
+2556:das Vergnügen
+2557:vergnügt
+2558:vergrößern
+2559:verhaften
+2560:sich verhalten
+2561:das Verhalten
+2562:das Verhältnis
+2564:verhindern
+2567:der Verkehr
+2568:das Verkehrsmittel
+2569:der Verlag
+2570:verlangen
+2571:verlängern
+2572:verlassen
+2573:sich verlaufen
+2575:die Verletzung
+2577:verliebt
+2579:der Verlierer
+2580:der Verlust
+2581:vermeiden
+2584:die Vermietung
+2585:vermissen
+2586:die Vermittlung
+2587:vermuten
+2588:vermutlich
+2589:vernünftig
+2590:verpacken
+2592:verpflegen
+2593:verpflichtet
+2594:verraten
+2596:verrückt
+2597:die Versammlung
+2598:versäumen
+2601:verschreiben
+2602:verschwinden
+2603:versichern
+2604:die Versichertenkarte
+2605:die Versicherung
+2607:versprechen
+2608:verständlich
+2609:das Verständnis
+2610:(sich) verstecken
+2613:der Versuch
+2614:verteilen
+2616:vertrauen
+2617:das Vertrauen
+2618:vertreten
+2619:der Vertreter
+2620:die Vertretung
+2621:verurteilen
+2622:die Verwaltung
+2623:verwandt
+2626:verwechseln
+2627:verwenden
+2628:verzeihen
+2629:Verzeihung
+2630:verzichten
+2631:das Video
+2632:viel/viele
+2634:das Viertel
+2635:virtuell
+2636:der Virus
+2637:die Visitenkarte
+2638:das Visum
+2639:das Vitamin
+2641:die Vollzeit
+2643:völlig
+2645:voneinander
+2647:vor allem
+2648:voraus
+2649:die Voraussetzung
+2650:voraussichtlich
+2651:vorbei/vorbei-
+2653:die Vorbereitung
+2654:vorder-
+2655:die Vorfahrt
+2657:vorhaben
+2659:vorhin
+2660:vorkommen
+2661:vorläufig
+2662:vorlesen
+2663:vorn
+2664:der Vorort
+2665:vorschlagen
+2667:die Vorschrift
+2671:die Vorstellung
+2672:das Vorstellungsgespräch
+2673:der Vorteil
+2674:der Vortrag
+2677:der Vorwurf
+2678:waagerecht
+2680:wachsen
+2683:die Wahl
+2684:wahnsinnig
+2686:die Wahrheit
+2687:während
+2690:die Wand
+2692:die Wanderung
+2694:die Ware
+2696:die Wärme
+2697:warnen
+2701:was für ein-
+2704:das Waschmittel
+2708:der Wecker
+2709:weder … noch
+2716:sich weigern
+2720:-weise
+2722:weiter/weiter-
+2723:die Weiterbildung
+2726:weltweit
+2727:wenden
+2728:wenig/wenige
+2732:die Werbung
+2734:werfen
+2735:das Werk
+2737:das Werkzeug
+2738:wert
+2739:der Wert
+2740:wertlos
+2741:wertvoll
+2742:weshalb
+2744:wetten
+2746:der Wetterbericht
+2747:die Wettervorhersage
+2749:widersprechen
+2751:wieder/wieder-
+2753:die Wiederholung
+2754:wiegen
+2755:wild
+2756:die Wiese
+2757:wieso
+2758:wie viel(e)
+2762:winken
+2763:wirken
+2764:die Wirkung
+2766:die Wirklichkeit
+2767:der Wirt
+2768:die Wirtschaft
+2771:die Wissenschaft
+2772:der Wissenschaftler
+2777:wohl
+2779:der Wohnort
+2780:der Wohnsitz
+2785:die Wolle
+2787:Modalverb)
+2788:worüber
+2789:worum
+2792:das Wörterbuch
+2793:die Wunde
+2794:das Wunder
+2796:wunderschön
+2797:sich wundern
+2801:wütend
+2803:die Anzahl
+2804:zahlreich
+2806:die Zahlung
+2807:zählen
+2809:die Zahncreme/-pasta
+2810:die Zange
+2811:das Zeichen
+2812:das Verkehrszeichen
+2813:die Zeichnung
+2815:die Zeile
+2817:der Zeitpunkt
+2823:zelten
+2824:zentral
+2826:zerstören
+2827:das Zertifikat
+2829:das Zeug/-zeug
+2830:der Zeuge
+2832:ziehen
+2834:ziemlich
+2837:die Zinsen (nur Pl.)
+2842:die Zone
+2845:zubereiten
+2846:der Zucker
+2848:der Zufall
+2849:zufällig
+2851:der Zugang
+2852:zugänglich
+2854:zugehen
+2855:das Zuhause
+2857:der Zuhörer
+2858:die Zukunft
+2859:zukünftig
+2862:zumindest
+2863:zunächst
+2865:das Zündholz
+2866:zunehmen
+2867:zurechtkommen
+2868:zurück/zurück-
+2870:zusagen
+2871:zusammen/zusammen-
+2872:die Zusammenarbeit
+2873:zusammenfassen
+2874:der Zusammenhang
+2875:zusätzlich
+2876:zuschauen
+2877:der Zuschauer
+2878:der Zuschlag
+2880:zu gewesen
+2881:der Zustand
+2882:zuständig
+2883:zustimmen
+2884:die Zustimmung
+2885:die Zutaten (Pl.)
+2886:zuverlässig
+2888:zwar
+2889:der Zweck
+2890:zweifeln
+2891:der Zweifel
+2892:die Zwiebel
+2893:(sich) zwingen

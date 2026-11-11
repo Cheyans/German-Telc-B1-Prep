@@ -1,0 +1,211 @@
+{
+ "audio": "01",
+ "mt": 1,
+ "teil": 1,
+ "page": 30,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Braucht man ein Auto?",
+   "from": "01:30",
+   "to": "06:30",
+   "intro": "Sie hören im Radio fünf Antworten auf die Frage, ob man heute noch ein eigenes Auto braucht. Sie hören die Texte nur einmal.",
+   "items": [
+    {
+     "t": 1,
+     "s": "Das Paar ist vor Kurzem mit dem Auto zum Möbelhaus gefahren.",
+     "a": false,
+     "at": "02:25",
+     "ev": "Aber das ist schon länger her.",
+     "why": "The couple did drive to the furniture store, but the speaker adds that this was quite a while ago. The place comes first and the time comes after, so keep listening.",
+     "trap": "when",
+     "w": [
+      [
+       "das Möbelhaus",
+       "furniture store"
+      ],
+      [
+       "Das ist schon länger her.",
+       "That was quite a while ago."
+      ]
+     ]
+    },
+    {
+     "t": 1,
+     "s": "Für große Einkäufe nimmt das Paar das Fahrrad.",
+     "a": true,
+     "at": "02:30",
+     "ev": "Wenn wir große Einkäufe machen müssen, fahren wir mit dem Rad",
+     "why": "For big shopping trips they ride the bike to the supermarket and pull a trailer. Rad is short for Fahrrad, so this is true even though most people would expect a car here.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "das Rad",
+       "bike (short for das Fahrrad)"
+      ],
+      [
+       "der Anhänger",
+       "trailer"
+      ],
+      [
+       "der Wasserkasten",
+       "crate of bottled water"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Dort, wo die Person wohnt, gibt es Busse und einen Bahnhof.",
+     "a": true,
+     "at": "03:09",
+     "ev": "Klar gibt es hier auch Busse … einen Bahnhof.",
+     "why": "The speaker says there are buses and a train station. The complaint after aber is that public transport doesn't reach every place and is slow, not that there is none.",
+     "trap": "flip",
+     "w": [
+      [
+       "auf dem Land",
+       "in the countryside"
+      ],
+      [
+       "die öffentlichen Verkehrsmittel",
+       "public transport"
+      ]
+     ]
+    },
+    {
+     "t": 2,
+     "s": "Für ihre Arbeit könnte die Person auch den Bus nehmen.",
+     "a": false,
+     "at": "03:28",
+     "ev": "nur mit dem Auto. Eine andere Möglichkeit gibt es für mich nicht.",
+     "why": "The speaker must visit several customers in different villages in one day and says this only works by car, with no other option. Buses exist, but they don't work for this job.",
+     "trap": "same-word",
+     "w": [
+      [
+       "schaffen",
+       "to manage, to get done"
+      ],
+      [
+       "die Möglichkeit",
+       "option, possibility"
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Die Person fährt jetzt weniger Auto, weil die Fabriken weniger Abgase produzieren.",
+     "a": false,
+     "at": "04:11",
+     "ev": "Wenn die weniger Abgase und Umweltverschmutzung produzieren würden",
+     "why": "It's only a condition in Konjunktiv II: „Wenn die weniger Abgase … produzieren würden, dann würde ich vielleicht doch weniger Auto fahren. Aber so? Nö.“ The factories don't, so this person doesn't drive less.",
+     "trap": "when",
+     "w": [
+      [
+       "die Abgase",
+       "exhaust fumes"
+      ],
+      [
+       "Mich ärgert das.",
+       "That annoys me."
+      ]
+     ]
+    },
+    {
+     "t": 3,
+     "s": "Die Person glaubt, dass ihr eigenes Verhalten für die Umwelt keine Rolle spielt.",
+     "a": true,
+     "at": "04:26",
+     "ev": "für den Planeten egal ist, was ich als einzelner Mensch mache",
+     "why": "The speaker thinks it doesn't matter for the planet what one single person does. Egal sein and keine Rolle spielen mean the same thing.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "als einzelner Mensch",
+       "as one single person"
+      ],
+      [
+       "egal sein",
+       "to not matter"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Die Person findet, dass man in der Großstadt ein eigenes Auto braucht.",
+     "a": false,
+     "at": "05:10",
+     "ev": "Aber wenn man in der Großstadt lebt, dann braucht man eigentlich keins.",
+     "why": "The speaker sometimes dreams of a car and finds it practical, but then says with aber that in a big city you don't really need one. The last word, keins, decides.",
+     "trap": "flip",
+     "w": [
+      [
+       "von etwas träumen",
+       "to dream of something"
+      ],
+      [
+       "eigentlich",
+       "actually, really"
+      ]
+     ]
+    },
+    {
+     "t": 4,
+     "s": "Letzte Woche ist die Person mit einem gemieteten E-Auto gefahren.",
+     "a": true,
+     "at": "05:15",
+     "ev": "Carsharing … ein Auto mieten … mit einem ganz neuen E-Auto gefahren",
+     "why": "The new e-car is the speaker's example of car sharing: book it on the phone, drive, park, done. So it was rented, not bought.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "das Carsharing",
+       "car sharing (renting a shared car)"
+      ],
+      [
+       "mieten",
+       "to rent"
+      ],
+      [
+       "buchen",
+       "to book"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Im Alltag braucht die Person kein Auto.",
+     "a": true,
+     "at": "05:56",
+     "ev": "im Alltag kann ich ganz auf ein Auto verzichten",
+     "why": "Verzichten auf means to do without, and the speaker adds that a car just isn't needed in daily life. The old camper van that comes next is only for trips.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "verzichten auf",
+       "to do without"
+      ],
+      [
+       "der Alltag",
+       "everyday life"
+      ]
+     ]
+    },
+    {
+     "t": 5,
+     "s": "Mit dem Campingbus war die Person schon in Italien.",
+     "a": false,
+     "at": "06:15",
+     "ev": "schon in Frankreich, Spanien und diesen Sommer fahren wir nach Italien",
+     "why": "France and Spain are trips they already made. Italy is the plan for this summer, so it hasn't happened yet.",
+     "trap": "when",
+     "w": [
+      [
+       "der Campingbus",
+       "camper van"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

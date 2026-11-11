@@ -1,0 +1,574 @@
+{
+ "set": "16",
+ "title": "Der Unfall",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "W0020",
+   "entry": "abnehmen, nimmt ab, nahm ab, hat abgenommen",
+   "level": "B1",
+   "gloss": "to lose weight"
+  },
+  {
+   "id": "W0045",
+   "entry": "der Alarm, -e",
+   "level": "B1",
+   "gloss": "alarm"
+  },
+  {
+   "id": "W0150",
+   "entry": "die Ärztin, -nen",
+   "level": "B1",
+   "gloss": "doctor (female)"
+  },
+  {
+   "id": "W0179",
+   "entry": "aufwärts",
+   "level": "B1",
+   "gloss": "upward; es geht aufwärts = it's improving"
+  },
+  {
+   "id": "W0293",
+   "entry": "behandeln, behandelt, behandelte, hat behandelt",
+   "level": "B1",
+   "gloss": "to treat (medically)"
+  },
+  {
+   "id": "W0296",
+   "entry": "behindert",
+   "level": "B1",
+   "gloss": "disabled"
+  },
+  {
+   "id": "W0353",
+   "entry": "die Besserung",
+   "level": "B1",
+   "gloss": "recovery; Gute Besserung = get well soon"
+  },
+  {
+   "id": "W0374",
+   "entry": "bewegen, bewegt, bewegte, hat bewegt",
+   "level": "B1",
+   "gloss": "to move"
+  },
+  {
+   "id": "W0375",
+   "entry": "die Bewegung, -en",
+   "level": "B1",
+   "gloss": "movement, exercise"
+  },
+  {
+   "id": "W0401",
+   "entry": "blass",
+   "level": "B1",
+   "gloss": "pale"
+  },
+  {
+   "id": "W0406",
+   "entry": "blind",
+   "level": "B1",
+   "gloss": "blind"
+  },
+  {
+   "id": "W0414",
+   "entry": "bluten, blutet, blutete, hat geblutet",
+   "level": "B1",
+   "gloss": "to bleed"
+  },
+  {
+   "id": "W0415",
+   "entry": "das Blut",
+   "level": "B1",
+   "gloss": "blood"
+  },
+  {
+   "id": "W0423",
+   "entry": "brechen, bricht, brach, hat gebrochen",
+   "level": "B1",
+   "gloss": "to break"
+  },
+  {
+   "id": "W0510",
+   "entry": "die Diät",
+   "level": "B1",
+   "gloss": "diet (to lose weight)"
+  },
+  {
+   "id": "W0700",
+   "entry": "sich erholen, erholt sich, erholte sich, hat sich erholt",
+   "level": "B1",
+   "gloss": "to recover, rest"
+  },
+  {
+   "id": "W0701",
+   "entry": "die Erholung, -en",
+   "level": "B1",
+   "gloss": "rest, recovery"
+  },
+  {
+   "id": "W0718",
+   "entry": "ernähren, ernährt, ernährte, hat ernährt",
+   "level": "B1",
+   "gloss": "to feed; sich ernähren = to live on"
+  },
+  {
+   "id": "W0719",
+   "entry": "die Ernährung",
+   "level": "B1",
+   "gloss": "diet, nutrition"
+  },
+  {
+   "id": "W0726",
+   "entry": "erschöpft",
+   "level": "B1",
+   "gloss": "exhausted"
+  },
+  {
+   "id": "W0817",
+   "entry": "die Feuerwehr, -en",
+   "level": "B1",
+   "gloss": "fire department"
+  },
+  {
+   "id": "W0824",
+   "entry": "der Finger, -",
+   "level": "B1",
+   "gloss": "finger"
+  },
+  {
+   "id": "W0938",
+   "entry": "geeignet",
+   "level": "B1",
+   "gloss": "suitable"
+  },
+  {
+   "id": "W1028",
+   "entry": "gleichzeitig",
+   "level": "B1",
+   "gloss": "at the same time"
+  },
+  {
+   "id": "W1189",
+   "entry": "die Infektion, -en",
+   "level": "B1",
+   "gloss": "infection"
+  },
+  {
+   "id": "W1197",
+   "entry": "innerhalb",
+   "level": "B1",
+   "gloss": "within"
+  },
+  {
+   "id": "W1312",
+   "entry": "die Klinik, -en",
+   "level": "B1",
+   "gloss": "hospital, clinic"
+  },
+  {
+   "id": "W1318",
+   "entry": "das Knie, -",
+   "level": "B1",
+   "gloss": "knee"
+  },
+  {
+   "id": "W1319",
+   "entry": "der Knochen, - der Knödel, - (D, A) D:→ Kloß",
+   "level": "B1",
+   "gloss": "bone"
+  },
+  {
+   "id": "W1354",
+   "entry": "körperlich",
+   "level": "B1",
+   "gloss": "physical"
+  },
+  {
+   "id": "W1363",
+   "entry": "die Kraft, ¨-e",
+   "level": "B1",
+   "gloss": "strength"
+  },
+  {
+   "id": "W1364",
+   "entry": "kräftig",
+   "level": "B1",
+   "gloss": "strong"
+  },
+  {
+   "id": "W1368",
+   "entry": "der Kranke, -n",
+   "level": "B1",
+   "gloss": "sick person (male), patient"
+  },
+  {
+   "id": "W1370",
+   "entry": "das Krankenhaus, ¨-er",
+   "level": "B1",
+   "gloss": "hospital"
+  },
+  {
+   "id": "W1372",
+   "entry": "der Krankenpfleger, -",
+   "level": "B1",
+   "gloss": "nurse (male)"
+  },
+  {
+   "id": "W1373",
+   "entry": "die Krankenschwester, -n",
+   "level": "B1",
+   "gloss": "nurse (female)"
+  },
+  {
+   "id": "W1374",
+   "entry": "der Krankenwagen, -",
+   "level": "B1",
+   "gloss": "ambulance"
+  },
+  {
+   "id": "W1487",
+   "entry": "die Lippe, -n",
+   "level": "B1",
+   "gloss": "lip"
+  },
+  {
+   "id": "W1550",
+   "entry": "meist(ens)",
+   "level": "A1",
+   "gloss": "mostly, usually"
+  },
+  {
+   "id": "W1557",
+   "entry": "menschlich",
+   "level": "B1",
+   "gloss": "human; ganz menschlich = only human"
+  },
+  {
+   "id": "W1589",
+   "entry": "mittler-",
+   "level": "B1",
+   "gloss": "middle"
+  },
+  {
+   "id": "W1623",
+   "entry": "der Muskel, -n",
+   "level": "B1",
+   "gloss": "muscle"
+  },
+  {
+   "id": "W1691",
+   "entry": "Not- / die Notaufnahme, -n",
+   "level": "B1",
+   "gloss": "emergency room"
+  },
+  {
+   "id": "W1692",
+   "entry": "der Notausgang, ¨-e",
+   "level": "B1",
+   "gloss": "emergency exit"
+  },
+  {
+   "id": "W1693",
+   "entry": "der Notfall, ¨-e",
+   "level": "B1",
+   "gloss": "emergency"
+  },
+  {
+   "id": "W1694",
+   "entry": "der Notruf",
+   "level": "B1",
+   "gloss": "emergency call, emergency number"
+  },
+  {
+   "id": "W1731",
+   "entry": "operieren, operiert, operierte, hat operiert",
+   "level": "B1",
+   "gloss": "to operate (on)"
+  },
+  {
+   "id": "W1732",
+   "entry": "die Operation, -en",
+   "level": "B1",
+   "gloss": "operation, surgery"
+  },
+  {
+   "id": "W1770",
+   "entry": "der Patient, -en die Patientin, -nen",
+   "level": "B1",
+   "gloss": "patient"
+  },
+  {
+   "id": "W1792",
+   "entry": "das Pflaster, -",
+   "level": "B1",
+   "gloss": "adhesive bandage"
+  },
+  {
+   "id": "W1794",
+   "entry": "pflegen, pflegt, pflegte, hat gepflegt",
+   "level": "B1",
+   "gloss": "to take care of, nurse"
+  },
+  {
+   "id": "W1795",
+   "entry": "der Pfleger, - die Pflegerin, -nen",
+   "level": "B1",
+   "gloss": "nurse, caregiver"
+  },
+  {
+   "id": "W1875",
+   "entry": "(sich) rasieren, rasiert, rasierte, hat rasiert",
+   "level": "B1",
+   "gloss": "to shave"
+  },
+  {
+   "id": "W1882",
+   "entry": "der Raucher, - die Raucherin, -nen",
+   "level": "B1",
+   "gloss": "smoker"
+  },
+  {
+   "id": "W1885",
+   "entry": "raus/raus-",
+   "level": "A2",
+   "gloss": "out (colloquial)"
+  },
+  {
+   "id": "W1899",
+   "entry": "recht-",
+   "level": "B1",
+   "gloss": "right (side)"
+  },
+  {
+   "id": "W1944",
+   "entry": "retten, rettet, rettete, hat gerettet",
+   "level": "B1",
+   "gloss": "to save, rescue"
+  },
+  {
+   "id": "W1997",
+   "entry": "schaden, schadet, schadete, hat geschadet",
+   "level": "B1",
+   "gloss": "to harm, be bad for"
+  },
+  {
+   "id": "W2025",
+   "entry": "der Schlaf",
+   "level": "B1",
+   "gloss": "sleep"
+  },
+  {
+   "id": "W2037",
+   "entry": "schmal",
+   "level": "B1",
+   "gloss": "narrow"
+  },
+  {
+   "id": "W2040",
+   "entry": "das Schmerzmittel, -",
+   "level": "B1",
+   "gloss": "painkiller"
+  },
+  {
+   "id": "W2073",
+   "entry": "die Schulter, -n",
+   "level": "B1",
+   "gloss": "shoulder"
+  },
+  {
+   "id": "W2184",
+   "entry": "der Spezialist, -en die Spezialistin, -nen",
+   "level": "B1",
+   "gloss": "specialist"
+  },
+  {
+   "id": "W2204",
+   "entry": "die Spritze, -n",
+   "level": "B1",
+   "gloss": "shot, injection"
+  },
+  {
+   "id": "W2213",
+   "entry": "ständig",
+   "level": "B1",
+   "gloss": "constantly"
+  },
+  {
+   "id": "W2262",
+   "entry": "(sich) stoßen, stößt, stieß, hat gestoßen",
+   "level": "B1",
+   "gloss": "to bump, hit (against)"
+  },
+  {
+   "id": "W2289",
+   "entry": "stumm",
+   "level": "B1",
+   "gloss": "silent, mute"
+  },
+  {
+   "id": "W2292",
+   "entry": "stürzen, stürzt, stürzte, ist gestürzt",
+   "level": "B1",
+   "gloss": "to fall (have a fall)"
+  },
+  {
+   "id": "W2319",
+   "entry": "das Taschentuch, ¨-er",
+   "level": "B1",
+   "gloss": "tissue, handkerchief"
+  },
+  {
+   "id": "W2326",
+   "entry": "die Tatsache, -n",
+   "level": "B1",
+   "gloss": "fact"
+  },
+  {
+   "id": "W2328",
+   "entry": "taub",
+   "level": "B1",
+   "gloss": "deaf"
+  },
+  {
+   "id": "W2361",
+   "entry": "die Therapie, -n",
+   "level": "B1",
+   "gloss": "therapy"
+  },
+  {
+   "id": "W2373",
+   "entry": "tödlich",
+   "level": "B1",
+   "gloss": "deadly, fatal"
+  },
+  {
+   "id": "W2487",
+   "entry": "das Unglück, -e",
+   "level": "B1",
+   "gloss": "misfortune; Glück im Unglück = lucky it wasn't worse"
+  },
+  {
+   "id": "W2514",
+   "entry": "die Untersuchung, -en",
+   "level": "B1",
+   "gloss": "examination, checkup"
+  },
+  {
+   "id": "W2558",
+   "entry": "vergrößern, vergrößert, vergrößerte, hat vergrößert",
+   "level": "B1",
+   "gloss": "to enlarge, zoom in"
+  },
+  {
+   "id": "W2575",
+   "entry": "die Verletzung, -en",
+   "level": "B1",
+   "gloss": "injury"
+  },
+  {
+   "id": "W2697",
+   "entry": "warnen, warnt, warnte, hat gewarnt",
+   "level": "B1",
+   "gloss": "to warn"
+  },
+  {
+   "id": "W2754",
+   "entry": "wiegen, wiegt, wog, hat gewogen",
+   "level": "B1",
+   "gloss": "to weigh"
+  },
+  {
+   "id": "W2793",
+   "entry": "die Wunde, -n",
+   "level": "B1",
+   "gloss": "wound"
+  },
+  {
+   "id": "W2866",
+   "entry": "zunehmen, nimmt zu, nahm zu, hat zugenommen",
+   "level": "B1",
+   "gloss": "to gain weight"
+  },
+  {
+   "id": "W2908",
+   "entry": "klagen, klagt, klagte, hat geklagt",
+   "level": "B1",
+   "gloss": "to complain (über = about)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W0288",
+   "entry": "begrenzt",
+   "level": "B1",
+   "gloss": "limited"
+  },
+  {
+   "id": "W2526",
+   "entry": "(sich) verabreden, verabredet, verabredete, hat verabredet",
+   "level": "B1",
+   "gloss": "to arrange to meet"
+  },
+  {
+   "id": "W1091",
+   "entry": "häufig",
+   "level": "B1",
+   "gloss": "often, frequently"
+  },
+  {
+   "id": "W0306",
+   "entry": "der Bekannte, -n",
+   "level": "A1",
+   "gloss": "acquaintance, friend (male)"
+  },
+  {
+   "id": "W2672",
+   "entry": "das Vorstellungsgespräch, -e",
+   "level": "B1",
+   "gloss": "job interview"
+  },
+  {
+   "id": "W0964",
+   "entry": "gelten, gilt, galt, hat gegolten",
+   "level": "B1",
+   "gloss": "to be valid"
+  },
+  {
+   "id": "W2535",
+   "entry": "(sich) verbessern, verbessert, verbesserte, hat verbessert",
+   "level": "B1",
+   "gloss": "to correct, to improve"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X011",
+   "word": "mehrmals",
+   "gloss": "several times",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X020",
+   "word": "der TÜV",
+   "gloss": "the vehicle safety inspection",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R004",
+   "word": "die e-card",
+   "gloss": "health insurance card",
+   "kind": "austrian",
+   "de": "die Versichertenkarte"
+  },
+  {
+   "id": "R020",
+   "word": "die Ordination, -en",
+   "gloss": "doctor's office; office hours",
+   "kind": "austrian",
+   "de": "die Arztpraxis; die Sprechstunde"
+  }
+ ],
+ "story_opening": "Paul Hoffmann ist 26 und studiert in Hamburg. In den Semesterferien fährt er mit seinen Freunden Jan und Sophie für eine Woche nach Garmisch-Partenkirchen. Sie wollen Ski fahren. Paul fährt schon seit seiner Kindheit Ski und glaubt, dass er ein sehr guter Skifahrer ist. Mit vierzehn hat er sogar an einem Wettbewerb für junge Skifahrer teilgenommen.\n\nAm letzten Tag scheint die Sonne. „Noch eine letzte Abfahrt!“, ruft Paul am Nachmittag. Neben der normalen Abfahrt sieht er einen schmalen Weg zwischen den Bäumen. Er ist kaum einen Meter breit. Auf einem Schild steht: „Nur für sehr gute Skifahrer geeignet!“ Jan warnt ihn: „Lass das, Paul! Du bist müde, und am Nachmittag ist der Schnee schon weic"
+}

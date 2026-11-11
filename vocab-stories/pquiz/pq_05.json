@@ -1,0 +1,132 @@
+{
+ "set": "05",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was zeigen laut dem Artikel die Zahlen einer Krankenkasse?",
+     "right": "Im Oktober gab es fast zweimal so viele Krankschreibungen wie im Juli.",
+     "wrong": [
+      "Ein Erwachsener ist durchschnittlich zwei- bis viermal im Jahr krankgeschrieben.",
+      "Im Oktober waren etwa ein Drittel mehr Menschen krankgeschrieben als im Juli."
+     ],
+     "evidence": "Wie eine große Krankenkasse in Sachsen mitteilte, wurden im vergangenen Oktober fast doppelt so viele Menschen krankgeschrieben wie im Juli. Auch wer sonst selten krank ist, liegt jetzt oft mit Fieber im Bett. Durchschnittlich erkältet sich ein Erwachsener zwei- bis viermal im Jahr.",
+     "why": "The health insurer (Krankenkasse) counted almost twice as many sick notes in October as in July, not a third more. Two to four times a year is how often an adult catches a cold on average (sich erkälten), not how often people get a sick note.",
+     "trap": "same-word",
+     "words": [
+      "W1371",
+      "W0559",
+      "W0704"
+     ]
+    },
+    {
+     "q": "Wann sollte man laut Dr. Schulz in die Praxis gehen?",
+     "right": "Wenn das Fieber nach drei Tagen immer noch hoch ist.",
+     "wrong": [
+      "Sobald das Fieber plötzlich auf fast 40 Grad steigt.",
+      "Möglichst früh, schon bei den ersten Zeichen einer Grippe."
+     ],
+     "evidence": "Bei einer echten Grippe sieht es dagegen anders aus: Das Fieber steigt plötzlich auf fast 40 Grad, man schwitzt nachts stark und ist tagelang blass und erschöpft. „Wer drei Tage lang hohes Fieber hat, gehört in die Praxis. Vorher reichen meistens Bettruhe und viel Tee“, so Schulz.",
+     "why": "Schulz says three days of high fever is the reason to go, and before that bed rest and tea are usually (meistens) enough. So she does not tell you to go as soon as the fever jumps to almost 40 degrees or at the first signs of the flu.",
+     "trap": "when",
+     "words": [
+      "W1046",
+      "W1550"
+     ]
+    },
+    {
+     "q": "Wem wird laut dem Artikel eine Impfung gegen Grippe empfohlen?",
+     "right": "Rauchern und Menschen, die älter sind oder zu viel wiegen.",
+     "wrong": [
+      "Schwangeren und Menschen, die in einem Krankenhaus arbeiten.",
+      "Menschen mit Herzproblemen und kleinen Kindern."
+     ],
+     "evidence": "Für ältere und übergewichtige Menschen sowie für Raucher ist eine Grippe jedoch ein echtes Risiko. Ihnen wird deshalb eine Impfung empfohlen, also eine Spritze, am besten rechtzeitig vor dem Winter.",
+     "why": "The article recommends the shot (Spritze) for older and overweight (übergewichtig) people and for smokers (Raucher). Pregnant women, hospital staff, heart patients and small children are typical risk groups, but this article does not name them.",
+     "trap": "paraphrase",
+     "words": [
+      "X003",
+      "W1882",
+      "W2204"
+     ]
+    },
+    {
+     "q": "Wovor warnen Apothekerinnen und Apotheker laut dem Artikel?",
+     "right": "Mehrere Erkältungsmittel zur gleichen Zeit zu nehmen.",
+     "wrong": [
+      "Tropfen für die Nase mehr als eine Woche lang zu benutzen.",
+      "Mit Fieber zur Arbeit zu gehen."
+     ],
+     "evidence": "Apothekerinnen und Apotheker warnen jedoch vor der gleichzeitigen Einnahme mehrerer Mittel. Viele dieser Mittel enthalten nämlich schon ein Schmerzmittel, und wer dann noch Tabletten gegen Kopfschmerzen einnimmt, nimmt schnell zu viel.",
+     "why": "The pharmacists warn against taking several remedies at the same time (gleichzeitige Einnahme), because you can get too much painkiller. The warning about nose drops after a week comes from Dr. Schulz, and staying home with a fever is her wish, not the pharmacists' advice.",
+     "trap": "who",
+     "words": [
+      "W2697",
+      "W1028",
+      "W0616"
+     ]
+    },
+    {
+     "q": "Was erzählt die Krankenschwester Aylin Demir?",
+     "right": "Eine Frau kam nach langem Husten für fünf Tage ins Krankenhaus.",
+     "wrong": [
+      "Sie selbst ist drei Wochen lang mit Husten ins Büro gegangen.",
+      "Eine junge Mutter hat fünf Tage lang im Krankenhaus gearbeitet."
+     ],
+     "evidence": "„Letzte Woche haben wir eine junge Mutter aufgenommen, die drei Wochen lang mit Husten im Büro gesessen hatte. Die Patientin musste fünf Tage bei uns behandelt werden.“",
+     "why": "A young mother who had coughed at the office for three weeks was treated in Aylin's hospital for five days. The patient (Patientin) went to work sick, not Aylin. The mother was treated there and did not work there.",
+     "trap": "who",
+     "words": [
+      "W1373",
+      "W1770",
+      "W0293"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "match",
+   "kind": "ads",
+   "prompts": [
+    {
+     "id": "1",
+     "text": "Ihr Kollege sucht einen Abendkurs gegen das Rauchen, den die Krankenkasse mitbezahlt.",
+     "answer": "c",
+     "evidence": "Sechs Abende, immer dienstags von 18.30 bis 20 Uhr, Beginn am 10. November um Punkt 18.30 Uhr. Ihre Krankenkasse übernimmt bis zu 80 Prozent der Kosten.",
+     "why": "Ad c is an evening course on Tuesdays, and the health insurance pays up to 80 percent. Ad g also has evening times, but the insurance pays nothing for hypnosis."
+    },
+    {
+     "id": "2",
+     "text": "Sie möchten sich am Samstagvormittag in Leipzig gegen Grippe impfen lassen.",
+     "answer": "x",
+     "evidence": "Sprechstunde: wochentags 8 bis 12 Uhr, donnerstags auch 15 bis 18 Uhr, am Sonnabend geschlossen. Impfung gegen Grippe ohne Termin: Montag bis Freitag 8 bis 10 Uhr.",
+     "why": "Ad a is in Leipzig, but it gives flu shots only Monday to Friday and is closed on Sonnabend (Saturday). Ad e gives flu shots on Saturday, but it is in Graz, so no ad fits."
+    },
+    {
+     "id": "3",
+     "text": "Sie haben hohes Fieber, brauchen heute Medikamente und können nicht aus dem Haus.",
+     "answer": "b",
+     "evidence": "Sie sind stark erkältet und zu krank, um die Wohnung zu verlassen? Bestellen Sie bis 13 Uhr per Telefon oder App, dann bringen wir Ihnen Medikamente, Taschentücher, Tee usw. noch am gleichen Tag.",
+     "why": "Pharmacy b brings medicines to your home on the same day (am gleichen Tag). Pharmacy h is open long hours, but it has no delivery service."
+    },
+    {
+     "id": "4",
+     "text": "Ihre Bekannte erwartet ein Baby und sucht für das Wochenende einen Kurs mit Atemübungen.",
+     "answer": "d",
+     "evidence": "Ab dem vierten Monat der Schwangerschaft sind Sie bei uns richtig. Sie lernen, ruhig und tief zu atmen, und das hilft auch bei der Geburt. Die Matten liegen weit auseinander, damit jede Frau genug Platz hat. Jeden Sonnabend von 10 bis 11.15 Uhr im Gesundheitszentrum Südvorstadt, Eingang im Hof hinter dem Blumenladen.",
+     "why": "Ad d is for pregnant women (Schwangerschaft), teaches breathing (atmen), and is every Sonnabend, which is Saturday. Ad f is also on a Saturday and for people expecting a baby, but it teaches first aid for children."
+    },
+    {
+     "id": "5",
+     "text": "Sie sind neu in Leipzig und suchen eine Hausarztpraxis mit Sprechstunde am Nachmittag.",
+     "answer": "a",
+     "evidence": "Wir nehmen selbstverständlich auch neue Patienten auf. Sprechstunde: wochentags 8 bis 12 Uhr, donnerstags auch 15 bis 18 Uhr, am Sonnabend geschlossen.",
+     "why": "Practice a is in Leipzig, takes new patients, and has office hours on Thursday afternoon. Practice e also has afternoon hours and takes new patients, but it is in Graz, Austria."
+    }
+   ]
+  }
+ ]
+}

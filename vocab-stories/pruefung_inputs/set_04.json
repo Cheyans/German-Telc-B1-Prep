@@ -1,0 +1,453 @@
+{
+ "set": "04",
+ "title": "Auf dem Amt",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "W0028",
+   "entry": "absolut",
+   "level": "B1",
+   "gloss": "absolutely"
+  },
+  {
+   "id": "W0065",
+   "entry": "das Amt, ¨-er",
+   "level": "B1",
+   "gloss": "public office, authority"
+  },
+  {
+   "id": "W0077",
+   "entry": "anerkennen, erkennt an, erkannte an, hat anerkannt",
+   "level": "B1",
+   "gloss": "to recognize, to accept officially"
+  },
+  {
+   "id": "W0081",
+   "entry": "angeben, gibt an, gab an, hat angegeben",
+   "level": "B1",
+   "gloss": "to give, to state (information)"
+  },
+  {
+   "id": "W0082",
+   "entry": "die Angabe,-n",
+   "level": "B1",
+   "gloss": "information given, detail"
+  },
+  {
+   "id": "W0110",
+   "entry": "der Anspruch, ¨-e",
+   "level": "B1",
+   "gloss": "right, entitlement"
+  },
+  {
+   "id": "W0116",
+   "entry": "der Antrag, ¨-e",
+   "level": "B1",
+   "gloss": "application"
+  },
+  {
+   "id": "W0123",
+   "entry": "anzeigen, zeigt an, zeigte an, hat angezeigt",
+   "level": "B1",
+   "gloss": "to display, to show"
+  },
+  {
+   "id": "W0136",
+   "entry": "die Arbeitserlaubnis",
+   "level": "B1",
+   "gloss": "work permit"
+  },
+  {
+   "id": "W0156",
+   "entry": "der Aufenthalt, -e",
+   "level": "B1",
+   "gloss": "stay"
+  },
+  {
+   "id": "W0221",
+   "entry": "ausstellen, stellt aus, stellte aus, hat ausgestellt",
+   "level": "B1",
+   "gloss": "to issue (a document)"
+  },
+  {
+   "id": "W0269",
+   "entry": "beantragen, beantragt, beantragte, hat beantragt",
+   "level": "B1",
+   "gloss": "to apply for"
+  },
+  {
+   "id": "W0288",
+   "entry": "begrenzt",
+   "level": "B1",
+   "gloss": "limited"
+  },
+  {
+   "id": "W0297",
+   "entry": "die Behörde, -n",
+   "level": "B1",
+   "gloss": "public authority, government office"
+  },
+  {
+   "id": "W0321",
+   "entry": "die Beratung",
+   "level": "B1",
+   "gloss": "consultation, advice"
+  },
+  {
+   "id": "W0345",
+   "entry": "besetzen, besetzt, besetzte, hat besetzt",
+   "level": "B1",
+   "gloss": "to occupy (besetzt = taken, busy)"
+  },
+  {
+   "id": "W0355",
+   "entry": "die Bestätigung, -en",
+   "level": "B1",
+   "gloss": "confirmation"
+  },
+  {
+   "id": "W0358",
+   "entry": "bestimmt",
+   "level": "B1",
+   "gloss": "certainly, surely"
+  },
+  {
+   "id": "W0419",
+   "entry": "die Botschaft, -en",
+   "level": "B1",
+   "gloss": "embassy"
+  },
+  {
+   "id": "W0531",
+   "entry": "das Dokument, -e",
+   "level": "B1",
+   "gloss": "document"
+  },
+  {
+   "id": "W0600",
+   "entry": "der Einfall, ¨-e",
+   "level": "B1",
+   "gloss": "idea"
+  },
+  {
+   "id": "W0627",
+   "entry": "eintreten, tritt ein, trat ein, ist eingetreten",
+   "level": "B1",
+   "gloss": "to enter, to step in"
+  },
+  {
+   "id": "W0692",
+   "entry": "erforderlich",
+   "level": "B1",
+   "gloss": "required, necessary"
+  },
+  {
+   "id": "W0712",
+   "entry": "die Erlaubnis",
+   "level": "B1",
+   "gloss": "permission, permit"
+  },
+  {
+   "id": "W0774",
+   "entry": "der Familienstand (D, A) → Personenstand; CH: Zivilstand",
+   "level": "A1",
+   "gloss": "marital status"
+  },
+  {
+   "id": "W0887",
+   "entry": "die Frist, -en",
+   "level": "B1",
+   "gloss": "deadline, time limit"
+  },
+  {
+   "id": "W0901",
+   "entry": "das Fundbüro, -s",
+   "level": "B1",
+   "gloss": "lost and found office"
+  },
+  {
+   "id": "W0932",
+   "entry": "die Gebühr, -en",
+   "level": "B1",
+   "gloss": "fee"
+  },
+  {
+   "id": "W0937",
+   "entry": "geehrt",
+   "level": "A2",
+   "gloss": "dear (Sehr geehrte ...), honored"
+  },
+  {
+   "id": "W0949",
+   "entry": "der Gegensatz, ¨-e",
+   "level": "B1",
+   "gloss": "contrast (im Gegensatz zu = unlike)"
+  },
+  {
+   "id": "W0991",
+   "entry": "das Geschlecht, -er",
+   "level": "B1",
+   "gloss": "sex, gender"
+  },
+  {
+   "id": "W1138",
+   "entry": "hierher",
+   "level": "B1",
+   "gloss": "(to) here"
+  },
+  {
+   "id": "W1217",
+   "entry": "inzwischen",
+   "level": "B1",
+   "gloss": "by now, meanwhile"
+  },
+  {
+   "id": "W1339",
+   "entry": "das Konsulat, -e",
+   "level": "B1",
+   "gloss": "consulate"
+  },
+  {
+   "id": "W1552",
+   "entry": "melden, meldet, meldete, hat gemeldet",
+   "level": "B1",
+   "gloss": "to report, to register (with an office)"
+  },
+  {
+   "id": "W1720",
+   "entry": "offiziell",
+   "level": "B1",
+   "gloss": "officially"
+  },
+  {
+   "id": "W1745",
+   "entry": "das Original, -e",
+   "level": "B1",
+   "gloss": "original (document)"
+  },
+  {
+   "id": "W1749",
+   "entry": "der Wohnort, -e",
+   "level": "B1",
+   "gloss": "place of residence"
+  },
+  {
+   "id": "W1769",
+   "entry": "passiv",
+   "level": "B1",
+   "gloss": "passive"
+  },
+  {
+   "id": "W1781",
+   "entry": "perfekt",
+   "level": "B1",
+   "gloss": "perfect"
+  },
+  {
+   "id": "W1785",
+   "entry": "die Personalien (Pl.)",
+   "level": "B1",
+   "gloss": "personal details"
+  },
+  {
+   "id": "W1786",
+   "entry": "der Personenstand D, A:→ Familienstand; CH: Zivilstand",
+   "level": "B1",
+   "gloss": "civil status, marital status"
+  },
+  {
+   "id": "W1796",
+   "entry": "die Pflicht, -en",
+   "level": "B1",
+   "gloss": "duty, obligation"
+  },
+  {
+   "id": "W1952",
+   "entry": "riesig",
+   "level": "B1",
+   "gloss": "huge"
+  },
+  {
+   "id": "W2239",
+   "entry": "der Stempel, -",
+   "level": "B1",
+   "gloss": "stamp (official)"
+  },
+  {
+   "id": "W2417",
+   "entry": "trotz",
+   "level": "B1",
+   "gloss": "despite, in spite of"
+  },
+  {
+   "id": "W2480",
+   "entry": "un-",
+   "level": "B1",
+   "gloss": "un-, not (ungültig = invalid)"
+  },
+  {
+   "id": "W2498",
+   "entry": "die Unterlagen (Pl.)",
+   "level": "B1",
+   "gloss": "documents, papers"
+  },
+  {
+   "id": "W2504",
+   "entry": "untersagt",
+   "level": "B1",
+   "gloss": "prohibited, not allowed"
+  },
+  {
+   "id": "W2516",
+   "entry": "die Urkunde, -n",
+   "level": "B1",
+   "gloss": "certificate (official document)"
+  },
+  {
+   "id": "W2536",
+   "entry": "verbieten, verbietet, verbot, hat verboten",
+   "level": "A2",
+   "gloss": "to forbid, to ban"
+  },
+  {
+   "id": "W2537",
+   "entry": "das Verbot, -e",
+   "level": "B1",
+   "gloss": "ban, prohibition"
+  },
+  {
+   "id": "W2571",
+   "entry": "verlängern, verlängert, verlängerte, hat verlängert",
+   "level": "B1",
+   "gloss": "to extend, to renew"
+  },
+  {
+   "id": "W2581",
+   "entry": "vermeiden, vermeidet, vermied, hat vermieden",
+   "level": "B1",
+   "gloss": "to avoid"
+  },
+  {
+   "id": "W2593",
+   "entry": "verpflichtet",
+   "level": "B1",
+   "gloss": "obliged, required"
+  },
+  {
+   "id": "W2622",
+   "entry": "die Verwaltung, -en",
+   "level": "B1",
+   "gloss": "property management, administration"
+  },
+  {
+   "id": "W2638",
+   "entry": "das Visum, Visa",
+   "level": "B1",
+   "gloss": "visa"
+  },
+  {
+   "id": "W2657",
+   "entry": "vorhaben, hat vor, hatte vor, hat vorgehabt",
+   "level": "B1",
+   "gloss": "to plan, to intend"
+  },
+  {
+   "id": "W2701",
+   "entry": "was für ein-",
+   "level": "A1",
+   "gloss": "what a ...!"
+  },
+  {
+   "id": "W2779",
+   "entry": "der Wohnort, -e",
+   "level": "B1",
+   "gloss": "town where you live"
+  },
+  {
+   "id": "W2780",
+   "entry": "der Wohnsitz, -e",
+   "level": "B1",
+   "gloss": "residence, registered address"
+  },
+  {
+   "id": "W2848",
+   "entry": "der Zufall, ¨-e",
+   "level": "B1",
+   "gloss": "coincidence, chance"
+  },
+  {
+   "id": "W2882",
+   "entry": "zuständig",
+   "level": "B1",
+   "gloss": "responsible (for), in charge"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W1864",
+   "entry": "quer",
+   "level": "B1",
+   "gloss": "across, diagonally"
+  },
+  {
+   "id": "W0325",
+   "entry": "bereits",
+   "level": "B1",
+   "gloss": "already"
+  },
+  {
+   "id": "W0542",
+   "entry": "drehen, dreht, drehte, hat gedreht",
+   "level": "B1",
+   "gloss": "to shoot (a film), to film"
+  },
+  {
+   "id": "W0346",
+   "entry": "besichtigen, besichtigt, besichtigte, hat besichtigt",
+   "level": "A1",
+   "gloss": "to visit, to tour (sights); to view (an apartment)"
+  },
+  {
+   "id": "W0020",
+   "entry": "abnehmen, nimmt ab, nahm ab, hat abgenommen",
+   "level": "B1",
+   "gloss": "to lose weight"
+  },
+  {
+   "id": "W0476",
+   "entry": "dagegen",
+   "level": "A2",
+   "gloss": "against it (etwas dagegen haben: to mind)"
+  },
+  {
+   "id": "W2913",
+   "entry": "schätzen, schätzt, schätzte, hat geschätzt",
+   "level": "B1",
+   "gloss": "to estimate"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X023",
+   "word": "der Zuschuss, Zuschüsse",
+   "gloss": "a subsidy, grant",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X024",
+   "word": "die Maßnahme, -n",
+   "gloss": "a measure, step (taken by authorities)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R016",
+   "word": "das Kuvert, -s",
+   "gloss": "envelope",
+   "kind": "austrian",
+   "de": "der Briefumschlag"
+  }
+ ],
+ "story_opening": "Lena wohnt seit zehn Tagen in Leipzig. Im Treppenhaus trifft sie Herrn Braun, den Hausmeister. „Frau Hoffmann, haben Sie Ihre neue Adresse schon beim Bürgeramt gemeldet?“, fragt er. Lena schüttelt den Kopf. „Noch nicht. Ich hatte so viel zu tun.“\n\n„Dann sollten Sie sich beeilen“, sagt Herr Braun. „Die Anmeldung ist Pflicht. Nach einem Umzug ist jeder verpflichtet, sich innerhalb von zwei Wochen anzumelden. Die Frist ist also kurz.“ Er gibt ihr ein Blatt Papier. „Das ist die Bestätigung vom Vermieter. Damit zeigen Sie dem Amt, dass Sie wirklich hier wohnen. Die Verwaltung hat sie mir für Sie gegeben. Das ist die Firma, die sich für den Vermieter um unser Haus kümmert.“\n\nLena bedankt sich. Ehr"
+}

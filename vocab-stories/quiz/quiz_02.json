@@ -1,0 +1,79 @@
+{
+ "story": "02",
+ "questions": [
+  {
+   "q": "Was erklärt Lena ihrer Oma über die Miete?",
+   "right": "Sie zahlt etwas mehr als üblich, wohnt aber sehr zentral.",
+   "wrong": [
+    "Heizung und Wasser muss sie noch extra bezahlen.",
+    "Für ähnliche Wohnungen zahlt man in Leipzig meistens mehr."
+   ],
+   "evidence": "Das ist die Miete für die Wohnung plus Heizung und Wasser. Im Durchschnitt zahlt man in Leipzig für so eine Wohnung ein bisschen weniger. Dafür wohne ich mitten im Zentrum und kann fast alles zu Fuß erreichen.",
+   "why": "Im Durchschnitt means on average: similar apartments cost a bit less, but dafür (in return) she lives right in the center. Heating and water are already part of the 610 euros.",
+   "words": [
+    "W0984",
+    "W0558",
+    "W0475"
+   ]
+  },
+  {
+   "q": "Warum möchte Lena den alten Sessel behalten?",
+   "right": "Er erinnert sie an die Zeit, als sie klein war.",
+   "wrong": [
+    "Sie hat ihn aus ihrer WG in Hamburg mitgebracht.",
+    "Oma Hilde hat ihn ihr zum Einzug geschenkt."
+   ],
+   "evidence": "Den Sessel möchte Lena behalten, weil er sehr bequem ist. Außerdem erinnert er sie an ihre Kindheit.",
+   "why": "Kindheit means childhood, and Oma once had a chair just like it. The chair was already in the apartment, so Lena did not bring it and it is not a gift.",
+   "words": [
+    "W0292",
+    "W2921",
+    "W1592"
+   ]
+  },
+  {
+   "q": "Was sagt Herr Braun über die kaputte Steckdose?",
+   "right": "Der Vermieter muss sich um die Reparatur kümmern.",
+   "wrong": [
+    "Der letzte Mieter hat sie dem Vermieter gemeldet.",
+    "Lena darf sie mit ihrem Werkzeug selbst reparieren."
+   ],
+   "evidence": "Soviel ich weiß, war die Steckdose schon beim letzten Mieter kaputt. Er hat sich oft bei mir darüber beschwert, aber dem Vermieter hat er nie etwas gesagt. Das ist ein Mangel in der Wohnung, und den muss der Vermieter reparieren lassen, nicht Sie.",
+   "why": "A Mangel is a defect in the apartment, so the landlord must have it repaired, not Lena. The last tenant only complained to Herr Braun and never told the landlord.",
+   "words": [
+    "W1519",
+    "W1570",
+    "W2165"
+   ]
+  },
+  {
+   "q": "Warum hat die Steckdose in der Küche nicht funktioniert?",
+   "right": "Beim Aufhängen eines Bildes hat jemand das Kabel getroffen.",
+   "wrong": [
+    "Lena hat beim Einzug einen Nagel in die Wand geschlagen.",
+    "Der Handwerker hat in der Küche den Strom ausgeschaltet."
+   ],
+   "evidence": "Jemand wollte hier ein Bild aufhängen. Er hat den Nagel mit dem Hammer in die Wand geschlagen, genau durch das Kabel. So hat er es kaputtgemacht.",
+   "why": "Someone hammered a nail for a picture right through the cable. The outlet was broken before Lena moved in, and the repairman only turned off the power to work safely.",
+   "words": [
+    "W1643",
+    "W1080",
+    "W1260"
+   ]
+  },
+  {
+   "q": "Wie findet Lena ihre Wohnung am Ende der Geschichte?",
+   "right": "Sie fühlt sich dort wohl, auch wenn noch Arbeit wartet.",
+   "wrong": [
+    "Sie findet sie zu klein und will deshalb bald wieder umziehen.",
+    "Sie hat das Einrichten schon ganz abgeschlossen."
+   ],
+   "evidence": "Obwohl die Wohnung noch nicht fertig ist, ist sie schon richtig gemütlich.",
+   "why": "Gemütlich means cozy, so she already feels at home there, though the apartment is not finished. She says it is small but nice and calls it her new home.",
+   "words": [
+    "W0968",
+    "W2855"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "book": "U",
+ "task": 2,
+ "tracks": [
+  "04",
+  "05",
+  "06"
+ ],
+ "title": "Ein Flug und Fernsehen in der Familie",
+ "intro": "Sie hören eine Durchsage im Flugzeug und zwei Personen, die über Fernsehen in der Familie sprechen. Spielen Sie jeden Track einmal ab.",
+ "items": [
+  {
+   "tr": "04",
+   "s": "Das Flugzeug fliegt gerade über die Insel Skopelos.",
+   "a": true,
+   "at": "00:24",
+   "ev": "überfliegen in diesem Moment die Insel Skopelos",
+   "why": "The captain says „überfliegen in diesem Moment die Insel Skopelos“: in diesem Moment = gerade, right now.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "überfliegen",
+     "to fly over"
+    ],
+    [
+     "die Besatzung",
+     "crew"
+    ]
+   ]
+  },
+  {
+   "tr": "04",
+   "s": "In etwa zwei Stunden landet das Flugzeug in Düsseldorf.",
+   "a": false,
+   "at": "00:33",
+   "ev": "In zwei Stunden und fünf Minuten werden wir rechtzeitig in München landen.",
+   "why": "The flight goes from Athens via Munich to Düsseldorf, and in about two hours it lands in Munich. Düsseldorf is in the audio, but only as the final stop.",
+   "trap": "same-word",
+   "w": [
+    [
+     "rechtzeitig",
+     "on time"
+    ],
+    [
+     "über München",
+     "via Munich"
+    ]
+   ]
+  },
+  {
+   "tr": "05",
+   "s": "Frau Weinzinger findet, dass bei ihr zu Hause zu viel ferngesehen wird.",
+   "a": true,
+   "at": "00:06",
+   "ev": "welche Rolle spielt … das Fernsehen? Leider eine viel zu große.",
+   "why": "Asked what role TV plays at home, she answers: unfortunately far too big a role. The TV runs from when her husband gets home until he goes to bed.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "der Apparat",
+     "the set (here: the TV)"
+    ],
+    [
+     "mitten im Wohnzimmer",
+     "right in the middle of the living room"
+    ]
+   ]
+  },
+  {
+   "tr": "05",
+   "s": "Frau Weinzingers Mann sieht sich nur Krimis und Sportsendungen an.",
+   "a": true,
+   "at": "00:28",
+   "ev": "Er schaut sich ja bloß Kriminalfilme und Sportsendungen an.",
+   "why": "Bloß means nur, and Krimi is short for Kriminalfilm. A strong word like nur is not always the trap: here the audio says it too.",
+   "trap": "overstate",
+   "w": [
+    [
+     "bloß",
+     "only (= nur)"
+    ],
+    [
+     "der Kriminalfilm",
+     "crime film (short: der Krimi)"
+    ]
+   ]
+  },
+  {
+   "tr": "05",
+   "s": "Frau Weinzinger will sich zu Weihnachten einen eigenen Fernseher kaufen.",
+   "a": false,
+   "at": "00:32",
+   "ev": "Ich kauf ihm zum Christkindel einen neuen Fernseher.",
+   "why": "She buys the new TV for him (ihm), so he can put it in his own room. The statement makes her the one who gets it.",
+   "trap": "who",
+   "w": [
+    [
+     "das Christkindel",
+     "Christmas (southern German, Austrian)"
+    ],
+    [
+     "unsere Ruhe haben",
+     "to have our peace and quiet"
+    ]
+   ]
+  },
+  {
+   "tr": "06",
+   "s": "Für Dr. Stukenberg ist das Fernsehen zu Hause nicht besonders wichtig.",
+   "a": true,
+   "at": "00:10",
+   "ev": "Also, ich muss sagen, keine besonders große Rolle.",
+   "why": "He says TV plays no especially big role at his home, the opposite of Frau Weinzinger. Nicht besonders wichtig says the same in other words.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "daheim",
+     "at home (southern German)"
+    ]
+   ]
+  },
+  {
+   "tr": "06",
+   "s": "Als sie klein waren, saßen seine Kinder den ganzen Tag vor dem Fernseher.",
+   "a": false,
+   "at": "00:21",
+   "ev": "Kinder, die den ganzen Tag vor dem Fernseher sitzen … aber meine nicht.",
+   "why": "He talks about other children who sit in front of the TV all day, then adds aber meine nicht: not mine. The turn comes only at the end of the sentence.",
+   "trap": "flip",
+   "w": [
+    [
+     "eine Serie nach der anderen",
+     "one series after another"
+    ],
+    [
+     "häufiger",
+     "more often"
+    ]
+   ]
+  },
+  {
+   "tr": "06",
+   "s": "Dr. Stukenberg möchte, dass seine Kinder manchmal mit der Familie fernsehen.",
+   "a": true,
+   "at": "00:47",
+   "ev": "Mir wäre es lieber … ab und zu mal einen Familienfilm im Fernsehen",
+   "why": "„Mir wäre es lieber, die Kinder würden … ab und zu mal einen Familienfilm im Fernsehen mit uns sehen“: he would like them to watch a family film with the parents now and then. Today they watch series on the phone or tablet.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "ab und zu",
+     "now and then"
+    ],
+    [
+     "der Dienst",
+     "service (here: a streaming service)"
+    ]
+   ]
+  }
+ ]
+}

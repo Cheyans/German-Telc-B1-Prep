@@ -1,0 +1,74 @@
+{
+ "story": "25",
+ "questions": [
+  {
+   "q": "Was sagt der Wetterbericht für den Samstag?",
+   "right": "Es wird sehr warm, aber später kann ein Gewitter kommen.",
+   "wrong": [
+    "Es wird kühl, am Morgen neblig und später leicht bewölkt.",
+    "Es wird mild, also nicht zu warm und nicht zu kalt."
+   ],
+   "evidence": "Aylin liest den Wetterbericht auf ihrem Handy vor: „Morgen wird es sonnig und heiß, bis zu 31 Grad. Allerdings sind am Nachmittag im Gebirge Gewitter möglich, und es kann sehr windig werden.",
+   "why": "The forecast says hot, up to 31 degrees, but (allerdings) storms are possible in the afternoon. Cool and foggy is Sunday's forecast, and mild is what September is normally like.",
+   "words": [
+    "W2746",
+    "W0050",
+    "W1574"
+   ]
+  },
+  {
+   "q": "Wie ist der Weg nach oben für die drei?",
+   "right": "Er ist viel anstrengender, als er im Internet aussah.",
+   "wrong": [
+    "Er ist so leicht, wie er auf den Fotos aussah.",
+    "Er ist flach und führt immer am Fluss entlang."
+   ],
+   "evidence": "Er ist so steil, dass alle bald schwitzen und schwer atmen. Mateo geht vorne, Lena und Aylin folgen ihm langsam. „Auf den Fotos im Internet sah der Weg ganz leicht aus“, sagt Aylin. „In der Realität ist er viel schwerer.“",
+   "why": "The path is so steep (steil) that everyone sweats, and Aylin says it is much harder in reality (Realität) than in the photos. The flat walk along the river came before the climb.",
+   "words": [
+    "W2235",
+    "W1889"
+   ]
+  },
+  {
+   "q": "Mateo zählt die Sekunden zwischen Blitz und Donner. Was weiß er danach?",
+   "right": "Das Gewitter ist nicht mehr weit von ihnen weg.",
+   "wrong": [
+    "Das Gewitter ist noch sechs Kilometer entfernt.",
+    "Das Gewitter zieht schnell von ihnen weg."
+   ],
+   "evidence": "Mateo zählt leise die Sekunden. „Zwischen Blitz und Donner waren es sechs Sekunden. Drei Sekunden sind ungefähr ein Kilometer. Das Gewitter ist also nur noch zwei Kilometer weg.“",
+   "why": "Six seconds between lightning (Blitz) and thunder (Donner) means about two kilometers, so the storm is close. Six is the number of seconds, not kilometers.",
+   "words": [
+    "W0408",
+    "W0533"
+   ]
+  },
+  {
+   "q": "Warum bedankt sich Herr Lehmann bei den drei Freunden?",
+   "right": "Ohne ihre Hilfe hätte die Familie viel Geld verloren.",
+   "wrong": [
+    "Sie haben seiner Frau einen Apfelkuchen mitgebracht.",
+    "Sie haben seine Schafe in den Stall gebracht."
+   ],
+   "evidence": "„Vielen Dank für Ihre Hilfe“, sagt Herr Lehmann. „Nasse Kartoffeln werden schnell schlecht. Dann können wir sie nicht mehr verkaufen, und das ist ein großer Verlust für uns.“",
+   "why": "Wet potatoes spoil and can't be sold, which is a big loss (Verlust), so the help saved the family money. His wife serves the apple cake, and the friends carried potato boxes, not sheep.",
+   "words": [
+    "W2580"
+   ]
+  },
+  {
+   "q": "Wie finden die drei das Wochenende am Ende?",
+   "right": "Trotz des Gewitters hat es ihnen sehr gut gefallen.",
+   "wrong": [
+    "Wegen des Gewitters war es leider kein schönes Wochenende.",
+    "Es war schön, weil das Wetter immer gut war."
+   ],
+   "evidence": "Im Zug nach Leipzig sind alle müde, aber glücklich. „Obwohl uns das Gewitter überrascht hat, war es ein tolles Wochenende“, sagt Aylin.",
+   "why": "Obwohl means although: the storm surprised them, but it was still a great weekend and everyone is happy. The weather was not always good, so the last option is wrong.",
+   "words": [
+    "W1713"
+   ]
+  }
+ ]
+}

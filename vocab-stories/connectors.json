@@ -1,0 +1,1116 @@
+{
+ "items": [
+  {
+   "w": "weil",
+   "t": "A",
+   "en": "because",
+   "note": "Reason. Same meaning as denn (B), but the verb goes to the end.",
+   "ids": [
+    "W2717"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "da",
+   "t": "A",
+   "en": "since, because",
+   "note": "Reason, often at the start: Da ich krank bin, … Also an adverb (there, then).",
+   "ids": [
+    "W0472"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "dass",
+   "t": "A",
+   "en": "that",
+   "note": "Ich hoffe, dass … Don't mix it up with das (article, relative pronoun).",
+   "ids": [
+    "W0491"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "ob",
+   "t": "A",
+   "en": "whether, if",
+   "note": "Indirect yes/no question: Ich weiß nicht, ob er kommt.",
+   "ids": [
+    "W1707"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "wenn",
+   "t": "A",
+   "en": "if; when, whenever",
+   "note": "Condition, or something that happens again and again. For the present and future, always wenn.",
+   "ids": [
+    "W2730"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "als",
+   "t": "A",
+   "en": "when (once, in the past)",
+   "note": "One time in the past: Als ich klein war, … Also used for comparisons: größer als.",
+   "ids": [
+    "W0055"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "falls",
+   "t": "A",
+   "en": "in case, if",
+   "note": "Condition, like wenn.",
+   "ids": [
+    "W0771"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "obwohl",
+   "t": "A",
+   "en": "although",
+   "note": "Contrast. Family: trotzdem (C), trotz (E).",
+   "ids": [
+    "W1713"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "damit",
+   "t": "A",
+   "en": "so that",
+   "note": "Purpose. Different subject: always damit. Same subject: um … zu or damit (Ich spare, damit ich reisen kann). Also the da-word damit (with it), type C.",
+   "ids": [
+    "W0481"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "sodass",
+   "t": "A",
+   "en": "so that (result)",
+   "note": "Result: Es regnete, sodass wir zu Hause blieben. Also so … dass.",
+   "ids": [
+    "W2146"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "indem",
+   "t": "A",
+   "en": "by (doing)",
+   "note": "Means, method: Er spart, indem er weniger kauft.",
+   "ids": [
+    "W1186"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "sobald",
+   "t": "A",
+   "en": "as soon as",
+   "note": "Time: Sobald ich da bin, rufe ich an.",
+   "ids": [
+    "W2144"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "solange",
+   "t": "A",
+   "en": "as long as",
+   "note": "Time or condition.",
+   "ids": [
+    "W2152"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "während",
+   "t": "A",
+   "en": "while; whereas",
+   "note": "At the same time, or contrast (whereas). Also a preposition + genitive (E): during.",
+   "ids": [
+    "W2687"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "nachdem",
+   "t": "A",
+   "en": "after",
+   "note": "Nachdem er gegessen hatte, … Tense: one step back, Plusquamperfekt with a past main clause, Perfekt with a present one. Family: danach (C), nach (E).",
+   "ids": [
+    "W1632"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "bevor",
+   "t": "A",
+   "en": "before",
+   "note": "Family: vorher, davor (C), vor (E).",
+   "ids": [
+    "W0373"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "bis",
+   "t": "A",
+   "en": "until",
+   "note": "Bis der Bus kommt, … Also a preposition (E): bis Montag.",
+   "ids": [
+    "W0394"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "seit",
+   "t": "A",
+   "en": "since (time)",
+   "note": "Seit ich hier wohne, … Also a preposition + dative (E).",
+   "ids": [
+    "W2099"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "seitdem",
+   "t": "A",
+   "en": "since (time)",
+   "note": "As a conjunction the verb goes to the end. As an adverb (C) it means since then.",
+   "ids": [
+    "W2100"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "wie",
+   "t": "A",
+   "en": "as, like; how",
+   "note": "Comparison clause: Es war so, wie ich dachte. Also without a verb: so groß wie du. Indirect question: Ich weiß nicht, wie …",
+   "ids": [
+    "W2750"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "als ob",
+   "t": "A",
+   "en": "as if",
+   "note": "Er tut so, als ob er nichts wüsste.",
+   "ids": [
+    "W0056"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "ohne dass",
+   "t": "A",
+   "en": "without (someone doing)",
+   "note": "Different subject. Same subject: ohne … zu (Z).",
+   "ids": [
+    "W1723"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "statt dass",
+   "t": "A",
+   "en": "instead of (someone doing)",
+   "note": "Also anstatt dass. Same subject: (an)statt … zu (Z).",
+   "ids": [
+    "W2222"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "und",
+   "t": "B",
+   "en": "and",
+   "note": "ADUSO: position 0, normal word order.",
+   "ids": [
+    "W2482"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "aber",
+   "t": "B",
+   "en": "but",
+   "note": "ADUSO. In the middle of a sentence also a particle: Das ist aber teuer!",
+   "ids": [
+    "W0005"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "denn",
+   "t": "B",
+   "en": "because, for",
+   "note": "ADUSO: a reason, but the verb stays in position 2. In questions also a particle: Was ist denn los?",
+   "ids": [
+    "W0503"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "sondern",
+   "t": "B",
+   "en": "but rather",
+   "note": "After a negative: nicht A, sondern B.",
+   "ids": [
+    "W2157"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "oder",
+   "t": "B",
+   "en": "or",
+   "note": "ADUSO.",
+   "ids": [
+    "W1714"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "doch",
+   "t": "B",
+   "en": "but, yet",
+   "note": "Like aber. As a particle: Komm doch mit! As an answer: Doch! (yes, to a negative question).",
+   "ids": [
+    "W0529"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "sowie",
+   "t": "B",
+   "en": "as well as",
+   "note": "Formal word for und.",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "bzw.",
+   "t": "B",
+   "en": "or rather; respectively",
+   "note": "Short for beziehungsweise.",
+   "ids": [
+    "G004"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "deshalb",
+   "t": "C",
+   "en": "therefore, that's why",
+   "note": "Result. Same as deswegen, darum, daher.",
+   "ids": [
+    "W0505"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "deswegen",
+   "t": "C",
+   "en": "therefore, that's why",
+   "note": "Like deshalb.",
+   "ids": [
+    "W0507"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "darum",
+   "t": "C",
+   "en": "therefore, that's why",
+   "note": "Like deshalb. Also a da-word: darum bitten (ask for it).",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "daher",
+   "t": "C",
+   "en": "therefore; from there",
+   "note": "Like deshalb, a bit more formal.",
+   "ids": [
+    "W0477"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "also",
+   "t": "C",
+   "en": "so, therefore",
+   "note": "Result. False friend: also is not English also (that's auch).",
+   "ids": [
+    "W0057"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "trotzdem",
+   "t": "C",
+   "en": "nevertheless, still",
+   "note": "Contrast. Family: obwohl (A), trotz (E).",
+   "ids": [
+    "W2418"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "dennoch",
+   "t": "C",
+   "en": "nonetheless",
+   "note": "Like trotzdem, a bit more formal.",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "dann",
+   "t": "C",
+   "en": "then",
+   "note": "Time or result. After a wenn-clause: Wenn …, dann …",
+   "ids": [
+    "W0488"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "danach",
+   "t": "C",
+   "en": "afterwards",
+   "note": "Family: nachdem (A), nach (E).",
+   "ids": [
+    "W0482"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "anschließend",
+   "t": "C",
+   "en": "afterwards, then",
+   "note": "Like danach.",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "vorher",
+   "t": "C",
+   "en": "before, beforehand",
+   "note": "Family: bevor (A), vor (E).",
+   "ids": [
+    "W2658"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "davor",
+   "t": "C",
+   "en": "before that; in front of it",
+   "note": "Like vorher. Also a da-word: Angst davor haben.",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "zuerst",
+   "t": "C",
+   "en": "first",
+   "note": "Order: zuerst, dann, danach, schließlich.",
+   "ids": [
+    "W2847"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "zunächst",
+   "t": "C",
+   "en": "first of all",
+   "note": "A bit more formal than zuerst.",
+   "ids": [
+    "W2863"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "schließlich",
+   "t": "C",
+   "en": "finally; after all",
+   "note": "Time (in the end) or reason (after all).",
+   "ids": [
+    "W2032"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "zuletzt",
+   "t": "C",
+   "en": "last, finally",
+   "note": "Order.",
+   "ids": [
+    "W2860"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "außerdem",
+   "t": "C",
+   "en": "besides, moreover",
+   "note": "Addition: one more point.",
+   "ids": [
+    "W0217"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "zusätzlich",
+   "t": "C",
+   "en": "in addition",
+   "note": "Addition.",
+   "ids": [
+    "W2875"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "sonst",
+   "t": "C",
+   "en": "otherwise",
+   "note": "Condition: Beeil dich, sonst verpasst du den Zug.",
+   "ids": [
+    "W2160"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "stattdessen",
+   "t": "C",
+   "en": "instead",
+   "note": "Family: statt dass (A), statt (E).",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "allerdings",
+   "t": "C",
+   "en": "however; admittedly",
+   "note": "Contrast, restriction.",
+   "ids": [
+    "W0050"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "jedoch",
+   "t": "C",
+   "en": "however",
+   "note": "Contrast. Also used in the middle of a sentence.",
+   "ids": [
+    "W1230"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "dagegen",
+   "t": "C",
+   "en": "on the other hand; against it",
+   "note": "Contrast. Also a da-word: Ich bin dagegen (against it).",
+   "ids": [
+    "W0476"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "inzwischen",
+   "t": "C",
+   "en": "meanwhile; by now",
+   "note": "Time.",
+   "ids": [
+    "W1217"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "seitdem",
+   "t": "C",
+   "en": "since then",
+   "note": "As an adverb it flips the verb. As a conjunction (A) the verb goes to the end.",
+   "ids": [
+    "W2100"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "dadurch",
+   "t": "C",
+   "en": "as a result; through it",
+   "note": "Means or result. Family: indem (A), durch (E).",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "dabei",
+   "t": "C",
+   "en": "at the same time; with it",
+   "note": "Also a da-word: dabei sein, dabei helfen. Contrast (and yet): Er ist müde, dabei hat er lange geschlafen.",
+   "ids": [
+    "W0473"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "damit",
+   "t": "C",
+   "en": "with it",
+   "note": "As a da-word at the start it flips the verb. As a conjunction (A) it means so that.",
+   "ids": [
+    "W0481"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "übrigens",
+   "t": "C",
+   "en": "by the way",
+   "note": "Starts a new topic.",
+   "ids": [
+    "W2456"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "nämlich",
+   "t": "C",
+   "en": "you see; namely",
+   "note": "Special case: never in position 1. Ich komme nicht. Ich bin nämlich krank.",
+   "ids": [
+    "W1652"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "entweder … oder",
+   "t": "D",
+   "en": "either … or",
+   "note": "Entweder kommst du mit, oder du bleibst hier.",
+   "ids": [
+    "W0678"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "sowohl … als auch",
+   "t": "D",
+   "en": "both … and",
+   "note": "Sowohl Kinder als auch Erwachsene.",
+   "ids": [
+    "W2168"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "weder … noch",
+   "t": "D",
+   "en": "neither … nor",
+   "note": "Ich habe weder Zeit noch Geld.",
+   "ids": [
+    "W2709"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "nicht nur … sondern auch",
+   "t": "D",
+   "en": "not only … but also",
+   "note": "Nicht nur billig, sondern auch gut.",
+   "ids": [
+    "W2157"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "zwar … aber",
+   "t": "D",
+   "en": "admittedly … but",
+   "note": "Das ist zwar teuer, aber gut.",
+   "ids": [
+    "W2888"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "je … desto",
+   "t": "D",
+   "en": "the … the",
+   "note": "The je-part has the verb at the end, the desto-part flips. Je länger er wartet, desto nervöser wird er.",
+   "ids": [
+    "W1225"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "um … zu",
+   "t": "Z",
+   "en": "in order to",
+   "note": "Purpose, same subject. zu + infinitive at the end, no subject.",
+   "ids": [
+    "W2461"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "ohne … zu",
+   "t": "Z",
+   "en": "without (doing)",
+   "note": "Er ging, ohne Tschüss zu sagen.",
+   "ids": [
+    "W1723"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "statt … zu",
+   "t": "Z",
+   "en": "instead of (doing)",
+   "note": "Also anstatt … zu.",
+   "ids": [
+    "W2222"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "der, die, das",
+   "t": "R",
+   "en": "who, which, that",
+   "note": "Relative pronoun: Die Frau, die neben mir wohnt, … The verb goes to the end.",
+   "ids": [],
+   "lvl": "Grammatik"
+  },
+  {
+   "w": "wo",
+   "t": "R",
+   "en": "where",
+   "note": "As a relative word: die Stadt, wo ich wohne. As a question: Wo wohnst du?",
+   "ids": [
+    "W2774"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "was",
+   "t": "R",
+   "en": "what, which",
+   "note": "Relative after alles, etwas, nichts, das: alles, was ich weiß.",
+   "ids": [
+    "W2700"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "warum",
+   "t": "W",
+   "en": "why",
+   "note": "Direct question: verb in position 2. Indirect question (…, warum er kommt): verb at the end.",
+   "ids": [
+    "W2699"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "wieso",
+   "t": "W",
+   "en": "why",
+   "note": "Like warum, a bit more casual.",
+   "ids": [
+    "W2757"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "weshalb",
+   "t": "W",
+   "en": "why",
+   "note": "Like warum, a bit more formal.",
+   "ids": [
+    "W2742"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "wann",
+   "t": "W",
+   "en": "when",
+   "note": "Question word. Not als and not wenn!",
+   "ids": [
+    "W2693"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "wie",
+   "t": "W",
+   "en": "how",
+   "note": "Question word. Indirect: Ich weiß nicht, wie das geht.",
+   "ids": [
+    "W2750"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "wer",
+   "t": "W",
+   "en": "who",
+   "note": "",
+   "ids": [
+    "W2731"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "was",
+   "t": "W",
+   "en": "what",
+   "note": "",
+   "ids": [
+    "W2700"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "welch-",
+   "t": "W",
+   "en": "which",
+   "note": "welcher, welche, welches.",
+   "ids": [
+    "W2724"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "wohin",
+   "t": "W",
+   "en": "where to",
+   "note": "",
+   "ids": [
+    "W2776"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "woher",
+   "t": "W",
+   "en": "where from",
+   "note": "",
+   "ids": [
+    "W2775"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "trotz",
+   "t": "E",
+   "en": "despite",
+   "note": "Preposition + genitive: trotz des Regens. Family: obwohl (A), trotzdem (C).",
+   "ids": [
+    "W2417"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "wegen",
+   "t": "E",
+   "en": "because of",
+   "note": "Preposition + genitive (in speech often dative): wegen der Arbeit. Family: weil (A), deshalb (C).",
+   "ids": [
+    "W2712"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "während",
+   "t": "E",
+   "en": "during",
+   "note": "Preposition + genitive: während der Pause. As a conjunction (A) it means while.",
+   "ids": [
+    "W2687"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "statt",
+   "t": "E",
+   "en": "instead of",
+   "note": "Also anstatt, + genitive: statt eines Briefes.",
+   "ids": [
+    "W2222"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "aufgrund",
+   "t": "E",
+   "en": "due to",
+   "note": "Preposition + genitive, formal.",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "innerhalb",
+   "t": "E",
+   "en": "within",
+   "note": "+ genitive: innerhalb eines Jahres, or innerhalb von zwei Wochen.",
+   "ids": [
+    "W1197"
+   ],
+   "lvl": "B1"
+  },
+  {
+   "w": "außerhalb",
+   "t": "E",
+   "en": "outside",
+   "note": "+ genitive.",
+   "ids": [
+    "W0214"
+   ],
+   "lvl": "A2"
+  },
+  {
+   "w": "dank",
+   "t": "E",
+   "en": "thanks to",
+   "note": "+ dative or genitive.",
+   "ids": [],
+   "lvl": "—"
+  },
+  {
+   "w": "seit",
+   "t": "E",
+   "en": "since, for (time)",
+   "note": "+ dative: seit drei Jahren (with the present tense!). As a conjunction (A): seit ich …",
+   "ids": [
+    "W2099"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "bis",
+   "t": "E",
+   "en": "until, by",
+   "note": "bis Montag, bis zum Bahnhof. As a conjunction (A): bis der Bus kommt.",
+   "ids": [
+    "W0394"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "nach",
+   "t": "E",
+   "en": "after",
+   "note": "+ dative: nach dem Essen. Family: nachdem (A), danach (C).",
+   "ids": [
+    "W1630"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "vor",
+   "t": "E",
+   "en": "before",
+   "note": "+ dative (time): vor dem Essen. Family: bevor (A), vorher (C).",
+   "ids": [
+    "W2646"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "durch",
+   "t": "E",
+   "en": "through, by",
+   "note": "+ accusative. Family: indem (A), dadurch (C).",
+   "ids": [
+    "W0555"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "bei",
+   "t": "E",
+   "en": "at; in case of",
+   "note": "+ dative: bei Regen (= wenn es regnet).",
+   "ids": [
+    "W0298"
+   ],
+   "lvl": "A1"
+  },
+  {
+   "w": "folglich",
+   "t": "X",
+   "en": "consequently",
+   "note": "Like also (C).",
+   "ids": [],
+   "lvl": "B2"
+  },
+  {
+   "w": "somit",
+   "t": "X",
+   "en": "thus",
+   "note": "Like also (C).",
+   "ids": [],
+   "lvl": "B2"
+  },
+  {
+   "w": "hingegen",
+   "t": "X",
+   "en": "on the other hand",
+   "note": "Like dagegen (C).",
+   "ids": [],
+   "lvl": "B2"
+  },
+  {
+   "w": "zudem",
+   "t": "X",
+   "en": "moreover",
+   "note": "Like außerdem (C).",
+   "ids": [],
+   "lvl": "B2"
+  },
+  {
+   "w": "sofern",
+   "t": "X",
+   "en": "provided that",
+   "note": "Like wenn (A).",
+   "ids": [],
+   "lvl": "B2"
+  },
+  {
+   "w": "soweit",
+   "t": "X",
+   "en": "as far as",
+   "note": "Verb at the end (A).",
+   "ids": [],
+   "lvl": "B2"
+  }
+ ],
+ "families": [
+  {
+   "m": "Grund / Folge (because / therefore)",
+   "A": "weil, da",
+   "B": "denn",
+   "C": "deshalb, deswegen, darum, daher, also",
+   "Z": "",
+   "E": "wegen + Gen."
+  },
+  {
+   "m": "Gegensatz (although / still)",
+   "A": "obwohl",
+   "B": "aber, doch",
+   "C": "trotzdem, dennoch, allerdings, jedoch",
+   "Z": "",
+   "E": "trotz + Gen."
+  },
+  {
+   "m": "Ziel (so that / in order to)",
+   "A": "damit",
+   "B": "",
+   "C": "",
+   "Z": "um … zu",
+   "E": "für + Akk."
+  },
+  {
+   "m": "Ergebnis (so that, as a result)",
+   "A": "sodass, so … dass",
+   "B": "",
+   "C": "also",
+   "Z": "",
+   "E": ""
+  },
+  {
+   "m": "Gleichzeitig (while / meanwhile)",
+   "A": "während",
+   "B": "",
+   "C": "inzwischen",
+   "Z": "",
+   "E": "während + Gen."
+  },
+  {
+   "m": "Danach (after / afterwards)",
+   "A": "nachdem",
+   "B": "",
+   "C": "danach, anschließend, dann",
+   "Z": "",
+   "E": "nach + Dat."
+  },
+  {
+   "m": "Davor (before / beforehand)",
+   "A": "bevor",
+   "B": "",
+   "C": "vorher, davor",
+   "Z": "",
+   "E": "vor + Dat."
+  },
+  {
+   "m": "Seit (since)",
+   "A": "seit, seitdem",
+   "B": "",
+   "C": "seitdem",
+   "Z": "",
+   "E": "seit + Dat."
+  },
+  {
+   "m": "Bis (until)",
+   "A": "bis",
+   "B": "",
+   "C": "",
+   "Z": "",
+   "E": "bis (bis Montag)"
+  },
+  {
+   "m": "Bedingung (if / otherwise)",
+   "A": "wenn, falls",
+   "B": "oder",
+   "C": "sonst, dann",
+   "Z": "",
+   "E": "bei + Dat. (bei Regen)"
+  },
+  {
+   "m": "Mittel (by doing)",
+   "A": "indem",
+   "B": "",
+   "C": "dadurch",
+   "Z": "",
+   "E": "durch + Akk."
+  },
+  {
+   "m": "Statt (instead)",
+   "A": "statt dass",
+   "B": "sondern",
+   "C": "stattdessen",
+   "Z": "statt … zu",
+   "E": "statt + Gen."
+  },
+  {
+   "m": "Ohne (without)",
+   "A": "ohne dass",
+   "B": "",
+   "C": "",
+   "Z": "ohne … zu",
+   "E": "ohne + Akk."
+  },
+  {
+   "m": "Zusatz (and / besides)",
+   "A": "",
+   "B": "und, sowie",
+   "C": "außerdem, zusätzlich",
+   "Z": "",
+   "E": ""
+  }
+ ]
+}

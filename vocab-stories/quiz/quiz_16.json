@@ -1,0 +1,75 @@
+{
+ "story": "16",
+ "questions": [
+  {
+   "q": "Was macht Paul am Nachmittag des letzten Tages?",
+   "right": "Er nimmt einen schwierigen Weg, obwohl Jan dagegen ist.",
+   "wrong": [
+    "Er bleibt im Hotel, weil er zu müde zum Fahren ist.",
+    "Er nimmt die normale Abfahrt, weil Jan ihn warnt."
+   ],
+   "evidence": "Neben der normalen Abfahrt sieht er einen schmalen Weg zwischen den Bäumen. Er ist kaum einen Meter breit. Auf einem Schild steht: „Nur für sehr gute Skifahrer geeignet!“ Jan warnt ihn: „Lass das, Paul! Du bist müde, und am Nachmittag ist der Schnee schon weich.“ Aber Paul hört nicht auf ihn.",
+   "why": "Jan warns Paul, but Paul does not listen and takes the narrow path that is only for very good skiers. He neither rests nor takes the normal run.",
+   "words": [
+    "W2697",
+    "W0938",
+    "W2037"
+   ]
+  },
+  {
+   "q": "Warum ruft Paul nach dem Sturz nicht selbst um Hilfe?",
+   "right": "Er ist so erschrocken, dass er nichts sagen kann.",
+   "wrong": [
+    "Seine Lippe blutet so stark, dass er nicht sprechen kann.",
+    "Er hat keine Schmerzen und glaubt, dass alles in Ordnung ist."
+   ],
+   "evidence": "Vor Schreck ist er ganz stumm. Er kann nicht einmal um Hilfe rufen.",
+   "why": "Stumm means unable to speak: the shock leaves him silent. His lip is bleeding, but the text gives shock as the reason, and his knee hurts badly.",
+   "words": [
+    "W2289",
+    "W0414"
+   ]
+  },
+  {
+   "q": "Warum sagt Doktor Huber, dass Paul Glück im Unglück hatte?",
+   "right": "Sein Helm hat ihn vielleicht vor dem Tod geschützt.",
+   "wrong": [
+    "Er muss zum Glück nicht operiert werden.",
+    "Er hatte keinen Helm, aber sein Kopf ist nicht verletzt."
+   ],
+   "evidence": "Gut, dass Sie einen Helm getragen haben. Mit dem Kopf gegen einen Baum: So ein Unfall kann tödlich sein. Ihr Helm hat Ihnen vielleicht das Leben gerettet.",
+   "why": "Tödlich means deadly and gerettet means saved: hitting a tree head first can kill you, so the helmet may have saved his life. He did wear one, and he still needs an operation.",
+   "words": [
+    "W2487",
+    "W2373",
+    "W1944"
+   ]
+  },
+  {
+   "q": "Wie reagiert Herr Arslan auf Pauls schlechte Laune?",
+   "right": "Er sagt, Paul soll sich nicht mehr beschweren.",
+   "wrong": [
+    "Er gibt Paul recht, dass der ganze Winter kaputt ist.",
+    "Er sagt, Paul kann in sechs Wochen wieder Ski fahren."
+   ],
+   "evidence": "Junge, hör auf zu klagen! Du hast doch keine schlimme Krankheit, nur ein kaputtes Knie. In sechs Wochen läufst du wieder.",
+   "why": "Klagen means to complain: Herr Arslan tells Paul to stop, because a broken knee is not a serious illness. He says Paul will walk again in six weeks, not ski.",
+   "words": [
+    "W2908"
+   ]
+  },
+  {
+   "q": "Wie endet die Geschichte für Paul?",
+   "right": "Es geht ihm wieder gut, und er will vorsichtiger Ski fahren.",
+   "wrong": [
+    "Er braucht beim Gehen immer noch die Hilfe seiner Mutter.",
+    "Er will nie wieder Ski fahren, sondern nur noch wandern."
+   ],
+   "evidence": "Nach sechs Wochen kann Paul wieder ohne Hilfe laufen. Er hat sich gut erholt. „Im Sommer gehe ich mit Lena wandern, und nächsten Winter fahre ich wieder Ski“, sagt er. „Aber nur auf breiten Wegen. Und wenn ich müde bin, mache ich keine letzte Abfahrt mehr!“",
+   "why": "Sich erholen means to recover: after six weeks Paul walks without help. He will ski again next winter, but only on wide runs and never when he is tired.",
+   "words": [
+    "W0700"
+   ]
+  }
+ ]
+}

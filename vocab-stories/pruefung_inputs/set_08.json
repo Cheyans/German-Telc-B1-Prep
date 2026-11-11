@@ -1,0 +1,641 @@
+{
+ "set": "08",
+ "title": "Ein freies Wochenende",
+ "part_b": "ads",
+ "targets": [
+  {
+   "id": "G028",
+   "entry": "der Bikini, -s",
+   "level": "B1",
+   "gloss": "bikini"
+  },
+  {
+   "id": "G031",
+   "entry": "das Camp, -s",
+   "level": "B1",
+   "gloss": "camp"
+  },
+  {
+   "id": "G032",
+   "entry": "campen",
+   "level": "B1",
+   "gloss": "to go camping"
+  },
+  {
+   "id": "G042",
+   "entry": "der Comic, -s",
+   "level": "A2",
+   "gloss": "comic"
+  },
+  {
+   "id": "G052",
+   "entry": "die Fitness",
+   "level": "B1",
+   "gloss": "fitness"
+  },
+  {
+   "id": "G073",
+   "entry": "das Mountainbike, -s",
+   "level": "B1",
+   "gloss": "mountain bike"
+  },
+  {
+   "id": "G078",
+   "entry": "das Puzzle, -s",
+   "level": "B1",
+   "gloss": "jigsaw puzzle"
+  },
+  {
+   "id": "G088",
+   "entry": "der Swimmingpool, -s",
+   "level": "B1",
+   "gloss": "swimming pool"
+  },
+  {
+   "id": "W0004",
+   "entry": "das Abenteuer, -",
+   "level": "B1",
+   "gloss": "adventure"
+  },
+  {
+   "id": "W0042",
+   "entry": "die Aktivität, -en",
+   "level": "B1",
+   "gloss": "activity"
+  },
+  {
+   "id": "W0066",
+   "entry": "sich amüsieren, amüsiert sich, amüsierte sich, hat sich amüsiert",
+   "level": "B1",
+   "gloss": "to have fun, enjoy oneself"
+  },
+  {
+   "id": "W0162",
+   "entry": "aufgeben, gibt auf, gab auf, hat aufgegeben",
+   "level": "B1",
+   "gloss": "to give up"
+  },
+  {
+   "id": "W0182",
+   "entry": "der Augenblick, -e",
+   "level": "B1",
+   "gloss": "moment"
+  },
+  {
+   "id": "W0213",
+   "entry": "außen",
+   "level": "B1",
+   "gloss": "outside (von außen: from the outside)"
+  },
+  {
+   "id": "W0496",
+   "entry": "die Dauer",
+   "level": "B1",
+   "gloss": "duration, length of time"
+  },
+  {
+   "id": "W0525",
+   "entry": "die Diskothek, -en/Disko, -s",
+   "level": "B1",
+   "gloss": "disco, nightclub"
+  },
+  {
+   "id": "W0668",
+   "entry": "unentschieden",
+   "level": "B1",
+   "gloss": "tied, a draw"
+  },
+  {
+   "id": "W0674",
+   "entry": "entspannend",
+   "level": "B1",
+   "gloss": "relaxing"
+  },
+  {
+   "id": "W0714",
+   "entry": "das Erlebnis, -se",
+   "level": "B1",
+   "gloss": "experience"
+  },
+  {
+   "id": "W0744",
+   "entry": "etwa",
+   "level": "B1",
+   "gloss": "about, approximately; (in questions) by any chance"
+  },
+  {
+   "id": "W0766",
+   "entry": "fair",
+   "level": "B1",
+   "gloss": "fair"
+  },
+  {
+   "id": "W0775",
+   "entry": "fangen, fängt, fing, hat gefangen",
+   "level": "B1",
+   "gloss": "to catch"
+  },
+  {
+   "id": "W0786",
+   "entry": "faulenzen, faulenzt, faulenzte, hat gefaulenzt",
+   "level": "B1",
+   "gloss": "to laze around"
+  },
+  {
+   "id": "W0811",
+   "entry": "feststellen, stellt fest, stellte fest, hat festgestellt",
+   "level": "B1",
+   "gloss": "to notice, realize"
+  },
+  {
+   "id": "W0871",
+   "entry": "im Freien",
+   "level": "B1",
+   "gloss": "outdoors, in the open air"
+  },
+  {
+   "id": "W0947",
+   "entry": "der Gegner, -",
+   "level": "B1",
+   "gloss": "opponent"
+  },
+  {
+   "id": "W0973",
+   "entry": "genießen, genießt, genoss, hat genossen",
+   "level": "B1",
+   "gloss": "to enjoy"
+  },
+  {
+   "id": "W0975",
+   "entry": "genügen, genügt, genügte, hat genügt",
+   "level": "B1",
+   "gloss": "to be enough"
+  },
+  {
+   "id": "W0983",
+   "entry": "gern/gerne",
+   "level": "A1",
+   "gloss": "gladly, to like to (do)"
+  },
+  {
+   "id": "W1009",
+   "entry": "der Gewinn, -e",
+   "level": "B1",
+   "gloss": "prize"
+  },
+  {
+   "id": "W1034",
+   "entry": "Golf, das Golfspiel",
+   "level": "B1",
+   "gloss": "golf"
+  },
+  {
+   "id": "W1061",
+   "entry": "die Gymnastik",
+   "level": "B1",
+   "gloss": "exercises, light workout"
+  },
+  {
+   "id": "W1072",
+   "entry": "das Hallenbad, ¨-er",
+   "level": "B1",
+   "gloss": "indoor swimming pool"
+  },
+  {
+   "id": "W1178",
+   "entry": "die Hütte, -n",
+   "level": "B1",
+   "gloss": "hut, cabin"
+  },
+  {
+   "id": "W1234",
+   "entry": "jeweils",
+   "level": "B1",
+   "gloss": "each"
+  },
+  {
+   "id": "W1304",
+   "entry": "klettern, klettert, kletterte, ist geklettert",
+   "level": "B1",
+   "gloss": "to climb"
+  },
+  {
+   "id": "W1317",
+   "entry": "die Kneipe, -n (D)",
+   "level": "B1",
+   "gloss": "pub, bar"
+  },
+  {
+   "id": "W1329",
+   "entry": "komplett",
+   "level": "B1",
+   "gloss": "completely"
+  },
+  {
+   "id": "W1431",
+   "entry": "sich langweilen, langweilt, langweilte, hat gelangweilt",
+   "level": "B1",
+   "gloss": "to be bored"
+  },
+  {
+   "id": "W1432",
+   "entry": "die Langeweile",
+   "level": "B1",
+   "gloss": "boredom"
+  },
+  {
+   "id": "W1584",
+   "entry": "das Mitglied, -er",
+   "level": "B1",
+   "gloss": "member"
+  },
+  {
+   "id": "W1697",
+   "entry": "nötig",
+   "level": "B1",
+   "gloss": "necessary"
+  },
+  {
+   "id": "W1758",
+   "entry": "parallel",
+   "level": "B1",
+   "gloss": "parallel"
+  },
+  {
+   "id": "W1798",
+   "entry": "das Picknick, -s",
+   "level": "B1",
+   "gloss": "picnic"
+  },
+  {
+   "id": "W1844",
+   "entry": "der Profi, -s",
+   "level": "B1",
+   "gloss": "pro, professional"
+  },
+  {
+   "id": "W1845",
+   "entry": "der Profisportler, - die Profisportlerin, -nen",
+   "level": "B1",
+   "gloss": "professional athlete"
+  },
+  {
+   "id": "W1866",
+   "entry": "das Quiz",
+   "level": "A2",
+   "gloss": "quiz"
+  },
+  {
+   "id": "W1928",
+   "entry": "der Rekord, -e",
+   "level": "B1",
+   "gloss": "record (best result)"
+  },
+  {
+   "id": "W1931",
+   "entry": "rennen, rennt, rannte, ist gerannt",
+   "level": "B1",
+   "gloss": "to run"
+  },
+  {
+   "id": "W1973",
+   "entry": "die Runde, -n",
+   "level": "B1",
+   "gloss": "round (of a quiz or game)"
+  },
+  {
+   "id": "W2006",
+   "entry": "zuschauen",
+   "level": "B1",
+   "gloss": "to watch"
+  },
+  {
+   "id": "W2020",
+   "entry": "schießen, schießt, schoss, hat geschossen",
+   "level": "B1",
+   "gloss": "to shoot"
+  },
+  {
+   "id": "W2075",
+   "entry": "schütteln, schüttelt, schüttelte, hat geschüttelt",
+   "level": "B1",
+   "gloss": "to shake"
+  },
+  {
+   "id": "W2130",
+   "entry": "siegen, siegt, siegte, hat gesiegt",
+   "level": "B1",
+   "gloss": "to win, be victorious"
+  },
+  {
+   "id": "W2131",
+   "entry": "der Sieg, -e",
+   "level": "B1",
+   "gloss": "victory, win"
+  },
+  {
+   "id": "W2132",
+   "entry": "der Sieger, - die Siegerin, -nen",
+   "level": "B1",
+   "gloss": "winner"
+  },
+  {
+   "id": "W2142",
+   "entry": "der Ski/Schi, -er/-",
+   "level": "A2",
+   "gloss": "ski (Ski fahren: to ski)"
+  },
+  {
+   "id": "W2144",
+   "entry": "sobald",
+   "level": "B1",
+   "gloss": "as soon as"
+  },
+  {
+   "id": "W2146",
+   "entry": "sodass",
+   "level": "B1",
+   "gloss": "so that"
+  },
+  {
+   "id": "W2174",
+   "entry": "der Spaß",
+   "level": "A2",
+   "gloss": "fun"
+  },
+  {
+   "id": "W2178",
+   "entry": "der Spaziergang, ¨-e",
+   "level": "B1",
+   "gloss": "walk, stroll"
+  },
+  {
+   "id": "W2189",
+   "entry": "der Spieler, - die Spielerin, -nen",
+   "level": "B1",
+   "gloss": "player"
+  },
+  {
+   "id": "W2194",
+   "entry": "die Sportart, -en",
+   "level": "B1",
+   "gloss": "type of sport"
+  },
+  {
+   "id": "W2195",
+   "entry": "der Sportler, - die Sportlerin, -nen",
+   "level": "B1",
+   "gloss": "athlete, sporty person"
+  },
+  {
+   "id": "W2203",
+   "entry": "springen, springt, sprang, ist gesprungen",
+   "level": "B1",
+   "gloss": "to jump"
+  },
+  {
+   "id": "W2208",
+   "entry": "das Stadion, Stadien",
+   "level": "B1",
+   "gloss": "stadium"
+  },
+  {
+   "id": "W2218",
+   "entry": "der Start, -s",
+   "level": "B1",
+   "gloss": "start, beginning"
+  },
+  {
+   "id": "W2327",
+   "entry": "tatsächlich",
+   "level": "B1",
+   "gloss": "actually, really"
+  },
+  {
+   "id": "W2329",
+   "entry": "tauchen, taucht, tauchte, ist/hat getaucht",
+   "level": "B1",
+   "gloss": "to dive, swim underwater"
+  },
+  {
+   "id": "W2348",
+   "entry": "das Tennis",
+   "level": "A2",
+   "gloss": "tennis"
+  },
+  {
+   "id": "W2366",
+   "entry": "der Tierpark, -s",
+   "level": "B1",
+   "gloss": "small zoo, animal park"
+  },
+  {
+   "id": "W2379",
+   "entry": "das Tor, -e",
+   "level": "B1",
+   "gloss": "goal"
+  },
+  {
+   "id": "W2391",
+   "entry": "der Trainer, - die Trainerin, -nen",
+   "level": "B1",
+   "gloss": "coach"
+  },
+  {
+   "id": "W2402",
+   "entry": "der Treffpunkt, -e",
+   "level": "B1",
+   "gloss": "meeting point"
+  },
+  {
+   "id": "W2403",
+   "entry": "treiben, treibt, trieb, hat getrieben",
+   "level": "B1",
+   "gloss": "to do (sports), as in Sport treiben"
+  },
+  {
+   "id": "W2526",
+   "entry": "(sich) verabreden, verabredet, verabredete, hat verabredet",
+   "level": "B1",
+   "gloss": "to arrange to meet"
+  },
+  {
+   "id": "W2527",
+   "entry": "verabredet",
+   "level": "B1",
+   "gloss": "having plans (to meet someone)"
+  },
+  {
+   "id": "W2528",
+   "entry": "die Verabredung, -en",
+   "level": "B1",
+   "gloss": "plans to meet, appointment"
+  },
+  {
+   "id": "W2544",
+   "entry": "verbringen, verbringt, verbrachte, hat verbracht",
+   "level": "B1",
+   "gloss": "to spend (time)"
+  },
+  {
+   "id": "W2555",
+   "entry": "sich vergnügen, vergnügt sich, vergnügte sich, hat sich vergnügt",
+   "level": "B1",
+   "gloss": "to have fun, enjoy oneself"
+  },
+  {
+   "id": "W2556",
+   "entry": "das Vergnügen, -",
+   "level": "B1",
+   "gloss": "fun, pleasure (Viel Vergnügen!: Have fun!)"
+  },
+  {
+   "id": "W2557",
+   "entry": "vergnügt",
+   "level": "B1",
+   "gloss": "cheerful, in a good mood"
+  },
+  {
+   "id": "W2579",
+   "entry": "der Verlierer, - die Verliererin, -nen",
+   "level": "B1",
+   "gloss": "loser"
+  },
+  {
+   "id": "W2598",
+   "entry": "versäumen, versäumt, versäumte, hat versäumt",
+   "level": "B1",
+   "gloss": "to miss (an event)"
+  },
+  {
+   "id": "W2692",
+   "entry": "die Wanderung, -en",
+   "level": "B1",
+   "gloss": "hike"
+  },
+  {
+   "id": "W2720",
+   "entry": "-weise",
+   "level": "B1",
+   "gloss": "-ly (as in normally, luckily)"
+  },
+  {
+   "id": "W2744",
+   "entry": "wetten, wettet, wettete, hat gewettet",
+   "level": "B1",
+   "gloss": "to bet"
+  },
+  {
+   "id": "W2751",
+   "entry": "wieder/wieder-",
+   "level": "A2",
+   "gloss": "again"
+  },
+  {
+   "id": "W2757",
+   "entry": "wieso",
+   "level": "B1",
+   "gloss": "why"
+  },
+  {
+   "id": "W2823",
+   "entry": "zelten, zeltet, zeltete, hat gezeltet",
+   "level": "B1",
+   "gloss": "to camp (in a tent)"
+  },
+  {
+   "id": "W2876",
+   "entry": "zuschauen, schaut zu, schaute zu, hat zugeschaut",
+   "level": "B1",
+   "gloss": "to watch"
+  },
+  {
+   "id": "W2877",
+   "entry": "der Zuschauer, - die Zuschauerin, -nen",
+   "level": "B1",
+   "gloss": "spectator"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W0288",
+   "entry": "begrenzt",
+   "level": "B1",
+   "gloss": "limited"
+  },
+  {
+   "id": "W0325",
+   "entry": "bereits",
+   "level": "B1",
+   "gloss": "already"
+  },
+  {
+   "id": "W0542",
+   "entry": "drehen, dreht, drehte, hat gedreht",
+   "level": "B1",
+   "gloss": "to shoot (a film), to film"
+  },
+  {
+   "id": "W0346",
+   "entry": "besichtigen, besichtigt, besichtigte, hat besichtigt",
+   "level": "A1",
+   "gloss": "to visit, to tour (sights); to view (an apartment)"
+  },
+  {
+   "id": "W0020",
+   "entry": "abnehmen, nimmt ab, nahm ab, hat abgenommen",
+   "level": "B1",
+   "gloss": "to lose weight"
+  },
+  {
+   "id": "W0476",
+   "entry": "dagegen",
+   "level": "A2",
+   "gloss": "against it (etwas dagegen haben: to mind)"
+  },
+  {
+   "id": "W2913",
+   "entry": "schätzen, schätzt, schätzte, hat geschätzt",
+   "level": "B1",
+   "gloss": "to estimate"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X010",
+   "word": "gelegentlich",
+   "gloss": "occasionally",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X013",
+   "word": "die Grenzerfahrung, -en",
+   "gloss": "an experience at your limits",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X014",
+   "word": "der Nervenkitzel",
+   "gloss": "the thrill",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R013",
+   "word": "die Jause, -n",
+   "gloss": "snack",
+   "kind": "austrian",
+   "de": "der Imbiss, die Zwischenmahlzeit"
+  },
+  {
+   "id": "R027",
+   "word": "die Semmel, -n",
+   "gloss": "bread roll",
+   "kind": "austrian",
+   "de": "das Brötchen"
+  }
+ ],
+ "story_opening": "Es ist Freitagnachmittag in der Werbeagentur. Lena hat ihr großes Projekt endlich abgegeben. Zum ersten Mal seit ihrem Umzug nach Leipzig hat sie ein ganzes Wochenende frei. Ihr Kollege Jonas fragt: „Und? Wie verbringst du die zwei freien Tage?“\n\n„Ich will einfach nur faulenzen“, antwortet Lena. „Lange schlafen, auf dem Sofa liegen, Comics lesen und vielleicht ein Puzzle mit tausend Teilen machen.“\n\nJonas schüttelt den Kopf. „Zwei Tage auf dem Sofa? Da langweilst du dich doch!“\n\n„Langeweile kenne ich nicht“, sagt Lena. Dann wird sie leiser. „Na gut, ehrlich gesagt kenne ich in Leipzig noch nicht viele Leute.“ Abends geht sie deshalb nicht oft aus, nur manchmal allein ins Kino.\n\n„Dann komm mo"
+}

@@ -1,0 +1,419 @@
+{
+ "abschickt": {
+  "d": "abschicken",
+  "g": "to send off",
+  "k": "word"
+ },
+ "ankamen": {
+  "d": "ankommen",
+  "g": "to arrive",
+  "k": "word"
+ },
+ "aufmacht": {
+  "d": "aufmachen",
+  "g": "to open (the door)",
+  "k": "word"
+ },
+ "beziehen": {
+  "d": "sich beziehen auf",
+  "g": "to refer to, to relate to",
+  "k": "word"
+ },
+ "dabeihat": {
+  "d": "dabeihaben",
+  "g": "to have with you",
+  "k": "word"
+ },
+ "durchfällt": {
+  "d": "durchfallen",
+  "g": "to fail (an exam)",
+  "k": "word"
+ },
+ "forscht": {
+  "d": "forschen",
+  "g": "to do research",
+  "k": "word"
+ },
+ "hältst": {
+  "d": "halten von (Was hältst du davon?)",
+  "g": "to think of",
+  "k": "word"
+ },
+ "koche": {
+  "d": "kochen",
+  "g": "to cook",
+  "k": "word"
+ },
+ "mithelfen": {
+  "d": "mithelfen",
+  "g": "to help out, to lend a hand",
+  "k": "word"
+ },
+ "mitkommt": {
+  "d": "mitkommen",
+  "g": "to come along",
+  "k": "word"
+ },
+ "mitsingt": {
+  "d": "mitsingen",
+  "g": "to sing along",
+  "k": "word"
+ },
+ "proben": {
+  "d": "proben",
+  "g": "to rehearse",
+  "k": "word"
+ },
+ "sowie": {
+  "d": "sowie",
+  "g": "as well as, and also",
+  "k": "word"
+ },
+ "streiche": {
+  "d": "streichen",
+  "g": "to paint (a wall or ceiling)",
+  "k": "word"
+ },
+ "untergeht": {
+  "d": "untergehen",
+  "g": "to set (the sun); to sink",
+  "k": "word"
+ },
+ "verdunkelt": {
+  "d": "sich verdunkeln",
+  "g": "to grow dark",
+  "k": "word"
+ },
+ "vorbeikam": {
+  "d": "vorbeikommen",
+  "g": "to come by, to pass by",
+  "k": "word"
+ },
+ "zugeben": {
+  "d": "zugeben",
+  "g": "to admit",
+  "k": "word"
+ },
+ "zuhält": {
+  "d": "zuhalten",
+  "g": "to cover, to hold shut (ears, nose)",
+  "k": "word"
+ },
+ "zurückbekomme": {
+  "d": "zurückbekommen",
+  "g": "to get back",
+  "k": "word"
+ },
+ "zusammenkommen": {
+  "d": "zusammenkommen",
+  "g": "to get together, to meet",
+  "k": "word"
+ },
+ "zusammenkommt": {
+  "d": "zusammenkommen",
+  "g": "to add up (money); to come together",
+  "k": "word"
+ },
+ "Knödeln": {
+  "d": "der Knödel, - (Österreich, Süddeutschland; sonst: der Kloß)",
+  "g": "dumplings",
+  "k": "word",
+  "base": ""
+ },
+ "Fehlalarm": {
+  "d": "der Fehlalarm, -e",
+  "g": "false alarm",
+  "k": "word",
+  "base": ""
+ },
+ "Buchmesse": {
+  "d": "die Buchmesse, -n",
+  "g": "book fair",
+  "k": "word",
+  "base": ""
+ },
+ "Grundgesetz": {
+  "d": "das Grundgesetz",
+  "g": "the Basic Law (Germany's constitution)",
+  "k": "word",
+  "base": ""
+ },
+ "Dasselbe": {
+  "d": "derselbe, dieselbe, dasselbe",
+  "g": "the same",
+  "k": "word",
+  "base": "derselbe"
+ },
+ "Radiergummi": {
+  "d": "der Radiergummi, -s",
+  "g": "eraser",
+  "k": "word",
+  "base": ""
+ },
+ "Spitzer": {
+  "d": "der (Bleistift-)Spitzer, -",
+  "g": "pencil sharpener",
+  "k": "word",
+  "base": ""
+ },
+ "durchsichtigen": {
+  "d": "durchsichtig",
+  "g": "clear, see-through",
+  "k": "word",
+  "base": ""
+ },
+ "wärmeres": {
+  "d": "warm, wärmer",
+  "g": "warmer",
+  "k": "word",
+  "base": "warm"
+ },
+ "Abonnenten": {
+  "d": "der Abonnent, -en / die Abonnentin, -nen",
+  "g": "subscribers",
+  "k": "word",
+  "base": "Abonnement"
+ },
+ "Argumente": {
+  "d": "das Argument, -e",
+  "g": "arguments",
+  "k": "word",
+  "base": ""
+ },
+ "Experimente": {
+  "d": "das Experiment, -e",
+  "g": "experiments",
+  "k": "word",
+  "base": ""
+ },
+ "Auszubildende": {
+  "d": "der/die Auszubildende, -n (kurz: der/die Azubi)",
+  "g": "trainees, apprentices",
+  "k": "word",
+  "base": "Ausbildung"
+ },
+ "Hunderttausende": {
+  "d": "die Hunderttausende (Pl.)",
+  "g": "hundreds of thousands",
+  "k": "word",
+  "base": ""
+ },
+ "Hörverstehen": {
+  "d": "das Hörverstehen",
+  "g": "listening comprehension (exam part)",
+  "k": "word",
+  "base": "hören"
+ },
+ "Leseverstehen": {
+  "d": "das Leseverstehen",
+  "g": "reading comprehension (exam part)",
+  "k": "word",
+  "base": "lesen"
+ },
+ "Schlafengehen": {
+  "d": "das Schlafengehen",
+  "g": "going to bed",
+  "k": "word",
+  "base": "schlafen"
+ },
+ "Versehen": {
+  "d": "aus Versehen",
+  "g": "by mistake, accidentally",
+  "k": "word",
+  "base": ""
+ },
+ "Torwart": {
+  "d": "der Torwart, ¨-e",
+  "g": "goalkeeper",
+  "k": "word",
+  "base": "Tor"
+ },
+ "Tourismusverband": {
+  "d": "der Tourismusverband, ¨-e",
+  "g": "tourist board",
+  "k": "word",
+  "base": "Tourismus"
+ },
+ "Tourismusverbands": {
+  "d": "der Tourismusverband, ¨-e",
+  "g": "tourist board",
+  "k": "word",
+  "base": "Tourismus"
+ },
+ "Veranstalter": {
+  "d": "der Veranstalter, -",
+  "g": "organizer (of an event)",
+  "k": "word",
+  "base": "Veranstaltung"
+ },
+ "Verkauf": {
+  "d": "der Verkauf, ¨-e",
+  "g": "sale, selling",
+  "k": "word",
+  "base": "verkaufen"
+ },
+ "Mecklenburg-Vorpommern": {
+  "d": "Mecklenburg-Vorpommern",
+  "g": "German state on the Baltic Sea",
+  "k": "name"
+ },
+ "Neuanfang": {
+  "d": "der Neuanfang",
+  "g": "new beginning, fresh start",
+  "k": "word",
+  "base": "Anfang"
+ },
+ "Neustart": {
+  "d": "der Neustart, -s",
+  "g": "restart, fresh start",
+  "k": "word",
+  "base": "starten"
+ },
+ "Biologieunterricht": {
+  "d": "der Biologieunterricht",
+  "g": "biology class",
+  "k": "word",
+  "base": "Biologie"
+ },
+ "Großpösna": {
+  "d": "Großpösna",
+  "g": "village near Leipzig",
+  "k": "name"
+ },
+ "Asiatische": {
+  "d": "asiatisch",
+  "g": "Asian",
+  "k": "word",
+  "base": ""
+ },
+ "Begleiter": {
+  "d": "der Begleiter, - / die Begleiterin, -nen",
+  "g": "companion, escort",
+  "k": "word",
+  "base": "begleiten"
+ },
+ "Büroauflösung": {
+  "d": "die Büroauflösung, -en",
+  "g": "office clearance (selling off an office's furniture)",
+  "k": "word",
+  "base": "Büro"
+ },
+ "Einsatz": {
+  "d": "der Einsatz, ¨-e",
+  "g": "effort, commitment; use; (police, rescue) operation",
+  "k": "word",
+  "base": ""
+ },
+ "Garmisch-Partenkirchen": {
+  "d": "Garmisch-Partenkirchen",
+  "g": "town in the Bavarian Alps",
+  "k": "name"
+ },
+ "Kompost": {
+  "d": "der Kompost",
+  "g": "compost",
+  "k": "word",
+  "base": ""
+ },
+ "Kroatisch": {
+  "d": "(das) Kroatisch",
+  "g": "Croatian (language)",
+  "k": "word",
+  "base": ""
+ },
+ "Leipzig-Connewitz": {
+  "d": "Leipzig-Connewitz",
+  "g": "district of Leipzig",
+  "k": "name"
+ },
+ "Leipzig-Plagwitz": {
+  "d": "Leipzig-Plagwitz",
+  "g": "district of Leipzig",
+  "k": "name"
+ },
+ "Leipzig-Schönefeld": {
+  "d": "Leipzig-Schönefeld",
+  "g": "district of Leipzig",
+  "k": "name"
+ },
+ "Mitteldeutschland": {
+  "d": "Mitteldeutschland",
+  "g": "central Germany (Saxony, Saxony-Anhalt, Thuringia)",
+  "k": "name"
+ },
+ "Neu-Delhi": {
+  "d": "Neu-Delhi",
+  "g": "New Delhi",
+  "k": "name"
+ },
+ "Organisator": {
+  "d": "der Organisator, -en / die Organisatorin, -nen",
+  "g": "organizer",
+  "k": "word",
+  "base": "organisieren"
+ },
+ "Paketzusteller": {
+  "d": "der Paketzusteller, -",
+  "g": "parcel delivery person",
+  "k": "word",
+  "base": "Paket"
+ },
+ "Zusteller": {
+  "d": "der Zusteller, - / die Zustellerin, -nen",
+  "g": "delivery person",
+  "k": "word",
+  "base": ""
+ },
+ "Sprachbausteine": {
+  "d": "die Sprachbausteine (Pl.)",
+  "g": "the telc exam part with grammar and vocabulary gaps",
+  "k": "word",
+  "base": ""
+ },
+ "Sprachbausteinen": {
+  "d": "die Sprachbausteine (Pl.)",
+  "g": "the telc exam part with grammar and vocabulary gaps",
+  "k": "word",
+  "base": ""
+ },
+ "Versand": {
+  "d": "der Versand",
+  "g": "shipping, delivery",
+  "k": "word",
+  "base": "versenden"
+ },
+ "Waldbrand": {
+  "d": "der Waldbrand, ¨-e",
+  "g": "forest fire",
+  "k": "word",
+  "base": "Wald"
+ },
+ "Zugbegleiterin": {
+  "d": "der Zugbegleiter, - / die Zugbegleiterin, -nen",
+  "g": "train attendant",
+  "k": "word",
+  "base": "begleiten"
+ },
+ "Graz-Geidorf": {
+  "d": "Graz-Geidorf",
+  "g": "district of Graz (Austria)",
+  "k": "name"
+ },
+ "Bezirkshauptmannschaft": {
+  "d": "die Bezirkshauptmannschaft, -en",
+  "g": "district authority (Austria)",
+  "k": "word",
+  "base": ""
+ },
+ "Steuer": {
+  "d": "das Steuer, - (am Steuer)",
+  "g": "steering wheel (at the wheel)",
+  "k": "word",
+  "base": ""
+ },
+ "gruener-osten-leipzig": {
+  "d": "www.gruener-osten-leipzig.de",
+  "g": "website address",
+  "k": "name"
+ }
+}

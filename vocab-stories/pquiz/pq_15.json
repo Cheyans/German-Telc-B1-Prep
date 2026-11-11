@@ -1,0 +1,147 @@
+{
+ "set": "15",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was zeigt die Umfrage des Magazins?",
+     "right": "Knapp die Hälfte der Befragten hat sich schon über Nachbarn geärgert.",
+     "wrong": [
+      "Mehr als die Hälfte der Befragten hat sich schon über Nachbarn geärgert.",
+      "Etwa jeder Vierte hat sich schon einmal über Nachbarn geärgert."
+     ],
+     "evidence": "Das Ergebnis: 48 Prozent haben sich schon einmal über ihre Nachbarn aufgeregt.",
+     "why": "48 percent is just under half (knapp die Hälfte). The 27 percent in the text is about dirt in the stairwell, not about how many people got upset.",
+     "trap": "paraphrase",
+     "words": [
+      "W0173",
+      "W0696"
+     ]
+    },
+    {
+     "q": "Wie reagiert Lena auf den Lärm von der Baustelle?",
+     "right": "Er ist für sie inzwischen kein großes Problem mehr.",
+     "wrong": [
+      "Sie hat mit anderen Bewohnern eine Bürgerinitiative gegründet.",
+      "Sie kann wegen der Maschinen morgens nicht mehr gut schlafen."
+     ],
+     "evidence": "Lena dagegen ärgert sich darüber kaum: „An den Lärm am Morgen habe ich mich inzwischen gewöhnt.“",
+     "why": "Lena has gotten used to (gewöhnt) the morning noise, so it hardly bothers her. Some other residents started the citizens' group, not Lena.",
+     "trap": "who",
+     "words": [
+      "W1012",
+      "X018",
+      "W1433"
+     ]
+    },
+    {
+     "q": "Was ist über Ben richtig?",
+     "right": "Am Wochenende besuchen ihn Verwandte und Freunde.",
+     "wrong": [
+      "Er vermietet seine Wohnung am Wochenende an Touristen.",
+      "Er ist der eigentliche Mieter seiner Wohnung."
+     ],
+     "evidence": "Sie fand es seltsam, dass bei ihm jedes Wochenende fremde Leute mit Koffern ankamen. In Wahrheit wohnt Ben als Untermieter im Haus, und die Gäste sind seine Geschwister und Freunde aus Dresden.",
+     "why": "Frau Krüger believed that Ben rented to tourists, but she was wrong. His guests are his siblings and friends, and he is a subtenant (Untermieter), not the main tenant.",
+     "trap": "flip",
+     "words": [
+      "W2493",
+      "W2109",
+      "W2584"
+     ]
+    },
+    {
+     "q": "Wie verhielt sich Lena in der Nacht der Party?",
+     "right": "Sie musste sich anstrengen, um freundlich zu bleiben.",
+     "wrong": [
+      "Sie blieb freundlich, aber Ben machte die Musik nicht leiser.",
+      "Sie ging allein zu Ben und bat ihn um mehr Ruhe."
+     ],
+     "evidence": "Kurz nach eins ging sie mit ihrer Nachbarin Aylin ein Stockwerk tiefer zu Ben. Die Musik war so laut, dass Lena fast schreien musste, aber sie zwang sich, freundlich zu bleiben. Ben hatte die Zeit völlig vergessen und machte die Musik sofort leiser.",
+     "why": "Sich zwingen means she had to push herself to stay friendly. Aylin went with her, and Ben turned the music down right away.",
+     "trap": "same-word",
+     "words": [
+      "W2893"
+     ]
+    },
+    {
+     "q": "Was erfährt man über den Schaden an Bens Decke?",
+     "right": "Die Decke wird erst in ein paar Wochen neu gestrichen.",
+     "wrong": [
+      "Die Decke wird schon in ein paar Tagen neu gestrichen.",
+      "Ein Handwerker soll sich den Fleck erst nächste Woche ansehen."
+     ],
+     "evidence": "Ein Handwerker stellte eine Leiter aus Metall auf und sah sich den Schaden genau an. Die Decke muss jetzt einige Wochen trocknen, bevor sie neu gestrichen werden kann.",
+     "why": "The ceiling must dry for a few weeks before it can be painted (bevor sie neu gestrichen werden kann). A repairman has already looked at the damage.",
+     "trap": "when",
+     "words": [
+      "W2414",
+      "W0373",
+      "W1998"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "rf",
+   "items": [
+    {
+     "s": "Aylin ist nach der Party in einen ruhigeren Vorort gezogen.",
+     "answer": false,
+     "evidence": "Danach wollte ich sogar in einen ruhigen Vorort ziehen. Ich bleibe also hier: So nette Nachbarn finde ich nirgends.",
+     "why": "Moving to a quiet suburb was only an idea she had after the party. She says she is staying because the neighbors are so nice.",
+     "trap": "when",
+     "words": [
+      "W2664"
+     ]
+    },
+    {
+     "s": "Frau Aigner liest den Kindern im Haus jeden Tag Märchen vor.",
+     "answer": false,
+     "evidence": "Dafür lese ich den Kindern hin und wieder Märchen vor, und sie zeichnen mir bunte Bilder.",
+     "why": "Hin und wieder means now and then, not every day.",
+     "trap": "overstate",
+     "words": [
+      "X012",
+      "W2662"
+     ]
+    },
+    {
+     "s": "Mit der neuen Regel klappt es in Lottas WG recht gut.",
+     "answer": true,
+     "evidence": "Seit diesem Semester gilt deshalb eine einfache Regel: Wer kocht, muss nicht spülen. Das funktioniert ziemlich gut.",
+     "why": "Ziemlich gut and recht gut both mean quite well. The new rule is that whoever cooks does not have to wash the dishes (spülen).",
+     "trap": "paraphrase",
+     "words": [
+      "W2834",
+      "W2205"
+     ]
+    },
+    {
+     "s": "Lotta hält sich selbst für einen sehr ordentlichen Menschen.",
+     "answer": false,
+     "evidence": "Ich bin selbst nicht besonders ordentlich, aber ein sauberes Bad ist mir wichtig.",
+     "why": "She says she is not especially tidy. But a clean bathroom is important to her.",
+     "trap": "flip",
+     "words": [
+      "W1737"
+     ]
+    },
+    {
+     "s": "Nach dem Gespräch verbrennt der Nachbar von Herrn Kowalski nur noch Holz.",
+     "answer": true,
+     "evidence": "Unser Nachbar heizt mit einem alten Ofen, und darin verbrennt er nicht nur Holz, sondern auch Müll. Dann habe ich ihm einen Kasten Bier gebracht und in Ruhe mit ihm geredet. Seitdem verbrennt er nur noch trockenes Holz, und im Sommer grillen wir sogar zusammen.",
+     "why": "Before the talk he burned trash in his stove as well. Since the talk he burns only dry wood, so the word nur is true here.",
+     "trap": "paraphrase",
+     "words": [
+      "W1715",
+      "W1162"
+     ]
+    }
+   ]
+  }
+ ]
+}

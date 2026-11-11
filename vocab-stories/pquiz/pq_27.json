@@ -1,0 +1,149 @@
+{
+ "set": "27",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was berichtet der Artikel über das Jahr 2025?",
+     "right": "Die Zahl der Einbürgerungen ist um fast die Hälfte gestiegen.",
+     "wrong": [
+      "Doppelt so viele Menschen wie im Vorjahr wurden eingebürgert.",
+      "Die Zahl der Anträge ist um 45 Prozent gestiegen."
+     ],
+     "evidence": "Wie die Stadtverwaltung mitteilte, wurden 2025 rund 3.400 Menschen eingebürgert, ein Anstieg von 45 Prozent im Vergleich zum Vorjahr. Bei über 600.000 Einwohnern klingt das zwar nicht nach viel, der Trend ist aber deutlich: Die Zahl der Anträge hat sich sogar verdoppelt.",
+     "why": "The rise (Anstieg) of 45 percent is in naturalizations, so almost half more people became German than the year before. What doubled (verdoppelt) is the number of applications, not the naturalizations.",
+     "trap": "same-word",
+     "words": [
+      "X025",
+      "G241"
+     ]
+    },
+    {
+     "q": "Warum möchte der Mann aus Griechenland laut Artikel Deutscher werden?",
+     "right": "Seine Kinder sind schon Deutsche, und er möchte es auch sein.",
+     "wrong": [
+      "Er zahlt hier Steuern und möchte deshalb mitentscheiden.",
+      "Nach vielen Jahren fühlt er sich in Leipzig zu Hause."
+     ],
+     "evidence": "„Ich zahle hier seit drei Jahren Steuern und würde gern mitentscheiden“, sagt Mateo García aus Sevilla. Nikos, ein Grieche aus Thessaloniki, hat einen anderen Grund: „Meine Kinder haben schon den deutschen Pass, ich noch nicht.“",
+     "why": "Nikos, the Greek man (Grieche), wants the passport his children already have. Paying taxes and wanting a say is Mateo's reason, and einen anderen Grund shows that Nikos has a different one.",
+     "trap": "who",
+     "words": [
+      "G180"
+     ]
+    },
+    {
+     "q": "Was sagt Frau Neumann über den Einbürgerungstest?",
+     "right": "Die Fragen zu Sachsen beantworten viele falsch.",
+     "wrong": [
+      "Bei den Fragen zur Geschichte machen viele Fehler.",
+      "Die Fragen zum Grundgesetz sind für viele am schwersten."
+     ],
+     "evidence": "Weil sich drei Fragen auf das eigene Bundesland beziehen, ist der Test nicht überall einheitlich. In Sachsen kann beispielsweise nach der Hauptstadt gefragt werden. „Genau bei diesen drei Fragen machen viele Fehler, bei der Geschichte dagegen kaum“, sagt Frau Neumann, die an der Volkshochschule einen Kurs leitet.",
+     "why": "The three questions on your own federal state (Bundesland) are the ones on Saxony, and that is where many make mistakes. Dagegen kaum means there are hardly any mistakes on history.",
+     "trap": "flip",
+     "words": [
+      "G206",
+      "W0607"
+     ]
+    },
+    {
+     "q": "Wann lernen die meisten Kursteilnehmer laut Artikel?",
+     "right": "Am Abend, weil sie während des Tages arbeiten.",
+     "wrong": [
+      "Tagsüber, weil sie abends Zeit für die Familie brauchen.",
+      "Am Wochenende, weil unter der Woche kaum Zeit übrig bleibt."
+     ],
+     "evidence": "Fast alle müssen Arbeit, Familie und Kurs unter einen Hut bringen: Tagsüber arbeiten sie, abends lernen sie, sodass kaum Freizeit übrig bleibt.",
+     "why": "Tagsüber means during the day, and that is when they work. They study in the evening (abends), which is why hardly any free time is left (übrig).",
+     "trap": "when",
+     "words": [
+      "G321",
+      "W2455"
+     ]
+    },
+    {
+     "q": "Was meint Olena zur Integration?",
+     "right": "Integration funktioniert nur, wenn auch die Menschen hier offen sind.",
+     "wrong": [
+      "Für die Integration müssen sich nur die Migranten selbst anstrengen.",
+      "Migration ist für die Gesellschaft eine Chance."
+     ],
+     "evidence": "Auch zur Integration hat Olena eine klare Meinung: Man kann sich nur integrieren, wenn die Gesellschaft die Tür aufmacht.",
+     "why": "Olena says you can only integrate if society (Gesellschaft) opens the door, so the people here must be open too. So it is not only up to the migrants, and Migration ist eine Chance is Frau Neumann's view.",
+     "trap": "same-word",
+     "words": [
+      "W1204",
+      "W0996",
+      "W1572"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "rf",
+   "items": [
+    {
+     "s": "Herr Wimmer ist im Sommer 1989 selbst aus der DDR geflohen.",
+     "answer": false,
+     "evidence": "Das bedeutet mir viel, denn im Sommer 1989 war ich ein junger Polizist an der österreichischen Grenze zu Ungarn. Damals waren Tausende Menschen aus der DDR auf der Flucht, und viele hatten nur eine Tasche dabei.",
+     "why": "He was a young Austrian police officer at the border. The people on the run (auf der Flucht) came from the GDR, he did not.",
+     "trap": "who",
+     "words": [
+      "W1813",
+      "W0836",
+      "G175"
+     ]
+    },
+    {
+     "s": "Herr Wimmer hält auch eine einzelne Stimme für wichtig.",
+     "answer": true,
+     "evidence": "Andere Pensionisten sagen mir oft, dass eine einzige Stimme nichts ändert, aber das sehe ich anders.",
+     "why": "Other retirees (Pensionisten) say one vote changes nothing, but he disagrees with them (das sehe ich anders). So he thinks a single vote matters.",
+     "trap": "flip",
+     "words": [
+      "R023"
+     ]
+    },
+    {
+     "s": "Frau Steiner ärgert sich, dass sie in Leipzig nicht wählen durfte.",
+     "answer": false,
+     "evidence": "Als Schweizerin durfte ich nicht mitwählen, weil die Schweiz nicht zur EU gehört. Trotzdem finde ich das gerecht, denn wer in Deutschland mitentscheiden will, kann sich ja einbürgern lassen.",
+     "why": "She could not vote, but trotzdem shows she accepts it: she finds it fair (gerecht). Anyone who wants a say can become a German citizen.",
+     "trap": "flip",
+     "words": [
+      "W0980",
+      "G177"
+     ]
+    },
+    {
+     "s": "Herr Hentschel hat den liberalen Kandidaten gewählt, weil die Industrie vom Export lebt.",
+     "answer": false,
+     "evidence": "Ich habe die konservative Kandidatin gewählt, weil sie vor allem etwas gegen die Arbeitslosigkeit tun will.",
+     "why": "He voted for the conservative candidate (konservative Kandidatin), who wants to fight unemployment. The liberal candidate is Herr Kraus, whose speech Frau Steiner liked.",
+     "trap": "who",
+     "words": [
+      "G197",
+      "G198",
+      "W1254"
+     ]
+    },
+    {
+     "s": "Lara Kühne hat sich vor der Wahl über die Werbung der Parteien geärgert.",
+     "answer": true,
+     "evidence": "Vorher habe ich mich oft über die Werbung der Parteien aufgeregt: überall Plakate und im Internet nur kurze Videos ohne echte Informationen.",
+     "why": "Sich aufregen über means to get worked up about something, so geärgert says the same thing. Werbung here means the parties' posters and videos.",
+     "trap": "paraphrase",
+     "words": [
+      "W0173",
+      "W2732",
+      "G202"
+     ]
+    }
+   ]
+  }
+ ]
+}

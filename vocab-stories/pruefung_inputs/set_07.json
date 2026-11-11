@@ -1,0 +1,518 @@
+{
+ "set": "07",
+ "title": "Mit Bahn und Bus",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G016",
+   "entry": "der Pkw, -s",
+   "level": "B1",
+   "gloss": "car, passenger car"
+  },
+  {
+   "id": "G091",
+   "entry": "das Terminal, -s",
+   "level": "B1",
+   "gloss": "(airport) terminal"
+  },
+  {
+   "id": "W0002",
+   "entry": "abbiegen, biegt ab, bog ab, ist abgebogen",
+   "level": "B1",
+   "gloss": "to turn (left/right)"
+  },
+  {
+   "id": "W0107",
+   "entry": "anschnallen, schnallt an, schnallte an, hat angeschnallt",
+   "level": "B1",
+   "gloss": "to fasten one's seat belt"
+  },
+  {
+   "id": "W0191",
+   "entry": "ausfallen, fällt aus, fiel aus, ist ausgefallen",
+   "level": "B1",
+   "gloss": "to be canceled"
+  },
+  {
+   "id": "W0241",
+   "entry": "die U-Bahn, -en",
+   "level": "B1",
+   "gloss": "subway"
+  },
+  {
+   "id": "W0299",
+   "entry": "beid-",
+   "level": "B1",
+   "gloss": "both, the two"
+  },
+  {
+   "id": "W0301",
+   "entry": "beinahe",
+   "level": "B1",
+   "gloss": "almost, nearly"
+  },
+  {
+   "id": "W0318",
+   "entry": "beobachten, beobachtet, beobachtete, hat beobachtet",
+   "level": "B1",
+   "gloss": "to watch, to observe"
+  },
+  {
+   "id": "W0426",
+   "entry": "bremsen, bremst, bremste, hat gebremst",
+   "level": "B1",
+   "gloss": "to brake"
+  },
+  {
+   "id": "W0427",
+   "entry": "die Bremse, -n",
+   "level": "B1",
+   "gloss": "brake"
+  },
+  {
+   "id": "W0513",
+   "entry": "dicht",
+   "level": "B1",
+   "gloss": "heavy, dense (traffic)"
+  },
+  {
+   "id": "W0640",
+   "entry": "die Eisenbahn, -en",
+   "level": "B1",
+   "gloss": "railroad, trains"
+  },
+  {
+   "id": "W0647",
+   "entry": "der Empfang, ¨-e",
+   "level": "B1",
+   "gloss": "(cell phone) reception, signal"
+  },
+  {
+   "id": "W0660",
+   "entry": "die Entfernung, -en",
+   "level": "B1",
+   "gloss": "distance"
+  },
+  {
+   "id": "W0688",
+   "entry": "erfinden, erfindet, erfand, hat erfunden",
+   "level": "B1",
+   "gloss": "to make up, to invent"
+  },
+  {
+   "id": "W0760",
+   "entry": "die Fahrbahn, -en",
+   "level": "B1",
+   "gloss": "roadway, road"
+  },
+  {
+   "id": "W0765",
+   "entry": "das Fahrzeug, -e",
+   "level": "B1",
+   "gloss": "vehicle"
+  },
+  {
+   "id": "W0908",
+   "entry": "der Fußgänger, - die Fußgängerin, -nen",
+   "level": "B1",
+   "gloss": "pedestrian"
+  },
+  {
+   "id": "W0958",
+   "entry": "der Gehsteig (D, A) CH:→ Trottoir",
+   "level": "B1",
+   "gloss": "sidewalk"
+  },
+  {
+   "id": "W0970",
+   "entry": "genauso",
+   "level": "B1",
+   "gloss": "just as, exactly as"
+  },
+  {
+   "id": "W0993",
+   "entry": "die Geschwindigkeit, -en",
+   "level": "B1",
+   "gloss": "speed"
+  },
+  {
+   "id": "W1023",
+   "entry": "glatt",
+   "level": "B1",
+   "gloss": "slippery"
+  },
+  {
+   "id": "W1078",
+   "entry": "der Halt",
+   "level": "B1",
+   "gloss": "stop (of a train or bus)"
+  },
+  {
+   "id": "W1093",
+   "entry": "der Hauptbahnhof, ¨-e",
+   "level": "B1",
+   "gloss": "main train station"
+  },
+  {
+   "id": "W1130",
+   "entry": "herunter, lud herunter, hat heruntergeladen",
+   "level": "B1",
+   "gloss": "to download"
+  },
+  {
+   "id": "W1136",
+   "entry": "heutig-",
+   "level": "B1",
+   "gloss": "today's"
+  },
+  {
+   "id": "W1153",
+   "entry": "höchstens",
+   "level": "B1",
+   "gloss": "at most"
+  },
+  {
+   "id": "W1174",
+   "entry": "hupen, hupt, hupte, hat gehupt",
+   "level": "B1",
+   "gloss": "to honk (the horn)"
+  },
+  {
+   "id": "W1346",
+   "entry": "die Kontrolle, -n",
+   "level": "B1",
+   "gloss": "(ticket) inspection, check"
+  },
+  {
+   "id": "W1355",
+   "entry": "korrekt",
+   "level": "B1",
+   "gloss": "correct, in order"
+  },
+  {
+   "id": "W1407",
+   "entry": "die Kurve, -n",
+   "level": "B1",
+   "gloss": "curve, bend"
+  },
+  {
+   "id": "W1423",
+   "entry": "landen, landet, landete, ist gelandet",
+   "level": "B1",
+   "gloss": "to land"
+  },
+  {
+   "id": "W1424",
+   "entry": "die Landung, -en",
+   "level": "B1",
+   "gloss": "landing"
+  },
+  {
+   "id": "W1435",
+   "entry": "der Laster, -",
+   "level": "B1",
+   "gloss": "truck"
+  },
+  {
+   "id": "W1484",
+   "entry": "die Linie, -n",
+   "level": "B1",
+   "gloss": "(bus or subway) line"
+  },
+  {
+   "id": "W1498",
+   "entry": "losfahren, fährt los, fuhr los, ist losgefahren",
+   "level": "B1",
+   "gloss": "to set off, to leave"
+  },
+  {
+   "id": "W1566",
+   "entry": "die Metropole, -n",
+   "level": "B1",
+   "gloss": "big city, metropolis"
+  },
+  {
+   "id": "W1596",
+   "entry": "die Mobilität, -en",
+   "level": "B1",
+   "gloss": "mobility, getting around"
+  },
+  {
+   "id": "W1610",
+   "entry": "das Motorrad, ¨-er",
+   "level": "B1",
+   "gloss": "motorcycle"
+  },
+  {
+   "id": "W1766",
+   "entry": "der Passagier, -e die Passagierin, -nen",
+   "level": "B1",
+   "gloss": "passenger"
+  },
+  {
+   "id": "W1869",
+   "entry": "das Rad, ¨-er (D, A) → Fahrrad; CH: Velo",
+   "level": "A2",
+   "gloss": "bike, bicycle"
+  },
+  {
+   "id": "W1870",
+   "entry": "der Radfahrer, - die Radfahrerin, -nen",
+   "level": "B1",
+   "gloss": "cyclist"
+  },
+  {
+   "id": "W1909",
+   "entry": "regeln, regelt, regelte, hat geregelt",
+   "level": "B1",
+   "gloss": "to direct, to regulate (traffic)"
+  },
+  {
+   "id": "W1950",
+   "entry": "die Richtung, -en",
+   "level": "B1",
+   "gloss": "direction"
+  },
+  {
+   "id": "W1965",
+   "entry": "rückwärts",
+   "level": "B1",
+   "gloss": "backward, in reverse"
+  },
+  {
+   "id": "W2032",
+   "entry": "schließlich",
+   "level": "B1",
+   "gloss": "finally, in the end"
+  },
+  {
+   "id": "W2103",
+   "entry": "selb-",
+   "level": "B1",
+   "gloss": "same (im selben Moment: at the same moment)"
+  },
+  {
+   "id": "W2141",
+   "entry": "der Sitz, -e",
+   "level": "B1",
+   "gloss": "seat"
+  },
+  {
+   "id": "W2182",
+   "entry": "der Speisewagen, -",
+   "level": "B1",
+   "gloss": "dining car"
+  },
+  {
+   "id": "W2206",
+   "entry": "die Spur, -en",
+   "level": "B1",
+   "gloss": "lane"
+  },
+  {
+   "id": "W2219",
+   "entry": "die Station, -en",
+   "level": "B1",
+   "gloss": "station, stop"
+  },
+  {
+   "id": "W2224",
+   "entry": "der Stau, -s",
+   "level": "B1",
+   "gloss": "traffic jam"
+  },
+  {
+   "id": "W2242",
+   "entry": "der Steward, -s",
+   "level": "B1",
+   "gloss": "flight attendant (male)"
+  },
+  {
+   "id": "W2243",
+   "entry": "die Stewardess, -en",
+   "level": "B1",
+   "gloss": "flight attendant (female)"
+  },
+  {
+   "id": "W2259",
+   "entry": "stoppen, stoppt, stoppte, hat gestoppt",
+   "level": "B1",
+   "gloss": "to stop"
+  },
+  {
+   "id": "W2269",
+   "entry": "die Strecke, -n",
+   "level": "B1",
+   "gloss": "route, stretch (of road or track)"
+  },
+  {
+   "id": "W2395",
+   "entry": "transportieren, transportiert, transportierte, hat transportiert",
+   "level": "B1",
+   "gloss": "to transport, to carry"
+  },
+  {
+   "id": "W2426",
+   "entry": "die U-Bahn, -en",
+   "level": "B1",
+   "gloss": "subway"
+  },
+  {
+   "id": "W2431",
+   "entry": "überfahren, überfährt, überfuhr, hat überfahren",
+   "level": "B1",
+   "gloss": "to run (a red light), to run over"
+  },
+  {
+   "id": "W2440",
+   "entry": "überqueren, überquert, überquerte, hat überquert",
+   "level": "B1",
+   "gloss": "to cross"
+  },
+  {
+   "id": "W2454",
+   "entry": "üblich",
+   "level": "B1",
+   "gloss": "usual"
+  },
+  {
+   "id": "W2467",
+   "entry": "die Umleitung, -en",
+   "level": "B1",
+   "gloss": "detour"
+  },
+  {
+   "id": "W2515",
+   "entry": "unterwegs",
+   "level": "B1",
+   "gloss": "on the way, on the go"
+  },
+  {
+   "id": "W2540",
+   "entry": "die Verbindung, -en",
+   "level": "B1",
+   "gloss": "(train) connection"
+  },
+  {
+   "id": "W2554",
+   "entry": "der Vergleich, -e",
+   "level": "B1",
+   "gloss": "comparison"
+  },
+  {
+   "id": "W2567",
+   "entry": "der Verkehr",
+   "level": "A2",
+   "gloss": "traffic"
+  },
+  {
+   "id": "W2568",
+   "entry": "das Verkehrsmittel, -",
+   "level": "B1",
+   "gloss": "means of transportation"
+  },
+  {
+   "id": "W2573",
+   "entry": "sich verlaufen, verläuft sich, verlief sich, hat sich verlaufen",
+   "level": "B1",
+   "gloss": "to get lost (on foot)"
+  },
+  {
+   "id": "W2632",
+   "entry": "viel/viele",
+   "level": "A1",
+   "gloss": "much, many, a lot"
+  },
+  {
+   "id": "W2650",
+   "entry": "voraussichtlich",
+   "level": "B1",
+   "gloss": "expected, probably"
+  },
+  {
+   "id": "W2655",
+   "entry": "die Vorfahrt",
+   "level": "B1",
+   "gloss": "right of way"
+  },
+  {
+   "id": "W2722",
+   "entry": "weiter/weiter-",
+   "level": "A1",
+   "gloss": "on, further (weiterfahren: to keep going)"
+  },
+  {
+   "id": "W2842",
+   "entry": "die Zone, -n",
+   "level": "B1",
+   "gloss": "(fare) zone"
+  },
+  {
+   "id": "W2919",
+   "entry": "einsetzen, setzt ein, setzte ein, hat eingesetzt",
+   "level": "B1",
+   "gloss": "to put into service (buses, trains)"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W2662",
+   "entry": "vorlesen, liest vor, las vor, hat vorgelesen",
+   "level": "B1",
+   "gloss": "to read aloud"
+  },
+  {
+   "id": "W1019",
+   "entry": "giftig",
+   "level": "B1",
+   "gloss": "poisonous"
+  },
+  {
+   "id": "W2434",
+   "entry": "überlegen, überlegt, überlegte, hat überlegt",
+   "level": "B1",
+   "gloss": "to think about, consider"
+  },
+  {
+   "id": "W2786",
+   "entry": "wollen, will, wollte, hat gewollt (hat wollen als",
+   "level": "A1",
+   "gloss": "to want (to); to intend to, plan to"
+  },
+  {
+   "id": "W0196",
+   "entry": "ausgeben, gibt aus, gab aus, hat ausgegeben",
+   "level": "A2",
+   "gloss": "to spend (money); to hand out, to give out"
+  },
+  {
+   "id": "W1796",
+   "entry": "die Pflicht, -en",
+   "level": "B1",
+   "gloss": "duty, obligation"
+  },
+  {
+   "id": "W0454",
+   "entry": "der Bürger, - die Bürgerin, -nen",
+   "level": "B1",
+   "gloss": "citizen"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X020",
+   "word": "der TÜV",
+   "gloss": "the vehicle safety inspection",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R005",
+   "word": "das Eck, -en",
+   "gloss": "corner",
+   "kind": "austrian",
+   "de": "die Ecke"
+  }
+ ],
+ "story_opening": "Mateo García arbeitet als Koch in der Kantine der Fahrradfabrik Sander am Stadtrand von Leipzig. Wie üblich fährt er morgens mit dem Rad zur Arbeit. Mit dem Fahrrad braucht er höchstens zwanzig Minuten, mit dem Bus oft eine halbe Stunde. Für Mateo ist das Fahrrad deshalb das beste Verkehrsmittel in der Stadt: Es ist billig, gesund und fast immer schnell.\n\nAm Donnerstag regnet es, und überall auf den Straßen liegen nasse Blätter. Deshalb ist es heute sehr glatt, und Mateo fährt vorsichtig. An einer roten Ampel will er bremsen, aber das Fahrrad wird kaum langsamer. Erst kurz vor den Autos kommt er zum Stehen. Das war beinahe ein Unfall! Mateo steigt ab und sieht nach: Die hintere Bremse funkti"
+}

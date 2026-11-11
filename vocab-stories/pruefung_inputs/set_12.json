@@ -1,0 +1,581 @@
+{
+ "set": "12",
+ "title": "Das Familienfest",
+ "part_b": "voices",
+ "targets": [
+  {
+   "id": "G369",
+   "entry": "das Jahrzehnt, -e",
+   "level": "B1",
+   "gloss": "decade"
+  },
+  {
+   "id": "W0038",
+   "entry": "ähnlich",
+   "level": "B1",
+   "gloss": "similar, alike"
+  },
+  {
+   "id": "W0060",
+   "entry": "das Altenheim, -e → Altersheim",
+   "level": "B1",
+   "gloss": "retirement home, old people's home"
+  },
+  {
+   "id": "W0061",
+   "entry": "das Altersheim, -e → Altenheim",
+   "level": "B1",
+   "gloss": "retirement home, old people's home"
+  },
+  {
+   "id": "W0083",
+   "entry": "der Angehörige, -n",
+   "level": "B1",
+   "gloss": "relative, family member (male)"
+  },
+  {
+   "id": "W0084",
+   "entry": "die Angehörige, -n",
+   "level": "B1",
+   "gloss": "relative, family member (female)"
+  },
+  {
+   "id": "W0283",
+   "entry": "begegnen, begegnet, begegnete, ist begegnet",
+   "level": "B1",
+   "gloss": "to meet, run into"
+  },
+  {
+   "id": "W0287",
+   "entry": "begleiten, begleitet, begleitete, hat begleitet",
+   "level": "B1",
+   "gloss": "to accompany, walk with"
+  },
+  {
+   "id": "W0364",
+   "entry": "betreuen, betreut, betreute, hat betreut",
+   "level": "B1",
+   "gloss": "to take care of, look after"
+  },
+  {
+   "id": "W0365",
+   "entry": "der Betreuer, - die Betreuerin, -nen",
+   "level": "B1",
+   "gloss": "caregiver"
+  },
+  {
+   "id": "W0366",
+   "entry": "die Betreuung",
+   "level": "B1",
+   "gloss": "care, looking after someone"
+  },
+  {
+   "id": "W0382",
+   "entry": "die Beziehung, -en",
+   "level": "B1",
+   "gloss": "relationship"
+  },
+  {
+   "id": "W0469",
+   "entry": "der Cousin, -s",
+   "level": "B1",
+   "gloss": "cousin (male)"
+  },
+  {
+   "id": "W0470",
+   "entry": "die Cousine, -n",
+   "level": "B1",
+   "gloss": "cousin (female)"
+  },
+  {
+   "id": "W0577",
+   "entry": "die Ehe, -n",
+   "level": "B1",
+   "gloss": "marriage"
+  },
+  {
+   "id": "W0579",
+   "entry": "das Ehepaar, -e",
+   "level": "B1",
+   "gloss": "married couple"
+  },
+  {
+   "id": "W0645",
+   "entry": "die Eltern (Pl.)",
+   "level": "A1",
+   "gloss": "parents"
+  },
+  {
+   "id": "W0657",
+   "entry": "der Enkel, - die Enkelin, -nen",
+   "level": "B1",
+   "gloss": "grandchild (Enkelin: granddaughter)"
+  },
+  {
+   "id": "W0703",
+   "entry": "die Erinnerung, -en",
+   "level": "B1",
+   "gloss": "memory"
+  },
+  {
+   "id": "W0713",
+   "entry": "erleben, erlebt, erlebte, hat erlebt",
+   "level": "B1",
+   "gloss": "to experience"
+  },
+  {
+   "id": "W0733",
+   "entry": "erwachsen",
+   "level": "B1",
+   "gloss": "grown-up, adult"
+  },
+  {
+   "id": "W0738",
+   "entry": "erziehen, erzieht, erzog, hat erzogen",
+   "level": "B1",
+   "gloss": "to raise, bring up (children)"
+  },
+  {
+   "id": "W0739",
+   "entry": "die Erziehung",
+   "level": "B1",
+   "gloss": "upbringing, raising children"
+  },
+  {
+   "id": "W0881",
+   "entry": "die Freundschaft, -en",
+   "level": "B1",
+   "gloss": "friendship"
+  },
+  {
+   "id": "W0929",
+   "entry": "geboren werden, wird geboren, wurde geboren, ist geboren worden",
+   "level": "B1",
+   "gloss": "to be born"
+  },
+  {
+   "id": "W0933",
+   "entry": "die Geburt, -en",
+   "level": "B1",
+   "gloss": "birth"
+  },
+  {
+   "id": "W0954",
+   "entry": "das Geheimnis, -se",
+   "level": "B1",
+   "gloss": "secret"
+  },
+  {
+   "id": "W0962",
+   "entry": "die Gelegenheit, -en",
+   "level": "B1",
+   "gloss": "opportunity, chance"
+  },
+  {
+   "id": "W0965",
+   "entry": "gemeinsam",
+   "level": "B1",
+   "gloss": "together"
+  },
+  {
+   "id": "W0972",
+   "entry": "die Generation, -en",
+   "level": "B1",
+   "gloss": "generation"
+  },
+  {
+   "id": "W0983",
+   "entry": "gern/gerne",
+   "level": "A1",
+   "gloss": "gladly, to like to (do)"
+  },
+  {
+   "id": "W0989",
+   "entry": "geschieden",
+   "level": "B1",
+   "gloss": "divorced"
+  },
+  {
+   "id": "W0995",
+   "entry": "die Geschwister (Pl.)",
+   "level": "A1",
+   "gloss": "siblings"
+  },
+  {
+   "id": "W1048",
+   "entry": "Groß-",
+   "level": "A1",
+   "gloss": "grand- (Großeltern: grandparents)"
+  },
+  {
+   "id": "W1061",
+   "entry": "die Gymnastik",
+   "level": "B1",
+   "gloss": "exercises, light workout"
+  },
+  {
+   "id": "W1091",
+   "entry": "häufig",
+   "level": "B1",
+   "gloss": "often, frequently"
+  },
+  {
+   "id": "W1096",
+   "entry": "die Hausfrau/der Hausmann",
+   "level": "A1",
+   "gloss": "housewife / househusband"
+  },
+  {
+   "id": "W1103",
+   "entry": "das Heim, -e",
+   "level": "B1",
+   "gloss": "home (care home)"
+  },
+  {
+   "id": "W1125",
+   "entry": "die Herkunft",
+   "level": "B1",
+   "gloss": "origin, background"
+  },
+  {
+   "id": "W1219",
+   "entry": "irgendwann",
+   "level": "B1",
+   "gloss": "at some point, one day"
+  },
+  {
+   "id": "W1229",
+   "entry": "jedes Mal",
+   "level": "B1",
+   "gloss": "every time"
+  },
+  {
+   "id": "W1236",
+   "entry": "die Jugend",
+   "level": "A2",
+   "gloss": "youth"
+  },
+  {
+   "id": "W1410",
+   "entry": "küssen, küsst, küsste, hat geküsst",
+   "level": "B1",
+   "gloss": "to kiss"
+  },
+  {
+   "id": "W1411",
+   "entry": "der Kuss, ¨-e",
+   "level": "B1",
+   "gloss": "kiss"
+  },
+  {
+   "id": "W1476",
+   "entry": "die Liebe",
+   "level": "B1",
+   "gloss": "love"
+  },
+  {
+   "id": "W1641",
+   "entry": "der Nachwuchs",
+   "level": "B1",
+   "gloss": "offspring, new baby"
+  },
+  {
+   "id": "W1663",
+   "entry": "der Neffe, -n",
+   "level": "B1",
+   "gloss": "nephew"
+  },
+  {
+   "id": "W1678",
+   "entry": "die Nichte, -n",
+   "level": "B1",
+   "gloss": "niece"
+  },
+  {
+   "id": "W1705",
+   "entry": "nützen, nützt, nützte, hat genützt",
+   "level": "B1",
+   "gloss": "to be of use (Was nützt...?: What good is...?)"
+  },
+  {
+   "id": "W1728",
+   "entry": "der Onkel, -",
+   "level": "B1",
+   "gloss": "uncle"
+  },
+  {
+   "id": "W1859",
+   "entry": "die Puppe, -n",
+   "level": "B1",
+   "gloss": "doll"
+  },
+  {
+   "id": "W1988",
+   "entry": "sämtliche",
+   "level": "B1",
+   "gloss": "all (without exception)"
+  },
+  {
+   "id": "W2010",
+   "entry": "sich scheiden lassen, lässt sich scheiden, ließ sich scheiden, hat sich scheiden lassen",
+   "level": "B1",
+   "gloss": "to get divorced"
+  },
+  {
+   "id": "W2011",
+   "entry": "geschieden",
+   "level": "B1",
+   "gloss": "divorced"
+  },
+  {
+   "id": "W2012",
+   "entry": "die Scheidung, -en",
+   "level": "B1",
+   "gloss": "divorce"
+  },
+  {
+   "id": "W2085",
+   "entry": "Schwieger-",
+   "level": "B1",
+   "gloss": "-in-law (Schwiegersohn: son-in-law)"
+  },
+  {
+   "id": "W2100",
+   "entry": "seitdem",
+   "level": "B1",
+   "gloss": "since (then)"
+  },
+  {
+   "id": "W2116",
+   "entry": "die Senioren (Pl.)",
+   "level": "B1",
+   "gloss": "seniors, elderly people"
+  },
+  {
+   "id": "W2153",
+   "entry": "solch-",
+   "level": "B1",
+   "gloss": "such (solch ein: such a)"
+  },
+  {
+   "id": "W2190",
+   "entry": "der Spielplatz, ¨-e",
+   "level": "B1",
+   "gloss": "playground"
+  },
+  {
+   "id": "W2191",
+   "entry": "das Spielzeug, -e",
+   "level": "B1",
+   "gloss": "toy"
+  },
+  {
+   "id": "W2212",
+   "entry": "stammen, stammt, stammte, hat gestammt",
+   "level": "B1",
+   "gloss": "to come from, originate"
+  },
+  {
+   "id": "W2274",
+   "entry": "der Streit",
+   "level": "B1",
+   "gloss": "argument, quarrel"
+  },
+  {
+   "id": "W2309",
+   "entry": "der Tagesablauf, ¨-e",
+   "level": "B1",
+   "gloss": "daily routine"
+  },
+  {
+   "id": "W2314",
+   "entry": "die Tante, -n",
+   "level": "B1",
+   "gloss": "aunt"
+  },
+  {
+   "id": "W2372",
+   "entry": "der Tod",
+   "level": "B1",
+   "gloss": "death"
+  },
+  {
+   "id": "W2404",
+   "entry": "(sich) trennen, trennt, trennte, hat getrennt",
+   "level": "B1",
+   "gloss": "to separate, split up"
+  },
+  {
+   "id": "W2405",
+   "entry": "die Trennung, -en",
+   "level": "B1",
+   "gloss": "separation"
+  },
+  {
+   "id": "W2406",
+   "entry": "getrennt leben",
+   "level": "B1",
+   "gloss": "to live apart (separated)"
+  },
+  {
+   "id": "W2410",
+   "entry": "treu",
+   "level": "B1",
+   "gloss": "faithful, loyal"
+  },
+  {
+   "id": "W2460",
+   "entry": "umarmen, umarmt, umarmte, hat umarmt",
+   "level": "B1",
+   "gloss": "to hug"
+  },
+  {
+   "id": "W2529",
+   "entry": "(sich) verabschieden, verabschiedet, verabschiedete, hat verabschiedet",
+   "level": "B1",
+   "gloss": "to say goodbye"
+  },
+  {
+   "id": "W2530",
+   "entry": "der Abschied, -e",
+   "level": "B1",
+   "gloss": "goodbye, farewell"
+  },
+  {
+   "id": "W2562",
+   "entry": "das Verhältnis, -se",
+   "level": "B1",
+   "gloss": "relationship (between people)"
+  },
+  {
+   "id": "W2572",
+   "entry": "verlassen, verlässt, verließ, hat verlassen",
+   "level": "B1",
+   "gloss": "to leave"
+  },
+  {
+   "id": "W2577",
+   "entry": "verliebt",
+   "level": "B1",
+   "gloss": "in love"
+  },
+  {
+   "id": "W2585",
+   "entry": "vermissen, vermisst, vermisste, hat vermisst",
+   "level": "B1",
+   "gloss": "to miss (someone)"
+  },
+  {
+   "id": "W2610",
+   "entry": "(sich) verstecken, versteckt, versteckte, hat versteckt",
+   "level": "B1",
+   "gloss": "to hide"
+  },
+  {
+   "id": "W2623",
+   "entry": "verwandt",
+   "level": "B1",
+   "gloss": "related (by family)"
+  },
+  {
+   "id": "W2751",
+   "entry": "wieder/wieder-",
+   "level": "A2",
+   "gloss": "again"
+  },
+  {
+   "id": "W2817",
+   "entry": "der Zeitpunkt, -",
+   "level": "B1",
+   "gloss": "moment, point in time"
+  },
+  {
+   "id": "W2868",
+   "entry": "zurück/zurück-",
+   "level": "A1",
+   "gloss": "back"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W0288",
+   "entry": "begrenzt",
+   "level": "B1",
+   "gloss": "limited"
+  },
+  {
+   "id": "W0325",
+   "entry": "bereits",
+   "level": "B1",
+   "gloss": "already"
+  },
+  {
+   "id": "W0542",
+   "entry": "drehen, dreht, drehte, hat gedreht",
+   "level": "B1",
+   "gloss": "to shoot (a film), to film"
+  },
+  {
+   "id": "W0346",
+   "entry": "besichtigen, besichtigt, besichtigte, hat besichtigt",
+   "level": "A1",
+   "gloss": "to visit, to tour (sights); to view (an apartment)"
+  },
+  {
+   "id": "W0020",
+   "entry": "abnehmen, nimmt ab, nahm ab, hat abgenommen",
+   "level": "B1",
+   "gloss": "to lose weight"
+  },
+  {
+   "id": "W0476",
+   "entry": "dagegen",
+   "level": "A2",
+   "gloss": "against it (etwas dagegen haben: to mind)"
+  },
+  {
+   "id": "W2913",
+   "entry": "schätzen, schätzt, schätzte, hat geschätzt",
+   "level": "B1",
+   "gloss": "to estimate"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X019",
+   "word": "der Hort, -e",
+   "gloss": "after-school care (for primary-school children)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R003",
+   "word": "der Bub, -en",
+   "gloss": "boy",
+   "kind": "austrian",
+   "de": "der Junge"
+  },
+  {
+   "id": "R015",
+   "word": "kosten, kostet, kostete, hat gekostet",
+   "gloss": "to taste (food)",
+   "kind": "austrian",
+   "de": "probieren"
+  },
+  {
+   "id": "R019",
+   "word": "das (Schlag-)Obers",
+   "gloss": "(whipped) cream",
+   "kind": "austrian",
+   "de": "die (Schlag-)Sahne"
+  },
+  {
+   "id": "R022",
+   "word": "die Pension, -en",
+   "gloss": "pension",
+   "kind": "austrian",
+   "de": "die Rente"
+  }
+ ],
+ "story_opening": "Am Freitagabend sitzt Lena im Zug von Leipzig nach Hamburg. Morgen wird ihre Oma Hilde 85 Jahre alt, und die ganze Familie feiert. Lena hat eine enge Beziehung zu ihrer Oma. Die beiden telefonieren jeden Sonntag, und jedes Mal fragt Oma, ob Lena genug isst.\n\nAuf dem Handy sieht sich Lena alte Fotos an. Sie hat viele schöne Erinnerungen an ihre Kindheit. Auf einem Foto sitzt sie als kleines Mädchen im Sand, auf dem Spielplatz hinter dem Haus ihrer Eltern. Auf einem anderen Foto hält sie ihre Puppe Lotte im Arm. Lotte hat blonde Haare und ein rotes Kleid. Sie war früher Lenas liebstes Spielzeug, und Lena hat sie jeden Abend mit ins Bett genommen. Wo ist Lotte eigentlich geblieben?\n\nIhr Bruder "
+}

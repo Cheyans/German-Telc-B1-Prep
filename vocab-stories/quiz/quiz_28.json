@@ -1,0 +1,77 @@
+{
+ "story": "28",
+ "questions": [
+  {
+   "q": "Wie ist der Einbrecher in Frau Krügers Wohnung gekommen?",
+   "right": "Er hat das Schloss der Wohnungstür kaputt gemacht.",
+   "wrong": [
+    "Frau Krüger hat ihre Wohnungstür offen gelassen.",
+    "Er ist durch das offene Küchenfenster eingestiegen."
+   ],
+   "evidence": "Die Wohnungstür steht offen, und das Schloss ist zerstört. Der Einbrecher hat die Tür mit Gewalt geöffnet.",
+   "why": "Zerstört means destroyed and mit Gewalt means by force, so he broke the lock. The door left unlocked was the building's front door (Haustür), not her apartment door.",
+   "words": [
+    "W2826",
+    "W1005",
+    "W0592"
+   ]
+  },
+  {
+   "q": "Wen wählen solche Diebe laut der Polizistin oft als Opfer aus?",
+   "right": "Vor allem ältere Leute, die niemanden zu Hause haben.",
+   "wrong": [
+    "Vor allem Touristen, die sich in der Stadt nicht auskennen.",
+    "Vor allem Familien, die oft lange im Urlaub sind."
+   ],
+   "evidence": "Diese Art von Trick kennen wir leider gut. So suchen manche Diebe ihre Opfer aus, oft ältere Menschen, die allein wohnen.",
+   "why": "The police officer says thieves often choose older people who live alone as their Opfer (victims).",
+   "words": [
+    "W1733"
+   ]
+  },
+  {
+   "q": "Wie findet die Polizei heraus, wer der Dieb ist?",
+   "right": "Das verlorene Handy führt die Polizei zu ihm.",
+   "wrong": [
+    "Ein Zeitungsleser nennt der Polizei seinen Namen.",
+    "Er bringt den Ring selbst zur Polizei zurück."
+   ],
+   "evidence": "Die Beamten haben herausgefunden, wem das Handy aus dem Hof gehört. Das Handy hat den Dieb also verraten!",
+   "why": "Verraten means gave away: police found out whose phone it was. Nobody who saw the photo knew his name, and he still had the ring when police arrested him.",
+   "words": [
+    "W1120",
+    "W2594",
+    "W0808"
+   ]
+  },
+  {
+   "q": "Was will Herr Braun nach dem Einbruch im Haus ändern?",
+   "right": "Die Haustür wird ab jetzt jeden Abend abgeschlossen.",
+   "wrong": [
+    "Er will die Kellertür nur noch selten kontrollieren.",
+    "Statt einer Lampe kommt eine Kamera in den Hof."
+   ],
+   "evidence": "„Zukünftig schließen wir die Haustür jeden Abend um 22 Uhr ab“, sagt er. „Zusätzlich kommt eine helle Lampe in den Hof. Und ich kontrolliere regelmäßig die Kellertür, jeden Morgen und jeden Mittag.“",
+   "why": "Zukünftig means from now on: the front door is locked every evening at 10 p.m. He will check the cellar door regularly (regelmäßig), and the new thing in the courtyard is a lamp.",
+   "words": [
+    "W2859",
+    "W2875",
+    "W1908"
+   ]
+  },
+  {
+   "q": "Was denkt Frau Krüger über das Urteil?",
+   "right": "Sie findet es richtig und hofft, dass er daraus lernt.",
+   "wrong": [
+    "Sie findet, dass man ihn gar nicht bestrafen sollte.",
+    "Sie ist traurig, weil sie ihren Ring nicht zurückbekommt."
+   ],
+   "evidence": "„Meiner Meinung nach schon. Man muss so eine Tat bestrafen. Aber ich hoffe, dass er im Gefängnis etwas lernt.“ Dann lächelt sie und zeigt ihre Hand: Am Finger trägt sie wieder den Ring ihrer Mutter.",
+   "why": "She thinks the verdict is fair (gerecht) and that such a crime must be punished (bestrafen), but she hopes he learns from it. She is wearing her mother's ring again.",
+   "words": [
+    "W0359",
+    "W0980"
+   ]
+  }
+ ]
+}

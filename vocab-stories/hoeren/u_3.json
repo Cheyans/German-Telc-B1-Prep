@@ -1,0 +1,189 @@
+{
+ "book": "U",
+ "task": 3,
+ "tracks": [
+  "07",
+  "08",
+  "09",
+  "10",
+  "11"
+ ],
+ "title": "Durchsagen und Anrufe",
+ "intro": "Sie hören fünf kurze Texte: Durchsagen am Flughafen und im Zug, einen Anruf im Hotel, eine Nachricht auf dem Anrufbeantworter und eine Szene im Zug. Spielen Sie jeden Track einmal ab.",
+ "items": [
+  {
+   "tr": "07",
+   "s": "Die Durchsage ist für Fluggäste, die aus Jakarta ankommen.",
+   "a": false,
+   "at": "00:07",
+   "ev": "Reisende mit der Lufthansamaschine LH 351 nach Jakarta",
+   "why": "The announcement is for travelers flying to Jakarta (nach Jakarta), who should go to their gate. Aus Jakarta would mean they are arriving from there.",
+   "trap": "same-word",
+   "w": [
+    [
+     "sich begeben zu",
+     "to proceed to (formal)"
+    ],
+    [
+     "die Lautsprecherdurchsage",
+     "loudspeaker announcement"
+    ]
+   ]
+  },
+  {
+   "tr": "07",
+   "s": "Die Passagiere sollen zum Ausgang B14 gehen.",
+   "a": true,
+   "at": "00:07",
+   "ev": "begeben Sie sich bitte zu Ausgang B14.",
+   "why": "Begeben Sie sich zu means go to, and the gate is B14 (vierzehn, not vierzig). This time copying the audio gives the right answer.",
+   "trap": "number",
+   "w": [
+    [
+     "der Ausgang",
+     "gate (at an airport), exit"
+    ]
+   ]
+  },
+  {
+   "tr": "08",
+   "s": "Herr Bruch möchte morgen früh geweckt werden.",
+   "a": false,
+   "at": "00:09",
+   "ev": "Guten Morgen Herr Bruch! Sie wollten geweckt werden.",
+   "why": "This call is the wake-up call itself: he asked for it earlier (Sie wollten), and it is now 6:45 in the morning. Morgen früh would make it a plan for tomorrow.",
+   "trap": "when",
+   "w": [
+    [
+     "wecken",
+     "to wake someone up"
+    ]
+   ]
+  },
+  {
+   "tr": "08",
+   "s": "Der Anruf kommt um Viertel vor sieben.",
+   "a": true,
+   "at": "00:09",
+   "ev": "Es ist jetzt 6 Uhr 45.",
+   "why": "6 Uhr 45 is a quarter to seven (Viertel vor sieben). The statement gives the same time in other words.",
+   "trap": "number",
+   "w": [
+    [
+     "6 Uhr 45",
+     "6:45 (= Viertel vor sieben)"
+    ]
+   ]
+  },
+  {
+   "tr": "09",
+   "s": "Die Fahrgäste sitzen im Intercity 551.",
+   "a": false,
+   "at": "00:02",
+   "ev": "die zugestiegenen Fahrgäste im Intercity 515 Gutenberg",
+   "why": "The train is the Intercity 515 (fünfhundertfünfzehn), not 551. With numbers, listen to the order of the ones and tens.",
+   "trap": "number",
+   "w": [
+    [
+     "zusteigen",
+     "to get on (a train)"
+    ]
+   ]
+  },
+  {
+   "tr": "09",
+   "s": "Den Fahrplan müssen die Fahrgäste beim Intercity-Team holen.",
+   "a": false,
+   "at": "00:12",
+   "ev": "Informationsblatt „Ihr Zugbegleiter“ … das an Ihrem Platz ausliegt",
+   "why": "The timetable is in a leaflet called Ihr Zugbegleiter that lies at every seat. The Intercity team is only there for further questions.",
+   "trap": "same-word",
+   "w": [
+    [
+     "der Anschluss",
+     "connecting train"
+    ],
+    [
+     "ausliegen",
+     "to be laid out (for people to take)"
+    ],
+    [
+     "der Zugbegleiter",
+     "train attendant (here also the name of the leaflet)"
+    ]
+   ]
+  },
+  {
+   "tr": "10",
+   "s": "Hannelore und Birgit treffen sich heute um halb drei.",
+   "a": false,
+   "at": "00:02",
+   "ev": "halb drei Uhr am Nachmittag … am kommenden Donnerstag um 11 Uhr",
+   "why": "Halb drei (2:30) is the time of her call today. They meet next Thursday at 11 in her office.",
+   "trap": "when",
+   "w": [
+    [
+     "der Feber",
+     "February (Austrian)"
+    ],
+    [
+     "klappen",
+     "to work out"
+    ]
+   ]
+  },
+  {
+   "tr": "10",
+   "s": "Birgit soll zum Treffen alle ihre Unterlagen mitbringen.",
+   "a": true,
+   "at": "00:23",
+   "ev": "Bringe bitte all deine Papiere mit.",
+   "why": "Bring all your papers means all her documents (Unterlagen). The mit comes at the very end of the sentence.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "die Papiere (Pl.)",
+     "papers, documents"
+    ],
+    [
+     "Servus!",
+     "bye! (Austrian, Bavarian)"
+    ]
+   ]
+  },
+  {
+   "tr": "11",
+   "s": "Der Zug hält gerade in Oberstdorf.",
+   "a": false,
+   "at": "00:03",
+   "ev": "Hier Augsburg, hier Augsburg! Sie haben Anschluss nach Oberstdorf",
+   "why": "The train is in Augsburg. Oberstdorf is where the connecting train goes, from platform 2.",
+   "trap": "same-word",
+   "w": [
+    [
+     "das Gleis",
+     "platform, track"
+    ]
+   ]
+  },
+  {
+   "tr": "11",
+   "s": "Die Frau darf sich setzen, aber ihren Koffer nicht dort stehen lassen.",
+   "a": true,
+   "at": "00:19",
+   "ev": "Ja, bitte. Aber hier dürfen Sie den Koffer nicht stehen lassen.",
+   "why": "The seat is free (Ja, bitte), but her suitcase blocks the way, so he helps her put it on the luggage rack. The aber turns his answer.",
+   "trap": "flip",
+   "w": [
+    [
+     "das Gepäcknetz",
+     "luggage rack"
+    ],
+    [
+     "hintun",
+     "to put (colloquial)"
+    ]
+   ]
+  }
+ ]
+}

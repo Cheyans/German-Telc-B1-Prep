@@ -1,0 +1,150 @@
+{
+ "set": "03",
+ "parts": [
+  {
+   "part": "A",
+   "type": "abc",
+   "items": [
+    {
+     "q": "Was hat die Umfrage der Industrie- und Handelskammer ergeben?",
+     "right": "Ein Drittel der Betriebe fand nur schwer neue Mitarbeiter.",
+     "wrong": [
+      "Fast die Hälfte der Betriebe fand nur schwer neue Mitarbeiter.",
+      "Zwei Drittel der Betriebe fanden nur schwer neue Mitarbeiter."
+     ],
+     "evidence": "Nach einer Umfrage der Industrie- und Handelskammer unter 450 Betrieben hatte im letzten Jahr jeder dritte große Probleme bei der Suche nach Personal. Fast jeder zweite hat außerdem die Löhne erhöht.",
+     "why": "Jeder dritte means one in three, so a third of the companies had big problems finding staff (Personal). Fast jeder zweite (almost half) is about raising wages (Löhne), not about finding staff.",
+     "trap": "same-word",
+     "words": [
+      "W0367",
+      "W1787",
+      "W1494"
+     ]
+    },
+    {
+     "q": "Was sagt Frau Hahn aus der Personalabteilung?",
+     "right": "Die Erfahrung der älteren Kollegen soll im Betrieb bleiben.",
+     "wrong": [
+      "Die Fabrik würde gern zehn weitere Leute einstellen.",
+      "Bewerber sollten ihre Unterlagen gründlich vorbereiten."
+     ],
+     "evidence": "In den nächsten fünf Jahren gehen jedoch rund 120 von ihnen in Rente, darunter viele erfahrene Meister. „Ihr Wissen darf nicht verloren gehen“, sagt Frau Hahn aus der Personalabteilung.",
+     "why": "Frau Hahn says the knowledge of the staff who retire soon (in Rente gehen), many of them master craftsmen (Meister), must not be lost. Hiring ten more people is what Herr Brandt wants, and careful preparation is the advice of Frau Rademacher.",
+     "trap": "who",
+     "words": [
+      "W1933",
+      "W1551"
+     ]
+    },
+    {
+     "q": "Was erzählt Mateo García über seine Arbeitszeit bei Sander?",
+     "right": "Sein Arbeitstag beginnt jetzt schon sehr früh am Morgen.",
+     "wrong": [
+      "Sein Arbeitstag beginnt jetzt erst am Abend und endet um Mitternacht.",
+      "Sein Arbeitstag beginnt jetzt erst am frühen Nachmittag."
+     ],
+     "evidence": "„Vorher habe ich im Restaurant bis Mitternacht gearbeitet“, erzählt er. „Jetzt beginnt mein Dienst um sechs Uhr morgens, und ich kann Arbeit und Deutschkurs endlich unter einen Hut bringen.“",
+     "why": "Jetzt beginnt mein Dienst um sechs Uhr morgens: his shift (Dienst) now starts at 6 a.m. Working until midnight was before (vorher), at the restaurant.",
+     "trap": "when",
+     "words": [
+      "W0517"
+     ]
+    },
+    {
+     "q": "Wofür ist Kerstin Rademacher bei der Agentur für Arbeit zuständig?",
+     "right": "Sie bringt Fachkräfte und Betriebe zusammen.",
+     "wrong": [
+      "Sie leitet die kostenlose Berufsberatung der Agentur.",
+      "Sie prüft, ob ausländische Qualifikationen anerkannt werden."
+     ],
+     "evidence": "Trotzdem rät Kerstin Rademacher, die bei der Agentur für Arbeit für die Vermittlung von Fachkräften zuständig ist, die Unterlagen gründlich vorzubereiten.",
+     "why": "Vermittlung von Fachkräften means job placement: she matches skilled workers with companies. The free career advice and the recognition of foreign qualifications come up in the same paragraph, but not as her job.",
+     "trap": "same-word",
+     "words": [
+      "W2586"
+     ]
+    },
+    {
+     "q": "Wie beschreibt Herr Brandt vom Betriebsrat die Lage bei Sander?",
+     "right": "Fast niemand hat heute Angst, seine Stelle zu verlieren.",
+     "wrong": [
+      "In den letzten Jahren wurden viele Arbeiter entlassen.",
+      "Der Betrieb hat inzwischen genug Personal für alle Aufgaben."
+     ],
+     "evidence": "In den Neunzigerjahren wurden in Leipzig Tausende Arbeiter entlassen, und eine feste Beschäftigung war für viele nur ein Traum. „Heute hat bei uns kaum jemand Angst vor einer Entlassung“, sagt er. „Am liebsten würden wir sofort zehn weitere Leute einstellen“, sagt Herr Brandt.",
+     "why": "Kaum jemand means hardly anyone, so almost nobody fears a layoff (Entlassung). The mass layoffs were in the 1990s, and he would like to hire ten more people, so the company does not have enough staff.",
+     "trap": "when",
+     "words": [
+      "W1277",
+      "W0665",
+      "W0625"
+     ]
+    }
+   ]
+  },
+  {
+   "part": "B",
+   "type": "rf",
+   "items": [
+    {
+     "s": "Jannik studiert inzwischen, weil er Ingenieur werden möchte.",
+     "answer": false,
+     "evidence": "Inzwischen bin ich Azubi im zweiten Jahr und lerne, wie man Fahrräder baut und repariert. Irgendwann will ich trotzdem noch studieren, weil ich davon träume, Ingenieur zu werden.",
+     "why": "Jannik is an apprentice in his second year. Studying is only a plan for some time in the future (irgendwann), not something he does now.",
+     "trap": "when",
+     "words": [
+      "G003",
+      "W2786",
+      "W1192"
+     ]
+    },
+    {
+     "s": "Magdalena hat sich noch nicht entschieden, ob sie Chefin werden will.",
+     "answer": true,
+     "evidence": "Der Direktor hat mich gefragt, ob ich dann die Leitung übernehmen möchte. Das wäre eine große Verantwortung, und weil ich erst dreiundzwanzig bin, muss ich es mir noch gut überlegen.",
+     "why": "The director asked her to take over the management of the front desk. She says she still has to think it over (überlegen), so she has not decided yet.",
+     "trap": "paraphrase",
+     "words": [
+      "W1464",
+      "W2438",
+      "W2434"
+     ]
+    },
+    {
+     "s": "In Frau Fiedlers Beispiel muss man für die Stelle einen Führerschein haben.",
+     "answer": false,
+     "evidence": "Steht dort „Bewerber mit Führerschein werden bevorzugt“, dann ist der Führerschein keine Voraussetzung, und man kann sich auch ohne ihn bewerben.",
+     "why": "In her example the ad only says that applicants with a license are preferred (bevorzugt). She explains that the license is then keine Voraussetzung, so you can apply without one.",
+     "trap": "same-word",
+     "words": [
+      "X007",
+      "W2649"
+     ]
+    },
+    {
+     "s": "Frau Fiedlers Team bekommt Hilfe von einem früheren Mitarbeiter der Stadt.",
+     "answer": true,
+     "evidence": "Unterstützung bekommen wir von einem pensionierten Beamten, der früher bei der Stadt viele neue Mitarbeiter ausgesucht hat und jetzt mit den Jugendlichen Vorstellungsgespräche übt.",
+     "why": "Unterstützung means help. A retired civil servant who used to choose new staff for the city now practices job interviews with the teenagers.",
+     "trap": "paraphrase",
+     "words": [
+      "W2512",
+      "W1778"
+     ]
+    },
+    {
+     "s": "Herr Hempel meint, dass ein Meister weniger verdient als ein Angestellter im Büro.",
+     "answer": false,
+     "evidence": "Ich finde es schade, dass viele junge Leute nur an ein Studium denken, obwohl man als Meister oft ein genauso gutes Einkommen hat wie ein Angestellter im Büro.",
+     "why": "He says a master craftsman often has just as good an income as an office employee. Only his own pension is low.",
+     "trap": "same-word",
+     "words": [
+      "W1551",
+      "W0612",
+      "W0112"
+     ]
+    }
+   ]
+  }
+ ]
+}

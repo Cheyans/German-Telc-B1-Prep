@@ -1,0 +1,562 @@
+{
+ "set": "19",
+ "title": "Urlaub an der Ostsee",
+ "part_b": "news",
+ "targets": [
+  {
+   "id": "G013",
+   "entry": "das Kfz (Kraftfahrzeug)",
+   "level": "B1",
+   "gloss": "motor vehicle (abbreviation)"
+  },
+  {
+   "id": "G014",
+   "entry": "der Lkw, -s",
+   "level": "A1",
+   "gloss": "truck"
+  },
+  {
+   "id": "G045",
+   "entry": "das E-Bike, -s",
+   "level": "B1",
+   "gloss": "e-bike, electric bike"
+  },
+  {
+   "id": "G092",
+   "entry": "die Tour, -en",
+   "level": "A2",
+   "gloss": "tour, trip"
+  },
+  {
+   "id": "G160",
+   "entry": "nördlich",
+   "level": "B1",
+   "gloss": "north (of)"
+  },
+  {
+   "id": "G162",
+   "entry": "östlich",
+   "level": "B1",
+   "gloss": "eastern, east"
+  },
+  {
+   "id": "G164",
+   "entry": "südlich",
+   "level": "B1",
+   "gloss": "south (of)"
+  },
+  {
+   "id": "G166",
+   "entry": "westlich",
+   "level": "B1",
+   "gloss": "west (of)"
+  },
+  {
+   "id": "W0002",
+   "entry": "abbiegen, biegt ab, bog ab, ist abgebogen",
+   "level": "B1",
+   "gloss": "to turn (left/right)"
+  },
+  {
+   "id": "W0107",
+   "entry": "anschnallen, schnallt an, schnallte an, hat angeschnallt",
+   "level": "B1",
+   "gloss": "to fasten one's seat belt"
+  },
+  {
+   "id": "W0190",
+   "entry": "die Ausfahrt, -en",
+   "level": "B1",
+   "gloss": "(highway) exit"
+  },
+  {
+   "id": "W0218",
+   "entry": "die Aussicht, -en",
+   "level": "B1",
+   "gloss": "view"
+  },
+  {
+   "id": "W0299",
+   "entry": "beid-",
+   "level": "B1",
+   "gloss": "both, the two"
+  },
+  {
+   "id": "W0317",
+   "entry": "das Benzin",
+   "level": "B1",
+   "gloss": "gasoline, gas"
+  },
+  {
+   "id": "W0418",
+   "entry": "das Boot, -e",
+   "level": "B1",
+   "gloss": "boat"
+  },
+  {
+   "id": "W0426",
+   "entry": "bremsen, bremst, bremste, hat gebremst",
+   "level": "B1",
+   "gloss": "to brake"
+  },
+  {
+   "id": "W0535",
+   "entry": "Doppel-",
+   "level": "B1",
+   "gloss": "double (Doppelzimmer: double room)"
+  },
+  {
+   "id": "W0567",
+   "entry": "eben",
+   "level": "B1",
+   "gloss": "flat, level; just, simply (particle); just now"
+  },
+  {
+   "id": "W0590",
+   "entry": "die Einbahnstraße, -n",
+   "level": "B1",
+   "gloss": "one-way street"
+  },
+  {
+   "id": "W0598",
+   "entry": "die Einfahrt, -en",
+   "level": "B1",
+   "gloss": "driveway, entrance (for cars)"
+  },
+  {
+   "id": "W0663",
+   "entry": "entlang",
+   "level": "B1",
+   "gloss": "along"
+  },
+  {
+   "id": "W0680",
+   "entry": "die Entwicklung, -en",
+   "level": "B1",
+   "gloss": "development"
+  },
+  {
+   "id": "W0697",
+   "entry": "erhalten, erhält, erhielt, hat erhalten",
+   "level": "B1",
+   "gloss": "to receive"
+  },
+  {
+   "id": "W0759",
+   "entry": "die Fähre, -n",
+   "level": "B1",
+   "gloss": "ferry"
+  },
+  {
+   "id": "W0797",
+   "entry": "Ferien-",
+   "level": "A2",
+   "gloss": "vacation (Ferienwohnung: vacation rental)"
+  },
+  {
+   "id": "W0809",
+   "entry": "festsetzen, setzt fest, setzte fest, hat festgesetzt",
+   "level": "B1",
+   "gloss": "to set, to fix (a date)"
+  },
+  {
+   "id": "W0848",
+   "entry": "folgend",
+   "level": "B1",
+   "gloss": "following, next"
+  },
+  {
+   "id": "W0858",
+   "entry": "fortsetzen, setzt fort, setzte fort, hat fortgesetzt",
+   "level": "B1",
+   "gloss": "to continue"
+  },
+  {
+   "id": "W0899",
+   "entry": "der Führerschein, -e (D, A) CH: Führerausweis→",
+   "level": "B1",
+   "gloss": "driver's license"
+  },
+  {
+   "id": "W0908",
+   "entry": "der Fußgänger, - die Fußgängerin, -nen",
+   "level": "B1",
+   "gloss": "pedestrian"
+  },
+  {
+   "id": "W0909",
+   "entry": "die Fußgängerzone, -n",
+   "level": "B1",
+   "gloss": "pedestrian zone"
+  },
+  {
+   "id": "W0994",
+   "entry": "die Geschwindigkeitsbeschränkung, -en",
+   "level": "B1",
+   "gloss": "speed limit"
+  },
+  {
+   "id": "W1065",
+   "entry": "der Hafen, ¨-",
+   "level": "B1",
+   "gloss": "harbor, port"
+  },
+  {
+   "id": "W1102",
+   "entry": "heim",
+   "level": "B1",
+   "gloss": "home (heimfahren: to drive home)"
+  },
+  {
+   "id": "W1131",
+   "entry": "(herunter-)fahren, fährt",
+   "level": "B1",
+   "gloss": "to shut down (a computer)"
+  },
+  {
+   "id": "W1195",
+   "entry": "innen",
+   "level": "B1",
+   "gloss": "inside"
+  },
+  {
+   "id": "W1239",
+   "entry": "die Jugendherberge, -n",
+   "level": "B1",
+   "gloss": "youth hostel"
+  },
+  {
+   "id": "W1284",
+   "entry": "das Kennzeichen, -",
+   "level": "B1",
+   "gloss": "license plate"
+  },
+  {
+   "id": "W1365",
+   "entry": "das Kraftfahrzeug, -e",
+   "level": "B1",
+   "gloss": "motor vehicle"
+  },
+  {
+   "id": "W1460",
+   "entry": "leisten, leistet, leistete, hat geleistet",
+   "level": "B1",
+   "gloss": "to afford (sich etwas leisten)"
+  },
+  {
+   "id": "W1498",
+   "entry": "losfahren, fährt los, fuhr los, ist losgefahren",
+   "level": "B1",
+   "gloss": "to set off, to leave"
+  },
+  {
+   "id": "W1536",
+   "entry": "der Mechaniker, - die Mechanikerin, -nen",
+   "level": "B1",
+   "gloss": "mechanic"
+  },
+  {
+   "id": "W1610",
+   "entry": "das Motorrad, ¨-er",
+   "level": "B1",
+   "gloss": "motorcycle"
+  },
+  {
+   "id": "W1755",
+   "entry": "die Panne, -n",
+   "level": "B1",
+   "gloss": "breakdown (of a car)"
+  },
+  {
+   "id": "W1766",
+   "entry": "der Passagier, -e die Passagierin, -nen",
+   "level": "B1",
+   "gloss": "passenger"
+  },
+  {
+   "id": "W1771",
+   "entry": "pauschal",
+   "level": "B1",
+   "gloss": "as a flat rate, all-inclusive"
+  },
+  {
+   "id": "W1775",
+   "entry": "die Pension, -en",
+   "level": "B1",
+   "gloss": "guesthouse, B&B"
+  },
+  {
+   "id": "W1784",
+   "entry": "persönlich",
+   "level": "B1",
+   "gloss": "in person, personally"
+  },
+  {
+   "id": "W1868",
+   "entry": "das Rad, ¨-er",
+   "level": "A2",
+   "gloss": "wheel"
+  },
+  {
+   "id": "W1888",
+   "entry": "realisieren, realisiert, realisierte, hat realisiert",
+   "level": "B1",
+   "gloss": "to carry out, to make happen"
+  },
+  {
+   "id": "W1919",
+   "entry": "rein",
+   "level": "A2",
+   "gloss": "pure, sheer"
+  },
+  {
+   "id": "W1940",
+   "entry": "die Reservierung, -en",
+   "level": "B1",
+   "gloss": "reservation"
+  },
+  {
+   "id": "W1946",
+   "entry": "die Rezeption/Reception, -",
+   "level": "A1",
+   "gloss": "reception desk, front desk"
+  },
+  {
+   "id": "W1950",
+   "entry": "die Richtung, -en",
+   "level": "B1",
+   "gloss": "direction"
+  },
+  {
+   "id": "W1963",
+   "entry": "rück- / die Rückfahrt, -en",
+   "level": "B1",
+   "gloss": "return trip"
+  },
+  {
+   "id": "W1964",
+   "entry": "die Rückkehr",
+   "level": "B1",
+   "gloss": "return (home)"
+  },
+  {
+   "id": "W1970",
+   "entry": "die Ruhe",
+   "level": "A2",
+   "gloss": "quiet, peace"
+  },
+  {
+   "id": "W1974",
+   "entry": "die Rundfahrt, -en",
+   "level": "B1",
+   "gloss": "sightseeing tour (by boat or bus)"
+  },
+  {
+   "id": "W1981",
+   "entry": "die Saison, -s",
+   "level": "B1",
+   "gloss": "(tourist) season"
+  },
+  {
+   "id": "W2001",
+   "entry": "schalten, schaltet, schaltete, hat geschaltet",
+   "level": "B1",
+   "gloss": "to shift gears"
+  },
+  {
+   "id": "W2032",
+   "entry": "schließlich",
+   "level": "B1",
+   "gloss": "finally, in the end"
+  },
+  {
+   "id": "W2164",
+   "entry": "das Souvenir, -s",
+   "level": "B1",
+   "gloss": "souvenir"
+  },
+  {
+   "id": "W2185",
+   "entry": "speziell",
+   "level": "B1",
+   "gloss": "special"
+  },
+  {
+   "id": "W2206",
+   "entry": "die Spur, -en",
+   "level": "B1",
+   "gloss": "lane"
+  },
+  {
+   "id": "W2224",
+   "entry": "der Stau, -s",
+   "level": "B1",
+   "gloss": "traffic jam"
+  },
+  {
+   "id": "W2265",
+   "entry": "der Strafzettel, -",
+   "level": "B1",
+   "gloss": "(parking) ticket"
+  },
+  {
+   "id": "W2269",
+   "entry": "die Strecke, -n",
+   "level": "B1",
+   "gloss": "route, stretch (of road or track)"
+  },
+  {
+   "id": "W2312",
+   "entry": "tanken, tankt, tankte, hat getankt",
+   "level": "B1",
+   "gloss": "to fill up (with gas)"
+  },
+  {
+   "id": "W2313",
+   "entry": "die Tankstelle, -n",
+   "level": "B1",
+   "gloss": "gas station"
+  },
+  {
+   "id": "W2347",
+   "entry": "das Tempo",
+   "level": "B1",
+   "gloss": "speed (Tempo 80: 80 km/h)"
+  },
+  {
+   "id": "W2385",
+   "entry": "der Tourismus",
+   "level": "B1",
+   "gloss": "tourism"
+  },
+  {
+   "id": "W2396",
+   "entry": "der Transport, -e",
+   "level": "B1",
+   "gloss": "transport, transportation"
+  },
+  {
+   "id": "W2433",
+   "entry": "überholen, überholt, überholte, hat überholt",
+   "level": "B1",
+   "gloss": "to pass, to overtake"
+  },
+  {
+   "id": "W2437",
+   "entry": "die Übernachtung, -en",
+   "level": "B1",
+   "gloss": "overnight stay, night"
+  },
+  {
+   "id": "W2499",
+   "entry": "unterlassen, unterlässt, unterließ, hat unterlassen",
+   "level": "B1",
+   "gloss": "to refrain from"
+  },
+  {
+   "id": "W2515",
+   "entry": "unterwegs",
+   "level": "B1",
+   "gloss": "on the way, on the go"
+  },
+  {
+   "id": "W2592",
+   "entry": "verpflegen, verpflegt, verpflegte, hat verpflegt",
+   "level": "B1",
+   "gloss": "to provide meals for"
+  },
+  {
+   "id": "W2632",
+   "entry": "viel/viele",
+   "level": "A1",
+   "gloss": "much, many, a lot"
+  },
+  {
+   "id": "W2812",
+   "entry": "das Verkehrszeichen, -",
+   "level": "B1",
+   "gloss": "traffic sign"
+  },
+  {
+   "id": "W2878",
+   "entry": "der Zuschlag, ¨-e",
+   "level": "B1",
+   "gloss": "surcharge, extra charge"
+  }
+ ],
+ "missed": [
+  {
+   "id": "W1193",
+   "entry": "der Inhalt, -e",
+   "level": "B1",
+   "gloss": "content"
+  },
+  {
+   "id": "W0173",
+   "entry": "aufregen, regt auf, regte auf, hat aufgeregt",
+   "level": "B1",
+   "gloss": "to get worked up (sich aufregen)"
+  },
+  {
+   "id": "W0350",
+   "entry": "besorgen, besorgt, besorgte, hat besorgt",
+   "level": "B1",
+   "gloss": "to get, pick up (for someone)"
+  },
+  {
+   "id": "W2670",
+   "entry": "(sich) vorstellen, stellt vor, stellte vor, hat vorgestellt",
+   "level": "A1",
+   "gloss": "to introduce (oneself); (sich etwas) to imagine"
+  },
+  {
+   "id": "W0696",
+   "entry": "das Ergebnis, -se",
+   "level": "A1",
+   "gloss": "result; outcome; score"
+  },
+  {
+   "id": "W0327",
+   "entry": "berichten, berichtet, berichtete, hat berichtet",
+   "level": "A2",
+   "gloss": "to report; (über/von) to tell about, to report on"
+  },
+  {
+   "id": "W2917",
+   "entry": "zeichnen, zeichnet, zeichnete, hat gezeichnet",
+   "level": "A2",
+   "gloss": "to draw"
+  }
+ ],
+ "extras": [
+  {
+   "id": "X008",
+   "word": "über den Tellerrand schauen",
+   "gloss": "to look beyond your own little world",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X013",
+   "word": "die Grenzerfahrung, -en",
+   "gloss": "an experience at your limits",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "X015",
+   "word": "verzeichnen, verzeichnet, verzeichnete, hat verzeichnet",
+   "gloss": "to record, register (numbers)",
+   "kind": "extra",
+   "de": ""
+  },
+  {
+   "id": "R010",
+   "word": "das Gasthaus, Gasthäuser",
+   "gloss": "inn, traditional restaurant",
+   "kind": "austrian",
+   "de": "die Gaststätte"
+  }
+ ],
+ "story_opening": "Lena und Aylin wollen schon seit dem Sommer zusammen ans Meer fahren. Aber immer gab es ein Problem: Aylin hatte Nachtdienst im Krankenhaus, oder Lena hatte zu viel Arbeit in der Agentur. Im August zum Beispiel waren fast alle ihre Kollegen in den Süden verreist, und Lena hatte viel mehr Arbeit. Im September setzen die beiden endlich einen Termin fest: das zweite Wochenende im Oktober. „Diesmal wollen wir unseren Plan wirklich realisieren“, sagt Aylin. Ein Reisebüro brauchen sie dafür nicht, denn sie buchen lieber selbst im Internet.\n\nAm Abend sitzen sie mit dem Laptop auf Lenas Sofa und suchen eine Unterkunft in Warnemünde, direkt an der Ostsee. Alle Ferienwohnungen sind schon ausgebucht. „"
+}

@@ -1,0 +1,173 @@
+{
+ "book": "U",
+ "task": 5,
+ "tracks": [
+  "15",
+  "16",
+  "17"
+ ],
+ "title": "Ein Verkäufer, eine Wanderung und eine Katze",
+ "intro": "Sie hören einen Verkäufer bei einer Vorführung, ein Paar beim Wandern und eine Meldung im Radio. Spielen Sie jeden Track einmal ab.",
+ "items": [
+  {
+   "tr": "15",
+   "s": "Der Verkäufer sagt, dass alle Männer weg sind, weil sie Angst haben.",
+   "a": true,
+   "at": "01:00",
+   "ev": "gar keiner mehr da von den Herren, die haben alle Angst",
+   "why": "He jokes that no men are left („gar keiner mehr da“) because they are all afraid of his tool. „Alle“ sounds too strong, but here it is right.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "der Alleskönner",
+     "something that can do everything"
+    ],
+    [
+     "Aufgepasst!",
+     "Pay attention!"
+    ]
+   ]
+  },
+  {
+   "tr": "15",
+   "s": "Man schneidet die Tomate von oben bis ganz unten durch.",
+   "a": false,
+   "at": "01:33",
+   "ev": "einen Kreuzschnitt, bis Sie fast ganz unten sind",
+   "why": "The cross cut goes until you are almost at the bottom („fast ganz unten“), not all the way through. If you miss „fast“, the statement sounds right.",
+   "trap": "overstate",
+   "w": [
+    [
+     "der Kreuzschnitt",
+     "a cross-shaped cut"
+    ],
+    [
+     "die Haut abziehen",
+     "to take the skin off"
+    ]
+   ]
+  },
+  {
+   "tr": "15",
+   "s": "Der Verkäufer erklärt am Ende, wie man halb grüne Tomaten schält.",
+   "a": false,
+   "at": "01:57",
+   "ev": "Dann würde ich die auch nicht schälen!",
+   "why": "A woman asks about half-green tomatoes. He only says he wouldn't peel those either („auch nicht schälen“), so he explains nothing.",
+   "trap": "negation",
+   "w": [
+    [
+     "schälen",
+     "to peel"
+    ],
+    [
+     "halb grün",
+     "half green, not ripe yet"
+    ]
+   ]
+  },
+  {
+   "tr": "16",
+   "s": "Der Mann möchte gleich eine Pause machen, die Frau will noch warten.",
+   "a": true,
+   "at": "00:16",
+   "ev": "machen wir wenigstens eine Pause. Wart doch, bis das nächste Dorf kommt",
+   "why": "He suggests a break right away. She wants to wait for the next village, because here there is no tree and no shade.",
+   "trap": "who",
+   "w": [
+    [
+     "wenigstens",
+     "at least"
+    ],
+    [
+     "der Schatten",
+     "shade"
+    ],
+    [
+     "die Kneipe",
+     "pub, bar"
+    ]
+   ]
+  },
+  {
+   "tr": "16",
+   "s": "Der Mann, den sie unterwegs treffen, ist sicher, dass das Café offen ist.",
+   "a": false,
+   "at": "00:50",
+   "ev": "Doch, den Eigerblick. Aber vielleicht haben die auch nicht auf.",
+   "why": "He first says yes, there is a café („Doch“). Then comes „aber vielleicht … nicht auf“: maybe it is closed too, so he is not sure at all.",
+   "trap": "flip",
+   "w": [
+    [
+     "aufhaben",
+     "to be open (shop, café)"
+    ],
+    [
+     "zuhaben",
+     "to be closed"
+    ]
+   ]
+  },
+  {
+   "tr": "16",
+   "s": "Die Frau findet es nicht schlimm, dass es im Café kein Essen gibt.",
+   "a": true,
+   "at": "00:59",
+   "ev": "Ach, Hauptsache, wir kriegen was zu trinken.",
+   "why": "The café has no real food, at most cake. She just says „Hauptsache, wir kriegen was zu trinken“: a drink is all that matters to her.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "Hauptsache …",
+     "the main thing is …"
+    ],
+    [
+     "kriegen",
+     "to get (informal)"
+    ],
+    [
+     "höchstens",
+     "at most"
+    ]
+   ]
+  },
+  {
+   "tr": "17",
+   "s": "Man erkennt die Katze daran, dass ihr ein Auge fehlt.",
+   "a": true,
+   "at": "00:11",
+   "ev": "hat als besonderes Merkmal nur ein Auge",
+   "why": "Her special feature („besonderes Merkmal“) is that she has only one eye. A missing eye makes her easy to recognize.",
+   "trap": "paraphrase",
+   "w": [
+    [
+     "das Merkmal",
+     "feature, distinguishing mark"
+    ],
+    [
+     "entlaufen",
+     "to run away (of a pet)"
+    ]
+   ]
+  },
+  {
+   "tr": "17",
+   "s": "Nur ein Ohr der Katze ist tätowiert.",
+   "a": false,
+   "at": "00:15",
+   "ev": "an beiden Ohren tätowiert",
+   "why": "„Nur ein“ belongs to the eye. The tattoo numbers are on both ears („an beiden Ohren“).",
+   "trap": "same-word",
+   "w": [
+    [
+     "tätowiert",
+     "tattooed"
+    ],
+    [
+     "verschwunden",
+     "missing, gone"
+    ]
+   ]
+  }
+ ]
+}

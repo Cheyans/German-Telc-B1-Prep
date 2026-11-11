@@ -1,0 +1,250 @@
+{
+ "audio": "02",
+ "mt": 1,
+ "teil": 2,
+ "page": 32,
+ "tasks": [
+  {
+   "part": 1,
+   "title": "Die Laufgruppe (1. Hälfte)",
+   "from": "01:51",
+   "to": "04:34",
+   "intro": "Sie hören ein Radiogespräch mit Waldemar und Heidi von der Laufgruppe „Die Grauen Hasen“. Hören Sie bis etwa 4:34.",
+   "items": [
+    {
+     "s": "Die Grauen Hasen sind vor fünf Jahren zum ersten Mal zusammen gelaufen.",
+     "a": true,
+     "at": "02:34",
+     "ev": "Jetzt im Juni war das vor fünf Jahren.",
+     "why": "Vier is said first, but it is corrected right away: the group's first run was five years ago this June. When a number gets corrected, the second one counts.",
+     "trap": "change",
+     "w": [
+      [
+       "gründen",
+       "to found, to start"
+      ],
+      [
+       "zum ersten Mal",
+       "for the first time"
+      ]
+     ]
+    },
+    {
+     "s": "Heidi hatte Rückenprobleme und hat Waldemar davon erzählt.",
+     "a": false,
+     "at": "02:41",
+     "ev": "weil ich Probleme mit meinem Rücken hatte. Das habe ich Heidi erzählt",
+     "why": "It was the other way round: Waldemar had the back problems, and he told Heidi. The facts are right, but the people are swapped.",
+     "trap": "who",
+     "w": [
+      [
+       "der Rücken",
+       "back (body part)"
+      ],
+      [
+       "den Müll rausbringen",
+       "to take out the trash"
+      ],
+      [
+       "vorsichtig",
+       "carefully"
+      ]
+     ]
+    },
+    {
+     "s": "Einer der beiden bleibt bei großer Hitze oft lieber zu Hause.",
+     "a": true,
+     "at": "03:18",
+     "ev": "obwohl ich bei viel Sonne … oft lieber zu Hause bleibe",
+     "why": "First they say the weather never mattered. Then one guest adds with obwohl that in strong sun and heat they often prefer to stay home.",
+     "trap": "flip",
+     "w": [
+      [
+       "obwohl",
+       "although"
+      ],
+      [
+       "hohe Temperaturen",
+       "high temperatures, heat"
+      ]
+     ]
+    },
+    {
+     "s": "Die beiden haben zuerst einen Kurs gemacht und sind dann spazieren gegangen.",
+     "a": false,
+     "at": "03:25",
+     "ev": "Bald war uns Spazieren zu wenig … einen Kurs für Nordic Walking",
+     "why": "First they went for walks almost every day. Only when walking was not enough anymore did they take the Nordic walking course, so the statement has the order backwards.",
+     "trap": "when",
+     "w": [
+      [
+       "die Volkshochschule",
+       "adult education center"
+      ],
+      [
+       "zu wenig",
+       "not enough"
+      ]
+     ]
+    },
+    {
+     "s": "Für Nordic Walking sollte man Wanderschuhe mit fester Sohle tragen.",
+     "a": false,
+     "at": "03:52",
+     "ev": "irgendeinen Sportschuh … Keine Wanderschuhe mit fester Sohle.",
+     "why": "Any comfortable sports shoe is fine, but not hiking boots with stiff soles. The statement repeats the boots, and the keine before them is easy to miss.",
+     "trap": "same-word",
+     "w": [
+      [
+       "die Sohle",
+       "sole (of a shoe)"
+      ],
+      [
+       "bequem",
+       "comfortable"
+      ],
+      [
+       "der Wanderschuh",
+       "hiking boot"
+      ]
+     ]
+    },
+    {
+     "s": "Die Gruppe heißt „Hasen“, weil man beim Nordic Walking ziemlich schnell ist.",
+     "a": true,
+     "at": "04:11",
+     "ev": "Schnell wie die Hasen. Deshalb heißt unsere Gruppe die Grauen Hasen",
+     "why": "Nordic walking is „sportlicher und schneller als Spazierengehen. Schnell wie die Hasen.“ That's why they are Hasen. The reason for grau comes in the second half.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "der Hase, -n",
+       "hare"
+      ],
+      [
+       "der Stock, ¨-e",
+       "pole, stick"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "part": 2,
+   "title": "Die Laufgruppe (2. Hälfte)",
+   "from": "04:34",
+   "to": "06:34",
+   "intro": "Sie hören den zweiten Teil des Gesprächs: Es geht um die Gruppe heute. Hören Sie von etwa 4:34 bis 6:34.",
+   "items": [
+    {
+     "s": "In der Gruppe laufen heute nur ältere Menschen mit.",
+     "a": false,
+     "at": "04:36",
+     "ev": "am Anfang eigentlich nur ältere Leute … jetzt zum größten Teil",
+     "why": "Only at the start were all members older. Today it is mostly older people, and you don't have to be old to join, so nur is too strong.",
+     "trap": "overstate",
+     "w": [
+      [
+       "zum größten Teil",
+       "for the most part"
+      ],
+      [
+       "mitmachen",
+       "to take part, to join in"
+      ]
+     ]
+    },
+    {
+     "s": "Von den 15 Mitgliedern sind neun fast immer dabei.",
+     "a": true,
+     "at": "04:51",
+     "ev": "15. Neun kommen fast zu jedem Termin, andere nur ab und zu.",
+     "why": "The group has 15 members, and nine of them come to almost every meeting. The others come only now and then.",
+     "trap": "number",
+     "w": [
+      [
+       "der Termin",
+       "scheduled meeting, appointment"
+      ],
+      [
+       "ab und zu",
+       "now and then"
+      ]
+     ]
+    },
+    {
+     "s": "Die Gruppe läuft dreimal pro Woche am Vormittag.",
+     "a": false,
+     "at": "05:05",
+     "ev": "zweimal am Vormittag, montags und mittwochs und einmal freitagnachmittags",
+     "why": "They meet three times a week, but only twice in the morning, on Monday and Wednesday. The Friday meeting is in the afternoon.",
+     "trap": "number",
+     "w": [
+      [
+       "vormittags",
+       "in the morning"
+      ],
+      [
+       "die Berufstätigen",
+       "people who have a job"
+      ]
+     ]
+    },
+    {
+     "s": "Ein Lauf der Gruppe dauert meistens etwas weniger als eine Stunde.",
+     "a": true,
+     "at": "05:15",
+     "ev": "meistens laufen wir im Stadtwald, so eine knappe Stunde",
+     "why": "„so eine knappe Stunde“: knapp means a little less than. So a walk takes a bit under an hour.",
+     "trap": "paraphrase",
+     "w": [
+      [
+       "knapp",
+       "just under, barely"
+      ],
+      [
+       "die Halle",
+       "indoor hall, gym"
+      ]
+     ]
+    },
+    {
+     "s": "Wer neu mitlaufen möchte, soll vorher bei der Gruppe anrufen.",
+     "a": false,
+     "at": "06:20",
+     "ev": "Wer mitlaufen möchte, kann einfach zum Treffpunkt kommen.",
+     "why": "The host asks for a phone number, but the guests don't give one: newcomers can simply come to the meeting point. The phone is in the question, not in the answer.",
+     "trap": "same-word",
+     "w": [
+      [
+       "der Treffpunkt",
+       "meeting point"
+      ],
+      [
+       "der Haupteingang",
+       "main entrance"
+      ]
+     ]
+    },
+    {
+     "s": "Im Sommer trifft sich die Gruppe um halb neun am Stadtwald.",
+     "a": true,
+     "at": "06:24",
+     "ev": "Im Sommer treffen wir uns um 8.30 Uhr am Haupteingang",
+     "why": "„um 8.30 Uhr“ is halb neun: halb means half an hour before the next hour, so 8:30, not 9:30.",
+     "trap": "number",
+     "w": [
+      [
+       "der Treffpunkt",
+       "meeting point"
+      ],
+      [
+       "der Haupteingang",
+       "main entrance"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
