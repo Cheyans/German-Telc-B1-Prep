@@ -68,20 +68,48 @@ async page => {
   const m = await page.$eval(".sharerow .shmsg", s => s.textContent);
   ok("without a share sheet, the link is copied and shown to copy by hand", !box.hidden && box.value.startsWith(base + "#/sync/") && /Link kopiert|Kopiere den Link/.test(m), m);
 
-  const big = { v: 2, welcomed: true, read: {}, srs: {}, look: {}, plan: { size: 0, log: {} }, hres: {}, mails: {} };
-  const ids = await page.evaluate(() => Object.keys(JSON.parse(document.getElementById("data").textContent).words).slice(0, 900));
-  ids.forEach((id, i) => { big.srs[id] = [1 + (i % 6), 20000 + i, 19000 + i]; });
-  for (let d = 0; d < 120; d++) big.plan.log["2026-" + String(1 + Math.floor(d / 28)).padStart(2, "0") + "-" + String(1 + (d % 28)).padStart(2, "0")] = { wd: { r: 20, n: 5 }, h: "U1", l: "05A", s: "M01", size: 0 };
-  for (let i = 1; i <= 40; i++) big.mails["M" + String(i).padStart(2, "0")] = { t: "Liebe Lena, vielen Dank für deine Einladung. ".repeat(14), done: true, d: today };
-  await set(big);
-  await page.reload();
-  await stubShare();
-  await page.click(".sharerow button.share");
-  await page.waitForFunction(() => window.__shared, null, { timeout: 8000 }).catch(() => {});
-  const bigUrl = (await page.evaluate(() => window.__shared && window.__shared.url)) || "";
-  await openFresh(bigUrl.replace(base, FILE));
+  const D = await page.evaluate(() => { const d = JSON.parse(document.getElementById("data").textContent); return { words: Object.keys(d.words), stories: d.stories.map(x => x.n), built: d.hoeren.map(h => [h.id, h.items.length]), linked: (d.hlinked || []).map(x => [x.id, x.n || null]), mail: d.mail.map(m => [m.id, m.kind, m.mail]) }; });
+  const prose = D.mail.map(m => m[2]).join(" ");
+  const text = (n, off) => { let t = "", i = off % prose.length; while (t.length < n) { t += prose.slice(i, i + n - t.length); i = 0; } return t; };
+  const make = (words, days, mails, linked) => {
+    const S = { v: 2, welcomed: true, read: {}, pread: {}, quiz: {}, pq: {}, ver: {}, srs: {}, look: {}, plan: { size: 1, log: {} }, hres: {}, mails: {} };
+    D.stories.forEach(n => { S.read[n] = true; S.pread[n] = true; S.quiz[n] = { r: [1, 1, 0, 1, 1] }; S.pq[n] = { A: [1, 0, 1, 1, 1], B: [1, 1, 1, 0, 1] }; S.ver[n] = "p"; });
+    D.words.slice(0, words).forEach((k, i) => { S.srs[k] = [1 + (i % 6), 20800 + ((i * 7) % 61), 20400 + Math.floor(i / 5)]; });
+    for (let x = 0; x < days; x++) S.plan.log[new Date(Date.UTC(2026, 10, 12 + Math.floor(x * 7 / 5))).toISOString().slice(0, 10)] = { wd: { r: 10 + (x % 20), n: 5 }, wn: 5, h: "U" + (1 + x % 7), l: D.stories[x % 28] + (x % 2 ? "B" : "A"), s: D.mail[x % 52][0], size: x % 4 };
+    D.built.forEach(([id, n]) => { S.hres[id] = { r: Array.from({ length: n }, (_, j) => (j % 3 ? 1 : 0)), d: "2026-12-01" }; });
+    D.linked.slice(0, linked).forEach(([id, n], i) => { S.hres[id] = { s: n ? n - (i % 3) : null, n: n, d: "2027-01-15", x: 1 }; });
+    D.mail.slice(0, mails).forEach(([id, kind], i) => { S.mails[id] = { t: text(kind === "full" ? 820 : 360, i * 977), done: true, d: "2027-02-01" }; });
+    return S;
+  };
+  for (const [lab, B] of [["5 months (600 words, 107 days, 45 emails)", make(600, 107, 45, 60)], ["the maximum (all " + D.words.length + " words, 200 days, all 52 emails, all listening)", make(D.words.length, 200, 52, 114)]]) {
+    await set(B);
+    await page.goto("about:blank");
+    await page.goto(FILE + "#/heute");
+    await stubShare();
+    await page.click(".sharerow button.share");
+    await page.waitForFunction(() => window.__shared, null, { timeout: 15000 }).catch(() => {});
+    const u = (await page.evaluate(() => window.__shared && window.__shared.url)) || "";
+    await openFresh(u.replace(base, FILE));
+    S = await st();
+    const full = Object.keys(S.srs || {}).length === Object.keys(B.srs).length && Object.keys(S.plan.log).length === Object.keys(B.plan.log).length && Object.keys(S.hres).length === Object.keys(B.hres).length && Object.keys(S.mails).length === Object.keys(B.mails).length && Object.values(S.mails).every(m => m.t);
+    ok("with " + lab + ", the link stays under 30,000 characters and everything arrives, email texts too", u.length > 0 && u.length <= 30000 && full, u.length + " characters");
+    if (lab.startsWith("the maximum")) {
+      await openFresh(u.slice(0, Math.floor(u.length / 2)).replace(base, FILE));
+      S = await st();
+      ok("a link cut in half by a chat app says so and imports nothing", /ließ sich nicht lesen/.test(await page.$eval("#syncNote", d => d.textContent).catch(() => "")) && !Object.keys(S.srs || {}).length);
+    }
+  }
+
+  const oldLink = await page.evaluate(async ([base]) => {
+    const st = { v: 2, welcomed: true, read: { "09": true }, srs: { W0102: [4, 20500, 20400] }, plan: { size: 0, log: {} }, hres: {}, mails: {} };
+    const data = new TextEncoder().encode(JSON.stringify({ app: "b1VocabStories", v: 2, saved: new Date().toISOString(), built: "2026-11-11", go: "#/story/09/p", state: st }));
+    const buf = new Uint8Array(await new Response(new Blob([data]).stream().pipeThrough(new CompressionStream("deflate-raw"))).arrayBuffer());
+    let bin = ""; buf.forEach(b => { bin += String.fromCharCode(b); });
+    return base + "#/sync/z." + btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  }, [FILE]);
+  await openFresh(oldLink);
   S = await st();
-  ok("a lot of progress (900 words, 120 days, 40 emails) still fits in one link and arrives", bigUrl.length > 0 && bigUrl.length < 60000 && Object.keys(S.srs || {}).length === 900, bigUrl.length + " characters");
+  ok("links made by the first version still open", S.read["09"] === true && JSON.stringify(S.srs.W0102) === "[4,20500,20400]" && (await page.evaluate(() => location.hash)) === "#/story/09/p");
 
   await openFresh(FILE + "#/sync/z.not-a-real-link");
   ok("a broken link says so and opens Heute", /ließ sich nicht lesen/.test(await page.$eval("#syncNote", d => d.textContent).catch(() => "")) && (await page.evaluate(() => location.hash)) === "#/heute");

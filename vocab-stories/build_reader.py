@@ -569,7 +569,7 @@ article .flash { background:var(--flash); }
     r.readAsText(file);
   }
 
-  var SITE = DATA.site || "", lastAt = "#/heute", AT_RE = /^#\/(heute|story|lesen|hoeren|schreiben|woerter|satzbau)(\/|$)/, LINK_MAX = 60000;
+  var SITE = DATA.site || "", lastAt = "#/heute", AT_RE = /^#\/(heute|story|lesen|hoeren|schreiben|woerter|satzbau)(\/|$)/, LINK_MAX = 30000;
   function b64u(bytes) {
     var s = "";
     for (var i = 0; i < bytes.length; i += 0x8000) s += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
@@ -594,9 +594,18 @@ article .flash { background:var(--flash); }
     if (kind !== "z." || !window.DecompressionStream) return Promise.reject(new Error("unsupported link"));
     return new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("deflate-raw"))).text();
   }
+  function packSrs(srs) {
+    var ks = Object.keys(srs).sort();
+    return { k: ks, b: ks.map(function (k) { return srs[k][0]; }).join(""), d: ks.map(function (k) { return srs[k][1]; }), a: ks.map(function (k) { return srs[k][2] == null ? null : srs[k][2]; }) };
+  }
+  function unpackSrs(c) {
+    var out = {};
+    (c.k || []).forEach(function (k, i) { out[k] = [+c.b.charAt(i), c.d[i], c.a[i]]; });
+    return out;
+  }
   function shareBase() { return /^https?:$/.test(location.protocol) ? location.origin + location.pathname : SITE; }
   function makeShareLink(go) {
-    var full = { app: "b1VocabStories", v: 2, saved: new Date().toISOString(), built: DATA.built, go: go, state: state };
+    var full = { app: "b1VocabStories", v: 2, f: 2, saved: new Date().toISOString(), built: DATA.built, go: go, state: Object.assign({}, state, { srs: packSrs(state.srs || {}) }) };
     return packText(JSON.stringify(full)).then(function (code) {
       if (code.length <= LINK_MAX) return code;
       var slim = JSON.parse(JSON.stringify(full));
@@ -636,6 +645,7 @@ article .flash { background:var(--flash); }
     Promise.resolve().then(function () { return unpackText(code); }).then(function (text) {
       var d = JSON.parse(text);
       if (!d || d.app !== "b1VocabStories" || typeof d.state !== "object") throw new Error("not a progress link");
+      if (d.f === 2 && d.state.srs && Array.isArray(d.state.srs.k)) d.state.srs = unpackSrs(d.state.srs);
       mergeState(d.state); save();
       try { history.replaceState({ y: 0 }, "", AT_RE.test(d.go || "") ? d.go : "#/heute"); } catch (e) {}
       renderRoute();
